@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Holiday Hacker</string>
+    <string name="title_activity_main">Holiday Hacker</string>
+    <string name="package_name">in.holidayhacker.app</string>
+    <string name="custom_url_scheme">in.holidayhacker.app</string>
+
+    <string name="alarm_channel_name">Trip Alarms</string>
+    <string name="alarm_channel_description">Loud alarms for trip leave applications and travel booking reminders</string>
+    <string name="alarm_service_channel_name">Alarm Ringing</string>
+    <string name="alarm_service_channel_description">Shown while a trip alarm is currently ringing</string>
+    <string name="alarm_dismiss">Dismiss</string>
+    <string name="alarm_snooze">Snooze 10 min</string>
+    <string name="alarm_now_ringing">Holiday Hacker alarm</string>
+    <string name="alarm_hero_content_description">Destination photo</string>
+    <string name="alarm_today_label">Today</string>
+    <string name="alarm_tomorrow_label">Tomorrow</string>
+</resources>

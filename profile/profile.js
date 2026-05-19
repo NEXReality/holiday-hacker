@@ -6,7 +6,22 @@
   var TRAVEL_PREFS_KEY = 'holidayHacker_travelPreferences';
   var CONFIRMED_TRIPS_KEY = 'holidayHacker_confirmedTrips';
   var VISITED_PLACES_KEY = 'holidayHacker_visitedPlaces';
+  var CUSTOM_DAYS_KEY = 'holidayHacker_custom';
   var CITY_JSON = '../database/state-city/data.json';
+
+  /** Removes every localStorage key used by Holiday Hacker (prefix holidayHacker_). */
+  function clearAllHolidayHackerLocalData() {
+    var toRemove = [];
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (k && k.indexOf('holidayHacker_') === 0) toRemove.push(k);
+      }
+    } catch (e) { /* ignore */ }
+    toRemove.forEach(function (key) {
+      try { localStorage.removeItem(key); } catch (e2) { /* ignore */ }
+    });
+  }
 
   var raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) {
@@ -31,12 +46,24 @@
   var workPickConfirmed = '';
   var homePickConfirmed = '';
 
+  function getCustomLeaveDaysUsed() {
+    try {
+      var list = JSON.parse(localStorage.getItem(CUSTOM_DAYS_KEY) || '[]');
+      return list.reduce(function (s, c) {
+        return s + (c && c.kind === 'leave' ? 1 : 0);
+      }, 0);
+    } catch (e) {
+      return 0;
+    }
+  }
+
   function getLeavesUsedFromTrips() {
     try {
       var trips = JSON.parse(localStorage.getItem(CONFIRMED_TRIPS_KEY) || '[]');
-      return trips.reduce(function (s, t) {
+      var tripUsed = trips.reduce(function (s, t) {
         return s + (parseInt(t.leaves, 10) || 0);
       }, 0);
+      return tripUsed + getCustomLeaveDaysUsed();
     } catch (e) {
       return 0;
     }
@@ -64,47 +91,73 @@
   migrateAnnualLeavesIfNeeded();
 
   function normalizeText(str) {
-    return (str || '').toLowerCase().replace(/[\s\-_.]/g, '');
+    return (str || '').toLowerCase().replace(/[\s\-_.,']/g, '');
   }
 
   function aliasToCanonical(str) {
     var key = normalizeText(str);
-    return CITY_ALIAS_MAP[key] || key;
+    var v = CITY_ALIAS_MAP[key];
+    if (v) return normalizeText(v);
+    return key;
   }
 
-  function aliasesForCanonical(canonical) {
+  function aliasesForSlugNorm(slugNorm) {
+    var target = slugNorm || '';
+    if (!target) return [];
     var out = [];
     Object.keys(CITY_ALIAS_MAP).forEach(function (k) {
-      if (CITY_ALIAS_MAP[k] === canonical) out.push(k);
+      if (normalizeText(CITY_ALIAS_MAP[k]) === target) out.push(normalizeText(k));
     });
     return out;
   }
 
   function cityDataMatches(item, query) {
-    var qRaw = normalizeText(query);
-    var qCanon = aliasToCanonical(query);
-    var tokens = [];
-    var labelRaw = normalizeText(item.label || '');
-    var cityRaw = normalizeText(item.city || '');
-    var stateRaw = normalizeText(item.state || '');
-    var labelCanon = aliasToCanonical(item.label || '');
-    var cityCanon = aliasToCanonical(item.city || '');
-    var stateCanon = aliasToCanonical(item.state || '');
-    tokens.push(labelRaw, cityRaw, stateRaw, labelCanon, cityCanon, stateCanon);
-    aliasesForCanonical(cityCanon).forEach(function (a) { tokens.push(a); });
-    aliasesForCanonical(stateCanon).forEach(function (a) { tokens.push(a); });
+    var qN = normalizeText(query);
+    if (!qN) return true;
+    var qSlug = aliasToCanonical(query);
+    var slugN = item.slugNorm || '';
+    var cityN = normalizeText(item.city || '');
+    var stateN = normalizeText(item.state || '');
+    var labelN = normalizeText(item.label || '');
+    if (slugN && qSlug === slugN) return true;
+    var tokens = [labelN, cityN, stateN, slugN];
+    aliasesForSlugNorm(slugN).forEach(function (a) { tokens.push(a); });
     return tokens.some(function (t) {
-      return t.indexOf(qRaw) !== -1 || t.indexOf(qCanon) !== -1;
+      return t && t.indexOf(qN) !== -1;
     });
   }
 
+  function rankLocItem(item, query) {
+    var qN = normalizeText(query);
+    if (!qN) return 0;
+    var score = 0;
+    var cityN = normalizeText(item.city || '');
+    var slugN = item.slugNorm || '';
+    var qSlug = aliasToCanonical(query);
+    if (slugN && qSlug === slugN) score += 500;
+    if (cityN.indexOf(qN) === 0) score += 200;
+    else if (cityN.indexOf(qN) !== -1) score += 100;
+    var aliasList = aliasesForSlugNorm(slugN);
+    for (var i = 0; i < aliasList.length; i++) {
+      var ak = aliasList[i];
+      if (ak.indexOf(qN) === 0) score += 190;
+      else if (ak.indexOf(qN) !== -1) score += 95;
+    }
+    if (normalizeText(item.label || '').indexOf(qN) === 0) score += 60;
+    if (item.major) score += 45;
+    score -= Math.min(35, (item.city || '').length);
+    return score;
+  }
+
   function resolveLocationInput(input) {
-    var q = aliasToCanonical(input);
+    var qN = normalizeText(input);
+    var qSlug = aliasToCanonical(input);
     var exact = cityData.find(function (item) {
-      var cityKey = aliasToCanonical(item.city || '');
-      var stateKey = aliasToCanonical(item.state || '');
-      var labelKey = aliasToCanonical(item.label || '');
-      return cityKey === q || stateKey === q || labelKey === q;
+      if (item.slugNorm && item.slugNorm === qSlug) return true;
+      var l = normalizeText(item.label || '');
+      var c = normalizeText(item.city || '');
+      var s = normalizeText(item.state || '');
+      return l === qN || c === qN || s === qN;
     });
     return exact ? exact.label : '';
   }
@@ -486,8 +539,13 @@
       listEl.hidden = true;
       return;
     }
+    filtered.sort(function (a, b) {
+      var diff = rankLocItem(b, q) - rankLocItem(a, q);
+      if (diff !== 0) return diff;
+      return (a.label || '').localeCompare(b.label || '');
+    });
     listEl.innerHTML = '';
-    filtered.slice(0, 8).forEach(function (item) {
+    filtered.slice(0, 12).forEach(function (item) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'chat-dropdown-item';
@@ -711,29 +769,151 @@
     loadFamilySize();
   });
 
-  var btnClearRec = document.getElementById('profileClearRecommendation');
-  var btnClearPersonal = document.getElementById('profileClearPersonal');
-  if (btnClearRec) btnClearRec.addEventListener('click', function () {
-    if (!confirm('Clear travel modes, destination preferences, and recommendation data? Plan page will use defaults until you set them again.')) return;
-    localStorage.removeItem(TRAVEL_PREFS_KEY);
-    localStorage.removeItem('holidayHacker_planPrefsDone');
-    localStorage.removeItem('holidayHacker_planSelectedDestination');
-    loadTravelPrefs();
-    loadFamilySize();
-  });
-  if (btnClearPersonal) btnClearPersonal.addEventListener('click', function () {
-    if (!confirm('Clear all personal and calendar data (name, age, location, leaves, etc.)? You will need to complete onboarding again from the beginning.')) return;
-    localStorage.removeItem(STORAGE_KEY);
-    localStorage.removeItem(CAL_DONE_KEY);
-    localStorage.removeItem('holidayHacker_advisorData');
-    localStorage.removeItem('holidayHacker_selectedBridges');
-    localStorage.removeItem('holidayHacker_plannedTrips');
-    localStorage.removeItem('holidayHacker_advisorSeen');
+  /* ───────── Clear all data ─────────
+   * Two-step confirmation: the danger button only opens a modal; the actual
+   * wipe runs only after the user types the word "CLEAR" exactly and taps
+   * the destructive button. Cancel button, backdrop tap, and Escape key
+   * all dismiss without doing anything. */
+  var btnClearAll      = document.getElementById('profileClearAllData');
+  var clearModal       = document.getElementById('profileClearModal');
+  var clearModalInput  = document.getElementById('profileClearConfirmInput');
+  var clearModalBtn    = document.getElementById('profileClearConfirmBtn');
+  var REQUIRED_PHRASE  = 'CLEAR';
+
+  function setClearConfirmEnabled(enabled) {
+    if (!clearModalBtn) return;
+    if (enabled) {
+      clearModalBtn.removeAttribute('disabled');
+    } else {
+      clearModalBtn.setAttribute('disabled', '');
+    }
+  }
+
+  function openClearModal() {
+    if (!clearModal) return;
+    if (clearModalInput) clearModalInput.value = '';
+    setClearConfirmEnabled(false);
+    clearModal.removeAttribute('hidden');
+    /* Lock background scroll while the modal is up. */
+    document.body.style.overflow = 'hidden';
+    if (clearModalInput) {
+      setTimeout(function () { try { clearModalInput.focus(); } catch (_) {} }, 50);
+    }
+  }
+
+  function closeClearModal() {
+    if (!clearModal) return;
+    clearModal.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (clearModalInput) clearModalInput.value = '';
+    setClearConfirmEnabled(false);
+  }
+
+  function performWipeAndReset() {
+    /* Prefer the boot-version wipe path so native alarms are cancelled too
+       (it calls HolidayAlarm.cancelAll on top of clearing localStorage).
+       Falls back to the local wipe if boot-version.js isn't loaded yet. */
+    if (window.HolidayHackerBoot && typeof window.HolidayHackerBoot.wipeAllAppData === 'function') {
+      window.HolidayHackerBoot.wipeAllAppData();
+    } else {
+      clearAllHolidayHackerLocalData();
+    }
     window.location.href = '../index.html';
-  });
+  }
+
+  if (btnClearAll) {
+    btnClearAll.addEventListener('click', function () { openClearModal(); });
+  }
+
+  if (clearModalInput) {
+    clearModalInput.addEventListener('input', function () {
+      var typed = (clearModalInput.value || '').trim().toUpperCase();
+      setClearConfirmEnabled(typed === REQUIRED_PHRASE);
+    });
+    clearModalInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        var typed = (clearModalInput.value || '').trim().toUpperCase();
+        if (typed === REQUIRED_PHRASE) {
+          e.preventDefault();
+          performWipeAndReset();
+        }
+      }
+    });
+  }
+
+  if (clearModalBtn) {
+    clearModalBtn.addEventListener('click', function () {
+      if (clearModalBtn.hasAttribute('disabled')) return;
+      performWipeAndReset();
+    });
+  }
+
+  if (clearModal) {
+    clearModal.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute('data-clear-cancel') === '1') {
+        closeClearModal();
+      }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (clearModal.hasAttribute('hidden')) return;
+      if (e.key === 'Escape') closeClearModal();
+    });
+  }
+
+  /* ───────── Disclaimer & Contact card ─────────
+   * Summary paragraph + Contact button are always visible. The detailed
+   * disclaimer (Information accuracy, Reminders & alarms, Liability, etc.)
+   * collapses behind a "Read full disclaimer" button so the profile screen
+   * stays scannable. */
+  var aboutFull     = document.getElementById('profileAboutFull');
+  var readMoreBtn   = document.getElementById('profileAboutReadMore');
+  var readMoreLabel = document.getElementById('profileAboutReadMoreLabel');
+  var readMoreChev  = document.getElementById('profileAboutReadMoreChevron');
+  function setFullDisclaimerExpanded(expanded) {
+    if (!aboutFull || !readMoreBtn) return;
+    if (expanded) {
+      aboutFull.removeAttribute('hidden');
+      readMoreBtn.setAttribute('aria-expanded', 'true');
+      if (readMoreLabel) readMoreLabel.textContent = 'Hide full disclaimer';
+      if (readMoreChev)  readMoreChev.textContent = 'expand_less';
+    } else {
+      aboutFull.setAttribute('hidden', '');
+      readMoreBtn.setAttribute('aria-expanded', 'false');
+      if (readMoreLabel) readMoreLabel.textContent = 'Read full disclaimer';
+      if (readMoreChev)  readMoreChev.textContent = 'expand_more';
+    }
+  }
+  if (readMoreBtn) {
+    readMoreBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var expanded = readMoreBtn.getAttribute('aria-expanded') === 'true';
+      setFullDisclaimerExpanded(!expanded);
+    });
+  }
+
+  /* Contact email. In a Capacitor WebView a bare <a href="mailto:…"> can
+     silently fail on Android because the WebView tries to navigate to the
+     mailto URL itself. Opening via window.open(..., '_system') routes the
+     intent through the OS so the user's default email app is launched. */
+  var contactBtn = document.getElementById('profileContactEmailBtn');
+  if (contactBtn) {
+    contactBtn.addEventListener('click', function (e) {
+      var href = contactBtn.getAttribute('href') || 'mailto:info@nexreality.io';
+      e.preventDefault();
+      try {
+        var win = window.open(href, '_system');
+        if (!win) window.location.href = href;
+      } catch (_) {
+        window.location.href = href;
+      }
+    });
+  }
 
   var FAVORITES_KEY = 'holidayHacker_favorites';
   var HOMETOWN_IMAGE_URL = 'https://img.freepik.com/free-vector/suburban-house-illustration_33099-2357.jpg';
+  var DEST_PLACEHOLDER_IMAGE_URL = 'https://img.magnific.com/premium-vector/summer-time-car-beach-with-few-suitcase-vacation-travel-huge-pile-things-holiday-flat-cartoon-style-illustration-landscape-concept-isolated_185796-16.jpg';
   var FAVORITES_PREVIEW_COUNT = 3;
   var favoritesExpanded = false;
 
@@ -755,8 +935,9 @@
       var d = f.destination || {};
       var imgUrl = (d.imageUrl || '').trim();
       if (!imgUrl && (d.slug === '__hometown__' || d.isHometown)) imgUrl = HOMETOWN_IMAGE_URL;
+      if (!imgUrl) imgUrl = DEST_PLACEHOLDER_IMAGE_URL;
       imgUrl = imgUrl.replace(/'/g, "\\'");
-      var imgStyle = imgUrl ? 'background-image: url(\'' + imgUrl + '\')' : 'background-color: var(--gray-300)';
+      var imgStyle = 'background-image: url(\'' + imgUrl + '\')';
       var destName = (d.name || 'Unknown').replace(/</g, '&lt;');
       var stateName = (d.state || '').replace(/_/g, ' ').replace(/</g, '&lt;');
       html += '<div class="profile-fav-card" data-idx="' + idx + '">' +
@@ -911,10 +1092,19 @@
       .then(function (data) {
         CITY_ALIAS_MAP = data.aliases || {};
         (data.states || []).forEach(function (state) {
-          cityData.push({ city: state.name, state: '', label: state.name });
+          cityData.push({ city: state.name, state: '', label: state.name, slugNorm: '', major: false });
           (state.cities || []).forEach(function (city) {
             var cityName = typeof city === 'string' ? city : (city && city.name) || '';
-            cityData.push({ city: cityName, state: state.name, label: cityName + ', ' + state.name });
+            var slug = (city && typeof city === 'object' && city.slug) ? city.slug : '';
+            var slugNorm = slug ? normalizeText(slug) : '';
+            var major = !!(city && typeof city === 'object' && city.is_major_city);
+            cityData.push({
+              city: cityName,
+              state: state.name,
+              label: cityName + ', ' + state.name,
+              slugNorm: slugNorm,
+              major: major
+            });
           });
         });
         cityDataReady = true;

@@ -2,6 +2,10 @@
   "stateCode": "IN-KA",
   "stateName": "Karnataka",
   "year": 2026,
+  "indiaRegion": "South",
+  "adminType": "state",
+  "incredibleIndiaSlug": "karnataka",
+  "holidayJsonSlug": "in-ka",
   "holidays": [
     { "date": "2026-01-01", "name": "New Year", "type": "restricted" },
     { "date": "2026-01-15", "name": "Makara Sankranti (Uttarayana Punyakala)", "type": "gazetted" },

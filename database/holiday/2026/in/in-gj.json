@@ -1,0 +1,44 @@
+{
+  "stateCode": "IN-GJ",
+  "stateName": "Gujarat",
+  "year": 2026,
+  "indiaRegion": "West",
+  "adminType": "state",
+  "incredibleIndiaSlug": "gujarat",
+  "holidayJsonSlug": "in-gj",
+  "holidays": [
+    { "date": "2026-01-14", "name": "Makar Sankranti", "type": "gazetted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-03-04", "name": "Holi 2nd Day (Dhuleti)", "type": "gazetted" },
+    { "date": "2026-03-19", "name": "Chetichand", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Ramzan-Eid (Eid-Ul-Fitr \u2013 1st Shawwal)", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Shree Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Janma Kalyanak", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Dr. Babasaheb Ambedkar's Birthday", "type": "gazetted" },
+
+    { "date": "2026-05-27", "name": "Eid-Ul-Adha (Bakri Eid)", "type": "gazetted" },
+
+    { "date": "2026-06-26", "name": "Muharram (Ashura)", "type": "gazetted" },
+
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-15", "name": "Parsi New Year Day (Pateti)", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Eid-E-Miladunnabi (Prophet Mohammad's Birthday)", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "gazetted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami (Shravan Vad-8)", "type": "gazetted" },
+    { "date": "2026-09-15", "name": "Samvatsari (Chaturthi Paksha)", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi's Birthday", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Dussehra (Vijaya Dashami)", "type": "gazetted" },
+    { "date": "2026-10-31", "name": "Sardar Vallabhbhai Patel's Birthday", "type": "gazetted" },
+
+    { "date": "2026-11-10", "name": "Vikram Samvat New Year Day", "type": "gazetted" },
+    { "date": "2026-11-11", "name": "Bhai Bij", "type": "gazetted" },
+    { "date": "2026-11-24", "name": "Guru Nanak's Birthday", "type": "gazetted" },
+
+    { "date": "2026-12-25", "name": "Christmas", "type": "gazetted" }
+  ]
+}

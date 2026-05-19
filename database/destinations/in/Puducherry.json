@@ -1,7 +1,7 @@
 {
   "state": "Puducherry",
   "state_code": "PU",
-  "generated_at": "2026-03-05T12:59:45.760Z",
+  "generated_at": "2026-05-18T11:19:40.977Z",
   "count": 2,
   "destinations": [
     {
@@ -15,11 +15,18 @@
         "source": "wikidata"
       },
       "description": "**Pondicherry** (Tamil: புதுச்சேரி _Putucceri_, French: _Pondichéry_), also known as **Puducherry** or **Pondy**, is a city and an enclave within Tamil Nadu , India . There is a strong French influence on the architecture of the city, especially in the old quarters, with rues and boulevards lined with Mediterranean-style houses and bakeries, although the city remains very much Indian. French is still understood, and the whole city makes for a pleasant mix of the East and the West.",
-      "category": "city",
+      "category": "City / Urban",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Pondicherry",
@@ -27,19 +34,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q639421"
       },
       "distance_km": 269,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-03-05T12:59:44.496Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Pondishéri",
@@ -68,31 +83,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": "MAA",
-          "distance_km": 135
+          "name": "Puducherry Airport",
+          "code": "PNY",
+          "distance_km": 10,
+          "note": "Limited domestic network—Chennai MAA ~135 km for wide international connections"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Puducherry railway station",
+          "distance_km": 2,
+          "note": "SR Villupuram branch—frequent Chennai Egmore links"
         },
         "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai",
-          "Delhi",
           "Chennai",
-          "Hyderabad"
+          "Bengaluru",
+          "Delhi",
+          "Mumbai",
+          "Hyderabad",
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai",
-          "Delhi",
           "Chennai",
-          "Hyderabad"
+          "Delhi",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -102,7 +156,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -420,7 +478,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:04.214Z",
+        "wikipedia_summary": "Pondicherry, officially known as Puducherry, is the capital and most populous city of the Union Territory of Puducherry in India. The city is in the Puducherry district on the southeast coast of India and is surrounded by the Bay of Bengal to the east and the state of Tamil Nadu, with which it shares most of its culture, heritage, and language.",
+        "wikipedia_description": "Capital city of the Indian Union Territory of Pondicherry",
+        "wikipedia_fetched_at": "2026-05-18T09:57:04.504Z"
+      },
+      "credibility_recognitions": [
+        "asi_monument"
+      ],
+      "search_context": "City / Urban destination Pondicherry Pondishéri Pondichery Putucceri Pondycherry Putuccēri Poudouchéry Pondichéry Puduchchery Pondychéry Puducheri Pondychery Puduchery Puducherry Sightseeing Pondicherry, officially known as Puducherry, is the capital and most populous city of the Union Territory of Puducherry in India. The city is in the Puducherry district on the southeast coast of India and is surrounded by the Bay of Bengal to the east and the state of Tamil Nadu, with which it shares most of its culture, heritage, and language.",
+      "travel_facts": {
+        "summary": "**Pondicherry** hinges **PNY (~10 km) ECR apron** with **MAA (~135 km) trunk relays** beneath **Puducherry rail (~2 km)** knowing White Town merges absorb Promenade dusk tides.",
+        "keywords": [
+          "pny french-quarter stacks",
+          "maa ecr merges",
+          "villupuram rail apron",
+          "promenade beach tides"
+        ]
+      }
     },
     {
       "slug": "puducherry-auroville",
@@ -433,11 +513,18 @@
         "source": "wikidata"
       },
       "description": "** Auroville ** is a small town 6 km north of Pondicherry . This town was a vision of **The Mother** from _Sri Aurobindo Ashram_ at Pondicherry as it's an international town. She envisioned a town where unity will be celebrated and all will have a spiritual vocation. In July 2010, 2200 people from 43 different countries were living in the city. About 40% were Indians (more than 15% are French and 15% are German).\r\n\n_Auroville Handbook_ is the official guide to Auroville that can be bought in the Visitors' Centre and the bookshops around or Auroville's website. A",
-      "category": "city",
+      "category": "Spiritual / Experimental township",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Auroville",
@@ -445,19 +532,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q590361"
       },
       "distance_km": 263,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
-      "vibe": "Sightseeing",
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Spiritual retreat",
       "metadata": {
         "extracted_at": "2026-03-05T12:59:44.496Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Aŭrourbo",
@@ -480,23 +575,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Puducherry Airport",
+          "code": "PNY",
+          "distance_km": 11,
+          "note": "Chennai MAA ~142 km common taxi/bus spine via ECR"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Puducherry railway station",
+          "distance_km": 14,
+          "note": "Shuttle bus/auto hops from Pondicherry (~12 km road)—guest-card community buses"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Chennai"
+          "Chennai",
+          "Bengaluru",
+          "Delhi",
+          "Mumbai",
+          "Hyderabad",
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
-          "Chennai"
+          "Chennai",
+          "Delhi",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -506,7 +648,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -527,7 +673,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 85138,
-        "content_richness_score": 0
+        "content_richness_score": 0.608
       },
       "section_briefs": {
         "understand": {
@@ -654,7 +800,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Experimental township"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:05.063Z",
+        "wikipedia_summary": "Auroville is an experimental township in Viluppuram district, mostly in the state of Tamil Nadu, India, with some parts in the Union Territory of Puducherry in India. It was founded in 1968 by Mirra Alfassa and designed by architect Roger Anger.",
+        "wikipedia_description": "Experimental township in Villupuram district and Puducherry, South India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:05.113Z"
+      },
+      "search_context": "Spiritual / Experimental township destination Auroville Aŭrourbo Aŭrovilo city of dawn Işık Şehri Işık Kenti Şafak Şehri Şafak Kenti Spiritual retreat Auroville is an experimental township in Viluppuram district, mostly in the state of Tamil Nadu, India, with some parts in the Union Territory of Puducherry in India. It was founded in 1968 by Mirra Alfassa and designed by architect Roger Anger.",
+      "travel_facts": {
+        "summary": "**Auroville** stacks **PNY (~11 km) Visitors Centre stacks** with **MAA (~142 km) Chennai relays** beneath **Puducherry rail (~14 km)** knowing Matrimandir bookings merge absorb green-belt tides.",
+        "keywords": [
+          "auroville matrimandir stacks",
+          "pny shuttle merges",
+          "ecr junction apron",
+          "sri aurobindo tides"
+        ]
+      }
     }
   ]
 }

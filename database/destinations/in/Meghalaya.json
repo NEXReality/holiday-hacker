@@ -1,0 +1,1011 @@
+{
+  "state": "Meghalaya",
+  "state_code": "ME",
+  "generated_at": "2026-05-18T11:13:46.867Z",
+  "count": 4,
+  "destinations": [
+    {
+      "slug": "meghalaya-cherrapunji",
+      "name": "Cherrapunji",
+      "region": "",
+      "state": "Meghalaya",
+      "coordinates": {
+        "lat": 25.27917,
+        "lon": 91.72417,
+        "source": "wikidata"
+      },
+      "description": "**Cherrapunji** (also spelled as Cherrapunjee and Charrapunji, but almost always called **Sohra** by locals), is a town in East Khasi Hills district in the Indian state of Meghalaya . The town receives 11,777 mm (463.7 in) of rain per year, but that is less than half as much rain as in the days a few decades ago when it was still known as the wettest place on Earth. The winter (non-monsoon) season can be quite dry.",
+      "category": "Mountains / Hills",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Cherrapunji",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cherrapunji",
+        "wikidata": "https://www.wikidata.org/wiki/Q211030"
+      },
+      "distance_km": 2016,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:48:25.283Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Czerrapundżi",
+        "Czerapundżi",
+        "Cherapunji",
+        "Ceropunçi",
+        "Cerrapungi",
+        "Cerrapunji",
+        "Cherrapunjee",
+        "Cherrapungi",
+        "Sohra",
+        "Cherra Punji"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bengladesh_Plains%2C_View_FromThangkharang_Cherrapunjee_105.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cherrapunji.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Shillong Airport (Umroi)",
+          "code": "SHL",
+          "distance_km": 54,
+          "note": "Lokpriya Gopinath Bordoloi International Airport (GAU) ~159 km via Shillong trunk road"
+        },
+        "nearest_railway_station": {
+          "name": "Guwahati Junction railway station",
+          "distance_km": 159,
+          "note": "NH6/NH40 relay via Shillong shared taxis common"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 36620,
+        "content_richness_score": 0.262
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane Shillong , the capital of Meghalaya, is the nearest airport to Cherrapunji, and is accessible from Guwahati .\r\n\n\r\n By car As of March 2023, shared Sumos are available from the upper floor of the 1 **parking structure** at the bottom of the hill in Barabazar in Shillong , for ₹150 per seat. Smaller cars, where you'll be slightly less squished, are ₹200 per seat if shared. In the other direction, shared sumos and taxis to Shillong are available from Sohra Market in Upper Cherrapunji for the same price. There may be some available from Saitsohpen village in Lower Cherrapunji as well, across the street and just uphill from the intersection with all the shops.\r\n\nLocal taxis also travel to Cherrapunji from Shillong, and give you the option of stopping at a few viewpoints and sights on the way from Shillong to Cherrapunji (Elephant Falls, Mawkdok Dympep Valley View and others), as well as visiting spots in Cherrapunji (the Mawsmai Cave, Cherrapunji Eco Park, the Nohsngithiang Falls or Seven Sister Falls).",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Cherrapunji is actually a collection of various villages more than a town, with the hilltop northern areas known as Upper Cherrapunjee (Upper Sohra) and the lower-elevation southern areas known as Lower Cherrapunjee (Lower Sohra). The main commercial center and transport hub is in Khliehshnong village of Upper Sohra, centered around Sohra Market, with a smaller hub in the Lad Thanad neighborhood of Saitsohpen village in Lower Sohra. These two areas are separated by about 4km. Both locations have a Sumo stand and local taxis.\r\n\nMost of the sightseeing locations are around the edges of the plateau, in both Upper and Lower Sohra, farther from town than most people would want to walk, but local taxis will take you there for reasonable prices. You can also find accommodations closer to some of the tourist sites. Mawsmai village in particular has a bit of a \"tourist town\" vibe, with a few restaurants and various accommodations within easy walking distance of the Seven Sisters Falls viewpoint and Mawsmai Cave.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "The Living Root Bridges created by people of Khasi tribe is one of the most amazing examples of bio engineering. Created over years by carefully guiding the roots of Ficus benghalensis these bridges can last up to 500 years. The most famous Living Root Bridges are in the village of Nongriat and Mawlynnong.   \r\n **Mawlynnong Village** - Asia's cleanest village. Must see for the amicable relationship between humans and nature and for the clean environs that's offered.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**River Canyoning** \r\n **Trekking**, Multiple treks exist in and around Cherrapunji. One of the most popular one is to the \"Double Decker Living Root\" bridge in Nongriat village starting from Tyrna. Stairs are constructed from the beginning of the trek to Nongriat village, and the trek takes about 2 hours each way. \r\n **Swimming** - several treks into the surrounding valleys take you to beautiful blue-water swimming holes in the dry season, or you can take a day drive down the mountain to Wahrew Bridge, on a clear-water river near the Bangladesh border.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Avron Restaurant",
+              "description": "Good vegetarian and non-vegetarian food. Diverse range of India, Chinese and international.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Bars are available in some of Cherrapunji's hotels."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Nongriat Guest house",
+              "description": "The guesthouse is very basic but reasonably priced. Recommended for people who can tolerate little discomfort to enjoy pleasures like taking bath in natural swimming pool and spot beautiful butterflies.",
+              "price": "₹400 for two people"
+            },
+            {
+              "name": "By the way",
+              "description": "Great place for backpackers. Both rooms and shared bathroom (hot water) are well maintained and clean. The owner is very knowledgeable local who knows the area well. Do not bother trying to make reservation, just show up and he will find you a spot. As of March 2023 they no longer have hostel dorms, but there are probably a couple of rooms to rent.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountains / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.648Z"
+      },
+      "search_context": "Mountains / Hills destination Cherrapunji Czerrapundżi Czerapundżi Cherapunji Ceropunçi Cerrapungi Cerrapunji Cherrapunjee Cherrapungi Sohra Cherra Punji Sightseeing Cherrapunji (also spelled as Cherrapunjee and Charrapunji, but almost always called Sohra by locals), is a town in East Khasi Hills district in the Indian state of Meghalaya . The town receives 11,777 mm (463.7 in) of rain per year, but that is less than half as much rain as in the days a few decades ago when it was still known as the wettest place on Earth. The winter (non-monsoon) season can be quite dry.",
+      "travel_facts": {
+        "summary": "**Sohra (Cherrapunji)** stacks **SHL Umroi (~54 km)** knowing **Guwahati rail (~159 km) relays** absorb living-root-bridge trek tides along East Khasi escarpment stacks.",
+        "keywords": [
+          "sohra plateau stacks",
+          "shl sumo merges",
+          "nohkalikai apron",
+          "east khasi monsoon tides"
+        ]
+      }
+    },
+    {
+      "slug": "meghalaya-mawlynnong",
+      "name": "Mawlynnong",
+      "region": "",
+      "state": "Meghalaya",
+      "coordinates": {
+        "lat": 25.19972,
+        "lon": 91.93167,
+        "source": "wikidata"
+      },
+      "description": "** Mawlynnong ** is a village in the East Khasi Hills district of Meghalaya state in North-Eastern India .",
+      "category": "Ecotourism / Village",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Mawlynnong",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mawlynnong",
+        "wikidata": "https://www.wikidata.org/wiki/Q6794437"
+      },
+      "distance_km": 2026,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:48:25.283Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mawlynnong%20-%20Cleanest%20village%20of%20Asia%20in%20Meghalaya.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Shillong Airport (Umroi)",
+          "code": "SHL",
+          "distance_km": 78,
+          "note": "Shared Sumo hops via Shillong Bara Bazaar stands"
+        },
+        "nearest_railway_station": {
+          "name": "Guwahati Junction railway station",
+          "distance_km": 192,
+          "note": "Road completion via Shillong (~90 km)"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 12221,
+        "content_richness_score": 0.087
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Located in the state of Meghalaya, Mawlynnong, also referred as ‘God’s own garden’ has won the acclaim of being the cleanest village in Asia in 2003.It was again declared the cleanest village in India in 2005. The village known for its cleanliness is located around 90 km from Shillong and is a community based eco-tourism initiative. The community has made collective effort to maintain the ambience of a clean village.\r\n\nThe adage \"Neighbours envy, owners pride' is apt for Mawlynnong as it has earned the distinction of being one of the cleanest villages in Asia, a fact that every Mawlynnong villager is proud of and other villagers are envy of.\r\n\nThe village is quite pretty, especially in the monsoons when there is lush greenery all around, with waterfalls paving the way to small streams and abundance of flowering orchids dangling from the trees and hedges add to the beauty of the village.\r\n\nThe main occupation of the villagers is agriculture. They mostly grow betel nut. About 82 households live in Mawlynnong. Keeping the surrounding environment clean is an age old tradition. Discover India magazine declared the village as the cleanest in Asia in 2003.\r\n\nThe onus to keep the village clean lies with every person residing in the village. Local cleaning the roads, picking up leaves and throwing garbage in the bin is a very common sight. Bamboo garbage bins adorn every nook and corner of the village highlight the consciousness of cleanliness among the villagers. Cleanliness is an age old tradition and a way of life for all villagers.\r\n\nThe village also offers breathtaking view of Bangladesh plains as it is located on the Indo-Bangla border.\r\nSurprisingly, the village has hundred percent literacy and most of the villagers are conversant with the English language. The village offers a number of small tea shops, where you can relish a hot of cup of tea with some snacks.\r\n\nMawlynnong village has set an example for others that needs to be replicated in other villages.\r\n\nThe world salutes to the 'spirit of cleanliness' exhibited by the villagers through their self sustained efforts.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Mawlynnong, located about 90 km from Shillong and 92 km from Cherrapunjee can be reached by road.\r\n\nThe nearest airport is Shillong. From Shillong airport you can take a taxi till Khasi Hills Sumo stand at Bara Bazaar market. From here shared sumo run till Mawlynnong.\r\n\nMawlynnong can also be visited as part of package tours along with other destinations of the North East. You can visit it as a day's trip from either Shillong or Cherrapunjee or you can opt to stay there.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "It is a small village. Take a walk across the clean streets.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "The village offers picturesque natural beauty, a trek to the living root bridge at a neighbouring village Riwai. The village also offers a sight of natural balancing rock, a strange natural phenomenon of a boulder balancing on another rock.\r\n\nAnother interesting feature not to be missed is the \"Sky Watch\". This 85 feet high bamboo structure created with bamboo and natural ropes offers a lovely view of the Bangladesh plains.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Take a trek to the Living Root bridge at a neighbouring village Riwai. Visit the bamboo bridge.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Ecotourism / Village"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.649Z"
+      },
+      "search_context": "Ecotourism / Village destination Mawlynnong Sightseeing Mawlynnong is a village in the East Khasi Hills district of Meghalaya state in North-Eastern India .",
+      "travel_facts": {
+        "summary": "**Mawlynnong** hinges **SHL (~78 km)** eco-village apron beneath **Guwahati rail (~192 km)** knowing sky-watch bamboo merges absorb Indo-Bangla viewpoint tides.",
+        "keywords": [
+          "clean village stacks",
+          "barabazar sumo merges",
+          "root bridge riwai apron",
+          "east khasi eco tides"
+        ]
+      }
+    },
+    {
+      "slug": "meghalaya-shillong",
+      "name": "Shillong",
+      "region": "",
+      "state": "Meghalaya",
+      "coordinates": {
+        "lat": 25.57444,
+        "lon": 91.87889,
+        "source": "wikidata"
+      },
+      "description": "**Shillong** is the capital and the largest town in the North-Eastern Indian state of Meghalaya .",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Shillong",
+        "wikipedia": "https://en.wikipedia.org/wiki/Shillong",
+        "wikidata": "https://www.wikidata.org/wiki/Q207752"
+      },
+      "distance_km": 2049,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:48:25.283Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Šilong"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shillong_Mary_Help_of_Christians_Cathedral_-_Meghalaya.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shillong.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Shillong Airport (Umroi)",
+          "code": "SHL",
+          "distance_km": 40,
+          "note": "GAU Guwahati (~104 km) hosts wider domestic/international wings"
+        },
+        "nearest_railway_station": {
+          "name": "Guwahati Junction railway station",
+          "distance_km": 105,
+          "note": "No passenger rail inside Meghalaya; MTDC/ASTC buses link GAU–Shillong (~4 h)"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Delhi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 89265,
+        "content_richness_score": 0.638
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Shillong (pop. c. 270,000) was the capital of Assam , but after Assam and Meghalaya were split, it became the first capital of the newly formed state. The best time to visit is the rainy season - most of the famous waterfalls including those in Cherrapunji are in full flow in this time of the year. Located in undulating pine-covered hills, the city has a milder climate than tropical parts of India. The city centre is 1,496 metres above sea level. Home to several waterfalls, it is also known as the **Scotland of the East**. The British legacy is still visible in the architecture and the food habits of the population. The Assam-style houses with slanting roofs, a large number of windows, and wooden floors look like a piece of art (and happen to be very good idea, considering Shillong lies in an area where rains and earthquakes are very common).",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Guwahati",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": 15,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Guwahati",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": 15,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By helicopter The best way to reach Shillong, is from Guwahati, via helicopter. The government of Meghalaya operates a service to/from Guwahati Airport, and also to/from Tura. The helicopter flies to the ALG (Advanced Landing Ground) Shillong, an Air Force Heliport located around 15 km away from the city center. Tickets are modestly priced at ₹1500 per person. Travelling by helicopter reduces the tedious 4 hour road journey from Guwahati to a pleasant 20-minute flight. Tickets can be booked from the Meghalaya Helicopter Service counter at the Guwahati airport and from the Meghalaya Transport Corporation counters in Shillong.\r\n\nAs of July 2023, since May, the helicopter service is not operating due to maintenance.\r\n\n\r\n By plane 1 ** Shillong Airport ** ( **SHL **  IATA ), Umroi ( about 40 km from Shillong ). A small airport with flights from Kolkata on certain days of the week. A bus operated by MTDC runs from Airport to Shillong market.  ( updated Sep 2025 ) \r\n Guwahati (** GAU **  IATA , 104 km from Shillong) is the nearest international airport, with flights from Bangkok .\r\n\n\r\n By train There are no rail lines in Meghalaya. The nearest railway station is Guwahati , 105 km away (~4 hours via taxi, 500 rupees). Guwahati is very well connected with all major cities of India. \r\n By bus The main interstate bus stand is located right next to Guwahati railway station. Buses run by _Assam State Transport Corporation (ASTC) and Meghalaya Transport Corporation (MTC)_ ply every half an hour from Guwahati to Shillong. The ticket fares vary between ₹30 and ₹100, depending upon bus class (ordinary, semi-deluxe and deluxe). Many of the buses are very old, and the only visible difference among bus class is the number of people allowed to sit. Many private run buses also run between two cities but they leave from Paltan Bazar area and cost around ₹70. Private buses might be better built but are occasionally crowded and have more stops en route.\r\n\nBuses usually take around 4 hours with a mid-way stop at Nong-poh.\r\n\nFrom Silchar, buses typically depart twice daily, around 07:30 and 18:00. The journey takes about 10 hours depending on traffic and weather conditions. The road to Shillong goes through various mountainous regions, and the road itself is in terrible condition, making for a long, bumpy, and occasionally uncomfortable trip.\r\n\n\r\n By car Shared taxis are quite easily available from Paltan Bazar area, which is adjacent to the railway station in Guwahati. These are generally SUV-sized vehicles (Tata Sumo, Toyota Innova and Mahindra Bolero) shared between 8 people. They take around 3 hours to reach Shillong from Guwahati. Prices range from ₹300 for Sumos, to ₹500 for taxis (July 2023). Sleek cars (Tata Etios and Maruti Swift Dzire) are also available, at prices of about ₹1500-2500 (depending on the type of car).\r\n\nThe cabs drops you off at **Police Bazaar** from where you can get a ride to almost any part of Shillong. En route from Guwahati to Shillong, you'll probably stop mid way at Nongpoh to freshen up and get some refreshments. Nongpoh is also a good place to pick up bamboo pickles and other condiments.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The city itself is small and can be easily covered walking and exploring hills and people.\r\n\n\r\n By bus For places within city limits, city buses are good options. There are two kinds of buses that pass from Shillong - City bus and Bazar bus. The maroon city buses operated by the Shillong Public Transport Service (SPTS) are ideal for commuting within the city. The conductors on each bus has an electronic ticketing machine and passengers have to buy their tickets from him as soon as they board the buses.\r\n\n\r\n By taxi Black and yellow unmetered shared taxis ply within city limits. These are faster and are always shared; rates may vary from ₹20 to ₹50. Being shared taxis, drivers often pick up additional passengers en route to the same destination, in order to make a better fare. If you decide to negotiate the \"hire\" of a taxi, however, the driver will not pick up any more passengers (or stop roadside to find more) but the fare will be significantly higher than if one had just hailed the taxi as it passed by.\r\n\nFor sightseeing it is a good idea to hire a taxi cab for full day. The fares should be fixed before travel.\r\n\nMuch of the infrastructure is basic and many roads outside city are in bad shape due to heavy rains and poor maintenance, but within the city the roads are quite good. Although the city traffic ranks second in the country in terms to vehicles to population ratio, Mumbai being first, it is very slow and disciplined unlike most of India.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Bishop &amp; Beadon Falls",
+              "description": "Located in Suna valley, these two are very beautiful falls. Suna is the home to wild animals such as deer, leopard, langurs, wild cats and numerous bird species.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Butterfly Museum",
+              "description": "There is a huge collection of different types of butterflies. Students of zoology will find them interesting. This place is also attractive for adults where they can see the natural beauty and play with the beautiful and colourful butterflies. This museum presents some of the finest and rarest species of butterflies.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Cathedral of Mary Help of Christians",
+              "description": "Cathedral of Mary Help of Christians is the cathedral of the Roman Catholic Archdiocese of Shillong which covers the Khasi and Jaintia hills of Meghalaya. The Cathedral is the principal place of worship of the over 300,000 Catholics of the Shillong Archdiocese which covers the Khasi and Jaiñtia Hills of Meghalaya. It is one of the most beautiful churches and is perched on a hill. It is located in the Laitumkhrah locality in Shillong. This Cathedral is named after Mary the mother of Jesus Christ. Besides being the pride of the Catholics of the region, the church has also become a great tourist attraction.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mary_Help_of_Christians_Cathedral,_Shillong",
+              "coordinates": {
+                "lat": 25.56797,
+                "lon": 91.89176
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Don Bosco Museum of Indigenous North East Culture",
+              "description": "Run by the Salesian order of the Catholic Church, the Don Bosco Museum is a truly amazing repository of information on the entire North Eastern region, covering the states of Assam, Meghalaya, Manipur, Mizoram, Nagaland, Arunachal Pradesh and Tripura. Located within the precincts of the Sacred Heart Church, Mawlai, the edifice is shaped like a spiral and its distinct form is discernible from quite some distance away. It has an amazing collection of attire, accoutrements, weapons, ornamentation and rare photographs. This is also the largest cultural museum in Asia. Fr Sebastian is the priest who has taken up the cause of preservation of art and culture with missionary zeal.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.59312,
+                "lon": 91.88235
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Elephant Falls",
+              "description": "It is in the Upper Shillong area which also houses the Eastern Air Command of Indian Airforce. The scenic fall is not continuous and more of collection of smaller falls. It has a footpath leading to bottom of the falls where it reaches a small lake. Its name \"Elephant Falls\" was given by the British, because there was a rock by the side of fall which resembled an elephant. The rock was destroyed in an earthquake.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Elephant_Falls",
+              "coordinates": {
+                "lat": 25.53613,
+                "lon": 91.82308
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Golf course",
+              "description": "Shillong golf course is located at an altitude of around 5200 ft. This is the first golf course of India which has 18 holes in it. This place is like a dream come true for the putters. This golf course is so beautiful and located at the unique location that some time it is compared with the “Glen Eagle Course” of the UK.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.58962,
+                "lon": 91.89868
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Lady Hydari Park",
+              "description": "The park has a variety of local flowering plants and orchids. It also has a small zoo within it. Children will like it as there are few swings, sea-saws, slips for them. It is a famous picnic spot for local population. This park is named after the Lady Hydari, the first lady of the state, wife of the Governor of Assam. This park has a mini zoo and a deer park, which is spread over more than one kilometre.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.56542,
+                "lon": 91.88162
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Shillong Peak",
+              "description": "Shillong Peak is the highest point in the state of Meghalaya (1965 meters above sea level). There is a view-point where you can get breathtaking view of Shillong city. Peak is easily accessible from the Upper Shillong or Jowai Road. The city view during night is a scene to remember. It is host to a radar station for Indian Air force and tourists are advised to declare their cameras while reaching view-point and not to take pictures of radar facilities.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.54738,
+                "lon": 91.87506
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Sweet Falls",
+              "description": "Located in Happy Valley, it is a very steep fall. Extreme caution is advised as there are no barricades and rocks are nearly always slippery (due to rain or dew).",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.56462,
+                "lon": 91.95614
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Umiam Lake",
+              "description": "A beautiful lake north of Shillong, which resembles the 'Lochs', or lakes of Scotland, and is a must-see for all tourists. This lake is man-made and is better known as 'Barapani' (big water) for its sheer size. It was created by damming the Umiam river in the early 1960s. There is a water sports complex with sports such as kayaking, water cycling, scooting and boating. There is a garden (Lum Nehru park) by the side water sports complex.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Umiam_Lake",
+              "coordinates": {
+                "lat": 25.66542,
+                "lon": 91.89283
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Wards Lake",
+              "description": "This horseshoe-shaped artificial lake is below the Raj Bhavan (Governor’s Residence). Boating facilities are available in the lake and surrounded by a fairly large garden. It has a wooden bridge at the middle. The winding walkway around the lake's periphery provides an enchanting experience of passing through flowerbeds and fairyland lighting with gradually undulating grounds, hemmed in by lush greens. Lots of lotus plants with leaves are there on either side of lake. One can find lots of colourful fishes (mostly grass carp) in the lake. A cafeteria is there to provide refreshment. A fountain dancing to the tunes of song is also there.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ward%27s_Lake_(Shillong)",
+              "coordinates": {
+                "lat": 25.57581,
+                "lon": 91.88657
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Bishop &amp; Beadon Falls**. Located in Suna valley, these two are very beautiful falls. Suna is the home to wild animals such as deer, leopard, langurs, wild cats and numerous bird species.   \r\n **Butterfly Museum**. There is a huge collection of different types of butterflies. Students of zoology will find them interesting. This place is also attractive for adults where they can see the natural beauty and play with the beautiful and colourful butterflies. This museum presents some of the finest and rarest species of butterflies.   \r\n 1 **Cathedral of Mary Help of Christians** . Cathedral of Mary Help of Christians is the cathedral of the Roman Catholic Archdiocese of Shillong which covers the Khasi and Jaintia hills of Meghalaya. The Cathedral is the principal place of worship of the over 300,000 Catholics of the Shillong Archdiocese which covers the Khasi and Jaiñtia Hills of Meghalaya. It is one of the most beautiful churches and is perched on a hill. It is located in the Laitumkhrah locality in Shillong. This Cathedral is named after Mary the mother of Jesus Christ. Besides being the pride of the Catholics of the region, the church has also become a great tourist attraction.   \r\n \r\n 2 **Don Bosco Museum of Indigenous North East Culture** ( Don Bosco Centre for Indigenous Cultures ). Run by the Salesian order of the Catholic Church, the Don Bosco Museum is a truly amazing repository of information on the entire North Eastern region, covering the states of Assam, Meghalaya, Manipur, Mizoram, Nagaland, Arunachal Pradesh and Tripura. Located within the precincts of the Sacred Heart Church, Mawlai, the edifice is shaped like a spiral and its distinct form is discernible from quite some distance away. It has an amazing collection of attire, accoutrements, weapons, ornamentation and rare photographs. This is also the largest cultural museum in Asia. Fr Sebastian is the priest who has taken up the cause of preservation of art and culture with missionary zeal.   \r\n 3 **Elephant Falls** . It is in the Upper Shillong area which also houses the Eastern Air Command of Indian Airforce. The scenic fall is not continuous and more of collection of smaller falls. It has a footpath leading to bottom of the falls where it reaches a small lake. Its name \"Elephant Falls\" was given by the British, because there was a rock by the side of fall which resembled an elephant. The rock was destroyed in an earthquake.   \r\n 4 **Golf course**. Shillong golf course is located at an altitude of around 5200 ft. This is the first golf course of India which has 18 holes in it. This place is like a dream come true for the putters. This golf course is so beautiful and located at the unique location that some time it is compared with the “Glen Eagle Course” of the UK.   \r\n \r\n 5 **Lady Hydari Park**. The park has a variety of local flowering plants and orchids. It also has a small zoo within it. Children will like it as there are few swings, sea-saws, slips for them. It is a famous picnic spot for local population. This park is named after the Lady Hydari, the first lady of the state, wife of the Governor of Assam. This park has a mini zoo and a deer park, which is spread over more than one kilometre.   \r\n 6 **Shillong Peak**. Shillong Peak is the highest point in the state of Meghalaya (1965 meters above sea level). There is a view-point where you can get breathtaking view of Shillong city. Peak is easily accessible from the Upper Shillong or Jowai Road. The city view during night is a scene to remember. It is host to a radar station for Indian Air force and tourists are advised to declare their cameras while reaching view-point and not to take pictures of radar facilities.   \r\n \r\n 7 **Sweet Falls**. Located in Happy Valley, it is a very steep fall. Extreme caution is advised as there are no barricades and rocks are nearly always slippery (due to rain or dew).   \r\n 8 **Umiam Lake** , meghalaya ( north of shillong ). A beautiful lake north of Shillong, which resembles the 'Lochs', or lakes of Scotland, and is a must-see for all tourists. This lake is man-made and is better known as 'Barapani' (big water) for its sheer size. It was created by damming the Umiam river in the early 1960s. There is a water sports complex with sports such as kayaking, water cycling, scooting and boating. There is a garden (Lum Nehru park) by the side water sports complex.   \r\n 9 **Wards Lake** . This horseshoe-shaped artificial lake is below the Raj Bhavan (Governor’s Residence). Boating facilities are available in the lake and surrounded by a fairly large garden. It has a wooden bridge at the middle. The winding walkway around the lake's periphery provides an enchanting experience of passing through flowerbeds and fairyland lighting with gradually undulating grounds, hemmed in by lush greens. Lots of lotus plants with leaves are there on either side of lake. One can find lots of colourful fishes (mostly grass carp) in the lake. A cafeteria is there to provide refreshment. A fountain dancing to the tunes of song is also there.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Take a walk through Iewduh (Bara Bazar)-Iewduh means Big Market - It is one of the biggest market in North-East India. There are separate areas dedicated to vegetables, fruits, iron works, fish, beef, betel and so on. \r\n Visit the State Central Library - it was started at the time of British Raj and holds many rare books and almanacs. For British searching for clues about ancestors in this area, it is a gold-mine. Unfortunately with time and poor management many books are being lost. \r\n Explore the forest around Shillong peak - There are no large or dangerous animals and forest is full of rare and exotic plants - orchids, pines and others including the famous insect eating pitcher plant (_Nepenthes khasiana_). \r\n There are many beautiful caves in Shillong.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Delhi Mistan Bhandar",
+              "description": "Vintage sweet shop in Shillong, famous for its jalebis.",
+              "location": null
+            },
+            {
+              "name": "Foodplus",
+              "description": "A fast food joint and lodge.",
+              "location": null
+            },
+            {
+              "name": "Lamee Restaurant",
+              "description": "Fantastic place for casual and fine dining with a tasty multicuisine menu.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "It is the drinker's paradise.Because of the tax structure on alcohol in this state, you will be hard pressed find cheaper drinks anywhere else in India, if you are the type who buys liquor from a shop and drinks in your hotel room.\r\n\nIf you like pubs and clubs, then Shillong has quite a few of them.\r\n\n\r\n **Cocktails** at Hotel Alpine Continental. \r\n **Cloud 9**, Centre Point. \r\n **Polo Irish Pub**, Hotel Polo Towers. \r\n **Tango** at Police Bazar in O B Shopping Mall. \r\nNightlife is generally at its peak on Fridays and Saturdays. Sundays are very, very dull.\r\n\n\r\n **MOT** ( Matter of Taste ), Laitumkrah ( turn left at the junction ). Matter of taste, MOT, is an amazing coffee shop which serves pastas, sandwiches and pizzas too. Irish coffee is a must try.   \r\n **Swish**, laitumkhrah . Swish Cafe is a favourite haunt of youngsters and anyone who wants a good cup of coffee and some tasty snacks. It's a cute little coffee shop with a lot of character!   \r\n **Dylans Cafe**, laitumkhrah . Dylans is a popular cafe and a tribute to Bob Dylan.  ( updated Aug 2018 )"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Knight Inn Shillong",
+              "description": "Also includes Kenmore Restaurant, which serves mouth-watering food from Chinese, Indian and other cuisines.",
+              "price": null
+            },
+            {
+              "name": "White Orchid Guesthouse",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Youth Hostel",
+              "description": "Rather run-down institution run by the government of India. Obvious choice for budget traveler, but do not expect to meet up with international backpackers. Instead, figure on sharing a room with 15 or more Indian people.",
+              "price": "₹155 per bed"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.649Z"
+      },
+      "search_context": "City / Urban destination Shillong Šilong Sightseeing Shillong is the capital and the largest town in the North-Eastern Indian state of Meghalaya .",
+      "travel_facts": {
+        "summary": "**Shillong** anchors **SHL Umroi (~40 km)** Scotland-of-the-East apron beneath **Guwahati Junction (~105 km)** knowing Police Bazar taxi merges absorb Umiam Lake weekend tides.",
+        "keywords": [
+          "shillong peak stacks",
+          "gau sumo merges",
+          "don bosco museum apron",
+          "mtc bus tides"
+        ]
+      }
+    },
+    {
+      "slug": "meghalaya-tura",
+      "name": "Tura",
+      "region": "",
+      "state": "Meghalaya",
+      "coordinates": null,
+      "description": "**Tura** is the largest town in the Garo Hills of western Meghalaya, India—a gateway to Nokrek biosphere forests, Balpakram, and Garo hill culture.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Tura_(India)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tura_(India)",
+        "wikidata": ""
+      },
+      "distance_km": null,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 1,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:48:25.283Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Baljek Airport",
+          "code": null,
+          "distance_km": 31,
+          "note": "ICAO VETU; GAU Guwahati (~205 km) alternate trunk-air apron"
+        },
+        "nearest_railway_station": {
+          "name": "Guwahati Junction railway station",
+          "distance_km": 205,
+          "note": "West Garo road relay; Mendipathar NFR niche lines evolving—verify schedules"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 5774,
+        "content_richness_score": 0.041
+      },
+      "section_briefs": {},
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.649Z"
+      },
+      "search_context": "City / Urban destination Tura Sightseeing Tura is the largest town in the Garo Hills of western Meghalaya, India—a gateway to Nokrek biosphere forests, Balpakram, and Garo hill culture.",
+      "travel_facts": {
+        "summary": "**Tura** hinges **Baljek (~31 km)** Garo apron beneath **Guwahati rail (~205 km)** knowing helicopter charter stacks absorb Nokrek canopy trek tides.",
+        "keywords": [
+          "baljek vetu stacks",
+          "garo hills merges",
+          "nokrek biosphere apron",
+          "west garo highway tides"
+        ]
+      }
+    }
+  ]
+}

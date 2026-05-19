@@ -1,0 +1,2375 @@
+{
+  "state": "Jammu and Kashmir",
+  "state_code": "JA",
+  "generated_at": "2026-05-18T10:46:05.152Z",
+  "count": 8,
+  "destinations": [
+    {
+      "slug": "jammu-and-kashmir-gulmarg",
+      "name": "Gulmarg",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 34.04778,
+        "lon": 74.38472,
+        "source": "wikidata"
+      },
+      "description": "**Gulmarg** is a city of about 2,000 people (2011) in the Kashmir Valley . It is noted for lush green meadows and wildflowers in summer and endless snow fields during winter. It is a hub for winter sports activities. It also houses a high-altitude cable car, popularly known as gondola.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Gulmarg",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gulmarg",
+        "wikidata": "https://www.wikidata.org/wiki/Q1025272"
+      },
+      "distance_km": 2366,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Gulmarag",
+        "Gulmurg"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jammu_and_Kashmir_3.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulmarg%20-%20Jannat%20on%20Earth.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Sheikh ul Alam International Airport (Srinagar)",
+          "code": "SXR",
+          "distance_km": 56,
+          "note": "Tangmarg switchbacks finish meadow stacks—winter 4×4 norms dominate icy narrows"
+        },
+        "nearest_railway_station": {
+          "name": "Srinagar railway station",
+          "distance_km": 52,
+          "note": "Kashmir Railway feeders toward Baramulla—gondola queues thicken ski-season dawns"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Jammu",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight",
+          "train"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 46252,
+        "content_richness_score": 0.33
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "You can reach Gulmarg by car or bus from Srinagar (summer capital of Jammu and Kashmir ) in 1.5 hours. In summer, the SRTC daily sightseeing coaches are available in the morning at Tourist Reception Center (₹351). Local buses are available only up to the Tangmarg market, from where the mini coaches can be hired up to Gulmarg. Taxis can be hired from any taxi stand at fixed one way or return journey charges. During winter, a Jeep-type vehicle (Scorpio, Qualis or Sumo) is recommended as the regular snowfall and below zero temperatures make the Tangmarg-Gulmarg road portion highly slippery with narrow passage. A travel agent's assistance can be useful.\r\n\nA number of informal checkpoints exist along the road to Gulmarg, which appear to be staffed by armed volunteers. Tipping may be necessary to pass any given checkpoint.\r\n\n\r\n By bus A not so well-known (albeit quite economical and reliable) option is to get to Gulmarg by bus. You can get a bus to Gulmarg at least every 30 mins, from 7 am to 5 pm, from Tangmarg. These buses are available from the Tangmarg Bus station, which is very close to the Taxi stand. Just ask for the bus station to any local (apart from the taxi drivers, who will pretend that buses never ply to Gulmarg) and they will show the directions (barely 500 metres from the taxi stand). The bus fare is pretty cheap (INR 40 to get from Tangmarg to Gulmarg) and the buses are similarly old. Don't expect push-back and other comforts, however, the buses will be good enough for the short trip. It takes about 40–60 mins to travel by bus from Tangmarg to Gulmarg. The route is incredibly scenic (in both summers and winters). You will get space to sit in the bus and an overhead rack to keep your baggage.\r\n\n\r\n 1 **Gulmarg Bus Stand**.  ( updated May 2021 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Getting around Gulmarg is done mostly by foot. No need for a car as there is one road that does a loop around the whole area. Walking around it would take about an hour. You can even sightsee around Gulmarg in sledges driven by locals which cost around ₹200 in off season.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Alpather Lake",
+              "description": "Popularly known as the frozen lake the Alpather Lake is situated at an altitude of 4390 m and is located at the foot of the twin Apharwat Peaks. The lake is surrounded by rocky mountains and lush green meadows, complete with blooming wild flowers. It is located very near the Line of Control (LOC) between India and Pakistan and camping is not allowed on the banks of the lake. The lake is connected to Gulmarg by road however the road is for military purposes and civilians are not allowed on the road. The lake is at a distance of 14 km from Gulmarg and is best reached by cable car (Gondola). The lake is about 3 km from the last cable stop beneath the Afarwat Peak. Ponies and guides are available but in snow free condition the path is well marked.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.02045,
+                "lon": 74.33052
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Baba Reshi Shrine",
+              "description": "It is the resting place of Sufi saint Baba Payam uddin Reshi. The original structure dates back to 1840 but it has been modified over the years. The shrine and its surrounding garden is a tourist attraction and a destination for pilgrims visiting the shrine. It is situated at a height of 7,000 feet (2,133 meters) on the road to Tanmarg.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.07724,
+                "lon": 74.39233
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Cable Car to Kongdori",
+              "description": "The two-stage high altitude cable car is popularly known as Gondola. The first phase operates from Gulmarg to Kongdori. The second phase starts from Kongdori and goes up to the shoulder of Afarwat Peak. Kongdori is connected to the beautiful meadows of Khilanmarg (3 km one way). The second and the higher stops connect to Alpathar Lake, a high altitude lake, which remains frozen for most part of the year.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Gulmarg_Gondola",
+              "coordinates": {
+                "lat": 34.04527,
+                "lon": 74.38435
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Gulmarg Golf Club",
+              "description": "The golf course sits at a height of 2,650 metres (8,690 ft) above sea level, is the highest golf course in the world. It started as a-6 hole golf course in 1890. Over the years the course has been extended and modified several times. It now has an 18-hole golf course. The golf club is housed in a beautiful, cottage-style wooden building.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Gulmarg_Golf_Club",
+              "coordinates": {
+                "lat": 34.03333,
+                "lon": 74.35
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Maharani Temple",
+              "description": "The Siva temple is located atop a small hillock and is visible from all over Gulmarg. The temple dates back to 1915 and was built by Mohini Bai Sisodhia, wife of the last king of Kashmir Hari Singh. Since built by the queen it is known as the Maharani Temple.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.05539,
+                "lon": 74.39759
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "St. Mary's Church",
+              "description": "The St Mary's Church is located in the valley of Shepherds in Gulmarg. The church dates back to 1902. The brick built structure is topped with a green metallic thached roof. The interiors are complete with wood panels and a beautiful stained glass window.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.05366,
+                "lon": 74.38986
+              },
+              "price": null
+            }
+          ],
+          "brief": "Finished in 2004, it runs up to 3,995 meters. A **sight-seeing trip** to the top of the gondola will cost you ₹740 for Stage One (Gulmarg to Kungdoor) and ₹950 for Stage Two (Kungdoor to Apparwath) for a return trip; singles (for skiers, for example) are half the price, with a day pass available for ₹1,200. You can decide whether you wish to go to Stage Two when you have reached Stage One. Stage Two is at a much higher elevation, right on the hill top, and is clearly visible from the Gulmarg taxi stand. The hills visible from the top are said to be LOC and Pakistan-administered Kashmir (specifically Nanga Parbat and (supposedly) the very tip of K2).\r\n\nMajor tourist attractions are:\r\n\n\r\n 1 **Alpather Lake**. Popularly known as the frozen lake the Alpather Lake is situated at an altitude of 4390 m and is located at the foot of the twin Apharwat Peaks. The lake is surrounded by rocky mountains and lush green meadows, complete with blooming wild flowers. It is located very near the Line of Control (LOC) between India and Pakistan and camping is not allowed on the banks of the lake. The lake is connected to Gulmarg by road however the road is for military purposes and civilians are not allowed on the road. The lake is at a distance of 14 km from Gulmarg and is best reached by cable car (Gondola). The lake is about 3 km from the last cable stop beneath the Afarwat Peak. Ponies and guides are available but in snow free condition the path is well marked.   \r\n 2 **Baba Reshi Shrine**. It is the resting place of Sufi saint Baba Payam uddin Reshi. The original structure dates back to 1840 but it has been modified over the years. The shrine and its surrounding garden is a tourist attraction and a destination for pilgrims visiting the shrine. It is situated at a height of 7,000 feet (2,133 meters) on the road to Tanmarg.   \r\n 3 **Cable Car to Kongdori** . The two-stage high altitude cable car is popularly known as Gondola. The first phase operates from Gulmarg to Kongdori. The second phase starts from Kongdori and goes up to the shoulder of Afarwat Peak. Kongdori is connected to the beautiful meadows of Khilanmarg (3 km one way). The second and the higher stops connect to Alpathar Lake, a high altitude lake, which remains frozen for most part of the year.   \r\n 4 **Gulmarg Golf Club**. The golf course sits at a height of 2,650 metres (8,690 ft) above sea level, is the highest golf course in the world. It started as a-6 hole golf course in 1890. Over the years the course has been extended and modified several times. It now has an 18-hole golf course. The golf club is housed in a beautiful, cottage-style wooden building.   \r\n 5 **Maharani Temple**. The Siva temple is located atop a small hillock and is visible from all over Gulmarg. The temple dates back to 1915 and was built by Mohini Bai Sisodhia, wife of the last king of Kashmir Hari Singh. Since built by the queen it is known as the Maharani Temple.   \r\n 6 **St. Mary's Church**. The St Mary's Church is located in the valley of Shepherds in Gulmarg. The church dates back to 1902. The brick built structure is topped with a green metallic thached roof. The interiors are complete with wood panels and a beautiful stained glass window.   \r\nTake care if you are considering hiring a guide - they tend to work on a commission basis. Their initial price might be attractive, but your guide may be reluctant to take you to places which don't pay commission and you'll be paying inflated prices for the duration of your trip.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Gulmarg has some of the world's amazing treks. \r\n\nYou can do mountain biking from June to September and enjoy some of the best downhill mountain biking in the world.\r\n\n\r\n Skiing The main activity for tourists is skiing (December till early April). One can enjoy skiing in the long and high slopes of the snowy mountain ranges and experience a difference. Snow conditions are really good and you can get deep powder in Gulmarg ski resort every winter. The skiing infrastructure is generally lacking. There are no proshops and most of the rentals are of incredibly shoddy quality. There is no map available. \r\n\nThere are two areas for skiing: the high mountain/off piste areas served by the gondola; and a beginner's area near the hotels on the hills of the Gulmarg golf course. The high mountain ski lift is open from approximately 8:30AM to 3:30PM daily. However, ski rentals are not available before about 10AM, and the equipment is very low quality, so if you are an excellent/off piste skier who wants to ski all day, bring your own equipment. The beginners area is open from 10AM-1PM, then closes for lunch until 2:30PM. Lifts reopen 2:30-4PM\r\n\nSkis and snowboards are available for rent from a government-owned shop for ₹300 per day. The equipment is shoddy and there is a lack of ski poles.\r\n\nSki lift ticket prices for Gulmarg are as follows:\r\n\n\r\n ₹600 (Jan 2016) per first stage gondola ticket, \r\n ₹250 (Jan 2012) per second stage gondola ticket, \r\n ₹1250 (Jan 2012) for an unlimited gondola day pass. \r\nWith its gondola accessible ski area on Mount Apharwat, 4,124 m it offers many possibilities for descents of up to 1,800 m. \r\n\nHeli-skiing is available, which opens up far more off-piste opportunities than the one-lift resort that Gulmarg otherwise offers. The heliski operators are Australian and qualified. They offer rental of good quality deep powder skis but you must have your own boots.\r\n\nSound skiing skills and good health are prerequisites for skiing in Gulmarg. Note that only the main bowl to the skier's left of the gondola is avalanche-blasted and patrolled - all other areas are considered out-of-bounds.\r\n\nGolfing, sledging, and horse riding are other activities (best enjoyed in the summer).",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Bakshi's Green Punjabi Dhaba (Vegetarian)",
+              "description": "Serves excellent veg food and have a friendly service.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Alcohol is available legally from the 'Highland Park Hotel' (carry on down the road past the gondola and you will eventually reach it on your right) and not-so-legally from 'other vendors' (ask the locals for hints, if you want to risk it).\r\n\nNo trip to Kashmir is complete without sampling the two kinds of Kashmiri tea. \r\nOne has bicarbonate of soda and salt and is said to aid digestion.\r\nThe other is green tea infused with cardamom, saffron and cinnamon, with not a large helping of sugar."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Raja",
+              "description": "One of the cheapest within walking distance of the Gondola.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:28.831Z"
+      },
+      "search_context": "Mountain / Hills Gulmarg Sightseeing Gulmarg is a city of about 2,000 people (2011) in the Kashmir Valley . It is noted for lush green meadows and wildflowers in summer and endless snow fields during winter. It is a hub for winter sports activities. It also houses a high-altitude cable car, popularly known as gondola.",
+      "travel_facts": {
+        "summary": "**Gulmarg** stages **SXR (~56 km)** meadow hops via Tangmarg ridges beneath Kashmir Railway feeders—gondola and ski stacks bias winter 4×4 knowing Tangmarg ice narrows random security queues.",
+        "keywords": [
+          "sxr tangmarg ridges",
+          "gondola ski stacks",
+          "kashmir railway feeders",
+          "winter 4x4 norms",
+          "tangmarg ice narrows",
+          "meadow security queues"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-jammu",
+      "name": "Jammu",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 32.73333,
+        "lon": 74.85,
+        "source": "wikidata"
+      },
+      "description": "**Jammu** ( Dogri : जम्मु _Jammu_), the largest city in the Jammu region of northern India , is the winter capital of Jammu and Kashmir , sitting at a low elevation in the mainly mountainous state. Srinagar , the state's summer capital, is at a much higher elevation.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Jammu",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jammu",
+        "wikidata": "https://www.wikidata.org/wiki/Q255455"
+      },
+      "distance_km": 2215,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Jammu City"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jammu_Tawi_to_Delhi_-_Rail_side_views_02.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jammu%20city.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Jammu Airport (Satwari)",
+          "code": "IXJ",
+          "distance_km": 9,
+          "note": "Tawi plains apron—Leh/Srinagar banks rotate seasonally with overnight fog drills"
+        },
+        "nearest_railway_station": {
+          "name": "Jammu Tawi railway station",
+          "distance_km": 6,
+          "note": "Kashmir Railway gateway halts—Vaishno Devi expresses thicken pilgrim peaks"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Srinagar",
+          "Leh",
+          "Amritsar",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 114123,
+        "content_richness_score": 0.815
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Jammu was founded by Raja Jambulochan in the 14th century BC who named it Jambupur. The name later morphed to Jammu. It was the winter capital of the princely state of Jammu and Kashmir under British rule. It has since been the winter capital of Jammu and Kashmir in India.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Jammu Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Jammu_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Jammu Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Jammu_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Jammu Airport** ( **IXJ **  IATA ), Raipur Satwari . It has flights from Delhi , Leh , Srinagar , Mumbai , Bangalore and Amritsar . IndiGo, SpiceJet and Air India have flights from Delhi.  ( updated Mar 2026 ) \r\n By train 2 ** Jammu Tawi    NR**  . Jammu is well-connected by train to points south and east, and is the gateway to the Kashmir Railway . It is the second-to-last major rail stop heading north, and most people only see it long enough to get from the train station to the bus stand to continue toward Srinagar . Jammu Tawi is connected to Delhi (Jammu Rajdhani Express, SMVD Katra Vande Bharat Express), Kolkata (Himgir Express), Mumbai (Swaraj Express), Chennai (Andaman Express) and even to the southernmost Thiruvananthapuram (Himsagar Express).  ( updated Mar 2026 ) \r\n By car Jammu is on National Highway 44. Some important road distances from Jammu are:\r\n\n\r\n Amritsar - 243 km \r\n Chandigarh - 436 km \r\n Delhi - 586 km \r\n Katra - 48 km \r\n Leh - 705 km \r\n Manali - 428 km \r\n Mansar - 62 km \r\n Patnitop - 108 km \r\n Srinagar - 305 km \r\n By bus Bus services of all classes operate to Jammu from Srinagar, Delhi, Amritsar, Ambala, Chandigarh, Ludhiana, Jalandhar, Pathankot, Shimla, Manali and Haridwar. The Jammu &amp; Kashmir State Road Transport Corporation (JKSRTC) and the road transport corporations of Delhi, Haryana, Himachal Pradesh, Punjab and Chandigarh also operate bus services between Jammu and various cities in north India. All inter-state bus services operate to and from the Jammu General Bus Stand.\r\n\n\r\n By motorcycle Riding a motorcycle to Jammu is not advised during winter because of sub-zero temperatures. The winding roads from Udhampur to Qazigund via Kud provides challenges as well as sharp turns and scenic views.\r\n\n\r\n By taxi Tata Sumos operate between Jammu and Srinagar on a shared-ride basis. Taxis are available for local sightseeing or to visit any tourist destination. They can be hired at Jammu from the Special Tourist Taxi Association and from Maharana Travel [dead link] . There is a sightseeing tour of 2-3 hours available for tourists, which covers Amar Mahal Museum, Dogra Art Gallery, Ranbireshwar Temple, Raghunath Mandir, Bahu Fort and Bagh-e-Bahu.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The minibuses cover the city and suburbs on fixed routes. Autorickshaws are available throughout the city at negotiable rates.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Amar Mahal Palace Museum",
+              "description": "A beautiful red sandstone palace that has been converted into a museum. It stands amidst the most picturesque surroundings of Jammu.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Amar_Mahal_Palace",
+              "coordinates": {
+                "lat": 32.748,
+                "lon": 74.872
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Bagh-E-Bahu",
+              "description": "5 km. These extensive gardens, laid around the Bahu Fort provide a pleasant view of the city.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 32.72519,
+                "lon": 74.87812
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Bahu Fort",
+              "description": "5 km. Situated on a rock face on the left bank of the river Tawi.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Bahu_Fort",
+              "coordinates": {
+                "lat": 32.7261,
+                "lon": 74.8803
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Dargah of Peer Budhan Ali Shah (Peer Baba)",
+              "description": "On the backside of the Civil Airport is famous Dargah of the Muslim saint, Peer Budhan Ali Shah.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Maha Maya Temple and City Forest",
+              "description": "On the By-pass Road behind Bahu Fort, the city forest surrounds the ancient Maha Maya Temple overlooking the river Tawi.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 32.73064,
+                "lon": 74.89123
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Martand Sun Temple",
+              "description": "The most memorable and beautiful work of King Lalitaditya is the construction of spacious Martand temple, which the emperor got built in honor of the Sun God or Bhaskar.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Martand_Sun_Temple",
+              "coordinates": {
+                "lat": 33.7454,
+                "lon": 75.21999
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Mubarak Mandi Palace",
+              "description": "The oldest buildings in this Palace complex date to 1824.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mubarak_Mandi_Palace",
+              "coordinates": {
+                "lat": 32.73917,
+                "lon": 74.87472
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Peer Kho Cave Temple",
+              "description": "A cave shrine located on the Circular Road, 3.5 km from the heart of the town.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 32.73341,
+                "lon": 74.87484
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Raghunath Mandir",
+              "description": "Situated in the heart of the city and surrounded by a group of other temples. This is a temple complex, each of the temples have their own Shikhara (tower).",
+              "wikipedia": "https://en.wikipedia.org/wiki/Raghunath_Temple",
+              "coordinates": {
+                "lat": 32.731,
+                "lon": 74.8638
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Ranbir Canal",
+              "description": "A small garden along the Ranbir Canal, 2 km from the heart of the town.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Ranbireshwar Temple",
+              "description": "Located on Shalimar Road near the New Secretariat.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Sudh Mahadev Temple",
+              "description": "Situated in the town of Chanhani in the western part of Jammu.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 33.02069,
+                "lon": 75.36021
+              },
+              "price": null
+            }
+          ],
+          "brief": "Jammu is also known as City Of Temples. One can visit Raghunath Temple, Ranbireshwar Temple, Peer Kho Cave Temple, Bawey Wali Mata, Mahamaya Temple. Other Places of interest are Baag-e-Bahu Park, Amar Mahal Museum, Mansar Lake and the Fish Aquarium at Baag-e-Bahu.\r\n\n\r\n 1 **Amar Mahal Palace Museum** , Palace Rd, Karan Nagar , ☏ +91 191 254 6783 . A beautiful red sandstone palace that has been converted into a museum. It stands amidst the most picturesque surroundings of Jammu.  ( updated Mar 2026 ) \r\n 2 **Bagh-E-Bahu**. Open 08:00 to 20:00 . 5 km. These extensive gardens, laid around the Bahu Fort provide a pleasant view of the city.   \r\n 3 **Bahu Fort** . 5 km. Situated on a rock face on the left bank of the river Tawi.  ( updated Mar 2026 ) \r\n **Dargah of Peer Budhan Ali Shah (Peer Baba)**. On the backside of the Civil Airport is famous Dargah of the Muslim saint, Peer Budhan Ali Shah.  ( updated Mar 2026 ) \r\n 4 **Maha Maya Temple and City Forest**. On the By-pass Road behind Bahu Fort, the city forest surrounds the ancient Maha Maya Temple overlooking the river Tawi.   \r\n 5 **Martand Sun Temple** . The most memorable and beautiful work of King Lalitaditya is the construction of spacious Martand temple, which the emperor got built in honor of the Sun God or Bhaskar.  ( updated Mar 2026 ) \r\n 6 **Mubarak Mandi Palace** . The oldest buildings in this Palace complex date to 1824.  ( updated Mar 2026 ) \r\n 7 **Peer Kho Cave Temple**. A cave shrine located on the Circular Road, 3.5 km from the heart of the town.   \r\n 8 **Raghunath Mandir** ( Raghunath Temple ). Situated in the heart of the city and surrounded by a group of other temples. This is a temple complex, each of the temples have their own Shikhara (tower).  ( updated Mar 2026 ) \r\n **Ranbir Canal**. A small garden along the Ranbir Canal, 2 km from the heart of the town.   \r\n **Ranbireshwar Temple**. Located on Shalimar Road near the New Secretariat.   \r\n 9 **Sudh Mahadev Temple**, Sudhmahadev . Situated in the town of Chanhani in the western part of Jammu.  ( updated Mar 2026 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Annapurna",
+              "description": "Huge Utensils to store food and next to bus stand makes it ideal for travellers going in and out of Jammu. Food is tasty and 2 men do rhythmic chapati dough flattening in fingers and putting to 2 ovens that churn out abt 5000-6000 parathas and chapatis.",
+              "location": null
+            },
+            {
+              "name": "Imperial Grill",
+              "description": "Quite expensive but a favourite among tourists to get their grilled food fix.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Shivam Lodge",
+              "description": "Located at a walking distance from Jammu Tawi Railway station. Good room service.",
+              "price": "₹1200-1300(Ignore the price they give, ask for ₹1200 and stick to it"
+            },
+            {
+              "name": "Radisson Blu Jammu",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Zone by The Park Jammu",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Spiritual / Pilgrimage"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:29.680Z",
+        "wikipedia_summary": "Jammu is a city in Indian-administered Jammu and Kashmir in the Jammu region. It is the winter capital of the union territory of Jammu and Kashmir. It is the headquarters and the largest city in Jammu district. Lying on the banks of the river Tawi, the city of Jammu, with an area of 240 km2 (93 sq mi), is surrounded by the Himalayas in the north and the northern plains in the south. Jammu is the second-most populous city of the union territory. Jammu is known as \"City of Temples\" for its ancient temples and Hindu shrines.",
+        "wikipedia_description": "City in Indian-administered Jammu and Kashmir",
+        "wikipedia_fetched_at": "2026-05-18T09:54:29.733Z"
+      },
+      "search_context": "City / Urban Spiritual / Pilgrimage Jammu Sightseeing Jammu is a city in Indian-administered Jammu and Kashmir in the Jammu region. It is the winter capital of the union territory of Jammu and Kashmir. It is the headquarters and the largest city in Jammu district. Lying on the banks of the river Tawi, the city of Jammu, with an area of 240 km2 (93 sq mi), is surrounded by the Himalayas in the north and the northern plains in the south. Jammu is the second-most populous city of the union territory. Jammu is known as \"City of Temples\" for its ancient temples and Hindu shrines. Jammu was founded by Raja Jambulochan in the 14th century BC who named it Jambupur. The name later morphed to Jammu. It was the winter capital of the princely state of Jammu and Kashmir under British rule. It has since been the winter capital of Jammu and Kashmir in India. Jammu ( Dogri : जम्मु _Jammu_), the largest city in the Jammu region of northern India , is the winter capital of Jammu and Kashmir , sitting at a low elevation in the mainly mountainous state. Srinagar , the state's summer capital, is at a much higher elevation.",
+      "travel_facts": {
+        "summary": "**Jammu** couples **Jammu Tawi (~6 km)** rail gateways with **IXJ (~9 km)** Tawi stacks feeding NH44 Kashmir arteries—pilgrim tides spike Vaishno Devi expresses before winter capital rotations.",
+        "keywords": [
+          "jammu tawi gateways",
+          "ixj tawi stacks",
+          "nh44 kashmir arteries",
+          "vaishno devi expresses",
+          "kashmir railway gateway",
+          "winter capital rotations"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-jammu-division",
+      "name": "Jammu Division",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 34.24843,
+        "lon": 74.66762,
+        "source": "wikidata"
+      },
+      "description": "**Jammu** ( Urdu : جموں ڈویژن) is a hilly region of Jammu and Kashmir in northern India . Home to some of the most revered Hindu shrines, such as Vaishno Devi in Katra , Jammu is a major pilgrimage centre for Hindus from India.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Jammu_Division",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jammu_division",
+        "wikidata": "https://www.wikidata.org/wiki/Q2817363"
+      },
+      "distance_km": 2384,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Región de Jammu",
+        "Region de Jammu",
+        "Région de Jammu",
+        "Jamu"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Jammu%20city%20and%20the%20Tawi%20River.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Jammu Airport (Satwari)",
+          "code": "IXJ",
+          "distance_km": 72,
+          "note": "Regional centroid bias around Jammu city—SXR Srinagar (~245 km) serves valley pilgrims"
+        },
+        "nearest_railway_station": {
+          "name": "Jammu Tawi railway station",
+          "distance_km": 68,
+          "note": "Pir Panjal road meshes toward Srinagar—NH44 security queues jitter overnight Volvo tides"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Srinagar",
+          "Amritsar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 34433,
+        "content_richness_score": 0.246
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Jammu Division has a Hindu majority, unlike Jammu and Kashmir as a whole, which has a Muslim majority. The native language of Jammu is Dogri . The people in Jammu have cultural similarities with their Punjabi neighbours to the south and during certain periods of history were ruled by Punjabi Maharajas, but the hilly terrain of the land in contrast with the plains of Punjab has also made the people distinct in many ways.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane The **Jammu Airport** (** IXJ **  IATA ) is the only airport open for civilians in Jammu.\r\n\n\r\n By road From Srinagar there are several J&amp;K SRTC buses taking 12 hours and costing ₹150. Sumo four-wheel-drive jeep taxis also do this trip in approximately eight hours and cost ₹200 per person (or more for a non-shared ride). Minibuses also stop outside Jammu bus stand and are more comfortable and sometimes cheaper than Sumos. Innovas are more comfortable as well as more expensive. From Jammu city the distance to various towns and cities in other areas of Jammu Division can be covered by bus or taxi. The distance from Jammu to Doda, for example, is around 160 km and the journey takes about 3-4 hours. It's worth noting that the road conditions in Jammu and Kashmir can be challenging, especially during the monsoon season, so it's important to plan accordingly.\r\n\n\r\n By train Jammu is well connected by train to points south and east. Jammu Tawi railway station is an important railhead of the Northern Railway (NR), serving the entire union territory. It is the second to last major rail stop heading north, the last being Udhampur , and most people only see it long enough to get from the train station to the bus stand to continue toward Srinagar . Jammu Tawi is connected to Delhi (Jammu Rajdhani), Kolkata (Himgir Exp), Mumbai (Swaraj Exp), Chennai (Andaman Exp) and even to the southern most Trivandrum Railway station (Himsagar Exp).\r\n\n\r\n By motorcycle Riding a bike from Jammu city to the hilly and mountainous regions of Jammu can be a scenic and enjoyable experience, but it also comes with certain risks and challenges. The road conditions in Jammu can be challenging, especially during the monsoon season, with narrow and winding roads, landslides, and poor visibility. It's important to note that the Indian government has issued travel advisories for Jammu and Kashmir, and it's always advisable to check for any updates before planning a trip. Moreover, it's also important to have all the necessary permits and documents, as well as to inform someone of your itinerary, before embarking on such a trip. It's also important to take all necessary precautions such as wearing a helmet, carrying necessary supplies and spare parts, and having a good knowledge of the route and the local conditions.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Tourist taxis are a popular means of transportation for visitors. These taxis are typically operated by local travel agencies and are equipped to handle the challenging road conditions and long distances of the region. Tourist taxis are available for hire at various locations in Srinagar and Jammu cities, and can take you to various towns and cities in the Jammu Division. These taxis are typically driven by experienced drivers who have knowledge of the local routes and conditions, which can be very helpful for travelers who are not familiar with the area. They also offer flexible schedule, you can book the taxi for a full day or for multiple days depending on your itinerary.\r\n\nTourist taxis in Jammu and Kashmir are available in different categories such as Sedan, SUV, and Tempo traveler, depending on the number of passengers and their budget. It's important to note that the rates for tourist taxis can vary depending on the season and the distance of the journey, so it's advisable to check with multiple agencies and compare the rates before booking a taxi. It's also advisable to check the vehicle's condition, insurance, and the credentials of the driver before embarking on the journey.\r\n\nThe widely used minibuses cover the region on fixed routes. Auto rickshaws are available throughout the region at negotiable rates.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Amarnath",
+              "description": "One of the holy trinity, Shiva is a living god. Legend has it that Shiva recounted to Parvati the secret of creation in a cave in Amarnath. Unknown to them, a pair of doves eavesdropped on this conversation and having learnt the secret, are reborn again and again, and have made the cave their eternal abode. Yajur veda refers lord Shiva as an ascetic warrior Whose robe is of Deer Skin and carries Damru and Trishul. As referred by the verse \"Satyam - Shivam - Sundaram, one life must have three facets Satyam - Truth, Shivam - Good and Sundram - Beautiful.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Bahu Fort",
+              "description": "Bahu fort was modified and improved by Dogra Rulers of Jammu but first built it was built by the Raja Bahulochan. This fort is located at a distance of around 5km from the main city and perhaps is the oldest edifice in the Jammu. This fort is facing the Tawi River. There is a temple of the goddess Kali in the fort.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Raghunath Temple",
+              "description": "Raghunath Temple is dedicated to the Hindu Lord Shri Rama. All the inner walls of this temple are covered with gold, on three sides. Galleries of this temple are covered with ‘ Saligrams. The other surrounding temples are related to other gods from the Ramayana. This temple is located in the centre, the heart, of Jammu.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Sri Amarnath Ji Temple",
+              "description": "Temple is situated 144 km east to Srinagar. Lord Amarnath is in the form of an ice Silva-lingam. On the full moon day the lingam is approx 1.8 m high. In Rigveda it is said \"Ekam Sat\" means \"There is one Being, whom sages calls by many names. The Supreme Power (Parmeshwar) has three deities who carry on the world called - The Trinity . Lord Brahma - creator of World, Lord Vishnu - Perpetrator of life and Lord Shiva (Mahesh) - the purifier and perpetrator of good and destroyer of evil. Lord Shiva is known as Rudra in Rig Veda as in its following verse. \"We Worship Tryambaka (Rudra), Who spread Fragrance and Increases Nourishment, May He release me, like the cucumber from its stem , From Mortal Life , But not From Immorality.\"",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Amarnath**. One of the holy trinity, Shiva is a living god. Legend has it that Shiva recounted to Parvati the secret of creation in a cave in Amarnath. Unknown to them, a pair of doves eavesdropped on this conversation and having learnt the secret, are reborn again and again, and have made the cave their eternal abode. Yajur veda refers lord Shiva as an ascetic warrior Whose robe is of Deer Skin and carries Damru and Trishul. As referred by the verse \"Satyam - Shivam - Sundaram, one life must have three facets Satyam - Truth, Shivam - Good and Sundram - Beautiful.   \r\n **Bahu Fort**. Bahu fort was modified and improved by Dogra Rulers of Jammu but first built it was built by the Raja Bahulochan. This fort is located at a distance of around 5km from the main city and perhaps is the oldest edifice in the Jammu. This fort is facing the Tawi River. There is a temple of the goddess Kali in the fort.   \r\n ** Mata Vaishno Devi **. A pilgrimage to the Holy Shrine of Shri Mata Vaishno Devi Ji is considered to be one of the holiest pilgrimages of our times. Popular the world over as Moonh Maangi Muradein Poori Karne Wali Mata, which means, the Mother who fulfills whatever Her children wish for, Shri Mata Vaishno Devi Ji resides in a Holy Cave located in the folds of the three peaked mountain named Trikuta (pronounced as Trikoot). The Holy Cave attracts millions of devotees every year. In fact, the number of Yatris visiting the Holy Shrine annually now exceeds one crore. This is due to the unflinching faith of the devotees who throng the Shrine from all parts of India and abroad. The Holy Cave of the Mother is situated at an altitude of 1,560 m. The Yatris have to undertake a trek of nearly 12 km from the base camp at Katra. At the culmination of their pilgrimage, the yatries are blessed with the Darshans of the Mother Goddess inside the Sanctum Sanctorum- the Holy Cave. These Darshans are in the shape of three natural rock formations called the Pindies. There are no statues or idols inside the Cave.   \r\n **Raghunath Temple**. Raghunath Temple is dedicated to the Hindu Lord Shri Rama. All the inner walls of this temple are covered with gold, on three sides. Galleries of this temple are covered with ‘ Saligrams. The other surrounding temples are related to other gods from the Ramayana. This temple is located in the centre, the heart, of Jammu.   \r\n **Sri Amarnath Ji Temple** ( Holy Amarnath Cave ). Temple is situated 144 km east to Srinagar. Lord Amarnath is in the form of an ice Silva-lingam. On the full moon day the lingam is approx 1.8 m high. In Rigveda it is said \"Ekam Sat\" means \"There is one Being, whom sages calls by many names. The Supreme Power (Parmeshwar) has three deities who carry on the world called - The Trinity . Lord Brahma - creator of World, Lord Vishnu - Perpetrator of life and Lord Shiva (Mahesh) - the purifier and perpetrator of good and destroyer of evil. Lord Shiva is known as Rudra in Rig Veda as in its following verse. \"We Worship Tryambaka (Rudra), Who spread Fragrance and Increases Nourishment, May He release me, like the cucumber from its stem , From Mortal Life , But not From Immorality.\"",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:30.296Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Mountain / Hills Jammu Division Sightseeing Jammu Division has a Hindu majority, unlike Jammu and Kashmir as a whole, which has a Muslim majority. The native language of Jammu is Dogri . The people in Jammu have cultural similarities with their Punjabi neighbours to the south and during certain periods of history were ruled by Punjabi Maharajas, but the hilly terrain of the land in contrast with the plains of Punjab has also made the people distinct in many ways. Jammu ( Urdu : جموں ڈویژن) is a hilly region of Jammu and Kashmir in northern India . Home to some of the most revered Hindu shrines, such as Vaishno Devi in Katra , Jammu is a major pilgrimage centre for Hindus from India.",
+      "travel_facts": {
+        "summary": "**Jammu Division** fans **Jammu Tawi (~68 km)** NH44 meshes beneath **IXJ (~72 km)** centroid stacks—Pir Panjal passes bias Volvo tides knowing Srinagar valley feeders diverge at Udhampur forks.",
+        "keywords": [
+          "jammu tawi nh44 meshes",
+          "ixj division centroid",
+          "pir panjal volvo tides",
+          "udhampur valley forks",
+          "vaishno katra radials",
+          "nh44 security queues"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-katra",
+      "name": "Katra",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 32.99111,
+        "lon": 74.93056,
+        "source": "wikidata"
+      },
+      "description": "**Katra**, also known as **Katra Vaishno Devi**, is a city in the Reasi district of the union territory of Jammu and Kashmir administered by India . It is in the foothills of the Trikuta Mountains, about 42 km from the city of Jammu , and 35 km from Udhampur . The main attraction is the Maa Vaishno Devi temple.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Katra",
+        "wikipedia": "https://en.wikipedia.org/wiki/Katra%2C_Jammu_and_Kashmir",
+        "wikidata": "https://www.wikidata.org/wiki/Q2668323"
+      },
+      "distance_km": 2242,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 1,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Katra, Jammu and Kashmir",
+        "Katra Vaishno Devi"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katra_town1.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Katra.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Jammu Airport (Satwari)",
+          "code": "IXJ",
+          "distance_km": 47,
+          "note": "Heli slots bias peak yatra weeks—prepaid taxi tiers thicken Ban Ganga dawn merges"
+        },
+        "nearest_railway_station": {
+          "name": "Shri Mata Vaishno Devi Katra railway station",
+          "distance_km": 3,
+          "note": "Vande Bharat Delhi stacks—pony/heli quotas jitter monsoon Trikuta closures"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Amritsar",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 3,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.5,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 28758,
+        "content_richness_score": 0.205
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane The nearest airport is in Jammu .\r\n\n\r\n By train 1 ** Shri Mata Vaishno Devi Katra    NR**  is served by several long-distance trains from different parts of India, including the **Jammu Mail** and the **Vande Bharat Express** from Delhi . There's a taxi stand and a bus stand outside the station. The average taxi fare is ₹820–890.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Sunchick",
+              "description": "",
+              "price": "₹700/day for a double"
+            },
+            {
+              "name": "National Guest House",
+              "description": "Clean and spacious rooms. 24hrs checkout.",
+              "price": "₹600-700/day for a double/triple"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:31.144Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Katra Sightseeing Katra, also known as Katra Vaishno Devi, is a city in the Reasi district of the union territory of Jammu and Kashmir administered by India . It is in the foothills of the Trikuta Mountains, about 42 km from the city of Jammu , and 35 km from Udhampur . The main attraction is the Maa Vaishno Devi temple.",
+      "travel_facts": {
+        "summary": "**Katra** sits **SMVD Katra (~3 km)** yatra rails beneath **IXJ (~47 km)** heli/taxi stacks—Trikuta pony quotas spike Navratri knowing Ban Ganga checkpoints thicken predawn hikes.",
+        "keywords": [
+          "smvd katra yatra rails",
+          "ixj heli taxi stacks",
+          "trikuta pony quotas",
+          "ban ganga dawn merges",
+          "vande bharat delhi stacks",
+          "navratri checkpoint tides"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-pahalgam",
+      "name": "Pahalgam",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 34.03222,
+        "lon": 75.32222,
+        "source": "wikidata"
+      },
+      "description": "**Pahalgam** is a city in the Kashmir Valley . It's a small place of 2-3 km, but you can spend a week there without getting bored.",
+      "category": "village",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Pahalgam",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pahalgam",
+        "wikidata": "https://www.wikidata.org/wiki/Q2085326"
+      },
+      "distance_km": 2353,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Pahalgom"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pahalgam.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pahalgham(the%20valley%20of%20shepherds).jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Sheikh ul Alam International Airport (Srinagar)",
+          "code": "SXR",
+          "distance_km": 98,
+          "note": "Lidder valley taxis ~2.5 hr—Amarnath yatra peaks choke Pahalgam base camps"
+        },
+        "nearest_railway_station": {
+          "name": "Anantnag railway station",
+          "distance_km": 42,
+          "note": "Kashmir Railway valley ribbons—shared Sumo tides dominate Betaab roadside merges"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Jammu",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight",
+          "train"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": true
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 24987,
+        "content_richness_score": 0.178
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane A taxi from Srinagar Airport or town centre to Pahalgam should be ₹2,200 and is a 2½-hour trip one way. From Jammu , the journey takes 8 hours.\r\n\n\r\n By train The closest railway service is to the Jammu station. See the _Hire Taxi_ and _Bus_ sections below for information about travelling from Jammu to Pahalgam.\r\n\n\r\n By hired taxi These rates vary from season to season with extreme rates in peak season (Mid-April to June). For those without any budget constraints, another option is to hire a personal taxi from Jammu bus stand to Pahalgam for ₹7500 (March 2016). A hired SUV taxi from Anantnag to Pahalgam costs ₹600-700 (March 2016).\r\n\n\r\n By bus Buses also ply the route from Jammu bus stand to Pahalgam, but they are very uncomfortable and take more time (12-14 hours). The rates are around ₹400-600.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Getting around Pahalgam is done mostly by walking, taxi and ponies. Ponies are available at officially published rates everywhere - Main market, Laripora, Aru, etc. Aru can be reached by taxi for an onward trek to Lidderwat, Kolohoi Glaciers, etc.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Three main sites in Pahalgam are: Chandanwari, Betaab Valley (so called because the Bollywood movie \"Betaab\" was shot there) and Aru valley. You can only take local taxis – Sumo, Tavera or similar 7-seater car – as taxis from Srinagar or Jammu are not allowed to take you sightseeing here. It will cost you about ₹1500, as there is no bargaining.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Amarnath Yatra** The holy pilgrimage to the Shiva Lingam can be done during a two-month period that starts in June or July (dates vary each year). The pilgrimage starts in Pahalgam and takes 3 days. Pilgrims take a taxi 16 km to Chandiwari then they walk or take a pony to the cave and back which takes at least 2 days with an overnight stay in either Shishnag or Panchtarni. It is a trip not for the faint-hearted, as it is quite arduous. \r\n Pahalgam offers lots of **treks**: Aru Valley, Kohli Glacier, Tarsar Lake, Chandiwari and Leh. The road to Ladakh is now open after winter so jeep safaris and camping trips to Leh, Pahalgam offers fishing. \r\n Go for a **pony ride** from the city centre to Kashmir Valley, Dabian and Baisaran where you can even have a picnic. Make sure to carry food and water along with you. Pony rides cost ₹500 or less (depending on your bargaining) in off-season (Feb-Mar) and can even go as high as ₹1500 in peak season (May-July). Baisaran is also called 'Mini Switzerland' by the locals and is well worth the ride. Chandanwari is a glacier and the starting point of the Amarnath Yatra. Aru valley is also a scenic spot. \r\n **Shooting the rapids** - Pahalgam offers white water rafting trips down the Lidder River. It is a beautiful trip, winding down the Lidder River through the natural forests and down the exhilarating rapids.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "One can drink special Kashmiri tea, **nun chai** and **konge kehwa** saffron tea. Around the place, there are many shops and hotels from which water, cold-drinks and juices can be bought."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:32.445Z",
+        "wikipedia_summary": "Pahalgam or Pahalgom is a town in Anantnag district of the Indian union territory of Jammu and Kashmir. It is located on the banks of Lidder River at an altitude of 2,200 m (7,200 ft) in the Vale of Kashmir. Pahalgam is the headquarters of the Pahalgam tehsil, one of the eleven tehsils in Anantnag district.",
+        "wikipedia_description": "Town in Jammu and Kashmir, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:32.496Z"
+      },
+      "search_context": "Mountain / Hills Pahalgam Sightseeing Pahalgam or Pahalgom is a town in Anantnag district of the Indian union territory of Jammu and Kashmir. It is located on the banks of Lidder River at an altitude of 2,200 m (7,200 ft) in the Vale of Kashmir. Pahalgam is the headquarters of the Pahalgam tehsil, one of the eleven tehsils in Anantnag district. Pahalgam is a city in the Kashmir Valley . It's a small place of 2-3 km, but you can spend a week there without getting bored.",
+      "travel_facts": {
+        "summary": "**Pahalgam** threads **Anantnag (~42 km)** Kashmir Railway ribbons toward **SXR (~98 km)** Lidder hops—Amarnath staging thickens Betaab valley merges each July window.",
+        "keywords": [
+          "anantnag valley ribbons",
+          "sxr lidder hops",
+          "amarnath staging merges",
+          "betaab roadside tides",
+          "kashmir railway sumos",
+          "jul window quotas"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-patnitop",
+      "name": "Patnitop",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 33.09028,
+        "lon": 75.32639,
+        "source": "wikidata"
+      },
+      "description": "**Patnitop** is a small hill-station town in the Jammu Division of Jammu and Kashmir , far away from the military tension in the Kashmir Valley .\r\n\nOrigin of the name Patnitop is a distortion of the original name of \"Patan Da Talab\", meaning \"Pond of the Princess\". In olden times a pond existed in the meadows and the king's princess often used to have her bath there. Part of the pond still exists near the youth hostel. The British probably couldn't get the name correct in their revenue records, and over the years it changed from \"Patan Da Talab\" to Patnitop.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Patnitop",
+        "wikipedia": "https://en.wikipedia.org/wiki/Patnitop",
+        "wikidata": "https://www.wikidata.org/wiki/Q7145131"
+      },
+      "distance_km": 2249,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patnitop_hill.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patnitop%20hill.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Jammu Airport (Satwari)",
+          "code": "IXJ",
+          "distance_km": 104,
+          "note": "NH44 ridge hops toward Srinagar midline—winter snow socks Nashri tunnel merges"
+        },
+        "nearest_railway_station": {
+          "name": "Udhampur railway station",
+          "distance_km": 46,
+          "note": "Chenani-Nashri tunnel feeders—shared taxi tiers benchmark Patnitop meadows"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 26617,
+        "content_richness_score": 0.19
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By share taxi Patnitop is well connected to Jammu city and Srinagar by national highway and can be reached by a local bus or taxi. Share taxis are available from Ghantaghar near Lal Chowk in Old Srinagar. One-way fare from Srinagar to Patnitop is ₹150 (2008) and the journey is completed in 5-6 hours.\r\n\nThe journey from Jammu takes approximately 2-3 hours and costs ₹100 per person in a shared Sumo.\r\n\n\r\n By train The nearest rail station to Patnitop is Udhampur , which has two trains per day that arrive from New Delhi. The best train is the 2446 Sampark Kranti Express that starts from New Delhi and reaches Udhampur at 8AM. From Udhampur, you can take a bus to Patnitop, which reaches there in an hour. Udhampur is connected to a small station called Chakki bank which is very close to Pathankot station. Pathankot is directly connected to New Delhi, Mumbai and Kolkata.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "You can even hire ponies or taxis for longer distances.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Climb \"Billo ki Powri\"",
+              "description": "\"Billo ki powri\" is a staircase of 270 steps carved in mountain stone.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 33.0948,
+                "lon": 75.3134
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Sanasar Meadows",
+              "description": "Enjoy the tranquility of the meadow, pine forest and views of snow capped mountains",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 33.09974,
+                "lon": 75.28853
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Climb \"Billo ki Powri\"**, Dawariyai ( 1.8 km from Patnitop on the Patnitop-Sanasar road ). \"Billo ki powri\" is a staircase of 270 steps carved in mountain stone.   \r\n 2 **Sanasar Meadows** ( 7000 ft above sea level ), 19 km from Patnitop Resort ( take left turn from the main Patnitop Junction on NH1A ). Enjoy the tranquility of the meadow, pine forest and views of snow capped mountains   \r\n **Trek to Sudh Mahadev temple**, is a 15-km, 5-hour moderate (Swiss Alpine Club grade - T2) trek. The trek starts at Hotel Green Top, Patnitop and ends at Sudh Mahadev, 20 km from Chennai town on the Chenani - Mantalai road. Sudh Mahadev temple is believed to be 2800 years old. This temple is one of the oldest Shiva temples in Jammu &amp; Kashmir. In the temple premises, there stands a Trident (Trishul) that in the local dialect is called 'Gaja'. The sacred Trident has inscriptions in an ancient manuscript that are yet undeciphered. The trekking trail is rocky for most part and requires hiking shoes. The trail passes through Chamunda Mata temple (2788 metres) on Shivgarh ridge which affords some mesmerising views over the Mantalai valley. Along the trail are nesting spots for Himalayan vultures. These colossal birds may weigh between 8–12 kilograms and they may achieve a wingspan between 8.4 and 10.2 feet. Whiteouts are frequent on Shivgarh ridge at midday and it's better to make an early start.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Go for a small excursion in the hill. \r\n Take a taxi to Nathatop and enjoy the snow covered peaks. For the more adventurous ones, Nathatop is a 14-km trek (one-way) and offers great views enroute. \r\n There are various picnic spots in Patnitop which can be enquired about from the locals.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Hotel Shivalik",
+              "description": "Indian, Chinese, Vaishno",
+              "location": null
+            },
+            {
+              "name": "Vaishno Dhabas",
+              "description": "There are Dhabas too. Although you do not see a semblance of a town, this is apparently the place where tourists find a short cut walkway to the Meadows.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There is a small liquor shop in Patnitop which serves almost all kinds of alcoholic beverages."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Govt Youth Hostel",
+              "description": "There are dormitories and family in the midst of the trekkers paradise and the forest. This is the point where Great Natural Heritage Trekking Expedition passed through or took off.",
+              "price": null
+            },
+            {
+              "name": "Hotel Green Land Patnitop",
+              "description": "Good budget hotel providing double rooms at ₹200 a night.",
+              "price": null
+            },
+            {
+              "name": "Hotel Shivalik",
+              "description": "The location of this hotel is Highway touch and from here one can walk up the Meadows and Forests that makes Patnitop famous. From here one can catch local buses to Srinagar passing via Batote, Ramban and Banihal via the famous 2.5-km Jawahar Tunnel.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:33.059Z"
+      },
+      "search_context": "Mountain / Hills Patnitop Sightseeing Patnitop is a small hill-station town in the Jammu Division of Jammu and Kashmir , far away from the military tension in the Kashmir Valley . Origin of the name Patnitop is a distortion of the original name of \"Patan Da Talab\", meaning \"Pond of the Princess\". In olden times a pond existed in the meadows and the king's",
+      "travel_facts": {
+        "summary": "**Patnitop** balances **Udhampur (~46 km)** tunnel feeders with **IXJ (~104 km)** NH44 stacks—shared taxis stitch meadow ridges before Srinagar-bound Volvo tides absorb Nashri merges.",
+        "keywords": [
+          "udhampur tunnel feeders",
+          "ixj nh44 stacks",
+          "chenani nashri merges",
+          "patnitop meadow taxis",
+          "srinagar volvo tides",
+          "winter ridge snow socks"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-sonamarg",
+      "name": "Sonamarg",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 34.30278,
+        "lon": 75.29583,
+        "source": "wikidata"
+      },
+      "description": "**Sonamarg** or **Sonmarg**, the \"Meadow of Gold\", is a hill station at 2,730 m in Jammu and Kashmir . It is reached from the Sindh Valley and has snow-capped mountains for its backdrop against the sky.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Sonamarg",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sonamarg",
+        "wikidata": "https://www.wikidata.org/wiki/Q4379433"
+      },
+      "distance_km": 2383,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Sonmarg",
+        "Sonamang"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Krishansar12.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sonamarg13.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Sheikh ul Alam International Airport (Srinagar)",
+          "code": "SXR",
+          "distance_km": 82,
+          "note": "Zoji-La approach staging—winter passes close civilian convoys unpredictably"
+        },
+        "nearest_railway_station": {
+          "name": "Srinagar railway station",
+          "distance_km": 72,
+          "note": "Sindh valley taxis finish alpine meadows—Leh convoys bias BRO dawn clearance radios"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Jammu",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight",
+          "train"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 11930,
+        "content_richness_score": 0.085
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "From Gangabal, a 17 km tough descent leads to Naranag, where ruins of Buddhist temples built by Jaluka, son of Ashoka, and also by King Lalityadaty are still present. This trekking route is also known as the \"Great Lakes Trek\".",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Sonmarg is a trekker's heaven and has adventurous routes with beautiful green water and frozen lakes around. The vale is believed to be bestowed with mystical water which turns everything into eternal riches. High altitude makes it cold even during summers. It is advisable to always carry warm clothes and rain proofs.\r\n\nThe everlasting Thajiwas Glacier, 3 km from Sonamarg, provides a chance to enjoy sledge ride on snow even in midsummer.\r\n\nPonies are available up to the glacier from Sonamarg. Ponywallahs will demand up to ₹1500 for one pony ride but will get you there for ₹500 in off season - you will have to haggle. Superb campsite in Thajiwas area makes it a prime location for trekkers and during summer. Sind river is a natural hatchery of trout, where angling is great fun, provided permission is obtained from the fisheries department. Ascending river makes Sonamarg ideal for river rafting.\r\n\nGet some woollen gear and gum boots for rent, start climbing the snow-laced mountains. People offer sledge rides, they charge ₹250/point (point refers to altitude of mountain divided into steps). It is better to rent some woollen gear and climb mountain and then hire a sledge to skate on snow from top.\r\n\n\r\n **Krishnasar Lake**. Located a few kilometres from Sonamarg. The lake is dedicated to trout fish conservation. One can enjoy trout fishing in the lake, though winter time is recommended. At an expense of ₹200, an hour-long time is allotted for fishing. \r\n **Sonmarg Gangabal trek**. The famous Gangabal trek starts from Sonamarg across the Sind River with steep Nichna Pass at 4080 m. This rough trek of 15 km from Sonamarg will certainly make you stop at the first visible campsite in the area. Passing via Vishansar Lake at 3680 m and further to Krishansar Lake (3819 m) 14 km, a marvellous campsite urges you to stop overnight. A 23 km trek to Gadsir Lake (3900 m) passes through steep climbs followed by rapid descent, whereafter the Gadsir Lake appears, mostly full of broken glacier masses, a trek of 17 km via Satsar Lake (3600 m) passes through Gangabal Valley, where the view of Harmukh Peak is breathtaking. A few kilometres of walking will take you to Gangabal Lake (3570 m) at the foot of Harmukh; a plain campsite amidst the valley is an unforgettable experience, \r\n **Tajiwas Glacier**: An exciting location for trek lovers, Thajwas Glacier situated just 3km away from Sonmarg is one of the most thrilling and striking experiences one can witness. The crown of Jammu and Kashmir, this glacier is famous for its exciting activities like sledding, hiking, and pony rides.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:33.893Z"
+      },
+      "search_context": "Mountain / Hills Sonamarg Sightseeing Sonamarg or Sonmarg, the \"Meadow of Gold\", is a hill station at 2,730 m in Jammu and Kashmir . It is reached from the Sindh Valley and has snow-capped mountains for its backdrop against the sky.",
+      "travel_facts": {
+        "summary": "**Sonamarg** climbs **Srinagar (~72 km)** Sindh ribbons beneath **SXR (~82 km)** stacks feeding Zoji-La logistics—BRO convoy radios dictate dawn departures before glacier melt surges.",
+        "keywords": [
+          "srinagar sindh ribbons",
+          "sxr zoji staging",
+          "bro convoy dawn radios",
+          "leh highway merges",
+          "meadow glacier surges",
+          "winter pass closures"
+        ]
+      }
+    },
+    {
+      "slug": "jammu-and-kashmir-srinagar",
+      "name": "Srinagar",
+      "region": "",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "lat": 34.09111,
+        "lon": 74.80611,
+        "source": "wikidata"
+      },
+      "description": "**Srinagar** ( Kashmiri : سِریٖنَگَر _Sirīnagar_, Urdu : سری نگر _Srī Nagar_) in the Kashmir Valley is the summer capital of Jammu and Kashmir and the largest city in the Kashmir region.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Apr–Jun & Sep–Nov (valleys); winters cold",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "season": "kashmir_valley_mountains"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Srinagar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Srinagar",
+        "wikidata": "https://www.wikidata.org/wiki/Q170115"
+      },
+      "distance_km": 2365,
+      "ideal_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "min_days": 2,
+      "weather_snippet": "Apr/May/Jun",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:33:16.299Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Sri Nagar",
+        "Srīnagar",
+        "Srinigar",
+        "Shrînâgar",
+        "Sirinagor",
+        "Serinagor",
+        "Shrinagar",
+        "Šrīnagar",
+        "summer capital of kashmir"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dal_LakeVR.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Srinagar%20pano.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "off_season_months": [
+          12,
+          1,
+          2,
+          7,
+          8
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–32",
+          "winter": "-5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Sheikh ul Alam International Airport",
+          "code": "SXR",
+          "distance_km": 14,
+          "note": "Budgam apron hops—Dal houseboat taxis thicken dawn fog stacks Jul–Aug"
+        },
+        "nearest_railway_station": {
+          "name": "Srinagar railway station",
+          "distance_km": 8,
+          "note": "Banihal-Baramulla Kashmir Railway spine—Shalimar bagh autos dodge peak Boulevard jams"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Bengaluru",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Jammu",
+          "Leh",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 173152,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Sheikh ul Alam Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Srinagar_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Sheikh ul Alam Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Srinagar_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Due to the delays in completing the Kashmir Railway (Jammu-Baramulla), many people still take a train to Jammu followed by a taxi or bus ride to Srinagar. The journey from Jammu to Srinagar is costlier in the summers because the capital is being shifted from Jammu to Srinagar, both in buses and taxis. Buses are safer but take more time and are a bit uncomfortable.\r\n\nForeigners are required to register upon arrival at the airport or at their hotel or houseboat.\r\n\n\r\n By plane 1 **Sheikh ul Alam Airport** ( **SXR **  IATA , Urdu : شیخ العالم ہوائی اڈا _Śe kh Ulālam Hawāi Aḍḍā_ ). Commonly known as Srinagar Airport. International, domestic and seasonal Hajj pilgrimage charters to Jeddah are operated from Sheikh ul Alam airport. Flights are operated from Delhi and Mumbai to Srinagar, with or without a stopover at Jammu . The frequency is once or twice a day by each airline. The cost is approx ₹2,500 from Jammu, ₹ 2,500-5,000 from Delhi one way and higher from Mumbai, depending on the different season.   \r\nThe airport is still heavily patrolled and you may see many soldiers or other armed security detachments. Winter flights can easily be cancelled due to weather conditions. Tickets are easy to purchase in the city. The airport requires a ticket for entrance. A taxi into Srinagar town should be ₹720 (as in August 2017) and direct to Gulmarg is ₹1,500-2,000. There is a minibus from airport to TRC (Tourist Reception Centre). It costs ₹70. TRC is 1 km to the Dal Lake. The minibus is dirty and fly-infested.\r\n\nWhen departing Srinagar by plane, make sure you have a printed copy of your ticket at hand, otherwise you will not be able to enter the airport. Additionally, allow approximately one hour to get from Srinagar to the airport. Security checks can cause traffic to bank up if there are a few flights leaving at around the same time.\r\n\n\r\n By taxi Hiring a TATA Sumo SUV (fits up to 9 people, or 5 comfortably plus luggage) from Jammu costs approximately ₹1,900-2,700 depending on time of year or even time of day. To reduce costs many people choose not to take an exclusive taxi, and share the Sumo taxi with others. This costs about ₹300-400 per person. For a comfortable trip, try for a seat in the middle row - the front bucket seat is (sometimes uncomfortably) shared by 2 people, and the far back could be quite bumpy as the highway is full of mountainous roads. The journey takes around 8 hour.\r\n\n\r\n By bus Jammu &amp; Kashmir State Road Transport Corporation (JKSRTC) operates fairly comfortable buses from Jammu costing around ₹350 and do the journey in around 12 hr. 2-day buses run between Srinagar and Leh staying overnight in Kargil .\r\n\nThere are also direct buses from Delhi taking almost 24 hours to reach Srinagar.\r\n\n\r\n By train 2 ** Srinagar    NR**  . A station on the Kashmir Railway (Jammu-Baramulla). It is served by regular passenger trains from Banihal , as well as express trains from Katra , including a Vande Bharat Express. However, all express trains from mainland India stop at Katra or Jammu , so you have to change trains to reach to your final destinations in Kashmir.  ( updated Mar 2026 ) \r\n By bicycle Srinagar is about 80 km away from Sonamarg . Cycling to Sonamarg is a reasonable day ride for a fit cyclist, and Sonamarg provides plenty of accommodation options. The ride from Sonamarg to Srinagar, being mostly downhill, is an easy one. Riding on the East side of Dal Lake is slightly less direct, but traffic is low, and the route provides lovely views over the lake.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Taxis and buses area also available. Motorcycles can also be rented for enthusiasts.\r\n\nNegotiate a price with a rickshaw driver before getting in; they are notorious for overcharging and generally being dishonest. Their usual ploy is: \"no problem\" or \"up to you\". As soon as you reach your destination they will have a volte-face! Drivers usually don't speak English but there will always be a passer-by to help translate for you.\r\n\nA rickshaw from Nigeen Lake to Boulevard is approximately​ ₹70 depending on negotiation skills (August 2009).\r\n\nUsually private service buses run throughout the city and are well networked with major tourist spots.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Dal Lake",
+              "description": "Dal Lake is one of the prime attractions of Srinagar. Located at the very centre of the city, the lake covers an area of 21 km², which includes 3 km² of wetland. The lake has a circumference of 15.5 km. The lake is best explored on a shikara, a beautifully decorated boat that features in the logo of Jammu &amp; Kashmir Tourism. Apart from open waters the lake also consists of floating markets, locally called _rad_. They basically constitute of matted vegetation and earth, but are floating. These are detached from the bottom of the lake and drawn to a suitable place and anchored. With nutrients from both land and water, these floating islands are used for cultivating tomatoes, cucumbers and melons. The area is a complex maze of floating cultivation patches separated by narrow water channels. The shikara negotiates through this complex maze with the skipper making his way through the complex maze of land and water. Floating market is another interesting area of the market. The market operates on floating shops approachable only by boat. They sell anything from artifacts including Kashmiri carpets. The shops doubles up as the artifacts workshop and provide the tourist with an insight into carpet making. The lake also accounts for floating hawkers opearting from boats selling anything from Kashmiri shawl to wood work and from saffron to the magical stone of Silajit. The Dal Lake actually consists of four lakes namely Gagribal (southern part), Lokut Dal (northern part), Bod Dal (central part) and Nagin. Nagin, the smallest and the most beautiful of the four, is often considered as a distinct lake on its own.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.11059,
+                "lon": 74.86826
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Nagin Lake",
+              "description": "Unlike the other three parts of Dal Lake the Nagin Lake is a separate lake connected to the Dal Lake by a narrow water channel. It is located on the western side of the Dal Lake and at the foot of Hari Parbat. It also has its share of floating vegetable gardens and house boats.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.11916,
+                "lon": 74.83062
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Rupa Lank",
+              "description": "Rupa Lank, literally meaning silver island, is in the Dod Dal (central area of Dal Lake). The man-made island was constructed by Murad Baksh, brother of the last Mughal emperor, Aurangzeb. The island consists of four giant chinar trees in the four corners and the entire island consists of manicured lawns and paved pathways. There is a small house boat restaurant next to the island.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.10317,
+                "lon": 74.8667
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Sona Lank",
+              "description": "Sona Lank, literally meaning gold island, is located in Lokut Dal, in the northern part of Dal Lake. It is next to the shrine of Hazarat Bal. This too follows a similar plan with four chinar trees at the four corners and is also made by Murad Baksh.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.13306,
+                "lon": 74.85286
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Nehru Garden",
+              "description": "A well-maintained park with lake by Dept of Floriculture with organised parking lot next to the park. The park occupies a large area and has a beverage shop run by the J&amp;K Tourism department. They serve hot and flavoured \"Kahva\", a traditional drink of Kashmir. A cup costs ₹25. The nearby Tulip Park only has seasonal access. There is adequate parking adjacent to the park.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.093,
+                "lon": 74.882
+              },
+              "price": "Adult: ₹10"
+            },
+            {
+              "order": 6,
+              "name": "Indira Gandhi Memorial Tulip Garden",
+              "description": "Located on the eastern side of the Dal Lake, the Tulip Garden covers an area of 30 ha (74 acres) and is the largest tulip garden of Asia . It is located at the foothill of Zabarwan Range and overlooks the Dal lake. The garden was opened in 2007 with the aim of promoting floriculture tourism. It used to be known as Siraj Bagh. The garden is home to 65 varieties of tulip along with several other plants including daffodils, hyacinth and ranunculus. During its opening about 1.5 million bulbs of Tulip were flown in from Amsterdam . Holland . The Tulip Garden is also the venue for the Tulip Festival which happens every year in the month of April.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Indira_Gandhi_Memorial_Tulip_Garden",
+              "coordinates": {
+                "lat": 34.09604,
+                "lon": 74.87844
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Chashme Shahi Garden",
+              "description": "Chashme Shahi is the smallest of the three Mughal gardens of Srinagar, but in spite of its small size, the garden has its share of elegance. Cheshma Shahi (or Royal Spring) derives its name from a water source, a spring located at the uppermost terrace of the Garden. The water of the spring is said to possess some curative properties, especially for stomach ailments. The triple terrace garden is located on the southeastern edge of Dal Lake and offers a great view of the lake area and the Jhelum River valley. The garden was constructed by Ali Mardan Khan, governor of Emperor Shah Jahan in 1632 – 33.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.08607,
+                "lon": 74.8869
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Nishat Bagh",
+              "description": "Located on the eastern banks of Dal Lake, with the Zabarwan Mountains as its backdrop, the garden was designed in 1633 AD by Asaf Khan, brother of Nur Jehan. Literally meaning the 'garden of bliss' it commands a magnificent view of the lake and the snow-capped Pir Panjal mountain range which stands far away to the west of the valley. Although a Mughal garden, it plans were altered because of the hilly terrain. It has an elongated plan (instead of a square plan of Mughal garden) of 548 m X 338 m and is centred around a water channel, measuring 4 m wide and 20 cm deep. The channel flows in the east to west direction and is decorated with fountains and occasionally fountain pools. The garden consists of 12 terraces, representing the 12 signs of the zodiac. However, it has only two sections, namely the public garden and the private garden for the Zanana or harem. The terraces are lined along the central channel and consist of stoned paved pathways and short flights of stairs. The pathways are lined with chinar trees.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.12487,
+                "lon": 74.87944
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Shalimar Bagh",
+              "description": "Shalimar, literally means abode of love, is a Mughal garden located on the northeast corner of Dal lake. It was built by Mughal Emperor Jahangir, for his wife Nur Jahan, in 1619. During Jahangir's reign, Srinagar served as the summer capital of the Mughal empire and Shilimar Bagh served as the Mughal court. Like Nishat Bagh, Shalimar Bagh follows the elongated plan with a dimension of 587 m by 251 m. The three-stage garden covers an area of 12.4 hectares (31 acres) and is centred around a central water channel. The lowest terrace contains the Diwan-e-Aam (public audience hall). The Diwan-e-Khas (the Hall of Private Audience) is located in the second terrace. The third and the uppermost terrace is topped with a central Zenna (Harem) pavilion, whose entrance is flanked with two smaller pavilion. The garden has paved pathways lined with chinar trees. The water channels consist of fountains and pools. The garden provides a grand bird eye view of the Dal Lake and the surroundings.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.15017,
+                "lon": 74.8737
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Hazratbal Mosque",
+              "description": "The mosque houses a strand from the Prophet’s beard and hence the name Hazarat Bal. The strand of the beard is displayed on special days. The mosque is located on the western bank of Lokut Dal, the northern portion of the Dal Lake. Visible from the mosque compound is the island of Sona Lank, with four chinar trees in the four corners. The white mosque is breathtakingly beautiful. Women may enter only the first part of the mosque. The adjoining area is a foodie's delight with several makeshift food shop selling deep-fried snacks.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.12917,
+                "lon": 74.8424
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Shankaracharya Mandir",
+              "description": "A Hindu temple dedicated to Lord Shiva on a hilltop. It can be reached by car or taxi or auto rickshaw. You can walk too. It is a 5 km walk from the entrance of the hill. No cameras or mobiles phones are allowed within the temple and you are supposed to leave them in the vehicle before entering the temple premises. The army checkpoint can also keep your camera and mobilesphones. Cigarettes and alcoholic drinks should be deposited with the police before the ascent of the hill, as these items are against Hindu religion. Locals from Dal Gate say there are 250 steps to reach the temple. The temple is visible from Dal Lake Area. The temple complex offers a great bird eye view of the Dal Lake area and beyond.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.07892,
+                "lon": 74.84372
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Tomb of the Mother of Zain-ul-Abidin",
+              "description": "Hidden in the streets between river and Zainda Kadal, this extraordinary brick mausoleum marks the final resting place of Sultan Sikande’s wife.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.09486,
+                "lon": 74.80602
+              },
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Ziarati Hazrati Youza Asouph",
+              "description": "In the Khanyar area, about 150 m NW of Dastgir Saheb mosque &amp; shrine. This tomb, also known as **Roza Bal**, is believed by some to be the tomb of Jesus (part of the larger theory that he survived the crucifixion and made his way to Kashmir where he lived until at least the age of 100). It has been made popular by books such as _Jesus Lived in India_ by Holger Kersten (1983) among others. It's down a little side road - ask around, pretty much anyone in the area can point you in the right direction. It was closed in 2011 and sealed, photography and videography are not permitted.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Roza_Bal",
+              "coordinates": {
+                "lat": 34.09417,
+                "lon": 74.81639
+              },
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Pari Mahal",
+              "description": "Pari Mahal, literally meaning the palace of the fairies, is a seven terraced garden located at the southeast corner of Dal Lake. The garden was constructed by Dara Sukho, elder brother of Aurangzeb, the last of the great Mughals. It was constructed in the mid 17th century. The uppermost terrace contains two baradari-styled structures and a reservoir. The walls consists of arched gateways and there are several other structures in the compound.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Pari_Mahal",
+              "coordinates": {
+                "lat": 34.08333,
+                "lon": 74.88333
+              },
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "Parihaspora",
+              "description": "Visit the ruins located on the outskirts of Srinagar on way to Gulmarg. See the palaces of Kashmir's Buddhist and Hindu rulers and Buddhist places of worship.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Parihaspore",
+              "coordinates": {
+                "lat": 34.13333,
+                "lon": 74.63333
+              },
+              "price": null
+            },
+            {
+              "order": 16,
+              "name": "SPS Museum",
+              "description": "This museum established in the late 19th century houses around 80,000 artefacts mainly from the broader Jammu and Kashmir region.In 2017, a second building which is more resistant to earthquakes and other natural disasters was constructed, and many of the more valuable and vulnerable artefacts were moved there. The original building is still in use.",
+              "wikipedia": "https://en.wikipedia.org/wiki/SPS_Museum",
+              "coordinates": {
+                "lat": 34.06678,
+                "lon": 74.81312
+              },
+              "price": "Indian citizens ₹10, foreigners ₹50, students ₹5"
+            }
+          ],
+          "brief": "Dal Lake 1 **Dal Lake**. Dal Lake is one of the prime attractions of Srinagar. Located at the very centre of the city, the lake covers an area of 21 km², which includes 3 km² of wetland. The lake has a circumference of 15.5 km. The lake is best explored on a shikara, a beautifully decorated boat that features in the logo of Jammu &amp; Kashmir Tourism. Apart from open waters the lake also consists of floating markets, locally called _rad_. They basically constitute of matted vegetation and earth, but are floating. These are detached from the bottom of the lake and drawn to a suitable place and anchored. With nutrients from both land and water, these floating islands are used for cultivating tomatoes, cucumbers and melons. The area is a complex maze of floating cultivation patches separated by narrow water channels. The shikara negotiates through this complex maze with the skipper making his way through the complex maze of land and water. Floating market is another interesting area of the market. The market operates on floating shops approachable only by boat. They sell anything from artifacts including Kashmiri carpets. The shops doubles up as the artifacts workshop and provide the tourist with an insight into carpet making. The lake also accounts for floating hawkers opearting from boats selling anything from Kashmiri shawl to wood work and from saffron to the magical stone of Silajit. The Dal Lake actually consists of four lakes namely Gagribal (southern part), Lokut Dal (northern part), Bod Dal (central part) and Nagin. Nagin, the smallest and the most beautiful of the four, is often considered as a distinct lake on its own.  ( updated May 2024 ) \r\n 2 **Nagin Lake** ( Nigeen Lake ). Unlike the other three parts of Dal Lake the Nagin Lake is a separate lake connected to the Dal Lake by a narrow water channel. It is located on the western side of the Dal Lake and at the foot of Hari Parbat. It also has its share of floating vegetable gardens and house boats.   \r\nThere are two islands in the Dal Lake: Rupa Lank and Sona Lank. Both the islands are square, with the four corners marked with chinar trees. For these reasons, the islands are popularly known as Char Chinar.\r\n\n\r\n 3 **Rupa Lank**. Rupa Lank, literally meaning silver island, is in the Dod Dal (central area of Dal Lake). The man-made island was constructed by Murad Baksh, brother of the last Mughal emperor, Aurangzeb. The island consists of four giant chinar trees in the four corners and the entire island consists of manicured lawns and paved pathways. There is a small house boat restaurant next to the island.  ( updated Apr 2021 ) \r\n 4 **Sona Lank**. Sona Lank, literally meaning gold island, is located in Lokut Dal, in the northern part of Dal Lake. It is next to the shrine of Hazarat Bal. This too follows a similar plan with four chinar trees at the four corners and is also made by Murad Baksh.  ( updated Apr 2021 ) \r\n Gardens 5 **Nehru Garden** ( Jawaharlal Nehru Memorial Botanical Garden ), off Dal Gate ( before Chasmashahi Garden ). A well-maintained park with lake by Dept of Floriculture with organised parking lot next to the park. The park occupies a large area and has a beverage shop run by the J&amp;K Tourism department. They serve hot and flavoured \"Kahva\", a traditional drink of Kashmir. A cup costs ₹25. The nearby Tulip Park only has seasonal access. There is adequate parking adjacent to the park. Adult: ₹10 .   \r\n 6 **Indira Gandhi Memorial Tulip Garden** . Located on the eastern side of the Dal Lake, the Tulip Garden covers an area of 30 ha (74 acres) and is the largest tulip garden of Asia . It is located at the foothill of Zabarwan Range and overlooks the Dal lake. The garden was opened in 2007 with the aim of promoting floriculture tourism. It used to be known as Siraj Bagh. The garden is home to 65 varieties of tulip along with several other plants including daffodils, hyacinth and ranunculus. During its opening about 1.5 million bulbs of Tulip were flown in from Amsterdam . Holland . The Tulip Garden is also the venue for the Tulip Festival which happens every year in the month of April.  ( updated May 2021 ) \r\n Mughal gardens With terraced lawns, cascading fountains, paint-box-bright flowerbeds with the panorama of the Dal in front of them: the three Mughal Gardens of Chesmashahi, Nishat and Shalimar are the Mughal Emperors' concept of paradise and are today very popular places for picnics and excursions. The beauty of these gardens is at their best during spring but the Mughal structure of these gardens lends them a unique sense of beauty even when the flowers are not blooming.\r\n\n\r\n 7 **Chashme Shahi Garden**. Chashme Shahi is the smallest of the three Mughal gardens of Srinagar, but in spite of its small size, the garden has its share of elegance. Cheshma Shahi (or Royal Spring) derives its name from a water source, a spring located at the uppermost terrace of the Garden. The water of the spring is said to possess some curative properties, especially for stomach ailments. The triple terrace garden is located on the southeastern edge of Dal Lake and offers a great view of the lake area and the Jhelum River valley. The garden was constructed by Ali Mardan Khan, governor of Emperor Shah Jahan in 1632 – 33.   \r\n 8 **Nishat Bagh**. Located on the eastern banks of Dal Lake, with the Zabarwan Mountains as its backdrop, the garden was designed in 1633 AD by Asaf Khan, brother of Nur Jehan. Literally meaning the 'garden of bliss' it commands a magnificent view of the lake and the snow-capped Pir Panjal mountain range which stands far away to the west of the valley. Although a Mughal garden, it plans were altered because of the hilly terrain. It has an elongated plan (instead of a square plan of Mughal garden) of 548 m X 338 m and is centred around a water channel, measuring 4 m wide and 20 cm deep. The channel flows in the east to west direction and is decorated with fountains and occasionally fountain pools. The garden consists of 12 terraces, representing the 12 signs of the zodiac. However, it has only two sections, namely the public garden and the private garden for the Zanana or harem. The terraces are lined along the central channel and consist of stoned paved pathways and short flights of stairs. The pathways are lined with chinar trees.   \r\n 9 **Shalimar Bagh**. Shalimar, literally means abode of love, is a Mughal garden located on the northeast corner of Dal lake. It was built by Mughal Emperor Jahangir, for his wife Nur Jahan, in 1619. During Jahangir's reign, Srinagar served as the summer capital of the Mughal empire and Shilimar Bagh served as the Mughal court. Like Nishat Bagh, Shalimar Bagh follows the elongated plan with a dimension of 587 m by 251 m. The three-stage garden covers an area of 12.4 hectares (31 acres) and is centred around a central water channel. The lowest terrace contains the Diwan-e-Aam (public audience hall). The Diwan-e-Khas (the Hall of Private Audience) is located in the second terrace. The third and the uppermost terrace is topped with a central Zenna (Harem) pavilion, whose entrance is flanked with two smaller pavilion. The garden has paved pathways lined with chinar trees. The water channels consist of fountains and pools. The garden provides a grand bird eye view of the Dal Lake and the surroundings.   \r\n Places of worship 10 **Hazratbal Mosque**. The mosque houses a strand from the Prophet’s beard and hence the name Hazarat Bal. The strand of the beard is displayed on special days. The mosque is located on the western bank of Lokut Dal, the northern portion of the Dal Lake. Visible from the mosque compound is the island of Sona Lank, with four chinar trees in the four corners. The white mosque is breathtakingly beautiful. Women may enter only the first part of the mosque. The adjoining area is a foodie's delight with several makeshift food shop selling deep-fried snacks.   \r\n 11 **Shankaracharya Mandir**. A Hindu temple dedicated to Lord Shiva on a hilltop. It can be reached by car or taxi or auto rickshaw. You can walk too. It is a 5 km walk from the entrance of the hill. No cameras or mobiles phones are allowed within the temple and you are supposed to leave them in the vehicle before entering the temple premises. The army checkpoint can also keep your camera and mobilesphones. Cigarettes and alcoholic drinks should be deposited with the police before the ascent of the hill, as these items are against Hindu religion. Locals from Dal Gate say there are 250 steps to reach the temple. The temple is visible from Dal Lake Area. The temple complex offers a great bird eye view of the Dal Lake area and beyond.  ( updated Aug 2017 ) \r\n Tombs 12 **Tomb of the Mother of Zain-ul-Abidin**. Hidden in the streets between river and Zainda Kadal, this extraordinary brick mausoleum marks the final resting place of Sultan Sikande’s wife.   \r\n 13 **Ziarati Hazrati Youza Asouph** ( Roza Bal ). In the Khanyar area, about 150 m NW of Dastgir Saheb mosque &amp; shrine. This tomb, also known as **Roza Bal**, is believed by some to be the tomb of Jesus (part of the larger theory that he survived the crucifixion and made his way to Kashmir where he lived until at least the age of 100). It has been made popular by books such as _Jesus Lived in India_ by Holger Kersten (1983) among others. It's down a little side road - ask around, pretty much anyone in the area can point you in the right direction. It was closed in 2011 and sealed, photography and videography are not permitted.   \r\n Others 14 **Pari Mahal** . Pari Mahal, literally meaning the palace of the fairies, is a seven terraced garden located at the southeast corner of Dal Lake. The garden was constructed by Dara Sukho, elder brother of Aurangzeb, the last of the great Mughals. It was constructed in the mid 17th century. The uppermost terrace contains two baradari-styled structures and a reservoir. The walls consists of arched gateways and there are several other structures in the compound.  ( updated Mar 2026 ) \r\n 15 **Parihaspora** , Dewar ( on way to Gulmarg ). Visit the ruins located on the outskirts of Srinagar on way to Gulmarg. See the palaces of Kashmir's Buddhist and Hindu rulers and Buddhist places of worship.  ( updated Mar 2026 ) \r\n 16 **SPS Museum** ( Shri Pratap Singh Museum ), Lal Mandi , ☏ +91 9419982772 , contactspsmuseum@gmail.com . Tu-Su 10AM-5PM . This museum established in the late 19th century houses around 80,000 artefacts mainly from the broader Jammu and Kashmir region.In 2017, a second building which is more resistant to earthquakes and other natural disasters was constructed, and many of the more valuable and vulnerable artefacts were moved there. The original building is still in use. Indian citizens ₹10, foreigners ₹50, students ₹5 .  ( updated Mar 2024 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Musical Fountain",
+              "description": "The musical fountain along with laser show was inaugurated in April 2019. It runs three times a day after 7 pm and consists of a 15-minute show. Apart from the musical fountain the show also depicts the history of Kashmir through a laser show."
+            }
+          ],
+          "brief": "The musical fountain along with laser show was inaugurated in April 2019. It runs three times a day after 7 pm and consists of a 15-minute show. Apart from the musical fountain the show also depicts the history of Kashmir through a laser show.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Kahwah is a traditional green tea recipe from Kashmir. The tea is made from green tea leaves with saffron strands, cinnamon bark and cardamom pods. Some varieties are made as a herbal infusion only, without the green tea leaves. Generally, it is served with sugar or honey, and crushed nuts, usually almonds or walnuts. There is another form of tea that is quite famous amongst the locals, it's called 'namkeen chai' or 'nun chai'. It is pink in colour and is also called pink tea. It is made from black tea, cardamom, various spices, salt and bicarbonate of soda. Also people like nune toath and dum toath which are very famous among Sufis. Nunetoath is nunechai without milk and dumtoath is a strong form of kahwa.\r\n\nIf searching for a beer or other drink there is a small bottle shop on the Boulevard. It's at the base of a hotel about halfway up the street and looks like a mini-Fort Knox. Ask people on the street and they'll point you in the right direction.\r\n\n\r\n **There**, Alpine Ridge Hotel ( In Gulmarg ), ☏ +91 195 4254527 . Inside the Alpine Ridge hotel. Western-style food and alcohol in a relaxed environment, with indie music and a fusion of local Kashmiri craft and Scandinavian woodwork in the decor. Après-ski option on the mountain. Open from 10:00 for the ski season, Dec-March."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Blooming Dale",
+              "description": "A small place with a lush green lawn suitable for families and individuals. Typical Kashmir hospitality.",
+              "price": null
+            },
+            {
+              "name": "Hotel Ishfan",
+              "description": "Mid-range hotel with double room starting at ₹2,500. In off-season, rooms can even be bargained up to ₹400. The in-house restaurant serves North Indian food as well as chicken delicacies.",
+              "price": null
+            },
+            {
+              "name": "Butt's Clermont Houseboats",
+              "description": "Moored on northwest edge of Dal Lake nearby to an old Mughal Garden believed to have been built by Emperor Akbar and called Garden of Breeze. Butt’s houseboats have had some famous guests, including Ravi Shankar, Galbraith, Rockefeller and Yehudi Menuhin.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Beware of monkeys — gray langurs can be aggressive",
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:34.730Z",
+        "wikipedia_summary": "Srinagar is a city in Indian-administered Jammu and Kashmir in the disputed Kashmir region. It is the largest city and summer capital of Jammu and Kashmir, which is an Indian-administered union territory. It lies in the Kashmir Valley along the banks of the Jhelum River, and the shores of Dal Lake and Anchar Lakes, between the Hari Parbat and Shankaracharya hills. The city is known for its natural environment, various gardens, waterfronts and houseboats. It is also known for traditional Kashmiri handicrafts like the Kashmir shawl, papier-mâché, wood carving, carpet weaving, and jewel making, as well as for dried fruits. It is the second-largest metropolitan area in the Himalayas.",
+        "wikipedia_description": "City in Indian-administered Jammu and Kashmir",
+        "wikipedia_fetched_at": "2026-05-18T09:54:34.781Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Srinagar Sightseeing Srinagar is a city in Indian-administered Jammu and Kashmir in the disputed Kashmir region. It is the largest city and summer capital of Jammu and Kashmir, which is an Indian-administered union territory. It lies in the Kashmir Valley along the banks of the Jhelum River, and the shores of Dal Lake and Anchar Lakes, between the Hari Parbat and Shankaracharya hills. The city is known for its natural environment, various gardens, waterfronts and houseboats. It is also known for traditional Kashmiri handicrafts like the Kashmir shawl, papier-mâché, wood carving, carpet weaving, and jewel making, as well as for dried fruits. It is the second-largest metropolitan area in the Himalayas. Srinagar ( Kashmiri : سِریٖنَگَر _Sirīnagar_, Urdu : سری نگر _Srī Nagar_) in the Kashmir Valley is the summer capital of Jammu and Kashmir and the largest city in the Kashmir region.",
+      "travel_facts": {
+        "summary": "**Srinagar** pairs **Srinagar station (~8 km)** Kashmir Railway spines with **SXR (~14 km)** Budgam stacks—Dal Boulevard jams spike festival weeks; Jammu rail-road combos linger until full valley electrification stabilizes.",
+        "keywords": [
+          "sxr budgam stacks",
+          "srinagar railway spines",
+          "dal boulevard jams",
+          "houseboat dawn fogs",
+          "banihal baramulla tides",
+          "jammu road combos"
+        ]
+      }
+    }
+  ]
+}

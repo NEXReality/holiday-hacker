@@ -1,0 +1,1046 @@
+{
+  "state": "Dadra and Nagar Haveli and Daman and Diu",
+  "state_code": "DA",
+  "generated_at": "2026-05-18T10:34:13.833Z",
+  "count": 3,
+  "destinations": [
+    {
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu-daman",
+      "name": "Daman",
+      "region": "",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "coordinates": {
+        "lat": 20.41694,
+        "lon": 72.83402,
+        "source": "wikidata"
+      },
+      "description": "A city and district in the union territory of Dadra and Nagar Haveli and Daman and Diu.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (west coast monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "west_coastal_and_arid"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Daman_(India)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Daman%2C_India",
+        "wikidata": "https://www.wikidata.org/wiki/Q463252"
+      },
+      "distance_km": 971,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T06:41:02.099Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Damão",
+        "Damao",
+        "Damaun"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Daman_Bom_Jesus_Church.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gateway%20of%20Moti%20Daman.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–38",
+          "winter": "18–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Surat International Airport",
+          "code": "STV",
+          "distance_km": 125,
+          "note": "NH48 coastal wedge—Mumbai BOM (~175 km) alternate during Surat monsoon diversions"
+        },
+        "nearest_railway_station": {
+          "name": "Vapi railway station",
+          "distance_km": 12,
+          "note": "WR Mumbai–Ahmedabad spine—autos ply Vapi–Daman routinely past textile checkpoints"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Mumbai",
+          "Ahmedabad",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Mumbai",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 5124,
+        "content_richness_score": 0.037
+      },
+      "section_briefs": {},
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.519Z"
+      },
+      "search_context": "Heritage / Culture City / Urban city Daman Damão Damao Damaun Sightseeing A city and district in the union territory of Dadra and Nagar Haveli and Daman and Diu.",
+      "travel_facts": {
+        "summary": "**Daman** hugs **NH48** between Gujarat coast hops—stage via **Vapi (~12 km)** WR expresses before beach-drive liquor weekends from dry-state neighbours. **Surat STV (~125 km)** absorbs most jets; fog banks along Sabarmati mouths delay dawn taxis.",
+        "keywords": [
+          "Vapi WR staging",
+          "NH48 coastal wedge",
+          "STV jet approach",
+          "Daman diversion autos",
+          "Portuguese fort circuits",
+          "monsoon coastal fog"
+        ]
+      }
+    },
+    {
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu-diu",
+      "name": "Diu",
+      "region": "",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "coordinates": {
+        "lat": 20.71,
+        "lon": 70.98,
+        "source": "wikidata"
+      },
+      "description": "**Diu** ( Gujarati : દીવ _Dīv_) is an island that is home to 44,000 people (2011) south of Gujarat , India . It is connected to the mainland by bridges and a ferry. It is part of the union territory of Dadra and Nagar Haveli and Daman and Diu .",
+      "category": "beach",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (west coast monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "west_coastal_and_arid"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Diu",
+        "wikipedia": "https://en.wikipedia.org/wiki/Diu_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q5283744"
+      },
+      "distance_km": 1111,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Beach",
+      "metadata": {
+        "extracted_at": "2026-05-12T06:41:02.099Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Diu Island"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagoa_Beach%2C_Diu.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagoa%20Beach%2C%20Diu.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–38",
+          "winter": "18–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Diu Airport",
+          "code": "DIU",
+          "distance_km": 6,
+          "note": "Alliance/IndiGo turboprop stacks—verify Ahmedabad/Surat rotations before Gujarat dry-season surges"
+        },
+        "nearest_railway_station": {
+          "name": "Una (Gujarat) railway station",
+          "distance_km": 12,
+          "note": "Feeder taxis toward island bridges—Veraval Junction (~90 km) carries Ahmedabad expresses"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Mumbai",
+          "Ahmedabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Mumbai",
+          "Ahmedabad",
+          "Surat"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "water_sports",
+          "relaxation"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 114273,
+        "content_richness_score": 0.816
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Diu was a Portuguese colony from 1539 to 1961, when the Indian government used military action to retake all the Portuguese enclaves. Apart from Diu, also Daman , Goa , Dadra and Nagar Haveli were \"captured\" in this conflict. This area used to be a part of a larger union territory of Goa, Daman and Diu before Goa became a state by itself. Diu is directly administered by Delhi as part of the union territory of Dadra and Nagar Haveli and Daman and Diu .\r\n\nDiu has fine but not so spectacular beaches, Diu town, some villages and all in all very relaxed atmosphere compared to most of India. Diu is not anything like Goa for example and those expecting to find a similar place on a smaller scale might be disappointed.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Diu Bus Station",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Diu Bus Station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Ghoghla Bus Station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Vanakbara Bus Station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "The nearest junction is at Veraval , 90 km from Diu. A direct train connects Verval to Ahmedabad. The nearest railway station from Diu is Una, which is 12 km from Diu.\r\n\n\r\n By plane 1 ** Diu Airport ** ( **DIU **  IATA ), Airport Rd . Alliance Air flies between Mumbai and Diu four times a week. There are also daily flights by IndiGo from Ahmedabad and Surat to Diu.  ( updated Jan 2021 ) \r\n By helicopter A helicopter fight is available from Daman to Diu from M-Sa. Please confirm with Pawan Hans Ltd before planning as the fight may not operate regularly.\r\n\n\r\n ** Diu Daman Heliride **, ☏ +91 0120 2476700 , contact@pawanhans.co.in . M-Sa 10:30AM from Daman, arrives at 11:40AM . ₹3,675 .  ( updated Jun 2024 ) \r\n By bus State-run buses as well as some private companies serve Diu from Ahmedabad . Trips take around ten hours and both regular and nocturnal sleeper buses exist.\r\n\nA more than 20-hour trip by bus from Mumbai is also possible.\r\n\n\r\n 2 **Diu Bus Station**.  ( updated May 2022 ) \r\n 3 **Ghoghla Bus Station**.  ( updated May 2022 ) \r\n 4 **Vanakbara Bus Station**.  ( updated May 2022 ) \r\n By car Diu has an underdeveloped road system, leading to traffic jams during rush hours.\r\n\nLike elsewhere in India, driving is challenging in Diu. You find cycles, motor cycles, rickshaws, hand carts, autos, share autos, mini trucks, buses, vestibule buses, and double deckers jostling along. There are long stretches of roads passing through thickly populated areas that have no median breaks, so vehicles, including motorbikes and cars, simply drive on the wrong side of the road. Several modern flyovers now link the arterial roads.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Autorickshaws, rent a bike or a scooter.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Diu Fort",
+              "description": "The Portuguese built the fort in 1535 and maintained an active garrison within it until 1960. Constructed on cliffs which breaks water and gives fantastic seaview. Every bastion of the fort is named after a saint. There is an old church, a chapel and a lighthouse inside the fort.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Diu_Fortress",
+              "coordinates": {
+                "lat": 20.71479,
+                "lon": 70.99603
+              },
+              "price": "Free"
+            },
+            {
+              "order": 2,
+              "name": "Pani Kotha",
+              "description": "It is in the middle of the jetty near the main town of Diu, which was in use since the Portuguese times. A sight to see during the night.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71914,
+                "lon": 70.99578
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Diu Museum",
+              "description": "St Thomas Church was built in 1598 by an order of Bishop D. Aleixo Menezes. Following desecration, it was used an orphanage, old age home, museum, police station and a headquarter of the Angolan Battalion. The church converted into museum in 1992 containing ancient statues, wood carvings, Hindu and Jain idols and temple relics as well as stone inscriptions of the former rulers.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71564,
+                "lon": 70.98894
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Naida Caves",
+              "description": "Natural caves with beautiful lighting. It has tunnels with rock-cut steps.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71047,
+                "lon": 70.98106
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Sea Shell Museum",
+              "description": "A must-visit near the airport, you will be surprised to see the shells around the world.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.7139,
+                "lon": 70.92817
+              },
+              "price": "₹10"
+            },
+            {
+              "order": 6,
+              "name": "Zampa Gateway",
+              "description": "The main entrance to Diu covered in red paint.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71458,
+                "lon": 70.98137
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "St. Paul's Church",
+              "description": "dedicated to Our Lady of Immaculate Conception. It displays Gothic architecture with large three storey facade. It was built in 1610 by Portuguese. The carved wood panels in church are carved by artists from Goa. It is illuminated at night. Services are held on Sundays and there is a Catholic school on upper floor.",
+              "wikipedia": "https://en.wikipedia.org/wiki/St._Paul%27s_Church,_Diu",
+              "coordinates": {
+                "lat": 20.71454,
+                "lon": 70.99067
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Makata Lane",
+              "description": "has mansions owned by wealthy Portuguese and Indian merchants of the past featuring different architecture styles from European to local Indian bunglows. The Nagarsheth Haveli has mixed Indo-European architecture. It has three floors with well carved entrance and the balconies.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "INS Khukri Memorial",
+              "description": "Memorial park dedicated to the crew of the sunken warship INS Khukri. The frigate was torpedoed by a Pakistani submarine in 1971 during the Indo-Pakistani War.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.70276,
+                "lon": 70.97683
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Gomtimata beach",
+              "description": "This virgin beach is on the western edge of the island in Vanakbara village, about 13 km from Diu. It is the most serene and beautiful beaches of all.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.70929,
+                "lon": 70.88859
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Gangeshwar Temple",
+              "description": "A seafront temple with five Shivalingas washed by the tidal waves.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.7054,
+                "lon": 70.95662
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Tower of Silence",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.7073,
+                "lon": 70.95568
+              },
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Solar Plant",
+              "description": "The island is powered by solar energy in day meeting about 25% of its peak demand. To go inside, special permission required.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.70656,
+                "lon": 70.95454
+              },
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Fudam Bird Sanctuary",
+              "description": "Nice view of creek and mangroves with many birds visible in early morning. Two watchtowers are there.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71701,
+                "lon": 70.95972
+              },
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "St. Francis of Assisi Church",
+              "description": "Built in 1593 during the tenure of Portuguese Governor Pero de Naya, it was the Friary of the Franciscans. The church is built on a high platform and has very high tower. The dome of the church is made of stones. The main altar is decorated with large fresco. The church can be seen only from outside.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71575,
+                "lon": 70.98914
+              },
+              "price": null
+            },
+            {
+              "order": 16,
+              "name": "Chakratirth Beach",
+              "description": "A small beach near Diu town good for sunset view. INS Khukri Memorial is located nearby.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.70385,
+                "lon": 70.9762
+              },
+              "price": null
+            },
+            {
+              "order": 17,
+              "name": "Ghoghla Beach",
+              "description": "The best and the largest beach of the Diu at the entrance to the island. It has golden sand touched by gentle waves round the year. The huge flat tidal zone provides clean water in safe swimming zone. The beach is developed with all public amenities and recreation facilities for tourists. The water sports and swimming zone with rescue teams are here.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.73841,
+                "lon": 71.00824
+              },
+              "price": null
+            },
+            {
+              "order": 18,
+              "name": "Khodidhar Beach",
+              "description": "Calm beach for sunset view.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.70206,
+                "lon": 70.91084
+              },
+              "price": null
+            },
+            {
+              "order": 19,
+              "name": "Jumma Masjid",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.71786,
+                "lon": 70.98488
+              },
+              "price": null
+            }
+          ],
+          "brief": "The old Portuguese churches and fort, local Hindu temples, the old Portuguese architecture in the town, beaches and sea shore.\r\n\n\r\n 1 **Diu Fort** . 7AM-6PM . The Portuguese built the fort in 1535 and maintained an active garrison within it until 1960. Constructed on cliffs which breaks water and gives fantastic seaview. Every bastion of the fort is named after a saint. There is an old church, a chapel and a lighthouse inside the fort. Free .   \r\n 2 **Pani Kotha** ( Diu Jail ). It is in the middle of the jetty near the main town of Diu, which was in use since the Portuguese times. A sight to see during the night.   \r\n 3 **Diu Museum** ( St Thomas Church ). Daily 8AM-10PM . St Thomas Church was built in 1598 by an order of Bishop D. Aleixo Menezes. Following desecration, it was used an orphanage, old age home, museum, police station and a headquarter of the Angolan Battalion. The church converted into museum in 1992 containing ancient statues, wood carvings, Hindu and Jain idols and temple relics as well as stone inscriptions of the former rulers.   \r\n 4 **Naida Caves**. Natural caves with beautiful lighting. It has tunnels with rock-cut steps.   \r\n 5 **Sea Shell Museum**. A must-visit near the airport, you will be surprised to see the shells around the world. ₹10 .   \r\n 6 **Zampa Gateway**. The main entrance to Diu covered in red paint.   \r\n 7 **St. Paul's Church** . dedicated to Our Lady of Immaculate Conception. It displays Gothic architecture with large three storey facade. It was built in 1610 by Portuguese. The carved wood panels in church are carved by artists from Goa. It is illuminated at night. Services are held on Sundays and there is a Catholic school on upper floor.  ( updated May 2022 ) \r\n **Makata Lane** ( near Zampa Gateway ). has mansions owned by wealthy Portuguese and Indian merchants of the past featuring different architecture styles from European to local Indian bunglows. The Nagarsheth Haveli has mixed Indo-European architecture. It has three floors with well carved entrance and the balconies.  ( updated May 2022 ) \r\n 8 **INS Khukri Memorial**. Memorial park dedicated to the crew of the sunken warship INS Khukri. The frigate was torpedoed by a Pakistani submarine in 1971 during the Indo-Pakistani War.  ( updated May 2022 ) \r\n 9 **Gomtimata beach** ( Vanakbara beach ). This virgin beach is on the western edge of the island in Vanakbara village, about 13 km from Diu. It is the most serene and beautiful beaches of all.  ( updated May 2022 ) \r\n 10 **Gangeshwar Temple**. A seafront temple with five Shivalingas washed by the tidal waves.  ( updated May 2022 ) \r\n 11 **Tower of Silence** .  ( updated May 2022 ) and 12 **Parsi Bangli** . A Zoroastrian bunglow and the funerary monument. The monuments are testament to Parsi's residence in Diu before moving to Gujarat.  ( updated May 2022 ) \r\n 13 **Solar Plant**. The island is powered by solar energy in day meeting about 25% of its peak demand. To go inside, special permission required.  ( updated May 2022 ) \r\n 14 **Fudam Bird Sanctuary** ( behind Diu Police Headquarters ). 8AM-6PM . Nice view of creek and mangroves with many birds visible in early morning. Two watchtowers are there.  ( updated May 2022 ) \r\n 15 **St. Francis of Assisi Church** ( Near St. Paul Church ). No entry. . Built in 1593 during the tenure of Portuguese Governor Pero de Naya, it was the Friary of the Franciscans. The church is built on a high platform and has very high tower. The dome of the church is made of stones. The main altar is decorated with large fresco. The church can be seen only from outside.  ( updated May 2022 ) \r\n 16 **Chakratirth Beach** ( Sunset Point ). A small beach near Diu town good for sunset view. INS Khukri Memorial is located nearby.  ( updated May 2022 ) \r\n 17 **Ghoghla Beach**. The best and the largest beach of the Diu at the entrance to the island. It has golden sand touched by gentle waves round the year. The huge flat tidal zone provides clean water in safe swimming zone. The beach is developed with all public amenities and recreation facilities for tourists. The water sports and swimming zone with rescue teams are here.  ( updated May 2022 ) \r\n 18 **Khodidhar Beach**. Calm beach for sunset view.  ( updated May 2022 ) \r\n 19 **Jumma Masjid** .  ( updated May 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Drive/Ride/Cycle",
+              "description": "Start by visiting the **fort** (which is located near the island jail). Proceed a few meters in the direction of the jetty, turn left to visit _St. Paul's church_ and _Diu museum_ (a sign post will indicate the left turn). From here, you might want to criss-cross your way through narrow alleys with Portuguese architecture-influenced houses to reach the Diu government hospital (formerly St. Francis of Assis, founded in 1593). Travel further down the road to reach Jalandar beach. A breathtaking view lies stretched on your left, as you get to _Gangeshwar Mahadev temple_. Now weave through Fudam to get to Malala. The road connects to Bunder road. Turn left and travel about 4 km to reach Nagoa beach. You can turn around and stay on Bunder road to return to the city which is about 8 km away. _Or_ you can back-track your steps and relive the experience."
+            },
+            {
+              "name": "Jalandhar Beach",
+              "description": "A very quiet, least crowded and isolated beach, apt for bathing and sun-bathing. No commercial establishments are insight at the beach, so you might want to carry something, just in case you go hungry!"
+            },
+            {
+              "name": "Nagoa Beach",
+              "description": "Most commercial beach, complete with water-sports and lined with restaurants offering variety of seafood. There are plenty Hokka Trees (branching palm trees) along the coastline which has red ball-like fruits used to make a local drink. These trees provides unique canvas for photography. These trees are found in limited locations along the Indian coast and were probably introduced by Portuguese."
+            },
+            {
+              "name": "Night stroll",
+              "description": "The night market near post office is popular for it. Bars remain open till 9:30PM."
+            },
+            {
+              "name": "Evening Cruises",
+              "description": "from Bandar Chowk jetty are filled with loud music."
+            },
+            {
+              "name": "Water sports at Nagoa Beach and Ghoghla beach",
+              "description": "offers various water sports activities such as parasailing, wind surfing, water roller, water zorbing ball, scooba diving, water scooter, banana boating, speed boating, jet skiing etc. October to May is the best period for it due to the island having clean waters and open skies during this time. The departments of Port and Tourism operate Ferry Boat rides."
+            }
+          ],
+          "brief": "Start by visiting the **fort** (which is located near the island jail). Proceed a few meters in the direction of the jetty, turn left to visit _St. Paul's church_ and _Diu museum_ (a sign post will indicate the left turn). From here, you might want to criss-cross your way through narrow alleys with Portuguese architecture-influenced houses to reach the Diu government hospital (formerly St. Francis of Assis, founded in 1593). Travel further down the road to reach Jalandar beach. A breathtaking view lies stretched on your left, as you get to _Gangeshwar Mahadev temple_. Now weave through Fudam to get to Malala. The road connects to Bunder road. Turn left and travel about 4 km to reach Nagoa beach. You can turn around and stay on Bunder road to return to the city which is about 8 km away. _Or_ you can back-track your steps and relive the experience.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Alcohol is legal in Diu, unlike in neighbouring Gujarat, so a lot of people come to Diu especially for drinking. Indian and foreign beer and spirits are widely available.\r\n\n\r\n 1 **Deepee Bar**, Fort Rd , ☏ +91 2875 252 273 . W 9AM-2PM, Th-Tu 9AM-10PM .  ( updated Jan 2021 )"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "The Hoka Island Villa",
+              "description": "chic boutique budget hotel, probably the best stay and food in Diu",
+              "price": "US$30-50"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Wear a helmet (if you manage to rent one) when riding a motorbike or scooter."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.519Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Beach / Coastal beach Diu Diu Island Beach Diu was a Portuguese colony from 1539 to 1961, when the Indian government used military action to retake all the Portuguese enclaves. Apart from Diu, also Daman , Goa , Dadra and Nagar Haveli were \"captured\" in this conflict. This area used to be a part of a larger union territory of Goa, Daman and Diu before Goa became a state by itself. Diu is directly administered by Delhi as part of the union territory of Dadra and Nagar Haveli and Daman and Diu ( Gujarati : દીવ _Dīv_) is an island that is home to 44,000 people (2011) south of Gujarat , India . It is connected to the mainland by bridges and a ferry. It is part of the union territory of Dadra and Nagar Haveli and Daman and Diu .",
+      "travel_facts": {
+        "summary": "**Diu** couples **DIU apron (~6 km)** hops with **Una rail (~12 km)** taxis across creek bridges before Portuguese fort grids. Seasonal **Pawan Hans Daman heli** slots supplement hops—book scooters knowing festival-week Gujarat spillover clogs Ghoghla bridge merges.",
+        "keywords": [
+          "DIU turboprop stacks",
+          "Una taxi relays",
+          "Veraval rail triangles",
+          "Ghoghla bridge merges",
+          "Nagoa beach shuttles",
+          "seasonal heli slots"
+        ]
+      }
+    },
+    {
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu-silvassa",
+      "name": "Silvassa",
+      "region": "",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "coordinates": {
+        "lat": 20.26667,
+        "lon": 73.01667,
+        "source": "wikidata"
+      },
+      "description": "**Silvassa** (Gujarati: સેલ્વાસ _Selvās_) is an industrial town in Western India , wedged between Gujarat and Maharashtra . It is a part of the former Portuguese colony of Dadra and Nagar Haveli and Daman and Diu .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (west coast monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "west_coastal_and_arid"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Silvassa",
+        "wikipedia": "https://en.wikipedia.org/wiki/Silvassa",
+        "wikidata": "https://www.wikidata.org/wiki/Q318404"
+      },
+      "distance_km": 946,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T06:41:02.099Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Silvasa"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dadra_and_Nagar_Haveli_Silvassa_3.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dadra%20and%20Nagar%20Haveli%20Silvassa%203.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–38",
+          "winter": "18–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Surat International Airport",
+          "code": "STV",
+          "distance_km": 138,
+          "note": "NH48 Bhilad splice—Chhatrapati Shivaji Maharaj International Mumbai (~159 km) catches mega-hub stacks"
+        },
+        "nearest_railway_station": {
+          "name": "Vapi railway station",
+          "distance_km": 12,
+          "note": "Autos/GSRTC loops stitch tribal belt factories—Delhi–Mumbai Rajdhani-class halts common"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Mumbai",
+          "Ahmedabad",
+          "Delhi",
+          "Surat"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Mumbai",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 64240,
+        "content_richness_score": 0.459
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Until the end of the 19th century, Silvassa was only a small village. It started to become more important in 1885, when the Portuguese administration decided to transfer the seat of its Nagar Haveli colony to the city.\r\n\nSilvassa hosts many factories and industries providing significant government revenue, allowing the city to maintain a low level of taxation. The town is also popular among Gujaratis for drinking as alcohol is banned in Gujarat.\r\n\nThe hospitable, kind, unselfish native local tribal people have their own customs, dances and rituals which are quite fascinating. The city enjoys a very pleasant climate from November to March, which is the best time for a visit. Temperatures during the summer are comfortable too, even during the day, due to the city's proximity to the sea.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane Surat International Airport is 138 km away. Chhatrapati Shivaji Maharaj International Airport is 159 km away.\r\n\n\r\n By train 1 ** Vapi    WR**  ( 12 km (7.5 mi) ). The nearest railhead for getting to Silvassa. It lies on the Mumbai-Ahmedabad route of the Western Railway and is about 170 km from Mumbai and 90 km from Surat. Major Delhi-Mumbai and Mumbai-Ahmedabad bound trains halt at this station. People traveling to Silvassa by train can get down at the Vapi and then get there by auto-rickshaws, which ply between the two towns at regular interval.  ( updated Apr 2026 ) \r\n By bus GSRTC buses ply between Silvassa and Vapi at a regular interval.\r\n\n\r\n By car Silvassa is connected to Maharashtra and Gujarat via National Highway 848A. Silvassa has a well-maintained road network. Daman is 30 km away via Bhilad on National Highway 48. Mumbai is 160 km away from Silvassa, via Bhilad, on NH 48 Surat is 130 km away from Silvassa, via Bhilad, on NH 48.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Children's Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.27256,
+                "lon": 73.00391
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Our Lady of Piety",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.27086,
+                "lon": 73.00491
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Park Ayyappa Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.26407,
+                "lon": 73.00088
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Park Balaji Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.28243,
+                "lon": 72.99349
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Park Ram Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.26712,
+                "lon": 73.00819
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Tribal Cultural Museum",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.27122,
+                "lon": 73.00405
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Hirva Van Garden",
+              "description": "Near the Daman Gangan River.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.28933,
+                "lon": 72.99543
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Nakshatra Garden",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Van Dhara Garden",
+              "description": "Near the Daman Gangan River.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.27186,
+                "lon": 72.98712
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Vanganga Garden",
+              "description": "Has boating facilities.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.31209,
+                "lon": 72.97024
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Children's Park**.   \r\n 2 **Our Lady of Piety** ( Silvassa Church ).   \r\n 3 **Park Ayyappa Temple** ( Ayappa Mandir ).   \r\n 4 **Park Balaji Temple** ( Balaji Mandir ).   \r\n 5 **Park Ram Temple** ( Shriv Ram Mandir ).   \r\n 6 **Tribal Cultural Museum**.   \r\n Gardens 7 **Hirva Van Garden**, Pipariya, Silvassa - Vapi Road ( Near Pipariya Police Station ). Near the Daman Gangan River.   \r\n **Nakshatra Garden**.  ( updated Aug 2021 ) \r\n 8 **Van Dhara Garden**. Near the Daman Gangan River.   \r\n 9 **Vanganga Garden**, Dadra . Has boating facilities.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "1 **Country Liquor Shop**, Bus Stand, Opposite Mini, Khanvel Rd, Tokarkhada , ☏ +91 98987 78979 . 8AM-9PM .  ( updated Jan 2021 )"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Daman Ganga Valley Resort",
+              "description": "Portuguese-style resort located on the banks of Daman Ganga River and adjacent to Vandhara Garden with lush green surroundings.",
+              "price": "₹2,690–₹3,642"
+            },
+            {
+              "name": "Dan Tourist Hotel",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Ritz Hotel",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.519Z"
+      },
+      "search_context": "Heritage / Culture City / Urban destination Silvassa Silvasa Sightseeing Until the end of the 19th century, Silvassa was only a small village. It started to become more important in 1885, when the Portuguese administration decided to transfer the seat of its Nagar Haveli colony to the city. Silvassa hosts many factories and industries providing significant government revenue, allowing the city to maintain a low level of taxation. The town is also popular among Gujaratis for drinking as alcohol is banned in Gujarat. Th Silvassa (Gujarati: સેલ્વાસ _Selvās_) is an industrial town in Western India , wedged between Gujarat and Maharashtra . It is a part of the former Portuguese colony of Dadra and Nagar Haveli and Daman and Diu .",
+      "travel_facts": {
+        "summary": "**Silvassa** rides **Vapi (~12 km)** WR staging plus **Surat STV (~138 km)** flyers feeding Nagar Haveli industrials along **NH848A**. Weekend Gujarat liquor runs thicken Bhilad toll queues—bias dawn exits before chemical tanker peaks.",
+        "keywords": [
+          "Vapi factory autos",
+          "STV Mumbai wedges",
+          "NH848A tribal belt",
+          "GSRTC Silvassa loops",
+          "Bhilad toll queues",
+          "Portuguese heritage hops"
+        ]
+      }
+    }
+  ]
+}

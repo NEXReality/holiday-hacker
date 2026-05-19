@@ -119,7 +119,13 @@
 
     getCustomHolidays().forEach(function (c) {
       var d = c.date;
-      if (!holidayMap[d]) holidayMap[d] = { name: c.name, _ctx: 'personal' };
+      if (!holidayMap[d]) {
+        holidayMap[d] = {
+          name: c.name,
+          _ctx: 'personal',
+          _customKind: c.kind === 'leave' ? 'leave' : 'holiday'
+        };
+      }
     });
   }
 
@@ -408,6 +414,21 @@
     });
   }
 
+  /** Dates when the user must take personal leave (matches Golden Bridge card pattern). */
+  function giftManualLeaveDates(g) {
+    if (g.leaveDays && g.leaveDays.length) return g.leaveDays.slice().sort();
+    try {
+      var list = JSON.parse(localStorage.getItem(CUSTOM_KEY) || '[]');
+      var leaveByDate = {};
+      list.forEach(function (c) {
+        if (c && c.kind === 'leave' && c.date) leaveByDate[c.date] = true;
+      });
+      return (g._dates || []).filter(function (iso) { return leaveByDate[iso]; }).sort();
+    } catch (e) {
+      return [];
+    }
+  }
+
   function getMegaBridgeStreaks() {
     var megas = window._advisorMegaBridges || [];
     var monthPrefix = viewYear + '-' + String(viewMonth + 1).padStart(2, '0');
@@ -497,6 +518,31 @@
                   ' – ' + MONTHS[last.getMonth()].slice(0, 3) + ' ' + last.getDate();
       var planned = isTripPlanned(g.start);
       var pastCls = g.end < todayISO ? ' calendar-event-card--past' : '';
+      var giftLeaves = parseInt(g.leaves, 10) || 0;
+      var manualHol = parseInt(g._manualHolidayDays, 10) || 0;
+      var giftBadge;
+      var metaLabel;
+      if (giftLeaves > 0) {
+        giftBadge = giftLeaves + ' Leave' + (giftLeaves === 1 ? '' : 's') + ' · ' + g.days + ' Days';
+        metaLabel = giftLeaves + ' Leave' + (giftLeaves === 1 ? '' : 's');
+      } else if (manualHol > 0) {
+        giftBadge = g.days + ' Days · Manual holiday';
+        metaLabel = 'Manual holiday';
+      } else {
+        giftBadge = '0 Leaves · ' + g.days + ' Days — Free';
+        metaLabel = 'Free';
+      }
+      var leaveDatesForCard = giftManualLeaveDates(g);
+      var giftLeaveLineHtml = '';
+      if (giftLeaves > 0 && leaveDatesForCard.length) {
+        var giftLeaveLabels = leaveDatesForCard.map(function (iso) {
+          var d = new Date(iso + 'T00:00:00');
+          var dayName = DAYS_FULL[d.getDay()];
+          var rest = MONTHS[d.getMonth()].slice(0, 3) + ' ' + d.getDate();
+          return '<span class="leave-day-name">' + dayName + '</span> ' + rest;
+        });
+        giftLeaveLineHtml = '<p class="calendar-event-leave calendar-event-leave--bridge">Leave: ' + giftLeaveLabels.join(', ') + '</p>';
+      }
       html += '<div class="calendar-event-card calendar-event-card--gift' + pastCls + '" data-gift-start="' + g.start + '">' +
         '<div class="calendar-event-icon calendar-event-icon--gift">' +
           '<span class="material-symbols-outlined">celebration</span>' +
@@ -504,13 +550,14 @@
         '<div class="calendar-event-body">' +
           '<h4>' + g.name + '</h4>' +
           '<p>' + label + '</p>' +
-          '<p class="calendar-event-gift-badge">0 Leaves / ' + g.days + ' Days — Free</p>' +
+          '<p class="calendar-event-gift-badge">' + giftBadge + '</p>' +
+          giftLeaveLineHtml +
           '<div class="calendar-event-toggle-wrap">' +
             '<span>Plan trip?</span>' +
             '<button type="button" class="advisor-toggle advisor-toggle--plan' + (planned ? ' is-on' : '') + '" aria-label="Plan trip"></button>' +
           '</div>' +
         '</div>' +
-        '<span class="calendar-event-meta">Free</span>' +
+        '<span class="calendar-event-meta">' + metaLabel + '</span>' +
       '</div>';
     });
 
@@ -622,12 +669,29 @@
     renderGrid();
     renderEvents();
     buildMonthDropdown();
+    highlightFocusCard();
   }
 
   window.refreshCalendarBreaks = function () {
+    /* If we arrived with ?focus=… but advisor data wasn't yet computed on
+       the first render, retry the jump now that advisor finished computing. */
+    if (pendingFocus && !pendingFocusItem) {
+      applyPendingFocus();
+      if (pendingFocusItem) {
+        updateTitle();
+        buildFreeStreaks();
+        buildBridgeHighlights();
+        renderGrid();
+        renderEvents();
+        buildMonthDropdown();
+        highlightFocusCard();
+        return;
+      }
+    }
     buildBridgeHighlights();
     renderGrid();
     renderEvents();
+    highlightFocusCard();
   };
 
   /* ─── Month navigation ─────────────────────────────── */
@@ -737,6 +801,118 @@
     if (monthChevron) monthChevron.textContent = 'expand_more';
   });
 
+  /* ─── Deep-link focus from Plan page ────────────────────
+   * Plan page can pass ?focus=free|golden|mega so the calendar jumps to the
+   * month containing the user's first upcoming window of that kind and
+   * briefly highlights the matching event card. */
+  var pendingFocus = null;
+  var pendingFocusItem = null;
+
+  function parseFocusFromUrl() {
+    try {
+      var p = new URLSearchParams(window.location.search);
+      var f = p.get('focus');
+      if (f === 'free' || f === 'golden' || f === 'mega' || f === 'any') return f;
+    } catch (_) {}
+    return null;
+  }
+
+  function clearFocusFromUrl() {
+    try {
+      if (window.history && window.history.replaceState) {
+        var url = window.location.pathname + (window.location.hash || '');
+        window.history.replaceState({}, document.title, url);
+      }
+    } catch (_) {}
+  }
+
+  /* Returns `{ type, item }` where `type` is the actual kind of window
+     surfaced (may differ from the requested focus if the user has no
+     upcoming items of that type — e.g. requested 'mega' but only Golden
+     Bridges remain this year, we fall back to the next-soonest Golden, then
+     to a Free Holiday, then nothing). For 'any' we just pick the
+     chronologically nearest upcoming window of any kind. */
+  function firstUpcomingFocusItem(focus) {
+    loadPersistedAdvisorData();
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+
+    function future(arr, type) {
+      return (arr || []).filter(function (it) {
+        if (!it || !it.start) return false;
+        var d = new Date(it.start + 'T00:00:00');
+        return !isNaN(d.getTime()) && d >= today;
+      }).map(function (it) { return { type: type, item: it }; });
+    }
+    function pickEarliest(list) {
+      if (!list.length) return null;
+      list.sort(function (a, b) { return a.item.start.localeCompare(b.item.start); });
+      return list[0];
+    }
+
+    var futureFree   = future(window._advisorGifts, 'free');
+    var futureGolden = future(window._advisorBridges || window._advisorBridgesAll, 'golden');
+    var futureMega   = future(window._advisorMegaBridges, 'mega');
+    var futureAny    = futureFree.concat(futureGolden).concat(futureMega);
+
+    /* Preferred-type ladders: try the user's chosen filter first, then fall
+       through to other window types so something useful always shows up. */
+    var order;
+    if (focus === 'free')        order = [futureFree,   futureGolden, futureMega];
+    else if (focus === 'golden') order = [futureGolden, futureMega,   futureFree];
+    else if (focus === 'mega')   order = [futureMega,   futureGolden, futureFree];
+    else                          order = [futureAny];
+
+    for (var i = 0; i < order.length; i++) {
+      var pick = pickEarliest(order[i]);
+      if (pick) return pick;
+    }
+    return null;
+  }
+
+  function focusItemSelector(picked) {
+    if (!picked || !picked.item || !picked.item.start) return null;
+    var start = picked.item.start;
+    if (picked.type === 'free')   return '.calendar-event-card--gift[data-gift-start="' + start + '"]';
+    if (picked.type === 'mega')   return '.calendar-event-card--mega[data-bridge-start="' + start + '"]';
+    if (picked.type === 'golden') return '.calendar-event-card--gb[data-bridge-start="' + start + '"]';
+    return null;
+  }
+
+  function highlightFocusCard() {
+    if (!pendingFocusItem) return;
+    var sel = focusItemSelector(pendingFocusItem);
+    if (!sel) return;
+    /* renderEvents() has just written innerHTML; defer to next frame so the
+       layout exists before we scroll. */
+    requestAnimationFrame(function () {
+      var el = document.querySelector(sel);
+      if (!el) return;
+      try { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch (_) {}
+      el.classList.add('calendar-event-card--focus-flash');
+      setTimeout(function () {
+        el.classList.remove('calendar-event-card--focus-flash');
+      }, 2400);
+      /* One-shot: clear pending so navigating to another month doesn't keep
+         hijacking the scroll position. */
+      pendingFocus = null;
+      pendingFocusItem = null;
+    });
+  }
+
+  function applyPendingFocus() {
+    var focus = pendingFocus || parseFocusFromUrl();
+    if (!focus) return;
+    pendingFocus = focus;
+    var picked = firstUpcomingFocusItem(focus);
+    if (!picked || !picked.item || !picked.item.start) return;
+    var d = new Date(picked.item.start + 'T00:00:00');
+    if (isNaN(d.getTime())) return;
+    viewMonth = d.getMonth();
+    viewYear  = d.getFullYear();
+    pendingFocusItem = picked;
+    clearFocusFromUrl();
+  }
+
   function loadPersistedAdvisorData() {
     try {
       var raw = localStorage.getItem('holidayHacker_advisorData');
@@ -805,6 +981,14 @@
     }
 
     renderWeekdays();
+
+    /* If we arrived from the Plan page's "Go to Calendar" link, jump the
+       calendar to the first upcoming Free/Golden/Mega window of the kind the
+       user had filtered on, before the first render so the user lands
+       directly on it. If advisor data hasn't been computed yet (fresh
+       install path), the retry inside refreshCalendarBreaks() will pick it
+       up once cal-advisor.js finishes computing. */
+    applyPendingFocus();
 
     if (localStorage.getItem('holidayHacker_advisorSeen')) {
       var split = document.getElementById('calSplit');

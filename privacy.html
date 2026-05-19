@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Holiday Hacker — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+      line-height: 1.6;
+      color: #1a2233;
+      background: #fafbfd;
+    }
+    header { border-bottom: 1px solid #e2e7ef; padding-bottom: 16px; margin-bottom: 24px; }
+    h1 { margin: 0 0 4px; font-size: 28px; }
+    h2 { margin-top: 32px; font-size: 20px; }
+    h3 { margin-top: 24px; font-size: 16px; }
+    .meta { color: #5b6478; font-size: 14px; }
+    code { background: #eef1f6; padding: 1px 6px; border-radius: 4px; font-size: 14px; }
+    .summary {
+      background: #eef5ff;
+      border-left: 4px solid #1f6feb;
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 16px 0 24px;
+    }
+    a { color: #1f6feb; }
+    ul { padding-left: 24px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Holiday Hacker &middot; Last updated: 30 April 2026</p>
+  </header>
+
+  <section class="summary">
+    <strong>Short version:</strong> Holiday Hacker does not collect, transmit,
+    or share any personal data. Everything you create — trips, reminders,
+    favorites, preferences — stays on your device, in the app's local
+    storage. There is no account, no login, no analytics, no advertising
+    SDK, and no backend server.
+  </section>
+
+  <h2>1. What data we collect</h2>
+  <p><strong>None on our servers.</strong> Holiday Hacker has no server. We do
+  not run a backend that receives or stores user data. The following data is
+  created by you on your own device and is stored only there:</p>
+  <ul>
+    <li>Trip plans, holiday windows, and saved destinations.</li>
+    <li>Reminder preferences (days before trip, reminder time).</li>
+    <li>Travel mode selection (train / bus / flight / car) per trip.</li>
+    <li>Favorites and travel preferences.</li>
+  </ul>
+  <p>This data lives in <code>localStorage</code> on the device and never
+  leaves the device unless you explicitly export an iCalendar (<code>.ics</code>)
+  file or share a Google Calendar link.</p>
+
+  <h2>2. Permissions the app requests</h2>
+  <p>To deliver loud, on-time trip alarms, the app requests the following
+  Android permissions on your device. None of these grant Holiday Hacker
+  any access to your data; they only let the app do its core job:</p>
+  <ul>
+    <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>) —
+        to show alarms when they ring.</li>
+    <li><strong>Schedule exact alarms</strong>
+        (<code>SCHEDULE_EXACT_ALARM</code>) — to ring at the exact time
+        you chose, even if the device is in deep sleep.</li>
+    <li><strong>Full-screen intent</strong>
+        (<code>USE_FULL_SCREEN_INTENT</code>) — so the alarm wakes the
+        screen and presents a Dismiss / Snooze UI like a clock app.</li>
+    <li><strong>Foreground service</strong> &amp;
+        <strong>Wake lock</strong> — to play the alarm tone reliably until
+        you dismiss it.</li>
+    <li><strong>Receive boot completed</strong> — to re-arm pending alarms
+        after a phone restart so you don't lose them.</li>
+    <li><strong>Vibrate</strong> — for the alarm vibration pattern.</li>
+    <li><strong>Internet</strong> — only used by the WebView for any
+        third-party links you tap (e.g., Google Calendar
+        <code>render?action=TEMPLATE</code> URLs); the app's core data
+        ships inside the APK and works fully offline.</li>
+  </ul>
+
+  <h2>3. Data sharing</h2>
+  <p>We do not share any data with anyone, because there is no data on our
+  side to share. We do not use third-party analytics, advertising, crash
+  reporting, or marketing SDKs.</p>
+
+  <h2>4. Data retention</h2>
+  <p>Data lives on your device for as long as the app is installed. If you
+  uninstall the app, Android removes its local storage and all your trip
+  data is permanently deleted. There is no cloud backup or sync.</p>
+
+  <h2>5. Children's privacy</h2>
+  <p>Holiday Hacker is not directed to children under 13 and we do not
+  knowingly collect any data from children — or anyone.</p>
+
+  <h2>6. Security</h2>
+  <p>Because data does not leave your device, the security of your trip data
+  reduces to the security of your device itself. We recommend keeping
+  Android up to date and using a secure screen lock.</p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>If our practices change in any way (for example, we add an opt-in cloud
+  backup), this page will be updated and the "Last updated" date at the top
+  will change. The same page is also linked from inside the app.</p>
+
+  <h2>8. Contact</h2>
+  <p>For privacy questions, write to:
+  <a href="mailto:info@nexreality.io">info@nexreality.io</a></p>
+
+</body>
+</html>

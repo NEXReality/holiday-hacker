@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#f7f6f8"/>
   <title>Holiday Hacker - Plan Your Break</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -69,9 +70,9 @@
               <button type="button" class="plan-pill" data-filter="golden">Golden Bridges</button>
               <button type="button" class="plan-pill" data-filter="free">Free Holidays</button>
             </div>
-            <button type="button" class="plan-search-btn" id="planSearchBtn" aria-label="Search">
-              <span class="material-symbols-outlined">search</span>
-            </button>
+          </div>
+          <div class="plan-window-search-row" id="planWindowSearchRow">
+            <input type="search" class="plan-window-search-input" id="planWindowSearch" placeholder="Search window titles…" autocomplete="off" enterkeyhint="search"/>
           </div>
         </div>
         <div class="plan-windows-scroll no-scrollbar" id="planWindowsScroll">
@@ -79,14 +80,81 @@
         </div>
       </section>
 
+      <!-- Recommended destinations: quick search + filter sheet (plan.js). -->
       <section class="plan-section plan-destinations">
-        <div class="plan-section-header">
-          <h2 class="plan-section-title">Recommended Destinations</h2>
+        <div class="plan-dest-head">
+          <h2 class="plan-section-title plan-dest-title">Recommended Destinations</h2>
+          <button type="button" class="plan-pill plan-dest-filter-trigger" id="planDestFilterOpen" aria-expanded="false" aria-controls="planDestFilterOverlay" aria-haspopup="dialog">
+            <span class="material-symbols-outlined" aria-hidden="true">filter_list</span>
+            <span class="plan-dest-filter-trigger-text">Filter</span>
+            <span class="plan-dest-filter-trigger-badge" id="planDestFilterTriggerBadge" hidden aria-hidden="true"></span>
+          </button>
         </div>
+
+        <div class="plan-dest-quick-search">
+          <span class="material-symbols-outlined plan-dest-quick-search-icon" aria-hidden="true">search</span>
+          <input type="search" class="plan-dest-quick-search-input" id="planDestSearch" placeholder="Search by place, state…" autocomplete="off" enterkeyhint="search"/>
+        </div>
+
         <div class="plan-dest-grid" id="planDestGrid">
           <div class="plan-dest-loading" id="planDestLoading">Loading destinations…</div>
         </div>
       </section>
+
+      <div class="edit-popup-overlay" id="planDestFilterOverlay" aria-hidden="true">
+        <div class="edit-popup" id="planDestFilterPopup" role="dialog" aria-modal="true" aria-labelledby="planDestFilterSheetTitle" tabindex="-1">
+          <form id="planDestFilterForm">
+            <h2 class="sr-only" id="planDestFilterSheetTitle">Filter destinations</h2>
+            <div class="plan-dest-filter-scroll">
+              <div class="plan-dest-filter-group">
+                <span class="plan-dest-filter-label">Category</span>
+                <div class="plan-dest-filter-chip-scroll plan-dest-filter-chip-scroll--categories no-scrollbar" role="group" aria-label="Categories">
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="__all__" class="plan-dest-filter-chip-input" checked/><span class="plan-dest-filter-chip-text">All</span></label>
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="beach" class="plan-dest-filter-chip-input"/><span class="plan-dest-filter-chip-text">Beach / Coastal</span></label>
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="mountain" class="plan-dest-filter-chip-input"/><span class="plan-dest-filter-chip-text">Mountain / Hills</span></label>
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="heritage" class="plan-dest-filter-chip-input"/><span class="plan-dest-filter-chip-text">Heritage / Culture</span></label>
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="wildlife" class="plan-dest-filter-chip-input"/><span class="plan-dest-filter-chip-text">Wildlife / Nature</span></label>
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="city" class="plan-dest-filter-chip-input"/><span class="plan-dest-filter-chip-text">City / Urban</span></label>
+                  <label class="plan-dest-filter-chip"><input type="checkbox" name="category" value="spiritual" class="plan-dest-filter-chip-input"/><span class="plan-dest-filter-chip-text">Spiritual / Pilgrimage</span></label>
+                </div>
+              </div>
+
+              <div class="plan-dest-filter-group">
+                <span class="plan-dest-filter-label">Preferred states / UT</span>
+                <p class="plan-dest-filter-sublabel">Popular</p>
+                <div class="plan-dest-filter-chip-scroll plan-dest-filter-chip-scroll--popular no-scrollbar">
+                  <button type="button" class="plan-dest-filter-popular-btn" data-state="Kerala">Kerala</button>
+                  <button type="button" class="plan-dest-filter-popular-btn" data-state="Goa">Goa</button>
+                  <button type="button" class="plan-dest-filter-popular-btn" data-state="Himachal Pradesh">Himachal Pradesh</button>
+                  <button type="button" class="plan-dest-filter-popular-btn" data-state="Rajasthan">Rajasthan</button>
+                </div>
+                <div class="plan-dest-filter-state-wrap">
+                  <div class="plan-dest-filter-state-field">
+                    <input type="search" class="plan-dest-filter-state-search" id="planDestFilterStateSearch" placeholder="Search states / UT" autocomplete="off" enterkeyhint="done" aria-label="Search states and union territories" aria-autocomplete="list" aria-controls="planDestFilterStateSuggest"/>
+                    <div class="plan-dest-filter-state-suggest no-scrollbar" id="planDestFilterStateSuggest" hidden role="listbox" aria-label="Matches"></div>
+                  </div>
+                  <div class="plan-dest-filter-selected-states" id="planDestFilterSelectedWrap" aria-live="polite"></div>
+                </div>
+              </div>
+
+              <div class="plan-dest-filter-group">
+                <span class="plan-dest-filter-label">Distance from you</span>
+                <div class="plan-dest-filter-distance-cards">
+                  <label class="plan-dest-filter-distance-card"><span class="plan-dest-filter-distance-label">Any distance</span><input type="radio" name="distance" value="" checked/></label>
+                  <label class="plan-dest-filter-distance-card"><span class="plan-dest-filter-distance-label">Nearby (~&lt;300 km)</span><input type="radio" name="distance" value="near"/></label>
+                  <label class="plan-dest-filter-distance-card"><span class="plan-dest-filter-distance-label">Medium (~300–600 km)</span><input type="radio" name="distance" value="mid"/></label>
+                  <label class="plan-dest-filter-distance-card"><span class="plan-dest-filter-distance-label">Far (~600+ km)</span><input type="radio" name="distance" value="far"/></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="plan-dest-filter-footer">
+              <button type="reset" class="plan-dest-filter-btn plan-dest-filter-btn--secondary">Clear All</button>
+              <button type="button" class="plan-dest-filter-btn plan-dest-filter-btn--primary" id="planDestFilterApply">Show <span id="planDestFilterCount">0</span> Destinations</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
     </div>
 
@@ -131,6 +199,7 @@
     </nav>
   </div>
 
+  <script src="../boot-version.js"></script>
   <script src="plan-onboard.js"></script>
   <script src="plan.js"></script>
 </body>

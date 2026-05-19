@@ -1,0 +1,1678 @@
+{
+  "state": "Punjab",
+  "state_code": "PU",
+  "generated_at": "2026-05-18T11:20:47.106Z",
+  "count": 4,
+  "destinations": [
+    {
+      "slug": "punjab-amritsar",
+      "name": "Amritsar",
+      "region": "",
+      "state": "Punjab",
+      "coordinates": {
+        "lat": 31.62692,
+        "lon": 74.87704,
+        "source": "wikidata"
+      },
+      "description": "**Amritsar** ( Punjabi : ਅੰਮ੍ਰਿਤਸਰ _Aṃmritsar_) is a city in the state of Punjab , India . It is the holiest city in Sikhism . Amritsar is one of the largest cities in the Indian state of Punjab and is the spiritual and cultural centre of the Sikh religion. Sikhs are rightfully very proud of the city and their very beautiful and unique Gurdwara (place of worship), the Golden Temple. Amritsar is today a major pilgrimage centre for Sikhs and a tourism centre for anyone.",
+      "category": "Spiritual / Pilgrimage",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Amritsar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Amritsar",
+        "wikidata": "https://www.wikidata.org/wiki/Q48403"
+      },
+      "distance_km": 2093,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:21:33.822Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Ramdaspur",
+        "Ambarsara",
+        "Rāmdāspura",
+        "Ambarsar",
+        "Amrita Saras",
+        "Amritsar (India)",
+        "Amrîtsar",
+        "Rāmdāspur",
+        "Amricaro"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CJGoldenTemple.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritsar-header.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Sri Guru Ram Dass Jee International Airport",
+          "code": "ATQ",
+          "distance_km": 11
+        },
+        "nearest_railway_station": {
+          "name": "Amritsar Junction railway station",
+          "distance_km": 2,
+          "note": "ASR—dense Delhi/Mumbai trunk links; free Golden Temple airport shuttle check timings"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Chandigarh",
+          "Jammu"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Srinagar",
+          "Dubai",
+          "Doha",
+          "Singapore"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 340328,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The name Amritsar name derives from the pool around the Golden Temple (aka Harmandir Sahib) and means \"holy pool of nectar\" (_Amrit_ elixir; _Sar_, short for _sarovar_ which means \"lake\").\r\n\nNo visit to Amritsar is complete without a visit of the Golden Temple, including a community meal, a bath in the pool, potentially a night in the temple and if you are keen a volunteering session in the community kitchen, as well as the participation in the Flag lowering ceremony at the Wagah (Attari) border.\r\n\n\r\n 1 ** Punjab Tourism Office, Railway Station **, Outer Gate, Railway Station ( opposite Irrigation Department ), ☏ +91 78 376 13 500 , dtoasra@gmail.com .   \r\n 2 ** Tourist Information Centre, Golden Temple **, ☏ +91 78 376 13200 (Deepak Kumar mobil) , todamritsar@gmail.com . The office itself is not particular helpful for anything beyond the Golden Temple, but else, try your luck. Also, you might be luckier with just calling the number.   \r\n 3 ** Tourism Office of Punjab State **, ICP, Attari Border , ☏ +91 98 767 88 683 , dto.ankur@gmail.com .",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "The best time to visit Amritsar is during winter, October–March.\r\n\n\r\n By plane 1 ** Raja Sansi International Airport ** ( Sri Guru Ram Dass Jee International Airport **ATQ **  IATA ) ( About 11 km northwest from the city centre. ), ☏ +91 183 2214166 , fax : +91 183 2214358 , apdasr@aai.aero . It's one of the modern airports in India and quite adequate if not exactly exciting.   \r\nMost flights are to Delhi (1 hr away) but there are an increasing number of international connections:\r\n\n\r\n **Air India** flies from/to ** Birmingham ** \r\n **Qatar Airways** now flies from/to ** Doha ** \r\n **FlyScoot** flies from/to ** Singapore ** with possible budget connections all around Southeast Asia and beyond \r\n **Air-India Express**, **SpiceJet** and **IndiGo** fly from/to ** Dubai ** and ** Sharjah ** with cheap connections into ** Europe ** from there \r\n There are also a surprising number of flights to Central Asia (** Turkmenistan ** and ** Uzbekistan **). \r\n**Getting there and away**:\r\n\n\r\n **By bus** – The cheapest way to and from the airport is by local bus. Take the bus to Ajnala (stand 19 in the city bus stand) and tell the conductor that you go to the airport. The bus costs ₹15 (December 2018). The bus will drop you in the main road, about 1 km away from the airport. You could walk this in about 15 minutes or take a rickshaw or auto from there. The way back should be the same, just walk to the main road and hail down any bus going into the city. \r\n **By free shuttle** – The Golden Temple runs a free shuttle bus twice a day from the Amritsar airport. It leaves the airport around 09:00 and 15:00 (as of July 2023). The timings of the buses may depend on incoming flight arrivals. From the roundabout northeast of the Golden Temple in the center, the roundabout where also rickshaws go to the border, the bus should leave towards the airport about 1 hr before these times, but best to inquire with the Golden Temple staff beforehand. \r\n **By rickshaw** – If you just head to the highway, or even just outside of the airport, there should be rickshaws waiting for potential customers—say ₹100-200. On the way back they will go as far as they are allowed. If you don't have much large luggage, that can also be a convenient option. \r\n **By taxi** – Taxi drivers wait outside the arrivals gate for visitors. For a trip into town, even the prepaid taxi can be bargained down with the drivers to ₹300 from initially ridiculous prices of ₹550 a person (as of March 2014; became ₹850 as of May 2023) before you pay, but there is a significant dearth of official taxis or even auto-rickshaws, so prepare for a hard time. Uber and OLA are available. Both Uber and OLA charges around ₹550 (May 2023) with OLA slapping an additional ₹100 charge for parking which is not apparent while booking. This charge is applied both during airport pickup and drop off. \r\n By train 2 ** Amritsar Junction Railway Station ** ( IR station code : ASR ) ( North of the Golden Temple Complex ). An important railway station that is well connected to major cities in India through daily trains. Trains can be booked, at the train station.   \r\n 3 **Train Booking Office, Golden Temple Unit**, Baba Attal Road ( In the Golden Temple Complex, next to the tourist dorm ). The most convenient place to book a ticket. Book your return train ticket as soon as you arrive in Amritsar, or before if you know the exact date, as trains are often heavily booked.   \r\nHere are some useful trains to get to Amritsar:\r\n\n\r\n \r\n_Also see Rail travel in India _\r\n\n\r\n By bus 4 **Amritsar Bus Terminal** ( ISBT Amritsar ), Mehar Pura ( East one km from Train Station. Electric rickshaw to the Golden Temple area are ₹10-20, or just walk. ). The city is well-connected by bus to most major cities and the northern areas within a days drive. Pathankot (2½ hr, 100 km), Jalandahar (80 km), Kapurthala, royal city,(65 km) and there are daily direct buses to Delhi (around 480 km), Jammu (north 220 km via Pathankot), Katra (north 280 km), Chandigarh (230 km), Dharamsala (northeast 200 km, once daily, ~6 hr), etc. You can find Volvo buses from Chandigarh , Delhi and Katra to Amritsar.  ( updated Dec 2018 ) \r\nAt the bus terminal you can also catch a bus to the Wagah border for ₹50.\r\n\n\r\n By car Long-distance taxis are available from most places. It takes around 6–7 hours from Delhi via NH-1.\r\n\n\r\n From Pakistan If coming from Wagah at the Pakistani border, take a rickshaw (₹20, 3 km) to the Attari station, where you can catch a **local bus** to Amritsar (₹40, 25 km).\r\n\nNowadays, the bus from Amritsar is actually calling at the border. However, this might only be in the afternoon when a lot of people head to the border for the parade.\r\n\n**Taxis** and rickshaws also use this route and charge ₹200-500 for the entire journey. There is a taxi stand at the border, but they charge ₹1600.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "By auto-rickshaw E-rickshaws are abundant in the city. They are the cheapest and ubiquitous mode of transport in Amritsar. An auto-rickshaw from the train station to the temple should cost around ₹20, while a cycle-rickshaw will cost about ₹30. Electric rickshaw between the Golden Temple area and the bus stand are ₹10.\r\n\n\r\n By car If you have your own car to get around Amritsar then simply confirm the directions with a local guide. In case you don't have your own car then there are several travel agencies that can offer you the car of your choice.\r\n\nRenting a car is less time-consuming and affordable. Experienced car drivers know all the shortcuts within the city and will take you to the best hotel or restaurant. Never pay the entire fare to the car agent in advance and don't leave expensive luggage in your car whenever you are visiting a site.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Jallianwala Bagh",
+              "description": "The site of the 1919 Amritsar massacre, turned into a park memorial. On April 13 of that year, British Indian Army soldiers opened fire on an unarmed gathering of men, women and children. The firing lasted about 10 minutes and 1650 rounds were fired, killing 1579 people. A memorial was built on the site and inaugurated by the then-President of India, Rajendra Prasad, on 13 April 1961. The bullet holes can be seen on the walls and adjoining buildings. The well into which many people jumped and drowned attempting to save themselves from the hail of bullets is also a protected monument inside the park. The area near the entrance is only for pedestrians with shops and restaurants.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jallianwala_Bagh",
+              "coordinates": {
+                "lat": 31.6205,
+                "lon": 74.8806
+              },
+              "price": "Free"
+            },
+            {
+              "order": 2,
+              "name": "Ram Bagh",
+              "description": "This is a beautiful garden. A tribute to Guru Ram Das, the founder of the city. Famed as the summer palace of the Maharaja Ranjit Singh (Ranjit Singh Panorama?), it has now been converted into a museum which exhibits weapons from Mughal times to portraits of ruling houses of Punjab and the replica of \"Kohinoor\" diamond.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ram_Bagh,_Amritsar",
+              "coordinates": {
+                "lat": 31.63806,
+                "lon": 74.87861
+              },
+              "price": "₹10"
+            },
+            {
+              "order": 3,
+              "name": "Statue of Netaji",
+              "description": "Subhas Chandra Bose (Netaji) was an important leader in the Indian struggle for independence. He led the Indian National Army and formed the Provisional Government of Azad Hind in exile.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6404,
+                "lon": 74.878
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Summer Palace of Maharaja Ranjit Singh'",
+              "description": "The palace houses a museum, exhibiting oil paintings, miniatures, coins and weapons from the Sikh period. In this park is the Maharaja Ranjit Singh Panorama, so ask, if you are at the right museum.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ram_Bagh_Palace",
+              "coordinates": {
+                "lat": 31.63767,
+                "lon": 74.87717
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Historical Banyan Tree",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Baba Atal Rai Tower",
+              "description": "This is a great viewpoint over the city and the nearby Golden Temple. It is standing in another Gurdwara, namely the one of _Baba Atal Rai Sahib Ji_. Try the cimmunity kitchen of this Gurdwara if you are keen.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Gurdwara_Baba_Atal",
+              "coordinates": {
+                "lat": 31.61731,
+                "lon": 74.87711
+              },
+              "price": "Free"
+            },
+            {
+              "order": 7,
+              "name": "Tarn Taran Sahib",
+              "description": "Mughal architectural style. There is a big holy tank and believed that its water has magical healing power. Amavas, or no moon day, is the most popular Feast, also Diwali, Baishakhi and the various Guru Parabs festivals held here.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.4514,
+                "lon": 74.9239
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Gandhi Gate",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.63126,
+                "lon": 74.87444
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Maharaja Ranjit Singh's Statue",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6229,
+                "lon": 74.8976
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Sarovar Ramsar Sahib",
+              "description": "Gurudwara and pool.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61527,
+                "lon": 74.88112
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Statue of General Sham Singh Attariwala and India Gate",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.62574,
+                "lon": 74.77619
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Mata Temple",
+              "description": "Highly recommended! This is a cave labyrinth Hindu temple devoted to the female saint Lal Devi. Traditionally, women wishing to become pregnant come here to pray. The roundabout path to the main temple passes through low tunnels, caves full of ankle-deep water, inclined walkways, and mirrored hallways that make the experience seem more like a fun house than a place of worship. The colours, wide variety of deities and elaborate mirrored image make this a psychedelically unique temple. This is called Sheesh Mahal, and some people also seem to call it \"Lal Dev.\"",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6373,
+                "lon": 74.86111
+              },
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Gurudwara Pipli Sahib",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6313,
+                "lon": 74.8474
+              },
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Gurudwara Baba Budha Sahib",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6119,
+                "lon": 74.8969
+              },
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "Amrit Sarovar",
+              "description": "The giant pool of water that surrounds and reflects the Golden Temple. Sections (marked off by ropes) are set aside for (male) pilgrims wishing to bathe.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61945,
+                "lon": 74.87654
+              },
+              "price": null
+            },
+            {
+              "order": 16,
+              "name": "Central Sikh Museum",
+              "description": "Devoted to large gallery of paintings, mostly showing the gruesome ways countless Sikhs have been martyred, and various items from the gurus.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.62063,
+                "lon": 74.87717
+              },
+              "price": "Free"
+            },
+            {
+              "order": 17,
+              "name": "Ghanta Ghar",
+              "description": "This is the main entrance, sporting a distinctly Victorian clock-tower. Wash your feet in the water at the entrance in order to keep the temple clean.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.62074,
+                "lon": 74.87702
+              },
+              "price": null
+            },
+            {
+              "order": 18,
+              "name": "Harmandir Sahib",
+              "description": "This is the Golden Temple itself, floating above the Amrit Sarovar, housing the sacred Adi Granth scripture which is recited out loud during the day. This is the most crowded point, accessible by a bridge from the edge of the pool, and entry here is regulated by traditionally dressed Sikh guards. It's a 2-storey structure where Sikh saints are seated on each floor.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61998,
+                "lon": 74.87655
+              },
+              "price": null
+            },
+            {
+              "order": 19,
+              "name": "Kaulsar Sarovar",
+              "description": "This is one of five sarovars in the city. This sarovar is in honor of Mata Kaulan, a Muslim woman, who was taken into care by the sixth Sikh Guru, Guru Hargobind on instructions of Mian Mir, a close friend of the Sikh Gurus and a pious and wise Muslim pir. All Sikhs are encouraged in their lives to do volunteer services at any gurdwara or in the greater society, and everyone you see working here is fulfilling that duty. It's likely possible that you can join in if you feel so inclined: you could enquire by asking the people outside peeling vegetables, or those washing dishes.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61786,
+                "lon": 74.87659
+              },
+              "price": null
+            },
+            {
+              "order": 20,
+              "name": "Gurdwara Mata Kaulan Sahib Ji",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61827,
+                "lon": 74.87594
+              },
+              "price": null
+            },
+            {
+              "order": 21,
+              "name": "Langar Ghar",
+              "description": "Free communal kitchen, where people of any colour, caste, creed or religion, can eat food (langar) sitting together. Also enjoy a free chai at the bottom level. In case you are keen for a picture of the Golden Temple from above (especially during sunset), follow the left staircase up further onto the roof and roam around a little. Also, people won't mind if you walk around in the place where the prepare the bread or wash the dishes.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61953,
+                "lon": 74.87795
+              },
+              "price": null
+            },
+            {
+              "order": 22,
+              "name": "Sarai Shri Guru Ramdass Ji",
+              "description": "Built in 1931. Lodging place for pilgrims in 228 rooms, including 1 dorm with AC and fans for foreigners.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61892,
+                "lon": 74.87849
+              },
+              "price": null
+            },
+            {
+              "order": 23,
+              "name": "Guru Arjun Dev Niwas",
+              "description": "Another lodging place for pilgrims.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61918,
+                "lon": 74.87881
+              },
+              "price": null
+            },
+            {
+              "order": 24,
+              "name": "Sri Guru Nanak Dev Niwas",
+              "description": "This building houses sectarian offices of the different departments of SGPC and provide lodging facilities for pilgrims. Twenty rooms for pilgrims.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6181,
+                "lon": 74.87775
+              },
+              "price": null
+            },
+            {
+              "order": 25,
+              "name": "Guru Hargobind Niwas and Sri Guru Ramdas Library",
+              "description": "Rooms for pilgrims.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.61785,
+                "lon": 74.87756
+              },
+              "price": null
+            },
+            {
+              "order": 26,
+              "name": "Gurudwara Santokh Sar",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6246,
+                "lon": 74.877
+              },
+              "price": null
+            },
+            {
+              "order": 27,
+              "name": "Bathinda Fort and Qila Mubaraq",
+              "description": "The Qila is one of the oldest and highest small brick monument. It also contains two gurudwaras as the tenth Sikh guru Gobind Singh visited the place. The fort was built in 1930. It was as the official residence of armed forces of Maharaja Bhupinder Singh of Patiala State. It has been converted into a four-star hotel. Other sights in/around the town: Rose Garden on four hectares (close to Thermal Plant), Zoological garden (10 km away), Chetak Park with a lake, Mazaar of Peer Haji Rattan a worship place including a mosque and a Sikh gurudwara.- Further afield: **Lakhi Jungle** (15 km away toward Muktsar). A forest having old Gurudwara enjoyed the touches of Shri Guru Nanak Dev.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.20811,
+                "lon": 74.93738
+              },
+              "price": null
+            },
+            {
+              "order": 28,
+              "name": "Gurudwara Goindwal &amp; Baoli Sahib",
+              "description": "Located on western shore of Beas River, Northeast 30 km. It was the first centre of Sikhism, holds immense significance in reference to the Sikh pilgrimage sites. A popular pilgrimage destination for both Sikhs and Hindus. The entrance of place is well decorated with murals describing significant scenes of the Sikh history. The massive langar of the community kitchen provides food to a large number of visitors every day. Guru Amar Das Ji (the third Guru) established this place. There is a Baoli (well) with 84 steps leading down to it. The devout believe that by reciting Japji Sahib, the divine Word revealed to Guru Nanak Dev at each step after taking a bath in the Baoli.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.36376,
+                "lon": 75.14462
+              },
+              "price": null
+            },
+            {
+              "order": 29,
+              "name": "Harike Bird Sanctuary",
+              "description": "The second largest bird sanctuary in India. Also a National Wetland &amp; Wildlife Sanctuary. Hari-ke-Pattan is one of India's leading in-land sweet water fish market and home of varied wild life.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.16,
+                "lon": 74.973
+              },
+              "price": null
+            },
+            {
+              "order": 30,
+              "name": "Mandir Mata Salani Ji",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.39408,
+                "lon": 75.28664
+              },
+              "price": null
+            },
+            {
+              "order": 31,
+              "name": "Pul Kanjari village",
+              "description": "Maharaja Ranjit Singh had been staying here in a Baradari as and when he passed by with his troops. It has been declared as a World Heritage Site by the UNESCO. It is said that once when a young dancer was going to Maharaja's Baradari for a dance performance, her shoe slipped into the water channel. A bridge (pul) was especially constructed to take her shoe out and hence this place got its name. Here is also a temple, a mosque and a Gurudwara. Popular shopping place for locals.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.647,
+                "lon": 74.569
+              },
+              "price": null
+            },
+            {
+              "order": 32,
+              "name": "Ram Tirth",
+              "description": "Consecrated by the appearance of Devi Sita, Ram Tirth was the birth place of the sons of King Rama. Making a special place in the holy scripts of ancient religions, the place was once the ashrama of saint Balmiki. The saint is believed to have scripted many of his sacred manuscripts at this place. A hut of Rishi Balmiki is still found at Ram Tirth where he once lived. After giving birth to Luv and Kush, Devi Sita used to stay at this place for a considerable period of time. The evidence of her stay still exists in the form a well which, it is believed, was dug by Hanuman. Devotees of King Rama and Devi Sita flock to this place every year to offer their prayers to the respected deities. As the locational position of the Ram Tirth is facilitated by easy accessibility, hence, the visitors conveniently reach this place of worship without any extra hassles.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 31.6857,
+                "lon": 74.7265
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Jallianwala Bagh** ( A 5-min walk east from the Golden Temple ). Daily 6AM-6PM (summer), 7AM-5PM (winter) . The site of the 1919 Amritsar massacre, turned into a park memorial. On April 13 of that year, British Indian Army soldiers opened fire on an unarmed gathering of men, women and children. The firing lasted about 10 minutes and 1650 rounds were fired, killing 1579 people. A memorial was built on the site and inaugurated by the then-President of India, Rajendra Prasad, on 13 April 1961. The bullet holes can be seen on the walls and adjoining buildings. The well into which many people jumped and drowned attempting to save themselves from the hail of bullets is also a protected monument inside the park. The area near the entrance is only for pedestrians with shops and restaurants. Free .   \r\n 2 ** Gobindgarh Fort ** ( Gobindgarh Fort, Bhangian Da Quila ), Old Cantt Rd, Vijay Chowk, ( ½ km south of the railway station ), ☏ +91 183 521 7666 , info@fortgobindgarh.com . Daily 10AM–10PM . A large 1760 fort that is being turned into a tourist spot with several museums and performances. The fort was built of bricks and lime by Gujjar Singh Bhangi and armed with 25 cannons. In the 19th century it was conquered and enhanced by Maharaja Ranjit Singh, then captured by the British and also used by the Indian army. After restoration it was opened in 2017 to the wide public in a form of something between a museum and amusement park. Among the attractions there is a central stage with live performances; several rooms showing Punjabi clothing, coins and warfare; multimedia shows such as Sher-e-Punjab, a camel ride and a few restaurants and shops. ₹100-800 .  ( updated Dec 2018 ) \r\n 3 **Ram Bagh** ( Company Bagh ) ( Near Lawrence Road ). Tu-Su 10AM-5PM . This is a beautiful garden. A tribute to Guru Ram Das, the founder of the city. Famed as the summer palace of the Maharaja Ranjit Singh (Ranjit Singh Panorama?), it has now been converted into a museum which exhibits weapons from Mughal times to portraits of ruling houses of Punjab and the replica of \"Kohinoor\" diamond. ₹10 .   \r\n 4 **Maharaja Ranjith Singh Museum**, Maharaja Ranjit Singh Bagh (Ram Bagh), Lawrence road ( east of Punjab Lawn Tennis Association (PLTA) Tennis Court ).   \r\n 5 **Statue of Netaji**. Subhas Chandra Bose (Netaji) was an important leader in the Indian struggle for independence. He led the Indian National Army and formed the Provisional Government of Azad Hind in exile.   \r\n 6 **Summer Palace of Maharaja Ranjit Singh'** , Maharaja Ranjit Singh Nagar, Hasanpura Chowk ( Ram Bagh park. ). The palace houses a museum, exhibiting oil paintings, miniatures, coins and weapons from the Sikh period. In this park is the Maharaja Ranjit Singh Panorama, so ask, if you are at the right museum.   \r\n **Historical Banyan Tree** ( Shaheedi Bohr ), At the northern boundary of Ram Bagh .   \r\n 7 **Baba Atal Rai Tower** , Bazar Chure Wala, Papraha Wala Bazar, Katra Ahluwalia ( Near the south entrance to the Golden Temple ). Daily 7–10AM, 3–6PM . This is a great viewpoint over the city and the nearby Golden Temple. It is standing in another Gurdwara, namely the one of _Baba Atal Rai Sahib Ji_. Try the cimmunity kitchen of this Gurdwara if you are keen. Free .   \r\n 8 **Tarn Taran Sahib** ( Tarn Taran Gurudwara ) ( 22 km southeast of the city, 600 m west of the train station ). Mughal architectural style. There is a big holy tank and believed that its water has magical healing power. Amavas, or no moon day, is the most popular Feast, also Diwali, Baishakhi and the various Guru Parabs festivals held here.   \r\n 9 **Gandhi Gate**, Hall Road, Katra Ahluwalia ( east 500 m from R.S. ).   \r\n 10 **Maharaja Ranjit Singh's Statue** ( Statue of Maharaja Jassa Singh Ramgarhia ).   \r\n 11 **Sarovar Ramsar Sahib** ( Gurudwara Bibeksar Sahib ), Moni Chowk, Katra Ahluwalia ( south one km from centre, next to Gurudwara Shahidan ). Gurudwara and pool.   \r\n 12 **Statue of General Sham Singh Attariwala and India Gate**.   \r\n Religious sites 13 **Mata Temple** ( Mata Lal Devi Mandir ), Rani Ka Bagh area ( 800 m northwest of the railway station ). Highly recommended! This is a cave labyrinth Hindu temple devoted to the female saint Lal Devi. Traditionally, women wishing to become pregnant come here to pray. The roundabout path to the main temple passes through low tunnels, caves full of ankle-deep water, inclined walkways, and mirrored hallways that make the experience seem more like a fun house than a place of worship. The colours, wide variety of deities and elaborate mirrored image make this a psychedelically unique temple. This is called Sheesh Mahal, and some people also seem to call it \"Lal Dev.\"   \r\n 14 ** Durgiana Temple ** ( Lakshmi Narayan Temple ), Basant Avenue, Gole Bagh ( Near the Lohgarh Gate ). The temple is enshrined with Goddess Durga. Daily rituals devoted to Durga Ma is performed in here. A dome and a tank are the prime possession of Durgiana Temple. Apart from Durga Devi, Durgiana Temple is also famous for Lord Krishna and Lord Vishnu. Believers whom devotees of these Goddess Lakshmi and Narayan also visit the shrine to gather the blessings.   \r\n 15 ** Gurdwara Toot Sahib ** , Sultanvind Area, Jaspal Nagar ( 3 blocks south from Sultanwind Rd. ), ☏ +91 70095 44833 . Gurdwara Shib of Guru Hargobind Sahib Ji.   \r\n 16 **Gurudwara Pipli Sahib**, Guru Arjun Dev Nagar quarter, Merchant Rd. ( west one km of R.S. ).   \r\n 17 **Gurudwara Baba Budha Sahib** ( Gurudwara Sahib - Gobind Nagar ), one block north from Sultanwind Rd. ( southeast ~2 km of Golden temple ).   \r\n ** Jama Masjid Khairuddin **. It was built in 1976 by freedom fighter Mohammed Khairuddin. This is a mosque where Tootie-e-Hind, Shah Attaullah Bukhari protested against the British Rule.   \r\n Golden Temple 18 ** Golden Temple Complex ** ( Gurudwara Harmandir Sahib ), Golden Temple Road, Atta Mandi ( Right in the centre, 1 km south of Railway Station ). The complex is open 24/7, and is worth visiting twice: once during the day, once at night, when it's beautifully lit up. It is especially a delight at sunset when after a rainy day the sun shines through the clouds and swathes the place into a golden glow. . This is the main attraction in the city, and the most important religious place to the Sikhs. It's a stunning complex, and always full of thousands of pilgrims from all over India, excited to be at a place that they usually only see on television. The excitement to be here is infectious, and many people will be more than happy to tell you all about their religion and customs, and show you around the temple. As you arrive near the complex, you will more likely than not be accosted by hawkers trying to sell you bandannas to cover your head, but there's also a big barrel of free ones to choose from at the every entrance. Head covering and removal of shoes is mandatory for everyone—free cloakrooms are available at all entrances.\nBesides walking around and enjoying the sight, have a meal and a chai at the free community kitchen southeast of the pool. It is also highly recommended to stay one or two nights in the temple itself—if you do not want to sleep next to the pool, there is a tourist dorm with AC in the _Sarai Shri Guru Ramdass Ji_ building. Also, if you are keen, volunteers for the kitchen are always welcome and it is a fun experience between the many other locals rolling some bread, collecting dishes, or washing up. Free (donations for free meals and accommodation are welcome) .   \r\n\n\r\n 19 ** Akal Takht ** ( The Timeless ) ( opposite the Harmandir Sahib, and the marbled Darshni Deorhi ). This is where the highest council of Sikhs sits and deliberates. At night, the Guru Granth Sahib is taken to the Akal Takht.   \r\n 20 **Amrit Sarovar**. The giant pool of water that surrounds and reflects the Golden Temple. Sections (marked off by ropes) are set aside for (male) pilgrims wishing to bathe.   \r\n 21 **Central Sikh Museum** ( 2nd floor, entrance on the right side of the main entrance when looking from the pool ). Devoted to large gallery of paintings, mostly showing the gruesome ways countless Sikhs have been martyred, and various items from the gurus. Free .   \r\n 22 **Ghanta Ghar**. This is the main entrance, sporting a distinctly Victorian clock-tower. Wash your feet in the water at the entrance in order to keep the temple clean.   \r\n 23 **Harmandir Sahib** ( Sri Darbar Sahib ). This is the Golden Temple itself, floating above the Amrit Sarovar, housing the sacred Adi Granth scripture which is recited out loud during the day. This is the most crowded point, accessible by a bridge from the edge of the pool, and entry here is regulated by traditionally dressed Sikh guards. It's a 2-storey structure where Sikh saints are seated on each floor.   \r\n 24 **Kaulsar Sarovar** ( Kaulsar Sacred Pools ) ( SW part of the Complex ). This is one of five sarovars in the city. This sarovar is in honor of Mata Kaulan, a Muslim woman, who was taken into care by the sixth Sikh Guru, Guru Hargobind on instructions of Mian Mir, a close friend of the Sikh Gurus and a pious and wise Muslim pir. All Sikhs are encouraged in their lives to do volunteer services at any gurdwara or in the greater society, and everyone you see working here is fulfilling that duty. It's likely possible that you can join in if you feel so inclined: you could enquire by asking the people outside peeling vegetables, or those washing dishes.   \r\n 25 **Gurdwara Mata Kaulan Sahib Ji** ( on the north shore of Kaulsar Sarovar ).   \r\n 26 ** Manji Sahib Hall ** ( East of Kaulsar Pool, Opposite Sri Guru Ram Das Langar Hall ).   \r\n 27 **Langar Ghar** ( Community kitchen ) ( SE of Amrit Sarovar ). Free communal kitchen, where people of any colour, caste, creed or religion, can eat food (langar) sitting together. Also enjoy a free chai at the bottom level. In case you are keen for a picture of the Golden Temple from above (especially during sunset), follow the left staircase up further onto the roof and roam around a little. Also, people won't mind if you walk around in the place where the prepare the bread or wash the dishes.   \r\n 28 **Sarai Shri Guru Ramdass Ji** ( Shri Guru Ram Das Sarai ) ( S of Amrit Sarovar ). Built in 1931. Lodging place for pilgrims in 228 rooms, including 1 dorm with AC and fans for foreigners.   \r\n 29 **Guru Arjun Dev Niwas** ( east of Sarai Shri Guru Ramdass Ji ). Another lodging place for pilgrims.   \r\n 30 **Sri Guru Nanak Dev Niwas** ( West of Guru Arjun Dev Niwas ). This building houses sectarian offices of the different departments of SGPC and provide lodging facilities for pilgrims. Twenty rooms for pilgrims.   \r\n 31 **Guru Hargobind Niwas and Sri Guru Ramdas Library** ( west of Sri Guru Nanak Dev Niwas ). Rooms for pilgrims.   \r\n 32 **Gurudwara Santokh Sar**, Golden Temple Out Rd ( near Subhash Park ).   \r\n Further afield 33 **Bathinda Fort and Qila Mubaraq** ( Hindi: ਬਠਿੰਡਾ ), Near Fort street, Old City quarter, Bathinda ( 500 m east of Bathinda Junction Railway Station, about 180 km south of Amritsar ). The Qila is one of the oldest and highest small brick monument. It also contains two gurudwaras as the tenth Sikh guru Gobind Singh visited the place. The fort was built in 1930. It was as the official residence of armed forces of Maharaja Bhupinder Singh of Patiala State. It has been converted into a four-star hotel. Other sights in/around the town: Rose Garden on four hectares (close to Thermal Plant), Zoological garden (10 km away), Chetak Park with a lake, Mazaar of Peer Haji Rattan a worship place including a mosque and a Sikh gurudwara.- Further afield: **Lakhi Jungle** (15 km away toward Muktsar). A forest having old Gurudwara enjoyed the touches of Shri Guru Nanak Dev.   \r\n 34 ** Faridkot Fort ** ( Quilla Mubarrak, Punjabi: ਫ਼ਰੀਦਕੋਟ ), Sarafa Bazar Rd, Ajit Nagar ( Thirty km away from Ferozepur ). The fort is closed under renovation . Faridkot Fort more than 700 years old. The main attraction of Faridkot Fort lies in its extraordinary interiors. Among other prime captivating features, Faridkot Fort boasts of its Sheesh Mahals which are embellished with incredibly beautifully mirror works and wall paintings. Also, there can see motifs on the interior ceilings and walls of Faridkot Fort which show the rich Rajasthani traditions of craftsmanship. More sights in/around the town: _Raj Mahal_ the Royal Palace of Maharaja Bikrama Singh on Area 61,000 m² - _Darbar Ganj_ bungalow with a garden place, now been converted into Circuit House. Fairy Cottage (seven km on Chahal Road). This beautiful cottage is constructed by Maharaja Brijinder Singh in 1910–11. Check Tower (at the entrance of the Fairy cottage), Shaheed Bhagat Singh Park (in the city centre) in a beautiful scenery of the sunset in the evening. To do: Sheikh Farid Agman Purab festival (15-23 Sept); Bhatinda Virasat Mela and Heritage Festivals   \r\n 35 **Gurudwara Goindwal &amp; Baoli Sahib** ( Samadhi of Guru Angad Dev Ji ), Goindwal Sahib ( about 45 km southeast from Amritsar ). Located on western shore of Beas River, Northeast 30 km. It was the first centre of Sikhism, holds immense significance in reference to the Sikh pilgrimage sites. A popular pilgrimage destination for both Sikhs and Hindus. The entrance of place is well decorated with murals describing significant scenes of the Sikh history. The massive langar of the community kitchen provides food to a large number of visitors every day. Guru Amar Das Ji (the third Guru) established this place. There is a Baoli (well) with 84 steps leading down to it. The devout believe that by reciting Japji Sahib, the divine Word revealed to Guru Nanak Dev at each step after taking a bath in the Baoli.   \r\n 36 **Harike Bird Sanctuary** ( Hari-ke-Pattan ), Harike village ( South 54 km ). Daily 9AM-5PM . The second largest bird sanctuary in India. Also a National Wetland &amp; Wildlife Sanctuary. Hari-ke-Pattan is one of India's leading in-land sweet water fish market and home of varied wild life.   \r\n 37 **Mandir Mata Salani Ji**, Khiranwali ( SE 60 km away from Amritsar, north half km from Kapurthala - Khanpur Rd ).   \r\n 38 **Pul Kanjari village** ( W 35 km away from Amritsar, north 6 km from Wagah Border ). Maharaja Ranjit Singh had been staying here in a Baradari as and when he passed by with his troops. It has been declared as a World Heritage Site by the UNESCO. It is said that once when a young dancer was going to Maharaja's Baradari for a dance performance, her shoe slipped into the water channel. A bridge (pul) was especially constructed to take her shoe out and hence this place got its name. Here is also a temple, a mosque and a Gurudwara. Popular shopping place for locals.   \r\n 39 **Ram Tirth** ( Ram Tirath Temple ), Chogawan Road , Kaler ( West 11 km outside the city. Half km north of the main road ). 5AM-9PM? . Consecrated by the appearance of Devi Sita, Ram Tirth was the birth place of the sons of King Rama. Making a special place in the holy scripts of ancient religions, the place was once the ashrama of saint Balmiki. The saint is believed to have scripted many of his sacred manuscripts at this place. A hut of Rishi Balmiki is still found at Ram Tirth where he once lived. After giving birth to Luv and Kush, Devi Sita used to stay at this place for a considerable period of time. The evidence of her stay still exists in the form a well which, it is believed, was dug by Hanuman. Devotees of King Rama and Devi Sita flock to this place every year to offer their prayers to the respected deities. As the locational position of the Ram Tirth is facilitated by easy accessibility, hence, the visitors conveniently reach this place of worship without any extra hassles.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Amritsar Heritage Walk",
+              "description": "Despite visiting Amritsar and Golden temple several times, visitors find Heritage Walk experience extremely enjoyable and informative."
+            },
+            {
+              "name": "Old City Shopping",
+              "description": "As you move through narrow path of old city and some other heritage buildings, you can see stalls selling everything from jootis to roasted sweet potatoes."
+            }
+          ],
+          "brief": "Despite visiting Amritsar and Golden temple several times, visitors find Heritage Walk experience extremely enjoyable and informative.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Golden Temple Community Kitchen",
+              "description": "A dining hall (langar) serving free basic meals to all. Plates and spoons are handed out near the entrance, then follow the crowds inside and take the next vacant spot in one of the rows on the floor. Servers come by with large buckets of dal, chapatis and rice. Make sure to finish everything on your plate (wasting food isn't an option here) then take it outside to volunteers at the washing area. It's inside the complex which means no shoes and cover your head. At the ground floor of the building, they are serving chai. At the exit, there is a donation box for the free meals.",
+              "location": null
+            },
+            {
+              "name": "The Brothers or Bharavan the Dhaba",
+              "description": "Serves traditional food or Chinese, continental at affordable prices. However, the food and service drops during peak times like weekends.",
+              "location": null
+            },
+            {
+              "name": "Bubby Dhaba",
+              "description": "serves authentic Punjabi food at a very reasonable cost. Just metres from the main entrance of the Holy Golden Temple",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Lassi is a popular and traditional yogurt-based drink which originates in the Punjab region. It is made by blending yogurt with water and Indian spices. Traditional lassi (also known as salted lassi, or, simply lassi) is a savoury drink sometimes flavoured with ground roasted cumin while sweet lassi, on the other hand, is blended with sugar or fruits instead of spices.\r\n\n\r\n Bars &amp; Lounge **Bar One**, Comfort Inn GSK Hotel Amritsar, 110, Albert Road .   \r\n **Empire Lounge**, Welcom heritage Ranjits Svaasa, 47a, Mall Road Area .   \r\n **Glassy Junction at Surya Residency**, Dist. Shopping Complex Ranjit Avenue .   \r\n **Nimos Restaurant and Bar**, Green Avenue, Amritsar ."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Golden Temple Dorm",
+              "description": "Offers free accommodation to pilgrims and tourists in very basic dorms or 3-bed rooms with AC and ventilation. It includes a shower, but toilets are outside with the other pilgrims. Maximum stay is 2-5 days, depending on utilization. You should remain quiet and respectful of the surroundings, keeping in mind that this is a holy place of pilgrimage more than a tourist attraction. Alcohol and smoking are _strictly forbidden_, not only within the temple complex but anywhere within sight of the temple complex. If you can handle that, then this is arguably the best place to stay—watching people go about their routine, talking to the pilgrims, and absorbing the gorgeous atmosphere. Put your donations in the donation box near the entrance to Ram Das Ji Niwas.",
+              "price": "Free, but donation expected (₹75-150 per night)"
+            },
+            {
+              "name": "Hotel Astoria",
+              "description": "Rooms : 28.",
+              "price": "Room ₹500–1,500"
+            },
+            {
+              "name": "Hotel Golden Heritage",
+              "description": "Rooms : 35",
+              "price": "Room ₹900–1,600"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:05.674Z",
+        "wikipedia_summary": "Amritsar, also known as Ambarsar, is the second-largest city in the Indian state of Punjab, after Ludhiana. Located in the Majha region, it is a major cultural, transportation and economic centre. The city is the administrative headquarters of the Amritsar district. It is situated 217 km (135 mi) north-west of Chandigarh, and 455 km (283 mi) north-west of New Delhi. It is 28 km (17.4 mi) from the India-Pakistan border, and 47 km (29 mi) north-east of Lahore, Pakistan.",
+        "wikipedia_description": "Metropolis in Punjab, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:05.723Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage",
+        "wildlife_sanctuary",
+        "ramsar_site"
+      ],
+      "search_context": "Spiritual / Pilgrimage City / Urban destination Amritsar Ramdaspur Ambarsara Rāmdāspura Ambarsar Amrita Saras Amritsar (India) Amrîtsar Rāmdāspur Amricaro Sightseeing Amritsar, also known as Ambarsar, is the second-largest city in the Indian state of Punjab, after Ludhiana. Located in the Majha region, it is a major cultural, transportation and economic centre. The city is the administrative headquarters of the Amritsar district. It is situated 217 km (135 mi) north-west of Chandigarh, and 455 km (283 mi) north-west of New Delhi. It is 28 km (17.4 mi) from the India-Pakistan borde",
+      "travel_facts": {
+        "summary": "**Amritsar** anchors **ATQ (~11 km) Harmandir stacks** beneath **Amritsar Junction (~2 km)** knowing Wagah sunset merges absorb Golden Temple langar tides.",
+        "keywords": [
+          "atq majha stacks",
+          "amritsar junction merges",
+          "wagah relay apron",
+          "golden temple tides"
+        ]
+      }
+    },
+    {
+      "slug": "punjab-chandigarh",
+      "name": "Chandigarh",
+      "region": "",
+      "state": "Punjab",
+      "coordinates": {
+        "lat": 30.73639,
+        "lon": 76.78833,
+        "source": "wikidata"
+      },
+      "description": "**Chandigarh** is India 's first planned city , quite distinct from the rest of the country and considerably better organised. It is the capital of both Haryana and Punjab states, but the city is not part of either state, being a union territory, i.e. administered directly by the central government.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Chandigarh",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chandigarh",
+        "wikidata": "https://www.wikidata.org/wiki/Q43433"
+      },
+      "distance_km": 1977,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:21:33.822Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Ćandigarh",
+        "Chandīgarh",
+        "Chandi-garh",
+        "Chandigar",
+        "Chandi garh",
+        "Chandighar",
+        "Chandígar",
+        "Chańḍīgaṙh",
+        "Ĉandigarh",
+        "IN-CH",
+        "Čandigara",
+        "Čandigarha",
+        "Čandīgara",
+        "Teritorija Chandigarh",
+        "Čandigar",
+        "Teritorija Čandigar",
+        "Teritorij Chandigarh",
+        "Čandigarhas",
+        "The city beautiful"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chandigarh_in_India_(disputed_hatched).svg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Open%20Hand%20Monument%20and%20a%20Rose.jpeg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Chandigarh International Airport",
+          "code": "IXC",
+          "distance_km": 8
+        },
+        "nearest_railway_station": {
+          "name": "Chandigarh Junction railway station",
+          "distance_km": 8,
+          "note": "Shatabdi corridor to New Delhi"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Chennai",
+          "Hyderabad",
+          "Bengaluru",
+          "Lucknow",
+          "Jaipur",
+          "Amritsar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Chennai",
+          "Hyderabad",
+          "Bengaluru",
+          "Lucknow",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 231249,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The most striking thing about the city is the expanse of resplendent blue sky with the mountains in the backdrop. When you approach the city, you see the jagged skyline of the Shivalik Hills looming large over the city and the faint image of an old temple dedicated to Goddess Chandi (15 km from Chandigarh) from which the city got its name.\r\n\nChandigarh may appear oddly familiar to Western visitors and idiosyncratic to the rest of India. Enjoy the planned city, with tree-lined roads, large beautiful roundabouts, several gardens and on top — a great set of people. Chandigarh and Mysore are considered the cleanest two cities of India.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Chandigarh International Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Chandigarh_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Chandigarh International Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Chandigarh_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Chandigarh Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Chandigarh_Junction_railway_station",
+              "distance_km": 8,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Chandigarh International Airport** ( **IXC **  IATA ) ( about 8 km (5.0 mi) from the city centre. ). An attractive and pleasant airport. Major Indian airlines fly to the city.  ( updated Apr 2026 ) \r\n By train 2 **Chandigarh Junction railway station** ( ਚੰਡੀਗੜ ਰੇਲਵੇ ਸਟੇਸ਼ਨ ) ( 8 km east of the city centre, well connected with local buses as well as numerous taxis and rickshaws ).  ( updated Apr 2022 ) \r\nThere is a frequent service to and from New Delhi. Trains connecting New Delhi include Kalka (Chandigarh) Shatabdi Express (twice daily) and the economical Chandigarh Jan Shatabdi Express (Una (HP) to Delhi). Shatabdi Express is quite popular and it is better to have an advanced reservation at least 2–3 days prior to the journey.\r\n\nPopular long-distance trains include the following:\r\n\n\r\n Paschim Express (daily) from Mumbai \r\n Kalka Mail (daily) from Howrah \r\n Dehradun-Chandigarh Madras Express (Monday) from Chennai \r\n Kerala Sampark Kranti (Wednesday) from Kochuveli (Kerala) \r\n Chandigarh Lucknow Express (daily) from Lucknow . \r\n Chandigarh-Jaipur Garib Rath from Jaipur . \r\n By car Chandigarh has an equally good connectivity via road. It is a 4–5-hr drive from Delhi, the road comprising mainly of NH 1 is quite good. Chandigarh serves as a gateway to the state of Haryana and Himachal Pradesh .\r\n\nDistances from selected cities:\r\n\n\r\n New Delhi – 260 km (160 mi) \r\n Shimla – 110 km (68 mi) \r\n Manali – 320 km (200 mi) \r\n Dehradun – 175 km (110 mi) \r\n Amritsar – 250 km (155 mi) \r\nThere are many car rental companies available in Chandigarh. If you are travelling from Delhi, you can book a cab from a number of travel agencies present in various nooks and corners of the city, or you can book a cab just a call away. Travelling by smaller vehicles like Indica is the most common mode of cab transfers on this route. The highway is pretty scenic.\r\n\nWhile it is good to take the cabs for travel on this route in summers, it should be avoided in winters due to heavy fog. Dec-Feb are winter months in India. Chandigarh, being situated in laps of mountains, faces heavy fog at night and in the early morning. At such times, the visibility on roads can be less than six feet.\r\n\n\r\n By bus Chandigarh is served by two bus terminals.\r\n\n\r\n 3 ** New Inter State Bus Terminus ** , in Sector 43 , ☏ +91 172-2624403 . It provides connectivity from all major destinations in the neighbouring states Himachal Pradesh , Punjab , Haryana , Uttarakhand , Jammu , and Delhi (limited). The cheap accommodation options in the terminal don't allow foreigners.   \r\n 4 **Inter State Bus Terminus in Sector 17** , ☏ +91 172-2700006 . Offers connectivity from all major towns of Haryana (except those on Himachal Route like Kalka) and Delhi .   \r\n**Note**, if you decide to leave Chandigarh again immediately due to the lack of affordable accommodation, there are many night connections to various distant cities, with both AC and regular buses.\r\n\nDelhi is extensively connected with a bus service every 15 min offered by Chandigarh Transport Undertaking, Haryana Roadways, Punjab Roadways and Himachal Roadways. Volvo A/C buses are also run on the Chandigarh-Delhi section and offer connection to the Airport and towns like Gurgaon. The fares of Volvo buses are usually comparable with the Shatabdi Express. The timetable for Chandigarh Volvo Buses can be found here .\r\n\nChandigarh Transport Undertaking offers a comprehensive connectivity between the two bus terminals with air-conditioned and normal buses plying throughout the day between the terminals.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The bus service is frequent and efficient 6AM-10PM. Fares starting from ₹20, e.g. railway station to ISBT-43 for ₹25. 45 routes are being plied in Chandigarh. The travel is generally hassle-free, though there might be a rush on some particular routes during morning and evening peak hours.\r\n\nThe buses with corresponding routes can be found here .\r\n\nThe Chandigarh tourism also runs a special **Hop On Hop Off** double-decker bus which takes you around for a tour of all the main spots in the city including Sukna Lake, Punjab University, and the Secretariat. Having bought one ticket, a person can board or disembark as many times in a day as he wishes. This provides flexibility to see the places of interest and spend as much time as he wishes at a particular spot of choice. It starts its journey from Hotel Shivalik view in Sector 17 near the Bus Terminal.\r\n\n\r\n By taxi At city beautiful there are various taxi service provider available for in city and outstation travel. Some most used options are:\r\n\n\r\n ** Uber **. Book taxis through mobile apps for city and outstation travel.   \r\n ** inDrive **. inDrive is a service that allows drivers and passengers to find each other and to independently agree on all the terms of each trip.   \r\n ** Ola Cabs **. Cabs available through website and mobile app for local and outstation.   \r\nUT administration has started a fully air-conditioned cab service. The cabs are available at the door step on call. The cabs are stationed at important places including Railway Station and Airport. The cabs are fully air-conditioned and extremely comfortable. They serve Chandigarh and the satellite towns of Panchkula and Mohali . All the taxis are brand new, air conditioned/air heated and driven by the uniformed drivers. Taxis are also have a complaint book and any passenger can lodge a complaint with State Transport Authority if services provided to him are not found up to the mark. The cabs are continuously monitored through GPS technology whereby their locations are monitored by their respective control rooms.\r\n\nThere are no charges for first kilometre except for the meter down charges. **Rate** ₹15 for the first kilometre and ₹15 for the subsequent kilometers.\r\n\nCab services like OlaCabs also operate in Chandigarh and satellite towns of Panchkula and Mohali . Uber is also available on most of the routes of the tricity.\r\n\n\r\n ** Mahajan Taxi Service **, S.C.O. 3232 Sector 41D , ☏ +91 9854201500 , mahajantaxiservice@gmail.com . Outstation and local cabs available on website and app.  ( updated May 2020 ) \r\n By auto rickshaw Chandigarh is the first city in the country to have Radio Auto service on the lines of successful working of the Radio Taxi service. The pink autos charge ₹10 for the first kilometre and ₹8 for subsequent kilometres. The service named as \"tuk-tuk\" is available round the clock. Available on call at +91 172 4242424.\r\n\nOn the whole, auto-rickshaws are quite popular in the city and are easily available at bus terminals, railway stations, and auto stands in the commercial market of every sector. It is very unlikely that they would operate with a meter so negotiate the price before engaging one.\r\n\n\r\n By bicycle **SmartBike** ( Android , IOS ) A bike can be taken for a ride at ₹10 for every half an hour. e-cycles on the same rates will also be available at the stations for people who do not want to pedal.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "The Capitol Complex",
+              "description": "Most of the capitol complex is fenced off due to tight security, the open hand is accessible and from there you can see the main buildings, albeit from a distance. If you want a closer look at the Capitol, you need to do a tour with the 1 **Tourist Center** daily at 10AM, noon and 3PM—you need to be there 20 min before. Note the capitol and bureau are only open on M-F. This is one of 17 worldwide works by the architect Le Corbusier to be inscribed on the UNESCO World Heritage List .",
+              "wikipedia": "https://en.wikipedia.org/wiki/Chandigarh_Capitol_Complex",
+              "coordinates": {
+                "lat": 30.75885,
+                "lon": 76.80445
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Chandigarh Museum",
+              "description": "This provides an interesting aspect on how Chandigarh was founded. It begins with the principles on which Chandigarh was built, selection of the Architects, the design for the people etc. The correspondence between the Punjabi officials overseeing the construction of the city, and the Federal Government in Delhi is fascinating, and well worth taking a few minutes to read. Close by is the Government Museum and Art Gallery as well as the Museum of Science and Natural History Museum.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.74819,
+                "lon": 76.78689
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Elante Mall",
+              "description": "Elante Mall at Chandigarh is among the largest malls in North India, covering 20 acres. It is a mixed use development project which includes entertainment, hotels and business. Elante Mall has a retail space of over 1 million square feet. across \"ground level and three upper levels\". In the retail area, Elante Mall hosts various national and some huge internal brands like Heckett London,Apple ( eStore..Powered by Beyond Computers), Marks &amp; Spencer, Brook Brothers, Rolex, Harley Davidson, Promod etc. Elante boasts of a great food court, a wonderful courtyard full of cafes, sports bars and has various clothing brands. In the entertainment section Elante Mall has PVR cinemas for entertaining large crowds.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Elante_Mall",
+              "coordinates": {
+                "lat": 30.70536,
+                "lon": 76.8011
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "The High Court",
+              "description": "The letter is fine for looking around the High Court; just show it to security at the entrance, around the back, but if you want to take photos you need to surrender your camera, and head in to fill out some more forms in the protocol office, and then take the forms back to security to get your camera back. It’s worth it as the building is amazing, and extremely photogenic. You can’t take any photos indoors.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Punjab_and_Haryana_High_Court",
+              "coordinates": {
+                "lat": 30.7573,
+                "lon": 76.8066
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "The Japanese Garden",
+              "description": "The Japanese Garden is a park in Sector 31 in union territory of Chandigarh. Built in 2014 in 13 acres of Land, by Indian Government, it was inaugurated by Shivraj Patil on 7th November 2014. It consists of water bodies, pagoda towers, water falls and golden bamboos. This is first ever garden in Chandigarh with Japanese touch and costs around ₹6 crore.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.7044,
+                "lon": 76.78405
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "The Legislative Assembly",
+              "description": "This is the Assembly for both Punjab and Haryana. It's easy to run out of time, so make sure you have a whole clear weekday to appreciate all the capitol buildings.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Assembly_(Chandigarh)",
+              "coordinates": {
+                "lat": 30.76103,
+                "lon": 76.80328
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Museum and Art Gallery",
+              "description": "The museum and the combined art gallery is an interesting place to go to. Artefacts range from Harappan period relics to paintings and coins from different areas and time periods. The Art Gallery has good collections of ancient and modern Indian art. Fossils of the local dinosaurs found in the region are on show in the adjacent natural history museum. The buildings that the Museums and Art Gallery are housed in are attractive.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Government_Museum_and_Art_Gallery",
+              "coordinates": {
+                "lat": 30.7489,
+                "lon": 76.78745
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Pinjore Gardens",
+              "description": "Also called Yadavindra Gardens, these are 20 km (12 mi) from Chandigarh and 15 km (9 mi) from Panchkula , on the Chandigarh- Shimla road. Taxis and buses ply regularly between Pinjore and Chandigarh. Pinjore lies on the foothills of the lower Shivalik ranges. The fascinating gardens in the Mughal style are one of the most popular picnic spots in the region. A mini zoo, plant nursery, Japanese garden, historic palaces and picnic lawns await visitors.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Pinjore_Gardens",
+              "coordinates": {
+                "lat": 30.79333,
+                "lon": 76.91169
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Rose Garden",
+              "description": "The city houses the largest rose garden in Asia. It also hosts an annual rose festival which is quite popular among the local population.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Zakir_Hussain_Rose_Garden",
+              "coordinates": {
+                "lat": 30.74599,
+                "lon": 76.78206
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "The Secretariat",
+              "description": "You have to jump through some hoops to visit the Secretariat. First you need to find ‘Reception’, which is just a small building out the back, and show them your letter to get a visitor permit, then you need to see Security, who will let you in, then you need to see the main security officer inside, who will send you up to the Registrar, who will then send you back to the main security office. Thankfully you are escorted through most of this confusing, overly complex procedure, usually by a junior soldier with large machine gun. The whole process takes about 30 min to an hour. Once it’s all clear you can go up to the roof, check out the geranium gardens and take in an expansive view of all of Chandigarh. Then they will let you have a look out the front, which is more interesting.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Secretariat_Building_(Chandigarh)",
+              "coordinates": {
+                "lat": 30.76122,
+                "lon": 76.80054
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Sukhna Lake",
+              "description": "Sukhna Lake is an artificial reservoir. A popular place to hang out, one can expect to find residents of the city jogging or strolling along the banks. There is a walking path, a cafeteria, shops and a mini-amusement park and paddleboats. Shikaras are also available. The Sukhna Lake was created in 1958 by damming the Sukhna Choe, a seasonal stream that flows down from the Shivaliks. Storks and cranes make migratory stops at the lake. The lake, incidentally, has Asia's longest water channel for rowing and yachting. Visiting Sukhna Lake in the evening or early morning is a particularly pleasant experience.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sukhna_Lake",
+              "coordinates": {
+                "lat": 30.74232,
+                "lon": 76.81871
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "International Dolls Museum",
+              "description": "The museum has a collection of more than 250 dolls and puppets from over 25 countries, including India, Japan, Germany, Russia, and the United Kingdom. The dolls are made of a variety of materials such as wood, cloth, papier-mâché, and porcelain. The exhibits are arranged in various themes, such as fairy tales, Indian mythology and traditions, historical periods, and social causes.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "National Gallery of Portraits",
+              "description": "It was set up in 1977 in the heart of Chandigarh. The Museum has a vibrant and varied collection of portraits, busts, sculpture, images, prints of rare documents, photos and paintings based on India’s struggle for Independence. It has a big rectangular half comprising of 41 information panels describing details of movements and conspiracies during long freedom struggle of India from British Rule.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Le Corbusier Centre",
+              "description": "The old Architect's office is one of the earliest buildings constituted in Chandigarh. The museum was a workplace of Le Corbusier and his team therefore, building is of immense historic value to Chandigarh. The modest structure of building may well be considered as a seminal attempt at introducing concepts of sustainability and green architecture in the architectural annals of modern India.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "War Memorial",
+              "description": "The memorial is the largest post-Independence war memorial of the country with nearly 8459 names of deceased soldiers, since 1947 from the Army Air Force and Navy. The Place is designed to pay homage to the Jawans located in Bougainvillea garden. It was inaugurated by Late APJ Abdul Kalam in 2006. The walls of memorial are made from Pink Sandstone. It also has terrace like sitting area hence, makes a perfect place for Open Air theatre for conducting Light and Sound Show.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **The Capitol Complex** ( Chandigarh Capitol Complex ), Sector 1 . Most of the capitol complex is fenced off due to tight security, the open hand is accessible and from there you can see the main buildings, albeit from a distance. If you want a closer look at the Capitol, you need to do a tour with the 1 **Tourist Center** daily at 10AM, noon and 3PM—you need to be there 20 min before. Note the capitol and bureau are only open on M-F. This is one of 17 worldwide works by the architect Le Corbusier to be inscribed on the UNESCO World Heritage List .   \r\n 2 **Chandigarh Museum** ( Government Architecture Museum ), Sector 10 . This provides an interesting aspect on how Chandigarh was founded. It begins with the principles on which Chandigarh was built, selection of the Architects, the design for the people etc. The correspondence between the Punjabi officials overseeing the construction of the city, and the Federal Government in Delhi is fascinating, and well worth taking a few minutes to read. Close by is the Government Museum and Art Gallery as well as the Museum of Science and Natural History Museum.   \r\n 3 **Elante Mall** . Elante Mall at Chandigarh is among the largest malls in North India, covering 20 acres. It is a mixed use development project which includes entertainment, hotels and business. Elante Mall has a retail space of over 1 million square feet. across \"ground level and three upper levels\". In the retail area, Elante Mall hosts various national and some huge internal brands like Heckett London,Apple ( eStore..Powered by Beyond Computers), Marks &amp; Spencer, Brook Brothers, Rolex, Harley Davidson, Promod etc. Elante boasts of a great food court, a wonderful courtyard full of cafes, sports bars and has various clothing brands. In the entertainment section Elante Mall has PVR cinemas for entertaining large crowds.  ( updated Mar 2015 ) \r\n 4 **The High Court** ( Punjab and Haryana High Court also: Capitol High Court ). The letter is fine for looking around the High Court; just show it to security at the entrance, around the back, but if you want to take photos you need to surrender your camera, and head in to fill out some more forms in the protocol office, and then take the forms back to security to get your camera back. It’s worth it as the building is amazing, and extremely photogenic. You can’t take any photos indoors.  ( updated Mar 2015 ) \r\n 5 **The Japanese Garden** ( Japani Garden ). The Japanese Garden is a park in Sector 31 in union territory of Chandigarh. Built in 2014 in 13 acres of Land, by Indian Government, it was inaugurated by Shivraj Patil on 7th November 2014. It consists of water bodies, pagoda towers, water falls and golden bamboos. This is first ever garden in Chandigarh with Japanese touch and costs around ₹6 crore.  ( updated Mar 2015 ) \r\n 6 **The Legislative Assembly** ( Palace of Assembly ). This is the Assembly for both Punjab and Haryana. It's easy to run out of time, so make sure you have a whole clear weekday to appreciate all the capitol buildings.  ( updated Mar 2015 ) \r\n 7 **Museum and Art Gallery** ( Government Museum and Art Gallery ) ( Sector 10 ). The museum and the combined art gallery is an interesting place to go to. Artefacts range from Harappan period relics to paintings and coins from different areas and time periods. The Art Gallery has good collections of ancient and modern Indian art. Fossils of the local dinosaurs found in the region are on show in the adjacent natural history museum. The buildings that the Museums and Art Gallery are housed in are attractive.  ( updated Mar 2015 ) \r\n 8 **Pinjore Gardens** . Also called Yadavindra Gardens, these are 20 km (12 mi) from Chandigarh and 15 km (9 mi) from Panchkula , on the Chandigarh- Shimla road. Taxis and buses ply regularly between Pinjore and Chandigarh. Pinjore lies on the foothills of the lower Shivalik ranges. The fascinating gardens in the Mughal style are one of the most popular picnic spots in the region. A mini zoo, plant nursery, Japanese garden, historic palaces and picnic lawns await visitors.  ( updated Mar 2015 ) \r\n 9 ** Rock Garden of Chandigarh ** ( Nek Chand's Rock Garden ). Daily 9AM–8PM, last ticket 7PM . In 1992, Nek Chand, a humble transport official, began to clear a little patch of jungle to make himself a small garden area. He set stones around the little clearing and before long had sculpted a few figures recycled from materials he found at hand. Gradually Nek Chand's creation developed and grew; before long it covered several acres and comprised hundreds of sculptures set in a series of interlinking courtyards. After his normal working day Chand worked at night, in total secrecy for fear of being discovered. When they did discover the garden, local government officials were thrown into turmoil. The creation was completely illegal, a development in a forbidden area. However, rather than demolishing the garden, they decided to give Nek Chand a salary so that he could concentrate full-time on his work, plus a workforce of fifty labourers. ₹30 .  ( updated Oct 2018 ) \r\n 10 **Rose Garden** ( Zakir Hussain Rose Garden ), Sector 16 . The city houses the largest rose garden in Asia. It also hosts an annual rose festival which is quite popular among the local population.   \r\n 11 **The Secretariat** . You have to jump through some hoops to visit the Secretariat. First you need to find ‘Reception’, which is just a small building out the back, and show them your letter to get a visitor permit, then you need to see Security, who will let you in, then you need to see the main security officer inside, who will send you up to the Registrar, who will then send you back to the main security office. Thankfully you are escorted through most of this confusing, overly complex procedure, usually by a junior soldier with large machine gun. The whole process takes about 30 min to an hour. Once it’s all clear you can go up to the roof, check out the geranium gardens and take in an expansive view of all of Chandigarh. Then they will let you have a look out the front, which is more interesting.  ( updated Mar 2015 ) \r\n 12 **Sukhna Lake** ( Sector 1 ). Sukhna Lake is an artificial reservoir. A popular place to hang out, one can expect to find residents of the city jogging or strolling along the banks. There is a walking path, a cafeteria, shops and a mini-amusement park and paddleboats. Shikaras are also available. The Sukhna Lake was created in 1958 by damming the Sukhna Choe, a seasonal stream that flows down from the Shivaliks. Storks and cranes make migratory stops at the lake. The lake, incidentally, has Asia's longest water channel for rowing and yachting. Visiting Sukhna Lake in the evening or early morning is a particularly pleasant experience.   \r\n **International Dolls Museum**, Bal Bhawan complex . The museum has a collection of more than 250 dolls and puppets from over 25 countries, including India, Japan, Germany, Russia, and the United Kingdom. The dolls are made of a variety of materials such as wood, cloth, papier-mâché, and porcelain. The exhibits are arranged in various themes, such as fairy tales, Indian mythology and traditions, historical periods, and social causes.  ( updated Mar 2023 ) \r\n **National Gallery of Portraits**, Sector 17, Chandigarh . It was set up in 1977 in the heart of Chandigarh. The Museum has a vibrant and varied collection of portraits, busts, sculpture, images, prints of rare documents, photos and paintings based on India’s struggle for Independence. It has a big rectangular half comprising of 41 information panels describing details of movements and conspiracies during long freedom struggle of India from British Rule.  ( updated Mar 2023 ) \r\n ** Pierre Jeanneret Museum **, 57, Uttar Marg, Sukhna Lake, Sector 5, Chandigarh , toll-free: 1800 180 2116 . 10 am–6 pm . The house of Chandigarh's first Chief Architect, Pierre Jeanneret has been converted into a museum. The Swiss-born architect Pierre Jeanneret, a cousin of Le Corbusier, was instrumental in the design and development of the capital city of Chandigarh. The three bedrooms on first floor have been opened up as guest rooms. Rooms: ₹1,000 for Officers; ₹1,500 for Researchers, Scholars, Architect; ₹2,500 General Administration. Incl. breakfast .  ( updated Mar 2023 ) \r\n **Le Corbusier Centre**, Sector 19B, Madhya Marg , ☏ +91 172 277 7077 . 10AM-5PM daily though hours may differ on public holidays . The old Architect's office is one of the earliest buildings constituted in Chandigarh. The museum was a workplace of Le Corbusier and his team therefore, building is of immense historic value to Chandigarh. The modest structure of building may well be considered as a seminal attempt at introducing concepts of sustainability and green architecture in the architectural annals of modern India.  ( updated Mar 2023 ) \r\n **War Memorial**, Bouganvillea Garden, Sector 3, Chandigarh . 5AM-9PM . The memorial is the largest post-Independence war memorial of the country with nearly 8459 names of deceased soldiers, since 1947 from the Army Air Force and Navy. The Place is designed to pay homage to the Jawans located in Bougainvillea garden. It was inaugurated by Late APJ Abdul Kalam in 2006. The walls of memorial are made from Pink Sandstone. It also has terrace like sitting area hence, makes a perfect place for Open Air theatre for conducting Light and Sound Show.  ( updated Mar 2023 ) \r\n ** Bird Park **, Sector 1 . Hours vary seasonally . Opened in 2021, the Chandigarh Bird Park features enclosed aviaries containing aquatic and terrestrial birds, walking paths, and gardens. For an additional fee, you can have a parrot sit on your hand in one of the aviaries. 30-100₹ .  ( updated Mar 2024 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Maharaja Yadavindra Singh Stadium",
+              "description": "This stadium, capacity 40,000, was completed in 2021. It hosts the Punjab cricket team and is expected to become the home of Punjab Kings in the IPL. It replaces Mohali stadium, which was bigger but hemmed in among housing."
+            }
+          ],
+          "brief": "This stadium, capacity 40,000, was completed in 2021. It hosts the Punjab cricket team and is expected to become the home of Punjab Kings in the IPL. It replaces Mohali stadium, which was bigger but hemmed in among housing.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Indian Coffee House",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Tandoori express",
+              "description": "Don't miss this roadside outlet in sector 8. Providing specialised delicacies like kakoris and galoutis from Lucknow, amritsari fish and special waraqi wraps.",
+              "location": null
+            },
+            {
+              "name": "Chawla Chicken",
+              "description": "There is a whole chain of Chawlas, the better ones being in Sector 8 and Sector 22.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Coffee shops Barista, Cafe Coffee Day and Costa coffee ( Panchkula , Sec 35), Starbucks (Elenta mall, Sector 22) are popular Indian chains of coffee shops that can be found in Chandigarh at various places.\r\n\nFor a true Indian coffee experience go to Indian Coffee house in Sector 17.\r\n\n\r\n Bars and pubs Chandigarh is often accused of a dull nightlife for its status as a metro. Still, one can enjoy good drink at various pubs/bars with combined restaurants at Sector 35, Sector 26, and Sector 17. The bars remain open till midnight or 1AM.\r\n\n'Condom Bar', a unique bar themed upon the condom, is operated by CITCO at Kalagram, Chandigarh-Manimajra road.\r\n\n\r\n 1 **Crystal bar and lounge**. Experience trendy nightlife in Chandigarh."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Sood Bhawan (Sood Dharamsala)",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Hotel ParkView",
+              "description": "run by the CITCO",
+              "price": null
+            },
+            {
+              "name": "Hotel Punjab Palace",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "BSNL (Cellone) network available"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Union territory capital"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:06.282Z",
+        "wikipedia_summary": "Chandigarh is a city and union territory in northwestern India, serving as the shared capital of the states of Punjab and Haryana. Situated near the foothills of the Shivalik range of Himalayas, it borders Haryana to the east and Punjab in the remaining directions. Chandigarh constitutes the bulk of the Chandigarh Capital Region or Greater Chandigarh, which also includes the adjacent satellite cities of Panchkula in Haryana and Mohali in Punjab. It is located 260 km northwest of New Delhi and 229 km southeast of Amritsar and 104 km southwest of Shimla.",
+        "wikipedia_description": "Union territory and capital of Punjab and Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:06.573Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage"
+      ],
+      "search_context": "City / Urban Union territory capital destination Chandigarh Ćandigarh Chandīgarh Chandi-garh Chandigar Chandi garh Chandighar Chandígar Chańḍīgaṙh Ĉandigarh IN-CH Čandigara Čandigarha Čandīgara Teritorija Chandigarh Čandigar Teritorija Čandigar Teritorij Chandigarh Čandigarhas The city beautiful Sightseeing Chandigarh is a city and union territory in northwestern India, serving as the shared capital of the states of Punjab and Haryana. Situated near the foothills of the Shivalik range of Himalayas, it borders Haryana to the east and Punjab in the remaining directions. Chandigarh constitutes the bulk of the Chandigarh Capital Region or Greater Chandigarh, which also includes the adjacent satellite cities of Panchkula in",
+      "travel_facts": {
+        "summary": "**Chandigarh** hinges **IXC (~8 km) Shivalik stacks** beneath **Chandigarh Junction (~8 km)** knowing Sector-17 merges absorb Rock Garden tides.",
+        "keywords": [
+          "ixc ut stacks",
+          "planned city merges",
+          "delhi shatabdi apron",
+          "sukhna lake tides"
+        ]
+      }
+    },
+    {
+      "slug": "punjab-ludhiana",
+      "name": "Ludhiana",
+      "region": "",
+      "state": "Punjab",
+      "coordinates": {
+        "lat": 30.90833,
+        "lon": 75.84861,
+        "source": "wikidata"
+      },
+      "description": "**Ludhiana** ( Punjabi : ਲੁਧਿਆਣਾ, Hindi : लुधियाना) is an important industrial town in Punjab . It lies on the banks of the **Sutlej river**. It is also one of the cities on the historic Grand Trunk Road that formed an important trade route. It is around 100 km from Chandigarh and 140 km from Amritsar .",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ludhiana",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ludhiana",
+        "wikidata": "https://www.wikidata.org/wiki/Q200123"
+      },
+      "distance_km": 2002,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:21:33.822Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Ludhijana",
+        "Ludiana",
+        "Ludiána"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lady_Willingdon_Hall%2C_Christian_Medical_College_and_Hospital%2C_Ludhiana%2C_India.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Sunder%20Nagar%2C%20Ludhiana.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Ludhiana Airport (Sahnewal)",
+          "code": "LUH",
+          "distance_km": 12,
+          "note": "Limited UDAN-style links—Chandigarh IXC ~100 km or ATQ ~140 km for metros"
+        },
+        "nearest_railway_station": {
+          "name": "Ludhiana Junction railway station",
+          "distance_km": 3
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Amritsar",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Jammu",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 140090,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Ludhiana is Punjab's most populated city. For its production of hosiery, it is known as the Manchester of India. The district of Ludhiana also one of the largest agricultural producers in India, particularly of grains. Established in 1960s, the Punjab Agricultural University is considered as one of the best agricultural universities in India.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Ludhiana Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Ludhiana_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Ludhiana Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Ludhiana_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane The airport at Sahnewal , about 10 km away from Ludhiana, has been made functional. But a better option may be to use the Chandigarh airport, to which flights are available from Delhi , Mumbai and Jammu . The next nearest international airport is Amritsar's Raja Sansi Airport. An international airport is being planned in Ludhiana.\r\n\n\r\n By train There are many trains connecting all parts of country to Ludhiana. The best option for getting to Ludhiana from Delhi is to take the superfast _Shatabdhi Express_, which departs in the morning and evening. It takes about 4 hours and one meal and tea are served on the way.\r\n\n\r\n 1 **Ludhiana Junction railway station** .  ( updated Mar 2021 ) \r\n By car Ludhiana is 320 km from Delhi and the drive takes 5 hours.\r\n\n\r\n By bus There is regular bus service to Ludhiana all day from ISBT Delhi. Deluxe bus service is also available day and night.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "But a lot rickshaws and auto-rickshaws are constantly taking people from Point A to Point B. A bus transportation has been operating which has routes between the Ludhiana Bus Depot, old courts, Different Bye passes around the city and the Chaura Bazaar.\r\nLudhiana is also famous for Punjabi food that you will not get anywhere in Punjab.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Museum of Rural History of Punjab",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.9,
+                "lon": 75.80497
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Lodhi Fort",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Lodi_Fort",
+              "coordinates": {
+                "lat": 30.9239,
+                "lon": 75.8518
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Payal Fort",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Payal_Fort",
+              "coordinates": {
+                "lat": 30.72333,
+                "lon": 76.05778
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Nehru Rose Garden",
+              "description": "A park with well-landscaped lawns and flowers, fountains, picnic area and a children's playground. Dog friendly.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "Ludhiana is not much of a tourist spot but is more an upcoming cosmopolitan city of India. With numerous malls and multiplexes under construction, these modern state-of-the art buildings are what tourists from nearby places come here to see and check out. The main malls of the city are **Westend, Silver Arc and MBD**. But if you want to see Ludhiana heritage, then the Punjabi Heritage Museum in Punjab Agriculture University Campus is a not to be missed tourist spot. Other places of Tourist interest around Ludhiana are the Tiger Safari on GT road, Hardy's world near Phillaur and The rose Garden and The Rakh Bagh.\r\n\nThe sprawling Punjab Agriculture University Campus is one of the best and well maintained educational campus in India.\r\n\nThere are very beautiful Gurudwara like Alamgeer sahib, Rara sahib, Fly sahib, Dukh niwaran sahib, Manji sahib in the vicinity of Ludhiana. Mata Mandir near Jagraon Bridge, Krishna Mandir in Model Town, Dandi Swami Mandir, Ved Mandir near Daresi Ground and Sheetala mandir near Municipal Corporation Office are worth seeing.\r\n\n\r\n 1 **Museum of Rural History of Punjab** ( Heritage Museum ).   \r\n 2 **Lodhi Fort** .  ( updated Mar 2021 ) \r\n 3 **Payal Fort** .  ( updated Mar 2021 ) \r\n **Nehru Rose Garden**, Government College Rd, New Prem Nagar, Civil Lines . A park with well-landscaped lawns and flowers, fountains, picnic area and a children's playground. Dog friendly.  ( updated Jan 2024 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Mall Road, Model town, Kipps Market are famous destinations of most of people to get around, shopping, street food. You can watch the latest movies in the PVR cinemas in Silver Arc or Waves at the Westend. Incidentally, Silver Arc also has the largest PVR cinemas in North India with a two-level, six-screen multiplex.\r\nThere are many other beautiful places like Rose Garden, DreamLand, Rakh Baug.\r\n\nThe Guru Nanak Sports Stadium is famous for its good infrastructure for sports activities. many national level tournaments are being held here for indoor and outdoor sports, it is the finest city and modern city in the state.\r\n\n\r\n Cinema There are several stand-alone cinema halls in Ludhiana. These include:\r\n\n\r\n PVR Cinemas \r\n Wave Cinemas \r\n SRS Cinemas \r\n Orient Cinema \r\n Aarti Cinema",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "The Sarabha Nagar market",
+              "description": "It is one of the most popular hangout places with many eating joints such as the Noodle Bar, Yo China, and Hot Breads.",
+              "location": null
+            },
+            {
+              "name": "Fountain chowk",
+              "description": "is another open place to enjoy all sorts of spicy eateries: Stuffed naans, Cholley Bhuture, and Chaat, Tikki.",
+              "location": null
+            },
+            {
+              "name": "Aman chicken",
+              "description": "One of the oldest chicken eateries in the town.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Lassi is the most authentic Punjabi drink which can be sweet or salted. Roadside Alcohol Shops are located all over the city and most of them have A/C drinking halls called Ahatas alongside where you can get basic snacks. Some are attached to dhabas like pradhanz dhaba near Aarti Cinema."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Maharaja Regency",
+              "description": "A 3-star hotel on main Ferozpur Road. Major malls are for a few minutes walk.",
+              "price": "₹3000"
+            },
+            {
+              "name": "Hotel Taksonz",
+              "description": "Often fully booked.",
+              "price": null
+            },
+            {
+              "name": "Hotel Imperial Executive",
+              "description": "",
+              "price": "From ₹5,000 per night"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:07.125Z",
+        "wikipedia_summary": "Ludhiana is the most populous city in the Indian state of Punjab. The city has an estimated population of 1,618,879 as of the 2011 census and distributed over 310 km2 (120 sq mi), making Ludhiana the most densely populated urban centre in the state. It is a major industrial center of Northern India, referred to as \"India's Manchester\" by the BBC. It is also known as the commercial capital of Punjab.",
+        "wikipedia_description": "Metropolis in Punjab, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:07.177Z"
+      },
+      "search_context": "City / Urban destination Ludhiana Ludhijana Ludiana Ludiána Sightseeing Ludhiana is the most populous city in the Indian state of Punjab. The city has an estimated population of 1,618,879 as of the 2011 census and distributed over 310 km2 (120 sq mi), making Ludhiana the most densely populated urban centre in the state. It is a major industrial center of Northern India, referred to as \"India's Manchester\" by the BBC. It is also known as the commercial capital of Punjab.",
+      "travel_facts": {
+        "summary": "**Ludhiana** stacks **LUH (~12 km) Sahnewal apron** with **IXC (~100 km) relay stacks** beneath **Ludhiana Junction (~3 km)** knowing Manchester-of-India hosiery merges absorb GT Road tides.",
+        "keywords": [
+          "luh sahnewal stacks",
+          "grand trunk merges",
+          "industrial punjab apron",
+          "shatabdi delhi tides"
+        ]
+      }
+    },
+    {
+      "slug": "punjab-wagah",
+      "name": "Wagah",
+      "region": "",
+      "state": "Punjab",
+      "coordinates": {
+        "lat": 31.60469,
+        "lon": 74.57292,
+        "source": "wikidata"
+      },
+      "description": "**Wagah** (or _Wagha_) is a border town straddling the line between Pakistan and India , 29 km from the city of Lahore on the Pakistani side and 27 km from Amritsar on the Indian side. This is the only open and direct crossing point between Pakistan and India.",
+      "category": "Border / Ceremony site",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Wagah",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wagah",
+        "wikidata": "https://www.wikidata.org/wiki/Q502198"
+      },
+      "distance_km": 2095,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:21:33.822Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Wahgah",
+        "Wagha",
+        "Wahga"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wagha_border.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/International%20border%20at%20Wagah%20-%20evening%20flag%20lowering%20ceremony.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Sri Guru Ram Dass Jee International Airport",
+          "code": "ATQ",
+          "distance_km": 38,
+          "note": "Via Amritsar city (~27 km road to zero line)"
+        },
+        "nearest_railway_station": {
+          "name": "Attari railway station",
+          "distance_km": 4,
+          "note": "Local buses/rickshaws to parade gates; Amritsar Junction ~28 km alternate"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Amritsar",
+          "Ludhiana"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 24776,
+        "content_richness_score": 0.177
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The border has become famous for its daily flag raising and lowering ceremony, which is done with pomp and ceremony. It involves some of the tallest members of the Indian Border Force and the Pakistani Rangers marching and closing the many gates. It has become a tradition for people from both sides of the border to gather and see this. Both sides synchronise their parade and the entire event is meant to create a feel-good/patriotic fervour amongst the crowd. It is called the beating retreat ceremony. Since 2010, the Wagah ceremony has begun to tone down so one might see less of the flourishing of Peacock helmets and goose-stepping.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "The closest significant cities to Wagah are Amritsar in India (28 km) and Lahore in Pakistan (25 km).\r\n\n\r\n Visa Please note that because of border skirmishes in Kashmir and the tensions between the two nations, the governments of India and Pakistan are not going to allow visas to be given in Wagah. Also, the people who can cross/the times of crossing will be restricted if the skirmishes continue.\r\n\n\r\n By road From India From Amritsar , Wagah is about 45 minutes away by car, rickshaw, or taxi.\r\n\n\r\n **By bus** – There are public buses directly to the border from Amritsar Bus Station, taking about 1–1¼ hr. In case you got a non-direct one that turns around at Attari, take a rickshaw from there for the last 3 km, or just walk. The bus is ₹50 one-way. The last bus from the border back to Amritsar usually waits for 40 min after the end of the ceremony before taking off, but it will definitely go when full—though you won't have big problems passing by the slow Indian crowd to be one of first at the bus. \r\n **By rickshaw** – Shared rickshaws from nearby the Golden Temple are ₹100–150 per person return. You won't have problems finding them. Make sure to remember your vehicle and location at the border. Offer a deposit and ask if you can pay the rest on your return. \r\n **By Hop-on/Hop-off bus**– There exists a tourist hop-on hop-off double-decker bus, leaving around 3PM from the roundabout northeast of the Golden Temple. The return trip is ₹350. \r\n **By taxi** – A taxi round trip, which includes the waiting time at Wagah from Amritsar was about ₹800 in 2009. \r\n From Pakistan When driving from Islamabad , it should take 4½ hr minimum.\r\n\nFrom Lahore Station, take a bus, taxi or the Metro and a shared rickshaw. Minibus No. 4 might leave from outside Lahore Railway Station every 15 minutes for about 50 Rs while a taxi should cost 1,900 Rs. For a cheaper ride, use auto rickshaws: when leaving the train station, go left and find the departing point for shared rickshaws where they are waiting until they're filled up. There will be one going to Wagah, or more likely Jallo More (about 150 Rs), from where you will find another one towards Wagah border (50-100 Rs). Expect the whole ride to take around an hour.\r\n\nAnother more comfortable option (especially in summer) is to use the modern Orange Metro Line until its Eastern terminus, _Dera Gujran_ (20-40 Rs depending on where you board) and take a shared rickshaw from the station exit towards Wagah border (about 100 Rs).",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "If you're planning to cross the border, you should aim to get there as early as possible. As of 2022, the border is open every day 8:30AM–3:30PM. Border formalities can take from 30 minutes to over two hours, and you **will** need to arrange a proper visa before you arrive. E-visa don't entitle the holder to cross here.\r\n\nRegular buses or taxis are not allowed into the no-man's land between the countries, so unless you're on one of the few deluxe international buses, you'll have to walk across the 500 m between the border posts yourself. Porters ― Indian porters wear blue coats and Pakistani porters wear green coats ― can carry your belongings for a fee.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Flag lowering ceremony _Note the following is a description of the Indian side of the border and ceremony. But the Pakistani side should be similar._\r\n\nSince 1959, the border crossing has become famous for this ceremony, which includes the closing of international gates, a lot of nationalistic cheering, a Monty-Pythonesque silly walk, and the lowering of the flags of both the countries. The flag code of India mandates that the national flag shall be flown only from sunrise to sunset. The guards who perform are chosen carefully among those who have great height, ability to perform, and imposing stature. The crowd on weekends is heavy. \r\n\nThe flag lowering ceremony has become the main event for tourists visiting Amritsar. In addition, there is now a short cultural program also done by local folk dancers (Bhangra) for the waiting crowd before the flag lowering. The border gates have a visitor gallery on each side, basically concrete steps created around the border main road. This allows most people in the crowd to get a seat. A peak crowd of up to 2,000 people can assemble on the Indian side and up and over 1,000 people on the Pakistani side. There are metal fences to help direct and control the crowds in and out of the seating areas. The crowd consists of tourists &amp; locals. The noise (bring earplugs if you are sensitive) and atmosphere of the assembled crowds on both sides of the border is similar to that of a sporting match and very entertaining.\r\n\nThe seating area in the gallery is as follows:\r\n\n\r\n VIP seating – closest to the gates and requires a special pass which can be made from the BSF station near the Amritsar bypass road a couple of days in advance. \r\n Ladies exclusive – a section where only women and small children are allowed. This comes after the VIP seating and is little further from the gates (about 80 m away) \r\n General seating – tends to get very crowded and congested during rush days. Occasional pushing/jostling may happen. \r\nWhen you are let in, there are separate queues for men and women, and Indian women are kept separate for the women section. **Foreigners** of both sexes are kept together in the same area after going through the separated security lines. They have a reserved section (partly shaded) so make sure you bring your passport with you so that you can skip the queue and get the best seats available. Most of the seating is exposed to the sun. It gets pretty hot and sweaty unless you go in the winters. Be prepared for that. Not everyone can manage it. If you plan to be there very early, better bring an umbrella to protect yourself, or head up to the shaded and covered seat. Even though there are some gates controlled by soldiers, if you are keen, you can just walk around freely. Later just before the start of the ceremony, you can always move back down seats for closer views.\r\n\nThere are no tickets to see this event, it is free for viewing for anyone on the Pakistani as well as the Indian side. However, VIP seating can by inquired from the BSF station near the Amritsar bypass road.\r\n\n\r\n Cope **Do not bring any bags**. No covered bags, including women's purses &amp; handbags, are allowed inside the visitor areas. As of July 2023, a fanny pack does not seem to pose a problem. The restrictions are usually dependent on the crowd and perceived security alertness on that day. In any case, there are paid lockers provided by the merchants and stalls along the road 500 m before the border.\r\n\nMobile phones, cameras and men's wallets are allowed, but leave the camera bag. However, border personnel allow clear plastic bags with few snacks, water, children's food etc. Cigarettes might be confiscated.\r\n\nTaxis and cars must be parked about 500 m away from the entry gates to the border area—see #Get in . You will need to walk in and reach the visitor gallery. Stay to the right side until you reach the grandstands. Be prepared for minor traffic jams when the ceremony has finished as up to 200-300 vehicles try to exit around the same time.\r\n\n\r\n \r\nThere are stalls nearby the parking, organized to buy food and bottled water. On the Indian side, a free drinking water station is right before the entrance to the seating gallery.\r\n\n\r\n Times Ideally, one should reach the border 45 min before the start of the parade latest, on Saturdays at least 1–1½ hr before would make sense.\r\n\nThe whole ceremony including the cultural pre-program takes 45 min to 1 hr.\r\n\n\r\n In July 2023, the cultural pre-ceremony started at 6PM, with the main ceremony of the soldiers starting at 6:30PM. \r\n As of December 2022, the border closes at 3:30PM. On a normal day, there is no need to be there before the gates open, which should be between 3:30PM and 3:45PM. The Indian part, however, seems to fill up more quickly so it is a good idea to be there in advance. \r\n Other sources stated that 4:15PM is the time during winter and 4:45PM during summer.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Relax at nearby Jallo Park, or enjoy in Suzo Water Park.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Water bottles were not allowed after the checking point of entry to Wagah border, but are apparently now, but this might depend on the day of week. If necessary, buy them at the stalls just near the gate.\r\n\nOn the Indian side, a free drinking water station is right before the entrance to the seating gallery."
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Border / Ceremony site"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:07.730Z",
+        "wikipedia_summary": "Wagah, also spelled Wagha or Wahga, is a village and union council located in the Wahga Zone near Lahore City District, Pakistan. The town is famous for the Wagah border ceremony and also serves as a goods transit terminal and a railway station between Pakistan and India.",
+        "wikipedia_description": "Union Council of Pakistan",
+        "wikipedia_fetched_at": "2026-05-18T09:57:08.024Z"
+      },
+      "search_context": "Border / Ceremony site destination Wagah Wahgah Wagha Wahga Sightseeing Wagah, also spelled Wagha or Wahga, is a village and union council located in the Wahga Zone near Lahore City District, Pakistan. The town is famous for the Wagah border ceremony and also serves as a goods transit terminal and a railway station between Pakistan and India.",
+      "travel_facts": {
+        "summary": "**Wagah–Attari** hinges **ATQ (~38 km) Amritsar relays** beneath **Attari rail (~4 km)** knowing BSF parade merges absorb beating-retreat tides.",
+        "keywords": [
+          "wagah border stacks",
+          "attari merges",
+          "bsf ceremony apron",
+          "india pakistan tides"
+        ]
+      }
+    }
+  ]
+}

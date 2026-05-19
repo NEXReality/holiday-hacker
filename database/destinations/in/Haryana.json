@@ -1,0 +1,3449 @@
+{
+  "state": "Haryana",
+  "state_code": "HA",
+  "generated_at": "2026-05-18T10:41:49.541Z",
+  "count": 11,
+  "destinations": [
+    {
+      "slug": "haryana-ambala",
+      "name": "Ambala",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 30.37861,
+        "lon": 76.7725,
+        "source": "wikidata"
+      },
+      "description": "**Ambala** is a city in Haryana in North India .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ambala",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ambala",
+        "wikidata": "https://www.wikidata.org/wiki/Q456624"
+      },
+      "distance_km": 1937,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Umballa"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambala_Cantt_station.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambala%20Cantonment%20Railway%20Station.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Chandigarh International Airport",
+          "code": "IXC",
+          "distance_km": 42,
+          "note": "Ambala-Chandigarh Expressway stacks—DEL (~260 km) absorbs heavy international banks via Shatabdi relays"
+        },
+        "nearest_railway_station": {
+          "name": "Ambala Cantonment Junction",
+          "distance_km": 4,
+          "note": "NH44 Rajdhani wedge—twin-city autos stitch Ambala City cantonment cloth bazaars"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 43530,
+        "content_richness_score": 0.311
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Ambala is essentially a twin city consisting of Ambala Cantonment and Ambala City, 3 km apart, which between them are home to around half a million people. Established in 1843, it is one of the oldest cantonments in India and one of the oldest district of India: the first commissioner took charge in 1855. It is famous for its food, wholesale and cloth markets.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Ambala Cantonment Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Ambala_Cantonment_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Ambala Cantonment Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Ambala_Cantonment_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Ambala City railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Ambala_City_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane Ambala does not have a civilian airport; the nearest civil airport is at Chandigarh which is well connected by air to other Indian cities, approximately 40 km away via the Ambala-Chandigarh Expressway.\r\n\n\r\n By train Ambala Cantonment junction is one of the most famous and biggest junctions of north India. It is connected by the high speed _rajdhani_, _shatabdi_ trains to all major cities of India. It is the headquarters of division railway which spans four states. Four broad gauge rail lines serve Ambala. \r\n\n\r\n towards Delhi (via Panipat ) \r\n towards Delhi (via Barara , Yamunanagar , Saharanpur , Meerut ) also connects to Dehrudun , Haridwar etc. \r\n towards Kalka (for Chandigarh and Himachal ) \r\n towards Amritsar / Jammu also connects to Patiala , Bathinda , Sri Ganganagar \r\n 1 **Ambala Cantonment Junction railway station** .  ( updated Aug 2020 ) \r\n 2 **Ambala City railway station** .  ( updated Aug 2020 ) \r\n By car Ambala is situated on a confluence of major highways. Most important is NH 44 Delhi - Amritsar, apart from this NH22 from Ambala to Shipkila international border via Shimla starts here. same way Ambala-Jodphur NH 152 originates here which goes up to Pali. NH 7 to Dehradun via Himachal and NH 344 also goes past Ambala.\r\n\n\r\n \r\n By bus Ambala Cantonment bus stand is situated on the main national highway. It is just opposite the railway station of Indian railway system which makes it most appropriate. It is well connected interstate bus terminus. Here one can get buses from Udhampur in Jammu to Kota in Rajasthan or Gwalior or Bhind in Madhya Pradesh . All sorts of luxury, AC, video coach buses are available round the clock for all destinations in north India.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Both government and private buses run on all of the major roads, and both auto and cycle rickshaws are also easy to find.\r\n\n\r\n By taxi Mahajan Cabs [dead link]",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Ambala Air Force Base",
+              "description": "One of the oldest airbases in the world, the home base of Jaguar Squadron.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ambala_Air_Force_Station",
+              "coordinates": {
+                "lat": 30.37056,
+                "lon": 76.81778
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Holy Redeemer Church",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.3454,
+                "lon": 76.83365
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "St. Paul church",
+              "description": "Christian cemetery on same road.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Ambala Air Force Base** ( Ambala Air Force Station ). One of the oldest airbases in the world, the home base of Jaguar Squadron.   \r\n 2 **Holy Redeemer Church**, 114, Lawrence Rd ( on Commercial Road ), ☏ +91 171 264 0636 .   \r\n **St. Paul church** ( on Alexendra road ). Christian cemetery on same road.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Huda Town Park",
+              "description": "A popular place for running, yoga and other forms of exercise."
+            }
+          ],
+          "brief": "A popular place for running, yoga and other forms of exercise.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Halwai Bazar",
+              "description": "\"Golgaps and Chat: Unforgettable experience with original with 7 flavours\", Kishori Lal at Halwai Bazar, Ki Kachori, Pahalwan Ki Khasta Kachori, Omi Ke Chole Bhature at Vijay Ratan Chowk.",
+              "location": null
+            },
+            {
+              "name": "Puran Singh Ka Dhabha",
+              "description": "Standard Punjabi eatery with vegetarian and non-vegetarian dishes on the menu. The original Puran Singh Ka Dhabha is next to the bus stand, the ones facing the highway are copies. Puran Singh's son and widow now run the restaurant.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Amra Pali Resort",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "BATRA palace",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Kingfisher Hotel",
+              "description": "HTDC (government-run) hotel.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:04.830Z",
+        "wikipedia_summary": "Ambala is a city and municipal corporation in Ambala district in the state of Haryana, India, located on the border of the Indian states Punjab and Haryana and is in proximity to both states' capital, Chandigarh.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:05.122Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Ambala Sightseeing Ambala is a city and municipal corporation in Ambala district in the state of Haryana, India, located on the border of the Indian states Punjab and Haryana and is in proximity to both states' capital, Chandigarh. Ambala is essentially a twin city consisting of Ambala Cantonment and Ambala City, 3 km apart, which between them are home to around half a million people. Established in 1843, it is one of the oldest cantonments in India and one of the oldest district of India: the first commissioner took charge in 1855. It is famous for its food, wholesale and cloth markets. Ambala is a city in Haryana in North India .",
+      "travel_facts": {
+        "summary": "**Ambala** couples **Ambala Cantt (~4 km)** NH44 railway wedges with **Chandigarh IXC (~42 km)** stacks—cloth-market hauls bias prepaid tiers knowing twin-city shuttles thicken cantonment peaks.",
+        "keywords": [
+          "ambala cantt nh44 wedges",
+          "ixc chandigarh stacks",
+          "twin city cloth bazaars",
+          "rajdhani shatabdi relays",
+          "del international spillover",
+          "haryana roadways borders"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-faridabad",
+      "name": "Faridabad",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 28.41667,
+        "lon": 77.3,
+        "source": "wikidata"
+      },
+      "description": "**Faridabad** (फ़रीदाबाद _Farīdābād_) is a satellite city of Delhi , in the state of Haryana . Urban sprawl from Delhi has made Faridabad the most populous city in Haryana.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Faridabad",
+        "wikipedia": "https://en.wikipedia.org/wiki/Faridabad",
+        "wikidata": "https://www.wikidata.org/wiki/Q200663"
+      },
+      "distance_km": 1718,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Farīdābād"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ESIC%20Faridabad.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 38,
+          "note": "Violet Metro stitches Delhi border—Yamuna toll peaks thicken Badarpur merges"
+        },
+        "nearest_railway_station": {
+          "name": "Faridabad railway station",
+          "distance_km": 6,
+          "note": "EMU meshes toward Old Delhi—avoid dropped-at-border buses during rush crush"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 51408,
+        "content_richness_score": 0.367
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane The nearest airport is the Indira Gandhi International Airport in New Delhi.\r\n\n\r\n By bus Various bus services ply from New Delhi to Faridabad. Beware of the ones that drop you off at the border of Faridabad and Delhi because bus or auto rides from the border to the main city area tend to be overcrowded.\r\n\nBuses ply from the various bus stands to other parts of North India including Delhi, Chandigarh , Mathura , Agra and various other cities in Haryana.\r\n\n\r\n By taxi Taking a taxi is a faster and more comfortable way to reach the city but it can costlier by many times. Prices may range from ₹300-₹500 for one-way travel from Delhi to Faridabad.\r\n\n\r\n By car Faridabad is about 25  km south of Delhi . There are various road links to Delhi, Agra , Mathura , and other parts of North India.\r\n\n\r\n By train 1 ** Faridabad    Suburban**  . Due to its nearness to Delhi, Faridabad has excellent railway connectivity with trains from various parts of India. Trains ply from the Old Faridabad railway station for most of the other important cities in India. For local commuters, there are EMU train services to New Delhi, Mathura, Agra, and Ghaziabad which ply at frequent intervals. Price ranges from ₹10 - ₹15.  ( updated Feb 2026 ) \r\n By metro The satellite city is connected to Delhi by the Violet Line   6   of the Delhi Metro.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The initial prices quoted are high and can be pushed bargaining. Find out what a fair price is for the ride you are undertaking from a local of Faridabad.\r\n\nHaryana Roadways run local buses throughout the city, which are comfortable and less polluting than the auto-rickshaws. The buses run frequently.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Siddhadata Temple",
+              "description": "A very peaceful place.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Shiva temple",
+              "description": "A must see, with 22 ft (6.7 m)-high Shivaling.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Town Park",
+              "description": "A beautiful park which hosts one of the largest Indian flags.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Faridabad",
+              "coordinates": null,
+              "price": "Free"
+            },
+            {
+              "order": 4,
+              "name": "Raja Naher Singh Palace",
+              "description": "A palace built in the 18th and 19th centuries. Now partially converted to a motel and restaurant.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Nahar_Singh_Mahal",
+              "coordinates": {
+                "lat": 28.33925,
+                "lon": 77.32074
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Triveni Hanuman Mandir",
+              "description": "At 108 ft (33 m), this is supposed to be one of the biggest statues of Lord Hanuman in India. There is a temple adjacent to the statue. This temple is very old and hundreds of devotees come here on Tuesday and Saturday. The statue took about 9 years to build.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Siddhadata Temple** ( on Badhkal-Surajkund road ). A very peaceful place.   \r\n 1 ** Surajkund ** , Surajkund Mela Rd ( on Badhkal-Surajkund road ).  ( updated Feb 2026 ) \r\n **Shiva temple** ( in Sainik Colony Sec-49 ). A must see, with 22 ft (6.7 m)-high Shivaling.   \r\n **Town Park** ( in sector-12 ). A beautiful park which hosts one of the largest Indian flags. Free .  ( updated Oct 2019 ) \r\n 2 **Raja Naher Singh Palace** ( Naher Singh Fort ), Ambedkar Chowk, Nathu Colony, Balramgarh ( east of the Metro station of the same name ), ☏ +91 129 2249569 , naharsingh@hry.nic.in . A palace built in the 18th and 19th centuries. Now partially converted to a motel and restaurant.  ( updated May 2017 ) \r\n **Triveni Hanuman Mandir** ( on the Pali-Gurugram road ). At 108 ft (33 m), this is supposed to be one of the biggest statues of Lord Hanuman in India. There is a temple adjacent to the statue. This temple is very old and hundreds of devotees come here on Tuesday and Saturday. The statue took about 9 years to build.  ( updated Jul 2024 ) \r\nAvoid **Bhadkal Jheel**: This so-called 'lake' has been totally dry for some time (though efforts to make it a tourism spot and refill it are ongoing); the surroundings are barren, grazing grounds for local cattle, and cricket grounds for nearby people. Even locals avoid it. A better option is close to New Delhi and Haryana border in Faridabad. Instead, visit Parsonn (परसोन्न), a natural waterfall a small hike/walk away.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Red Chilli",
+              "description": "Chinese fast food joint which provides exceptionally tasty fast foods like Momos, Crispy Chilli Chicken and Hong Kong Noodles. The Chicken Momos are a speciality.",
+              "location": null
+            },
+            {
+              "name": "More Than Paranthas",
+              "description": "If you are looking for some exotic varieties of Parathas, \"More Than Paranthas\" has over 200 varieties and the menu also includes kebabs and biryanis.",
+              "location": null
+            },
+            {
+              "name": "Pind-Balluchi",
+              "description": "A cool place for OK food, a village scene ambience, a dance floor in \"Mudra\" the \"discotheque\", and party place. The ice-cream counter stocks some uncommon flavours, for example paan (betel leaf).",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Cafe 31**. Coffee Shop Cafe 31 reflects the exuberance and lively hues of spices. Its décor is further revealed in its varied menus and diversity of dishes. The coffee shop serves multi-cuisine Indian and Continental meals.   \r\n **Hotel Delite, Millenium, Rajmandir, Mahalakshmi**, Neelam Bata Road NIT . 11AM-11PM . 600-1500 for 2 .   \r\n **Le Moksh**, Parsvnath Mall sector 12 . 11AM-11PM . 1500 for 2 .   \r\n **Vegas Dreams**, Sector 11 market near Milan sweets . 11AM-11PM . 600 for 2 people ."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Vivanta by Taj",
+              "description": "Vivanta by Taj is situated on the Surajkund Road near Surajkund",
+              "price": null
+            },
+            {
+              "name": "The Atrium",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:05.680Z",
+        "wikipedia_summary": "Faridabad is the most populous city in the Indian state of Haryana and is a part of Delhi National Capital Region. It is one of the major satellite cities around Delhi and is located 284 kilometres south of the state capital, Chandigarh. The river Yamuna forms the eastern district boundary with Uttar Pradesh. The Government of India included it in the second list of Smart Cities Mission on 24 May 2016. As per the 2021 Delhi Regional Plan, Faridabad is a part of the Central National Capital Region or Delhi metropolitan area.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:06.893Z"
+      },
+      "search_context": "City / Urban Faridabad Sightseeing Faridabad is the most populous city in the Indian state of Haryana and is a part of Delhi National Capital Region. It is one of the major satellite cities around Delhi and is located 284 kilometres south of the state capital, Chandigarh. The river Yamuna forms the eastern district boundary with Uttar Pradesh. The Government of India included it in the second list of Smart Cities Mission on 24 May 2016. As per the 2021 Delhi Regional Plan, Faridabad is a part of the Central National Capital Region or Delhi metropolitan area. Faridabad (फ़रीदाबाद _Farīdābād_) is a satellite city of Delhi , in the state of Haryana . Urban sprawl from Delhi has made Faridabad the most populous city in Haryana.",
+      "travel_facts": {
+        "summary": "**Faridabad** rides **Faridabad station (~6 km)** EMU meshes beneath **DEL (~38 km)** stacks—Violet Metro absorbs Badarpur merges; bias prepaid taxis when border-drop buses choke NH19.",
+        "keywords": [
+          "faridabad emu meshes",
+          "del violet stacks",
+          "badarpur merge peaks",
+          "yamuna toll crawls",
+          "border drop bus crush",
+          "nh19 mathura arcs"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-gurgaon",
+      "name": "Gurgaon",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 28.46667,
+        "lon": 77.03333,
+        "source": "wikidata"
+      },
+      "description": "**Gurugram** (Hindi: गुरुग्राम _gurugrām_), formerly known as **Gurgaon** (Hindi: गुड़गांव _guṛgā̃v_), is a satellite city southeast of Delhi , in the state of Haryana .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Gurgaon",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gurgaon",
+        "wikidata": "https://www.wikidata.org/wiki/Q238508"
+      },
+      "distance_km": 1724,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 1,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.6,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Gurugram",
+        "Gurgáon"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyber%20Green%20Building%2C%20Gurgaon%2C%20Haryana%2C%20India%20-%2020070613.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 15,
+          "note": "Terminal aprons hug NH48—Rapid Metro feeds Cyber Hub nights during dust-storm surges"
+        },
+        "nearest_railway_station": {
+          "name": "Gurugram railway station",
+          "distance_km": 6,
+          "note": "Yellow Metro MG Road dominates—sparse Jaipur-line locals supplement IFFCO crawls"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 97177,
+        "content_richness_score": 0.694
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Not long ago a sleepy suburb of Delhi, Gurugram now boasts over a million inhabitants, slick office complexes housing companies ranging from Accenture to Xerox, and more shopping malls per square mile than anywhere else in India. Alas, the infrastructure is still struggling to catch up with the boom and there's plenty of dust and traffic jams, but it's still an exhilarating glimpse into the India of the future.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane Delhi's Indira Gandhi International Airport is just across the border of Gurugram, making it easily accessible for recreational and business travellers.\r\n\n\r\n By train The northeastern part of Gurugram is served by the Yellow Line of the Delhi Metro, which runs from NH-8's IFFCO Chowk crossing along MG Road over the border towards Qutub Minar, Saket and straight to Connaught Place. Travel time is about 50 minutes, with tickets ₹25 one way.\r\n\nGurugram also has a small rail station on the Delhi - Jaipur railway line, but it only receives about five trains a day. The station is near The colony bhim Garh Kheri Part 2.\r\n\n\r\n By bus DTC and Haryana Roadways buses runs down National Highway 8 in Delhi. Buses to Gurugram can be best boarded at Dhaula Kuan (on the Inner Ring Road). Alternatively, there is a small dedicated Gurugram-bound bus terminal at Karol Bagh near the unmissable 100-foot Hanuman statue, a five-minute walk west of Jhandewala Metro station or a short cycle rickshaw ride (₹10) from Karol Bagh metro station. Buses cost ₹22 one-way.\r\n\nAlso Haryana Roadways, Mewat and Kamal (Private buses) runs from Sarai Kale Khan to Gurugram Bus Stand whole day. Also there is frequent service of DTC buses between Gurugram Bus Stand to Badarpur Border via Mehrauli and Khanpur.\r\n\n\r\n By road National Highway 8, now an eight-lane expressway, connects Delhi to Gurugram and Jaipur . Travel time is under 30 minutes in optimal conditions, but is regularly jammed during peak hours. The road is additionally still victim to water logging in heavy monsoon rains.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Trains run every 6 minutes or so, the fare is reasonable (usually below ₹35) and you can use Delhi Metro's smart cards.\r\n\nStarting from the bus stop \"IIT Gate\" south of the IIT flyover of the Outer Ring Road in Delhi you can get all day and night (because of 24-hr service for call centres) **jeeps and cars with yellow plates** carrying you for ₹10 (Aug 2007) to places like the Bristol hotel or the IFFCO chowk. Sitting in these cabs at peak times means to use the normal back bench of a car with 3 to 4 other people and without AC, but at off times you travel in the comfort of a taxi for only ₹10!\r\n\nOther than that, the main option is cycle rickshaws, who are notoriously mercenary. The fare is supposed to be around ₹20 per head for a distance of 1.5-2 km, but it's not unheard of to be asked for 10 times this amount.\r\n\nThere are some intercity mini-buses which go from Gurugram Bus Stand (near Police Lines) to Mall region and ahead on the MG (Mehrauli-Gurugram) road, which costs ₹20 per head. Ladies don't need to worry about traveling in these buses as more often than not, the conductor ensures that the lady gets a seat.\r\n\nTaxis and rental cars are available online. Popular mobile app based aggregators like Uber and Ola are also plentiful and usually work out cheaper.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Damdama Lake",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Damdama_Lake",
+              "coordinates": {
+                "lat": 28.30404,
+                "lon": 77.1282
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Leisure Valley Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Sheetla Mata Mandir",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sheetla_Mata_Mandir_Gurgaon",
+              "coordinates": {
+                "lat": 28.4783,
+                "lon": 77.0305
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Sohna Lake",
+              "description": "Sohna Lake is about 10 km from Gurgaon. It is best to visit after rainfall and during winters.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Dronacharya Temple",
+              "description": "A rare temple dedicated to the teacher Dronacharya in the Mahabharata epic.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Dronacharya_Temple,_Gurugram",
+              "coordinates": {
+                "lat": 28.47,
+                "lon": 77.022
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Damdama Lake** ( 1 hour drive away from Gurgaon ).   \r\n **Leisure Valley Park** ( Near IFFCO Chowk ).   \r\n 2 **Sheetla Mata Mandir** ( Ahead of Sector 14 ).   \r\n **Sohna Lake**. Sohna Lake is about 10 km from Gurgaon. It is best to visit after rainfall and during winters.   \r\n 3 ** Sultanpur Bird Sanctuary ** ( Sultanpur National Park ). This park is about 15 km from Gurgaon. You can spot a variety of migratory birds around a natural lake. Park is open during winters from October to February.   \r\n ** Vintage Camera Museum and Foundation **, 23/5, DLF Phase 3, Sector 24 . India's largest camera museum. One can visit from Tuesday-Saturday from 11AM-5PM only via appointments.   \r\n ** NeverEnuf Garden Railway **, Panchgaon Tauru Rd . Weekends and holidays only . Miniature railway modelling project about 5 km off National Highway 8 through a bumpy road. A labour of love rather than a money grab, visits must be pre-registered by contacting through the details mentioned on their website. A great place to revel in the detailed world building or a leisurely family picnic spot during winters. Carry your own food, only light snacks are available on site. ₹500 per person .   \r\n 4 **Dronacharya Temple** , Subhash Nagar . A rare temple dedicated to the teacher Dronacharya in the Mahabharata epic.  ( updated Jan 2021 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "DT Cinemas",
+              "description": "DT City Centre and Mega Mall. Tickets would cost you around ₹150 on weekdays and as much as ₹200 on a big opening on weekends. Late shows too last show starts around 11PM!"
+            },
+            {
+              "name": "PVR",
+              "description": "Sahara Mall (2 screens), Metropolitian Malls (9 screens), Ambience Mall (9 screens). Good thing is that there are lot of late shows the last show starts almost at midnight"
+            },
+            {
+              "name": "Wet and wild resort",
+              "description": "Chill down your summer heat, water games and sports are great fun. Don't forget to take you swim wear."
+            },
+            {
+              "name": "Sky Jumper Trampoline Park",
+              "description": "An exciting place to be, especially for kids, with more than 100 trampolines connected with built-in rock climbing optional too."
+            },
+            {
+              "name": "Oyesters Amusement Park",
+              "description": "Another good place to be to beat Gurugram's heat."
+            },
+            {
+              "name": "Tau Devi Lal Stadium",
+              "description": "A multi-purpose sports complex hosting football and cricket matches."
+            }
+          ],
+          "brief": "DT City Centre and Mega Mall. Tickets would cost you around ₹150 on weekdays and as much as ₹200 on a big opening on weekends. Late shows too last show starts around 11PM!",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Bikanerwala",
+              "description": "Great ambience and assortment of Indian dishes like chole bhature, lassi, kulfi, dosa, Chinese food, pizza. Indian cuisine is good, only vegetarian food is available. Try their Alphonso ice-cream in summers a very exotically-packed ice-cream inside a mango!",
+              "location": null
+            },
+            {
+              "name": "Om Sweets",
+              "description": "Sector 14 and Sector 31 markets they also have outlets in sector-4 market, sector 23 market and sector 57's hongkong bazaar Famous for sweets like dodha rasmalai, rasgulla etc. Gol gappa jalebi kulfi and paneer tikka are some of the favourites Indian cuisine is good, only vegetarian food is available",
+              "location": null
+            },
+            {
+              "name": "Roots - Cafe in the Park",
+              "description": "A rustic cafe to get breakfast or brunch. It is situated inside a park and has notoriously long waiting lines on the weekend. They have a variety of egg dishes but no meat. Closes at 8PM.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Most of Gurugram's nightlife spots are tucked away — where else? — on the top floors of malls.\r\n\n\r\n **Chinese and Thai Cafe** ( On the 1st floor of JMD plaza, opposite Sahara Mall. ). The destination for all you lovers of rock music. The best place in town for some head banging!   \r\n **Komachi**, 3rd floor, MGF Plaza Mall, MG-Road, IFFCO-Chowk , ☏ +91 124-4261193 . The chefs there are hand picked and flown all the way from Japan to produce a very authentic, and fine Japanese cuisine serving a wide range of Japanese delicacies and drinks. Komachi is one of the highest rated Japanese restaurants in the guidebook which makes it the ideal place to eat, relax, and enjoy an evening or a lunch.   \r\n ** TGI Friday's **, Metropolitan Mall, MG Rd . Yes, it's just like every other TGI Friday's on the planet, but this is still a favourite way to start off an evening. Food is decent but expensive, so most stick to happy hour beers. Open noon to midnight."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "**Police helpline no: 112**\r\n\n**Women helpline no: 1091**\r\n\n\r\n Hospitals"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:07.447Z",
+        "wikipedia_summary": "Gurgaon, officially named Gurugram, is a satellite city of Delhi and administrative headquarters of Gurgaon district, located in the northern Indian state of Haryana. It is situated near the Delhi–Haryana border, about 30 kilometres (19 mi) southwest of the national capital New Delhi and 268 km (167 mi) south of Chandigarh, the state capital. It is one of the major satellite cities of Delhi and is part of the National Capital Region of India. As of 2011, Gurgaon had a population of 876,969.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:07.735Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban Gurgaon Sightseeing Gurgaon, officially named Gurugram, is a satellite city of Delhi and administrative headquarters of Gurgaon district, located in the northern Indian state of Haryana. It is situated near the Delhi–Haryana border, about 30 kilometres (19 mi) southwest of the national capital New Delhi and 268 km (167 mi) south of Chandigarh, the state capital. It is one of the major satellite cities of Delhi and is part of the National Capital Region of India. As of 2011, Gurgaon had a population of 876,969. Not long ago a sleepy suburb of Delhi, Gurugram now boasts over a million inhabitants, slick office complexes housing companies ranging from Accenture to Xerox, and more shopping malls per square mile than anywhere else in India. Alas, the infrastructure is still struggling to catch up with the boom and there's plenty of dust and traffic jams, but it's still an exhilarating glimpse into the India of the future. Gurugram (Hindi: गुरुग्राम _gurugrām_), formerly known as Gurgaon (Hindi: गुड़गांव _guṛgā̃v_), is a satellite city southeast of Delhi , in the state of Haryana .",
+      "travel_facts": {
+        "summary": "**Gurugram** stacks **DEL (~15 km)** apron ribs with **Yellow Metro** IFFCO–MG Road cores—NH48 eight-lane merges flood peak hours; Rapid Metro saves Cyber Hub nights.",
+        "keywords": [
+          "del nh48 apron ribs",
+          "yellow metro iffco cores",
+          "rapid metro cyber nights",
+          "mg road surge jams",
+          "terminal 3 prepaid spikes",
+          "jaipur line sparse locals"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-hisar",
+      "name": "Hisar",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 29.14889,
+        "lon": 75.73667,
+        "source": "wikidata"
+      },
+      "description": "_Not to be confused with Hisarya , a health resort town in Bulgaria ._ \r\n \r\n \r\n**Hisar** (हिसार) is a district and divisional headquarter city in the state of Haryana in India.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Hisar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hisar_(city)",
+        "wikidata": "https://www.wikidata.org/wiki/Q1772825"
+      },
+      "distance_km": 1809,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Hisar Firuza",
+        "Hissar"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_of_Firoz_Shah_Tughlaq_at_Hisar.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hisar%20Montage.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Hisar Airport",
+          "code": "HSS",
+          "distance_km": 12,
+          "note": "Limited UDAN rotations—DEL (~165 km) NH9 stacks absorb international banks"
+        },
+        "nearest_railway_station": {
+          "name": "Hisar Junction",
+          "distance_km": 3,
+          "note": "Delhi Gorkhdham/Kissan expresses—Agro university corridors thicken winter fog queues"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 57463,
+        "content_richness_score": 0.41
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Originating and radially spreading from Rakhi Garhi, Hisar is the cradle of 8000 years old Indus Valley Civilization, that is also the home of Ashoka's pillar, Feroz Shah's fort complex, museums, 3 universities and centre of steel production. It is in the heart of the triangle of national capital Delhi , state capital Chandigarh and Rajasthan 's historic capital Jaipur . It is easily accessible as a good stopover. It is in the jat heartland of brave soldiers, rustic farmers, renowned educators (3 universities) and India's richest businesses (Jindal Group and Zee Group). It retains a small town charm with all the affordable modern facilities without the big city price tag.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train 1 ** Hisar Junction    NR**  . There are three daily trains from Delhi , _Gorkhdham Express_, _Kissan Express_ and _Haryana Express_. One daily train from Bathinda , the _Sirsa Express_, as well as express services a few times per week from Jaipur , Mumbai and Jammu .  ( updated Dec 2022 ) \r\n By car Delhi, 170 km, buses available from ISBT, Delhi in every 5-10 minutes. \r\n Chandigarh , 237 km, buses available from the main bus stop. \r\n Jaipur, 380 km, buses available every hour. \r\n By plane 2 ** Hisar Airport ** ( **HSS **  IATA ) ( 5 km NE of city centre ). Regular flights from Ayodhya , Chandigarh , Delhi and Jaipur .  ( updated Mar 2026 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "After business hours, auto rickshaws can still be found at the bus station, railway station and major roundabouts.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Asigarh Fort",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Asigarh_Fort",
+              "coordinates": {
+                "lat": 29.10548,
+                "lon": 75.9632
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Firoz Shah palace complex",
+              "description": "Built by the Tughlaq Dynasty of the Delhi Sultanate in 1394, the palace is made from red sandstone and is an example of Seljuk architecture.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Firoz_Shah_palace_complex",
+              "coordinates": {
+                "lat": 29.1669,
+                "lon": 75.7202
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Barsi Gate",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Barsi_Gate",
+              "coordinates": {
+                "lat": 29.0987,
+                "lon": 75.9643
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Rakhigarhi",
+              "description": "A village and Indus Valley Civilisation archeological site. Although only 5% of the site has been excavated, many interesting artifacts have been found so far, including fire altars, toys, hunting and fishing tools, statues, a granary and a drainage system.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Rakhigarhi",
+              "coordinates": {
+                "lat": 29.17,
+                "lon": 76.07
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "St. Thomas Church",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/St._Thomas_Church,_Hisar",
+              "coordinates": {
+                "lat": 29.14861,
+                "lon": 75.72361
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Haryana Rural Antique Museum",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Haryana_Rural_Antique_Museum",
+              "coordinates": {
+                "lat": 29.0844,
+                "lon": 75.4228
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Jahaj Kothi Zonal Museum",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jahaj_Kothi_Zonal_Museum",
+              "coordinates": {
+                "lat": 29.16631,
+                "lon": 75.72059
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Blue Bird Lake",
+              "description": "An important point for several migratory birds.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Blue_Bird_Lake",
+              "coordinates": {
+                "lat": 29.1794,
+                "lon": 75.7186
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Deer Park",
+              "description": "A 19-hectare (48-acre) park containing 20 blackbucks, 16 chital spotted deer and six sambar A part of the park is reserved for fodder.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Deer_Park,_Hisar",
+              "coordinates": {
+                "lat": 29.1908,
+                "lon": 75.7589
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Shatavar Vatika Herbal Park",
+              "description": "A park which preserves many endangered species of herbs used in Ayurvedic medicine.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Shatavar_Vatika_Herbal_Park,_Hisar",
+              "coordinates": {
+                "lat": 29.1908,
+                "lon": 75.7589
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Asigarh Fort** .  ( updated Dec 2022 ) \r\n 2 **Firoz Shah palace complex** ( Opposite Bus Stand NH 10 ). Built by the Tughlaq Dynasty of the Delhi Sultanate in 1394, the palace is made from red sandstone and is an example of Seljuk architecture.  ( updated Dec 2022 ) \r\n 3 **Barsi Gate** .  ( updated Dec 2022 ) \r\n 4 **Rakhigarhi** . A village and Indus Valley Civilisation archeological site. Although only 5% of the site has been excavated, many interesting artifacts have been found so far, including fire altars, toys, hunting and fishing tools, statues, a granary and a drainage system.  ( updated Jan 2022 ) \r\n 5 **St. Thomas Church** .  ( updated Dec 2022 ) \r\n Agroha Dhaam \r\n Agroha Mound \r\n Guru Jambheshwar University \r\n Gyankendra \r\n Sai Temple Sec 13 \r\n Sati Mandir Sec 16,17 \r\n Ladwa Gaushala and Cancer Hospital Village Ladwa \r\n Museums 6 **Haryana Rural Antique Museum** ( At Haryana Agricultural University ).  ( updated Dec 2022 ) \r\n 7 **Jahaj Kothi Zonal Museum** ( Inside the Firoz Shah Palace Complex ).  ( updated Dec 2022 ) \r\n Gujri Mahal and Site Museum \r\n Parks and lakes 8 **Blue Bird Lake** . An important point for several migratory birds.   \r\n 9 **Deer Park** . A 19-hectare (48-acre) park containing 20 blackbucks, 16 chital spotted deer and six sambar A part of the park is reserved for fodder.   \r\n 10 **Shatavar Vatika Herbal Park** , Dhansu Rd ( next to the Deer Park ). A park which preserves many endangered species of herbs used in Ayurvedic medicine.   \r\n Town Park",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "MG Cinema, Bypass Road \r\n Suncity Mall, Delhi Road \r\nOther\r\n\n\r\n Water park in summers",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Lassi Malai maar kr from Kalu Lasi wala at Parijat chowk \r\n Rabri Glass from Ram Chat bhandar \r\n Hot milk (only available in evening) at Goswami Sweets Nagori gate"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:08.297Z",
+        "wikipedia_summary": "Hisar, also known as Hissar, is the administrative headquarters of Hisar district in the state of Haryana in northwestern India. It is located 164 km (102 mi) to the west of the national capital New Delhi, and has been identified as a counter-magnet city for the National Capital Region to develop as an alternative center of growth to Delhi.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:08.587Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Hisar Sightseeing Hisar, also known as Hissar, is the administrative headquarters of Hisar district in the state of Haryana in northwestern India. It is located 164 km (102 mi) to the west of the national capital New Delhi, and has been identified as a counter-magnet city for the National Capital Region to develop as an alternative center of growth to Delhi. Originating and radially spreading from Rakhi Garhi, Hisar is the cradle of 8000 years old Indus Valley Civilization, that is also the home of Ashoka's pillar, Feroz Shah's fort complex, museums, 3 universities and centre of steel production. It is in the heart of the triangle of national capital Delhi , state capital Chandigarh and Rajasthan 's historic capital Jaipur . It is easily accessible as a good stopover. It is in the jat heartland of br _Not to be confused with Hisarya , a health resort town in Bulgaria ._ Hisar (हिसार) is a district and divisional headquarter city in the state of Haryana in India.",
+      "travel_facts": {
+        "summary": "**Hisar** balances **Hisar Junction (~3 km)** Delhi expresses with **HSS (~12 km)** UDAN tiers knowing **DEL (~165 km)** NH9 stacks carry most flyers—winter fog thickens outer bypass queues.",
+        "keywords": [
+          "hisar junction expresses",
+          "hss udan tiers",
+          "nh9 del stacks",
+          "agro campus fog queues",
+          "gorkhdham winter delays",
+          "chandigarh jaipur triangles"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-karnal",
+      "name": "Karnal",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 29.69,
+        "lon": 76.98833,
+        "source": "wikidata"
+      },
+      "description": "**Karnal** is a city of 287,000 people (2011) in the National Capital Region (NCR) in Haryana. The city associates itself with Karna, the great donor and warrior and of one of the major characters of the Hindu epic Mahābhārata. The city has built a large statue in his honour.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Karnal",
+        "wikipedia": "https://en.wikipedia.org/wiki/Karnal",
+        "wikidata": "https://www.wikidata.org/wiki/Q256194"
+      },
+      "distance_km": 1860,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DiwaliLights.JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 125,
+          "note": "NH44 midpoint wedge—Chandigarh IXC (~125 km) mirrors fog-season diversions"
+        },
+        "nearest_railway_station": {
+          "name": "Karnal railway station",
+          "distance_km": 4,
+          "note": "GT Road Shatabdi spills—Panipat merges thicken textile convoy peaks"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 53950,
+        "content_richness_score": 0.385
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Karnal railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Karnal_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Karnal railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Karnal_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By road The Grand Trunk Road (GT Road) also known as NH-1 runs right through Karnal (The city of Daanveer Karna of Mahabharat). It's 125 km from Delhi and approximately the same distance from Chandigarh as well. You can catch a bus/taxi from Chandigarh and Delhi.\r\n\n\r\n By bus You can catch a bus to Karnal from Inter-State Bus Terminus, Kashmere Gate in New Delhi. Karnal is 125 km from Delhi. Traveling from Delhi to Karnal by a bus takes normally 2 to 3 hours depending on the traffic conditions in city range of Delhi. by chandra\r\n\n\r\n By train Train to Karnal can be taken from either New Delhi Railway Station or from Old Delhi railway station, and Hazrat Nizzamuddin railway station as well. Train takes 2-3 hours to reach Karnal from Ambala/Delhi/Chandigarh depending on the train class.\r\n\n\r\n 1 **Karnal railway station** .  ( updated May 2023 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Atal Park",
+              "description": "Well maintained park with gardens and fountains. Travelers and local populace enjoy this park for picnics and leisurely strolls.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.69751,
+                "lon": 77.00862
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Bhara Mal's Sarai",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Cantonment Church Tower",
+              "description": "The Cantonment Church Tower is a church tower in Karnal city of Haryana, India. It stands near National Highway 1 of India. It has been declared as a historical monument by Indian National Trust for Art and Cultural Heritage. It was the tower of St. James' Church, Karnal, dedicated to St. James, one of disciples of Jesus Christ. The tower is 35m tall, and is surmounted by an ornamental cross.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Dargah Nuri",
+              "description": "There is a Dargah Nuri at village Newal on Karnal-Kunjpura road. This Dargah was built in memory of Hazrat Sufi Shah Alama Nur Mohd of Delhi, and is managed by Managing Committee, village Newal.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Devi Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Gurdwara Manji Sahib",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Haveli",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Kalander Shah's Tomb",
+              "description": "A shrine of famous sufi saint Baba Bu Ali Shah kalander. An enclosure with mosque and a reservoir with fountains.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Karn Taal",
+              "description": "A park",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.68694,
+                "lon": 76.98645
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Karna Lake",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.74329,
+                "lon": 76.97634
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Karna Stadium",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.69855,
+                "lon": 76.98537
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Miran Sahib's Tomb",
+              "description": "A tomb for the memory of a saint, Sayad Mohd AKA Miran Sahib, a saint who died in 899 AD.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Old Fort",
+              "description": "Constructed in 1764. Now the office and residence of the Tehsildar (Tax Inspector).",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Sita Mai Temple",
+              "description": "A temple dedicated to the Nepali Hindu Goddess Sita.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "Karnesshwar Mahadev Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Atal Park**. Well maintained park with gardens and fountains. Travelers and local populace enjoy this park for picnics and leisurely strolls.   \r\n **Bhara Mal's Sarai**.  ( updated Jun 2016 ) \r\n **Cantonment Church Tower**. The Cantonment Church Tower is a church tower in Karnal city of Haryana, India. It stands near National Highway 1 of India. It has been declared as a historical monument by Indian National Trust for Art and Cultural Heritage. It was the tower of St. James' Church, Karnal, dedicated to St. James, one of disciples of Jesus Christ. The tower is 35m tall, and is surmounted by an ornamental cross.  ( updated Jun 2016 ) \r\n **Dargah Nuri**, Karnal-Kunjpura road, Village of Newal (10km NE of Karnal) . There is a Dargah Nuri at village Newal on Karnal-Kunjpura road. This Dargah was built in memory of Hazrat Sufi Shah Alama Nur Mohd of Delhi, and is managed by Managing Committee, village Newal.  ( updated Jun 2016 ) \r\n **Devi Temple**.  ( updated Jun 2016 ) \r\n **Gurdwara Manji Sahib**, Khatrian Mohalla .  ( updated Jun 2016 ) \r\n **Haveli**.   \r\n **Kalander Shah's Tomb**. A shrine of famous sufi saint Baba Bu Ali Shah kalander. An enclosure with mosque and a reservoir with fountains.  ( updated Jun 2016 ) \r\n 2 **Karn Taal** ( Karna Tank ). A park   \r\n 3 **Karna Lake**.   \r\n 4 **Karna Stadium**.   \r\n **Miran Sahib's Tomb**. A tomb for the memory of a saint, Sayad Mohd AKA Miran Sahib, a saint who died in 899 AD.  ( updated Jun 2016 ) \r\n **Old Fort**. Constructed in 1764. Now the office and residence of the Tehsildar (Tax Inspector).  ( updated Jun 2016 ) \r\n **Sita Mai Temple**, Village of Sitamai (25 km NW of Karnal) . A temple dedicated to the Nepali Hindu Goddess Sita.  ( updated Jun 2016 ) \r\n **Karnesshwar Mahadev Mandir**, Sector 7 .  ( updated Apr 2019 ) \r\n Nirmal Kutia: A famous shrine dedicated to saint Baba Nikka Singh Ji Maharaj, visited by people of all faiths. Aarti in the evening (7-8PM everyday) is worth attending. Special celebration occurs on Sundays, festivals. It lies in front of District Courts Karnal.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Fun Cinemas",
+              "description": ""
+            },
+            {
+              "name": "Movietime Cinemas",
+              "description": ""
+            }
+          ],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Dominos",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Haveli",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Hotel Jewels",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Any road side **dhaba** \r\n 1 **Karnal Club**.   \r\n **Tunn Bar**."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Deventure",
+              "description": "A Four Star Hotel",
+              "price": null
+            },
+            {
+              "name": "Hotel Haveli",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Hotel Jewels",
+              "description": "A Four Star Hotel",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:09.146Z",
+        "wikipedia_summary": "Karnal is a city located in the Indian state of Haryana and serves as the administrative headquarters of the Karnal district. The city lies on National Highway 44, which connects it to the national capital, New Delhi, and the state capital, Chandigarh, placing Karnal almost midway between the two. To the south of Karnal is the city of Panipat, while Kurukshetra and Kaithal lie to its north. The Yamuna River flows along its eastern edge, separating Karnal from the Saharanpur and Shamli districts of Uttar Pradesh. According to local tradition, the city is believed to have been named after Karna, a prominent figure in the Hindu epic Mahabharata. The Battle of Karnal between Nader Shah of Persia and the Mughal Empire took place in the city in 1739. Karnal was used as a refuge by the forces of the East India Company during the Indian Rebellion of 1857 in Delhi.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:09.438Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Karnal Sightseeing Karnal is a city located in the Indian state of Haryana and serves as the administrative headquarters of the Karnal district. The city lies on National Highway 44, which connects it to the national capital, New Delhi, and the state capital, Chandigarh, placing Karnal almost midway between the two. To the south of Karnal is the city of Panipat, while Kurukshetra and Kaithal lie to its north. The Yamuna River flows along its eastern edge, separating Karnal from the Saharanpur and Shamli districts of Uttar Pradesh. According to local tradition, the city is believed to have been named after Karna, a prominent figure in the Hindu epic Mahabharata. The Battle of Karnal between Nader Shah of Persia and the Mughal Empire took place in the city in 1739. Karnal was used as a refuge by the forces of the East India Company during the Indian Rebellion of 1857 in Delhi. Karnal is a city of 287,000 people (2011) in the National Capital Region (NCR) in Haryana. The city associates itself with Karna, the great donor and warrior and of one of the major characters of the Hindu epic Mahābhārata. The city has built a large statue in his honour.",
+      "travel_facts": {
+        "summary": "**Karnal** sits **Karnal station (~4 km)** GT Road spills midway **DEL–IXC (~125 km)** arcs—NH44 textile convoys choke toll plazas before Kurukshetra pilgrimage spikes.",
+        "keywords": [
+          "karnal gt road spills",
+          "nh44 midpoint arcs",
+          "del ix mirror stacks",
+          "panipat merge convoys",
+          "shatabdi textile peaks",
+          "mahabharata heritage hops"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-kurukshetra",
+      "name": "Kurukshetra",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 29.97083,
+        "lon": 76.85,
+        "source": "wikidata"
+      },
+      "description": "**Kurukshetra** is a holy city in Haryana .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kurukshetra",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kurukshetra",
+        "wikidata": "https://www.wikidata.org/wiki/Q593256"
+      },
+      "distance_km": 1892,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitopadesha.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 160,
+          "note": "NH44 pilgrimage ribbons—Chandigarh IXC (~90 km) absorbs Punjab-side stacks"
+        },
+        "nearest_railway_station": {
+          "name": "Kurukshetra Junction",
+          "distance_km": 4,
+          "note": "Delhi–Amritsar main line—Brahma Sarovar loops bias prepaid autos festival weeks"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 49662,
+        "content_richness_score": 0.355
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "It was the site of a battle described in the Indian epic the _Mahabarata_. One of the most sacred parts of that story, and one of the most famous passages in all of Hindu scripture, took place just before the battle. It is called the _Bhagavad Gita_ and is a dialog between the warrior Arjuna and the God Krishna who serves as his charioteer.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Kurukshetra Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Kurukshetra_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Kurukshetra Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Kurukshetra_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Kurukshetra is approximately 150 km (93 mi) north of New Delhi and is most often reached by road or rail from there. \r\n\n\r\n By train Kurukshetra is a junction on the main track of the Amritsar - New Delhi rail line, 250 km from Amritsar. A train to Kurukshetra can be taken from either New Delhi Railway Station or from Old Delhi railway station , and Nizzamuddin as well. Train takes two and half hours to reach Kurukshetra from Delhi.\r\n\n\r\n 1 **Kurukshetra Junction railway station** .  ( updated Aug 2024 ) \r\n By car The Grand Trunk Road or National Highway No 1 passes by Kurukshetra, so it is easy to reach by road from Amritsar , Ludhiana , Chandigarh or New Delhi , and there is also direct connectivity to Haridwar and Patiala . Kurukshetra is about 90km south of Chandigarh.\r\n\n\r\n By bus You can catch a bus to Kurukshetra from Indraparasth bus station in New Delhi. You can get a bus from Kashmiri Gate Bus station. Travelling from Delhi to Karnal by bus takes normally 3 to 4 hours depending on the traffic conditions in city range of Delhi. You can catch a bus from Chandigarh ISBT and Delhi ISBT.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Crocodile Breeding Centre",
+              "description": "The centre has around 10 male and 10 female mugger crocodiles which you can see up close. The guides are very knowledgeable.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Crocodile_Breeding_Centre,_Kurukshetra",
+              "coordinates": {
+                "lat": 29.9619,
+                "lon": 76.6969
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Mini Zoo &amp; Black Buck Breeding Centre",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Panorama Science Museum",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Sheikh Chilli's Tomb",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sheikh_Chilli%27s_Tomb",
+              "coordinates": {
+                "lat": 29.97663,
+                "lon": 76.82813
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Harshwardhan Park",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sheikh_Chilli_(Sufi_saint)",
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Jindal Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Bhadra Kali Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Birla Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Brahm-sarovar",
+              "description": "The memoirs of Al Beruni, called 'Kitab-ul-Hind' mentions this sacred water tank. The water tank is dedicated to Lord Shiva. It is said in the scriptures that the holiness of performing 'Ashvamedh Yajna' can be achieved by a dip in this sacred water tank. This place is believed to be the land where civilization was born. Lord Brahma is said to have created the universe from this land. Just in the vicinity of this sacred place are the Birla Gita Mandir and Baba Nath's haveli. The sight of Kurukshetra is exquisite especially in winters when birds migrate from ever different landmasses to take a dip in the waters. Best seen during the 'Deep Daan' and Aarti during Gita Jayanti in the later November and early December.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Chatti Patshahi Gurudwara",
+              "description": "The Sikh Gurus visited Kurukshetra from time to time. Pilgrims go to the Pundits of their area and sign in their register after taking a bath.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Jyotisar",
+              "description": "A pilgrimage site, where the _Bhagavad Gita_ was spoken.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jyotisar",
+              "coordinates": {
+                "lat": 29.961,
+                "lon": 76.769
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Sanhit-Sarovar",
+              "description": "Situated at a distance of 3 km from Kurukshetra Railway Station on Pehowa Road, Sannihit Sarovar is believed to be the permanent abode of Lord Vishnu. It is believed that entire range of Tirthas assemble here on the Amavas day and if a man performs Shradhs at the time of solar eclipse and takes bath in this tank, he acquires the fruit of 1000 Ashwamedh sacrifices. The tank is 500 yards in length and 150 yards in breath. Pilgrims are led first to this holy spot at the time of solar eclipse. The idols of Lord Vishnu, Druv Bhagat, Lord Hanuman and Goddess Durga are placed here. Pilgrims also visit to Pandas and Tirath. Purohits who have their offices on the banks of Sannhit Sarovar, keeping the records hundreds of years old of the pilgrims coming from various parts of the country. People come here for Shradhs of their ancestors.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Sthanswer Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Crocodile Breeding Centre** ( Bhor Crocodile Park ), Bhor Saidan village . The centre has around 10 male and 10 female mugger crocodiles which you can see up close. The guides are very knowledgeable.  ( updated May 2020 ) \r\n ** Raja Harsh ka Tilla ** ( Mound of King Harsha ), Old Bypass Rd, Darra Khera, Kalyan Nagar, Thanesar .   \r\n 2 ** Kalpana Chawla Planetarium **, Jyotisar Pehowa Road .  ( updated Jun 2020 ) \r\n 3 ** Shri Krishna Museum ** .  ( updated May 2020 ) \r\n **Mini Zoo &amp; Black Buck Breeding Centre**, Pipli .  ( updated May 2020 ) \r\n **Panorama Science Museum** ( Kurukshetra Panorama and Science Centre ), Pehowa Rd, Dukh Bhanjan Colony ( near Theme Park ), ☏ +91 1744 251 100 .  ( updated May 2020 ) \r\n 4 **Sheikh Chilli's Tomb** .  ( updated May 2020 ) \r\n Parks **Harshwardhan Park** .   \r\n **Jindal Park**.  ( updated May 2020 ) \r\n Temples and religious sites **Bhadra Kali Mandir**.   \r\n **Birla Mandir**.   \r\n **Brahm-sarovar**. The memoirs of Al Beruni, called 'Kitab-ul-Hind' mentions this sacred water tank. The water tank is dedicated to Lord Shiva. It is said in the scriptures that the holiness of performing 'Ashvamedh Yajna' can be achieved by a dip in this sacred water tank. This place is believed to be the land where civilization was born. Lord Brahma is said to have created the universe from this land. Just in the vicinity of this sacred place are the Birla Gita Mandir and Baba Nath's haveli. The sight of Kurukshetra is exquisite especially in winters when birds migrate from ever different landmasses to take a dip in the waters. Best seen during the 'Deep Daan' and Aarti during Gita Jayanti in the later November and early December.   \r\n **Chatti Patshahi Gurudwara**. The Sikh Gurus visited Kurukshetra from time to time. Pilgrims go to the Pundits of their area and sign in their register after taking a bath.   \r\n 5 **Jyotisar** . A pilgrimage site, where the _Bhagavad Gita_ was spoken.  ( updated May 2020 ) \r\n **Sanhit-Sarovar**. Situated at a distance of 3 km from Kurukshetra Railway Station on Pehowa Road, Sannihit Sarovar is believed to be the permanent abode of Lord Vishnu. It is believed that entire range of Tirthas assemble here on the Amavas day and if a man performs Shradhs at the time of solar eclipse and takes bath in this tank, he acquires the fruit of 1000 Ashwamedh sacrifices. The tank is 500 yards in length and 150 yards in breath. Pilgrims are led first to this holy spot at the time of solar eclipse. The idols of Lord Vishnu, Druv Bhagat, Lord Hanuman and Goddess Durga are placed here. Pilgrims also visit to Pandas and Tirath. Purohits who have their offices on the banks of Sannhit Sarovar, keeping the records hundreds of years old of the pilgrims coming from various parts of the country. People come here for Shradhs of their ancestors.   \r\n **Sthanswer Mandir**.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Movies The city has several cinema halls with the classic single screen format. Kessel Mall and Divine Business Park have multi-screen cineplexes.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Parakeet resort (Haryana Tourism) serves hard drinks.\r\nThere are no objections for guests to bring their liquor and consume it in their room. Most of the hotels follow the same pattern."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Parakeet Resort",
+              "description": "A government-owned resort. Air-conditioned rooms with Wi-Fi and free parking. It has a big private park where guests often go for a jog or take part in yoga sessions.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:09.991Z",
+        "wikipedia_summary": "Kurukshetra is a historical region in India, also known as Dharmakshetra and as the \"Land of the Bhagavad Gita\". It also refers to the city Kurukshetra, situated in the area and administrative headquarters of Kurukshetra district in the Indian state of Haryana.",
+        "wikipedia_description": "Historical region, and city in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:10.283Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Heritage / Culture City / Urban Kurukshetra Sightseeing Kurukshetra is a historical region in India, also known as Dharmakshetra and as the \"Land of the Bhagavad Gita\". It also refers to the city Kurukshetra, situated in the area and administrative headquarters of Kurukshetra district in the Indian state of Haryana. It was the site of a battle described in the Indian epic the _Mahabarata_. One of the most sacred parts of that story, and one of the most famous passages in all of Hindu scripture, took place just before the battle. It is called the _Bhagavad Gita_ and is a dialog between the warrior Arjuna and the God Krishna who serves as his charioteer. Kurukshetra is a holy city in Haryana .",
+      "travel_facts": {
+        "summary": "**Kurukshetra** anchors **Kurukshetra Junction (~4 km)** Delhi–Amritsar ribs beneath **DEL (~160 km)** or **IXC (~90 km)** fog alternates—never confuse station distance with Amritsar kilometer posts on tickets.",
+        "keywords": [
+          "kurukshetra junction ribs",
+          "brahma sarovar loops",
+          "del nh44 pilgrimage",
+          "ixc punjab alternates",
+          "amritsar ticket literacy",
+          "mahabharata festival autos"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-morni",
+      "name": "Morni",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 30.7,
+        "lon": 77.08333,
+        "source": "wikidata"
+      },
+      "description": "**Morni** is a village (hill station) located in the **Morni Hills** in Haryana.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Morni",
+        "wikipedia": "https://en.wikipedia.org/wiki/Morni",
+        "wikidata": "https://www.wikidata.org/wiki/Q6912758"
+      },
+      "distance_km": 1972,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Chandigarh International Airport",
+          "code": "IXC",
+          "distance_km": 48,
+          "note": "Morni ghat roads climb Panchkula ridges—taxi ₹6/km Panchkula norms benchmark hills"
+        },
+        "nearest_railway_station": {
+          "name": "Chandigarh Junction",
+          "distance_km": 38,
+          "note": "HR roadways buses hourly Panchkula/Morni—monsoon hairpins punish sedan clears"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Chandigarh",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 13181,
+        "content_richness_score": 0.094
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Morni is Haryana's only hill station. It's a totally different experience to Kasauli and similar towns which are within an hour's drive of Chandigarh . The vegetation is subtropical forest. On the winding road (with almost no villages or houses by the sides) leading to Morni there is an outstanding but rarely visited bird and wildlife area.\r\n\nMorni Hills have a fascinating range of flora and fauna. Pines crown the hilltops and trees like Sal, Neem, Mango, Ritha, Pipal, Jamun, Shisham, Amaltas and jacaranda cover the slopes. When the flowering trees blossom, the hillsides are awash with colour, presenting a delightful sight. Morni is a paradise for wildlife enthusiasts and birdwatchers with its teeming population of birds like the wallcreeper, crested kingfisher, bar-tailed treecreeper, blue peafowl, kalij pheasant, red junglefowl, grey francolin, black francolin, quails, Himalayan bulbul and oriental turtle dove as well as animals like jackals, langur monkeys, hares, hyenas, neelgai, wild boar, _kakad_ (barking dear), sambar and even leopards.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "There are several Haryana Roadways buses a day from Chandigarh or Panchkula . The journey is about an hour.\r\n\nTaxis can easily be hired from Chandigarh or Panchkula for the day. The rate is usually ₹6 per kilometre. There are several taxi stands in Panchkula, notably Sectors 10 and 20.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Tikkar Taal",
+              "description": "A popular destination, they are also home to the region's first adventure park. The park, which lies on the bank of the smaller of the 2 Tikkar lakes, was set up by Haryana Tourism in 2004, with the intention of promoting adventure tourism in the lower Himalayan region. It offers a range of activities from low ropes, commando nets, Burma bridge, rappelling &amp; rock-climbing. It also has a tree house, fountains and a cafeteria.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.657,
+                "lon": 77.0803
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Tikkar Taal** ( Tikkar Lake ) ( around 7 km from Morni town ). A popular destination, they are also home to the region's first adventure park. The park, which lies on the bank of the smaller of the 2 Tikkar lakes, was set up by Haryana Tourism in 2004, with the intention of promoting adventure tourism in the lower Himalayan region. It offers a range of activities from low ropes, commando nets, Burma bridge, rappelling &amp; rock-climbing. It also has a tree house, fountains and a cafeteria.  ( updated Aug 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "The usually drinks are available as in the rest of Haryana especially beer."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:10.842Z",
+        "wikipedia_summary": "Morni is a village and tourist attraction in the Morni Hills in the Panchkula district of the northern Indian state of Haryana. The village lies at a height of 1,267 metres (4,157 ft) above sea level and is located around 45 kilometres (28 mi) from Chandigarh and 35 kilometres (22 mi) from Panchkula city. It is known for its view of the distant Himalayas, as well as its flora and lakes.\nThe name \"Morni\" is believed to derive from a queen who once ruled the area two thousand years ago. She was said to be a just and noble ruler. Morni was also a jagir of Raja Mir Syed Muhammad Baquar Ali Khan.In the Morni Hills ilaka, landholding patterns reflected a caste-based agrarian structure. Kanets held the majority share, occupying approximately 60% of cultivated land, followed by Gaur Brahmins with around 24%, and Gujars with about 16%. Holdings were predominantly small, typically ranging between four to five acres, and were chiefly cultivated by the proprietors themselves, indicating a system of direct subsistence agriculture with limited reliance on tenant labor.",
+        "wikipedia_description": "Village in India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:10.895Z"
+      },
+      "search_context": "Mountain / Hills Wildlife / Nature Morni Sightseeing Morni is a village and tourist attraction in the Morni Hills in the Panchkula district of the northern Indian state of Haryana. The village lies at a height of 1,267 metres (4,157 ft) above sea level and is located around 45 kilometres (28 mi) from Chandigarh and 35 kilometres (22 mi) from Panchkula city. It is known for its view of the distant Himalayas, as well as its flora and lakes. The name \"Morni\" is believed to derive from a queen who once ruled the area two thousand years ago. She was said to be a just and noble ruler. Morni was also a jagir of Raja Mir Syed Muhammad Baquar Ali Khan.In the Morni Hills ilaka, landholding patterns reflected a caste-based agrarian structure. Kanets held the majority share, occupying approximately 60% of cultivated land, followed by Gaur Brahmins with around 24%, and Gujars with about 16%. Holdings were predominantly small, typically ranging between four to five acres, and were chiefly cultivated by the proprietors themselves, indicating a system of direct subsistence agriculture with limited reliance on tenant labor. Morni is Haryana's only hill station. It's a totally different experience to Kasauli and similar towns which are within an hour's drive of Chandigarh . The vegetation is subtropical forest. On the winding road (with almost no villages or houses by the sides) leading to Morni there is an outstanding but rarely visited bird and wildlife area. Morni Hills have a fascinating range of flora and fauna. Pines crown the hilltops and trees like Sal, Neem, Morni is a village (hill station) located in the Morni Hills in Haryana.",
+      "travel_facts": {
+        "summary": "**Morni** finishes Panchkula ridge taxis from **IXC (~48 km)** stacks—Haryana Roadways buses beat monsoon hairpins when Chandigarh diesel temps spike plateau mornings.",
+        "keywords": [
+          "morni panchkula ridges",
+          "ixc plateau stacks",
+          "haryana roadways hairpins",
+          "shivalik lake viewpoints",
+          "monsoon ghat clears",
+          "chandigarh diesel temps"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-panipat",
+      "name": "Panipat",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 29.3875,
+        "lon": 76.97,
+        "source": "wikidata"
+      },
+      "description": "**Panipat** is a city in the state of Haryana in the Plains region of India . An industrial city in modern times, its main claim to fame is that the First Battle of Panipat in 1526 was a key step in establishing the Mughal Empire .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Panipat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Panipat",
+        "wikidata": "https://www.wikidata.org/wiki/Q139706"
+      },
+      "distance_km": 1827,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raja%20Hemu's%20'Beheading%20Place'.JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 92,
+          "note": "NH44 textile battle ribbons—fog winters bias midday runway stacks"
+        },
+        "nearest_railway_station": {
+          "name": "Panipat Junction",
+          "distance_km": 4,
+          "note": "Delhi–Kalka line museums—refinery truck tides thicken GT bypass merges"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 36493,
+        "content_richness_score": 0.261
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train"
+          ],
+          "nearest_station": {
+            "name": "Panipat Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Panipat_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Panipat Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Panipat_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Panipat is small but enjoyable city, with many malls, museums, and hotels.\r\n\n\r\n By train 1 **Panipat Junction railway station** . The station is on the Delhi-Kalka line which connects India's capital with the state of Haryana.  ( updated Feb 2020 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Dargah Qalander",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Gandhi Park Killa",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.39361,
+                "lon": 76.97637
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Kabuli Bagh",
+              "description": "A mosque and garden built by first Mughal emperor Babur to commemorate his victory over Ibrahim Lodi.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Kabuli_Bagh_Mosque",
+              "coordinates": {
+                "lat": 29.39593,
+                "lon": 76.98919
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Panipat Museum",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Salar Gunj Gate",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.39695,
+                "lon": 76.97288
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Shri Devi Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 29.38912,
+                "lon": 76.98261
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Tomb of Ibrahim Lodi",
+              "description": "The last ruler of the Lodi dynasty, Ibrahim Lodi's tomb is quite a simple looking rectangular tomb with a small flight of steps.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tomb_of_Ibrahim_Lodi",
+              "coordinates": {
+                "lat": 29.40181,
+                "lon": 76.97277
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Hemu's Samadhi Sthal",
+              "description": "A memorial to 16th century King Hemu, who defeated the Mughals in October 1556 and briefly took control of Delhi before being defeated in a repeat battle around a month later.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Hemu%27s_Samadhi_Sthal",
+              "coordinates": {
+                "lat": 29.39,
+                "lon": 76.97
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Dargah Qalander**.   \r\n 1 **Gandhi Park Killa**.   \r\n 2 ** Kala Amb ** ( Black Mango ). The site of the Third Battle of Panipat between the Marathas and Afghans. According to legend, it was marked by a black mango tree which has since disappeared.   \r\n 3 **Kabuli Bagh** . A mosque and garden built by first Mughal emperor Babur to commemorate his victory over Ibrahim Lodi.   \r\n **Panipat Museum**.   \r\n 4 **Salar Gunj Gate**.   \r\n 5 **Shri Devi Temple** ( Mandir Shri Mahavir Sabha ).   \r\n 6 **Tomb of Ibrahim Lodi** , Tehsil Camp Rd . The last ruler of the Lodi dynasty, Ibrahim Lodi's tomb is quite a simple looking rectangular tomb with a small flight of steps.   \r\n 7 **Hemu's Samadhi Sthal** . A memorial to 16th century King Hemu, who defeated the Mughals in October 1556 and briefly took control of Delhi before being defeated in a repeat battle around a month later.  ( updated Feb 2020 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Bars are available in Hotel Gold &amp; Hotel Skylark."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:11.446Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Panipat Sightseeing Panipat is a city in the state of Haryana in the Plains region of India . An industrial city in modern times, its main claim to fame is that the First Battle of Panipat in 1526 was a key step in establishing the Mughal Empire .",
+      "travel_facts": {
+        "summary": "**Panipat** rides **Panipat Junction (~4 km)** NH44 museum ribs beneath **DEL (~92 km)** stacks—Mughal battle-field hops dodge refinery truck merges at dawn.",
+        "keywords": [
+          "panipat junction nh44",
+          "del museum ribs",
+          "mughal battlefield hops",
+          "textile refinery merges",
+          "gt bypass truck tides",
+          "winter fog midday stacks"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-rohtak",
+      "name": "Rohtak",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 28.9,
+        "lon": 76.56667,
+        "source": "wikidata"
+      },
+      "description": "**Rohtak** (Hindi: रोहतक) is a city in Haryana . It is the political capital of Haryana, and ainly famous for reputed educational institutes, cloth market and dairies.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Rohtak",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rohtak",
+        "wikidata": "https://www.wikidata.org/wiki/Q1453180"
+      },
+      "distance_km": 1774,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Rohtashgarh"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quilla_road_rohtak.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MDU%20Main%20Entrance%20Gate.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 72,
+          "note": "NH9 six-lane upgrades shrink jams—Rohtak diesel hubs thicken dairy convoys"
+        },
+        "nearest_railway_station": {
+          "name": "Rohtak Junction",
+          "distance_km": 4,
+          "note": "NCR Planning Board corridors—Ambala branch expresses alternate peak Sundays"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 27637,
+        "content_richness_score": 0.197
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The district lies in the south east of Haryana state. It is near to National Capital of India, Delhi and comes under National Capital Region (NCR) II. Rohtak is 70 km from Delhi, comes on National Highway no. 10.\r\n\nRohtak has its historical background to know more you can ask anybody for village Girawad. A Harappan site with painted grey ware artifacts has been discovered near a village in Rohtak district in Haryana. The site with painted grey ware remains dating back to the Mahabharata period has been discovered at village Girawad on the Madina-Samargopalpur road, in Rohtak district. \r\n\nThis site was found by a research scholar Vivek Dangi, under a team led by deputy director J S Khatri. The team proceeded from Meham towards Madina and discovered the site at village Girawad. The site was spread over an area of 25 acres and rose about 1.5 metres in height from the ground. Material culture available from the site indicates that the economy of Girawad was based on agriculture. Boundary wall, early Harappan pottery, furnaces and other antiquities found during surface explorations are sufficient evidence to prove its antiquity to that of early Harappan times. \r\n\nAs many as 45 early-Harappan and Harappan sites had so far been discovered on the ancient river bed of Drishadvati and its tributaries in Meham Block itself. It means that this area was thickly inhabited during Harappan times. The discovery of large number of Harappan and painted grey ware sites in the Satluj-Yamuna divide would help the archaeologist in providing evidences to complete the missing links of the Indian history.\r\n\nA vast stretch of present day Haryana where the now dried Saraswati river flowed presented remnants of Harappan civilisation.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "train"
+          ],
+          "nearest_station": {
+            "name": "Rohtak Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Rohtak_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Rohtak Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Rohtak_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Delhi's Indira Gandhi International Airport is also 70 km from Rohtak. A 6-lane highway is under construction. After it is completed the journey time will be reduced and the trip will be safer.\r\n\n\r\n 1 **Rohtak Junction railway station** .  ( updated Aug 2024 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Sai Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Tilyar Lake",
+              "description": "The Tilyar lake is spread over 132 acres. To attract people, there's a restaurant and a mini zoo with bears, tigers, panthers, deer, birds monkeys etc, a toy train for children, a small Columbus swing for adults, a wide lake for large green lawns to play and sit.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tilyar_Lake",
+              "coordinates": {
+                "lat": 28.882,
+                "lon": 76.637
+              },
+              "price": "₹10"
+            },
+            {
+              "order": 3,
+              "name": "Rohtak Zoo",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Sai Mandir**.   \r\n 1 **Tilyar Lake** ( Tiliyar Jheel ), Delhi Road Rohtak . 9AM-5PM . The Tilyar lake is spread over 132 acres. To attract people, there's a restaurant and a mini zoo with bears, tigers, panthers, deer, birds monkeys etc, a toy train for children, a small Columbus swing for adults, a wide lake for large green lawns to play and sit. ₹10 .  ( updated Jan 2019 ) \r\n **Rohtak Zoo**.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "You can visit Haryana Tourism's Highway stopover known as Tilyar Lake, which is at the entrance to Rohtak while coming from Delhi. The Tilyar Lake lies in a 132-acre area. The lake forms an integral part of the setup making it one of the greenest stretches one can imagine. It lies close to Rohtak town, some 70 km from Delhi. Tilyar is famous for its lake and zoo.\r\n\nAlso, if you love Bollywood movies, the best place to go is Sheela Theater (a.k.a. Sheela Talkies). Sheela Theater used to be an old-fashioned movie theater but it was transformed into a cineplex.\r\n\nThe Mansarovar Park, which is at the heart of Rohtak city, is also a good place to go for a walk or jogging. The Mansarovar Park is one of the oldest park in the Rohtak city. People from all age groups comes to visit it on a daily basis. It is nicely maintained and well decorated. You can have a picture with two old fashioned cannons placed there.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Bikaner Sweets",
+              "description": "Great pani puri (Gol Guppa).",
+              "location": null
+            },
+            {
+              "name": "Gulab Rewari",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Madras Hotel",
+              "description": "They serve the best of South Indian food with much much variety.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "If you wish to have some hard drink then you can try **Haryana Tourism Resorts**. One is in the middle of city and other on the Rohtak-Delhi highway.\r\n\n\r\n **AnnaPurna** ( near Ashoka talkies ). Very good all time hangout. Nice cuisines available.   \r\n **Myna Restaurant**, Near Ashoka Chowk . Apart from drinking, you can also try the food here which comes at areasonable price.   \r\n **Tilyar Lake Restaurant**, At the doorstep of Rohtak ( on Rohtak-Delhi Highway ). The bar serves hard drinks but does not have many options. It has a good ambience."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:12.280Z",
+        "wikipedia_summary": "Rohtak is a city and the administrative headquarters of the Rohtak district in the Indian state of Haryana. It lies 70 kilometres (43 mi) north-west of New Delhi and 250 kilometres (160 mi) south of the state capital Chandigarh on NH 9. Rohtak forms a part of the National Capital Region (NCR) which helps the city in obtaining cheap loans for infrastructure development from the NCR Planning Board.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:12.331Z"
+      },
+      "search_context": "City / Urban Rohtak Sightseeing Rohtak is a city and the administrative headquarters of the Rohtak district in the Indian state of Haryana. It lies 70 kilometres (43 mi) north-west of New Delhi and 250 kilometres (160 mi) south of the state capital Chandigarh on NH 9. Rohtak forms a part of the National Capital Region (NCR) which helps the city in obtaining cheap loans for infrastructure development from the NCR Planning Board. The district lies in the south east of Haryana state. It is near to National Capital of India, Delhi and comes under National Capital Region (NCR) II. Rohtak is 70 km from Delhi, comes on National Highway no. 10. Rohtak has its historical background to know more you can ask anybody for village Girawad. A Harappan site with painted grey ware artifacts has been discovered near a village in Rohtak district in Haryana. The site with painted grey ware Rohtak (Hindi: रोहतक) is a city in Haryana . It is the political capital of Haryana, and ainly famous for reputed educational institutes, cloth market and dairies.",
+      "travel_facts": {
+        "summary": "**Rohtak** couples **Rohtak Junction (~4 km)** NCR expresses with **DEL (~72 km)** NH9 stacks—six-lane upgrades beat dairy convoy peaks toward campus belts.",
+        "keywords": [
+          "rohtak junction ncr",
+          "nh9 six lane stacks",
+          "del dairy convoys",
+          "campus belt peaks",
+          "planning board corridors",
+          "chandigarh triangle buses"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-sonipat",
+      "name": "Sonipat",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 28.99583,
+        "lon": 77.01139,
+        "source": "wikidata"
+      },
+      "description": "**Sonipat** is a city in Rohtak Division .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Sonipat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sonipat",
+        "wikidata": "https://www.wikidata.org/wiki/Q41561"
+      },
+      "distance_km": 1783,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Sonepat",
+        "Sonipat (stad)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khwaja_Khizar_Tomb%2C_Sonipat.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sonipat%20junction.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 52,
+          "note": "NH44 Ambala-Delhi wedge—Murthal dhaba tides thicken weekend outbound jams"
+        },
+        "nearest_railway_station": {
+          "name": "Sonipat Junction",
+          "distance_km": 4,
+          "note": "Northern Railway freight meshes—Olympic infrastructure corridors bias prepaid tiers"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chandigarh",
+          "Jaipur",
+          "Kolkata",
+          "Amritsar",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 26913,
+        "content_richness_score": 0.192
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Sonipat also spelled as Sonepat, is an ancient town and a municipal council in Sonipat district in the state of Haryana, India.It comes under National Capital Region and is 45 km north of Delhi. It is a part of National Capital Region along with Delhi, Gurgaon, Faridabad, Mewat, Palwal, Rewari, Jhajjar, Rohtak, Panipat, Alwar, Bhiwadi Industrial Town, Noida, Ghaziabad, Bulandshahr, and Meerut. The district borders Delhi union territory in south, Panipat District in the north, Jind District in the north-west, Uttar Pradesh state in the east with the Yamuna River acting as a border and Rohtak District in the west.\r\n\nThis district was carved out of the erstwhile Rohtak district on 22 December 1972. \r\n\nSonepat comprises 3 sub-divisions namely Ganaur, Sonepat and Gohana and seven blocks (Ganaur, Sonipat, Rai, Kharkhoda, Gohana, Kathura and Mundlana) has been carved out of Rohtak and made a full fledged district on 22 December 1972. Sonepat is the largest tehsil followed by Gohana.\r\n\nLegend - Sonipat was earlier known as Sonprastha, which later on became Swarnprastha, meaning the \"Golden City\": derived from two Sanskrit words, Swarn (Gold) and Prastha (Place). Over a period of time, the classical name Swarnprasth's pronunciation degraded into Swarnpath, and then to its current form, Sonipat.\r\n\nThe earliest reference of this city comes in the epic Mahabharata, and at that time, it was one of the five villages demanded by the Pandavas in lieu of the kingdom of Hastinapur. The other four villages were Panprastha (Panipat), Baghprastha (Baghpat), Indraprastha, and Tilprastha (Tilpat). It is believed that it was founded as Swarnaprastha by the five Pandava brothers during the times of Mahabharata. Another legend ascribed it to Raja Soni, the thirteenth descendent of Arjuna, one of the Pandava brothers.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "train"
+          ],
+          "nearest_station": {
+            "name": "Sonipat Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Sonipat_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Sonipat Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Sonipat_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "You can reach Sonipat by train and road directly. The city is on the Northern Railways' Ambala-Delhi rail route and a number of passenger trains pass through it daily. National Highway 1 passes through this district and the city is very well connected to Delhi and nearby places. Delhi's Indira Gandhi International Airport is also just 59 km (37 mi) from Sonipat.\r\n\n\r\n 1 **Sonipat Junction railway station** . On the northern Delhi-Kalka line.  ( updated Feb 2020 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Baba dham'",
+              "description": "Baba dham' is the main attractive religious temple and status symbol of Sonipat. It is a very neat and clean temple with many small temples within such as Sani Mandir, Sai Mander, Radha Kirshan Mandir, and more. This temple is found in the outskirts of Sonipat near the Kami-Bhuri road.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Khwaja Khizr Tomb",
+              "description": "Red sandstone and 'kankar' block monument with highly decorated floral ceiling.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Khwaja_Khizr_Tomb",
+              "coordinates": {
+                "lat": 29.00678,
+                "lon": 77.01408
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Mata Chintpurni Mandir",
+              "description": "Religious followers have visited here for centuries in order to pray at the lotus feet of Mata Shri Chhinnamastika Devi.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Mughal Buildings",
+              "description": "At the outskirts of the city one can enjoy the site of Mughal Buildings which lie unprotected. Among them is the Mosque of Abdullah Nasir-ud-din, who was a descendant from Mushid of Iran kijjar makkbara. In Sonipat Kijjar Makkbara is the most beautiful garden having very rich historic legend associated with it. When visiting Sonipat, one must see this site. It is reserved heritage and open to the public during the whole year. It is very beautiful with green grass and beautiful plants. It is situated in outer part of the city in village Jatwada.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Sai Dham",
+              "description": "A very religious site as well as a popular tourist destination.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Shankar Kui",
+              "description": "One of the oldest temples in Sonipat.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Shri Ram Temple",
+              "description": "One of the oldest, if not the oldest temples in Sonipat.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Yamuna River",
+              "description": "The river flows besides the rural belt of the city with its holy waters which turn into a Black Nullah after entering the National Capital Delhi. It also acts as a natural boundary also between state of Haryana and the state of Uttar Pradesh.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Baba dham'**. Baba dham' is the main attractive religious temple and status symbol of Sonipat. It is a very neat and clean temple with many small temples within such as Sani Mandir, Sai Mander, Radha Kirshan Mandir, and more. This temple is found in the outskirts of Sonipat near the Kami-Bhuri road.   \r\n 1 **Khwaja Khizr Tomb** . Red sandstone and 'kankar' block monument with highly decorated floral ceiling.   \r\n \r\n **Mata Chintpurni Mandir**. Religious followers have visited here for centuries in order to pray at the lotus feet of Mata Shri Chhinnamastika Devi.   \r\n **Mughal Buildings**. At the outskirts of the city one can enjoy the site of Mughal Buildings which lie unprotected. Among them is the Mosque of Abdullah Nasir-ud-din, who was a descendant from Mushid of Iran kijjar makkbara. In Sonipat Kijjar Makkbara is the most beautiful garden having very rich historic legend associated with it. When visiting Sonipat, one must see this site. It is reserved heritage and open to the public during the whole year. It is very beautiful with green grass and beautiful plants. It is situated in outer part of the city in village Jatwada.   \r\n **Sai Dham**. A very religious site as well as a popular tourist destination.   \r\n **Shankar Kui**. One of the oldest temples in Sonipat.   \r\n **Shri Ram Temple**. One of the oldest, if not the oldest temples in Sonipat.   \r\n **Yamuna River**. The river flows besides the rural belt of the city with its holy waters which turn into a Black Nullah after entering the National Capital Delhi. It also acts as a natural boundary also between state of Haryana and the state of Uttar Pradesh.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "1 ** Mojoland **, MojoLand, GT Road, Murthal , ☏ +91 705-665-1111 , info@mojoland.in . Mojoland is a picnic destination with a lot of adventures, such as a water park, amusement park, aero sports park, snow park, and theme park.  ( updated Oct 2018 )",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:12.891Z"
+      },
+      "search_context": "City / Urban Sonipat Sightseeing Sonipat also spelled as Sonepat, is an ancient town and a municipal council in Sonipat district in the state of Haryana, India.It comes under National Capital Region and is 45 km north of Delhi. It is a part of National Capital Region along with Delhi, Gurgaon, Faridabad, Mewat, Palwal, Rewari, Jhajjar, Rohtak, Panipat, Alwar, Bhiwadi Industrial Town, Noida, Ghaziabad, Bulandshahr, and Meerut. The district borders Delhi union territory in south, Sonipat is a city in Rohtak Division .",
+      "travel_facts": {
+        "summary": "**Sonipat** stacks **Sonipat Junction (~4 km)** Northern Railway meshes beneath **DEL (~52 km)** NH44 wedges—Murthal dhaba crawl tides punish lazy Sunday departures.",
+        "keywords": [
+          "sonipat junction meshes",
+          "nh44 murthal tides",
+          "del weekend wedges",
+          "olympic corridor taxis",
+          "northern freight backups",
+          "dhaba crawl jams"
+        ]
+      }
+    },
+    {
+      "slug": "haryana-sultanpur-national-park",
+      "name": "Sultanpur National Park",
+      "region": "",
+      "state": "Haryana",
+      "coordinates": {
+        "lat": 28.4623,
+        "lon": 76.8899,
+        "source": "wikidata"
+      },
+      "description": "**Sultanpur National Park** is in Haryana state of India .",
+      "category": "nature_reserve",
+      "best_time_to_visit": {
+        "text": "Jul–aug",
+        "months": [
+          7,
+          8
+        ],
+        "season": "winter"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Sultanpur_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sultanpur_National_Park",
+        "wikidata": "https://www.wikidata.org/wiki/Q2985097"
+      },
+      "distance_km": 1724,
+      "ideal_months": [
+        7,
+        8
+      ],
+      "min_days": 2,
+      "weather_snippet": "Jul–aug",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:19:47.245Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Parque Nacional Sultanpur"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sultanpur%20Bird%20Sanctuary%2C%20Haryana..JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          7,
+          8
+        ],
+        "off_season_months": [],
+        "monsoon_months": [],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Indira Gandhi International Airport",
+          "code": "DEL",
+          "distance_km": 47,
+          "note": "Gurugram ridge feeder roads—metro Yellow/Rapid stacks optional before lodge taxis"
+        },
+        "nearest_railway_station": {
+          "name": "Farukhnagar railway station",
+          "distance_km": 12,
+          "note": "Bird-hide mornings bias lodge gypsy slots—winter migrant peaks crowd narrow trails"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Jaipur",
+          "Mumbai"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          7,
+          8
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 14409,
+        "content_richness_score": 0.103
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "An hour's drive from bustling metropolis Delhi , Sultanpur National Park and Bird Sanctuary is a heaven for birdwatchers.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Sultanpur is 47 km from Delhi and 16 km from Gurugram . Indira Gandhi International Airport is the nearest airport. Gurugram is conveniently reachable by using the Delhi Metro Rail Network. Bus service from Delhi to Gurugram are also available, however, the city buses are crowded and inconvenient. It is better, however, to hire a taxi from Delhi to Sultanpur or to drive down.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The Park is open during winters from October to February. There are raised paths all around the park. A leisurely walk would take over one hour.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "An early morning walk is a must for anyone interested in birdwatching. The best season for this would be November to Februaury when winter migratory birds visit the park. Summer is also a pretty good time to visit since a number of resident bird species along with nilgai, monitor lizards and jungle cats can be seen. However, the park remains closed from June to October for breeding.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Conditions can be very foggy during the winter months, thereby making the drive there unsafe."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:13.730Z",
+        "wikipedia_summary": "Sultanpur National Park is a national park in Haryana, India, covering approximately 1.43 km2 (0.55 sq mi).",
+        "wikipedia_description": "National Park in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:13.796Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Sultanpur National Park Wildlife & nature Sultanpur National Park is a national park in Haryana, India, covering approximately 1.43 km2 (0.55 sq mi). An hour's drive from bustling metropolis Delhi , Sultanpur National Park and Bird Sanctuary is a heaven for birdwatchers. Sultanpur National Park is in Haryana state of India .",
+      "travel_facts": {
+        "summary": "**Sultanpur** leans on **Farukhnagar (~12 km)** lodge taxis after **DEL (~47 km)** ridges—winter migrant hides crowd narrow trails; metro-fed Gurugram hops shave toll peaks.",
+        "keywords": [
+          "sultanpur farukhnagar lodges",
+          "del migrant ridges",
+          "metro gurugram hops",
+          "bird hide dawn slots",
+          "winter trail crowds",
+          "yellow rapid feeders"
+        ]
+      }
+    }
+  ]
+}

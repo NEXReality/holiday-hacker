@@ -1,1 +1,6178 @@
-{"aliases":{"bangalore":"bengaluru","bombay":"mumbai","calcutta":"kolkata","madras":"chennai","trivandrum":"thiruvananthapuram","cochin":"kochi","keralam":"kerala","pondicherry":"puducherry","orissa":"odisha","uttaranchal":"uttarakhand"},"states":[{"name":"Karnataka","code":"IN-KA","coordinates":{"lat":14.5204,"lon":75.7224},"cities":[{"name":"Bengaluru","slug":"bengaluru","lat":12.9716,"lon":77.5946,"is_major_city":true},{"name":"Mysuru","slug":"mysuru","lat":12.2958,"lon":76.6394,"is_major_city":false},{"name":"Mangaluru","slug":"mangaluru","lat":12.9141,"lon":74.856,"is_major_city":true},{"name":"Hubballi-Dharwad","slug":"hubballi-dharwad","lat":15.3647,"lon":75.124,"is_major_city":false},{"name":"Belagavi","slug":"belagavi","lat":15.8497,"lon":74.4977,"is_major_city":false},{"name":"Kalaburagi","slug":"kalaburagi","lat":17.3297,"lon":76.8343,"is_major_city":false},{"name":"Davanagere","slug":"davanagere","lat":14.4644,"lon":75.9219,"is_major_city":false},{"name":"Ballari","slug":"ballari","lat":15.1394,"lon":76.9214,"is_major_city":false},{"name":"Shivamogga","slug":"shivamogga","lat":13.9299,"lon":75.5676,"is_major_city":false},{"name":"Tumakuru","slug":"tumakuru","lat":13.3415,"lon":77.101,"is_major_city":false},{"name":"Raichur","slug":"raichur","lat":16.2,"lon":77.35,"is_major_city":false},{"name":"Hassan","slug":"hassan","lat":13.0052,"lon":76.0965,"is_major_city":false},{"name":"Udupi","slug":"udupi","lat":13.3402,"lon":74.7421,"is_major_city":false},{"name":"Vijayapura","slug":"vijayapura","lat":16.8243,"lon":75.7154,"is_major_city":false}]},{"name":"Kerala","code":"IN-KL","coordinates":{"lat":10.8505,"lon":76.2711},"cities":[{"name":"Thiruvananthapuram","slug":"thiruvananthapuram","lat":8.5241,"lon":76.9366,"is_major_city":true},{"name":"Kochi","slug":"kochi","lat":9.9312,"lon":76.2673,"is_major_city":true},{"name":"Kozhikode","slug":"kozhikode","lat":11.2588,"lon":75.7804,"is_major_city":true},{"name":"Thrissur","slug":"thrissur","lat":10.5276,"lon":76.2144,"is_major_city":false},{"name":"Kannur","slug":"kannur","lat":11.8745,"lon":75.3704,"is_major_city":false},{"name":"Kollam","slug":"kollam","lat":8.8932,"lon":76.6141,"is_major_city":false},{"name":"Alappuzha","slug":"alappuzha","lat":9.4978,"lon":76.3286,"is_major_city":false},{"name":"Palakkad","slug":"palakkad","lat":10.7905,"lon":76.651,"is_major_city":false},{"name":"Malappuram","slug":"malappuram","lat":11.0732,"lon":76.0695,"is_major_city":false},{"name":"Kottayam","slug":"kottayam","lat":9.5916,"lon":76.5222,"is_major_city":false},{"name":"Kasaragod","slug":"kasaragod","lat":12.4984,"lon":75.0157,"is_major_city":false},{"name":"Pathanamthitta","slug":"pathanamthitta","lat":9.2648,"lon":76.7872,"is_major_city":false},{"name":"Idukki","slug":"idukki","lat":9.8496,"lon":76.967,"is_major_city":false},{"name":"Wayanad","slug":"wayanad","lat":11.6854,"lon":76.132,"is_major_city":false}]}]}
+{
+  "aliases": {
+    "calcutta": "kolkata",
+    "madras": "chennai",
+    "trivandrum": "thiruvananthapuram",
+    "pondicherry": "puducherry",
+    "daryaganj": "central-delhi",
+    "preet vihar": "east-delhi",
+    "connaught place": "new-delhi",
+    "sadar bazaar": "north-delhi",
+    "seelampur": "north-east-delhi",
+    "kanjhawala": "north-west-delhi",
+    "nand nagri": "shahdara",
+    "saket": "south-delhi",
+    "defence colony": "south-east-delhi",
+    "vasant vihar": "south-west-delhi",
+    "rajouri garden": "west-delhi",
+    "narnaul": "mahendragarh",
+    "dharamshala": "kangra",
+    "reckong peo": "kinnaur",
+    "keylong": "lahaul-and-spiti",
+    "nahan": "sirmaur",
+    "nawanshahr": "shahid-bhagat-singh-nagar",
+    "tarn taran sahib": "tarn-taran",
+    "didwana": "didwana-kuchaman",
+    "khairthal": "khairthal-tijara",
+    "kotputli": "kotputli-behror",
+    "akbarpur": "ambedkar-nagar",
+    "gauriganj": "amethi",
+    "baghpat": "bagpat",
+    "gyanpur": "bhadohi",
+    "karwi": "chitrakoot",
+    "fatehgarh": "farrukhabad",
+    "noida": "gautam-buddha-nagar",
+    "orai": "jalaun",
+    "kanpur": "kanpur-nagar",
+    "manjhanpur": "kaushambi",
+    "padrauna": "kushinagar",
+    "lakhimpur": "lakhimpur-kheri",
+    "khalilabad": "sant-kabir-nagar",
+    "naugarh": "siddharthnagar",
+    "robertsganj": "sonbhadra",
+    "gopeshwar": "chamoli",
+    "pauri": "pauri-garhwal",
+    "new tehri": "tehri-garhwal",
+    "rudrapur": "udham-singh-nagar",
+    "hawai": "anjaw",
+    "seppa": "east-kameng",
+    "pasighat": "east-siang",
+    "raga": "kamle",
+    "palin": "kra-daadi",
+    "koloriang": "kurung-kumey",
+    "basar": "lepa-rada",
+    "tezu": "lohit",
+    "roing": "lower-dibang-valley",
+    "likabali": "lower-siang",
+    "ziro": "lower-subansiri",
+    "lemmi": "pakke-kessang",
+    "yupia": "papum-pare",
+    "tato": "shi-yomi",
+    "boleng": "siang",
+    "khonsa": "tirap",
+    "anini": "upper-dibang-valley",
+    "yingkiong": "upper-siang",
+    "daporijo": "upper-subansiri",
+    "bomdila": "west-kameng",
+    "aalo": "west-siang",
+    "yachuli": "keyi-panyor",
+    "napangphung": "bichom",
+    "mushalpur": "baksa",
+    "pathsala": "bajali",
+    "biswanath chariali": "biswanath",
+    "silchar": "cachar",
+    "sonari": "charaideo",
+    "kajalgaon": "chirang",
+    "mangaldoi": "darrang",
+    "haflong": "dima-hasao",
+    "sankardev nagar": "hojai",
+    "amingaon": "kamrup",
+    "guwahati": "kamrup-metropolitan",
+    "diphu": "karbi-anglong",
+    "north lakhimpur": "lakhimpur",
+    "garamur": "majuli",
+    "marigaon": "morigaon",
+    "sibsagar": "sivasagar",
+    "tezpur": "sonitpur",
+    "hatsingimari": "south-salmara-mankachar",
+    "hamren": "west-karbi-anglong",
+    "porompat": "imphal-east",
+    "lamphelpat": "imphal-west",
+    "williamnagar": "east-garo-hills",
+    "khliehriat": "east-jaintia-hills",
+    "shillong": "east-khasi-hills",
+    "mairang": "eastern-west-khasi-hills",
+    "resubelpara": "north-garo-hills",
+    "nongpoh": "ri-bhoi",
+    "baghmara": "south-garo-hills",
+    "ampati": "south-west-garo-hills",
+    "mawkyrwat": "south-west-khasi-hills",
+    "tura": "west-garo-hills",
+    "jowai": "west-jaintia-hills",
+    "nongstoin": "west-khasi-hills",
+    "ambassa": "dhalai",
+    "udaipur": "gomati",
+    "dharmanagar": "north-tripura",
+    "bishramganj": "sepahijala",
+    "belonia": "south-tripura",
+    "kailashahar": "unakoti",
+    "agartala": "west-tripura",
+    "car nicobar": "nicobar",
+    "mayabunder": "north-and-middle-andaman",
+    "port blair": "south-andaman",
+    "arrah": "bhojpur",
+    "motihari": "east-champaran",
+    "bhabua": "kaimur",
+    "bihar sharif": "nalanda",
+    "sasaram": "rohtas",
+    "chhapra": "saran",
+    "hajipur": "vaishali",
+    "bettiah": "west-champaran",
+    "jamshedpur": "east-singhbhum",
+    "daltonganj": "palamu",
+    "sahebganj": "sahibganj",
+    "seraikela": "seraikela-kharsawan",
+    "chaibasa": "west-singhbhum",
+    "chhatrapur": "ganjam",
+    "paralakhemundi": "gajapati",
+    "bhawanipatna": "kalahandi",
+    "phulbani": "kandhamal",
+    "baripada": "mayurbhanj",
+    "sundergarh": "sundargarh",
+    "suri": "birbhum",
+    "balurghat": "dakshin-dinajpur",
+    "chinsurah": "hooghly",
+    "english bazar": "maldah",
+    "baharampur": "murshidabad",
+    "krishnanagar": "nadia",
+    "barasat": "north-24-parganas",
+    "asansol": "paschim-bardhaman",
+    "midnapore": "paschim-medinipur",
+    "bardhaman": "purba-bardhaman",
+    "tamluk": "purba-medinipur",
+    "alipore": "south-24-parganas",
+    "raiganj": "uttar-dinajpur",
+    "balrampur": "balrampur-ramanujganj",
+    "jagdalpur": "bastar",
+    "gaurela": "gaurela-pendra-marwahi",
+    "janjgir": "janjgir-champa",
+    "jashpur nagar": "jashpur",
+    "kawardha": "kabirdham",
+    "khairagarh": "khairagarh-chhuikhadan-gandai",
+    "baikunthpur": "korea",
+    "manendragarh": "manendragarh-chirmiri-bharatpur",
+    "mohla": "mohla-manpur-ambagarh-chowki",
+    "sarangarh": "sarangarh-bilaigarh",
+    "ambikapur": "surguja",
+    "agar": "agar-malwa",
+    "waidhan": "singrauli",
+    "silvassa": "dadra-and-nagar-haveli",
+    "panaji": "north-goa",
+    "margao": "south-goa",
+    "quepem": "kushavati",
+    "modasa": "aravalli",
+    "palanpur": "banaskantha",
+    "ahwa": "dang",
+    "khambhalia": "devbhumi-dwarka",
+    "veraval": "gir-somnath",
+    "nadiad": "kheda",
+    "bhuj": "kutch",
+    "lunavada": "mahisagar",
+    "rajpipla": "narmada",
+    "godhra": "panchmahal",
+    "himatnagar": "sabarkantha",
+    "vyara": "tapi",
+    "tharad": "vav-tharad",
+    "mumbai": "mumbai-city",
+    "alibag": "raigad",
+    "oros": "sindhudurg",
+    "paderu": "alluri-sitharama-raju",
+    "madanapalle": "annamayya",
+    "amalapuram": "dr-b-r-ambedkar-konaseema",
+    "rajamahendravaram": "east-godavari",
+    "machilipatnam": "krishna",
+    "vijayawada": "ntr",
+    "narasaraopet": "palnadu",
+    "parvathipuram": "parvathipuram-manyam",
+    "ongole": "prakasam",
+    "puttaparthi": "sri-sathya-sai",
+    "bhimavaram": "west-godavari",
+    "kadapa": "ysr-kadapa",
+    "rampachodavaram": "polavaram",
+    "bagalkote": "bagalkot",
+    "belgaum": "belagavi",
+    "mangalore": "dakshina-kannada",
+    "davangere": "davanagere",
+    "gadag-betageri": "gadaga",
+    "madikeri": "kodagu",
+    "karwar": "uttara-kannada",
+    "hospete": "vijayanagara",
+    "kakkanad": "ernakulam",
+    "painavu": "idukki",
+    "kalpetta": "wayanad",
+    "kavaratti": "lakshadweep",
+    "nagercoil": "kanyakumari",
+    "ooty": "nilgiris",
+    "thiruvarur": "tiruvarur",
+    "tiruvannaamalai": "tiruvannamalai",
+    "kothagudem": "bhadradri-kothagudem",
+    "bhupalpally": "jayashankar-bhupalpally",
+    "gadwal": "jogulamba-gadwal",
+    "asifabad": "kumuram-bheem-asifabad",
+    "shamirpet": "medchal-malkajgiri",
+    "sircilla": "rajanna-sircilla",
+    "hyderabad": "ranga-reddy",
+    "bhongir": "yadadri-bhuvanagiri",
+    "bandra": "mumbai-suburban",
+    "bangalore": "bangalore-urban",
+    "ranipettai": "ranipet",
+    "bengaluru": "bangalore-urban",
+    "bombay": "mumbai-city",
+    "cochin": "ernakulam",
+    "uttaranchal": "dehradun",
+    "orissa": "khordha",
+    "odisha": "khordha",
+    "keralam": "thiruvananthapuram"
+  },
+  "states": [
+    {
+      "name": "Chandigarh",
+      "code": "IN-CH",
+      "coordinates": {
+        "lat": 30.7333,
+        "lon": 76.7794
+      },
+      "cities": [
+        {
+          "name": "Chandigarh",
+          "slug": "chandigarh",
+          "lat": 30.757527,
+          "lon": 76.749248,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "chandigarh"
+    },
+    {
+      "name": "Delhi",
+      "code": "IN-DL",
+      "coordinates": {
+        "lat": 28.7041,
+        "lon": 77.1025
+      },
+      "cities": [
+        {
+          "name": "Central Delhi",
+          "slug": "central-delhi",
+          "lat": 28.6443,
+          "lon": 77.242,
+          "is_major_city": false
+        },
+        {
+          "name": "East Delhi",
+          "slug": "east-delhi",
+          "lat": 28.638,
+          "lon": 77.2936,
+          "is_major_city": false
+        },
+        {
+          "name": "New Delhi",
+          "slug": "new-delhi",
+          "lat": 28.6139,
+          "lon": 77.2089,
+          "is_major_city": false
+        },
+        {
+          "name": "North Delhi",
+          "slug": "north-delhi",
+          "lat": 28.658813,
+          "lon": 77.216742,
+          "is_major_city": false
+        },
+        {
+          "name": "North East Delhi",
+          "slug": "north-east-delhi",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "North West Delhi",
+          "slug": "north-west-delhi",
+          "lat": 28.72674,
+          "lon": 77.00248,
+          "is_major_city": false
+        },
+        {
+          "name": "Shahdara",
+          "slug": "shahdara",
+          "lat": 28.6715,
+          "lon": 77.2981,
+          "is_major_city": false
+        },
+        {
+          "name": "South Delhi",
+          "slug": "south-delhi",
+          "lat": 28.5192,
+          "lon": 77.2134,
+          "is_major_city": false
+        },
+        {
+          "name": "South East Delhi",
+          "slug": "south-east-delhi",
+          "lat": 28.57,
+          "lon": 77.23,
+          "is_major_city": false
+        },
+        {
+          "name": "South West Delhi",
+          "slug": "south-west-delhi",
+          "lat": 28.5574,
+          "lon": 77.159,
+          "is_major_city": false
+        },
+        {
+          "name": "West Delhi",
+          "slug": "west-delhi",
+          "lat": 28.6441844,
+          "lon": 77.1118256,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "delhi"
+    },
+    {
+      "name": "Haryana",
+      "code": "IN-HR",
+      "coordinates": {
+        "lat": 29.0588,
+        "lon": 76.0856
+      },
+      "cities": [
+        {
+          "name": "Ambala",
+          "slug": "ambala",
+          "lat": 30.3255,
+          "lon": 76.9469,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhiwani",
+          "slug": "bhiwani",
+          "lat": 28.7833,
+          "lon": 76.1333,
+          "is_major_city": true
+        },
+        {
+          "name": "Charkhi Dadri",
+          "slug": "charkhi-dadri",
+          "lat": 28.59,
+          "lon": 76.27,
+          "is_major_city": false
+        },
+        {
+          "name": "Faridabad",
+          "slug": "faridabad",
+          "lat": 28.4333,
+          "lon": 77.3167,
+          "is_major_city": true
+        },
+        {
+          "name": "Fatehabad",
+          "slug": "fatehabad",
+          "lat": 29.31,
+          "lon": 75.27,
+          "is_major_city": false
+        },
+        {
+          "name": "Gurugram",
+          "slug": "gurugram",
+          "lat": 28.25,
+          "lon": 77.166666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Hisar",
+          "slug": "hisar",
+          "lat": 29.15,
+          "lon": 75.7,
+          "is_major_city": true
+        },
+        {
+          "name": "Jhajjar",
+          "slug": "jhajjar",
+          "lat": 28.61,
+          "lon": 76.66,
+          "is_major_city": false
+        },
+        {
+          "name": "Jind",
+          "slug": "jind",
+          "lat": 29.31,
+          "lon": 76.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Kaithal",
+          "slug": "kaithal",
+          "lat": 29.8,
+          "lon": 76.39,
+          "is_major_city": true
+        },
+        {
+          "name": "Karnal",
+          "slug": "karnal",
+          "lat": 29.666666666667,
+          "lon": 76.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Kurukshetra",
+          "slug": "kurukshetra",
+          "lat": 29.97,
+          "lon": 76.85,
+          "is_major_city": false
+        },
+        {
+          "name": "Mahendragarh",
+          "slug": "mahendragarh",
+          "lat": 28.0444,
+          "lon": 76.1083,
+          "is_major_city": false
+        },
+        {
+          "name": "Nuh",
+          "slug": "nuh",
+          "lat": 28.1,
+          "lon": 77,
+          "is_major_city": true
+        },
+        {
+          "name": "Palwal",
+          "slug": "palwal",
+          "lat": 28.15,
+          "lon": 77.33,
+          "is_major_city": true
+        },
+        {
+          "name": "Panchkula",
+          "slug": "panchkula",
+          "lat": 30.69,
+          "lon": 76.86,
+          "is_major_city": false
+        },
+        {
+          "name": "Panipat",
+          "slug": "panipat",
+          "lat": 29.3889,
+          "lon": 76.9681,
+          "is_major_city": true
+        },
+        {
+          "name": "Rewari",
+          "slug": "rewari",
+          "lat": 28.19613,
+          "lon": 76.61607,
+          "is_major_city": false
+        },
+        {
+          "name": "Rohtak",
+          "slug": "rohtak",
+          "lat": 28.54,
+          "lon": 76.34,
+          "is_major_city": true
+        },
+        {
+          "name": "Sirsa",
+          "slug": "sirsa",
+          "lat": 29.54,
+          "lon": 75.03,
+          "is_major_city": true
+        },
+        {
+          "name": "Sonipat",
+          "slug": "sonipat",
+          "lat": 28.9833,
+          "lon": 77.0167,
+          "is_major_city": true
+        },
+        {
+          "name": "Yamunanagar",
+          "slug": "yamunanagar",
+          "lat": 30.133,
+          "lon": 77.288,
+          "is_major_city": true
+        },
+        {
+          "name": "Hansi",
+          "slug": "hansi",
+          "lat": 29.1,
+          "lon": 75.97,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "haryana"
+    },
+    {
+      "name": "Himachal Pradesh",
+      "code": "IN-HP",
+      "coordinates": {
+        "lat": 31.1048,
+        "lon": 77.1734
+      },
+      "cities": [
+        {
+          "name": "Bilaspur",
+          "slug": "bilaspur",
+          "lat": 31.33,
+          "lon": 76.75,
+          "is_major_city": false
+        },
+        {
+          "name": "Chamba",
+          "slug": "chamba",
+          "lat": 32.55444444,
+          "lon": 76.12388889,
+          "is_major_city": false
+        },
+        {
+          "name": "Hamirpur",
+          "slug": "hamirpur",
+          "lat": 31.63333333,
+          "lon": 76.51666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Kangra",
+          "slug": "kangra",
+          "lat": 32.21666667,
+          "lon": 76.31666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Kinnaur",
+          "slug": "kinnaur",
+          "lat": 31.583333333333,
+          "lon": 78.416666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Kullu",
+          "slug": "kullu",
+          "lat": 31.99,
+          "lon": 77.4,
+          "is_major_city": false
+        },
+        {
+          "name": "Lahaul and Spiti",
+          "slug": "lahaul-and-spiti",
+          "lat": 32.5,
+          "lon": 77.6,
+          "is_major_city": false
+        },
+        {
+          "name": "Mandi",
+          "slug": "mandi",
+          "lat": 31.709388888889,
+          "lon": 76.931694444444,
+          "is_major_city": false
+        },
+        {
+          "name": "Shimla",
+          "slug": "shimla",
+          "lat": 31.103333333333,
+          "lon": 77.172222222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Sirmaur",
+          "slug": "sirmaur",
+          "lat": 30.5594,
+          "lon": 77.294,
+          "is_major_city": false
+        },
+        {
+          "name": "Solan",
+          "slug": "solan",
+          "lat": 30.9059,
+          "lon": 77.0925,
+          "is_major_city": false
+        },
+        {
+          "name": "Una",
+          "slug": "una",
+          "lat": 31.476111111111,
+          "lon": 76.270277777778,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "himachal-pradesh"
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "code": "IN-JK",
+      "coordinates": {
+        "lat": 33.7782,
+        "lon": 76.5762
+      },
+      "cities": [
+        {
+          "name": "Anantnag",
+          "slug": "anantnag",
+          "lat": 33.74444444,
+          "lon": 75.19166667,
+          "is_major_city": true
+        },
+        {
+          "name": "Budgam",
+          "slug": "budgam",
+          "lat": 33.89001,
+          "lon": 74.66297,
+          "is_major_city": false
+        },
+        {
+          "name": "Bandipore",
+          "slug": "bandipore",
+          "lat": 34.4225,
+          "lon": 74.6375,
+          "is_major_city": false
+        },
+        {
+          "name": "Baramulla",
+          "slug": "baramulla",
+          "lat": 34.198,
+          "lon": 74.3636,
+          "is_major_city": true
+        },
+        {
+          "name": "Doda",
+          "slug": "doda",
+          "lat": 33.145733333333,
+          "lon": 75.547816666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Ganderbal",
+          "slug": "ganderbal",
+          "lat": 34.23,
+          "lon": 74.78,
+          "is_major_city": false
+        },
+        {
+          "name": "Jammu",
+          "slug": "jammu",
+          "lat": 32.75,
+          "lon": 74.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Kathua",
+          "slug": "kathua",
+          "lat": 32.583333333333,
+          "lon": 75.5,
+          "is_major_city": false
+        },
+        {
+          "name": "Kishtwar",
+          "slug": "kishtwar",
+          "lat": 33.312683333333,
+          "lon": 75.769447222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Kulgam",
+          "slug": "kulgam",
+          "lat": 33.64,
+          "lon": 75.02,
+          "is_major_city": false
+        },
+        {
+          "name": "Kupwara",
+          "slug": "kupwara",
+          "lat": 34.52,
+          "lon": 74.25,
+          "is_major_city": false
+        },
+        {
+          "name": "Poonch",
+          "slug": "poonch",
+          "lat": 33.77,
+          "lon": 74.1,
+          "is_major_city": false
+        },
+        {
+          "name": "Pulwama",
+          "slug": "pulwama",
+          "lat": 33.87,
+          "lon": 74.9,
+          "is_major_city": false
+        },
+        {
+          "name": "Rajouri",
+          "slug": "rajouri",
+          "lat": 33.38,
+          "lon": 74.3,
+          "is_major_city": false
+        },
+        {
+          "name": "Ramban",
+          "slug": "ramban",
+          "lat": 33.24,
+          "lon": 75.24,
+          "is_major_city": false
+        },
+        {
+          "name": "Reasi",
+          "slug": "reasi",
+          "lat": 33.082,
+          "lon": 74.8265,
+          "is_major_city": false
+        },
+        {
+          "name": "Samba",
+          "slug": "samba",
+          "lat": 32.55,
+          "lon": 75.116666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Shopian",
+          "slug": "shopian",
+          "lat": 33.7167,
+          "lon": 74.8333,
+          "is_major_city": false
+        },
+        {
+          "name": "Srinagar",
+          "slug": "srinagar",
+          "lat": 34.08333333,
+          "lon": 74.83333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Udhampur",
+          "slug": "udhampur",
+          "lat": 33,
+          "lon": 75.166666666667,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "jammu-and-kashmir"
+    },
+    {
+      "name": "Ladakh",
+      "code": "IN-LA",
+      "coordinates": {
+        "lat": 34.2268,
+        "lon": 77.5619
+      },
+      "cities": [
+        {
+          "name": "Kargil",
+          "slug": "kargil",
+          "lat": 34.56,
+          "lon": 76.13,
+          "is_major_city": false
+        },
+        {
+          "name": "Leh",
+          "slug": "leh",
+          "lat": 34.1667,
+          "lon": 77.5833,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "ladakh"
+    },
+    {
+      "name": "Punjab",
+      "code": "IN-PB",
+      "coordinates": {
+        "lat": 31.1471,
+        "lon": 75.3412
+      },
+      "cities": [
+        {
+          "name": "Amritsar",
+          "slug": "amritsar",
+          "lat": 31.583333333333,
+          "lon": 74.983333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Barnala",
+          "slug": "barnala",
+          "lat": 30.3833,
+          "lon": 75.55,
+          "is_major_city": false
+        },
+        {
+          "name": "Bathinda",
+          "slug": "bathinda",
+          "lat": 30.21,
+          "lon": 74.94,
+          "is_major_city": true
+        },
+        {
+          "name": "Faridkot",
+          "slug": "faridkot",
+          "lat": 30.67,
+          "lon": 74.76,
+          "is_major_city": false
+        },
+        {
+          "name": "Fatehgarh Sahib",
+          "slug": "fatehgarh-sahib",
+          "lat": 30.38,
+          "lon": 76.23,
+          "is_major_city": false
+        },
+        {
+          "name": "Fazilka",
+          "slug": "fazilka",
+          "lat": 30.403,
+          "lon": 74.025,
+          "is_major_city": true
+        },
+        {
+          "name": "Firozpur",
+          "slug": "firozpur",
+          "lat": 30.94,
+          "lon": 74.62,
+          "is_major_city": true
+        },
+        {
+          "name": "Gurdaspur",
+          "slug": "gurdaspur",
+          "lat": 31.916666666667,
+          "lon": 75.25,
+          "is_major_city": true
+        },
+        {
+          "name": "Hoshiarpur",
+          "slug": "hoshiarpur",
+          "lat": 31.583333333333,
+          "lon": 75.983333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Jalandhar",
+          "slug": "jalandhar",
+          "lat": 31.33,
+          "lon": 75.57,
+          "is_major_city": true
+        },
+        {
+          "name": "Kapurthala",
+          "slug": "kapurthala",
+          "lat": 31.379444444444,
+          "lon": 75.384722222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Ludhiana",
+          "slug": "ludhiana",
+          "lat": 30.883333333333,
+          "lon": 75.85,
+          "is_major_city": true
+        },
+        {
+          "name": "Malerkotla",
+          "slug": "malerkotla",
+          "lat": 30.53,
+          "lon": 75.88,
+          "is_major_city": false
+        },
+        {
+          "name": "Mansa",
+          "slug": "mansa",
+          "lat": 29.983333333333,
+          "lon": 75.383333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Moga",
+          "slug": "moga",
+          "lat": 30.82,
+          "lon": 75.17,
+          "is_major_city": false
+        },
+        {
+          "name": "Pathankot",
+          "slug": "pathankot",
+          "lat": 32.266814,
+          "lon": 75.643444,
+          "is_major_city": false
+        },
+        {
+          "name": "Patiala",
+          "slug": "patiala",
+          "lat": 30.34,
+          "lon": 76.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Rupnagar",
+          "slug": "rupnagar",
+          "lat": 30.97,
+          "lon": 76.51,
+          "is_major_city": false
+        },
+        {
+          "name": "Sahibzada Ajit Singh Nagar",
+          "slug": "sahibzada-ajit-singh-nagar",
+          "lat": 30.699,
+          "lon": 76.693,
+          "is_major_city": false
+        },
+        {
+          "name": "Sangrur",
+          "slug": "sangrur",
+          "lat": 30.23,
+          "lon": 75.83,
+          "is_major_city": true
+        },
+        {
+          "name": "Shahid Bhagat Singh Nagar",
+          "slug": "shahid-bhagat-singh-nagar",
+          "lat": 31.1245,
+          "lon": 76.11613,
+          "is_major_city": false
+        },
+        {
+          "name": "Sri Muktsar Sahib",
+          "slug": "sri-muktsar-sahib",
+          "lat": 30.473238888889,
+          "lon": 74.515411111111,
+          "is_major_city": false
+        },
+        {
+          "name": "Tarn Taran",
+          "slug": "tarn-taran",
+          "lat": 31.46,
+          "lon": 74.93,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "punjab"
+    },
+    {
+      "name": "Rajasthan",
+      "code": "IN-RJ",
+      "coordinates": {
+        "lat": 27.0238,
+        "lon": 74.2179
+      },
+      "cities": [
+        {
+          "name": "Ajmer",
+          "slug": "ajmer",
+          "lat": 26.45,
+          "lon": 74.633333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Alwar",
+          "slug": "alwar",
+          "lat": 27.57,
+          "lon": 76.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Balotra",
+          "slug": "balotra",
+          "lat": 25.83,
+          "lon": 72.23,
+          "is_major_city": false
+        },
+        {
+          "name": "Banswara",
+          "slug": "banswara",
+          "lat": 27.2,
+          "lon": 74,
+          "is_major_city": true
+        },
+        {
+          "name": "Baran",
+          "slug": "baran",
+          "lat": 25.1,
+          "lon": 76.51,
+          "is_major_city": true
+        },
+        {
+          "name": "Barmer",
+          "slug": "barmer",
+          "lat": 25.7475,
+          "lon": 71.3903,
+          "is_major_city": true
+        },
+        {
+          "name": "Beawar",
+          "slug": "beawar",
+          "lat": 26.101111111111,
+          "lon": 74.320277777778,
+          "is_major_city": false
+        },
+        {
+          "name": "Bharatpur",
+          "slug": "bharatpur",
+          "lat": 27.22,
+          "lon": 77.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhilwara",
+          "slug": "bhilwara",
+          "lat": 25.35,
+          "lon": 74.633333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Bikaner",
+          "slug": "bikaner",
+          "lat": 28.0167,
+          "lon": 73.3,
+          "is_major_city": true
+        },
+        {
+          "name": "Bundi",
+          "slug": "bundi",
+          "lat": 25.4417,
+          "lon": 75.6417,
+          "is_major_city": true
+        },
+        {
+          "name": "Chittorgarh",
+          "slug": "chittorgarh",
+          "lat": 24.88,
+          "lon": 74.62,
+          "is_major_city": true
+        },
+        {
+          "name": "Churu",
+          "slug": "churu",
+          "lat": 28.29,
+          "lon": 74.96,
+          "is_major_city": true
+        },
+        {
+          "name": "Dausa",
+          "slug": "dausa",
+          "lat": 26.9,
+          "lon": 76.33,
+          "is_major_city": true
+        },
+        {
+          "name": "Deeg",
+          "slug": "deeg",
+          "lat": 27.47,
+          "lon": 77.33,
+          "is_major_city": true
+        },
+        {
+          "name": "Dholpur",
+          "slug": "dholpur",
+          "lat": 26.7,
+          "lon": 77.9,
+          "is_major_city": true
+        },
+        {
+          "name": "Didwana Kuchaman",
+          "slug": "didwana-kuchaman",
+          "lat": 27.4,
+          "lon": 74.57,
+          "is_major_city": true
+        },
+        {
+          "name": "Dungarpur",
+          "slug": "dungarpur",
+          "lat": 23.83,
+          "lon": 73.72,
+          "is_major_city": true
+        },
+        {
+          "name": "Hanumangarh",
+          "slug": "hanumangarh",
+          "lat": 29.58,
+          "lon": 74.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Jaipur",
+          "slug": "jaipur",
+          "lat": 26.926,
+          "lon": 75.8235,
+          "is_major_city": true
+        },
+        {
+          "name": "Jaisalmer",
+          "slug": "jaisalmer",
+          "lat": 26.913333333333,
+          "lon": 70.913888888889,
+          "is_major_city": false
+        },
+        {
+          "name": "Jalore",
+          "slug": "jalore",
+          "lat": 25.35,
+          "lon": 72.62,
+          "is_major_city": true
+        },
+        {
+          "name": "Jhalawar",
+          "slug": "jhalawar",
+          "lat": 24.6,
+          "lon": 76.15,
+          "is_major_city": true
+        },
+        {
+          "name": "Jhunjhunu",
+          "slug": "jhunjhunu",
+          "lat": 28.13,
+          "lon": 75.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Jodhpur",
+          "slug": "jodhpur",
+          "lat": 26.280555555556,
+          "lon": 73.015833333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Karauli",
+          "slug": "karauli",
+          "lat": 26.5,
+          "lon": 77.02,
+          "is_major_city": true
+        },
+        {
+          "name": "Khairthal-Tijara",
+          "slug": "khairthal-tijara",
+          "lat": 27.8346,
+          "lon": 76.6388,
+          "is_major_city": false
+        },
+        {
+          "name": "Kota",
+          "slug": "kota",
+          "lat": 25.166666666667,
+          "lon": 75.816666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Kotputli-Behror",
+          "slug": "kotputli-behror",
+          "lat": 27.891245,
+          "lon": 76.294048,
+          "is_major_city": false
+        },
+        {
+          "name": "Nagaur",
+          "slug": "nagaur",
+          "lat": 27.2,
+          "lon": 73.733333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Pali",
+          "slug": "pali",
+          "lat": 25.766666666667,
+          "lon": 73.316666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Phalodi",
+          "slug": "phalodi",
+          "lat": 27.141666666666666,
+          "lon": 72.43611111111112,
+          "is_major_city": false
+        },
+        {
+          "name": "Pratapgarh",
+          "slug": "pratapgarh",
+          "lat": 24.03,
+          "lon": 74.78,
+          "is_major_city": false
+        },
+        {
+          "name": "Rajsamand",
+          "slug": "rajsamand",
+          "lat": 25.066666666667,
+          "lon": 73.866666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Salumbar",
+          "slug": "salumbar",
+          "lat": 24.13,
+          "lon": 74.05,
+          "is_major_city": false
+        },
+        {
+          "name": "Sawai Madhopur",
+          "slug": "sawai-madhopur",
+          "lat": 26.014444444444,
+          "lon": 76.352222222222,
+          "is_major_city": true
+        },
+        {
+          "name": "Sikar",
+          "slug": "sikar",
+          "lat": 27.583333333333,
+          "lon": 75.166666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Sirohi",
+          "slug": "sirohi",
+          "lat": 24.885,
+          "lon": 72.8625,
+          "is_major_city": true
+        },
+        {
+          "name": "Sri Ganganagar",
+          "slug": "sri-ganganagar",
+          "lat": 29.917777777778,
+          "lon": 73.881666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Tonk",
+          "slug": "tonk",
+          "lat": 26.163333333333,
+          "lon": 75.786944444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Udaipur",
+          "slug": "udaipur",
+          "lat": 24.561944444444,
+          "lon": 73.706944444444,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "rajasthan"
+    },
+    {
+      "name": "Uttar Pradesh",
+      "code": "IN-UP",
+      "coordinates": {
+        "lat": 26.8467,
+        "lon": 80.9462
+      },
+      "cities": [
+        {
+          "name": "Agra",
+          "slug": "agra",
+          "lat": 27.083333333333,
+          "lon": 77.966666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Aligarh",
+          "slug": "aligarh",
+          "lat": 27.833333333333,
+          "lon": 78.166666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Ambedkar Nagar",
+          "slug": "ambedkar-nagar",
+          "lat": 26.43,
+          "lon": 82.64,
+          "is_major_city": true
+        },
+        {
+          "name": "Amethi",
+          "slug": "amethi",
+          "lat": 26.16888889,
+          "lon": 81.79944444,
+          "is_major_city": true
+        },
+        {
+          "name": "Amroha",
+          "slug": "amroha",
+          "lat": 28.9,
+          "lon": 78.47,
+          "is_major_city": true
+        },
+        {
+          "name": "Auraiya",
+          "slug": "auraiya",
+          "lat": 26.4667,
+          "lon": 79.5167,
+          "is_major_city": true
+        },
+        {
+          "name": "Ayodhya",
+          "slug": "ayodhya",
+          "lat": 26.79916667,
+          "lon": 82.20444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Azamgarh",
+          "slug": "azamgarh",
+          "lat": 26.06,
+          "lon": 83.1861,
+          "is_major_city": true
+        },
+        {
+          "name": "Bagpat",
+          "slug": "bagpat",
+          "lat": 28.94,
+          "lon": 77.22,
+          "is_major_city": true
+        },
+        {
+          "name": "Bahraich",
+          "slug": "bahraich",
+          "lat": 27.75,
+          "lon": 81.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Ballia",
+          "slug": "ballia",
+          "lat": 28.2,
+          "lon": 79.3667,
+          "is_major_city": true
+        },
+        {
+          "name": "Balrampur",
+          "slug": "balrampur",
+          "lat": 27.4333,
+          "lon": 82.1833,
+          "is_major_city": true
+        },
+        {
+          "name": "Banda",
+          "slug": "banda",
+          "lat": 25.48333333,
+          "lon": 80.33333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Barabanki",
+          "slug": "barabanki",
+          "lat": 26.92,
+          "lon": 81.2,
+          "is_major_city": true
+        },
+        {
+          "name": "Bareilly",
+          "slug": "bareilly",
+          "lat": 28.416666666667,
+          "lon": 79.383333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Basti",
+          "slug": "basti",
+          "lat": 27.25,
+          "lon": 83,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhadohi",
+          "slug": "bhadohi",
+          "lat": 25.34,
+          "lon": 82.47,
+          "is_major_city": true
+        },
+        {
+          "name": "Bijnor",
+          "slug": "bijnor",
+          "lat": 29.416666666667,
+          "lon": 78.516666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Budaun",
+          "slug": "budaun",
+          "lat": 28.116666666667,
+          "lon": 78.983333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Bulandshahr",
+          "slug": "bulandshahr",
+          "lat": 28.416666666667,
+          "lon": 77.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Chandauli",
+          "slug": "chandauli",
+          "lat": 25.261344444444,
+          "lon": 83.264080555556,
+          "is_major_city": true
+        },
+        {
+          "name": "Chitrakoot",
+          "slug": "chitrakoot",
+          "lat": 25.213611111111,
+          "lon": 80.915277777778,
+          "is_major_city": false
+        },
+        {
+          "name": "Deoria",
+          "slug": "deoria",
+          "lat": 26.51,
+          "lon": 83.78,
+          "is_major_city": true
+        },
+        {
+          "name": "Etah",
+          "slug": "etah",
+          "lat": 27.5,
+          "lon": 78.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Etawah",
+          "slug": "etawah",
+          "lat": 26.79,
+          "lon": 79.02,
+          "is_major_city": true
+        },
+        {
+          "name": "Farrukhabad",
+          "slug": "farrukhabad",
+          "lat": 27.5,
+          "lon": 79.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Fatehpur",
+          "slug": "fatehpur",
+          "lat": 25.9333,
+          "lon": 80.8,
+          "is_major_city": true
+        },
+        {
+          "name": "Firozabad",
+          "slug": "firozabad",
+          "lat": 27.1518,
+          "lon": 78.4016,
+          "is_major_city": true
+        },
+        {
+          "name": "Gautam Buddha Nagar",
+          "slug": "gautam-buddha-nagar",
+          "lat": 28.57,
+          "lon": 77.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Ghaziabad",
+          "slug": "ghaziabad",
+          "lat": null,
+          "lon": null,
+          "is_major_city": true
+        },
+        {
+          "name": "Ghazipur",
+          "slug": "ghazipur",
+          "lat": 25.583222222222,
+          "lon": 83.580861111111,
+          "is_major_city": true
+        },
+        {
+          "name": "Gonda",
+          "slug": "gonda",
+          "lat": 27.25,
+          "lon": 82,
+          "is_major_city": true
+        },
+        {
+          "name": "Gorakhpur",
+          "slug": "gorakhpur",
+          "lat": 26.755,
+          "lon": 83.3739,
+          "is_major_city": true
+        },
+        {
+          "name": "Hamirpur",
+          "slug": "hamirpur",
+          "lat": 25.75,
+          "lon": 80,
+          "is_major_city": true
+        },
+        {
+          "name": "Hapur",
+          "slug": "hapur",
+          "lat": 28.7309,
+          "lon": 77.7757,
+          "is_major_city": true
+        },
+        {
+          "name": "Hardoi",
+          "slug": "hardoi",
+          "lat": 27.402,
+          "lon": 80.133,
+          "is_major_city": true
+        },
+        {
+          "name": "Hathras",
+          "slug": "hathras",
+          "lat": 27.6,
+          "lon": 78.05,
+          "is_major_city": true
+        },
+        {
+          "name": "Jalaun",
+          "slug": "jalaun",
+          "lat": 26,
+          "lon": 79.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Jaunpur",
+          "slug": "jaunpur",
+          "lat": 25.75,
+          "lon": 82.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Jhansi",
+          "slug": "jhansi",
+          "lat": 25.5,
+          "lon": 78.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Kannauj",
+          "slug": "kannauj",
+          "lat": 27.07,
+          "lon": 79.92,
+          "is_major_city": true
+        },
+        {
+          "name": "Kanpur Dehat",
+          "slug": "kanpur-dehat",
+          "lat": 26.3443,
+          "lon": 79.9672,
+          "is_major_city": true
+        },
+        {
+          "name": "Kanpur Nagar",
+          "slug": "kanpur-nagar",
+          "lat": 26.46,
+          "lon": 80.33,
+          "is_major_city": true
+        },
+        {
+          "name": "Kasganj",
+          "slug": "kasganj",
+          "lat": 27.82,
+          "lon": 78.65,
+          "is_major_city": true
+        },
+        {
+          "name": "Kaushambi",
+          "slug": "kaushambi",
+          "lat": 25.530744444444,
+          "lon": 81.377291666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Kushinagar",
+          "slug": "kushinagar",
+          "lat": 26.9025,
+          "lon": 83.981944444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Lakhimpur Kheri",
+          "slug": "lakhimpur-kheri",
+          "lat": 27.95,
+          "lon": 80.77,
+          "is_major_city": true
+        },
+        {
+          "name": "Lalitpur",
+          "slug": "lalitpur",
+          "lat": 24.6902,
+          "lon": 78.416,
+          "is_major_city": true
+        },
+        {
+          "name": "Lucknow",
+          "slug": "lucknow",
+          "lat": 26.75,
+          "lon": 81,
+          "is_major_city": true
+        },
+        {
+          "name": "Maharajganj",
+          "slug": "maharajganj",
+          "lat": 27.13,
+          "lon": 83.57,
+          "is_major_city": true
+        },
+        {
+          "name": "Mahoba",
+          "slug": "mahoba",
+          "lat": 25.29,
+          "lon": 79.87,
+          "is_major_city": false
+        },
+        {
+          "name": "Mainpuri",
+          "slug": "mainpuri",
+          "lat": 27.166666666667,
+          "lon": 79,
+          "is_major_city": true
+        },
+        {
+          "name": "Mathura",
+          "slug": "mathura",
+          "lat": 27.49,
+          "lon": 77.67,
+          "is_major_city": true
+        },
+        {
+          "name": "Mau",
+          "slug": "mau",
+          "lat": 25.933333333333,
+          "lon": 83.566666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Meerut",
+          "slug": "meerut",
+          "lat": 28.99,
+          "lon": 77.7,
+          "is_major_city": true
+        },
+        {
+          "name": "Mirzapur",
+          "slug": "mirzapur",
+          "lat": 25.150677777778,
+          "lon": 82.564805555556,
+          "is_major_city": true
+        },
+        {
+          "name": "Moradabad",
+          "slug": "moradabad",
+          "lat": 28.84,
+          "lon": 78.76,
+          "is_major_city": true
+        },
+        {
+          "name": "Muzaffarnagar",
+          "slug": "muzaffarnagar",
+          "lat": 29.45,
+          "lon": 77.583333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Pilibhit",
+          "slug": "pilibhit",
+          "lat": 28.55,
+          "lon": 80.1,
+          "is_major_city": true
+        },
+        {
+          "name": "Pratapgarh",
+          "slug": "pratapgarh",
+          "lat": 25.8944,
+          "lon": 81.9388,
+          "is_major_city": true
+        },
+        {
+          "name": "Prayagraj",
+          "slug": "prayagraj",
+          "lat": null,
+          "lon": null,
+          "is_major_city": true
+        },
+        {
+          "name": "Raebareli",
+          "slug": "raebareli",
+          "lat": 26.23,
+          "lon": 81.24,
+          "is_major_city": true
+        },
+        {
+          "name": "Rampur",
+          "slug": "rampur",
+          "lat": 28.8,
+          "lon": 79.02,
+          "is_major_city": true
+        },
+        {
+          "name": "Saharanpur",
+          "slug": "saharanpur",
+          "lat": 29.9,
+          "lon": 77.683333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Sambhal",
+          "slug": "sambhal",
+          "lat": 28.58,
+          "lon": 78.55,
+          "is_major_city": true
+        },
+        {
+          "name": "Sant Kabir Nagar",
+          "slug": "sant-kabir-nagar",
+          "lat": 26.78,
+          "lon": 83.06,
+          "is_major_city": true
+        },
+        {
+          "name": "Shahjahanpur",
+          "slug": "shahjahanpur",
+          "lat": 28,
+          "lon": 79.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Shamli",
+          "slug": "shamli",
+          "lat": 29.45,
+          "lon": 77.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Shravasti",
+          "slug": "shravasti",
+          "lat": 27.701958333333,
+          "lon": 81.934844444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Siddharthnagar",
+          "slug": "siddharthnagar",
+          "lat": 27.300502777778,
+          "lon": 83.094497222222,
+          "is_major_city": true
+        },
+        {
+          "name": "Sitapur",
+          "slug": "sitapur",
+          "lat": 27.5,
+          "lon": 80.916666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Sonbhadra",
+          "slug": "sonbhadra",
+          "lat": 24.689722222222,
+          "lon": 83.065277777778,
+          "is_major_city": true
+        },
+        {
+          "name": "Sultanpur",
+          "slug": "sultanpur",
+          "lat": 26.25,
+          "lon": 82,
+          "is_major_city": true
+        },
+        {
+          "name": "Unnao",
+          "slug": "unnao",
+          "lat": 26.55,
+          "lon": 80.48,
+          "is_major_city": true
+        },
+        {
+          "name": "Varanasi",
+          "slug": "varanasi",
+          "lat": 25.333333333333,
+          "lon": 83,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "uttar-pradesh"
+    },
+    {
+      "name": "Uttarakhand",
+      "code": "IN-UK",
+      "coordinates": {
+        "lat": 30.0668,
+        "lon": 79.0193
+      },
+      "cities": [
+        {
+          "name": "Almora",
+          "slug": "almora",
+          "lat": 29.59718,
+          "lon": 79.657,
+          "is_major_city": false
+        },
+        {
+          "name": "Bageshwar",
+          "slug": "bageshwar",
+          "lat": 29.85,
+          "lon": 79.77,
+          "is_major_city": false
+        },
+        {
+          "name": "Chamoli",
+          "slug": "chamoli",
+          "lat": 30.42,
+          "lon": 79.33,
+          "is_major_city": false
+        },
+        {
+          "name": "Champawat",
+          "slug": "champawat",
+          "lat": 29.33,
+          "lon": 80.1,
+          "is_major_city": false
+        },
+        {
+          "name": "Dehradun",
+          "slug": "dehradun",
+          "lat": 30.33,
+          "lon": 78.06,
+          "is_major_city": true
+        },
+        {
+          "name": "Haridwar",
+          "slug": "haridwar",
+          "lat": 29.96,
+          "lon": 78.16,
+          "is_major_city": true
+        },
+        {
+          "name": "Nainital",
+          "slug": "nainital",
+          "lat": 29.38,
+          "lon": 79.45,
+          "is_major_city": false
+        },
+        {
+          "name": "Pauri Garhwal",
+          "slug": "pauri-garhwal",
+          "lat": 29.8,
+          "lon": 78.74,
+          "is_major_city": false
+        },
+        {
+          "name": "Pithoragarh",
+          "slug": "pithoragarh",
+          "lat": 29.4,
+          "lon": 80,
+          "is_major_city": false
+        },
+        {
+          "name": "Rudraprayag",
+          "slug": "rudraprayag",
+          "lat": 30.28,
+          "lon": 78.98,
+          "is_major_city": false
+        },
+        {
+          "name": "Tehri Garhwal",
+          "slug": "tehri-garhwal",
+          "lat": 30.38,
+          "lon": 78.48,
+          "is_major_city": false
+        },
+        {
+          "name": "Udham Singh Nagar",
+          "slug": "udham-singh-nagar",
+          "lat": 28.98,
+          "lon": 79.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Uttarkashi",
+          "slug": "uttarkashi",
+          "lat": 30.73,
+          "lon": 78.45,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North",
+      "adminType": "state",
+      "incredibleIndiaSlug": "uttarakhand"
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "code": "IN-AR",
+      "coordinates": {
+        "lat": 28.218,
+        "lon": 94.7278
+      },
+      "cities": [
+        {
+          "name": "Anjaw",
+          "slug": "anjaw",
+          "lat": 28.06549,
+          "lon": 96.82878,
+          "is_major_city": false
+        },
+        {
+          "name": "Changlang",
+          "slug": "changlang",
+          "lat": 27.13,
+          "lon": 95.74,
+          "is_major_city": false
+        },
+        {
+          "name": "East Kameng",
+          "slug": "east-kameng",
+          "lat": 27.30000001,
+          "lon": 93.05000001,
+          "is_major_city": false
+        },
+        {
+          "name": "East Siang",
+          "slug": "east-siang",
+          "lat": 28.07,
+          "lon": 95.33,
+          "is_major_city": false
+        },
+        {
+          "name": "Kamle",
+          "slug": "kamle",
+          "lat": 27.8,
+          "lon": 94.075,
+          "is_major_city": false
+        },
+        {
+          "name": "Kra Daadi",
+          "slug": "kra-daadi",
+          "lat": 28.072,
+          "lon": 95.325,
+          "is_major_city": false
+        },
+        {
+          "name": "Kurung Kumey",
+          "slug": "kurung-kumey",
+          "lat": 27.9,
+          "lon": 93.35,
+          "is_major_city": false
+        },
+        {
+          "name": "Lepa Rada",
+          "slug": "lepa-rada",
+          "lat": 27.98333333,
+          "lon": 94.66666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Lohit",
+          "slug": "lohit",
+          "lat": 28,
+          "lon": 96.5,
+          "is_major_city": false
+        },
+        {
+          "name": "Longding",
+          "slug": "longding",
+          "lat": 26.8584754801,
+          "lon": 95.3356938873,
+          "is_major_city": false
+        },
+        {
+          "name": "Lower Dibang Valley",
+          "slug": "lower-dibang-valley",
+          "lat": 28.144544444444,
+          "lon": 95.841722222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Lower Siang",
+          "slug": "lower-siang",
+          "lat": 27.659,
+          "lon": 94.692,
+          "is_major_city": false
+        },
+        {
+          "name": "Lower Subansiri",
+          "slug": "lower-subansiri",
+          "lat": 27.8,
+          "lon": 93.6,
+          "is_major_city": false
+        },
+        {
+          "name": "Namsai",
+          "slug": "namsai",
+          "lat": 27.66894,
+          "lon": 95.87135,
+          "is_major_city": false
+        },
+        {
+          "name": "Pakke-Kessang",
+          "slug": "pakke-kessang",
+          "lat": 27.16,
+          "lon": 93.22,
+          "is_major_city": false
+        },
+        {
+          "name": "Papum Pare",
+          "slug": "papum-pare",
+          "lat": 27.15,
+          "lon": 93.72,
+          "is_major_city": false
+        },
+        {
+          "name": "Shi Yomi",
+          "slug": "shi-yomi",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "Siang",
+          "slug": "siang",
+          "lat": 28.20555556,
+          "lon": 94.99166667,
+          "is_major_city": false
+        },
+        {
+          "name": "Tawang",
+          "slug": "tawang",
+          "lat": 27.58655556,
+          "lon": 91.85777778,
+          "is_major_city": false
+        },
+        {
+          "name": "Tirap",
+          "slug": "tirap",
+          "lat": 26.9907,
+          "lon": 95.5028,
+          "is_major_city": false
+        },
+        {
+          "name": "Upper Dibang Valley",
+          "slug": "upper-dibang-valley",
+          "lat": 28.79805556,
+          "lon": 95.90361111,
+          "is_major_city": false
+        },
+        {
+          "name": "Upper Siang",
+          "slug": "upper-siang",
+          "lat": 28.6104,
+          "lon": 95.0475,
+          "is_major_city": false
+        },
+        {
+          "name": "Upper Subansiri",
+          "slug": "upper-subansiri",
+          "lat": 28.3,
+          "lon": 94,
+          "is_major_city": false
+        },
+        {
+          "name": "West Kameng",
+          "slug": "west-kameng",
+          "lat": 27.25,
+          "lon": 92.4,
+          "is_major_city": false
+        },
+        {
+          "name": "West Siang",
+          "slug": "west-siang",
+          "lat": 28.4,
+          "lon": 94.55,
+          "is_major_city": false
+        },
+        {
+          "name": "Keyi Panyor",
+          "slug": "keyi-panyor",
+          "lat": 27.5142117,
+          "lon": 93.7809663,
+          "is_major_city": false
+        },
+        {
+          "name": "Bichom",
+          "slug": "bichom",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "arunachal-pradesh"
+    },
+    {
+      "name": "Assam",
+      "code": "IN-AS",
+      "coordinates": {
+        "lat": 26.2006,
+        "lon": 92.9376
+      },
+      "cities": [
+        {
+          "name": "Baksa",
+          "slug": "baksa",
+          "lat": 26.580833333333,
+          "lon": 91.420277777778,
+          "is_major_city": false
+        },
+        {
+          "name": "Bajali",
+          "slug": "bajali",
+          "lat": 26.499380555556,
+          "lon": 91.179272222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Barpeta",
+          "slug": "barpeta",
+          "lat": 26.53333333,
+          "lon": 91,
+          "is_major_city": true
+        },
+        {
+          "name": "Biswanath",
+          "slug": "biswanath",
+          "lat": 26.72898056,
+          "lon": 93.147075,
+          "is_major_city": false
+        },
+        {
+          "name": "Bongaigaon",
+          "slug": "bongaigaon",
+          "lat": 26.4667,
+          "lon": 90.5667,
+          "is_major_city": false
+        },
+        {
+          "name": "Cachar",
+          "slug": "cachar",
+          "lat": 25.08333333,
+          "lon": 92.91666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Charaideo",
+          "slug": "charaideo",
+          "lat": 27.07,
+          "lon": 95.03,
+          "is_major_city": false
+        },
+        {
+          "name": "Chirang",
+          "slug": "chirang",
+          "lat": 26.5238,
+          "lon": 90.4838,
+          "is_major_city": false
+        },
+        {
+          "name": "Darrang",
+          "slug": "darrang",
+          "lat": 26.75,
+          "lon": 92.5,
+          "is_major_city": false
+        },
+        {
+          "name": "Dhemaji",
+          "slug": "dhemaji",
+          "lat": 27.4798,
+          "lon": 94.5511,
+          "is_major_city": false
+        },
+        {
+          "name": "Dhubri",
+          "slug": "dhubri",
+          "lat": 26.0333,
+          "lon": 89.9667,
+          "is_major_city": true
+        },
+        {
+          "name": "Dibrugarh",
+          "slug": "dibrugarh",
+          "lat": 27.47,
+          "lon": 94.92,
+          "is_major_city": true
+        },
+        {
+          "name": "Dima Hasao",
+          "slug": "dima-hasao",
+          "lat": 25.18,
+          "lon": 93.03,
+          "is_major_city": false
+        },
+        {
+          "name": "Goalpara",
+          "slug": "goalpara",
+          "lat": 26.43333333,
+          "lon": 90.36666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Golaghat",
+          "slug": "golaghat",
+          "lat": 26,
+          "lon": 93,
+          "is_major_city": true
+        },
+        {
+          "name": "Hailakandi",
+          "slug": "hailakandi",
+          "lat": 24.6833,
+          "lon": 92.5667,
+          "is_major_city": false
+        },
+        {
+          "name": "Hojai",
+          "slug": "hojai",
+          "lat": 26,
+          "lon": 92.87,
+          "is_major_city": false
+        },
+        {
+          "name": "Jorhat",
+          "slug": "jorhat",
+          "lat": 26.75,
+          "lon": 94.2167,
+          "is_major_city": true
+        },
+        {
+          "name": "Kamrup",
+          "slug": "kamrup",
+          "lat": 26.47,
+          "lon": 91.63,
+          "is_major_city": true
+        },
+        {
+          "name": "Kamrup Metropolitan",
+          "slug": "kamrup-metropolitan",
+          "lat": 26.18333333,
+          "lon": 91.73333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Karbi Anglong",
+          "slug": "karbi-anglong",
+          "lat": 26.18333333,
+          "lon": 93.56666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Karimganj",
+          "slug": "karimganj",
+          "lat": 24.8667,
+          "lon": 92.35,
+          "is_major_city": true
+        },
+        {
+          "name": "Kokrajhar",
+          "slug": "kokrajhar",
+          "lat": 26.4,
+          "lon": 90.27,
+          "is_major_city": false
+        },
+        {
+          "name": "Lakhimpur",
+          "slug": "lakhimpur",
+          "lat": 27.23,
+          "lon": 94.1,
+          "is_major_city": true
+        },
+        {
+          "name": "Majuli",
+          "slug": "majuli",
+          "lat": 26.95,
+          "lon": 94.16666666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Morigaon",
+          "slug": "morigaon",
+          "lat": 26.25,
+          "lon": 92.34,
+          "is_major_city": false
+        },
+        {
+          "name": "Nagaon",
+          "slug": "nagaon",
+          "lat": 26.35,
+          "lon": 92.6667,
+          "is_major_city": true
+        },
+        {
+          "name": "Nalbari",
+          "slug": "nalbari",
+          "lat": 26.45,
+          "lon": 91.44,
+          "is_major_city": false
+        },
+        {
+          "name": "Sivasagar",
+          "slug": "sivasagar",
+          "lat": 26.984416666667,
+          "lon": 94.631408333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Sonitpur",
+          "slug": "sonitpur",
+          "lat": 26.63,
+          "lon": 92.8,
+          "is_major_city": true
+        },
+        {
+          "name": "South Salmara-Mankachar",
+          "slug": "south-salmara-mankachar",
+          "lat": 25.68,
+          "lon": 89.98,
+          "is_major_city": false
+        },
+        {
+          "name": "Tamulpur",
+          "slug": "tamulpur",
+          "lat": 26.64,
+          "lon": 91.58,
+          "is_major_city": false
+        },
+        {
+          "name": "Tinsukia",
+          "slug": "tinsukia",
+          "lat": 27.489463888889,
+          "lon": 95.360144444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Udalguri",
+          "slug": "udalguri",
+          "lat": 26.7452,
+          "lon": 92.0962,
+          "is_major_city": false
+        },
+        {
+          "name": "West Karbi Anglong",
+          "slug": "west-karbi-anglong",
+          "lat": 26,
+          "lon": 93.5,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "assam"
+    },
+    {
+      "name": "Manipur",
+      "code": "IN-MN",
+      "coordinates": {
+        "lat": 24.6637,
+        "lon": 93.9063
+      },
+      "cities": [
+        {
+          "name": "Bishnupur",
+          "slug": "bishnupur",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "Chandel",
+          "slug": "chandel",
+          "lat": 24.316666666667,
+          "lon": 93.983333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Churachandpur",
+          "slug": "churachandpur",
+          "lat": 24.333333333333332,
+          "lon": 93.68333333333334,
+          "is_major_city": false
+        },
+        {
+          "name": "Imphal East",
+          "slug": "imphal-east",
+          "lat": 24.812547222222,
+          "lon": 93.959622222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Imphal West",
+          "slug": "imphal-west",
+          "lat": 24.825066666667,
+          "lon": 93.908986111111,
+          "is_major_city": false
+        },
+        {
+          "name": "Jiribam",
+          "slug": "jiribam",
+          "lat": 24.8075,
+          "lon": 93.11388889,
+          "is_major_city": false
+        },
+        {
+          "name": "Kakching",
+          "slug": "kakching",
+          "lat": 24.48,
+          "lon": 93.98,
+          "is_major_city": false
+        },
+        {
+          "name": "Kamjong",
+          "slug": "kamjong",
+          "lat": 24.86,
+          "lon": 94.5,
+          "is_major_city": false
+        },
+        {
+          "name": "Kangpokpi",
+          "slug": "kangpokpi",
+          "lat": 25.15,
+          "lon": 93.97,
+          "is_major_city": false
+        },
+        {
+          "name": "Noney",
+          "slug": "noney",
+          "lat": 24.8,
+          "lon": 93.6,
+          "is_major_city": false
+        },
+        {
+          "name": "Pherzawl",
+          "slug": "pherzawl",
+          "lat": 24.25,
+          "lon": 93.18333333333334,
+          "is_major_city": false
+        },
+        {
+          "name": "Senapati",
+          "slug": "senapati",
+          "lat": 25.266666666667,
+          "lon": 94.016666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Tamenglong",
+          "slug": "tamenglong",
+          "lat": 24.983333333333,
+          "lon": 93.483333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Tengnoupal",
+          "slug": "tengnoupal",
+          "lat": 24.328,
+          "lon": 93.986,
+          "is_major_city": false
+        },
+        {
+          "name": "Thoubal",
+          "slug": "thoubal",
+          "lat": 24.63,
+          "lon": 94.02,
+          "is_major_city": false
+        },
+        {
+          "name": "Ukhrul",
+          "slug": "ukhrul",
+          "lat": 25.12,
+          "lon": 94.37,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "manipur"
+    },
+    {
+      "name": "Meghalaya",
+      "code": "IN-ML",
+      "coordinates": {
+        "lat": 25.467,
+        "lon": 91.3662
+      },
+      "cities": [
+        {
+          "name": "East Garo Hills",
+          "slug": "east-garo-hills",
+          "lat": 25.495461111111,
+          "lon": 90.616819444444,
+          "is_major_city": false
+        },
+        {
+          "name": "East Jaintia Hills",
+          "slug": "east-jaintia-hills",
+          "lat": 25.359,
+          "lon": 92.367,
+          "is_major_city": false
+        },
+        {
+          "name": "East Khasi Hills",
+          "slug": "east-khasi-hills",
+          "lat": 25.58222222,
+          "lon": 91.89444444,
+          "is_major_city": false
+        },
+        {
+          "name": "Eastern West Khasi Hills",
+          "slug": "eastern-west-khasi-hills",
+          "lat": 25.56,
+          "lon": 91.62,
+          "is_major_city": false
+        },
+        {
+          "name": "North Garo Hills",
+          "slug": "north-garo-hills",
+          "lat": 25.9041666,
+          "lon": 90.607134,
+          "is_major_city": false
+        },
+        {
+          "name": "Ri Bhoi",
+          "slug": "ri-bhoi",
+          "lat": 25.9,
+          "lon": 91.88,
+          "is_major_city": false
+        },
+        {
+          "name": "South Garo Hills",
+          "slug": "south-garo-hills",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "South West Garo Hills",
+          "slug": "south-west-garo-hills",
+          "lat": 25.4707,
+          "lon": 89.9345,
+          "is_major_city": false
+        },
+        {
+          "name": "South West Khasi Hills",
+          "slug": "south-west-khasi-hills",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "West Garo Hills",
+          "slug": "west-garo-hills",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "West Jaintia Hills",
+          "slug": "west-jaintia-hills",
+          "lat": 25.442,
+          "lon": 92.1969,
+          "is_major_city": false
+        },
+        {
+          "name": "West Khasi Hills",
+          "slug": "west-khasi-hills",
+          "lat": 25.52,
+          "lon": 91.27,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "meghalaya"
+    },
+    {
+      "name": "Mizoram",
+      "code": "IN-MZ",
+      "coordinates": {
+        "lat": 23.1645,
+        "lon": 92.9376
+      },
+      "cities": [
+        {
+          "name": "Aizawl",
+          "slug": "aizawl",
+          "lat": 23.7333,
+          "lon": 92.7167,
+          "is_major_city": false
+        },
+        {
+          "name": "Champhai",
+          "slug": "champhai",
+          "lat": 23.474444444444,
+          "lon": 93.325555555556,
+          "is_major_city": false
+        },
+        {
+          "name": "Hnahthial",
+          "slug": "hnahthial",
+          "lat": 22.91,
+          "lon": 92.76,
+          "is_major_city": false
+        },
+        {
+          "name": "Khawzawl",
+          "slug": "khawzawl",
+          "lat": 23.236,
+          "lon": 92.851,
+          "is_major_city": false
+        },
+        {
+          "name": "Kolasib",
+          "slug": "kolasib",
+          "lat": 24.23,
+          "lon": 92.68,
+          "is_major_city": false
+        },
+        {
+          "name": "Lawngtlai",
+          "slug": "lawngtlai",
+          "lat": 22.53,
+          "lon": 92.9,
+          "is_major_city": false
+        },
+        {
+          "name": "Lunglei",
+          "slug": "lunglei",
+          "lat": 22.91,
+          "lon": 92.76,
+          "is_major_city": false
+        },
+        {
+          "name": "Mamit",
+          "slug": "mamit",
+          "lat": 23.925141666667,
+          "lon": 92.491369444444,
+          "is_major_city": false
+        },
+        {
+          "name": "Saiha",
+          "slug": "saiha",
+          "lat": 22.49,
+          "lon": 92.98,
+          "is_major_city": false
+        },
+        {
+          "name": "Saitual",
+          "slug": "saitual",
+          "lat": 23.689630555556,
+          "lon": 92.955669444444,
+          "is_major_city": false
+        },
+        {
+          "name": "Serchhip",
+          "slug": "serchhip",
+          "lat": 23.31,
+          "lon": 92.85,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "mizoram"
+    },
+    {
+      "name": "Nagaland",
+      "code": "IN-NL",
+      "coordinates": {
+        "lat": 26.1584,
+        "lon": 94.5624
+      },
+      "cities": [
+        {
+          "name": "Ch\u00fcmoukedima",
+          "slug": "chumoukedima",
+          "lat": 25.7916,
+          "lon": 93.7818,
+          "is_major_city": false
+        },
+        {
+          "name": "Dimapur",
+          "slug": "dimapur",
+          "lat": 25.8,
+          "lon": 93.78333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Kiphire",
+          "slug": "kiphire",
+          "lat": 25.9,
+          "lon": 94.783333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Kohima",
+          "slug": "kohima",
+          "lat": 25.75,
+          "lon": 94.166666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Longleng",
+          "slug": "longleng",
+          "lat": 26.516666666667,
+          "lon": 94.933333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Mokokchung",
+          "slug": "mokokchung",
+          "lat": 26.316666666667,
+          "lon": 94.516666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Mon",
+          "slug": "mon",
+          "lat": 26.716666666667,
+          "lon": 95.033333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Niuland",
+          "slug": "niuland",
+          "lat": 25.9089,
+          "lon": 93.9899,
+          "is_major_city": false
+        },
+        {
+          "name": "Noklak",
+          "slug": "noklak",
+          "lat": 26.2167,
+          "lon": 94.9919,
+          "is_major_city": false
+        },
+        {
+          "name": "Peren",
+          "slug": "peren",
+          "lat": 25.516666666667,
+          "lon": 93.733333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Phek",
+          "slug": "phek",
+          "lat": 25.666666666667,
+          "lon": 94.466666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Shamator",
+          "slug": "shamator",
+          "lat": 26.1,
+          "lon": 94.9,
+          "is_major_city": false
+        },
+        {
+          "name": "Tseminy\u00fc",
+          "slug": "tseminyu",
+          "lat": 25.92469,
+          "lon": 94.21488,
+          "is_major_city": false
+        },
+        {
+          "name": "Tuensang",
+          "slug": "tuensang",
+          "lat": 26.233333333333,
+          "lon": 94.816666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Wokha",
+          "slug": "wokha",
+          "lat": 26.1,
+          "lon": 94.266666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Zunheboto",
+          "slug": "zunheboto",
+          "lat": 26.0146,
+          "lon": 94.5264,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "nagaland"
+    },
+    {
+      "name": "Sikkim",
+      "code": "IN-SK",
+      "coordinates": {
+        "lat": 27.533,
+        "lon": 88.5122
+      },
+      "cities": [
+        {
+          "name": "Gangtok",
+          "slug": "gangtok",
+          "lat": 27.316666666667,
+          "lon": 88.6,
+          "is_major_city": false
+        },
+        {
+          "name": "Gyalshing",
+          "slug": "gyalshing",
+          "lat": 27.29004,
+          "lon": 88.2573,
+          "is_major_city": false
+        },
+        {
+          "name": "Mangan",
+          "slug": "mangan",
+          "lat": 27.52,
+          "lon": 88.53,
+          "is_major_city": false
+        },
+        {
+          "name": "Namchi",
+          "slug": "namchi",
+          "lat": 27.17,
+          "lon": 88.35,
+          "is_major_city": false
+        },
+        {
+          "name": "Pakyong",
+          "slug": "pakyong",
+          "lat": 27.2436107,
+          "lon": 88.5984989,
+          "is_major_city": false
+        },
+        {
+          "name": "Soreng",
+          "slug": "soreng",
+          "lat": 27.2,
+          "lon": 88.2,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "sikkim"
+    },
+    {
+      "name": "Tripura",
+      "code": "IN-TR",
+      "coordinates": {
+        "lat": 23.9408,
+        "lon": 91.9882
+      },
+      "cities": [
+        {
+          "name": "Dhalai",
+          "slug": "dhalai",
+          "lat": 23.91634,
+          "lon": 91.88782,
+          "is_major_city": false
+        },
+        {
+          "name": "Gomati",
+          "slug": "gomati",
+          "lat": 23.562766,
+          "lon": 91.499248,
+          "is_major_city": false
+        },
+        {
+          "name": "Khowai",
+          "slug": "khowai",
+          "lat": 23.988909,
+          "lon": 91.667513,
+          "is_major_city": false
+        },
+        {
+          "name": "North Tripura",
+          "slug": "north-tripura",
+          "lat": 24.33333333,
+          "lon": 92.01666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Sepahijala",
+          "slug": "sepahijala",
+          "lat": 23.6327,
+          "lon": 91.3198,
+          "is_major_city": false
+        },
+        {
+          "name": "South Tripura",
+          "slug": "south-tripura",
+          "lat": 23.53333333,
+          "lon": 91.48333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Unakoti",
+          "slug": "unakoti",
+          "lat": 24.236581,
+          "lon": 92.01995,
+          "is_major_city": false
+        },
+        {
+          "name": "West Tripura",
+          "slug": "west-tripura",
+          "lat": 23.91666667,
+          "lon": 91.5,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "North East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "tripura"
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "code": "IN-AN",
+      "coordinates": {
+        "lat": 11.7401,
+        "lon": 92.6586
+      },
+      "cities": [
+        {
+          "name": "Nicobar",
+          "slug": "nicobar",
+          "lat": 9.157343,
+          "lon": 92.761087,
+          "is_major_city": false
+        },
+        {
+          "name": "North and Middle Andaman",
+          "slug": "north-and-middle-andaman",
+          "lat": 12.92,
+          "lon": 92.9,
+          "is_major_city": false
+        },
+        {
+          "name": "South Andaman",
+          "slug": "south-andaman",
+          "lat": 11.67,
+          "lon": 92.74,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "East",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "andaman-and-nicobar-islands"
+    },
+    {
+      "name": "Bihar",
+      "code": "IN-BR",
+      "coordinates": {
+        "lat": 25.0961,
+        "lon": 85.3131
+      },
+      "cities": [
+        {
+          "name": "Araria",
+          "slug": "araria",
+          "lat": 26.13,
+          "lon": 87.47,
+          "is_major_city": true
+        },
+        {
+          "name": "Arwal",
+          "slug": "arwal",
+          "lat": 25.24,
+          "lon": 84.67,
+          "is_major_city": false
+        },
+        {
+          "name": "Aurangabad",
+          "slug": "aurangabad",
+          "lat": 24.75,
+          "lon": 84.3667,
+          "is_major_city": true
+        },
+        {
+          "name": "Banka",
+          "slug": "banka",
+          "lat": 24.8829,
+          "lon": 86.919,
+          "is_major_city": true
+        },
+        {
+          "name": "Begusarai",
+          "slug": "begusarai",
+          "lat": 25.4167,
+          "lon": 86.1333,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhagalpur",
+          "slug": "bhagalpur",
+          "lat": 25,
+          "lon": 86.916666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhojpur",
+          "slug": "bhojpur",
+          "lat": 25.5562,
+          "lon": 84.6653,
+          "is_major_city": true
+        },
+        {
+          "name": "Buxar",
+          "slug": "buxar",
+          "lat": 25.5656,
+          "lon": 83.9757,
+          "is_major_city": true
+        },
+        {
+          "name": "Darbhanga",
+          "slug": "darbhanga",
+          "lat": 26,
+          "lon": 86,
+          "is_major_city": true
+        },
+        {
+          "name": "East Champaran",
+          "slug": "east-champaran",
+          "lat": 26.65,
+          "lon": 84.9167,
+          "is_major_city": true
+        },
+        {
+          "name": "Gaya",
+          "slug": "gaya",
+          "lat": 24.75,
+          "lon": 85,
+          "is_major_city": true
+        },
+        {
+          "name": "Gopalganj",
+          "slug": "gopalganj",
+          "lat": 26.4654,
+          "lon": 84.4416,
+          "is_major_city": true
+        },
+        {
+          "name": "Jamui",
+          "slug": "jamui",
+          "lat": 24.92000001,
+          "lon": 86.22000001,
+          "is_major_city": true
+        },
+        {
+          "name": "Jehanabad",
+          "slug": "jehanabad",
+          "lat": 24.75,
+          "lon": 85,
+          "is_major_city": true
+        },
+        {
+          "name": "Kaimur",
+          "slug": "kaimur",
+          "lat": 25.040591666667,
+          "lon": 83.612408333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Katihar",
+          "slug": "katihar",
+          "lat": 25.55,
+          "lon": 87.57,
+          "is_major_city": true
+        },
+        {
+          "name": "Khagaria",
+          "slug": "khagaria",
+          "lat": 25.5,
+          "lon": 86.47,
+          "is_major_city": true
+        },
+        {
+          "name": "Kishanganj",
+          "slug": "kishanganj",
+          "lat": 25.676797222222,
+          "lon": 86.945708333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Lakhisarai",
+          "slug": "lakhisarai",
+          "lat": 25.17,
+          "lon": 86.09,
+          "is_major_city": true
+        },
+        {
+          "name": "Madhepura",
+          "slug": "madhepura",
+          "lat": 25.91,
+          "lon": 86.78,
+          "is_major_city": true
+        },
+        {
+          "name": "Madhubani",
+          "slug": "madhubani",
+          "lat": 26.35,
+          "lon": 86.08,
+          "is_major_city": true
+        },
+        {
+          "name": "Munger",
+          "slug": "munger",
+          "lat": 25.38,
+          "lon": 86.47,
+          "is_major_city": true
+        },
+        {
+          "name": "Muzaffarpur",
+          "slug": "muzaffarpur",
+          "lat": 26.166666666667,
+          "lon": 85.416666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Nalanda",
+          "slug": "nalanda",
+          "lat": 25.2,
+          "lon": 85.52,
+          "is_major_city": true
+        },
+        {
+          "name": "Nawada",
+          "slug": "nawada",
+          "lat": 24.75,
+          "lon": 85,
+          "is_major_city": true
+        },
+        {
+          "name": "Patna",
+          "slug": "patna",
+          "lat": 25.416666666667,
+          "lon": 85.166666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Purnia",
+          "slug": "purnia",
+          "lat": 25.7833,
+          "lon": 87.4667,
+          "is_major_city": true
+        },
+        {
+          "name": "Rohtas",
+          "slug": "rohtas",
+          "lat": 24.95,
+          "lon": 84.01,
+          "is_major_city": true
+        },
+        {
+          "name": "Saharsa",
+          "slug": "saharsa",
+          "lat": 25.883333333333,
+          "lon": 86.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Samastipur",
+          "slug": "samastipur",
+          "lat": 25.8625126,
+          "lon": 85.7826134,
+          "is_major_city": true
+        },
+        {
+          "name": "Saran",
+          "slug": "saran",
+          "lat": 25.91666667,
+          "lon": 84.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Sheikhpura",
+          "slug": "sheikhpura",
+          "lat": 25.13,
+          "lon": 85.85,
+          "is_major_city": false
+        },
+        {
+          "name": "Sheohar",
+          "slug": "sheohar",
+          "lat": 26.5167,
+          "lon": 85.3,
+          "is_major_city": false
+        },
+        {
+          "name": "Sitamarhi",
+          "slug": "sitamarhi",
+          "lat": 26.6,
+          "lon": 85.483333,
+          "is_major_city": true
+        },
+        {
+          "name": "Siwan",
+          "slug": "siwan",
+          "lat": 26.2,
+          "lon": 84.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Supaul",
+          "slug": "supaul",
+          "lat": 26.133333333333333,
+          "lon": 86.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Vaishali",
+          "slug": "vaishali",
+          "lat": 25.986595,
+          "lon": 85.125589,
+          "is_major_city": true
+        },
+        {
+          "name": "West Champaran",
+          "slug": "west-champaran",
+          "lat": 26.8,
+          "lon": 84.5,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "bihar"
+    },
+    {
+      "name": "Jharkhand",
+      "code": "IN-JH",
+      "coordinates": {
+        "lat": 23.6102,
+        "lon": 85.2799
+      },
+      "cities": [
+        {
+          "name": "Bokaro",
+          "slug": "bokaro",
+          "lat": 23.6892,
+          "lon": 86.11,
+          "is_major_city": true
+        },
+        {
+          "name": "Chatra",
+          "slug": "chatra",
+          "lat": 24.2,
+          "lon": 84.87,
+          "is_major_city": true
+        },
+        {
+          "name": "Deoghar",
+          "slug": "deoghar",
+          "lat": 24.49,
+          "lon": 86.7,
+          "is_major_city": true
+        },
+        {
+          "name": "Dhanbad",
+          "slug": "dhanbad",
+          "lat": 23.79,
+          "lon": 86.43,
+          "is_major_city": true
+        },
+        {
+          "name": "Dumka",
+          "slug": "dumka",
+          "lat": 24.2667,
+          "lon": 87.25,
+          "is_major_city": true
+        },
+        {
+          "name": "East Singhbhum",
+          "slug": "east-singhbhum",
+          "lat": 22.8,
+          "lon": 86.1834,
+          "is_major_city": true
+        },
+        {
+          "name": "Garhwa",
+          "slug": "garhwa",
+          "lat": 24.17,
+          "lon": 83.81,
+          "is_major_city": true
+        },
+        {
+          "name": "Giridih",
+          "slug": "giridih",
+          "lat": 24.18,
+          "lon": 86.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Godda",
+          "slug": "godda",
+          "lat": 24.816666666667,
+          "lon": 87.216666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Gumla",
+          "slug": "gumla",
+          "lat": 23,
+          "lon": 84.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Hazaribag",
+          "slug": "hazaribag",
+          "lat": 24,
+          "lon": 85.25,
+          "is_major_city": true
+        },
+        {
+          "name": "Jamtara",
+          "slug": "jamtara",
+          "lat": 23.96,
+          "lon": 86.8,
+          "is_major_city": false
+        },
+        {
+          "name": "Khunti",
+          "slug": "khunti",
+          "lat": 23.07,
+          "lon": 85.28,
+          "is_major_city": false
+        },
+        {
+          "name": "Koderma",
+          "slug": "koderma",
+          "lat": 24.47,
+          "lon": 85.59,
+          "is_major_city": false
+        },
+        {
+          "name": "Latehar",
+          "slug": "latehar",
+          "lat": 23.73,
+          "lon": 84.47,
+          "is_major_city": false
+        },
+        {
+          "name": "Lohardaga",
+          "slug": "lohardaga",
+          "lat": 23.433333333333,
+          "lon": 84.683333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Pakur",
+          "slug": "pakur",
+          "lat": 24.63,
+          "lon": 87.85,
+          "is_major_city": false
+        },
+        {
+          "name": "Palamu",
+          "slug": "palamu",
+          "lat": 24.03,
+          "lon": 84.07,
+          "is_major_city": true
+        },
+        {
+          "name": "Ramgarh",
+          "slug": "ramgarh",
+          "lat": 23.62,
+          "lon": 85.52,
+          "is_major_city": false
+        },
+        {
+          "name": "Ranchi",
+          "slug": "ranchi",
+          "lat": 23,
+          "lon": 85,
+          "is_major_city": true
+        },
+        {
+          "name": "Sahibganj",
+          "slug": "sahibganj",
+          "lat": 25.2422368,
+          "lon": 87.6302589,
+          "is_major_city": true
+        },
+        {
+          "name": "Seraikela-Kharsawan",
+          "slug": "seraikela-kharsawan",
+          "lat": 22.7,
+          "lon": 85.92,
+          "is_major_city": true
+        },
+        {
+          "name": "Simdega",
+          "slug": "simdega",
+          "lat": 22.61,
+          "lon": 84.5,
+          "is_major_city": false
+        },
+        {
+          "name": "West Singhbhum",
+          "slug": "west-singhbhum",
+          "lat": 22.5667,
+          "lon": 85.8167,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "jharkhand"
+    },
+    {
+      "name": "Odisha",
+      "code": "IN-OD",
+      "coordinates": {
+        "lat": 20.9517,
+        "lon": 85.0985
+      },
+      "cities": [
+        {
+          "name": "Angul",
+          "slug": "angul",
+          "lat": 20.833,
+          "lon": 85.1,
+          "is_major_city": true
+        },
+        {
+          "name": "Boudh",
+          "slug": "boudh",
+          "lat": 20.833,
+          "lon": 84.333,
+          "is_major_city": false
+        },
+        {
+          "name": "Bhadrak",
+          "slug": "bhadrak",
+          "lat": 21.0667,
+          "lon": 86.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Balangir",
+          "slug": "balangir",
+          "lat": 20.7,
+          "lon": 83.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Bargarh",
+          "slug": "bargarh",
+          "lat": 21.33333,
+          "lon": 83.61667,
+          "is_major_city": true
+        },
+        {
+          "name": "Balasore",
+          "slug": "balasore",
+          "lat": 21.5,
+          "lon": 86.9,
+          "is_major_city": true
+        },
+        {
+          "name": "Cuttack",
+          "slug": "cuttack",
+          "lat": 20.466,
+          "lon": 85.833,
+          "is_major_city": true
+        },
+        {
+          "name": "Debagarh",
+          "slug": "debagarh",
+          "lat": 21.533,
+          "lon": 84.733,
+          "is_major_city": false
+        },
+        {
+          "name": "Dhenkanal",
+          "slug": "dhenkanal",
+          "lat": 20.65,
+          "lon": 85.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Ganjam",
+          "slug": "ganjam",
+          "lat": 19.383,
+          "lon": 85.05,
+          "is_major_city": true
+        },
+        {
+          "name": "Gajapati",
+          "slug": "gajapati",
+          "lat": 18.88,
+          "lon": 84.2,
+          "is_major_city": false
+        },
+        {
+          "name": "Jharsuguda",
+          "slug": "jharsuguda",
+          "lat": 21.85,
+          "lon": 84.016,
+          "is_major_city": false
+        },
+        {
+          "name": "Jajpur",
+          "slug": "jajpur",
+          "lat": 20.85,
+          "lon": 86.333,
+          "is_major_city": true
+        },
+        {
+          "name": "Jagatsinghpur",
+          "slug": "jagatsinghpur",
+          "lat": 20.266,
+          "lon": 86.166,
+          "is_major_city": true
+        },
+        {
+          "name": "Khordha",
+          "slug": "khordha",
+          "lat": 20.166,
+          "lon": 85.666,
+          "is_major_city": true
+        },
+        {
+          "name": "Kendujhar",
+          "slug": "kendujhar",
+          "lat": 21.633,
+          "lon": 85.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Kalahandi",
+          "slug": "kalahandi",
+          "lat": 20.083,
+          "lon": 83.2,
+          "is_major_city": true
+        },
+        {
+          "name": "Kandhamal",
+          "slug": "kandhamal",
+          "lat": 20.47,
+          "lon": 84.23,
+          "is_major_city": false
+        },
+        {
+          "name": "Koraput",
+          "slug": "koraput",
+          "lat": 18.8083,
+          "lon": 82.7083,
+          "is_major_city": true
+        },
+        {
+          "name": "Kendrapara",
+          "slug": "kendrapara",
+          "lat": 20.525,
+          "lon": 86.475,
+          "is_major_city": true
+        },
+        {
+          "name": "Malkangiri",
+          "slug": "malkangiri",
+          "lat": 18.25,
+          "lon": 82.13,
+          "is_major_city": false
+        },
+        {
+          "name": "Mayurbhanj",
+          "slug": "mayurbhanj",
+          "lat": 21.933,
+          "lon": 86.733,
+          "is_major_city": true
+        },
+        {
+          "name": "Nabarangpur",
+          "slug": "nabarangpur",
+          "lat": 19.23,
+          "lon": 82.55,
+          "is_major_city": true
+        },
+        {
+          "name": "Nuapada",
+          "slug": "nuapada",
+          "lat": 20.65,
+          "lon": 82.833,
+          "is_major_city": false
+        },
+        {
+          "name": "Nayagarh",
+          "slug": "nayagarh",
+          "lat": 20.116,
+          "lon": 85.01,
+          "is_major_city": false
+        },
+        {
+          "name": "Puri",
+          "slug": "puri",
+          "lat": 19.9,
+          "lon": 85.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Rayagada",
+          "slug": "rayagada",
+          "lat": 19.166,
+          "lon": 83.416,
+          "is_major_city": false
+        },
+        {
+          "name": "Sambalpur",
+          "slug": "sambalpur",
+          "lat": 21.466,
+          "lon": 83.983,
+          "is_major_city": true
+        },
+        {
+          "name": "Subarnapur",
+          "slug": "subarnapur",
+          "lat": 20.85,
+          "lon": 83.9,
+          "is_major_city": false
+        },
+        {
+          "name": "Sundargarh",
+          "slug": "sundargarh",
+          "lat": 22.116,
+          "lon": 84.016,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "odisha"
+    },
+    {
+      "name": "West Bengal",
+      "code": "IN-WB",
+      "coordinates": {
+        "lat": 22.9868,
+        "lon": 87.855
+      },
+      "cities": [
+        {
+          "name": "Alipurduar",
+          "slug": "alipurduar",
+          "lat": 26.489,
+          "lon": 89.527,
+          "is_major_city": true
+        },
+        {
+          "name": "Bankura",
+          "slug": "bankura",
+          "lat": 23.25,
+          "lon": 87.07,
+          "is_major_city": true
+        },
+        {
+          "name": "Birbhum",
+          "slug": "birbhum",
+          "lat": 23.91,
+          "lon": 87.527,
+          "is_major_city": true
+        },
+        {
+          "name": "Cooch Behar",
+          "slug": "cooch-behar",
+          "lat": 26.324188888889,
+          "lon": 89.451030555556,
+          "is_major_city": true
+        },
+        {
+          "name": "Dakshin Dinajpur",
+          "slug": "dakshin-dinajpur",
+          "lat": 25.22,
+          "lon": 88.76,
+          "is_major_city": true
+        },
+        {
+          "name": "Darjeeling",
+          "slug": "darjeeling",
+          "lat": 27.0375,
+          "lon": 88.26305555555555,
+          "is_major_city": true
+        },
+        {
+          "name": "Hooghly",
+          "slug": "hooghly",
+          "lat": 22.9,
+          "lon": 88.39,
+          "is_major_city": true
+        },
+        {
+          "name": "Howrah",
+          "slug": "howrah",
+          "lat": 22.5736296,
+          "lon": 88.3251045,
+          "is_major_city": true
+        },
+        {
+          "name": "Jalpaiguri",
+          "slug": "jalpaiguri",
+          "lat": 26.52,
+          "lon": 88.73,
+          "is_major_city": true
+        },
+        {
+          "name": "Jhargram",
+          "slug": "jhargram",
+          "lat": 22.45,
+          "lon": 86.98,
+          "is_major_city": true
+        },
+        {
+          "name": "Kalimpong",
+          "slug": "kalimpong",
+          "lat": 27.06,
+          "lon": 88.47,
+          "is_major_city": false
+        },
+        {
+          "name": "Kolkata",
+          "slug": "kolkata",
+          "lat": 22.5726723,
+          "lon": 88.3638815,
+          "is_major_city": true
+        },
+        {
+          "name": "Maldah",
+          "slug": "maldah",
+          "lat": null,
+          "lon": null,
+          "is_major_city": true
+        },
+        {
+          "name": "Murshidabad",
+          "slug": "murshidabad",
+          "lat": 24.2,
+          "lon": 88.26666666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Nadia",
+          "slug": "nadia",
+          "lat": 23.4,
+          "lon": 88.5,
+          "is_major_city": true
+        },
+        {
+          "name": "North 24 Parganas",
+          "slug": "north-24-parganas",
+          "lat": 22.716666666666665,
+          "lon": 88.48333333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Paschim Bardhaman",
+          "slug": "paschim-bardhaman",
+          "lat": 23.68,
+          "lon": 86.99,
+          "is_major_city": true
+        },
+        {
+          "name": "Paschim Medinipur",
+          "slug": "paschim-medinipur",
+          "lat": 22.424,
+          "lon": 87.319,
+          "is_major_city": true
+        },
+        {
+          "name": "Purba Bardhaman",
+          "slug": "purba-bardhaman",
+          "lat": 23.238333333333333,
+          "lon": 87.86083333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Purba Medinipur",
+          "slug": "purba-medinipur",
+          "lat": 22.3,
+          "lon": 87.92,
+          "is_major_city": true
+        },
+        {
+          "name": "Purulia",
+          "slug": "purulia",
+          "lat": 23.333333333333,
+          "lon": 86.366666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "South 24 Parganas",
+          "slug": "south-24-parganas",
+          "lat": 22.5264928,
+          "lon": 88.3323692,
+          "is_major_city": true
+        },
+        {
+          "name": "Uttar Dinajpur",
+          "slug": "uttar-dinajpur",
+          "lat": 25.62,
+          "lon": 88.12,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "East",
+      "adminType": "state",
+      "incredibleIndiaSlug": "west-bengal"
+    },
+    {
+      "name": "Chhattisgarh",
+      "code": "IN-CG",
+      "coordinates": {
+        "lat": 21.2787,
+        "lon": 81.8661
+      },
+      "cities": [
+        {
+          "name": "Balod",
+          "slug": "balod",
+          "lat": 20.729564,
+          "lon": 81.20193,
+          "is_major_city": false
+        },
+        {
+          "name": "Baloda Bazar",
+          "slug": "baloda-bazar",
+          "lat": 21.67,
+          "lon": 82.17,
+          "is_major_city": true
+        },
+        {
+          "name": "Balrampur-Ramanujganj",
+          "slug": "balrampur-ramanujganj",
+          "lat": 23.758,
+          "lon": 83.685,
+          "is_major_city": false
+        },
+        {
+          "name": "Bastar",
+          "slug": "bastar",
+          "lat": 19.06666667,
+          "lon": 82.03305556,
+          "is_major_city": false
+        },
+        {
+          "name": "Bemetara",
+          "slug": "bemetara",
+          "lat": 21.7,
+          "lon": 81.53,
+          "is_major_city": false
+        },
+        {
+          "name": "Bijapur",
+          "slug": "bijapur",
+          "lat": 18.75,
+          "lon": 80.68333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Bilaspur",
+          "slug": "bilaspur",
+          "lat": 22.38333333,
+          "lon": 82.13333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Dantewada",
+          "slug": "dantewada",
+          "lat": 18.9,
+          "lon": 81.35,
+          "is_major_city": false
+        },
+        {
+          "name": "Dhamtari",
+          "slug": "dhamtari",
+          "lat": 20.707222222222,
+          "lon": 81.549722222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Durg",
+          "slug": "durg",
+          "lat": 21.183333333333,
+          "lon": 81.283333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Gariaband",
+          "slug": "gariaband",
+          "lat": 20.633,
+          "lon": 82.067,
+          "is_major_city": false
+        },
+        {
+          "name": "Gaurela-Pendra-Marwahi",
+          "slug": "gaurela-pendra-marwahi",
+          "lat": 22.766666666667,
+          "lon": 81.866666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Janjgir-Champa",
+          "slug": "janjgir-champa",
+          "lat": 22.016944444444,
+          "lon": 82.566944444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Jashpur",
+          "slug": "jashpur",
+          "lat": 22.9,
+          "lon": 84.15,
+          "is_major_city": false
+        },
+        {
+          "name": "Kabirdham",
+          "slug": "kabirdham",
+          "lat": 22.016666666667,
+          "lon": 81.25,
+          "is_major_city": false
+        },
+        {
+          "name": "Kanker",
+          "slug": "kanker",
+          "lat": 20.271944444444,
+          "lon": 81.493055555556,
+          "is_major_city": false
+        },
+        {
+          "name": "Khairagarh-Chhuikhadan-Gandai",
+          "slug": "khairagarh-chhuikhadan-gandai",
+          "lat": 21.42,
+          "lon": 80.97,
+          "is_major_city": false
+        },
+        {
+          "name": "Kondagaon",
+          "slug": "kondagaon",
+          "lat": 19.6,
+          "lon": 81.67,
+          "is_major_city": false
+        },
+        {
+          "name": "Korba",
+          "slug": "korba",
+          "lat": 22.35,
+          "lon": 82.683333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Korea",
+          "slug": "korea",
+          "lat": 23.25,
+          "lon": 82.55,
+          "is_major_city": false
+        },
+        {
+          "name": "Mahasamund",
+          "slug": "mahasamund",
+          "lat": 21.1,
+          "lon": 82.1,
+          "is_major_city": true
+        },
+        {
+          "name": "Manendragarh-Chirmiri-Bharatpur",
+          "slug": "manendragarh-chirmiri-bharatpur",
+          "lat": 23.22,
+          "lon": 82.2,
+          "is_major_city": false
+        },
+        {
+          "name": "Mohla-Manpur-Ambagarh Chowki",
+          "slug": "mohla-manpur-ambagarh-chowki",
+          "lat": 20.581,
+          "lon": 80.745,
+          "is_major_city": false
+        },
+        {
+          "name": "Mungeli",
+          "slug": "mungeli",
+          "lat": 22.067,
+          "lon": 81.67,
+          "is_major_city": false
+        },
+        {
+          "name": "Narayanpur",
+          "slug": "narayanpur",
+          "lat": 19.71666667,
+          "lon": 81.25,
+          "is_major_city": false
+        },
+        {
+          "name": "Raigarh",
+          "slug": "raigarh",
+          "lat": 21.9,
+          "lon": 83.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Raipur",
+          "slug": "raipur",
+          "lat": 20.91666667,
+          "lon": 82,
+          "is_major_city": true
+        },
+        {
+          "name": "Rajnandgaon",
+          "slug": "rajnandgaon",
+          "lat": 21.1,
+          "lon": 81.033333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Sarangarh-Bilaigarh",
+          "slug": "sarangarh-bilaigarh",
+          "lat": 23.02,
+          "lon": 82.96,
+          "is_major_city": false
+        },
+        {
+          "name": "Sakti",
+          "slug": "sakti",
+          "lat": 23.02,
+          "lon": 82.96,
+          "is_major_city": false
+        },
+        {
+          "name": "Sukma",
+          "slug": "sukma",
+          "lat": 18.4,
+          "lon": 81.666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Surajpur",
+          "slug": "surajpur",
+          "lat": 23.217,
+          "lon": 82.85,
+          "is_major_city": false
+        },
+        {
+          "name": "Surguja",
+          "slug": "surguja",
+          "lat": 23.116666666667,
+          "lon": 83.2,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "Central",
+      "adminType": "state",
+      "incredibleIndiaSlug": "chhattisgarh"
+    },
+    {
+      "name": "Madhya Pradesh",
+      "code": "IN-MP",
+      "coordinates": {
+        "lat": 22.9734,
+        "lon": 78.6569
+      },
+      "cities": [
+        {
+          "name": "Agar Malwa",
+          "slug": "agar-malwa",
+          "lat": 23.715,
+          "lon": 76.013,
+          "is_major_city": false
+        },
+        {
+          "name": "Alirajpur",
+          "slug": "alirajpur",
+          "lat": 22.305,
+          "lon": 74.36,
+          "is_major_city": false
+        },
+        {
+          "name": "Anuppur",
+          "slug": "anuppur",
+          "lat": 23.12,
+          "lon": 81.7,
+          "is_major_city": false
+        },
+        {
+          "name": "Ashoknagar",
+          "slug": "ashoknagar",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "Balaghat",
+          "slug": "balaghat",
+          "lat": 21.966666666667,
+          "lon": 80.333333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Barwani",
+          "slug": "barwani",
+          "lat": 22.02485,
+          "lon": 74.91805,
+          "is_major_city": true
+        },
+        {
+          "name": "Betul",
+          "slug": "betul",
+          "lat": 21.833333333333,
+          "lon": 77.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhind",
+          "slug": "bhind",
+          "lat": 26.5642,
+          "lon": 78.7883,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhopal",
+          "slug": "bhopal",
+          "lat": 23.5,
+          "lon": 77.416666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Burhanpur",
+          "slug": "burhanpur",
+          "lat": 21.31,
+          "lon": 76.23,
+          "is_major_city": false
+        },
+        {
+          "name": "Chhatarpur",
+          "slug": "chhatarpur",
+          "lat": 24.915708333333,
+          "lon": 79.582213888889,
+          "is_major_city": true
+        },
+        {
+          "name": "Chhindwara",
+          "slug": "chhindwara",
+          "lat": 22.06,
+          "lon": 78.94,
+          "is_major_city": true
+        },
+        {
+          "name": "Damoh",
+          "slug": "damoh",
+          "lat": 21.895722222222,
+          "lon": 80.795144444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Datia",
+          "slug": "datia",
+          "lat": 25.67,
+          "lon": 78.46,
+          "is_major_city": false
+        },
+        {
+          "name": "Dewas",
+          "slug": "dewas",
+          "lat": 22.96,
+          "lon": 76.05,
+          "is_major_city": true
+        },
+        {
+          "name": "Dhar",
+          "slug": "dhar",
+          "lat": 22.59722222,
+          "lon": 75.30416667,
+          "is_major_city": true
+        },
+        {
+          "name": "Dindori",
+          "slug": "dindori",
+          "lat": 22.95,
+          "lon": 81.083333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Guna",
+          "slug": "guna",
+          "lat": 24.64,
+          "lon": 77.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Gwalior",
+          "slug": "gwalior",
+          "lat": 26.223611111111,
+          "lon": 78.179166666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Harda",
+          "slug": "harda",
+          "lat": 22.34,
+          "lon": 77.09,
+          "is_major_city": false
+        },
+        {
+          "name": "Hoshangabad",
+          "slug": "hoshangabad",
+          "lat": 22.666666666667,
+          "lon": 77.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Indore",
+          "slug": "indore",
+          "lat": 22.666666666667,
+          "lon": 75.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Jabalpur",
+          "slug": "jabalpur",
+          "lat": 23.16,
+          "lon": 79.94,
+          "is_major_city": true
+        },
+        {
+          "name": "Jhabua",
+          "slug": "jhabua",
+          "lat": 22.7667,
+          "lon": 74.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Katni",
+          "slug": "katni",
+          "lat": 23.835555555556,
+          "lon": 80.394166666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Khandwa",
+          "slug": "khandwa",
+          "lat": 21.83,
+          "lon": 76.34,
+          "is_major_city": true
+        },
+        {
+          "name": "Khargone",
+          "slug": "khargone",
+          "lat": 21.823055555556,
+          "lon": 75.610277777778,
+          "is_major_city": true
+        },
+        {
+          "name": "Maihar",
+          "slug": "maihar",
+          "lat": 24.266666666666666,
+          "lon": 80.7611111111111,
+          "is_major_city": false
+        },
+        {
+          "name": "Mandla",
+          "slug": "mandla",
+          "lat": 22.7,
+          "lon": 81,
+          "is_major_city": true
+        },
+        {
+          "name": "Mandsaur",
+          "slug": "mandsaur",
+          "lat": 24.072616666667,
+          "lon": 75.067944444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Mauganj",
+          "slug": "mauganj",
+          "lat": 24.68,
+          "lon": 81.88,
+          "is_major_city": false
+        },
+        {
+          "name": "Morena",
+          "slug": "morena",
+          "lat": 26.3,
+          "lon": 78,
+          "is_major_city": true
+        },
+        {
+          "name": "Narsinghpur",
+          "slug": "narsinghpur",
+          "lat": 22.916666666667,
+          "lon": 79.166666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Neemuch",
+          "slug": "neemuch",
+          "lat": 24.47,
+          "lon": 74.87,
+          "is_major_city": false
+        },
+        {
+          "name": "Niwari",
+          "slug": "niwari",
+          "lat": 25.34,
+          "lon": 78.8,
+          "is_major_city": false
+        },
+        {
+          "name": "Panna",
+          "slug": "panna",
+          "lat": 24.72,
+          "lon": 80.18,
+          "is_major_city": true
+        },
+        {
+          "name": "Pandhurna",
+          "slug": "pandhurna",
+          "lat": 21.6,
+          "lon": 78.52,
+          "is_major_city": false
+        },
+        {
+          "name": "Raisen",
+          "slug": "raisen",
+          "lat": 23.316666666667,
+          "lon": 77.783333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Rajgarh",
+          "slug": "rajgarh",
+          "lat": 22.676944444444,
+          "lon": 74.945,
+          "is_major_city": true
+        },
+        {
+          "name": "Ratlam",
+          "slug": "ratlam",
+          "lat": 23.33,
+          "lon": 75.04,
+          "is_major_city": true
+        },
+        {
+          "name": "Rewa",
+          "slug": "rewa",
+          "lat": 24.53,
+          "lon": 81.29,
+          "is_major_city": true
+        },
+        {
+          "name": "Sagar",
+          "slug": "sagar",
+          "lat": 23.8,
+          "lon": 78.666666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Satna",
+          "slug": "satna",
+          "lat": 24.34,
+          "lon": 80.55,
+          "is_major_city": true
+        },
+        {
+          "name": "Sehore",
+          "slug": "sehore",
+          "lat": 23.2,
+          "lon": 77.083333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Seoni",
+          "slug": "seoni",
+          "lat": 22.09,
+          "lon": 79.55,
+          "is_major_city": true
+        },
+        {
+          "name": "Shahdol",
+          "slug": "shahdol",
+          "lat": 23.3,
+          "lon": 81.35,
+          "is_major_city": true
+        },
+        {
+          "name": "Shajapur",
+          "slug": "shajapur",
+          "lat": 23.5,
+          "lon": 76.25,
+          "is_major_city": true
+        },
+        {
+          "name": "Sheopur",
+          "slug": "sheopur",
+          "lat": 25.6667,
+          "lon": 76.7,
+          "is_major_city": false
+        },
+        {
+          "name": "Shivpuri",
+          "slug": "shivpuri",
+          "lat": 25.42,
+          "lon": 77.66,
+          "is_major_city": true
+        },
+        {
+          "name": "Sidhi",
+          "slug": "sidhi",
+          "lat": 24.4167,
+          "lon": 81.8833,
+          "is_major_city": true
+        },
+        {
+          "name": "Singrauli",
+          "slug": "singrauli",
+          "lat": 24.2,
+          "lon": 82.67,
+          "is_major_city": true
+        },
+        {
+          "name": "Tikamgarh",
+          "slug": "tikamgarh",
+          "lat": 24.75,
+          "lon": 78.83333333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Ujjain",
+          "slug": "ujjain",
+          "lat": 23.416666666667,
+          "lon": 75.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Umaria",
+          "slug": "umaria",
+          "lat": 23.526847222222,
+          "lon": 80.838105555556,
+          "is_major_city": false
+        },
+        {
+          "name": "Vidisha",
+          "slug": "vidisha",
+          "lat": 23.52,
+          "lon": 77.81,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "Central",
+      "adminType": "state",
+      "incredibleIndiaSlug": "madhya-pradesh"
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "code": "IN-DH",
+      "coordinates": {
+        "lat": 20.2734,
+        "lon": 72.9963
+      },
+      "cities": [
+        {
+          "name": "Dadra and Nagar Haveli",
+          "slug": "dadra-and-nagar-haveli",
+          "lat": 20.27,
+          "lon": 73.02,
+          "is_major_city": false
+        },
+        {
+          "name": "Daman",
+          "slug": "daman",
+          "lat": 20.42,
+          "lon": 72.83,
+          "is_major_city": false
+        },
+        {
+          "name": "Diu",
+          "slug": "diu",
+          "lat": 20.71,
+          "lon": 70.98,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "West",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "dadra-and-nagar-haveli-and-daman-and-diu"
+    },
+    {
+      "name": "Goa",
+      "code": "IN-GA",
+      "coordinates": {
+        "lat": 15.2993,
+        "lon": 74.124
+      },
+      "cities": [
+        {
+          "name": "North Goa",
+          "slug": "north-goa",
+          "lat": 15.49888889,
+          "lon": 73.82777778,
+          "is_major_city": false
+        },
+        {
+          "name": "South Goa",
+          "slug": "south-goa",
+          "lat": 15.27361111,
+          "lon": 73.95805556,
+          "is_major_city": false
+        },
+        {
+          "name": "Kushavati",
+          "slug": "kushavati",
+          "lat": 15.22,
+          "lon": 74.07,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "West",
+      "adminType": "state",
+      "incredibleIndiaSlug": "goa"
+    },
+    {
+      "name": "Gujarat",
+      "code": "IN-GJ",
+      "coordinates": {
+        "lat": 22.2587,
+        "lon": 71.1924
+      },
+      "cities": [
+        {
+          "name": "Ahmedabad",
+          "slug": "ahmedabad",
+          "lat": 23.03,
+          "lon": 72.58,
+          "is_major_city": true
+        },
+        {
+          "name": "Amreli",
+          "slug": "amreli",
+          "lat": 20.866666666667,
+          "lon": 70.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Anand",
+          "slug": "anand",
+          "lat": 22.57,
+          "lon": 72.93,
+          "is_major_city": true
+        },
+        {
+          "name": "Aravalli",
+          "slug": "aravalli",
+          "lat": 24.0283,
+          "lon": 73.0414,
+          "is_major_city": true
+        },
+        {
+          "name": "Banaskantha",
+          "slug": "banaskantha",
+          "lat": 24.173055555556,
+          "lon": 72.431388888889,
+          "is_major_city": true
+        },
+        {
+          "name": "Bharuch",
+          "slug": "bharuch",
+          "lat": 20.7,
+          "lon": 72.983333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhavnagar",
+          "slug": "bhavnagar",
+          "lat": 21.770277777778,
+          "lon": 72.143055555556,
+          "is_major_city": true
+        },
+        {
+          "name": "Botad",
+          "slug": "botad",
+          "lat": 22.17,
+          "lon": 71.67,
+          "is_major_city": false
+        },
+        {
+          "name": "Chhota Udaipur",
+          "slug": "chhota-udaipur",
+          "lat": 22.32,
+          "lon": 74.01,
+          "is_major_city": true
+        },
+        {
+          "name": "Dahod",
+          "slug": "dahod",
+          "lat": 22.833888888889,
+          "lon": 74.257777777778,
+          "is_major_city": true
+        },
+        {
+          "name": "Dang",
+          "slug": "dang",
+          "lat": 20.75,
+          "lon": 73.683333333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Devbhumi Dwarka",
+          "slug": "devbhumi-dwarka",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "Gandhinagar",
+          "slug": "gandhinagar",
+          "lat": 23.21484,
+          "lon": 72.64984,
+          "is_major_city": true
+        },
+        {
+          "name": "Gir Somnath",
+          "slug": "gir-somnath",
+          "lat": 20.8969613018,
+          "lon": 70.60865467,
+          "is_major_city": true
+        },
+        {
+          "name": "Jamnagar",
+          "slug": "jamnagar",
+          "lat": 22.25,
+          "lon": 70,
+          "is_major_city": true
+        },
+        {
+          "name": "Junagadh",
+          "slug": "junagadh",
+          "lat": 21.516666666667,
+          "lon": 70.45,
+          "is_major_city": true
+        },
+        {
+          "name": "Kheda",
+          "slug": "kheda",
+          "lat": 22.75,
+          "lon": 72.683333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Kutch",
+          "slug": "kutch",
+          "lat": 23.915,
+          "lon": 70.367,
+          "is_major_city": true
+        },
+        {
+          "name": "Mahisagar",
+          "slug": "mahisagar",
+          "lat": 23.1333,
+          "lon": 73.6167,
+          "is_major_city": false
+        },
+        {
+          "name": "Mehsana",
+          "slug": "mehsana",
+          "lat": 23.666666666667,
+          "lon": 72.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Morbi",
+          "slug": "morbi",
+          "lat": 22.8244884644,
+          "lon": 70.9366616532,
+          "is_major_city": false
+        },
+        {
+          "name": "Narmada",
+          "slug": "narmada",
+          "lat": 21.87,
+          "lon": 73.5,
+          "is_major_city": false
+        },
+        {
+          "name": "Navsari",
+          "slug": "navsari",
+          "lat": 20.95,
+          "lon": 72.92,
+          "is_major_city": true
+        },
+        {
+          "name": "Panchmahal",
+          "slug": "panchmahal",
+          "lat": 22.75,
+          "lon": 73.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Patan",
+          "slug": "patan",
+          "lat": 23.83,
+          "lon": 72.12,
+          "is_major_city": true
+        },
+        {
+          "name": "Porbandar",
+          "slug": "porbandar",
+          "lat": 21.63,
+          "lon": 69.6,
+          "is_major_city": false
+        },
+        {
+          "name": "Rajkot",
+          "slug": "rajkot",
+          "lat": 22.3,
+          "lon": 70.78,
+          "is_major_city": true
+        },
+        {
+          "name": "Sabarkantha",
+          "slug": "sabarkantha",
+          "lat": 23.6,
+          "lon": 72.95,
+          "is_major_city": true
+        },
+        {
+          "name": "Surat",
+          "slug": "surat",
+          "lat": 20.916666666667,
+          "lon": 73.05,
+          "is_major_city": true
+        },
+        {
+          "name": "Surendranagar",
+          "slug": "surendranagar",
+          "lat": 22.73,
+          "lon": 71.51,
+          "is_major_city": true
+        },
+        {
+          "name": "Tapi",
+          "slug": "tapi",
+          "lat": 21.12,
+          "lon": 73.4,
+          "is_major_city": false
+        },
+        {
+          "name": "Vadodara",
+          "slug": "vadodara",
+          "lat": 22.2931,
+          "lon": 73.1935,
+          "is_major_city": true
+        },
+        {
+          "name": "Valsad",
+          "slug": "valsad",
+          "lat": 20.61005,
+          "lon": 72.925872222222,
+          "is_major_city": true
+        },
+        {
+          "name": "Vav-Tharad",
+          "slug": "vav-tharad",
+          "lat": 24.392563888889,
+          "lon": 71.624838888889,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "West",
+      "adminType": "state",
+      "incredibleIndiaSlug": "gujarat"
+    },
+    {
+      "name": "Maharashtra",
+      "code": "IN-MH",
+      "coordinates": {
+        "lat": 19.7515,
+        "lon": 75.7139
+      },
+      "cities": [
+        {
+          "name": "Ahmednagar",
+          "slug": "ahmednagar",
+          "lat": 19.098055555556,
+          "lon": 74.7325,
+          "is_major_city": true
+        },
+        {
+          "name": "Akola",
+          "slug": "akola",
+          "lat": 20.5,
+          "lon": 77.166666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Amravati",
+          "slug": "amravati",
+          "lat": 20.93,
+          "lon": 77.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Aurangabad",
+          "slug": "aurangabad",
+          "lat": 19.888786111111,
+          "lon": 75.343436111111,
+          "is_major_city": true
+        },
+        {
+          "name": "Beed",
+          "slug": "beed",
+          "lat": 18.833333333333,
+          "lon": 75.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Bhandara",
+          "slug": "bhandara",
+          "lat": 21.183333333333,
+          "lon": 80,
+          "is_major_city": true
+        },
+        {
+          "name": "Buldhana",
+          "slug": "buldhana",
+          "lat": 20.532777777778,
+          "lon": 76.182777777778,
+          "is_major_city": true
+        },
+        {
+          "name": "Chandrapur",
+          "slug": "chandrapur",
+          "lat": 19.95,
+          "lon": 79.3,
+          "is_major_city": true
+        },
+        {
+          "name": "Osmanabad",
+          "slug": "osmanabad",
+          "lat": 17.35,
+          "lon": 75.16,
+          "is_major_city": true
+        },
+        {
+          "name": "Dhule",
+          "slug": "dhule",
+          "lat": 20.903333333333,
+          "lon": 74.774722222222,
+          "is_major_city": true
+        },
+        {
+          "name": "Gadchiroli",
+          "slug": "gadchiroli",
+          "lat": 20.18611111,
+          "lon": 80.00527778,
+          "is_major_city": true
+        },
+        {
+          "name": "Gondia",
+          "slug": "gondia",
+          "lat": 21.461388888889,
+          "lon": 80.191388888889,
+          "is_major_city": true
+        },
+        {
+          "name": "Hingoli",
+          "slug": "hingoli",
+          "lat": 19.7167,
+          "lon": 77.15,
+          "is_major_city": true
+        },
+        {
+          "name": "Jalgaon",
+          "slug": "jalgaon",
+          "lat": 18.65,
+          "lon": 75.1,
+          "is_major_city": true
+        },
+        {
+          "name": "Jalna",
+          "slug": "jalna",
+          "lat": 19.833333333333,
+          "lon": 75.883333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Kolhapur",
+          "slug": "kolhapur",
+          "lat": 16.697902777778,
+          "lon": 74.225369444444,
+          "is_major_city": true
+        },
+        {
+          "name": "Latur",
+          "slug": "latur",
+          "lat": 18.4,
+          "lon": 76.58,
+          "is_major_city": true
+        },
+        {
+          "name": "Mumbai City",
+          "slug": "mumbai-city",
+          "lat": 18.96,
+          "lon": 72.82,
+          "is_major_city": true
+        },
+        {
+          "name": "Mumbai Suburban",
+          "slug": "mumbai-suburban",
+          "lat": 19.05,
+          "lon": 72.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Nanded",
+          "slug": "nanded",
+          "lat": 19.16,
+          "lon": 77.32,
+          "is_major_city": true
+        },
+        {
+          "name": "Nandurbar",
+          "slug": "nandurbar",
+          "lat": 21.228,
+          "lon": 74.1422,
+          "is_major_city": true
+        },
+        {
+          "name": "Nagpur",
+          "slug": "nagpur",
+          "lat": 21,
+          "lon": 79,
+          "is_major_city": true
+        },
+        {
+          "name": "Nashik",
+          "slug": "nashik",
+          "lat": 19.994166666667,
+          "lon": 73.797222222222,
+          "is_major_city": true
+        },
+        {
+          "name": "Palghar",
+          "slug": "palghar",
+          "lat": 19.697,
+          "lon": 72.7712,
+          "is_major_city": true
+        },
+        {
+          "name": "Parbhani",
+          "slug": "parbhani",
+          "lat": 19.5,
+          "lon": 76.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Pune",
+          "slug": "pune",
+          "lat": 18.53,
+          "lon": 73.84,
+          "is_major_city": true
+        },
+        {
+          "name": "Raigad",
+          "slug": "raigad",
+          "lat": 18.65,
+          "lon": 72.88,
+          "is_major_city": true
+        },
+        {
+          "name": "Ratnagiri",
+          "slug": "ratnagiri",
+          "lat": 17,
+          "lon": 73.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Sangli",
+          "slug": "sangli",
+          "lat": 16.86,
+          "lon": 74.57,
+          "is_major_city": true
+        },
+        {
+          "name": "Satara",
+          "slug": "satara",
+          "lat": 17.7,
+          "lon": 74,
+          "is_major_city": true
+        },
+        {
+          "name": "Sindhudurg",
+          "slug": "sindhudurg",
+          "lat": 16.108888888889,
+          "lon": 73.690833333333,
+          "is_major_city": false
+        },
+        {
+          "name": "Solapur",
+          "slug": "solapur",
+          "lat": 17.35,
+          "lon": 75.16,
+          "is_major_city": true
+        },
+        {
+          "name": "Thane",
+          "slug": "thane",
+          "lat": 19.2,
+          "lon": 72.97,
+          "is_major_city": true
+        },
+        {
+          "name": "Wardha",
+          "slug": "wardha",
+          "lat": 20.833333333333,
+          "lon": 78.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Washim",
+          "slug": "washim",
+          "lat": 20.101047222222,
+          "lon": 77.136952777778,
+          "is_major_city": true
+        },
+        {
+          "name": "Yavatmal",
+          "slug": "yavatmal",
+          "lat": 20.1,
+          "lon": 78.2,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "West",
+      "adminType": "state",
+      "incredibleIndiaSlug": "maharashtra"
+    },
+    {
+      "name": "Andhra Pradesh",
+      "code": "IN-AP",
+      "coordinates": {
+        "lat": 15.9129,
+        "lon": 79.73999
+      },
+      "cities": [
+        {
+          "name": "Alluri Sitharama Raju",
+          "slug": "alluri-sitharama-raju",
+          "lat": 18.08,
+          "lon": 82.67,
+          "is_major_city": false
+        },
+        {
+          "name": "Anakapalli",
+          "slug": "anakapalli",
+          "lat": 17.69,
+          "lon": 83,
+          "is_major_city": true
+        },
+        {
+          "name": "Ananthapuramu",
+          "slug": "ananthapuramu",
+          "lat": 14.68,
+          "lon": 77.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Annamayya",
+          "slug": "annamayya",
+          "lat": 14.05,
+          "lon": 78.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Bapatla",
+          "slug": "bapatla",
+          "lat": 15.905,
+          "lon": 80.468,
+          "is_major_city": true
+        },
+        {
+          "name": "Chittoor",
+          "slug": "chittoor",
+          "lat": 13.21622,
+          "lon": 79.0997,
+          "is_major_city": true
+        },
+        {
+          "name": "Dr. B.R. Ambedkar Konaseema",
+          "slug": "dr-b-r-ambedkar-konaseema",
+          "lat": 16.6,
+          "lon": 82,
+          "is_major_city": true
+        },
+        {
+          "name": "East Godavari",
+          "slug": "east-godavari",
+          "lat": 16.9961,
+          "lon": 81.8003,
+          "is_major_city": true
+        },
+        {
+          "name": "Eluru",
+          "slug": "eluru",
+          "lat": 16.7151,
+          "lon": 81.1203,
+          "is_major_city": true
+        },
+        {
+          "name": "Guntur",
+          "slug": "guntur",
+          "lat": 16.3,
+          "lon": 80.45,
+          "is_major_city": true
+        },
+        {
+          "name": "Kakinada",
+          "slug": "kakinada",
+          "lat": 16.97,
+          "lon": 82.26,
+          "is_major_city": true
+        },
+        {
+          "name": "Krishna",
+          "slug": "krishna",
+          "lat": 16.1944,
+          "lon": 81.1494,
+          "is_major_city": true
+        },
+        {
+          "name": "Kurnool",
+          "slug": "kurnool",
+          "lat": 15.83,
+          "lon": 78.05,
+          "is_major_city": true
+        },
+        {
+          "name": "Nandyal",
+          "slug": "nandyal",
+          "lat": 15.5,
+          "lon": 78.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Nellore",
+          "slug": "nellore",
+          "lat": 14.43,
+          "lon": 79.97,
+          "is_major_city": true
+        },
+        {
+          "name": "NTR",
+          "slug": "ntr",
+          "lat": 16.5144,
+          "lon": 80.6192,
+          "is_major_city": true
+        },
+        {
+          "name": "Palnadu",
+          "slug": "palnadu",
+          "lat": 16.2,
+          "lon": 80,
+          "is_major_city": true
+        },
+        {
+          "name": "Parvathipuram Manyam",
+          "slug": "parvathipuram-manyam",
+          "lat": 18.8,
+          "lon": 83.4,
+          "is_major_city": false
+        },
+        {
+          "name": "Prakasam",
+          "slug": "prakasam",
+          "lat": 15.5,
+          "lon": 80.05,
+          "is_major_city": true
+        },
+        {
+          "name": "Srikakulam",
+          "slug": "srikakulam",
+          "lat": 18.3,
+          "lon": 83.9,
+          "is_major_city": true
+        },
+        {
+          "name": "Sri Sathya Sai",
+          "slug": "sri-sathya-sai",
+          "lat": 14.16,
+          "lon": 77.79,
+          "is_major_city": true
+        },
+        {
+          "name": "Tirupati",
+          "slug": "tirupati",
+          "lat": 13.6,
+          "lon": 79.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Visakhapatnam",
+          "slug": "visakhapatnam",
+          "lat": 17.688377777778,
+          "lon": 83.218758333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Vizianagaram",
+          "slug": "vizianagaram",
+          "lat": 18.12,
+          "lon": 83.42,
+          "is_major_city": true
+        },
+        {
+          "name": "West Godavari",
+          "slug": "west-godavari",
+          "lat": 16.543,
+          "lon": 81.523,
+          "is_major_city": true
+        },
+        {
+          "name": "YSR Kadapa",
+          "slug": "ysr-kadapa",
+          "lat": 14.48,
+          "lon": 78.81,
+          "is_major_city": true
+        },
+        {
+          "name": "Polavaram",
+          "slug": "polavaram",
+          "lat": 17.439,
+          "lon": 81.775,
+          "is_major_city": false
+        },
+        {
+          "name": "Markapuram",
+          "slug": "markapuram",
+          "lat": 15.735,
+          "lon": 79.27,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "state",
+      "incredibleIndiaSlug": "andhra-pradesh"
+    },
+    {
+      "name": "Karnataka",
+      "code": "IN-KA",
+      "coordinates": {
+        "lat": 15.3173,
+        "lon": 75.7139
+      },
+      "cities": [
+        {
+          "name": "Bagalkot",
+          "slug": "bagalkot",
+          "lat": 16.169444444444444,
+          "lon": 75.69166666666666,
+          "is_major_city": true
+        },
+        {
+          "name": "Ballari",
+          "slug": "ballari",
+          "lat": 15.1394,
+          "lon": 76.9214,
+          "is_major_city": true
+        },
+        {
+          "name": "Belagavi",
+          "slug": "belagavi",
+          "lat": 15.8497,
+          "lon": 74.4977,
+          "is_major_city": true
+        },
+        {
+          "name": "Bangalore Rural",
+          "slug": "bangalore-rural",
+          "lat": null,
+          "lon": null,
+          "is_major_city": false
+        },
+        {
+          "name": "Bangalore Urban",
+          "slug": "bangalore-urban",
+          "lat": 12.9716,
+          "lon": 77.5946,
+          "is_major_city": true
+        },
+        {
+          "name": "Bidar",
+          "slug": "bidar",
+          "lat": 17.92,
+          "lon": 77.519722222222,
+          "is_major_city": true
+        },
+        {
+          "name": "Chamarajanagar",
+          "slug": "chamarajanagar",
+          "lat": 11.926,
+          "lon": 76.9402,
+          "is_major_city": true
+        },
+        {
+          "name": "Chikkaballapur",
+          "slug": "chikkaballapur",
+          "lat": 13.434166666667,
+          "lon": 77.724166666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Chikmagalur",
+          "slug": "chikmagalur",
+          "lat": 13.32,
+          "lon": 75.77,
+          "is_major_city": true
+        },
+        {
+          "name": "Chitradurga",
+          "slug": "chitradurga",
+          "lat": 14,
+          "lon": 76.5,
+          "is_major_city": true
+        },
+        {
+          "name": "Dakshina Kannada",
+          "slug": "dakshina-kannada",
+          "lat": 12.9141,
+          "lon": 74.856,
+          "is_major_city": true
+        },
+        {
+          "name": "Davanagere",
+          "slug": "davanagere",
+          "lat": 14.4644,
+          "lon": 75.9219,
+          "is_major_city": true
+        },
+        {
+          "name": "Dharwad",
+          "slug": "dharwad",
+          "lat": 15.3647,
+          "lon": 75.124,
+          "is_major_city": true
+        },
+        {
+          "name": "Gadaga",
+          "slug": "gadaga",
+          "lat": 15.4,
+          "lon": 75.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Kalaburagi",
+          "slug": "kalaburagi",
+          "lat": 17.3297,
+          "lon": 76.8343,
+          "is_major_city": true
+        },
+        {
+          "name": "Hassan",
+          "slug": "hassan",
+          "lat": 13.0052,
+          "lon": 76.0965,
+          "is_major_city": true
+        },
+        {
+          "name": "Haveri",
+          "slug": "haveri",
+          "lat": 14.8,
+          "lon": 75.4,
+          "is_major_city": true
+        },
+        {
+          "name": "Kodagu",
+          "slug": "kodagu",
+          "lat": 12.4208,
+          "lon": 75.7397,
+          "is_major_city": false
+        },
+        {
+          "name": "Kolar",
+          "slug": "kolar",
+          "lat": 13.1333,
+          "lon": 78.1333,
+          "is_major_city": true
+        },
+        {
+          "name": "Koppal",
+          "slug": "koppal",
+          "lat": 15.35,
+          "lon": 76.15,
+          "is_major_city": true
+        },
+        {
+          "name": "Mandya",
+          "slug": "mandya",
+          "lat": 12.52,
+          "lon": 76.9,
+          "is_major_city": true
+        },
+        {
+          "name": "Mysore",
+          "slug": "mysore",
+          "lat": 12.2958,
+          "lon": 76.6394,
+          "is_major_city": true
+        },
+        {
+          "name": "Raichur",
+          "slug": "raichur",
+          "lat": 16.2,
+          "lon": 77.35,
+          "is_major_city": true
+        },
+        {
+          "name": "Ramanagara",
+          "slug": "ramanagara",
+          "lat": 12.716666666667,
+          "lon": 77.3,
+          "is_major_city": true
+        },
+        {
+          "name": "Shimoga",
+          "slug": "shimoga",
+          "lat": 13.933195,
+          "lon": 75.567558,
+          "is_major_city": true
+        },
+        {
+          "name": "Tumakuru",
+          "slug": "tumakuru",
+          "lat": 13.3415,
+          "lon": 77.101,
+          "is_major_city": true
+        },
+        {
+          "name": "Udupi",
+          "slug": "udupi",
+          "lat": 13.3402,
+          "lon": 74.7421,
+          "is_major_city": true
+        },
+        {
+          "name": "Uttara Kannada",
+          "slug": "uttara-kannada",
+          "lat": 14.6,
+          "lon": 74.7,
+          "is_major_city": true
+        },
+        {
+          "name": "Vijayanagara",
+          "slug": "vijayanagara",
+          "lat": null,
+          "lon": null,
+          "is_major_city": true
+        },
+        {
+          "name": "Bijapur",
+          "slug": "bijapur",
+          "lat": 16.82,
+          "lon": 75.72,
+          "is_major_city": true
+        },
+        {
+          "name": "Yadgir",
+          "slug": "yadgir",
+          "lat": 16.766667,
+          "lon": 77.133333,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "state",
+      "incredibleIndiaSlug": "karnataka"
+    },
+    {
+      "name": "Kerala",
+      "code": "IN-KL",
+      "coordinates": {
+        "lat": 10.8505,
+        "lon": 76.2711
+      },
+      "cities": [
+        {
+          "name": "Alappuzha",
+          "slug": "alappuzha",
+          "lat": 9.4978,
+          "lon": 76.3286,
+          "is_major_city": true
+        },
+        {
+          "name": "Ernakulam",
+          "slug": "ernakulam",
+          "lat": 9.9312,
+          "lon": 76.2673,
+          "is_major_city": true
+        },
+        {
+          "name": "Idukki",
+          "slug": "idukki",
+          "lat": 9.8496,
+          "lon": 76.967,
+          "is_major_city": true
+        },
+        {
+          "name": "Kannur",
+          "slug": "kannur",
+          "lat": 11.8745,
+          "lon": 75.3704,
+          "is_major_city": true
+        },
+        {
+          "name": "Kasaragod",
+          "slug": "kasaragod",
+          "lat": 12.4984,
+          "lon": 75.0157,
+          "is_major_city": true
+        },
+        {
+          "name": "Kollam",
+          "slug": "kollam",
+          "lat": 8.8932,
+          "lon": 76.6141,
+          "is_major_city": true
+        },
+        {
+          "name": "Kottayam",
+          "slug": "kottayam",
+          "lat": 9.5916,
+          "lon": 76.5222,
+          "is_major_city": true
+        },
+        {
+          "name": "Kozhikode",
+          "slug": "kozhikode",
+          "lat": 11.2588,
+          "lon": 75.7804,
+          "is_major_city": true
+        },
+        {
+          "name": "Malappuram",
+          "slug": "malappuram",
+          "lat": 11.0732,
+          "lon": 76.0695,
+          "is_major_city": true
+        },
+        {
+          "name": "Palakkad",
+          "slug": "palakkad",
+          "lat": 10.7905,
+          "lon": 76.651,
+          "is_major_city": true
+        },
+        {
+          "name": "Pathanamthitta",
+          "slug": "pathanamthitta",
+          "lat": 9.2648,
+          "lon": 76.7872,
+          "is_major_city": true
+        },
+        {
+          "name": "Thiruvananthapuram",
+          "slug": "thiruvananthapuram",
+          "lat": 8.5241,
+          "lon": 76.9366,
+          "is_major_city": true
+        },
+        {
+          "name": "Thrissur",
+          "slug": "thrissur",
+          "lat": 10.5276,
+          "lon": 76.2144,
+          "is_major_city": true
+        },
+        {
+          "name": "Wayanad",
+          "slug": "wayanad",
+          "lat": 11.6854,
+          "lon": 76.132,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "state",
+      "incredibleIndiaSlug": "kerala"
+    },
+    {
+      "name": "Lakshadweep",
+      "code": "IN-LD",
+      "coordinates": {
+        "lat": 10.5667,
+        "lon": 72.6417
+      },
+      "cities": [
+        {
+          "name": "Lakshadweep",
+          "slug": "lakshadweep",
+          "lat": 10.57,
+          "lon": 72.64,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "lakshadweep"
+    },
+    {
+      "name": "Puducherry",
+      "code": "IN-PY",
+      "coordinates": {
+        "lat": 11.9416,
+        "lon": 79.8083
+      },
+      "cities": [
+        {
+          "name": "Karaikal",
+          "slug": "karaikal",
+          "lat": 11.016666666667,
+          "lon": 79.866666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Mah\u00e9",
+          "slug": "mahe",
+          "lat": 11.7004,
+          "lon": 75.5344,
+          "is_major_city": false
+        },
+        {
+          "name": "Puducherry",
+          "slug": "puducherry",
+          "lat": 11.91666667,
+          "lon": 79.81666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Yanam",
+          "slug": "yanam",
+          "lat": 16.733333333333,
+          "lon": 82.25,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "ut",
+      "incredibleIndiaSlug": "puducherry"
+    },
+    {
+      "name": "Tamil Nadu",
+      "code": "IN-TN",
+      "coordinates": {
+        "lat": 11.1271,
+        "lon": 78.6569
+      },
+      "cities": [
+        {
+          "name": "Ariyalur",
+          "slug": "ariyalur",
+          "lat": 11.137038888889,
+          "lon": 79.075822222222,
+          "is_major_city": false
+        },
+        {
+          "name": "Chengalpattu",
+          "slug": "chengalpattu",
+          "lat": 12.69055556,
+          "lon": 79.97777778,
+          "is_major_city": true
+        },
+        {
+          "name": "Chennai",
+          "slug": "chennai",
+          "lat": 13.083888888889,
+          "lon": 80.27,
+          "is_major_city": true
+        },
+        {
+          "name": "Coimbatore",
+          "slug": "coimbatore",
+          "lat": 11.0125,
+          "lon": 76.971388888889,
+          "is_major_city": true
+        },
+        {
+          "name": "Cuddalore",
+          "slug": "cuddalore",
+          "lat": 11.75,
+          "lon": 79.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Dharmapuri",
+          "slug": "dharmapuri",
+          "lat": 12.126,
+          "lon": 78.154,
+          "is_major_city": true
+        },
+        {
+          "name": "Dindigul",
+          "slug": "dindigul",
+          "lat": 10.4,
+          "lon": 77.8,
+          "is_major_city": true
+        },
+        {
+          "name": "Erode",
+          "slug": "erode",
+          "lat": 11.35,
+          "lon": 77.73333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Kallakurichi",
+          "slug": "kallakurichi",
+          "lat": 11.738,
+          "lon": 78.962,
+          "is_major_city": true
+        },
+        {
+          "name": "Kanchipuram",
+          "slug": "kanchipuram",
+          "lat": 12.82,
+          "lon": 79.71,
+          "is_major_city": true
+        },
+        {
+          "name": "Kanyakumari",
+          "slug": "kanyakumari",
+          "lat": 8.32,
+          "lon": 77.34,
+          "is_major_city": true
+        },
+        {
+          "name": "Karur",
+          "slug": "karur",
+          "lat": 10.958,
+          "lon": 78.08,
+          "is_major_city": true
+        },
+        {
+          "name": "Krishnagiri",
+          "slug": "krishnagiri",
+          "lat": 12.518,
+          "lon": 78.213,
+          "is_major_city": true
+        },
+        {
+          "name": "Madurai",
+          "slug": "madurai",
+          "lat": 9.8333333333333,
+          "lon": 77.833333333333,
+          "is_major_city": true
+        },
+        {
+          "name": "Mayiladuthurai",
+          "slug": "mayiladuthurai",
+          "lat": 11.101666666666667,
+          "lon": 79.68166666666667,
+          "is_major_city": false
+        },
+        {
+          "name": "Nagapattinam",
+          "slug": "nagapattinam",
+          "lat": 10.767,
+          "lon": 79.833,
+          "is_major_city": true
+        },
+        {
+          "name": "Nilgiris",
+          "slug": "nilgiris",
+          "lat": 11.4,
+          "lon": 76.7,
+          "is_major_city": false
+        },
+        {
+          "name": "Namakkal",
+          "slug": "namakkal",
+          "lat": 11.219,
+          "lon": 78.167,
+          "is_major_city": true
+        },
+        {
+          "name": "Perambalur",
+          "slug": "perambalur",
+          "lat": 11.2335,
+          "lon": 78.883311111111,
+          "is_major_city": false
+        },
+        {
+          "name": "Pudukkottai",
+          "slug": "pudukkottai",
+          "lat": 10.35,
+          "lon": 78.9,
+          "is_major_city": true
+        },
+        {
+          "name": "Ramanathapuram",
+          "slug": "ramanathapuram",
+          "lat": 9.28044,
+          "lon": 77.4336,
+          "is_major_city": true
+        },
+        {
+          "name": "Ranipet",
+          "slug": "ranipet",
+          "lat": 12.93361111111111,
+          "lon": 79.34136111111111,
+          "is_major_city": true
+        },
+        {
+          "name": "Salem",
+          "slug": "salem",
+          "lat": 11.6646,
+          "lon": 78.146,
+          "is_major_city": true
+        },
+        {
+          "name": "Sivaganga",
+          "slug": "sivaganga",
+          "lat": 9.7166666666667,
+          "lon": 78.816666666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Tenkasi",
+          "slug": "tenkasi",
+          "lat": 8.96666667,
+          "lon": 77.31666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Tiruppur",
+          "slug": "tiruppur",
+          "lat": 11.18,
+          "lon": 77.25,
+          "is_major_city": true
+        },
+        {
+          "name": "Tiruchirappalli",
+          "slug": "tiruchirappalli",
+          "lat": 10.97,
+          "lon": 78.65,
+          "is_major_city": true
+        },
+        {
+          "name": "Theni",
+          "slug": "theni",
+          "lat": 10.066666666667,
+          "lon": 77.75,
+          "is_major_city": true
+        },
+        {
+          "name": "Tirunelveli",
+          "slug": "tirunelveli",
+          "lat": 8.65,
+          "lon": 77.3833,
+          "is_major_city": true
+        },
+        {
+          "name": "Thanjavur",
+          "slug": "thanjavur",
+          "lat": 10.64,
+          "lon": 79.22,
+          "is_major_city": true
+        },
+        {
+          "name": "Thoothukudi",
+          "slug": "thoothukudi",
+          "lat": 8.803,
+          "lon": 78.1445,
+          "is_major_city": true
+        },
+        {
+          "name": "Tirupattur",
+          "slug": "tirupattur",
+          "lat": 12.5,
+          "lon": 78.6,
+          "is_major_city": true
+        },
+        {
+          "name": "Tiruvallur",
+          "slug": "tiruvallur",
+          "lat": 13.1406,
+          "lon": 79.906,
+          "is_major_city": true
+        },
+        {
+          "name": "Tiruvarur",
+          "slug": "tiruvarur",
+          "lat": 10.7716,
+          "lon": 79.6368,
+          "is_major_city": true
+        },
+        {
+          "name": "Tiruvannamalai",
+          "slug": "tiruvannamalai",
+          "lat": 12.51,
+          "lon": 79.09,
+          "is_major_city": true
+        },
+        {
+          "name": "Vellore",
+          "slug": "vellore",
+          "lat": 12.911111111111,
+          "lon": 79.136111111111,
+          "is_major_city": true
+        },
+        {
+          "name": "Viluppuram",
+          "slug": "viluppuram",
+          "lat": 11.9547,
+          "lon": 79.527730555556,
+          "is_major_city": true
+        },
+        {
+          "name": "Virudhunagar",
+          "slug": "virudhunagar",
+          "lat": 9.5842,
+          "lon": 77.9582,
+          "is_major_city": true
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "state",
+      "incredibleIndiaSlug": "tamil-nadu"
+    },
+    {
+      "name": "Telangana",
+      "code": "IN-TS",
+      "coordinates": {
+        "lat": 18.1124,
+        "lon": 79.0193
+      },
+      "cities": [
+        {
+          "name": "Adilabad",
+          "slug": "adilabad",
+          "lat": 19.669,
+          "lon": 78.53548,
+          "is_major_city": false
+        },
+        {
+          "name": "Bhadradri Kothagudem",
+          "slug": "bhadradri-kothagudem",
+          "lat": 17.55,
+          "lon": 80.63,
+          "is_major_city": true
+        },
+        {
+          "name": "Hanamkonda",
+          "slug": "hanamkonda",
+          "lat": 18.0072514,
+          "lon": 79.5514756,
+          "is_major_city": true
+        },
+        {
+          "name": "Hyderabad",
+          "slug": "hyderabad",
+          "lat": 17.40164,
+          "lon": 78.48976,
+          "is_major_city": true
+        },
+        {
+          "name": "Jagtial",
+          "slug": "jagtial",
+          "lat": 18.8,
+          "lon": 78.93,
+          "is_major_city": false
+        },
+        {
+          "name": "Jangaon",
+          "slug": "jangaon",
+          "lat": 17.72,
+          "lon": 79.18,
+          "is_major_city": false
+        },
+        {
+          "name": "Jayashankar Bhupalpally",
+          "slug": "jayashankar-bhupalpally",
+          "lat": 18.4314,
+          "lon": 79.8605,
+          "is_major_city": false
+        },
+        {
+          "name": "Jogulamba Gadwal",
+          "slug": "jogulamba-gadwal",
+          "lat": 16.23,
+          "lon": 77.8,
+          "is_major_city": false
+        },
+        {
+          "name": "Kamareddy",
+          "slug": "kamareddy",
+          "lat": 18.323,
+          "lon": 78.335,
+          "is_major_city": false
+        },
+        {
+          "name": "Karimnagar",
+          "slug": "karimnagar",
+          "lat": 18.43553888888889,
+          "lon": 79.13371111111111,
+          "is_major_city": true
+        },
+        {
+          "name": "Khammam",
+          "slug": "khammam",
+          "lat": 17.006944444444,
+          "lon": 81.004166666667,
+          "is_major_city": true
+        },
+        {
+          "name": "Kumuram Bheem Asifabad",
+          "slug": "kumuram-bheem-asifabad",
+          "lat": 19.365,
+          "lon": 79.274,
+          "is_major_city": false
+        },
+        {
+          "name": "Mahabubabad",
+          "slug": "mahabubabad",
+          "lat": 17.6167,
+          "lon": 80.0167,
+          "is_major_city": false
+        },
+        {
+          "name": "Mahbubnagar",
+          "slug": "mahbubnagar",
+          "lat": 16.7488,
+          "lon": 78.0035,
+          "is_major_city": true
+        },
+        {
+          "name": "Mancherial",
+          "slug": "mancherial",
+          "lat": 18.87208,
+          "lon": 79.44721,
+          "is_major_city": false
+        },
+        {
+          "name": "Medak",
+          "slug": "medak",
+          "lat": 18.039,
+          "lon": 78.2593611111111,
+          "is_major_city": false
+        },
+        {
+          "name": "Medchal\u2013Malkajgiri",
+          "slug": "medchal-malkajgiri",
+          "lat": 17.591666666666665,
+          "lon": 78.58222222222221,
+          "is_major_city": true
+        },
+        {
+          "name": "Mulugu",
+          "slug": "mulugu",
+          "lat": 18.193237,
+          "lon": 79.941368,
+          "is_major_city": false
+        },
+        {
+          "name": "Nalgonda",
+          "slug": "nalgonda",
+          "lat": 17.1,
+          "lon": 79.3,
+          "is_major_city": true
+        },
+        {
+          "name": "Nagarkurnool",
+          "slug": "nagarkurnool",
+          "lat": 16.4833,
+          "lon": 78.3333,
+          "is_major_city": false
+        },
+        {
+          "name": "Narayanpet",
+          "slug": "narayanpet",
+          "lat": 16.73,
+          "lon": 77.5,
+          "is_major_city": false
+        },
+        {
+          "name": "Nirmal",
+          "slug": "nirmal",
+          "lat": 19.1,
+          "lon": 78.35,
+          "is_major_city": false
+        },
+        {
+          "name": "Nizamabad",
+          "slug": "nizamabad",
+          "lat": 18.683333333333,
+          "lon": 78.1,
+          "is_major_city": true
+        },
+        {
+          "name": "Peddapalli",
+          "slug": "peddapalli",
+          "lat": 18.61011111111111,
+          "lon": 79.37943055555556,
+          "is_major_city": false
+        },
+        {
+          "name": "Rajanna Sircilla",
+          "slug": "rajanna-sircilla",
+          "lat": 18.388380555555557,
+          "lon": 78.81398888888889,
+          "is_major_city": false
+        },
+        {
+          "name": "Ranga Reddy",
+          "slug": "ranga-reddy",
+          "lat": 17.2,
+          "lon": 78.28,
+          "is_major_city": true
+        },
+        {
+          "name": "Sangareddy",
+          "slug": "sangareddy",
+          "lat": 17.6294,
+          "lon": 78.0917,
+          "is_major_city": true
+        },
+        {
+          "name": "Siddipet",
+          "slug": "siddipet",
+          "lat": 18.1,
+          "lon": 78.85,
+          "is_major_city": false
+        },
+        {
+          "name": "Suryapet",
+          "slug": "suryapet",
+          "lat": 17.1415,
+          "lon": 79.6236,
+          "is_major_city": true
+        },
+        {
+          "name": "Vikarabad",
+          "slug": "vikarabad",
+          "lat": 17.33,
+          "lon": 77.9,
+          "is_major_city": false
+        },
+        {
+          "name": "Wanaparthy",
+          "slug": "wanaparthy",
+          "lat": 16.361,
+          "lon": 78.0627,
+          "is_major_city": false
+        },
+        {
+          "name": "Warangal",
+          "slug": "warangal",
+          "lat": 17.9689,
+          "lon": 79.5941,
+          "is_major_city": false
+        },
+        {
+          "name": "Yadadri Bhuvanagiri",
+          "slug": "yadadri-bhuvanagiri",
+          "lat": 17.51,
+          "lon": 78.89,
+          "is_major_city": false
+        }
+      ],
+      "indiaRegion": "South",
+      "adminType": "state",
+      "incredibleIndiaSlug": "telangana"
+    }
+  ]
+}

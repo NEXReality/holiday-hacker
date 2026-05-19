@@ -1,0 +1,862 @@
+{
+  "state": "Mizoram",
+  "state_code": "MI",
+  "generated_at": "2026-05-18T11:15:11.751Z",
+  "count": 3,
+  "destinations": [
+    {
+      "slug": "mizoram-aizawl",
+      "name": "Aizawl",
+      "region": "",
+      "state": "Mizoram",
+      "coordinates": {
+        "lat": 23.73333,
+        "lon": 92.71667,
+        "source": "wikidata"
+      },
+      "description": "**Aizawl** is the capital and largest city of the state of Mizoram , India . It is situated on a ridge 1132 metres (3715 ft) above sea level, with the Tlawng river valley to its west and the Tuirial river valley to its east. In the summer the temperature ranges from 20-30 degrees Celsius, and in the winter 11-21 degrees Celsius.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Aizawl",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aizawl",
+        "wikidata": "https://www.wikidata.org/wiki/Q192379"
+      },
+      "distance_km": 1992,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:45:17.736Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Aizwal",
+        "Aizol",
+        "Aijal",
+        "Aidžalas",
+        "Aizaulas",
+        "Aizavlas",
+        "Aizavlisa"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lengpui_Airport_Building.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aizwal%2C%20Mizoram..JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Lengpui Airport",
+          "code": "AJL",
+          "distance_km": 31
+        },
+        "nearest_railway_station": {
+          "name": "Sairang railway station",
+          "distance_km": 22,
+          "note": "NFR railhead ~21 km west of central Aizawl—Rajdhani & Guwahati expresses"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Guwahati",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal",
+          "Silchar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 59401,
+        "content_richness_score": 0.424
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "This 112-year-old citadel-like city, with its timber houses is set on a ridge at approximately an altitude of 4000 ft above sea level. The city is spread over several mountain ridges with most houses built on 60%+ inclines. Aizawl is a religious and cultural center of the Mizos. Aizawl lies just north of Tropic of cancer.\r\n\nWith a population of approximately 300,000, it has cloudless blue skies, dewy mornings and sunlit days. These help to ensure the enjoyment of unforgettable holiday pleasures practically all year round. Even the monsoon months are pleasant and gentle.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Lengpui Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Lengpui_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Lengpui Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Lengpui_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Lengpui Airport** ( **AJL **  IATA ). Offers flights from Delhi , Guwahati , Imphal , Kolkata and Silchar .  ( updated Sep 2025 ) \r\n By bus Buses run between all the capital cities in the Northeast states, Guwahati , Shillong and Silchar being the main routes. Mizoram State Transport [dead link] lists services throughout the state and to Silchar but their schedule is always subject to change. Network Travels [dead link] has luxury buses from Guwahati . The new bus terminal is located in the suburb of Thuampui area. There is frequent city bus service from the centre but may take up to one hour. Taxis cost ₹200 and up.\r\n\n\r\n By train 2 ** Sairang    NFR**  ( station code: SANG ). Served by a Rajdhani Express train from Delhi (Anand Vihar Terminal), along with two express trains from Guwahati and Kolkata .  ( updated Sep 2025 ) \r\n By rental car Sumos are ten-seat SUVs and provide intra- and inter-state transportation. They depart from various parts of the city, depending on the destination; the Guwahati-Silchar route starts at the Zarkawt area.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "This means if you need to go vertically up or down it will be faster to take a foot path than to go by road. The mountainous landscape also means that the cost of driving a relatively short horizontal distance can be quite expensive and this is reflected in bus and taxi rates.\r\n\nThere are numerous buses routes that connect the various localities and most run through the town centre (Dawrpui - North to South and Civil Hospital South to North). Bus fares vary and best is to ask the conductor, though a relatively short trip of 1 km cost around ₹5 (Jan 2012). One thing to note is that there are no buses operate between the airport and the city.\r\n\nThere are nearly 5,000 taxis licensed in Aizawl and are readily available. Rates are extremely high compared to the rest of India. Though there are official published rates, no taxi runs by these rates. The main contention from taxi drivers is that 1 km uphill costs more to run than downhill and with inclines being frequently 30% or more. A relatively short distance of 1 km costs around ₹50. A taxi to or from the airport costs around ₹800 (July 2012) to/from the central areas of Aizawl. However, the price is liable to go up if petrol prices rise or if a landslide blocks the main road (requiring a longer alternate route).\r\n\nSure Taxis offers a service to find, negotiate rates on your behalf and dispatch taxis to your location: and they don't charge anything to you. They also offer rental cars (with a driver) such as Altos, Boleros and Scorpios. Their numbers are: 0389 232 2833 &amp; 0389 232 1494",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Mizoram State Museum",
+              "description": "An museum of the Mizo culture, divided into five galleries: Textile Gallery, Ethnology, History, Anthropology, Natural History and Archaeology Terrace.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mizoram_State_Museum",
+              "coordinates": {
+                "lat": 23.7381,
+                "lon": 92.7156
+              },
+              "price": "Nominal entry fee of ₹5"
+            }
+          ],
+          "brief": "1 **Mizoram State Museum** ( MacDonald Hill, near the Chief Minister's Bungalow ), ☏ +91 389 234 0936 . An museum of the Mizo culture, divided into five galleries: Textile Gallery, Ethnology, History, Anthropology, Natural History and Archaeology Terrace. Nominal entry fee of ₹5 .  ( updated Sep 2025 ) \r\n 2 ** Solomon's Temple ** . Large church that has quickly turned into a tourist attraction.  ( updated Apr 2017 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Lalsavunga Park",
+              "description": "The park is at an elevation of 1129 metres, making it one of the highest parks in the state. Has 2 long handing suspension bridges as its main attraction, along with a children's playground and stunning views of the surrounding mountains. Some of the terrain in the park is hilly so be sure to wear appropriate footwear."
+            },
+            {
+              "name": "Hawla Indoor Stadium",
+              "description": ""
+            },
+            {
+              "name": "Lammual Stadium",
+              "description": ""
+            },
+            {
+              "name": "Rajiv Gandhi Stadium",
+              "description": ""
+            }
+          ],
+          "brief": "The park is at an elevation of 1129 metres, making it one of the highest parks in the state. Has 2 long handing suspension bridges as its main attraction, along with a children's playground and stunning views of the surrounding mountains. Some of the terrain in the park is hilly so be sure to wear appropriate footwear.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "The alcohol ban in Mizoram has been lifted, but there are no bars of any description. Licensed wine called Zawlaidi is available in various departmental stores.\r\n\nThere are very few places to have a casual non-alcoholic drink. There are two cafes, both part of a Zote Bakery outlet. One is in Dawrpui near the church and another in Electric Veng. Don't expect a wide range of drinks: It's either milky tea or milky coffee out of a Nescafe machine."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Traveller's Inn",
+              "description": "Has single rooms partitioned with plywood walls and shared bathrooms for ₹250. Staffed with young, friendly people.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.650Z"
+      },
+      "search_context": "City / Urban destination Aizawl Aizwal Aizol Aijal Aidžalas Aizaulas Aizavlas Aizavlisa Sightseeing Aizawl is the capital and largest city of the state of Mizoram , India . It is situated on a ridge 1132 metres (3715 ft) above sea level, with the Tlawng river valley to its west and the Tuirial river valley to its east. In the summer the temperature ranges from 20-30 degrees Celsius, and in the winter 11-21 degrees Celsius.",
+      "travel_facts": {
+        "summary": "**Aizawl** anchors **AJL Lengpui (~31 km)** ridge capital apron beneath **Sairang NFR (~22 km)** knowing Thuampui bus stacks absorb timber-house incline taxi tides.",
+        "keywords": [
+          "ajl lengpui stacks",
+          "sairang nfr merges",
+          "zarkawt sumo apron",
+          "mizo heritage museum tides"
+        ]
+      }
+    },
+    {
+      "slug": "mizoram-champhai",
+      "name": "Champhai",
+      "region": "",
+      "state": "Mizoram",
+      "coordinates": {
+        "lat": 23.46,
+        "lon": 93.33,
+        "source": "wikidata"
+      },
+      "description": "**Champhai** is Mizoram’s eastern commercial hub on the Indo-Myanmar border—the state’s largest rice-plains belt and gateway to Zokhawthar trade routes.",
+      "category": "Border / Gateway town",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Champhai",
+        "wikipedia": "https://en.wikipedia.org/wiki/Champhai",
+        "wikidata": "https://www.wikidata.org/wiki/Q861388"
+      },
+      "distance_km": 2027,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:45:17.736Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Champhai%2C_Mizoram%2C_from_south%2C_with_Zotlang_in_the_foreground.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Champhai%2C%20Mizoram%2C%20from%20south%2C%20with%20Zotlang%20in%20the%20foreground.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Lengpui Airport",
+          "code": "AJL",
+          "distance_km": 228,
+          "note": "Via ~200 km winding NH relay from Aizawl; overnight Sumo timing common"
+        },
+        "nearest_railway_station": {
+          "name": "Sairang railway station",
+          "distance_km": 218,
+          "note": "Road completion via Aizawl (~200 km) after railhead"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Guwahati",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal",
+          "Silchar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 36856,
+        "content_richness_score": 0.263
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Champhai is a local commercial hub on the Indo-Myanmar border, about 200 km from Aizawl, and has the biggest stretch of plains used for rice cultivation in Mizoram.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "The only way to get into Champhai is by road. \r\nSumos (10 passenger SUV) are available to/from Aizawl (₹450) and Lunglei (₹750, 12 hr).\r\n\nBooking counters in Aizawl are around Lower Zarkawt (Electric Veng). The road to Champhai is narrow and winding, one should expect 8 hours journey including one meal stop on the way. Sumos leave both Champhai and Aizawl around 6AM and 6PM.\r\n\nNo Sumo runs on Sundays and Christian holidays.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Fiara Tui",
+              "description": "This river is 65 km from Champhai (known as \"the purest summer water on Earth\") has its source in the Tan Tlang Mountain.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.13985,
+                "lon": 93.30976
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Hnahlan",
+              "description": "This is an area which near Champhai with vineyards and a beautiful climate.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Hnahlan",
+              "coordinates": {
+                "lat": 23.69379,
+                "lon": 93.38173
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Lamsial Puk",
+              "description": "Cave is near Farkawn village.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.13562,
+                "lon": 93.28109
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Lianchhiari Tlang",
+              "description": "This is a rocky cliff ledge near the village of Dungtlang.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.19778,
+                "lon": 93.2468
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Mizo Hlakungpui Mual",
+              "description": "A monument at the southern end of Khawbung village that commemorates the Mizo classical composers.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mizo_Hlakungpui_Mual",
+              "coordinates": {
+                "lat": 23.16188,
+                "lon": 93.21885
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Murlen National Park",
+              "description": "A home to a wide variety of flora and fauna.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.65737,
+                "lon": 93.27848
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Mura Puk",
+              "description": "This lake is in Zote village. There are 6 caves (pits) at this site.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Tan Tlang",
+              "description": "A legendary mountain (85 km from Champhai) located near Vaphai village.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Thasiama Seno Neihna",
+              "description": "This is a plateau on a rugged hill near Vaphai village.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Zokhawthar",
+              "description": "A trading town on the border with Myanmar.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Zokhawthar",
+              "coordinates": {
+                "lat": 23.36525,
+                "lon": 93.38551
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Fiara Tui**. This river is 65 km from Champhai (known as \"the purest summer water on Earth\") has its source in the Tan Tlang Mountain.   \r\n \r\n 2 **Hnahlan** . This is an area which near Champhai with vineyards and a beautiful climate.   \r\n 3 **Lamsial Puk**. Cave is near Farkawn village.   \r\n 4 **Lianchhiari Tlang** ( Lianchhiari Lunglen Tlang ). This is a rocky cliff ledge near the village of Dungtlang.   \r\n 5 **Mizo Hlakungpui Mual** . A monument at the southern end of Khawbung village that commemorates the Mizo classical composers.   \r\n 6 **Murlen National Park**. A home to a wide variety of flora and fauna.   \r\n **Mura Puk**. This lake is in Zote village. There are 6 caves (pits) at this site.   \r\n **Tan Tlang**. A legendary mountain (85 km from Champhai) located near Vaphai village.   \r\n **Thasiama Seno Neihna**. This is a plateau on a rugged hill near Vaphai village.   \r\n 7 **Zokhawthar** . A trading town on the border with Myanmar.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Holiday Home",
+              "description": "Pleasant budget hotel. Nice view of the valley from its rooftop.",
+              "price": "₹300 single"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Border / Gateway town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.651Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Border / Gateway town destination Champhai Sightseeing Champhai is Mizoram’s eastern commercial hub on the Indo-Myanmar border—the state’s largest rice-plains belt and gateway to Zokhawthar trade routes.",
+      "travel_facts": {
+        "summary": "**Champhai** hinges **AJL (~228 km) Aizawl relays** beneath **Sairang (~218 km) connectors** knowing shared Sumo stacks absorb Indo-Myanmar vineyard ridge tides.",
+        "keywords": [
+          "champhai sumo stacks",
+          "east mizoram highway merges",
+          "hnahlan vineyard apron",
+          "zokhawthar border tides"
+        ]
+      }
+    },
+    {
+      "slug": "mizoram-lunglei",
+      "name": "Lunglei",
+      "region": "",
+      "state": "Mizoram",
+      "coordinates": {
+        "lat": 22.88657,
+        "lon": 92.7451,
+        "source": "wikidata"
+      },
+      "description": "**Lunglei** is a city of 57,000 people (2011) in Mizoram , North-East India . Lunglei offers a plethora of picnic spots to explore sporting skills and sportsman spirit. Lunglei district offers natural splendour coupled with the rich cultural traditions of the region.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Lunglei",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lunglei",
+        "wikidata": "https://www.wikidata.org/wiki/Q2182763"
+      },
+      "distance_km": 1943,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:45:17.736Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lunglei_View.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lunglei%2C%20Mizoram%20-%20panoramio%20(1).jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Lengpui Airport",
+          "code": "AJL",
+          "distance_km": 268,
+          "note": "Via ~235 km hill highway north to Aizawl then airport spur"
+        },
+        "nearest_railway_station": {
+          "name": "Sairang railway station",
+          "distance_km": 258,
+          "note": "Road relay via Aizawl—check landslide detours in monsoon"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Guwahati",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal",
+          "Silchar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 12598,
+        "content_richness_score": 0.09
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Most of the indigenous local inhabitants of the district of Lunglei depend on agriculture and earn their livelihood from growing crops. The cash crops of coffee and rubber help the district to earn its revenue. Rice is the principal crop in the agricultural economy. Cottage industries produce handloomed cloth, furniture, agricultural equipment, woven textiles, and bamboo and cane work.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Kawmzawl Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Khawnglung Wildlife Sanctuary",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.1173,
+                "lon": 92.93807
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Saikuti Hall",
+              "description": "This is where most of the concerts and celebrations are held. A unique museum has also been established in the hall where local painters demonstrate their skill and exhibit their works.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Kawmzawl Park**.   \r\n 1 **Khawnglung Wildlife Sanctuary**.   \r\n **Saikuti Hall**. This is where most of the concerts and celebrations are held. A unique museum has also been established in the hall where local painters demonstrate their skill and exhibit their works.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.651Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban destination Lunglei Sightseeing Lunglei is a city of 57,000 people (2011) in Mizoram , North-East India . Lunglei offers a plethora of picnic spots to explore sporting skills and sportsman spirit. Lunglei district offers natural splendour coupled with the rich cultural traditions of the region.",
+      "travel_facts": {
+        "summary": "**Lunglei** stacks **AJL (~268 km) southern relays** beneath **Sairang (~258 km) connectors** knowing Khawnglung sanctuary stacks absorb southern Mizoram picnic ridge tides.",
+        "keywords": [
+          "lunglei highway stacks",
+          "ajl relay merges",
+          "saikuti hall apron",
+          "khawnglung sanctuary tides"
+        ]
+      }
+    }
+  ]
+}

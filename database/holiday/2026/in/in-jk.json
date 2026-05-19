@@ -1,0 +1,52 @@
+{
+  "stateCode": "IN-JK",
+  "stateName": "Jammu and Kashmir",
+  "year": 2026,
+  "indiaRegion": "North",
+  "adminType": "state",
+  "incredibleIndiaSlug": "jammu-and-kashmir",
+  "holidayJsonSlug": "in-jk",
+  "holidays": [
+    { "date": "2026-01-05", "name": "Guru Gobind Singh Ji's Birthday", "type": "gazetted" },
+    { "date": "2026-01-17", "name": "Shab-i-Miraj*", "type": "gazetted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-15", "name": "Mahashivratri", "type": "gazetted" },
+
+    { "date": "2026-03-17", "name": "Shab-i-Qadr*", "type": "gazetted" },
+    { "date": "2026-03-19", "name": "Navratra (1st)", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "Jumat-ul-Vida*", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Eid-ul-Fitr*", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Naurooz*", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+
+    { "date": "2026-04-14", "name": "Baisakhi / Birthday of Dr. B.R. Ambedkar", "type": "gazetted" },
+    { "date": "2026-04-19", "name": "Parshuram Jayanti (Jammu Province only)", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "gazetted" },
+    { "date": "2026-05-27", "name": "Eid-ul-Azha (Bakrid)*", "type": "gazetted" },
+
+    { "date": "2026-06-16", "name": "Martyr's Day of Guru Arjun Dev Ji", "type": "restricted" },
+    { "date": "2026-06-26", "name": "Ashoora*", "type": "gazetted" },
+    { "date": "2026-06-29", "name": "Kabir Jayanti (Jammu Province only)", "type": "restricted" },
+
+    { "date": "2026-07-05", "name": "Guru Hargobind Ji's Birthday", "type": "gazetted" },
+
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Eid-i-Milad-un-Nabi*", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Friday following Eid-i-Milad-un-Nabi*", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "restricted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-23", "name": "Birthday of Maharaja Hari Singh Ji", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi's Birthday", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Maha Navami / Dussehra", "type": "gazetted" },
+    { "date": "2026-10-26", "name": "Accession Day", "type": "gazetted" },
+
+    { "date": "2026-11-08", "name": "Diwali", "type": "gazetted" },
+    { "date": "2026-11-24", "name": "Guru Nanak Dev Ji's Birthday", "type": "gazetted" },
+
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" }
+  ]
+}

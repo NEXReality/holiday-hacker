@@ -1,7 +1,7 @@
 {
   "state": "Kerala",
   "state_code": "KL",
-  "generated_at": "2026-02-21T18:50:17.774Z",
+  "generated_at": "2026-05-18T10:51:43.590Z",
   "count": 24,
   "destinations": [
     {
@@ -17,9 +17,16 @@
       "description": "The city of **Alappuzha**, also known as **Alleppey**, is situated in Kerala . Alappuzha is the smallest district in Kerala with a long coastline and many lagoons and backwaters. It is often called the _Venice of the East_ due to the canals that connect it to Kerala's famous snaking backwaters . The district headquarters is 70 km south of Cochin .",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Alappuzha",
@@ -27,19 +34,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q585026"
       },
       "distance_km": 410,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Alappula",
@@ -65,23 +80,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Cochin International Airport",
           "code": "COK",
-          "distance_km": null
+          "distance_km": 84,
+          "note": "Houseboat taxi tides thicken Aug–Sep monsoon cancellations—backwater ferry merges absorb Kuttanad peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Alappuzha railway station",
+          "distance_km": 4,
+          "note": "Vembanad lake cruises link Kottayam feeders—Nehru Trophy regatta weekends choke jetty queues"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Hyderabad"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Hyderabad"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -91,7 +154,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -111,7 +178,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 102013,
-        "content_richness_score": 0.315
+        "content_richness_score": 0.729
       },
       "section_briefs": {
         "understand": {
@@ -285,7 +352,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:11.553Z"
+      },
+      "search_context": "Beach / Coastal City / Urban Alappuzha Sightseeing Alappuzha has a wonderful past that owes its modern existence to the efforts of Diwan Raja Kesavadas in the second half of the 18th century. Diwan Raja Kasavadas was instrumental in making Alappuzha a major port city in his time and for developing the system of inland canals, used for transportation and navigation, that is seen today. The name Alappuzha means \"the land between the sea and network of rivers flowing into it\". It is a fitting name: The city of Alappuzha, also known as Alleppey, is situated in Kerala . Alappuzha is the smallest district in Kerala with a long coastline and many lagoons and backwaters. It is often called the _Venice of the East_ due to the canals that connect it to Kerala's famous snaking backwaters . The district headquarters is 70",
+      "travel_facts": {
+        "summary": "**Alappuzha** couples **Alappuzha station (~4 km)** backwater meshes with **COK (~84 km)** apron stacks—Venice-of-the-East canal tides bias houseboat booking merges knowing Kumarakom ferry feeders absorb monsoon chop peaks.",
+        "keywords": [
+          "alappuzha backwater meshes",
+          "cok apron stacks",
+          "vembanad canal tides",
+          "houseboat booking merges",
+          "nehru trophy jetty queues",
+          "kuttanad ferry feeders"
+        ]
+      }
     },
     {
       "slug": "kerala-bekal",
@@ -300,9 +386,16 @@
       "description": "**Bekal** is a small town, known for the nearby seaside Bekal Fort, near Kanhangad in Northern Kerala, India.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Bekal",
@@ -310,19 +403,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q4881580"
       },
       "distance_km": 285,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -332,20 +433,72 @@
           "source": "wikivoyage"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kannur International Airport",
+          "code": "CNN",
+          "distance_km": 62,
+          "note": "IXE Mangalore (~92 km) stacks southern wings—monsoon cliff shoots thicken Bekal fort viewpoints"
         },
         "nearest_railway_station": {
-          "name": "The nearest major railway station",
-          "distance_km": 8
+          "name": "Kanhangad railway station",
+          "distance_km": 14,
+          "note": "Kerala Kasaragod feeders—Malabar spice taxis benchmark Nileshwaram merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 3,
@@ -354,7 +507,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -375,7 +532,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 19406,
-        "content_richness_score": 0.012
+        "content_richness_score": 0.139
       },
       "section_briefs": {
         "understand": {
@@ -466,7 +623,27 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:12.395Z"
+      },
+      "search_context": "Heritage / Culture Beach / Coastal City / Urban Bekal Sightseeing Bekal Fort is one of the unspoilt forts of Kerala. The area inside the fort is 40 acres and being very photogenic, this fort is a favorite location for film shooting. Bekal Fort was built by Shivappa Nayaka of Keladi in 1650 AD. Tamil film _Bombay_ directed by Mani Ratnam has some scenes form this fort. Bekal is a small town, known for the nearby seaside Bekal Fort, near Kanhangad in Northern Kerala, India.",
+      "travel_facts": {
+        "summary": "**Bekal** threads **Kanhangad (~14 km)** Malabar meshes beneath **CNN (~62 km)** apron stacks—1650 Nayaka fort tides bias seaside walkway merges knowing Chandragiri kayak feeders absorb Northern Kerala film-shoot peaks.",
+        "keywords": [
+          "kanhangad malabar meshes",
+          "cnn apron stacks",
+          "bekal fort walkway tides",
+          "chandragiri kayak feeders",
+          "northern kerala seaside merges",
+          "kasaragod spice taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-calicut",
@@ -481,9 +658,16 @@
       "description": "_Not to be confused with Kolkata , formerly **Calcutta**, a city in eastern India._ \r\n \r\n **Kozhikode** (Malayalam: കോഴിക്കോട്), commonly known as **Calicut**, is the second largest city in Kerala .",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kozhikode",
@@ -491,19 +675,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q28729"
       },
       "distance_km": 276,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kozhikode",
@@ -524,20 +716,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Calicut International Airport (Karipur)",
+          "code": "CCJ",
+          "distance_km": 26,
+          "note": "Malabar monsoon stacks thicken spice-market merges—Middle East nonstop tides dominate Gulf peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kozhikode railway station",
+          "distance_km": 4,
+          "note": "Konkan meshes toward Mangalore—Sweet Street autos spike Ramadan peaks"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -546,7 +790,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -567,7 +815,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 225655,
-        "content_richness_score": 0.77
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -888,7 +1136,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:13.229Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Calicut Sightseeing Kozhikode was the capital of Zamorin kings until the British made it part of the Madras province. Also called called Calicut, the city was a major port on the Maritime Silk Road , frequented by traders from Arabia, Persia and later Europe. The English word calico, a cotton textile, originated from this city's old name. Kozhikode used to be a romantic location with the charm of centuries-old streets and the smell of local sweets in the air. Today, _Not to be confused with Kolkata , formerly Calcutta, a city in eastern India._ Kozhikode (Malayalam: കോഴിക്കോട്), commonly known as Calicut, is the second largest city in Kerala .",
+      "travel_facts": {
+        "summary": "**Calicut (Kozhikode)** anchors **Kozhikode station (~4 km)** Malabar meshes beneath **CCJ (~26 km)** Karipur stacks—Zamorin heritage tides bias Kappad beach merges knowing Wayanad ghat Volvos absorb SM Street halwa peaks.",
+        "keywords": [
+          "kozhikode malabar meshes",
+          "ccj karipur stacks",
+          "zamorin heritage tides",
+          "kappad beach merges",
+          "wayanad ghat volvos",
+          "sweet street ramadan peaks"
+        ]
+      }
     },
     {
       "slug": "kerala-ernakulam",
@@ -903,9 +1170,16 @@
       "description": "\"Ernakulam\" redirects here. For the administrative district, see Ernakulam District \r\n** Ernakulam ** (എറണാകുളം _Eṟaṇākulaṁ_) is the heart and transport hub of Kochi . It has three distinct parts: the \"Central Business District\" (CBD) which has Mahatma Gandhi Road (MG Road) as the main arterial road along with Marine Drive and Chittoor Road; \"Downtown\" with upscale residential areas and the business district at SA Road and Vytilla Junction and the \"Suburb\" which has many business and commercial areas.",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Ernakulam",
@@ -913,19 +1187,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1025408"
       },
       "distance_km": 362,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -935,20 +1217,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Cochin International Airport",
+          "code": "COK",
+          "distance_km": 28,
+          "note": "Nedumbassery apron stacks—metro violet feeds thicken MG Road merges"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Ernakulam Junction railway station",
+          "distance_km": 3,
+          "note": "Island ferry tides toward Fort Kochi—Willingdon backwater autos choke rush peaks"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -957,7 +1291,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -976,7 +1314,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 275028,
-        "content_richness_score": 0.952
+        "content_richness_score": 1
       },
       "section_briefs": {
         "get_in": {
@@ -1158,7 +1496,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:14.074Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban Ernakulam Sightseeing \"Ernakulam\" redirects here. For the administrative district, see Ernakulam District Ernakulam (എറണാകുളം _Eṟaṇākulaṁ_) is the heart and transport hub of Kochi . It has three distinct parts: the \"Central Business District\" (CBD) which has Mahatma Gandhi Road (MG Road) as the main arterial road along with Marine Drive and",
+      "travel_facts": {
+        "summary": "**Ernakulam** pairs **Ernakulam Junction (~3 km)** mainland meshes with **COK (~28 km)** Nedumbassery stacks—Bolgatty-Vypin ferry tides bias Kochi Metro merges knowing Marine Drive sunset feeders absorb Mattancherry spice peaks.",
+        "keywords": [
+          "ernakulam junction meshes",
+          "cok nedumbassary stacks",
+          "fort kochi ferry tides",
+          "kochi metro merges",
+          "marine drive sunsets",
+          "bolgatty backwater autos"
+        ]
+      }
     },
     {
       "slug": "kerala-kalpetta",
@@ -1173,9 +1532,16 @@
       "description": "Kalpetta (കല്പറ്റ) is a city in the mountainous Wayanad region of Kerala, South India. It’s a gateway to the trails of lofty Chembra Peak and to Neelimala Viewpoint, which overlooks waterfalls and forested valleys. North of town, the traditional, Dravidian-style Ananthanatha Swami Jain Temple is perched on a hilltop surrounded by coffee plantations. To the southeast, Meppadi is a scenic village with lush tea estates. this town is well known for its spices especially pepper, artifacts, honey, tea, bamboo products, ivory craft and coconut shell",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kalpetta",
@@ -1183,19 +1549,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q911025"
       },
       "distance_km": 223,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -1210,20 +1584,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Calicut International Airport (Karipur)",
+          "code": "CCJ",
+          "distance_km": 78,
+          "note": "MYS Bengaluru wings bias Mysuru–Sulthan Bathery merges—Chembra permit quotas thicken peak queues"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kozhikode railway station",
+          "distance_km": 72,
+          "note": "NH766 ghats buses dominate Kalpetta merges—Banjarumabu viewpoint taxis jitter landslip radios"
         },
-        "road_access_quality": "good",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 3,
@@ -1232,7 +1658,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1253,7 +1683,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 97952,
-        "content_richness_score": 0.301
+        "content_richness_score": 0.7
       },
       "section_briefs": {
         "understand": {
@@ -1485,7 +1915,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:14.929Z"
+      },
+      "credibility_recognitions": [
+        "biosphere_reserve",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills City / Urban Kalpetta Sightseeing Being a rural town, Kalpetta is a very small and friendly place. The prices are the lowest in Kerala state. Kalpetta (കല്പറ്റ) is a city in the mountainous Wayanad region of Kerala, South India. It’s a gateway to the trails of lofty Chembra Peak and to Neelimala Viewpoint, which overlooks waterfalls and forested valleys. North of town, the traditional, Dravidian-style Ananthanatha Swami Jain Temple is perched on a hilltop su",
+      "travel_facts": {
+        "summary": "**Kalpetta** climbs **Kozhikode (~72 km)** rail feeders toward **CCJ (~78 km)** plateau stacks—Chembra Peak permit tides bias Wayanad plantation merges knowing Nilambur forest feeders absorb Bandipur crossover peaks.",
+        "keywords": [
+          "kozhikode wayanad feeders",
+          "ccj plateau stacks",
+          "chembra permit tides",
+          "nh766 ghat buses",
+          "nilambur forest merges",
+          "western ghats plantation taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-kannur",
@@ -1500,9 +1953,16 @@
       "description": "**Kannur** (Malayalam: കണ്ണൂര്‍) is a seaside city on the northern side of Kerala , India .",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kannur",
@@ -1510,19 +1970,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q4789666"
       },
       "distance_km": 272,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kannanur",
@@ -1542,25 +2010,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Kannur International Airport",
           "code": "CNN",
-          "distance_km": null
+          "distance_km": 28,
+          "note": "Theyyam season tides thicken Payyambalam merges—political rally radios jitter coastal highways"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kannur railway station",
+          "distance_km": 5,
+          "note": "Konkan meshes toward Mangalore—loom-sector expresses thicken handloom peaks"
         },
         "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -1570,7 +2084,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1592,7 +2110,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 184556,
-        "content_richness_score": 0.619
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -1907,7 +2425,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Beach / Coastal"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:15.779Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban Beach / Coastal Kannur Sightseeing Kannur (old name _Cannanore_) is known as _Land of Looms and Lore_ because of the importance of the fabric industry and the concentration of Theyyam temple dance festivals. The main language spoken is Malayalam . English is also understood. Kannur is the most politically sensitive district of Kerala and most people here have a socialist leaning. Kannur (Malayalam: കണ്ണൂര്‍) is a seaside city on the northern side of Kerala , India .",
+      "travel_facts": {
+        "summary": "**Kannur** rests **Kannur station (~5 km)** Malabar meshes beneath **CNN (~28 km)** apron stacks—Payyambalam cliff tides bias Theyyam festival merges knowing Muzhappilangad drive-in feeders absorb Dharmadam kayak peaks.",
+        "keywords": [
+          "kannur malabar meshes",
+          "cnn apron stacks",
+          "payyambalam cliff tides",
+          "theyyam festival merges",
+          "konkan mangalore expresses",
+          "dharmadam kayak feeders"
+        ]
+      }
     },
     {
       "slug": "kerala-kasaragod",
@@ -1922,9 +2462,16 @@
       "description": "** Kasaragod ** is a city in Kasaragod District at the northern end of Malabar , Kerala in India .",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kasaragod",
@@ -1932,19 +2479,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q317217"
       },
       "distance_km": 287,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kasaragode",
@@ -1964,23 +2519,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
+          "name": "Mangalore International Airport",
           "code": "IXE",
-          "distance_km": null
+          "distance_km": 54,
+          "note": "CNN Kannur (~112 km) stacks northern wings—Bekal fort taxis thicken Chandragiri crossover peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kasaragod railway station",
+          "distance_km": 3,
+          "note": "Konkan meshes toward Mumbai—Sapta Bhasha border tides dominate Tuluva merges"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Delhi"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Delhi"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -1990,7 +2593,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2011,7 +2618,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 90564,
-        "content_richness_score": 0.273
+        "content_richness_score": 0.647
       },
       "section_briefs": {
         "understand": {
@@ -2278,7 +2885,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:16.629Z",
+        "wikipedia_summary": "Kasaragod is a municipal town and the administrative headquarters of the Kasaragod district in the state of Kerala, India. Established in 1966, Kasaragod was the first municipal town in the district. It is the northernmost district of Kerala and is also known as Sapta Bhasha Sangama Bhumi.",
+        "wikipedia_description": "Municipal city in Kerala, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:16.679Z"
+      },
+      "search_context": "City / Urban Kasaragod Sightseeing Kasaragod is a municipal town and the administrative headquarters of the Kasaragod district in the state of Kerala, India. Established in 1966, Kasaragod was the first municipal town in the district. It is the northernmost district of Kerala and is also known as Sapta Bhasha Sangama Bhumi. Kasaragod is renowned for its hills, forts and water bodies. Kasaragod is often described as the land of seven languages: Malayalam, Beary, Tulu, Kannada, Konkani, Marathi and Hindi are understood here. Kasaragod is a city in Kasaragod District at the northern end of Malabar , Kerala in India .",
+      "travel_facts": {
+        "summary": "**Kasaragod** hinges **Kasaragod station (~3 km)** Konkan meshes beneath **IXE (~54 km)** coastal stacks—Chandragiri river tides bias Nileshwaram houseboat merges knowing Karnataka border Volvos absorb Bekal weekend peaks.",
+        "keywords": [
+          "kasaragod konkan meshes",
+          "ixe coastal stacks",
+          "chandragiri river tides",
+          "bekal crossover taxis",
+          "northern malabar merges",
+          "sapta bhasha highway radios"
+        ]
+      }
     },
     {
       "slug": "kerala-kochi",
@@ -2292,26 +2920,45 @@
       },
       "description": "_For other places with the same name, see Kochi (disambiguation) ._ \r\n \r\n \r\n\n\r\n _Kochi is a huge city with several district articles that contain information about specific sights, restaurants, and accommodation._ \r\n \r\n**Kochi** ( Malayalam : കൊച്ചി), formerly **Cochin**, is a cosmopolitan city in Kerala with a bustling commercial port. Kochi is the financial and commercial capital of Kerala and, with a population of more than 2.1 million (2011), the biggest conurbation in the state.",
       "category": "Points of Interest & Landmarks",
-      "best_time_to_visit": "",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
+      },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kochi",
         "wikipedia": "https://en.wikipedia.org/wiki/Kochi",
         "wikidata": "https://www.wikidata.org/wiki/Q1800"
       },
       "distance_km": 363,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Cotchin",
@@ -2335,37 +2982,70 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "28–34",
+          "winter": "22–30"
         }
       },
       "travel_access": {
         "nearest_airport": {
           "name": "Cochin International Airport",
           "code": "COK",
-          "distance_km": 29
+          "distance_km": 34,
+          "note": "Nedumbassery merges toward Mattancherry—cruise-ship tides thicken Willingdon Island peaks"
         },
         "nearest_railway_station": {
-          "name": "The nearest railway station",
-          "distance_km": 15
+          "name": "Ernakulam Town railway station",
+          "distance_km": 6,
+          "note": "Fort Kochi ferry feeders—Chinese fishing-net tides spike sunset harbour merges"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
-          "Goa",
-          "Kochi"
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
-          "Goa",
-          "Kochi"
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -2375,7 +3055,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2397,7 +3081,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 197645,
-        "content_richness_score": 0.667
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -2468,7 +3152,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:17.229Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Kochi Sightseeing _A city born in storm, nurtured in rivalry and established as battling ground for European empires._ This phrase is a good description of Kochi, which was formed as an ancient port city after the Great Floods of the Periyar River in 1341. With the partitioning of the Chera Kerala Empire in the 14th century, this region came under the control of a new dynasty, rivalled by other local feudal lords. With the advent of colonisation, Kochi became the _For other places with the same name, see Kochi (disambiguation) ._ _Kochi is a huge city with several district articles that contain information about specific sights, restaurants, and accommodation._ Kochi ( Malayalam : കൊച്ചി), formerly Cochin, is a cosmopolitan city in Kerala with a bustling commercial port. Kochi",
+      "travel_facts": {
+        "summary": "**Kochi** couples **Ernakulam Town (~6 km)** harbour meshes with **COK (~34 km)** apron stacks—Chinese net tides bias Jew Town spice merges knowing cruise-terminal autos absorb Bolgatty regatta peaks.",
+        "keywords": [
+          "ernakulam harbour meshes",
+          "cok apron stacks",
+          "fort kochi ferry tides",
+          "chinese net sunset merges",
+          "jew town spice walks",
+          "willingdon island cruises"
+        ]
+      }
     },
     {
       "slug": "kerala-kollam",
@@ -2483,9 +3186,16 @@
       "description": "**Kollam**, previously **Quilon**, is a city in southern Kerala , India . West and slightly north of the town some 5 kilometres lies a beach, on the north end of which are various European colonial-era relics, including the ruins of a fort and a few churches. There are also some old colonial buildings scattered about the town.",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kollam",
@@ -2493,19 +3203,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q321475"
       },
       "distance_km": 468,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Quilon",
@@ -2530,24 +3248,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Thiruvananthapuram International Airport",
+          "code": "TRV",
+          "distance_km": 68,
+          "note": "Ashtamudi boat merges thicken cashew-factory tides—monsoon surf radios jitter Thangassery cliffs"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kollam Junction railway station",
+          "distance_km": 4,
+          "note": "Southern Kerala expresses toward Alleppey—houseboat connector tides spike weekends"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
           "Delhi",
-          "Kochi"
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Delhi"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -2557,7 +3322,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2579,7 +3348,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 103809,
-        "content_richness_score": 0.322
+        "content_richness_score": 0.741
       },
       "section_briefs": {
         "understand": {
@@ -2829,7 +3598,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Beach / Coastal"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:18.076Z",
+        "wikipedia_summary": "Kollam, is an ancient seaport and the fourth-largest city in the Indian state of Kerala. Located on the southern tip of the Malabar Coast of the Arabian Sea, the city is on the banks of Ashtamudi Lake and is 71 kilometres (44 mi) northwest of the Thiruvananthapuram. Kollam is one of India's oldest continuously inhabited cities, with evidence of habitation stretching back to the megalithic; the city has also been a maritime entrepôt millennia, the earliest attestation of which dates back to the Phoenicians and Romans. It is the southern gateway to the Backwaters of Kerala, and is known for its cashew processing, coir manufacturing, and tourism industries.",
+        "wikipedia_description": "City in Kerala, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:18.127Z"
+      },
+      "search_context": "City / Urban Beach / Coastal Kollam Sightseeing Kollam, is an ancient seaport and the fourth-largest city in the Indian state of Kerala. Located on the southern tip of the Malabar Coast of the Arabian Sea, the city is on the banks of Ashtamudi Lake and is 71 kilometres (44 mi) northwest of the Thiruvananthapuram. Kollam is one of India's oldest continuously inhabited cities, with evidence of habitation stretching back to the megalithic; the city has also been a maritime entrepôt millennia, the earliest attestation of which dates back to the Phoenicians and Romans. It is the southern gateway to the Backwaters of Kerala, and is known for its cashew processing, coir manufacturing, and tourism industries. Mentioned in Greek literature from the first century, Kollam or Quilon has been a thriving trading port for centuries. The surrounding region produces pepper (after which the city is named), cashews, coir and other agricultural products. Local communities include Christians, Muslims and Hindus. A historical Chinese population is known to exist, and the town's market is still named after them. Fishing occurs right along the coast as in other parts Kollam, previously Quilon, is a city in southern Kerala , India . West and slightly north of the town some 5 kilometres lies a beach, on the north end of which are various European colonial-era relics, including the ruins of a fort and a few churches. There are also some old colonial buildings scattered about the town.",
+      "travel_facts": {
+        "summary": "**Kollam** anchors **Kollam Junction (~4 km)** Ashtamudi meshes beneath **TRV (~68 km)** apron stacks—Quilon backwater tides bias Munroe island canoe merges knowing Thenmala eco feeders absorb Jatayu cliff peaks.",
+        "keywords": [
+          "kollam ashtamudi meshes",
+          "trv apron stacks",
+          "quilon backwater tides",
+          "munroe island canoes",
+          "thenmala eco feeders",
+          "southern kerala express merges"
+        ]
+      }
     },
     {
       "slug": "kerala-kottayam",
@@ -2844,9 +3635,16 @@
       "description": "** Kottayam ** is a city in Kerala , south India . It is near to Kochi . The city is India's first 100% literate city, also known as Letter Capital of Kerala, due to headquarters of more than a dozen publishing houses and newspaper companies as well as several famous colleges and university. The city is one of the strongest centers of Kerala's indigenous Church, the Malankara Orthodox Church, a major non-Catholic church.",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kottayam",
@@ -2854,19 +3652,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q659887"
       },
       "distance_km": 394,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Land of three Ls"
@@ -2883,25 +3689,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Kochi International Airport",
-          "code": null,
-          "distance_km": null
+          "name": "Cochin International Airport",
+          "code": "COK",
+          "distance_km": 78,
+          "note": "Literacy-city presses thicken rubber-board tides—Vembanad ferry merges absorb Kumarakom peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kottayam railway station",
+          "distance_km": 3,
+          "note": "Boat jetty feeders toward Alleppey—Rubber Board taxis choke Sabarimala staging peaks"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
           "Delhi",
-          "Kochi"
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
           "Delhi",
-          "Kochi"
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -2911,7 +3763,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2931,7 +3787,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 69118,
-        "content_richness_score": 0.195
+        "content_richness_score": 0.494
       },
       "section_briefs": {
         "understand": {
@@ -3200,7 +4056,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:18.678Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban Kottayam Sightseeing Kottayam is a city in south-central Kerala, sandwiched between the Vembanad Lake and the Kerala hill-country. Best known as a hub of trade and commerce, Kottayam is also a centre for education and literature, and as a centre of Kerala's large Christian population. The lingua franca in Kottayam is Malayalam, the official language of the state of Kerala. Travellers should not face much difficulty in getting by with English, as the language is widel Kottayam is a city in Kerala , south India . It is near to Kochi . The city is India's first 100% literate city, also known as Letter Capital of Kerala, due to headquarters of more than a dozen publishing houses and newspaper companies as well as several famous colleges and university. The city is one of the strongest",
+      "travel_facts": {
+        "summary": "**Kottayam** pairs **Kottayam station (~3 km)** backwater meshes with **COK (~78 km)** apron stacks—Meenachil ferry tides bias publishing-house merges knowing Kumarakom bird feeders absorb Vaikom temple peaks.",
+        "keywords": [
+          "kottayam backwater meshes",
+          "cok apron stacks",
+          "meenachil ferry tides",
+          "kumarakom bird feeders",
+          "rubber belt merges",
+          "vaikom pilgrim taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-kovalam",
@@ -3215,9 +4092,16 @@
       "description": "**Kovalam** is a village in the southern state of Kerala in India , about 17 km from Thiruvananthapuram . Kovalam is famous for its beaches, among the most pristine in India. Kovalam is extremely popular among westerners due to shallow waters and low tidal waves.",
       "category": "Beaches",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kovalam",
@@ -3225,19 +4109,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1785641"
       },
       "distance_km": 521,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -3247,20 +4139,72 @@
           "source": "wikivoyage"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Thiruvananthapuram International Airport",
+          "code": "TRV",
+          "distance_km": 16,
+          "note": "Lighthouse beach tides thicken Ayurveda retreat merges—ripple tidal radios jitter Hawah stacks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Trivandrum Central railway station",
+          "distance_km": 14,
+          "note": "Coastal auto hops toward Lighthouse—surf lesson quotas spike winter peaks"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 3,
@@ -3269,7 +4213,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -3289,7 +4237,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 70423,
-        "content_richness_score": 0.199
+        "content_richness_score": 0.503
       },
       "section_briefs": {
         "understand": {
@@ -3363,7 +4311,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:19.529Z"
+      },
+      "search_context": "Beach / Coastal City / Urban Kovalam Sightseeing Kovalam is also one of the oldest tourist enclaves in India, a well known part of the tourist circuit since the 1930s. Kovalam shot into the limelight in the early 1970s with the arrival of masses of hippies. That started the transformation of a casual fishing village of Kerala into one of the most important tourist destinations in all India - the Kovalam beach. Kovalam was brought to the public eye by the queen of Travancore, Maharani Sethu Laks Kovalam is a village in the southern state of Kerala in India , about 17 km from Thiruvananthapuram . Kovalam is famous for its beaches, among the most pristine in India. Kovalam is extremely popular among westerners due to shallow waters and low tidal waves.",
+      "travel_facts": {
+        "summary": "**Kovalam** threads **Trivandrum Central (~14 km)** coastal meshes beneath **TRV (~16 km)** apron stacks—Lighthouse rock tides bias Ayurveda sunset merges knowing Vizhinjam harbour feeders absorb Samudra beach peaks.",
+        "keywords": [
+          "trivandrum coastal meshes",
+          "trv apron stacks",
+          "lighthouse rock tides",
+          "ayurveda sunset merges",
+          "vizhinjam harbour feeders",
+          "travancore beach taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-kumarakom",
@@ -3378,9 +4345,16 @@
       "description": "**Kumarakom** is a tourist village in Kerala in India . It is a cluster of small islands on the _ Vembanad backwaters_. It houses the popular Kumarakom Bird Sanctuary.",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kumarakom",
@@ -3388,19 +4362,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3521576"
       },
       "distance_km": 396,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -3415,20 +4397,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "hours from the Cochin International Airport",
-          "code": null,
-          "distance_km": null
+          "name": "Cochin International Airport",
+          "code": "COK",
+          "distance_km": 76,
+          "note": "Bird sanctuary canoes thicken migrant-season tides—Vembanad wind radios jitter houseboat merges"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kottayam railway station",
+          "distance_km": 14,
+          "note": "Shallow-draft ferry hops toward bird islands—monsoon chop drills jitter pontoon peaks"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -3437,7 +4471,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -3457,7 +4495,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 31683,
-        "content_richness_score": 0.057
+        "content_richness_score": 0.226
       },
       "section_briefs": {
         "understand": {
@@ -3535,7 +4573,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:20.363Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature City / Urban Kumarakom Sightseeing Kumarakom is a tourist village in Kerala in India . It is a cluster of small islands on the _ Vembanad backwaters_. It houses the popular Kumarakom Bird Sanctuary.",
+      "travel_facts": {
+        "summary": "**Kumarakom** balances **Kottayam (~14 km)** lagoon meshes with **COK (~76 km)** apron stacks—Dr. Salim Ali sanctuary tides bias canoe migrant merges knowing Pathiramanal feeder boats absorb monsoon chop peaks.",
+        "keywords": [
+          "kottayam lagoon meshes",
+          "cok apron stacks",
+          "salim ali sanctuary tides",
+          "pathiramanal canoe merges",
+          "vembanad bird radios",
+          "backwater pontoon hops"
+        ]
+      }
     },
     {
       "slug": "kerala-kumily",
@@ -3550,9 +4610,16 @@
       "description": "**Kumily** (Malayalam: കുമളി Kumaḷi) is a town in Kerala State in South India . It is in the Cardamom Hills near Thekkady and the Periyar Tiger Reserve, in the Idukki District.",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kumily",
@@ -3560,19 +4627,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q14221516"
       },
       "distance_km": 376,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -3587,20 +4662,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Madurai Airport",
+          "code": "IXM",
+          "distance_km": 148,
+          "note": "Tamil Nadu gateway stacks—cardamom ghats taxis thicken Periyar boat merges"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Theni railway station",
+          "distance_km": 72,
+          "note": "Kerala border jeep hops toward Kumily—spice-market tides choke Sabarimala staging peaks"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Madurai",
+          "Kochi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -3609,7 +4736,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -3629,7 +4760,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 37448,
-        "content_richness_score": 0.078
+        "content_richness_score": 0.267
       },
       "section_briefs": {
         "understand": {
@@ -3792,7 +4923,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:21.211Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills City / Urban Kumily Sightseeing A major tourist destination and spices trading center. Kumily is an access point for many Kerala bound merchants and labourers, and in close proximity to the bordering points in Tamil Nadu. Kumily (Malayalam: കുമളി Kumaḷi) is a town in Kerala State in South India . It is in the Cardamom Hills near Thekkady and the Periyar Tiger Reserve, in the Idukki District.",
+      "travel_facts": {
+        "summary": "**Kumily** hinges **Theni (~72 km)** Cardamom Hill meshes beneath **IXM (~148 km)** Tamil apron stacks—Thekkady spice tides bias Periyar boat merges knowing Tamil Nadu border jeeps absorb Mullaperiyar checkpoint peaks.",
+        "keywords": [
+          "theni cardamom meshes",
+          "ixm tamil stacks",
+          "thekkady spice tides",
+          "periyar boat merges",
+          "mullaperiyar checkpoints",
+          "idukki border jeeps"
+        ]
+      }
     },
     {
       "slug": "kerala-munnar",
@@ -3807,9 +4961,16 @@
       "description": "**Munnar** is a hill station in the Indian state of Kerala . Tourists come here to see the vast tea plantations of the area. This town and the surrounding region usually offer the most pleasant temperatures in Kerala . Munnar is also a popular place for Indian honeymooners.",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Munnar",
@@ -3817,19 +4978,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1025124"
       },
       "distance_km": 326,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kashmir of South India",
@@ -3847,23 +5016,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Cochin International Airport",
           "code": "COK",
-          "distance_km": 175
+          "distance_km": 108,
+          "note": "Tea-factory ghats taxis thicken Eravikulam merges—Nilgiri tahr radios jitter fog-season peaks"
         },
         "nearest_railway_station": {
-          "name": "The nearest railway station",
-          "distance_km": 110
+          "name": "Aluva railway station",
+          "distance_km": 104,
+          "note": "NH49 climb feeders—Mattupetty dam tides spike plantation viewpoint queues"
         },
-        "road_access_quality": "good",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Kochi"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Kochi"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -3873,7 +5090,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -3894,7 +5115,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 156848,
-        "content_richness_score": 0.517
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -4168,7 +5389,33 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:22.058Z",
+        "wikipedia_summary": "Munnar is a town located in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres (5,200 ft) above mean sea level, in the Western Ghats mountain range. This ancient plantation settlement, dominated by its tea industry, is also a growing modern hill station.",
+        "wikipedia_description": "Town in Kerala, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:22.110Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills City / Urban Munnar Sightseeing Munnar is a town located in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres (5,200 ft) above mean sea level, in the Western Ghats mountain range. This ancient plantation settlement, dominated by its tea industry, is also a growing modern hill station. Munnar is a hill station at an elevation of 1,600 m, and was a summer resort for the British during the British Raj . The town is divided into two parts: Old Munnar, where the tourist information office is, and Munnar, where the bus station and most guest houses are located. The region in and around Munnar varies in height from 1,500 m (4,900 ft) to 2,695 m (8,842 ft) above mean sea level. It is pronounced \"Moon-aar\" short for \"moonu aar\" meaning Munnar is a hill station in the Indian state of Kerala . Tourists come here to see the vast tea plantations of the area. This town and the surrounding region usually offer the most pleasant temperatures in Kerala . Munnar is also a popular place for Indian honeymooners.",
+      "travel_facts": {
+        "summary": "**Munnar** climbs **Aluva (~104 km)** western-mountain meshes beneath **COK (~108 km)** apron stacks—tea-estate hairpins bias Eravikulam tahr merges knowing Top Station jeeps absorb Kolukkumalai sunrise peaks.",
+        "keywords": [
+          "aluva mountain meshes",
+          "cok apron stacks",
+          "munnar tea hairpins",
+          "eravikulam tahr merges",
+          "top station jeeps",
+          "idukki plantation viewpoints"
+        ]
+      }
     },
     {
       "slug": "kerala-palakkad",
@@ -4183,9 +5430,16 @@
       "description": "**Palakkad** is a city in Central Kerala in India . Palakkad is known for its historical background and the remnants of Tippu Sulthan's Fort are still maintained. Palakkad is famous for the ancient Palakkad Fort, which is in the heart of the city and was captured and rebuilt by Hyder Ali in 1766 which later fell into the hands of Zamorin in 1784.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Palakkad",
@@ -4193,19 +5447,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1006240"
       },
       "distance_km": 264,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Palghat"
@@ -4222,20 +5484,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "international airport",
-          "code": null,
-          "distance_km": 110
+          "name": "Coimbatore International Airport",
+          "code": "CJB",
+          "distance_km": 54,
+          "note": "Palakkad Gap breezes thicken Tamil Nadu commuter tides—Tipu fort merges absorb Malampuzha peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Palakkad Junction railway station",
+          "distance_km": 4,
+          "note": "Gateway expresses toward Kochi—Silent Valley safari taxis spike weekend merges"
         },
-        "road_access_quality": "excellent",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -4244,7 +5558,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -4266,7 +5584,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 113602,
-        "content_richness_score": 0.358
+        "content_richness_score": 0.811
       },
       "section_briefs": {
         "understand": {
@@ -4748,7 +6066,31 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:22.663Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Spiritual / Pilgrimage Heritage / Culture City / Urban Palakkad Sightseeing Palakkad lies near a wide low gap or pass in the Western Ghats mountain ranges that separates Kerala from Tamil Nadu . Consequently the city is a major conduit for travel between the two states. Palakkad is 4,480 km² and the population is 2,617,072. Palakkad is the land of Palmyras and Paddy fields. It is the chief granary of Kerala, often called the _Gateway of Kerala_. Palakkad lies at the foot of the gigantic Western ghats on the border of Ker Palakkad is a city in Central Kerala in India . Palakkad is known for its historical background and the remnants of Tippu Sulthan's Fort are still maintained. Palakkad is famous for the ancient Palakkad Fort, which is in the heart of the city and was captured and rebuilt by Hyder Ali in 1766 which later fell into the h",
+      "travel_facts": {
+        "summary": "**Palakkad** couples **Palakkad Junction (~4 km)** gap meshes with **CJB (~54 km)** Tamil apron stacks—Tipu Sultan fort tides bias Malampuzha dam merges knowing Nelliyampathy hairpin feeders absorb Silent Valley staging peaks.",
+        "keywords": [
+          "palakkad gap meshes",
+          "cjb tamil stacks",
+          "tipu fort tides",
+          "malampuzha dam merges",
+          "nelliyampathy hairpins",
+          "silent valley staging taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-periyar-national-park",
@@ -4763,9 +6105,16 @@
       "description": "**Periyar National Park** (also known as Periyar Tiger Reserve, Thekkady) is in Northern Travancore , in the state of Kerala , in India .",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Periyar_National_Park",
@@ -4773,19 +6122,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q548153"
       },
       "distance_km": 380,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Wildlife & nature",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Periyar Wildlife Sanctuary"
@@ -4802,20 +6159,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Madurai Airport",
+          "code": "IXM",
+          "distance_km": 142,
+          "note": "COK Kochi (~158 km) stacks alternate wings—boat safari permits thicken Mullaperiyar viewpoint peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kottayam railway station",
+          "distance_km": 108,
+          "note": "Kumily jeep feeders toward gates—elephant corridor tides jitter dawn boating merges"
         },
-        "road_access_quality": "excellent",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kottayam"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -4824,7 +6232,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -4844,7 +6256,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 16207,
-        "content_richness_score": 0
+        "content_richness_score": 0.116
       },
       "section_briefs": {
         "understand": {
@@ -4891,7 +6303,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:23.512Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Periyar National Park Wildlife & nature Periyar is a protected area, and a nature reserve in the South Indian State of Kerala, set high in the mountains of the Western Ghats at the border to Tamil Nadu. It lies in the districts of Idukki and Pathanamthitta. The protected area covers an area of 777 km², out of which a 350 km² part of the core zone was made into the Periyar National Park and Tiger Reserve, sometimes dubbed the Periyar Wildlife Sanctuary Periyar National Park (also known as Periyar Tiger Reserve, Thekkady) is in Northern Travancore , in the state of Kerala , in India .",
+      "travel_facts": {
+        "summary": "**Periyar National Park** threads **Kottayam (~108 km)** highland meshes beneath **IXM (~142 km)** apron stacks—Thekkady boat safari tides bias bamboo rafting merges knowing Kumily spice-town feeders absorb tiger corridor checkpoint peaks.",
+        "keywords": [
+          "kottayam highland meshes",
+          "ixm apron stacks",
+          "thekkady boat safaris",
+          "bamboo rafting merges",
+          "periyar tiger corridors",
+          "kumily jeep feeders"
+        ]
+      }
     },
     {
       "slug": "kerala-punalur",
@@ -4906,9 +6340,16 @@
       "description": "**Punalur** (Malayalam: പുനലൂര്‍, _Punalūr_) is a town and a municipality in Kerala in India .",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Punalur",
@@ -4916,19 +6357,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q742720"
       },
       "distance_km": 446,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -4943,20 +6392,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Thiruvananthapuram International Airport",
+          "code": "TRV",
+          "distance_km": 74,
+          "note": "Courtallam ghat hops thicken Western Ghats drizzle merges—suspension-bridge tides spike adventure peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Punalur railway station",
+          "distance_km": 2,
+          "note": "Southern Kerala meter-gauge heritage feeders toward Shencottai border merges"
         },
-        "road_access_quality": "good",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -4965,7 +6466,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -4987,7 +6492,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 32078,
-        "content_richness_score": 0.058
+        "content_richness_score": 0.229
       },
       "section_briefs": {
         "get_in": {
@@ -5140,7 +6645,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:24.345Z"
+      },
+      "search_context": "City / Urban Mountain / Hills Punalur Sightseeing Punalur (Malayalam: പുനലൂര്‍, _Punalūr_) is a town and a municipality in Kerala in India .",
+      "travel_facts": {
+        "summary": "**Punalur** anchors **Punalur station (~2 km)** foothill meshes beneath **TRV (~74 km)** apron stacks—Thenmala eco tides bias hanging-bridge merges knowing Shencottai border autos absorb rubber-country peaks.",
+        "keywords": [
+          "punalur foothill meshes",
+          "trv apron stacks",
+          "thenmala eco tides",
+          "western ghats bridge merges",
+          "courtallam drizzle taxis",
+          "shencottai border hops"
+        ]
+      }
     },
     {
       "slug": "kerala-sabarimala",
@@ -5155,9 +6679,16 @@
       "description": "**Sabarimala** is a beautiful mountain in Kerala , India famous for the Ayyappa temple which attracts 50 million visitors every year. Sabarimala mountain is situated inside the evergreen forests of Periyar Tiger Reserve on Western Ghat mountain ranges. It is 4133 ft above sea level.",
       "category": "Religious Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Sabarimala",
@@ -5165,19 +6696,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1520207"
       },
       "distance_km": 397,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Sabarimala temple complex",
@@ -5197,20 +6736,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "km are the nearest airport",
-          "code": null,
-          "distance_km": null
+          "name": "Cochin International Airport",
+          "code": "COK",
+          "distance_km": 154,
+          "note": "TRV Thiruvananthapuram (~182 km) stacks alternate wings—Makaravilakku pilgrim surges thicken Pamba merges"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Chengannur railway station",
+          "distance_km": 82,
+          "note": "KSRTC hill-chain buses dominate Nilakkal staging—forest dept jeep quotas jitter Mandala peaks"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kottayam"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -5219,7 +6808,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -5239,7 +6832,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 25753,
-        "content_richness_score": 0.035
+        "content_richness_score": 0.184
       },
       "section_briefs": {
         "understand": {
@@ -5326,7 +6919,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:25.179Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Spiritual / Pilgrimage Mountain / Hills Sabarimala Sightseeing The temple is dedicated Lord Dharmashastha or popularly known as Ayyappan. Sabarimala allows pilgrims of all religions but women between 10 and 50 were not allowed (this was struck by India's Supreme Court), and it is still considered very taboo today. This is because Ayyappa prohibits the entry of the women in the menstrual age group as Ayyappan is a naishtika Bramhachari (celibate). Sabarimala is a beautiful mountain in Kerala , India famous for the Ayyappa temple which attracts 50 million visitors every year. Sabarimala mountain is situated inside the evergreen forests of Periyar Tiger Reserve on Western Ghat mountain ranges. It is 4133 ft above sea level.",
+      "travel_facts": {
+        "summary": "**Sabarimala** hinges **Chengannur (~82 km)** Pamba meshes beneath **COK (~154 km)** apron stacks—Ayyappa trekking tides bias Nilakkal jeep merges knowing Periyar forest feeders absorb Makaravilakku crowd peaks.",
+        "keywords": [
+          "chengannur pamba meshes",
+          "cok apron stacks",
+          "ayyappa trekking tides",
+          "nilakkal jeep merges",
+          "periyar forest feeders",
+          "makaravilakku pilgrim peaks"
+        ]
+      }
     },
     {
       "slug": "kerala-silent-valley-national-park",
@@ -5364,10 +6979,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Silent Valley"
@@ -5398,17 +7014,40 @@
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Calicut International Airport (Karipur)",
+          "code": "CCJ",
+          "distance_km": 118,
+          "note": "Coimbatore CJB (~92 km) stacks Nilgiri wings—Mukkali eco-bus drills thicken Indira Gandhi core merges"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Palakkad Junction railway station",
+          "distance_km": 52,
+          "note": "Mannarkkad jeep feeders toward Mukkali—lion-tailed macaque tides jitter rainforest checkpoints"
         },
-        "road_access_quality": "average",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -5439,7 +7078,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 36146,
-        "content_richness_score": 0.073
+        "content_richness_score": 0.258
       },
       "section_briefs": {
         "understand": {
@@ -5558,7 +7197,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:26.012Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Silent Valley National Park Wildlife & nature The park is named Indira Gandhi National Park, and Silent Valley is the name of the place, but it is also called Silent Valley National Park. It is a wonderful place to visit for tourists. The Wildlife Warden , ☏ +91 8589895652 , +91 9645586629 , mail@silentvalley.gov.in . ( updated Sep 2020 ) Silent Valley National Park is at Mukkalil, 20 km from Mannarkkad town in Palakkad District , Malabar , Kerala , India .",
+      "travel_facts": {
+        "summary": "**Silent Valley** climbs **Palakkad Junction (~52 km)** rainforest meshes beneath **CCJ (~118 km)** apron stacks—Kunthi river valley tides bias Mukkali eco-bus merges knowing Nilgiri biosphere radios absorb Mannarkkad permit peaks.",
+        "keywords": [
+          "palakkad rainforest meshes",
+          "ccj apron stacks",
+          "silent valley mukkali tides",
+          "kunthi river merges",
+          "lion-tailed macaque checkpoints",
+          "nilgiri biosphere eco buses"
+        ]
+      }
     },
     {
       "slug": "kerala-thekkady",
@@ -5573,9 +7234,16 @@
       "description": "**Thekkady** ( Idukki district, Kerala , India ) is the location of the Periyar National Park . Kumily (Idukki district) is the nearest town centre to Thekkady.",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Thekkady",
@@ -5583,19 +7251,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3532776"
       },
       "distance_km": 385,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -5610,20 +7286,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Madurai Airport",
+          "code": "IXM",
+          "distance_km": 142,
+          "note": "Periyar boat timing tides thicken spice-factory merges—border checkpoint radios jitter wildlife peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kottayam railway station",
+          "distance_km": 108,
+          "note": "Kumily walk-in feeders toward sanctuary gates—elephant bathing tides spike dawn boating merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Kochi",
+          "Kottayam"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -5632,7 +7358,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -5652,7 +7382,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 39974,
-        "content_richness_score": 0.087
+        "content_richness_score": 0.286
       },
       "section_briefs": {
         "get_in": {
@@ -5850,7 +7580,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:26.862Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Thekkady Sightseeing Thekkady ( Idukki district, Kerala , India ) is the location of the Periyar National Park . Kumily (Idukki district) is the nearest town centre to Thekkady.",
+      "travel_facts": {
+        "summary": "**Thekkady** balances **Kottayam (~108 km)** Periyar meshes beneath **IXM (~142 km)** apron stacks—lake boating tides bias Kumily spice merges knowing Cardamom Hills feeders absorb tribal eco-tourism checkpoint peaks.",
+        "keywords": [
+          "kottayam periyar meshes",
+          "ixm apron stacks",
+          "thekkady lake boating",
+          "kumily spice merges",
+          "cardamom hill feeders",
+          "periyar elephant bathing tides"
+        ]
+      }
     },
     {
       "slug": "kerala-thiruvananthapuram",
@@ -5888,10 +7641,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Trivandrum",
@@ -5937,18 +7691,37 @@
         "nearest_airport": {
           "name": "Thiruvananthapuram International Airport",
           "code": "TRV",
-          "distance_km": null
+          "distance_km": 6,
+          "note": "Padmanabhaswamy corridor tides thicken Kovalam feeder merges—capital VIP movement radios jitter peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Trivandrum Central railway station",
+          "distance_km": 4,
+          "note": "Southern Railway meshes toward Kanyakumari—Kovalam auto tides dominate lighthouse peaks"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -6312,7 +8085,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:27.695Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban Thiruvananthapuram Sightseeing Thiruvananthapuram ( thih-roo-vuh-nuhn-thuh-poo-ruhm ), with a tradition dating back to 1000 BC, lies on a small strip of land covered with coconut and palm trees. Thiruvananthapuram means \"City of Lord Ananta\" (the serpent on which Lord Padmanabha/Vishnu reclines) in Sanskrit and Malayalam . Historically, it was a trading post for spices, sandalwood and ivory. Thiruvananthapuram is the largest city in Kerala. The city is the state capital and ho Located near the southern tip of mainland India, Thiruvananthapuram ( Malayalam : തിരുവനന്തപുരം _Tiruvanantapuraṁ_), formerly and often still known as Trivandrum, is the capital city of Kerala in Southern India . It is the headquarters of the district with the same name, which is one of the 14 districts of Kerala. Refe",
+      "travel_facts": {
+        "summary": "**Thiruvananthapuram** couples **Trivandrum Central (~4 km)** capital meshes with **TRV (~6 km)** apron stacks—Padmanabha temple tides bias Technopark merges knowing Ponmudi hairpin feeders absorb Poovar backwater peaks.",
+        "keywords": [
+          "trivandrum central meshes",
+          "trv apron stacks",
+          "padmanabha temple tides",
+          "technopark merges",
+          "ponmudi hairpin feeders",
+          "kovalam lighthouse taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-thrissur",
@@ -6327,9 +8119,16 @@
       "description": "**Thrissur** (originally Thirusivaperoor, formerly _Trichur_) is a popular city and district in the central part of Kerala in Southern India . It is known as the cultural capital of Kerala, with numerous cultural institutions, art centers, museums, etc.",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Thrissur",
@@ -6337,19 +8136,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q163798"
       },
       "distance_km": 311,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Thrichur",
@@ -6370,23 +8177,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Cochin International Airport",
           "code": "COK",
-          "distance_km": null
+          "distance_km": 52,
+          "note": "CCJ Kozhikode (~82 km) stacks northern wings—Thrissur Pooram tusker tides thicken Vadakkumnathan peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Thrissur railway station",
+          "distance_km": 3,
+          "note": "Swaraj Round feeder autos dominate Pulikali merges—cultural-capital expresses thicken festival peaks"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
         ],
         "direct_flight_available_from_major_cities": [
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -6396,7 +8251,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -6416,7 +8275,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 152574,
-        "content_richness_score": 0.501
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -6669,7 +8528,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:28.546Z",
+        "wikipedia_summary": "Thrissur, formerly Trichur, also known by its historical name Thrissivaperur, is a city and the headquarters of the Thrissur district in Kerala, India. It is the third largest urban agglomeration in Kerala after Kochi and Kozhikode, and the 21st largest in India. Thrissur is classified as a Tier-2 city by the Government of India. The city is built around a 65-acre (26 ha) hillock called Thekkinkadu Maidanam which seats the Vadakkumnathan temple. It is located 284 kilometres (176 mi) north-west of the state's capital city, Thiruvananthapuram. Thrissur was once the capital of the Kingdom of Cochin, and was a point of contact for the Assyrians, Greeks, Persians, Arabs, Romans, Portuguese, Dutch and English.",
+        "wikipedia_description": "City in Kerala, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:28.597Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Thrissur Sightseeing Thrissur, formerly Trichur, also known by its historical name Thrissivaperur, is a city and the headquarters of the Thrissur district in Kerala, India. It is the third largest urban agglomeration in Kerala after Kochi and Kozhikode, and the 21st largest in India. Thrissur is classified as a Tier-2 city by the Government of India. The city is built around a 65-acre (26 ha) hillock called Thekkinkadu Maidanam which seats the Vadakkumnathan temple. It is located 284 kilometres (176 mi) north-west of the state's capital city, Thiruvananthapuram. Thrissur was once the capital of the Kingdom of Cochin, and was a point of contact for the Assyrians, Greeks, Persians, Arabs, Romans, Portuguese, Dutch and English. Thrissur is one of the oldest cities in Kerala. The legend says that the city was the town created by Lord Parasurama (6th incarnation of Lord Vishnu) soon after formation of Kerala, by creating a large Shiva temple. The entire city is formed around the grand Shiva temple known as Vadakumnathan Temple. The temple is in the center of a mega roundabout that is 64 acres (26 hectares) in area. This roundabout is known as Swaraj Round. All roads conne Thrissur (originally Thirusivaperoor, formerly _Trichur_) is a popular city and district in the central part of Kerala in Southern India . It is known as the cultural capital of Kerala, with numerous cultural institutions, art centers, museums, etc.",
+      "travel_facts": {
+        "summary": "**Thrissur** rests **Thrissur station (~3 km)** cultural meshes beneath **COK (~52 km)** apron stacks—Pooram elephant tides bias Vadakkumnathan marg merges knowing Athirappilly cascade feeders absorb Guruvayur pilgrimage peaks.",
+        "keywords": [
+          "thrissur cultural meshes",
+          "cok apron stacks",
+          "pooram elephant tides",
+          "vadakkumnathan marg merges",
+          "athirappilly cascade feeders",
+          "guruvayur pilgrim taxis"
+        ]
+      }
     },
     {
       "slug": "kerala-varkala",
@@ -6684,9 +8565,16 @@
       "description": "**Varkala** is a town in the Indian state of Kerala , about 50 km north of Thiruvananthapuram and is home of the popular **Papanasam Beach**. Also, the Samadhi of Kerala's saint Sree Narayana Guru is in this town, and has become a place of pilgrimage.",
       "category": "Beaches",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Varkala",
@@ -6694,19 +8582,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1012951"
       },
       "distance_km": 481,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -6721,20 +8617,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Trivandrum International Airport",
-          "code": null,
-          "distance_km": 5
+          "name": "Thiruvananthapuram International Airport",
+          "code": "TRV",
+          "distance_km": 44,
+          "note": "Cliff walk tides thicken Papanasam surf merges—Narayana Guru memorial tides spike pilgrimage peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Varkala Sivagiri railway station",
+          "distance_km": 3,
+          "note": "Konkan merges toward Kollam—Janardhana temple autos dominate cliff markets"
         },
         "road_access_quality": "good",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -6743,7 +8691,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -6764,9 +8716,8 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 62208,
-        "content_richness_score": 0.169
+        "content_richness_score": 0.444
       },
-      "credibility_recognitions": ["unesco_tentative", "geo_heritage"],
       "section_briefs": {
         "understand": {
           "brief": "If you're looking for beaches and are fed up with the crowds and prices at Kovalam , then it's well worth checking out Varkala. The best times to go, are of course in the season, when the beach extends out all around the cliff face for 500 m.\r\n\nThe beaches around this area are excellent and if you're looking for a cheap holiday Varkala should definitely be on your list. In the off season its really mellow and relaxed, swim and sleep and chill out. Only in December does it get really busy and prices start rocketing till January/February, when it starts to quieten down.\r\n\nThe main season runs from Dec 1st- March 31st, with December &amp; early January experiencing the biggest rush. If you want to go out of season, then you can stay very cheaply and of course avoid the crowd. Varkala is quite a new place to hang out in India and has only been developed as a tourist destination in the last years. Slowly even the north of Varkala Beach gets developed for tourists. There is a promenade built from the Department of Tourism, which allows a scenic walk for about 1.5h towards north, passing Odayam and Edava until Kappil .",
@@ -6867,7 +8818,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:29.161Z",
+        "wikipedia_summary": "Varkala, historically known as Balita is a major coastal municipality and a northern suburb of Thiruvananthapuram, the capital city of the Indian state of Kerala. In legends and myths related to Kerala, texts like the Kerala Mahatmyam describe the Varkala region as one of the sacred places of Kerala.",
+        "wikipedia_description": "Town in Kerala, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:29.210Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Beach / Coastal City / Urban Varkala Sightseeing Varkala, historically known as Balita is a major coastal municipality and a northern suburb of Thiruvananthapuram, the capital city of the Indian state of Kerala. In legends and myths related to Kerala, texts like the Kerala Mahatmyam describe the Varkala region as one of the sacred places of Kerala. If you're looking for beaches and are fed up with the crowds and prices at Kovalam , then it's well worth checking out Varkala. The best times to go, are of course in the season, when the beach extends out all around the cliff face for 500 m. The beaches around this area are excellent and if you're looking for a cheap holiday Varkala should definitely be on your list. In the off season its really mellow and relaxed, swim and sleep and chill out. Varkala is a town in the Indian state of Kerala , about 50 km north of Thiruvananthapuram and is home of the popular Papanasam Beach. Also, the Samadhi of Kerala's saint Sree Narayana Guru is in this town, and has become a place of pilgrimage.",
+      "travel_facts": {
+        "summary": "**Varkala** threads **Varkala Sivagiri (~3 km)** coastal meshes beneath **TRV (~44 km)** apron stacks—Papanasam cliff tides bias Ayurveda retreat merges knowing North Cliff cafes absorb South Kerala surf peaks.",
+        "keywords": [
+          "varkala sivagiri meshes",
+          "trv apron stacks",
+          "papanasam cliff tides",
+          "narayana guru merges",
+          "north cliff cafes",
+          "konkan kollam expresses"
+        ]
+      }
     },
     {
       "slug": "kerala-wayanad",
@@ -6882,9 +8856,16 @@
       "description": "** Wayanad ** is a beautiful mountainous district in the Malabar region of Kerala located on the western ghats. It is sparsely populated and rural, with most of the land area covered with forests. The district abounds with hill stations , wildlife sanctuaries, rivers, dams, tea estates and trekking opportunities, with temples and heritage locations thrown in for good measure. Spread over 2,132 square kilometres, the district lies at an elevation of 700 metres, with its highest point reaching 2,100. \r\n\nWayanad borders Karnataka to its east and Tamil Nadu to its southeast. The districts of Kozhikode , Kannur and Malappuram form its eastern, northern and southern borders respectively. Wayanad is a popular weekend destination for travellers from Bangalore and Mysore .",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (SW monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_wet"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Wayanad",
@@ -6892,19 +8873,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1364427"
       },
       "distance_km": 222,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T18:50:15.390Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Wayanad district",
@@ -6929,20 +8918,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–34",
+          "winter": "22–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "ra Sagar Dam The district has neither an airport",
-          "code": null,
-          "distance_km": null
+          "name": "Calicut International Airport (Karipur)",
+          "code": "CCJ",
+          "distance_km": 88,
+          "note": "Kannur CNN (~112 km) stacks northern wings—Bandipur/Mysuru Karnataka merges thicken Sulthan Bathery peaks"
         },
         "nearest_railway_station": {
-          "name": "The nearest airport and railway station",
-          "distance_km": 100
+          "name": "Kozhikode railway station",
+          "distance_km": 86,
+          "note": "District lacks interior rail—ghats buses dominate Kalpetta merges—Lakkidi viewpoint taxis jitter monsoon slips"
         },
-        "road_access_quality": "good",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Kozhikode"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -6951,7 +8992,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -6971,7 +9016,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 36769,
-        "content_richness_score": 0.076
+        "content_richness_score": 0.263
       },
       "section_briefs": {
         "understand": {
@@ -7025,7 +9070,31 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:29.764Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills Wildlife / Nature City / Urban Wayanad Sightseeing Wayanad is the best place in Kerala for hill tourism. Most parts of the district are protected forest and the remaining area is lush green cultivation with a relatively thinner population. Urbanization has reached only 4% of the district. The altitude reaches up to 2,100 ft in some parts of Wayanad. Wayanad is a beautiful mountainous district in the Malabar region of Kerala located on the western ghats. It is sparsely populated and rural, with most of the land area covered with forests. The district abounds with hill stations , wildlife sanctuaries, rivers, dams, tea estates and trekking opportunities, with temple",
+      "travel_facts": {
+        "summary": "**Wayanad** spans **Kozhikode (~86 km)** railway feeders toward **CCJ (~88 km)** apron stacks—Edakkal cave tides bias Banasura Sagar merges knowing Nagarhole crossover Volvos absorb Sulthan Bathery plantation peaks.",
+        "keywords": [
+          "kozhikode wayanad feeders",
+          "ccj apron stacks",
+          "edakkal cave tides",
+          "banasura sagar merges",
+          "sulthan bathery volvos",
+          "western ghats plantation radios"
+        ]
+      }
     }
   ]
 }

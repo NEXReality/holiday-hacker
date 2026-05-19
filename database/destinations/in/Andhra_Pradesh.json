@@ -1,7 +1,7 @@
 {
   "state": "Andhra_Pradesh",
-  "state_code": "AN",
-  "generated_at": "2026-02-27T11:54:51.161Z",
+  "state_code": "AP",
+  "generated_at": "2026-05-18T14:30:00.000Z",
   "count": 10,
   "destinations": [
     {
@@ -17,9 +17,16 @@
       "description": "**Visakhapatnam** ( Telugu : విశాఖపట్నం _Viśākhapaṭnaṁ_), popularly known as **Vizag** (_vigh-ZAG_), is the largest city in Andhra Pradesh . It is primarily an industrial city, but also attracts tourists due to its unspoilt sandy beaches, well built and maintained parks, Buddhist Remnant sites and nearby scenic areas, such as Araku Valley . The city has a population of about 2 million.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Visakhapatnam",
@@ -27,19 +34,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q200016"
       },
       "distance_km": 805,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Wiśakhapatnam",
@@ -73,25 +88,69 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Visakhapatnam Airport",
+          "name": "Veer Savarkar International Airport (Visakhapatnam)",
           "code": "VTZ",
           "distance_km": null
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Visakhapatnam Junction (VSKP)",
+          "distance_km": 5,
+          "note": "Principal east-coast trunk station (Howrah–Chennai corridor)"
         },
         "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
           "Chennai",
-          "Hyderabad"
+          "Hyderabad",
+          "Bengaluru",
+          "Kolkata",
+          "Bhubaneswar"
         ],
         "direct_flight_available_from_major_cities": [
           "Chennai",
-          "Hyderabad"
+          "Hyderabad",
+          "Bengaluru",
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Bhubaneswar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -101,7 +160,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -453,7 +516,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:17.617Z",
+        "wikipedia_summary": "Visakhapatnam is the largest and most populous city in the Indian state of Andhra Pradesh. It is between the Eastern Ghats and the coast of the Bay of Bengal. It is the second largest city on the east coast of India after Chennai, and the fourth largest in South India. It is one of the four smart cities of Andhra Pradesh selected under the Smart Cities Mission and is the headquarters of Visakhapatnam district. Vizag is popularly known as shipbuilding capital of India due to presence of multiple shipyards such as Hindustan Shipyard, Naval Dockyard and being the central naval command of the east coast. As the economic hub of Andhra Pradesh, the city hosts diversified economy with the presence of heavy industries, ports, logistics, pharmaceuticals, medtech, biotechnology, energy production, tourism, textiles, R&D and a growing information technology and financial technology center. It is also described as the City of Destiny and the Jewel of the East Coast.",
+        "wikipedia_description": "Metropolis in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:18.073Z"
+      },
+      "search_context": "City / Urban destination Visakhapatnam Wiśakhapatnam Vizag Vaishakhapuram Vishakhapatnam Vishakapatnam Visha khapatnam Vizagapatnam Vishākhapatnam Visha-khapatnam Vizagapatam Visakhapattanamu Vizag City Waltair Vizagapatnamas Višakapatnamas Višakhapatnamas The City of Destiny Vizaga Sightseeing Visakhapatnam is the largest and most populous city in the Indian state of Andhra Pradesh. It is between the Eastern Ghats and the coast of the Bay of Bengal. It is the second largest city on the east coast of India after Chennai, and the fourth largest in South India. It is one of the four smart cities of Andhra Pradesh selected under the Smart Cities Mission and is the headquarters of Visakhapatnam district. Vizag is popularly known as shipbuilding capital of India due to presence of multiple shipyards such as Hindustan Shipyard, Naval Dockyard and being the central naval command of the east coast. As the economic hub of Andhra Pradesh, the city hosts diversified economy with the presence of heavy industries, ports, logistics, pharmaceuticals, medtech, biotechnology, energy production, tourism, textiles, R&D and a growing information technology and financial technology center. It is also described as the City of Destiny and the Jewel of the East Coast. Visakhapatnam ( vih-shah-k h uh-puhtt-nuhm ) is sometimes called _The Goa of the East_. Just like its west coast counterpart , it has beautiful virgin beaches, laterite hillocks, smooth roads and stunning landscape. Medical tourism is a fast-developing industry. Vizag is variously called _Jewel of the East Coast_, _Steel City_, and the _City of Destiny_. There is a considerable concentration of Marwaris, Odias, Bengalis, Punjabis, Tamils and Mala Visakhapatnam ( Telugu : విశాఖపట్నం _Viśākhapaṭnaṁ_), popularly known as Vizag (_vigh-ZAG_), is the largest city in Andhra Pradesh . It is primarily an industrial city, but also attracts tourists due to its unspoilt sandy beaches, well built and maintained parks, Buddhist Remnant sites and nearby scenic areas, such as",
+      "travel_facts": {
+        "summary": "**Visakhapatnam (Vizag)** is Andhra Pradesh’s primary east-coast gateway: **Visakhapatnam Airport (VTZ)** carries frequent domestic links to Hyderabad, Bengaluru, Chennai, Delhi, Kolkata and Bhubaneswar plus selective international connectors—always confirm airline schedules because naval traffic occasionally adjusts civilian slots. **Visakhapatnam Junction (VSKP)** anchors the Kolkata–Chennai trunk with premium expresses into Hyderabad and Vijayawada; berths sell out on weekends and festivals. **NH16** links Chennai and Odisha corridors with toll-grade highway driving; APSRTC “Garuda” class coaches and private sleeper buses mirror overnight demand from Hyderabad and Bengaluru. Within the city, Metro Phase corridors (where open), RTC grid buses and app cabs cover RK Beach, Rushikonda and Araku staging points. Visit October–March for manageable humidity before peak summer heat.",
+        "keywords": ["VTZ customs airport", "VSKP junction", "NH16 coastal highway", "APSRTC Garuda", "RK Beach Rushikonda", "Araku toy train staging"]
+      }
     },
     {
       "slug": "andhrapradesh-vijayawada",
@@ -468,9 +545,16 @@
       "description": "**Vijayawada** is the second largest city in Andhra Pradesh , India . It is on the banks of the Krishna River, bounded by the Indrakeeladri Hills on the west and the Budameru stream on the north. Its name literally translates to \"The Place of Victory\". It is also known as Bezawada.\r\n\nVijayawada is in Krishna District and is known as the business capital of Andhra Pradesh. It is just 20 km from the state capital Amaravati . It is spread over an area of 61 km² (urban area) with a population of over 1 million people (agglomeration 1.4 million) (2011).",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Vijayawada",
@@ -478,19 +562,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q200017"
       },
       "distance_km": 511,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Vijayavada",
@@ -512,23 +604,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "NTR Amaravati International Airport",
+          "name": "NTR Amaravati International Airport (Vijayawada–Gannavaram)",
           "code": "VGA",
-          "distance_km": null
+          "distance_km": 20
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Vijayawada Junction (BZA)",
+          "distance_km": 3,
+          "note": "South Central Railway megajunction on Chennai–Howrah and Chennai–Delhi trunk routes"
         },
-        "road_access_quality": null,
+        "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Chennai",
+          "Bengaluru",
+          "Kolkata",
+          "Delhi",
+          "Visakhapatnam"
         ],
         "direct_flight_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Chennai",
+          "Bengaluru",
+          "Delhi",
+          "Mumbai",
+          "Visakhapatnam",
+          "Tirupati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -538,7 +677,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -558,7 +701,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 119573,
-        "content_richness_score": 0.462
+        "content_richness_score": 0.854
       },
       "section_briefs": {
         "understand": {
@@ -778,74 +921,142 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:18.633Z",
+        "wikipedia_summary": "Vijayawada, also called as Bezawada, is the second largest city and a major commercial hub in the Indian state of Andhra Pradesh. The city forms an integral part of the Andhra Pradesh Capital Region and is situated on the banks of the Krishna River, flanked by the Eastern Ghats and the Indrakeeladri Hills.",
+        "wikipedia_description": "Metropolis in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:18.929Z"
+      },
+      "search_context": "City / Urban destination Vijayawada Vijayavada Vidžajavada Bezawada Bezwada Vidyayavada Bezvada Sightseeing Vijayawada, also called as Bezawada, is the second largest city and a major commercial hub in the Indian state of Andhra Pradesh. The city forms an integral part of the Andhra Pradesh Capital Region and is situated on the banks of the Krishna River, flanked by the Eastern Ghats and the Indrakeeladri Hills. Vijayawada is the second largest city in Andhra Pradesh , India . It is on the banks of the Krishna River, bounded by the Indrakeeladri Hills on the west and the Budameru stream on the north. Its name literally translates to \"The Place of Victory\". It is also known as Bezawada. Vijayawada is in Krishna District and is",
+      "travel_facts": {
+        "summary": "**Vijayawada (Bezawada)** sits at the Krishna River crossing that feeds Amaravati capital works and Prakasam Barrage tourism. **NTR Amaravati International Airport (VGA)** at Gannavaram (~18–22 km east) runs domestic flights to Hyderabad, Bengaluru, Chennai, Delhi, Mumbai and coastal neighbours—check carriers because apron expansion periodically shifts gates. **Vijayawada Junction** is one of India’s busiest SCR exchanges with daily superfast slots into Hyderabad (≈5 h), Chennai (≈7–8 h) and Bengaluru (overnight expresses). Overnight APSRTC Volvos, KSRTC and TSRTC partner coaches duplicate highway demand on NH16 toward Chennai and Bengaluru; intra-city bridges link auto belts across Punyam River flood plains.",
+        "keywords": ["VGA Gannavaram", "vijayawada junction", "krishna river barrage", "SCR rail hub", "NH16 overnight buses", "capital region APSRTC"]
+      }
     },
     {
       "slug": "andhrapradesh-chittor",
-      "name": "Chittor",
+      "name": "Chittoor",
       "region": "",
       "state": "Andhra_Pradesh",
       "coordinates": {
-        "lat": 24.88944,
-        "lon": 74.62389,
+        "lat": 13.217,
+        "lon": 79.101,
         "source": "wikidata"
       },
-      "description": "**Chittoor** is a city in Andhra Pradesh , India . It is the headquarters of Chittoor district \r\n\nChittoor, very close to the revered temple of lord Balaji or Venkateswara at Tirupati, is also close to two eminent wildlife sanctuaries and the famous Horsley Hills , a famous hill resort named after W.D Horsley.\r\n\nSituated in the valley of the **Ponni river**, Chittoor is a market for grain, sugarcane, and peanuts. Its industries include oilseed and rice milling. **Jaggery** from Aragonda area, a small town near Chittor is famous throughout the country. Chittor is a major place for producing hatcheries and mangoes. The city is surrounded by mango and tamarind groves, and cattle are bred in the area. A district administrative centre, Chittoor was a British military post until 1884.",
+      "description": "**Chittoor** is the headquarters of Chittoor district where the Ponni River plain meets the Tirupati pilgrimage corridor and horseshoe-shaped Horsley Hills escapes. APSRTC and Karnataka KSRTC coaches knit Bengaluru, Chennai, Tirupati and Vijayawada traffic while mango belts and ghee sweets traders keep the bus stands busy year-round.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Chittoor",
-        "wikipedia": "https://en.wikipedia.org/wiki/Chittorgarh",
-        "wikidata": "https://www.wikidata.org/wiki/Q41827"
+        "wikipedia": "https://en.wikipedia.org/wiki/Chittoor",
+        "wikidata": "https://www.wikidata.org/wiki/Q11198998"
       },
-      "distance_km": 1361,
-      "ideal_months": [],
+      "distance_km": 152,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
-        "quality_score": 0.6,
-        "last_verified": null
+        "quality_score": 0.85,
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
-        "Chittorgarh",
-        "Chitor",
-        "Chittorgârh",
-        "Chittaur",
-        "Chittaurgarh",
-        "Surajpur"
+        "Chittoor Town",
+        "CTR",
+        "Chittoor District HQ"
       ],
       "images": [
         {
-          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiitaurgarh%20(5089621718).jpg?width=1024",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Horsley_Hills_view_from_the_Chittoor_District.jpg?width=1024",
           "caption": null,
-          "source": "wikidata"
+          "source": "wikivoyage"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Tirupati International Airport (Renigunta)",
+          "code": "TIR",
+          "distance_km": 85,
+          "note": "Limited metro frequencies—many flyers ticket Kempegowda BLR (~155 km) or Chennai MAA (~175 km) instead"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Chittoor Junction (CTO)",
+          "distance_km": 2,
+          "note": "South Central Railway stop on Chennai–Bengaluru spacing with pilgrim specials toward Tirupati"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Bengaluru",
+          "Hyderabad",
+          "Tirupati"
+        ],
+        "direct_flight_available_from_major_cities": [],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -854,7 +1065,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -873,7 +1088,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 20191,
-        "content_richness_score": 0
+        "content_richness_score": 0.144
       },
       "section_briefs": {
         "get_in": {
@@ -920,7 +1135,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T14:30:00.000Z",
+        "wikipedia_summary": "Chittoor is a city in Andhra Pradesh, India, and the headquarters of Chittoor district. It lies on the Ponni River plain between the Eastern Ghats foothills and the Tamil Nadu border, anchoring highway and rail traffic toward Tirupati and Bengaluru.",
+        "wikipedia_description": "City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T14:30:00.000Z"
+      },
+      "search_context": "City / Urban destination Chittoor CTR Tirupati corridor Horsley Hills mango belt Sightseeing Chittoor is the Andhra Pradesh district headquarters linking pilgrimage traffic to Tirupati with Karnataka and Tamil Nadu highway flows via APSRTC and KSRTC.",
+      "travel_facts": {
+        "summary": "**Chittoor** sits on the busy Tirupati–Bengaluru NH spine: flyers typically land at **Renigunta (TIR)** (~85 km) or route through **Chennai MAA / Bengaluru BLR** when TIR frequencies tighten during Brahmotsavam rush. **Chittoor Junction (CTO)** carries Chennai–Bengaluru expresses plus Hyderabad connects—reserve Tatkal-friendly quotas on weekends. APSRTC premium buses and Karnataka Volvo ladders duplicate rail timings from Bengaluru Majestic and Chennai-side corridors (Katpadi transfers); rural pilgrims stage onward hops to Kanipakam (≈12 km). Monsoon ghat detours toward Horsley Hills warrant daytime driving.",
+        "keywords": ["TIR Renigunta gateway", "CTO railway junction", "NH69 Tirupati buses", "KSRTC APSRTC corridor", "Kanipakam staging", "Horsley Hills road"]
+      }
     },
     {
       "slug": "andhrapradesh-araku",
@@ -935,9 +1164,16 @@
       "description": "**Araku Valley** is hill station in the North Coast region of Andhra Pradesh in Southern India . It is about 110 km (68 mi) from Visakhapatnam and many travellers visit this town as part of their trip to Visakhapatnam. In 2011, it was home to 57,000 people. It is a coffee plantation, and there is also a honey industry.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Araku_Valley",
@@ -945,19 +1181,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3536505"
       },
       "distance_km": 821,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Araku Valley"
@@ -969,20 +1213,59 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Visakhapatnam Airport (VTZ)",
+          "code": "VTZ",
+          "distance_km": 115,
+          "note": "Principal air gateway—hill taxis/APTDC coaches cover ~110 km with tight curves"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Araku railway station (ARKU)",
+          "distance_km": 2,
+          "note": "East Coast Railway Kirandul–Visakhapatnam scenic route via Borra Caves spur roads"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Visakhapatnam"
+        ],
+        "direct_flight_available_from_major_cities": [],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -991,7 +1274,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -1010,7 +1297,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 21627,
-        "content_richness_score": 0.007
+        "content_richness_score": 0.154
       },
       "section_briefs": {
         "understand": {
@@ -1054,7 +1341,22 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:20.099Z",
+        "wikipedia_summary": "Araku Valley is a hill station in the Alluri Sitharama Raju district of Andhra Pradesh, India, located 111 km from Visakhapatnam.",
+        "wikipedia_description": "Hill Station in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:20.392Z"
+      },
+      "search_context": "Mountain / Hills Wildlife / Nature destination Araku Araku Valley Eastern Ghats coffee country Sightseeing Araku Valley is a hill station in the Alluri Sitharama Raju district of Andhra Pradesh, India, located 111 km from Visakhapatnam. Araku is blessed with enchanting beauty of the hills and greenery, interspersed with streams and rivulets. The morning fog is particularly lovely here. This area is often referred to as Ooty of Andhra. It is a valley in the Eastern Ghats inhabited by several tribes. Araku Valley is definitely not a day trip, but the APTDC facilities can serve as a decent lodging. Book your APTDC rooms early. November to February are the best months to visit and m Araku Valley is hill station in the North Coast region of Andhra Pradesh in Southern India . It is about 110 km (68 mi) from Visakhapatnam and many travellers visit this town as part of their trip to Visakhapatnam. In 2011, it was home to 57,000 people. It is a coffee plantation, and there is also a honey industry.",
+      "travel_facts": {
+        "summary": "**Araku Valley** pairs mountain scenery with Visakhapatnam logistics: flyers stage through **VTZ** (~115 km) before dawn taxis climb SH-controlled ghat bends toward Borra Caves turn-offs. The iconic **Visakhapatnam–Kirandul** passenger train hugs tunnels at **Shimiliguda** elevation—book APTDC packages when coaches sell out on holidays. APSRTC tour buses and private Innovas duplicate the ridge loop while coffee estates restrict night driving during mist peaks. Expect cooler nights November–February but verify cyclone debris on Ghats after Bay storms.",
+        "keywords": ["VTZ gateway drives", "Araku ARKU station", "Kirandul passenger train", "Borra caves spur road", "APTDC hill lodges", "Eastern Ghats coffee belt"]
+      }
     },
     {
       "slug": "andhrapradesh-nellore",
@@ -1069,9 +1371,16 @@
       "description": "**Nellore** (also called Simhapuri in previous centuries) is one of the more prominent towns/cities in the State of Andhra Pradesh in Southern India .",
       "category": "city",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Nellore",
@@ -1079,19 +1388,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q61434"
       },
       "distance_km": 303,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Nelluru",
@@ -1105,25 +1422,63 @@
           "source": "wikivoyage"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Chennai International Airport (MAA)",
+          "code": "MAA",
+          "distance_km": 177,
+          "note": "Primary jet gateway on NH16 toll corridor ~2.5 h by car; Tirupati TIR (~130 km west) adds intra-AP hops only"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Nellore railway station (NLR)",
+          "distance_km": 3,
+          "note": "South Coast Railway node on Howrah–Chennai trunk"
         },
         "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
           "Chennai",
-          "Hyderabad"
+          "Hyderabad",
+          "Bengaluru"
         ],
         "direct_flight_available_from_major_cities": [
           "Chennai",
           "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -1133,7 +1488,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1154,7 +1513,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 66145,
-        "content_richness_score": 0.214
+        "content_richness_score": 0.472
       },
       "section_briefs": {
         "understand": {
@@ -1256,7 +1615,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:20.945Z",
+        "wikipedia_summary": "Nellore, also spelt as Nelluru, is a city located on the banks of Penna River, in Nellore district of Andhra Pradesh, India. It serves as the headquarters of the district, as well as Nellore Urban mandal, Nellore Rural mandal and Nellore revenue division. It is the fourth most populous city in the state. It is at a distance of 279 kilometres (173 mi) from Vijayawada, 660 kilometres (410 mi) from Visakhapatnam, 455 kilometres (283 mi) from Hyderabad and about 170 km (110 mi) north of Chennai, Tamil Nadu and also about 380 km (240 mi) east-northeast of Bangalore, Karnataka. It is the administrative headquarters of Nellore District.",
+        "wikipedia_description": "City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:21.238Z"
+      },
+      "search_context": "City / Urban city Nellore Nelluru Vikrama Simhapuri Néllúru Sightseeing Nellore, also spelt as Nelluru, is a city located on the banks of Penna River, in Nellore district of Andhra Pradesh, India. It serves as the headquarters of the district, as well as Nellore Urban mandal, Nellore Rural mandal and Nellore revenue division. It is the fourth most populous city in the state. It is at a distance of 279 kilometres (173 mi) from Vijayawada, 660 kilometres (410 mi) from Visakhapatnam, 455 kilometres (283 mi) from Hyderabad and about 170 km (110 mi) north of Chennai, Tamil Nadu and also about 380 km (240 mi) east-northeast of Bangalore, Karnataka. It is the administrative headquarters of Nellore District. Known for its agriculture, and for its educational institutions and business, is coming to terms with its new-found stature as a city. Nellore is fast blossoming into a hub for shipping and rail/road connections, a major port being built at Krishnapatnam. Nellore has been an exporter of Rice, Sugarcane/cane-based products, prawn/shrimp and a varied set of crops. Nellore has expanded enormously over the years, with newer flyovers, roads and highwa Nellore (also called Simhapuri in previous centuries) is one of the more prominent towns/cities in the State of Andhra Pradesh in Southern India .",
+      "travel_facts": {
+        "summary": "**Nellore (Simhapuri)** straddles the Penna River delta where southbound pilgrims meet Chennai logistics. **Chennai MAA** (~177 km) remains the heavy-frequency jet bridge via modern NH16 drive (~2.5 h); **Tirupati TIR** (~130 km west) helps Hyderabad/Vijayawada flyers who accept thinner schedules. **Nellore Junction (NLR)** rides the Howrah–Chennai trunk—chair-car hops hit Chennai in ~3 h while Hyderabad expresses run nightly (~10 h). APSRTC Volvos and Tamil Nadu SETC counterparts crowd RTC Complex lanes during festivals; Krishnapatnam port freight adds daytime truck noise on bypass connectors.",
+        "keywords": ["MAA Chennai drives", "NLR trunk railway", "NH16 toll highway", "Krishnapatnam port corridor", "APSRTC SETC overlap", "TIR alternate airport"]
+      }
     },
     {
       "slug": "andhrapradesh-anantapur",
@@ -1271,9 +1644,16 @@
       "description": "**Anantapur** is a city in Andhra Pradesh in India with historic forts and temples.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Anantapur",
@@ -1281,19 +1661,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q760144"
       },
       "distance_km": 190,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Ananthapuram",
@@ -1312,22 +1700,61 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kempegowda International Airport (Bengaluru)",
+          "code": "BLR",
+          "distance_km": 190,
+          "note": "Primary scheduled gateway for Rayalaseema volume; Rajiv Gandhi HYD (~245 km north) mirrors Hyderabad expresses"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Anantapur railway station (ATP)",
+          "distance_km": 2,
+          "note": "Major divisional stop linking Hyderabad, Bengaluru and Chennai expresses (check IRCTC quotas during pilgrim peaks)"
         },
         "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Bengaluru",
+          "Chennai"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -1336,7 +1763,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1356,7 +1787,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 54964,
-        "content_richness_score": 0.162
+        "content_richness_score": 0.393
       },
       "section_briefs": {
         "understand": {
@@ -1495,7 +1926,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:21.793Z",
+        "wikipedia_summary": "Anantapur, officially Ananthapuramu, is a city in Anantapur district of the Indian state of Andhra Pradesh. It is the mandal headquarters of Anantapuru mandal and also the divisional headquarters of Anantapur revenue division. The city is located on National Highway 44. Anantapur was the headquarters of the Datta Mandalam in 1799, and was also a location of strategic importance for the British Indian Army during the Second World War. The GDP of Anantapur City is $ 1.728 Billion.",
+        "wikipedia_description": "City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:22.087Z"
+      },
+      "search_context": "City / Urban destination Anantapur Ananthapuram Anantapur (stad) Anantapuramu Sightseeing Anantapur, officially Ananthapuramu, is a city in Anantapur district of the Indian state of Andhra Pradesh. It is the mandal headquarters of Anantapuru mandal and also the divisional headquarters of Anantapur revenue division. The city is located on National Highway 44. Anantapur was the headquarters of the Datta Mandalam in 1799, and was also a location of strategic importance for the British Indian Army during the Second World War. The GDP of Anantapur City is $ 1.728 Billion. Anantapur has a population of over 500,000 and is well connected by road and rail. It is located between Hyderabad, Bangalore Highway and Railway line. The nearest Airport is at Puttaparty 70 km. Sri Krishnadevaraya University and JNT University are in the city. 200 km south of Anantapur is Bangalore and 350 km north of Anantpur is Hyderabad. The primary language is Telugu. Getting along with English alone is also not very difficult. Anantapur is a city in Andhra Pradesh in India with historic forts and temples.",
+      "travel_facts": {
+        "summary": "**Anantapur** sits on national highway and rail cross-hairs between Hyderabad (~245 km), Bengaluru (~190 km) and the Chennai diagonal. Most flyers ticket **Kempegowda BLR** or **Rajiv Gandhi HYD**, then continue on APSRTC sleeper ladders or Udyan/Garib Rath expresses toward **ATP station** downtown. Private coaches from Vellore and Tirupati duplicate harvest-season rush during festival markets—expect NH44 toll queues near bypass junctions. Carry water April–June when mercury crests above 40 °C.",
+        "keywords": ["BLR HYD air gateways", "ATP railway junction", "NH44 Hyderabad Bengaluru spine", "APSRTC private coaches", "Rayalaseema summer heat", "Garib Rath quotas"]
+      }
     },
     {
       "slug": "andhrapradesh-tirupati",
@@ -1510,9 +1955,16 @@
       "description": "**Tirupati** is the spiritual capital of Andhra Pradesh , India . It is most famous for its **Sri Venkateswara Temple** dedicated to Vishnu, also known as Balaji in Northern India and Govinda in Southern India. The temple is on top of Tirumala hills, while the town is in the foothills. The Tirumala hill has seven peaks (\"Sapthagiri\"), said to represent the seven hoods of Adisesha, the serpent under whose hood Vishnu resides in Vaikuntha.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Tirupati",
@@ -1520,19 +1972,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1436816"
       },
       "distance_km": 211,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Tirumala Venkateswara Temple",
@@ -1550,27 +2010,64 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Tirupati Airport",
+          "name": "Tirupati International Airport (Renigunta)",
           "code": "TIR",
-          "distance_km": null
+          "distance_km": 14,
+          "note": "Domestic hub ~14 km west—Chennai MAA (~135 km) still carries widest overseas connectors"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Tirupati railway station (TPTY)",
+          "distance_km": 2,
+          "note": "Anchors APSRTC hill-bus relays toward Tirumala ghat checkpoints"
         },
         "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Bengaluru",
           "Chennai",
           "Hyderabad"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
+          "Bengaluru",
           "Chennai",
           "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -1580,7 +2077,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1600,7 +2101,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 106810,
-        "content_richness_score": 0.403
+        "content_richness_score": 0.763
       },
       "section_briefs": {
         "understand": {
@@ -1789,7 +2290,22 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:22.645Z",
+        "wikipedia_summary": "Tirupati is a city in the Indian state of Andhra Pradesh and serves as the administrative headquarters of Tirupati district. It is known for its significant religious and cultural heritage, being home to the renowned Tirumala Venkateswara Temple, a major Hindu pilgrimage site, as well as other historic temples. The temple is one of the eight Svayam Vyakta Kshetras dedicated to the deity Vishnu. Tirupati is situated 150 km from Chennai, 250 km from Bangalore, and 416 km from Vijayawada.",
+        "wikipedia_description": "City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:22.939Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban destination Tirupati Tirumala Venkateswara Temple Tirumala - Tirupati Sightseeing Tirupati is a city in the Indian state of Andhra Pradesh and serves as the administrative headquarters of Tirupati district. It is known for its significant religious and cultural heritage, being home to the renowned Tirumala Venkateswara Temple, a major Hindu pilgrimage site, as well as other historic temples. The temple is one of the eight Svayam Vyakta Kshetras dedicated to the deity Vishnu. Tirupati is situated 150 km from Chennai, 250 km from Bangalore, and 416 km from Vijayawada. Tirupati is in the southern part of Andhra Pradesh , in the Eastern Ghats, a mountain range that runs along the southeastern India. The temple of Venkateswara is on the seventh peak _Venkatachala_. The nearby town called Tiruchanoor (also known as Alamelu-Mangapuram) is covered in this page too. Tirupati is considered a major holy city for Hinduism and receives a significant amount of pilgrimage traffic. Many attractions here are geared towards r Tirupati is the spiritual capital of Andhra Pradesh , India . It is most famous for its Sri Venkateswara Temple dedicated to Vishnu, also known as Balaji in Northern India and Govinda in Southern India. The temple is on top of Tirumala hills, while the town is in the foothills. The Tirumala hill has seven peaks (\"Sapth",
+      "travel_facts": {
+        "summary": "**Tirupati** funnels massive pilgrimage flows through Renigunta airfield (**TIR**) plus electrified rail spokes from **Chennai, Bengaluru and Hyderabad**—book Tatkal and APSRTC Tirumala combo tickets weeks ahead on peak sarvadarshan days. Hill buses switchback from Tirupati Town to Tirumala checkpoints under tight LR regulations; hire-car queues spike around Brahmostavam. International flyers often stage via **Chennai MAA** (~135 km) before ground transfers; confirm baggage allowances on budget carriers serving Renigunta.",
+        "keywords": ["TIR Renigunta airport", "TPTY railway staging", "APSRTC Tirumala ghat buses", "Chennai MAA connector", "Tirumala checkpoint LR passes", "brahmotsavam peak crowds"]
+      }
     },
     {
       "slug": "andhrapradesh-guntur",
@@ -1804,9 +2320,16 @@
       "description": "**Guntur** is a major city in the Indian state of Andhra Pradesh , close to the state capital Amaravati , 65 km (40 mi) West of Bay of Bengal. In ancient times, the city was referred as \"Garthapuri\". Its estimated population is around 700,000.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Guntur",
@@ -1814,19 +2337,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3120966"
       },
       "distance_km": 481,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Gunturu",
@@ -1845,23 +2376,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
+          "name": "NTR Amaravati International Airport (Vijayawada–Gannavaram)",
           "code": "VGA",
-          "distance_km": null
+          "distance_km": 55,
+          "note": "~45–60 minutes by cab via NH16 depending on Krishna barrage traffic"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Guntur Junction (GNT)",
+          "distance_km": 3,
+          "note": "South Coast Railway long-distance terminal with spillover locals from New Guntur"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Chennai",
+          "Bengaluru",
+          "Visakhapatnam",
+          "Kolkata",
+          "Delhi",
+          "Tirupati"
         ],
         "direct_flight_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Chennai",
+          "Bengaluru",
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -1871,7 +2449,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1891,7 +2473,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 105222,
-        "content_richness_score": 0.396
+        "content_richness_score": 0.752
       },
       "section_briefs": {
         "understand": {
@@ -2024,7 +2606,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:23.504Z",
+        "wikipedia_summary": "Guntur, natively spelt as Gunturu, is a city in the Indian state of Andhra Pradesh and the administrative headquarters of Guntur district. The city is part of the Andhra Pradesh Capital Region and is located on the Eastern Coastal Plains approximately 14 miles (23 km) south-west of the state capital Amaravati. According to data from the 2011 Census of India, Guntur had a population of 743,354 in that year, making it the third-most-populous city in the state, and occupies 159.46 square kilometres of land. The city is the heartland of the state, located in the center of Andhra Pradesh and making it a central part connecting different regions.",
+        "wikipedia_description": "City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:23.798Z"
+      },
+      "search_context": "City / Urban destination Guntur Gunturu Guntur district Garthapuri Sightseeing Guntur, natively spelt as Gunturu, is a city in the Indian state of Andhra Pradesh and the administrative headquarters of Guntur district. The city is part of the Andhra Pradesh Capital Region and is located on the Eastern Coastal Plains approximately 14 miles (23 km) south-west of the state capital Amaravati. According to data from the 2011 Census of India, Guntur had a population of 743,354 in that year, making it the third-most-populous city in the state, and occupies 159.46 square kilometres of land. The city is the heartland of the state, located in the center of Andhra Pradesh and making it a central part connecting different regions. Guntur is a major city in the Indian state of Andhra Pradesh , close to the state capital Amaravati , 65 km (40 mi) West of Bay of Bengal. In ancient times, the city was referred as \"Garthapuri\". Its estimated population is around 700,000.",
+      "travel_facts": {
+        "summary": "**Guntur** plugs into the Andhra Pradesh capital triangle through **NTR Amaravati Airport (VGA)** (~55 km northeast) and twin railheads **Guntur Junction / New Guntur**, fielding overnight expresses from **Hyderabad, Chennai, Bengaluru, Kolkata and Delhi** plus dense locals into Vijayawada. APSRTC city grids mesh with NH16 freight bound for Krishnapatnam; peak hours stack Tirupati pilgrimage buses along Inner Ring Road merges. Allow buffer when crossing Prakasam Barrage tailbacks during Krishna festival weekends.",
+        "keywords": ["VGA airport shuttle", "GNT junction freight", "NH16 capital corridor", "APSRTC inner ring", "Krishnapatnam port trucks", "Krishna barrage delays"]
+      }
     },
     {
       "slug": "andhrapradesh-amaravati",
@@ -2039,9 +2635,16 @@
       "description": "**Amaravati** or **Amaravathi** (అమరావతి) is the capital of the state of Andhra Pradesh in Southern India .",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Amaravati",
@@ -2049,19 +2652,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q19881964"
       },
       "distance_km": 502,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Amaravati city"
@@ -2078,20 +2689,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "NTR Amaravati International Airport",
+          "name": "NTR Amaravati International Airport (Vijayawada–Gannavaram)",
           "code": "VGA",
-          "distance_km": null
+          "distance_km": 35,
+          "note": "Primary scheduled jet bridge into the capital region—share taxis common via PNBS Vijayawada"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Vijayawada Junction (BZA)",
+          "distance_km": 22,
+          "note": "Krishna Canal Junction also serves some expresses a few kilometres closer—confirm coach boards"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Hyderabad",
+          "Chennai",
+          "Bengaluru",
+          "Kolkata",
+          "Delhi",
+          "Visakhapatnam"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Hyderabad",
+          "Chennai",
+          "Bengaluru",
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -2100,7 +2761,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -2120,7 +2785,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 43958,
-        "content_richness_score": 0.111
+        "content_richness_score": 0.314
       },
       "section_briefs": {
         "understand": {
@@ -2250,7 +2915,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:24.362Z",
+        "wikipedia_summary": "Amaravati is the capital city of the Indian state of Andhra Pradesh. It is located in Guntur district on the right bank of the Krishna River, 15 kilometres (9.3 mi) southwest of Vijayawada. The city derives its name from the nearby historic site of Amaravathi, which served as the capital of the Satavahana Empire nearly two thousand years ago.",
+        "wikipedia_description": "State Capital City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:24.667Z"
+      },
+      "search_context": "City / Urban destination Amaravati Amaravati city Sightseeing Amaravati is the capital city of the Indian state of Andhra Pradesh. It is located in Guntur district on the right bank of the Krishna River, 15 kilometres (9.3 mi) southwest of Vijayawada. The city derives its name from the nearby historic site of Amaravathi, which served as the capital of the Satavahana Empire nearly two thousand years ago. Amaravati is a planned capital city established in 2015. It was established as the seat of government of Andhra Pradesh in 2019. However, the state government passed an act in 2020 to establish three capital cities in AP for inclusive development of all the regions. Its name was derived from the historic town named Amaravathi, which is also covered in this article. The region was once a capital of the Satavahana dynasty. The city is located on th Amaravati or Amaravathi (అమరావతి) is the capital of the state of Andhra Pradesh in Southern India .",
+      "travel_facts": {
+        "summary": "**Amaravati** capital works share Vijayawada’s transport spine: **VGA** (~35 km) lands business jets and trunk-route narrow-bodies while PNBS-linked APSRTC expresses finish the Krishna river crossing. Most IR seats originate from **Vijayawada Junction (BZA)** with duplicates picking **Krishna Canal Junction** on freight-heavy evenings—Uber/intercity cabs quote extra tolls on barrage detours. Hyderabad and Chennai night riders should book APSRTC Amaravathi-class coaches early during assembly sessions when security closes peripheral loops.",
+        "keywords": ["VGA capital shuttle", "BZA railway spillover", "Krishna Canal Junction", "APSRTC Amaravathi coaches", "Prakasam barrage traffic", "planned capital sites"]
+      }
     },
     {
       "slug": "andhrapradesh-kurnool",
@@ -2265,9 +2944,16 @@
       "description": "**Kurnool** is a city in Rayalaseema , Andhra Pradesh state. It is home to the 16th-century Konda Reddy Fort.",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kurnool",
@@ -2275,19 +2961,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3635276"
       },
       "distance_km": 321,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:54:48.837Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kurnul"
@@ -2304,24 +2998,64 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Kurnool Airport",
+          "name": "Orvakal Airport (Kurnool)",
           "code": "KJB",
-          "distance_km": null
+          "distance_km": 28,
+          "note": "UDAN-era flights rotate seasonally—many itineraries still stage via Hyderabad RGIA (~190 km)"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kurnool City railway station (KRNT)",
+          "distance_km": 3,
+          "note": "Hyderabad–Bangalore diagonal crossing with freight precedence near Tungabhadra bridges"
         },
         "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Bengaluru",
           "Chennai",
           "Hyderabad"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -2330,7 +3064,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2350,7 +3088,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 73843,
-        "content_richness_score": 0.25
+        "content_richness_score": 0.527
       },
       "section_briefs": {
         "understand": {
@@ -2523,7 +3261,21 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:25.225Z",
+        "wikipedia_summary": "Kurnool is a city in the state of Andhra Pradesh, India. It formerly served as the capital of Andhra State (1953–1956). The city is often referred to as \"The Gateway of Rayalaseema\". Kurnool is also famous for Diamond hunting as diamonds can be found in the barren land of Kurnool after the top layers of soil are washed away by the monsoon rains. It also serves as the district headquarters of its Kurnool district. As of 2011 census, it is the fifth most populous city in the state with a population of 425,214. It is located on the banks of the Tungabhadra river. Although the area has been inhabited for thousands of years, modern Kurnool was founded in the 16th century CE with the construction of the Konda Reddy Fort.",
+        "wikipedia_description": "City in Andhra Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:25.518Z"
+      },
+      "search_context": "City / Urban destination Kurnool Kurnul Sightseeing Kurnool is a city in the state of Andhra Pradesh, India. It formerly served as the capital of Andhra State (1953–1956). The city is often referred to as \"The Gateway of Rayalaseema\". Kurnool is also famous for Diamond hunting as diamonds can be found in the barren land of Kurnool after the top layers of soil are washed away by the monsoon rains. It also serves as the district headquarters of its Kurnool district. As of 2011 census, it is the fifth most populous city in the state with a population of 425,214. It is located on the banks of the Tungabhadra river. Although the area has been inhabited for thousands of years, modern Kurnool was founded in the 16th century CE with the construction of the Konda Reddy Fort. This district derives its name from its chief town, Kurnool, the capital of former Nawabs, capital of Andhra Pradesh State from 1953 to 1956, and now the headquarters of the district. Kurnool is a city in Rayalaseema , Andhra Pradesh state. It is home to the 16th-century Konda Reddy Fort.",
+      "travel_facts": {
+        "summary": "**Kurnool** guards the Hyderabad–Bengaluru NH44 midpoint where **Orvakal (KJB)** offers selective UDAN rotations yet most flyers still stage through **Rajiv Gandhi International (~190 km)** or **Kempegowda (~330 km)** during schedule gaps. **Kurnool City (KRNT)** handles Chennai–Mumbai diagonal expresses plus Bangalore overnight coaches; bridge maintenance on the Tungabhadra occasionally pads bus eta by an hour. Hire cooling breaks mid-May before Rayalaseema heat spikes near **Konda Reddy Fort** climbs.",
+        "keywords": ["KJB Orvakal UDAN", "KRNT railway diagonal", "NH44 Hyderabad Bengaluru", "Tungabhadra bridge buses", "RGIA alternate gateway", "Rayalaseema summer heat"]
+      }
     }
   ]
 }

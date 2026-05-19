@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#ffffff"/>
   <title>Holiday Hacker - Holidays</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -128,6 +129,19 @@
             <input type="text" class="edit-field-input" id="editName" placeholder="Enter holiday name"/>
           </section>
 
+          <!-- Holiday vs leave (Add custom / edit personal only) -->
+          <section class="edit-field" id="editCustomKindSection" style="display:none;">
+            <label class="edit-field-label" for="editCustomKind">Day type</label>
+            <div class="edit-select-wrap">
+              <span class="material-symbols-outlined edit-select-icon" id="editCustomKindIcon">event</span>
+              <select class="edit-field-select" id="editCustomKind">
+                <option value="holiday">Holiday</option>
+                <option value="leave">Leave</option>
+              </select>
+              <span class="material-symbols-outlined edit-select-chevron">expand_more</span>
+            </div>
+          </section>
+
           <!-- Date scroll picker -->
           <section class="edit-field">
             <div class="edit-field-top">
@@ -192,6 +206,31 @@
     </nav>
   </div>
 
+  <!-- Confirmation modal that fires when a date-edit overlaps a confirmed trip -->
+  <div class="hh-modal" id="holidayShiftModal" hidden>
+    <div class="hh-modal__backdrop" data-shift-cancel="1"></div>
+    <div class="hh-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="holidayShiftTitle">
+      <div class="hh-modal__icon hh-modal__icon--info">
+        <span class="material-symbols-outlined">event_repeat</span>
+      </div>
+      <h3 class="hh-modal__title" id="holidayShiftTitle">Update affected trips?</h3>
+      <p class="hh-modal__body" id="holidayShiftBody">
+        This holiday date change overlaps with your saved trip(s). Should we shift the trip dates and reminders by the same amount?
+      </p>
+      <ul class="hh-modal__list" id="holidayShiftList"></ul>
+      <p class="hh-modal__hint hh-modal__hint--info">If you skip, your saved trip dates stay locked at the original window.</p>
+      <div class="hh-modal__actions">
+        <button type="button" class="hh-modal__btn hh-modal__btn--cancel" data-shift-cancel="1">Keep trip dates</button>
+        <button type="button" class="hh-modal__btn hh-modal__btn--primary" id="holidayShiftConfirmBtn">
+          <span class="material-symbols-outlined">check</span>
+          Shift trips
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../boot-version.js"></script>
+  <script src="../holiday-shift.js"></script>
   <script src="holidays.js"></script>
 </body>
 </html>

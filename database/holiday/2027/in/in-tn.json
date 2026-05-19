@@ -1,0 +1,133 @@
+{
+  "stateCode": "IN-TN",
+  "stateName": "Tamil Nadu",
+  "year": 2027,
+  "indiaRegion": "South",
+  "adminType": "state",
+  "incredibleIndiaSlug": "tamil-nadu",
+  "holidayJsonSlug": "in-tn",
+  "source": "PublicHolidays.in India 2027 aggregate (https://publicholidays.in/#2027-public-holidays). Not an official government gazette; moon-based and regional dates are provisional.",
+  "dataQuality": "estimate",
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-15",
+      "name": "Pongal",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-15",
+      "name": "Thiruvalluvar Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-16",
+      "name": "Uzhavar Thirunal",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-23",
+      "name": "Thaipoosam",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-26",
+      "name": "Republic Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Idul Fitr",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-08",
+      "name": "Telugu New Year",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Dr Ambedkar Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Tamil New Year",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-19",
+      "name": "Mahavir Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "May Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Bakrid / Eid al Adha",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-06-15",
+      "name": "Muharram",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Eid e Milad",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Independence Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-25",
+      "name": "Janmashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-09-04",
+      "name": "Ganesh Chaturthi",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-02",
+      "name": "Gandhi Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-09",
+      "name": "Maha Navami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-10",
+      "name": "Vijaya Dashami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Deepavali",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Christmas Day",
+      "type": "gazetted"
+    }
+  ]
+}

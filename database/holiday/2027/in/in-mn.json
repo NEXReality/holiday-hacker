@@ -1,0 +1,128 @@
+{
+  "stateCode": "IN-MN",
+  "stateName": "Manipur",
+  "year": 2027,
+  "indiaRegion": "North East",
+  "adminType": "state",
+  "incredibleIndiaSlug": "manipur",
+  "holidayJsonSlug": "in-mn",
+  "source": "PublicHolidays.in India 2027 aggregate (https://publicholidays.in/#2027-public-holidays). Not an official government gazette; moon-based and regional dates are provisional.",
+  "dataQuality": "estimate",
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-20",
+      "name": "Gaan-Ngai",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-26",
+      "name": "Republic Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-02-15",
+      "name": "Lui-Ngai-Ni",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Idul Fitr",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-22",
+      "name": "Yaosang",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-23",
+      "name": "Yaosang 2nd Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-07",
+      "name": "Sajibu Nongmapanba (Cheiraoba)",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Cheiraoba",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "May Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Bakrid / Eid al Adha",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-13",
+      "name": "Patriots Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Eid e Milad",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Independence Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-25",
+      "name": "Janmashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-02",
+      "name": "Gandhi Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-08",
+      "name": "Maha Ashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Diwali",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-31",
+      "name": "Ningol Chakkouba",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-11-01",
+      "name": "Kut",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Christmas Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-31",
+      "name": "New Year's Eve",
+      "type": "gazetted"
+    }
+  ]
+}

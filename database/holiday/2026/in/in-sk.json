@@ -1,0 +1,77 @@
+{
+  "stateCode": "IN-SK",
+  "stateName": "Sikkim",
+  "year": 2026,
+  "indiaRegion": "North East",
+  "adminType": "state",
+  "incredibleIndiaSlug": "sikkim",
+  "holidayJsonSlug": "in-sk",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year's Day", "type": "gazetted" },
+    { "date": "2026-01-15", "name": "Maghe Sankranti", "type": "gazetted" },
+    { "date": "2026-01-19", "name": "Sonam Lochhar", "type": "gazetted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-18", "name": "Losar", "type": "gazetted" },
+    { "date": "2026-02-26", "name": "Akhil Sikkim Khas Chettri Bahun Kalyan Sangh Foundation Day", "type": "gazetted" },
+
+    { "date": "2026-03-03", "name": "Holi / Bhumchu", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Id-Ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-27", "name": "Ram Navami (Chaite Dasain)", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Dr. B.R. Ambedkar Jayanti", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "Shyadar Pidar", "type": "gazetted" },
+    { "date": "2026-05-01", "name": "Labour Day", "type": "restricted" },
+    { "date": "2026-05-07", "name": "Ubhauli Sakewa", "type": "restricted" },
+    { "date": "2026-05-16", "name": "State Day", "type": "gazetted" },
+    { "date": "2026-05-29", "name": "Birthday of Late Tenzing Norgay Sherpa", "type": "restricted" },
+    { "date": "2026-05-31", "name": "Saga Dawa", "type": "gazetted" },
+
+    { "date": "2026-07-06", "name": "Birthday of H.H. The Dalai Lama", "type": "restricted" },
+    { "date": "2026-07-13", "name": "Bhanu Jayanti", "type": "gazetted" },
+    { "date": "2026-07-18", "name": "Drukpa Tshe-zi", "type": "gazetted" },
+    { "date": "2026-07-24", "name": "Guru Rimpoche's Thungkar Tshechu", "type": "gazetted" },
+    { "date": "2026-07-27", "name": "Sarathi (Chalak) Diwas", "type": "restricted" },
+
+    { "date": "2026-08-08", "name": "Tendong Lho Rum Faat", "type": "gazetted" },
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-20", "name": "Nepali Bhasa Manyata Diwas", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Pang Lhabsol", "type": "gazetted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "Teej (Haritalika)", "type": "gazetted" },
+    { "date": "2026-09-25", "name": "Indrajatra", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Gandhi Jayanti", "type": "gazetted" },
+    { "date": "2026-10-05", "name": "Birthday of Late Nar Bahadur Bhandari (Former CM)", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Durga Puja (Dasain)", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Durga Puja (Dasain)", "type": "gazetted" },
+    { "date": "2026-10-21", "name": "Durga Puja (Dasain)", "type": "gazetted" },
+    { "date": "2026-10-22", "name": "Durga Puja (Dasain)", "type": "gazetted" },
+    { "date": "2026-10-23", "name": "Durga Puja (Dasain)", "type": "gazetted" },
+
+    { "date": "2026-11-01", "name": "Lhabab Duechen", "type": "gazetted" },
+    { "date": "2026-11-09", "name": "Laxmi Puja (Deepawali)", "type": "gazetted" },
+    { "date": "2026-11-10", "name": "Laxmi Puja (Deepawali)", "type": "gazetted" },
+    { "date": "2026-11-11", "name": "Laxmi Puja (Deepawali)", "type": "gazetted" },
+    { "date": "2026-11-15", "name": "Chhath Puja", "type": "restricted" },
+    { "date": "2026-11-23", "name": "Birth Anniversary of Shri Satya Sai Baba", "type": "restricted" },
+    { "date": "2026-11-30", "name": "Sakewa", "type": "gazetted" },
+
+    { "date": "2026-12-07", "name": "Kagyed Dance", "type": "gazetted" },
+    { "date": "2026-12-09", "name": "Losoong / Namsoong", "type": "gazetted" },
+    { "date": "2026-12-10", "name": "Losoong / Namsoong", "type": "gazetted" },
+    { "date": "2026-12-11", "name": "Losoong / Namsoong", "type": "gazetted" },
+    { "date": "2026-12-12", "name": "Losoong / Namsoong", "type": "gazetted" },
+    { "date": "2026-12-13", "name": "Losoong / Namsoong", "type": "gazetted" },
+    { "date": "2026-12-14", "name": "Losoong / Namsoong", "type": "gazetted" },
+    { "date": "2026-12-15", "name": "Nyengpa Guzom / Chasok Tongnam", "type": "gazetted" },
+    { "date": "2026-12-16", "name": "Nyengpa Guzom", "type": "gazetted" },
+    { "date": "2026-12-23", "name": "Puhgal Parim / Teyongsi Sirijunga Sawan Tongnam", "type": "gazetted" },
+    { "date": "2026-12-25", "name": "Christmas", "type": "gazetted" },
+    { "date": "2026-12-28", "name": "Barahimijong", "type": "gazetted" },
+    { "date": "2026-12-30", "name": "Tamu Lochar", "type": "gazetted" }
+  ]
+}

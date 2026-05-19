@@ -1,0 +1,133 @@
+{
+  "stateCode": "IN-MP",
+  "stateName": "Madhya Pradesh",
+  "year": 2027,
+  "indiaRegion": "Central",
+  "adminType": "state",
+  "incredibleIndiaSlug": "madhya-pradesh",
+  "holidayJsonSlug": "in-mp",
+  "source": "PublicHolidays.in India 2027 aggregate (https://publicholidays.in/#2027-public-holidays). Not an official government gazette; moon-based and regional dates are provisional.",
+  "dataQuality": "estimate",
+  "holidays": [
+    {
+      "date": "2027-01-26",
+      "name": "Republic Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-02-20",
+      "name": "Guru Ravidas Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-06",
+      "name": "Maha Shivaratri",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Idul Fitr",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-22",
+      "name": "Holi",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-08",
+      "name": "Gudi Padwa",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Dr Ambedkar Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-15",
+      "name": "Ram Navami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-19",
+      "name": "Mahavir Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-08",
+      "name": "Maharshi Parasuram Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Bakrid / Eid al Adha",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-20",
+      "name": "Buddha Purnima",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-06-15",
+      "name": "Muharram",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Eid e Milad",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Independence Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-17",
+      "name": "Raksha Bandhan",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-25",
+      "name": "Janmashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-02",
+      "name": "Gandhi Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-10",
+      "name": "Vijaya Dashami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-15",
+      "name": "Maharishi Valmiki Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Diwali",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-11-14",
+      "name": "Guru Nanak Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Christmas Day",
+      "type": "gazetted"
+    }
+  ]
+}

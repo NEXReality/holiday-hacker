@@ -1,0 +1,4236 @@
+{
+  "state": "Manipur",
+  "state_code": "MA",
+  "generated_at": "2026-05-18T11:12:09.493Z",
+  "count": 17,
+  "destinations": [
+    {
+      "slug": "manipur-andro",
+      "name": "Andro",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.77727,
+        "lon": 94.06322,
+        "source": "wikidata"
+      },
+      "description": "**Andro** ( Meitei :ꯑꯟꯗ꯭ꯔꯣ) is a town in the Indian state of Manipur . Andro has been developed to represent the cultural heritage and artful creativeness of the Meitei people. It is popular for its brewery, craft works and pottery.",
+      "category": "Heritage / Culture",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Andro",
+        "wikipedia": "https://en.wikipedia.org/wiki/Andro%2C_Imphal_East",
+        "wikidata": "https://www.wikidata.org/wiki/Q1924564"
+      },
+      "distance_km": 2170,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Andro, Imphal East"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Relief_carvings_and_sculptures_in_the_Cultural_Heritage_Complex_in_Andro%2C_Imphal_East_district%2C_Manipur%2C_India.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Relief%20carvings%20and%20sculptures%20in%20the%20Cultural%20Heritage%20Complex%20in%20Andro%2C%20Imphal%20East%20district%2C%20Manipur%2C%20India.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 30
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 238,
+          "note": "Road transfer after NFR railhead (Guwahati–Silchar links)"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17297,
+        "content_richness_score": 0.124
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The best time to visit Andro is from the months of October to February, when the climate is pleasant.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Panam Ningthou Sacred Site",
+              "description": "This sacred site houses a temple dedicated to God Panam Ningthou (patron deity of Andro town), inside which a holy fireplace is still burning for the last 2000 years since the 1st century AD. It also has art and cultural museums.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Mutua Museum",
+              "description": "It is an artistic, cultural and historical museum cum cultural complex. It houses ancient potteries, antique coins, old manuscripts, paintings, basketries, bell metals, jewelries, wood carvings, replicas of the houses and the doll representations of Meitei ethnicity as well as the 34 recognised tribesmen communities of Manipur.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "₹20 for Indians, ₹100 for foreigners"
+            },
+            {
+              "order": 3,
+              "name": "Santhei Natural Park",
+              "description": "It is a Natural Recreational Park that has an artificial lake and an artificial island, surrounded by an artificial forest along a gentle hill slope. It is a picnic area as well as a film shooting location. Boating facility is also available in the lake.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Panam Ningthou Sacred Site** ( Panam Ningthou Laipham (Chakpa Panam Ningthou Meithoupirol Shanglen) ). This sacred site houses a temple dedicated to God Panam Ningthou (patron deity of Andro town), inside which a holy fireplace is still burning for the last 2000 years since the 1st century AD. It also has art and cultural museums.   \r\n **Mutua Museum** ( Mutua Bahadur Museum, Andro Cultural Complex ) ( 25 km from the East of Imphal city ). 9AM-4PM (Sunday and holidays open) . It is an artistic, cultural and historical museum cum cultural complex. It houses ancient potteries, antique coins, old manuscripts, paintings, basketries, bell metals, jewelries, wood carvings, replicas of the houses and the doll representations of Meitei ethnicity as well as the 34 recognised tribesmen communities of Manipur. ₹20 for Indians, ₹100 for foreigners .   \r\n **Santhei Natural Park**, Kharam Leikai . 6AM-6PM (Sunday open) . It is a Natural Recreational Park that has an artificial lake and an artificial island, surrounded by an artificial forest along a gentle hill slope. It is a picnic area as well as a film shooting location. Boating facility is also available in the lake.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Local brews"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.642Z"
+      },
+      "search_context": "Heritage / Culture destination Andro Andro, Imphal East Sightseeing Andro ( Meitei :ꯑꯟꯗ꯭ꯔꯣ) is a town in the Indian state of Manipur . Andro has been developed to represent the cultural heritage and artful creativeness of the Meitei people. It is popular for its brewery, craft works and pottery.",
+      "travel_facts": {
+        "summary": "**Andro** hinges **IMF (~30 km)** knowing **Jiribam NFR (~238 km) road bridge** absorbs Mutua Museum stacks with Meitei pottery–brewery tides.",
+        "keywords": [
+          "andro heritage stacks",
+          "imf imphal east merges",
+          "jiribam nfr apron",
+          "meitei craft tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-bishnupur-manipur",
+      "name": "Bishnupur (Manipur)",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.63333,
+        "lon": 93.76667,
+        "source": "wikidata"
+      },
+      "description": "** Bishnupur ** is a district in the Indian state of Manipur .",
+      "category": "Region / District overview",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bishnupur_(Manipur)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bishnupur_district%2C_Manipur",
+        "wikidata": "https://www.wikidata.org/wiki/Q938190"
+      },
+      "distance_km": 2136,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Bishnupur district",
+        "Bishenpur district",
+        "distritu de Bishnupur",
+        "Bishnupur (distritu)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_relief_sculpture_of_Khuman_Khamba_in_Bishnupur_district%2C_Manipur%2C_India.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 34
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 225,
+          "note": "Road transfer after Manipur railhead"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 12048,
+        "content_richness_score": 0.086
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Ebudhou Thangjing Temple**- Every year, traditional 'Moirang Lai Haraoba' is celebrated in May. During the festival, people from all over the state gather to seek the blessing of 'Ebudhou Thangjing'. This festival continues for almost a month. During the festival, on every Sunday, a mega dance and singing program is offered to the deity. \r\n ** Keibul Lamjao National Park ** is in the Bishnupur district of the state of Manipur in India. It is 40 km2 (15.4 sq mi) in area, the only floating park in the world, in North East India, and an integral part of Loktak Lake. The national park is characterised by many floating decomposed plant materials locally called phumdis. To preserve the natural refuge of the endangered Manipur Eld's Deer or Brow-antlered Deer (Cervus eldi eldi), or Sangai also called the Dancing Deer, listed as an endangered specie by IUCN, the park which was initially declared as a Sanctuary in 1966, was subsequently declared as National Park in 1977 through a gazette notification. \r\n **Sendra** is a small island in the center of North-East India's largest fresh water lake. The Lake is around 48 km south of Imphal. Sendra is an ideal picnic spot. One may view small islands of floating weed from the tourist bungalow located at the top of a hillock.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Region / District overview"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.642Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Region / District overview destination Bishnupur (Manipur) Bishnupur district Bishenpur district distritu de Bishnupur Bishnupur (distritu) Sightseeing Bishnupur is a district in the Indian state of Manipur .",
+      "travel_facts": {
+        "summary": "**Bishnupur district** stacks **IMF (~34 km)** valley apron beneath **Jiribam (~225 km) connectors** knowing Vishnu temple reliefs absorb Loktak fringe tides.",
+        "keywords": [
+          "bishnupur district stacks",
+          "khamba relief merges",
+          "loktak fringe apron",
+          "nh102 valley tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-imphal",
+      "name": "Imphal",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.82,
+        "lon": 93.95,
+        "source": "wikidata"
+      },
+      "description": "**Imphal** ( Meitei : ꯏꯝꯐꯥꯜ, /eem-phaal/) is the capital city of the northeast Indian state of Manipur . It has a small population but it is a developed city that many travellers visit in transit. Imphal hosts the world's oldest Polo Ground (Imphal Polo Ground), the world's tallest topiary plant (Samban Lei Sekpil), the world's only women-run market (Ima Keithel) and the world's tallest polo player statue (Marjing Polo Statue). \r\n\nIn the heart of Imphal, Kangla , the ancient fortified capital of the different ruling dynasties of Ancient Kangleipak (predecessor of Manipur ), is located, at whose eastern side the Imphal River flows, dividing the city into two districts as Imphal East district and Imphal West district.\r\n\nImphal was the site of a large battle during the attempted Japanese invasion of India in 1944. Despite its small population, Imphal is considered by some to be the most important city in eastern India.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Imphal",
+        "wikipedia": "https://en.wikipedia.org/wiki/Imphal",
+        "wikidata": "https://www.wikidata.org/wiki/Q208097"
+      },
+      "distance_km": 2163,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Impal",
+        "Imphala"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Imphal_At_Dusk.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Imphal%20At%20Dusk.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 9
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 218,
+          "note": "Manipur railhead; overnight road/bus hops common"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Agartala"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 90534,
+        "content_richness_score": 0.647
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "With an average elevation of nearly 800 m, Imphal has a cooler and more pleasant climate than most places of India. It can drop below freezing in the winter. The summers are much wetter and more humid with the monsoon rains at their peak in June and July. October is an ideal time to visit as the rains turn the whole town a lush green.\r\n\nSome tourists pass straight through but it's worth staying a day, if only to see Kangla fort, buy supplies and recover from long bus rides.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Imphal city is one of the most important cities in India, and is to be the _most important city in eastern side of India_, as the \"Imphal-Mandalay-Bangkok\" Route of 1,813 km is being constructed to enable Indian trade (focusing on Imphal) with Myanmar (focusing on Mandalay ), Thailand (focusing on Bangkok ) and other ASEAN nations. \r\n\n\r\n By plane 1 ** Bir Tikendrajit International Airport ** ( **IMF **  IATA ). The second largest and the third busiest international airport in North-Eastern India. Imphal is connected to Delhi, Hyderabad, Bangalore, Mumbai, Kolkata , Aizwal, Dimapur and Guwahati by Air India and IndiGo. Flights to Bangkok seem to all go via Kolkata. Several airlines transport passengers to and from Imphal and other places. Air India serves transportation to Aizawl, Delhi, Dimapur, Guwahati and Kolkata. Alliance Air serves transportation to Dimapur and Guwahati. IndiGo serves transportation to Agartala, Ahmedabad, Bangalore, Delhi, Dibrugarh, Guwahati, Hyderabad, Mumbai, Kolkata and Shillong.  ( updated Oct 2025 ) \r\n By train Imphal is not connected to India's railway network, however a new line is under construction. The closest railway station for now is Jiribam , 80 km west. It's also possible to alight at Dimapur , in Nagaland , and then continue by a 7-hour bus ride. Dimapur is a major station and sees much more traffic compared to Jirbam.\r\n\n\r\n\n\r\n By bus Imphal is well connected with Manipur's neighbouring states by road, on which there are many bus routes. There are daily bus services coming from and going to Kohima and Dimapur in Nagaland and Guwahati in Assam .\r\n\nFrom specific destinations:\r\n\n\r\n Kohima – One government bus leaves the main bus terminal in the morning, seats often sell out. If you miss the bus it's possible to take a shared or private jeep to \"Mao gate\" at the state boundary (maybe ₹80) and catch a second bus from Mao gate at around 11AM. If you fail to catch the second bus as well you can get from Mao gate to Senapati where more options are available. \r\n Mao – It appears also shared tuk-tuks can be taken from Mao gate to Imphal directly, but this would be very uncomfortable. \r\n Moreh – State buses to Imphal depart the bus yard/terminal in Moreh at 7AM, at 1PM and at 1:30PM. These times were obtained from a timetable at the Imphal bus terminal. The 6:30AM to Moreh bus usually departs at 7PM.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Manipur State Museum",
+              "description": "The museum is varied. It includes portraits of Manipuri royalty, tribal costumes, polo equipment (Manipur is one of the places in the world that claims to have invented the sport) along with weapons and other tools used by the people in the past. The biggest thing they have displayed is a 78-foot-long royal boat in the open air gallery.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.8052,
+                "lon": 93.9372
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Ema Panthoibi Shanglen",
+              "description": "A sacred Panthoibi site.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.79009,
+                "lon": 93.91229
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Matai Garden**- The garden is in Matai, Imphal east district about 5 km north on NH-39. The garden is also called Ibudhou Asheiningthou Garden, taking the name from Ibudhou Asheiningthou (local God of Matai). The garden is known for its myriad Duranta plant, well shaped and decorating the entire garden. \r\n 1 **Manipur State Museum**, Kangla Rd ( near the polo grounds ). 10AM-4:30PM . The museum is varied. It includes portraits of Manipuri royalty, tribal costumes, polo equipment (Manipur is one of the places in the world that claims to have invented the sport) along with weapons and other tools used by the people in the past. The biggest thing they have displayed is a 78-foot-long royal boat in the open air gallery.  ( updated Feb 2018 ) \r\n **Sambal- Lei-Sekpil garden**. The garden is in Sagolband, Kwakeithel, Imphal, toward the Tidim road. The place is world-famous for Sambal- Lei-Sekpil. Literally _sambal_ means fence, _lei_ means flower, and _sekpil_ means topiary. The flower was featured in the Guinness Book of Records in 1999 (at the height of 50 ft, 35 steps). The garden is open to visitors. \r\n **Shree Govindajee Temple**- This place was considered to be the highest place for any cultural activity during the times of the maharajas. Located at a place near the royal palace of past maharajas, it has two domes and a raised congregation hall. \r\n 2 ** Kangla Fort** ( Kangla Palace ) ( in the centre of Imphal, entry is only through the west gate ). The palace and fort had been used for hundreds of years to defend the Manipuris from invading neighbours such as the Assamese and Burmese. The British finally penetrated the fortress for good in the 1891 Anglo-Manipur War. The area is being renovated and much of it is empty land, but it houses an information centre/gift shop, several pleasant gardens, traditional boats, some small museums, a temple and a cheap cafeteria serving local snacks. Local kids go there to hang out. Bicycle hire is available for ₹20/hour but you can't ride far because the paths are closed. Toilet is at the right side as you enter. Certainly worth a visit and a good place for a picnic. ₹10 for Indians, ₹50 for foreigners .  ( updated Feb 2018 ) \r\n 3 **Ema Panthoibi Shanglen**. A sacred Panthoibi site.  ( updated Mar 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Khongjom War Memorial",
+              "description": "This memorial and war complex was built the princely state of Manipur (Kangleipak) fought its last war of resistance against the British in 1891, after which it came under imperial rule."
+            }
+          ],
+          "brief": "This memorial and war complex was built the princely state of Manipur (Kangleipak) fought its last war of resistance against the British in 1891, after which it came under imperial rule.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Luxmi Kitchen",
+              "description": "Genuine Manipuri food. Plentiful options for both vegetarians and meat eaters. However, the dishes are full of chilli. Not recommended for people who cannot take spicy food.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Alcohol is banned but you can still buy some of you ask hotel staff or in some small restaurants behind the polo ground in an alley. Don't hang out there at night. You pay double the list price.\r\n\n\r\n **Mujikund**. Local wine and beer.   \r\n **Sekmai**. A traditional liquor made out of rice.   \r\n Sekmai. A very strong traditional rice wine similar to Chinese baiju, often homemade. It has savoury charicteristics and the yeast is sometimes taken from local tree roots."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.642Z"
+      },
+      "search_context": "City / Urban destination Imphal Impal Imphala Sightseeing Imphal ( Meitei : ꯏꯝꯐꯥꯜ, /eem-phaal/) is the capital city of the northeast Indian state of Manipur . It has a small population but it is a developed city that many travellers visit in transit. Imphal hosts the world's oldest Polo Ground (Imphal Polo Ground), the world's tallest topiary plant (Samban Lei Sekpil), the world's only women-run market (Ima Keithel) and the world's tallest polo player statue (Marjing Polo S",
+      "travel_facts": {
+        "summary": "**Imphal** anchors **IMF (~9 km)** NE capital apron beneath **Jiribam NFR (~218 km)** knowing Kangla–Ima Keithel merges absorb polo-ground heritage tides.",
+        "keywords": [
+          "imf bir tikendrajit stacks",
+          "jiribam rail bridge merges",
+          "kangla fort apron",
+          "polo ground tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-imphal-valley",
+      "name": "Imphal Valley",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": null,
+      "description": "The **Imphal Valley**, also known as **Inner Manipur**, is the heart of the Indian state of Manipur .",
+      "category": "Region / Valley overview",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Imphal_Valley",
+        "wikipedia": "https://en.wikipedia.org/wiki/Imphal_Valley",
+        "wikidata": "https://www.wikidata.org/wiki/Q104856883"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.7,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Manipur Valley"
+      ],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 14
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 218,
+          "note": "Centroid Inner Manipur logistics"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 24093,
+        "content_richness_score": 0.172
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Region / Valley overview"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.643Z"
+      },
+      "search_context": "Region / Valley overview destination Imphal Valley Manipur Valley Sightseeing The Imphal Valley, also known as Inner Manipur, is the heart of the Indian state of Manipur .",
+      "travel_facts": {
+        "summary": "**Imphal Valley** hinges **IMF (~14 km)** bowl apron beneath **Jiribam (~218 km) connectors** knowing Loktak fringe wetlands merge hill–valley festival tides.",
+        "keywords": [
+          "inner manipur stacks",
+          "imf valley merges",
+          "jiribam connector apron",
+          "loktak rim tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-jiribam",
+      "name": "Jiribam",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.75,
+        "lon": 93.15,
+        "source": "wikidata"
+      },
+      "description": "**Jiribam**, also known as **Jiri** in Manipuri language , is a tiny strip of plain at the westernmost edge of the Indian state of Manipur . The meeting point of Meitei and Indo Aryan cultures, Jiribam is also the sole railhead to Manipur. Jiribam plain is geographically an eastern extension of the Barak river plains in particular and the Ganga-Brahmaputra river plains in general. Though separated from the Imphal Valley, by the Manipur hills, its demographic feature resembles that of the Imphal Valley, with Meitei population dominating the region, and tribals and immigrants as minority groups.",
+      "category": "Town / Border gateway",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Jiribam",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jiribam_district",
+        "wikidata": "https://www.wikidata.org/wiki/Q28419387"
+      },
+      "distance_km": 2093,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Jiribam district",
+        "distritu de Jiribam",
+        "Jiribam (distritu)"
+      ],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Silchar Airport",
+          "code": "IXS",
+          "distance_km": 53,
+          "note": "Imphal IMF (~225 km) overland stack alternate"
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam railway station",
+          "distance_km": 4
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 19529,
+        "content_richness_score": 0.139
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "According to the official Jiribam district website, the region has several essential public utilities. There are four banks serving the area—Bandhan Bank, Punjab National Bank, State Bank of India, and Manipur State Co‑operative Bank. Jiribam has one college called Jiri College, and electricity is provided by the Manipur State Power Distribution Company Limited (MSPDCL). Healthcare needs are met by the District Hospital Jiribam. The Jiribam Municipal Council manages local governance, and postal services are handled by the Jiribam Sub Post Office.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train 1 ** Jiribam    NFR**  . The only active railway station in Manipur.  ( updated Oct 2025 ) \r\n By other terrestrial means of transport Passenger services for cars, buses, or taxis are available, from Imphal to Jiribam inside Manipur, or from Silchar (of Assam ) to Jiribam. For bus service, one can visit the Interstate Bus Terminus of Imphal. For others, one can contact private or government run taxi services.\r\n\n\r\n By airways By helicopter Passenger service in helicopter to and from Imphal is available. Pre-booking is recommended because it is limited in flight and demands are high.\r\n\n\r\n By aeroplane Nearest airports are the Silchar Airport in Assam and the Imphal International Airport (alias Bir Tikendrajit International Airport) in Imphal.\r\n\n\r\n By waterways Boats are available in the Jiri river to go to Jiribam from neighborhood towns and villages in the bordering state of Assam.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Town / Border gateway"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.643Z"
+      },
+      "search_context": "Town / Border gateway destination Jiribam Jiribam district distritu de Jiribam Jiribam (distritu) Sightseeing Jiribam, also known as Jiri in Manipuri language , is a tiny strip of plain at the westernmost edge of the Indian state of Manipur . The meeting point of Meitei and Indo Aryan cultures, Jiribam is also the sole railhead to Manipur. Jiribam plain is geographically an eastern extension of the Barak river plains in particular and the Ganga-Brahmaputra river plains in general. Though separated from the Imphal Valley, by",
+      "travel_facts": {
+        "summary": "**Jiribam** anchors **Jiribam rail (~4 km)** Manipur’s lone NFR stack beneath **IXS (~53 km)** knowing cross-barak merges absorb Imphal overnight bus tides.",
+        "keywords": [
+          "jiribam nfr stacks",
+          "ixs silchar merges",
+          "barak valley apron",
+          "imphal highway tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-kakching",
+      "name": "Kakching",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.48,
+        "lon": 93.98,
+        "source": "wikidata"
+      },
+      "description": "**Kakching** is a town of 32,000 people (2011) in the Indian state of Manipur . It is a major commercial hub in the state. In 2018, Kakching was declared as the **\"Cleanest city in North East India\"** by the Indian government. It is also known as the **\"Rice Bowl of Manipur\"**, for producing the highest level of rice in the state.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kakching",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kakching",
+        "wikidata": "https://www.wikidata.org/wiki/Q2466061"
+      },
+      "distance_km": 2145,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakching_Garden%2C_an_ecological_park_in_Kakching%2C_Kangleipak_(Manipur).jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 42
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 208,
+          "note": "Road transfer after railhead"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 24216,
+        "content_richness_score": 0.173
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Kakching is known as the **\"Granary of Manipur\"**. Its workers produce the highest percentage of food grains in the state. Rice, pulses, cereal and potatoes are the important production of this sub-division. Hand-loom and handicraft products are also made in high volume for the Kakching market.\r\n\nKakching participates in many cultural fields reflecting the heritage of the Meitei people, including storytelling and dance (Nat Sankirtan and Meitei Pung Cholom), as well as the martial arts Thang-Ta, Satjal, Mukna, and the sport of Kangjei. \r\n\nThe dialect of Meitei language spoken in Kakching is slightly different from standard Meitei in terms of tone and style.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Kakching is connected by road to Thoubal and Moreh via AH1. It is also connected with the Chandel district headquarters by an Inter-District Road. The Indo-Burma Sugnu Road State Highway connects Kakching with Sugnu in the south and Mayang-Imphal in the north.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "**Kakching Garden** ( Manipuri : Kakching Leikol) is the largest garden in Kakching. It is a planned area, set aside for cultivation, display and enjoyment of various flowering as well as non-flowering plants. Inside the garden, there are small hillocks as well as temples of Sanamahism as well as Hinduism.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Kakching Garden",
+              "description": "This is the most popular garden in Manipur. It is famous for having unique topiary plants in the state. It houses many scared sites of Sanamahism as well as Hinduism.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.4861,
+                "lon": 93.981
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Kakching Aerodrome",
+              "description": "It is a World War II aerodrome used by the British Army, against the Indian National Army. This aerodrome used to serve all the essential things to the British Army during the wartime. It is mainly occupied by the Assam Rifles.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.4834,
+                "lon": 94.0057
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Kakching Garden** ( Manipuri : Kakching Leikol ). This is the most popular garden in Manipur. It is famous for having unique topiary plants in the state. It houses many scared sites of Sanamahism as well as Hinduism.   \r\n 2 **Kakching Aerodrome** ( Manipuri : Kakching Maalang Hee Taapham ). It is a World War II aerodrome used by the British Army, against the Indian National Army. This aerodrome used to serve all the essential things to the British Army during the wartime. It is mainly occupied by the Assam Rifles.   \r\n **People's Museum** - It houses many ethnic and cultural artefacts and relics.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "The **Kakching Haraoba Festival** ( Meitei : Kakching Lai Haraoba Kumhei) is one of six types of the Lai Haraoba festival according to Sanamahism , the traditional Meitei religion. It is mainly celebrated in the state of Manipur . This festival is in part a recollection of the creation stories played by the deities with the first origin of this universe and evolution of plants and animals through the will of Sidaba Mapu, the Creator God. It is a grand carnival possession involving large number of people, starting from youths to old folks.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.643Z"
+      },
+      "search_context": "City / Urban destination Kakching Sightseeing Kakching is a town of 32,000 people (2011) in the Indian state of Manipur . It is a major commercial hub in the state. In 2018, Kakching was declared as the \"Cleanest city in North East India\" by the Indian government. It is also known as the \"Rice Bowl of Manipur\", for producing the highest level of rice in the state.",
+      "travel_facts": {
+        "summary": "**Kakching** stacks **IMF (~42 km)** AH1 apron beneath **Jiribam (~208 km)** knowing Moreh trade-route merges absorb clean-city market tides.",
+        "keywords": [
+          "kakching ah1 stacks",
+          "imf southern merges",
+          "moreh corridor apron",
+          "msrtc shared tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-kangla",
+      "name": "Kangla",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.808,
+        "lon": 93.94,
+        "source": "wikidata"
+      },
+      "description": "** Kangla ** ( Meitei : ꯀꯪꯂꯥ, /kang-lā/) is an ancient seat of monarchical government of the Meitei rulers of Ancient Kangleipak (early Manipur ) in present-day India . It was a fortified grand royal residence as well as a religious site of the Meitei language speaking people and the Sanamahism following people of South Asia .\r\nNearly 360 important Meitei shrines are present inside the Kangla. \r\n\n\r\n \r\nOfficially known as the \"Kangla Fort\", and also often termed as the \"Kangla Palace\", the Kangla is sometimes referred to as the \"Mecca of the Meiteis\" or the \"Jerusalem of the Meiteis\", showing how much the Meiteis revered the place, like Muslims respect the Mecca and the Abrahamics respect Jerusalem. Anyone from any religious backgrounds can enter the Kangla without any question. \r\n\nThe Kangla has been proposed to be declared as a UNESCO World Heritage Site , for which the first steps of discussions were moved in the Indian Parliament House.",
+      "category": "Heritage / Royal fort",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kangla",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kangla_fort",
+        "wikidata": "https://www.wikidata.org/wiki/Q12060953"
+      },
+      "distance_km": 2162,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Kangla Fort",
+        "Kangla Palace",
+        "palais de Kangla"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Southeastern_view_of_the_Pakhangba_Temple_inside_the_Kangla_fort_in_Imphal.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kangla%20Fort%2C%20imphal.JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 11
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 218,
+          "note": "Road transfer after railhead"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 122838,
+        "content_richness_score": 0.877
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "After the Burmese annexation (1819 to 1826), the British annexation (1891 to 1947) and the Assam Rifles (Indian Army) occupation (1949 to 2004), the Kangla is now a property of the Government of Manipur. It is restoring various ancient and mediaeval ruins, and developing many museums and archaeological institutions inside the ancient site.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "To get into the Kangla, there are three major gateways available, the Western Gate, the Southern Gate and the Northern Gate. Historically, the Eastern Gate was also functional. After a long period of closing, the Government of Manipur, after renovating, opened the Eastern Gate on 6 January 2023. The newly built structure was inaugurated by Amit Shah, the then Minister of Home Affairs of the Union Government of India. After 4 days, on 10 January 2023, Manipur Government started allowing the public for entry through the very gate.\r\n\n\r\n \r\n 1 **Kangla Sanathong** ( Kangla Western Gate, Kangla Royal Gate ) ( Western side of the Kangla Fort ). The Kangla Sanathong (lit. \"Kangla Grand Door\" or \"Kangla Golden Door\" in Meitei ) is the gateway from which most visitors enter the Kangla. Meitei architectural designs are distinctly featured in the Gate's building. ₹10 per person to cover the entire Kangla .   \r\n 2 **Kangla Nongpok Thong** ( Kangla Eastern Gate ) ( Eastern side of the Kangla Fort ). This gateway is adjacent to \"Checkon\" Town and near the Ananda Singh Higher Secondary Academy. free .   \r\n 3 **Kangla Southern Gate** ( Southern side of the Kangla Fort ). This gate is adjacent to the Chief Minister's bungalow and the Sanjenthong Bridge.   \r\n 4 **Kangla Awang Sanathong** ( Kangla Northern Gate ) ( Northern side of the Kangla Fort ). This gateway is next to the North AOC, Imphal-Jessami Road.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "To get around the Kangla, visitors can walk by feet or can hire either a bicycle or a three/four wheeler vehicle.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Archaeological Museum",
+              "description": "The Archaeological Museum houses the replicas including that of the memorial stone of Meitei king Chandrakirti Singh found in Ukhrul , Churachandpur, Tipaimukh and areas of Imphal Valley. Besides, it also houses the stone tools belonging to the Stone Age found in the Tharon Cave and the Kangkhui Cave of Manipur . It preserves the hardened pots and inscriptions. Various antique coins are also on display in this museum. Ancient artefacts collected from the excavations of Sekta, Khangabok and the Kangla are also on display.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Museums_in_Kangla",
+              "coordinates": {
+                "lat": 24.811,
+                "lon": 93.942
+              },
+              "price": "free"
+            },
+            {
+              "order": 2,
+              "name": "Chingkhei Eekon",
+              "description": "Literally meaning \"Northeastern Pond\" in Classical Meitei , this water body is sacred to the Meiteis, and is situated to the northeast of the royal residence (citadel).",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.945
+              },
+              "price": "free"
+            },
+            {
+              "order": 3,
+              "name": "General Slim's Cottage",
+              "description": "It is a historical British officer's residence building.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.813,
+                "lon": 93.943
+              },
+              "price": "free"
+            },
+            {
+              "order": 4,
+              "name": "Hijagang",
+              "description": "This boatyard building houses 4 traditional Meitei watercrafts, including 2 \"Hiyang Hiren\"s (_race boats of Meitei royalties_) and 2 \"Tanna Hi\"s (_race boats of Meitei commoners_). The \"Hiyang Hiren\" boats are made of Uningthou woods ( Classical Meitei for _Phoebe hainesiana_) while the \"Tanna Hi\" boats of Tairen woods ( Classical Meitei for _Cedrela toona_).",
+              "wikipedia": "https://en.wikipedia.org/wiki/Hijagang",
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 5,
+              "name": "Pakhangba Temple",
+              "description": "This ancient temple dedicated to God Pakhangba was restored between 2008 and 2019. It features a sacred altar and the 7-coloured flag designed roof, symbolising the 7 Meitei clans.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Pakhangba_Temple,_Kangla",
+              "coordinates": {
+                "lat": 24.808,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 6,
+              "name": "Kangla Herbal Garden",
+              "description": "This garden houses multiple species of medicinal plants. It lies to the North of the \"Manung Thangapat\" ( Classical Meitei for \"inner moat\"). It should not be confused with the State Herbal Garden, which is also situated inside the Kangla.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.813,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 7,
+              "name": "Kangla Museum",
+              "description": "The Kangla Museum showcases the lifestyles of the Meitei royalties, ancient Meitei artistic and cultural heritage and the maps of Ancient Kangleipak .",
+              "wikipedia": "https://en.wikipedia.org/wiki/Museums_in_Kangla",
+              "coordinates": {
+                "lat": 24.803,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 8,
+              "name": "Kangla Uttra Shanglen",
+              "description": "This building is a religious office dedicated to Meitei religion (Sanamahism) . Designs of traditional Meitei architecture are distinctly featured with the holy \"chirong\"s (literally \"horns\" in Classical Meitei ), which are the V-shaped structures adorned on the roofs of the building. The building is easily recognisable as two giant statues of dragon lions stood at its western front.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.942
+              },
+              "price": "free"
+            },
+            {
+              "order": 9,
+              "name": "Luphou Nung",
+              "description": "\"Luphou Nung\" is a historical gravestone of a Chinese invader, kept inside the Kangla fort in Imphal. A Chinese invader named \"Moidana\" (or \"Mayadana\") was defeated and slain by Meitei king Mungyamba of Kangleipak (Manipur) kingdom in 1576 AD. The invader was crushed and buried under the \"Luphou Nung\" stone. It lies to the southern side of the Kangla Uttra Shanglen and to the northern side of the Manung Kangjeibung (Inner Pologround).",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.942
+              },
+              "price": "free"
+            },
+            {
+              "order": 10,
+              "name": "Marong Khong",
+              "description": "This rectangular shaped elongated water body is a sacred pond of the Meitei people, located on the northern side of the tombs of Meitei kings, Nara Singh and Bodhachandra Singh.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.808,
+                "lon": 93.942
+              },
+              "price": "free"
+            },
+            {
+              "order": 11,
+              "name": "Memento Museum",
+              "description": "This museum cum information center cum shop houses large collection of mementoes, related to ancient, medieval and modern Meitei culture.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Museums_in_Kangla",
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.939
+              },
+              "price": "free entry"
+            },
+            {
+              "order": 12,
+              "name": "Nungseng Eekon",
+              "description": "This rectangular shaped sacred water body is located in the northern side of the white coloured Pakhangba Temple. \"Nung\" (/noong/) means \"inner\" (referring to \"inner body\") and \"seng\" means \"purification\" or \"cleansing\" in Classical Meitei .",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.808,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 13,
+              "name": "Nungseng Apicha",
+              "description": "Literally meaning \"smaller Nungseng / Nungjeng\" in Classical Meitei , this small square pond is a sacred water body, at the southwestern corner of the Nungjeng Eekon.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.809,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 14,
+              "name": "Nura Heikol",
+              "description": "Literally meaning \"Women’s garden of fruits\" in Meitei language , in this fruit orchard, 700 indigenous fruit-bearing tree saplings were planted in the year 2019.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.939
+              },
+              "price": "free"
+            },
+            {
+              "order": 15,
+              "name": "Rock Garden",
+              "description": "This garden is easily recognisable with the circular passage ways adoring its entirety. It lies to the south of the Nura Heikol (Biodiversity Park) and to the west of the Kangla Museum.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.804,
+                "lon": 93.939
+              },
+              "price": "free"
+            },
+            {
+              "order": 16,
+              "name": "Rose Garden",
+              "description": "This garden consists of 4 square areas, each consisting of 4 square flower beds. On its adjacent western side, the Kangla Cafeteria is situated.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.808,
+                "lon": 93.943
+              },
+              "price": "free"
+            },
+            {
+              "order": 17,
+              "name": "Sacred site of Lord Wangpulen (Wangbren)",
+              "description": "This holy shrine dedicated to Meitei water God Wangpulen (Wangbren) displays various sculptures and idols of many deities, mythological creatures and several cultural artefacts.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.805,
+                "lon": 93.944
+              },
+              "price": "free"
+            },
+            {
+              "order": 18,
+              "name": "Sanggai Yumpham",
+              "description": "This old fortified palace compound is partially in demolished state. Its eastern and southern walls are still standing today. It covers a square shaped area of 600 x 600 feet enclosed by brick walls of 14 to 20 feet in heights.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sanggai_Yumpham",
+              "coordinates": {
+                "lat": 24.806,
+                "lon": 93.944
+              },
+              "price": "free"
+            },
+            {
+              "order": 19,
+              "name": "Site for Meitei Heritage Park",
+              "description": "It is a Heritage Park dedicated to the Meitei people and is also known as Meitei Heritage Park. It is located at the southern side of the Pakhangba Temple and the Hijagang (Boatyard), inside the Kangla.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.806,
+                "lon": 93.941
+              },
+              "price": "free"
+            },
+            {
+              "order": 20,
+              "name": "State Herbal Garden",
+              "description": "This garden also houses several medicinal plants. It should not be confused with the Kangla Herbal Garden, which is also situated inside the Kangla.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.805,
+                "lon": 93.944
+              },
+              "price": "free"
+            },
+            {
+              "order": 21,
+              "name": "Tomb of King Bodhchandra",
+              "description": "It is the place where the mortal remains of Meitei King Bodhchandra (Bodhachandra), the last ruler of sovereign state of Manipur Kingdom, were consumed with flames on the 9th December, 1955.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.942
+              },
+              "price": "free"
+            },
+            {
+              "order": 22,
+              "name": "Tomb of King Narasingh",
+              "description": "It is the place where the mortal remains of Meitei King Nara Singh were consumed with flames.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.807,
+                "lon": 93.943
+              },
+              "price": "free"
+            }
+          ],
+          "brief": "1 **Archaeological Museum** , To the southern side (right side) of the passage way as one enters the Kangla from its Northern Gate after a little distance of walk . The Archaeological Museum houses the replicas including that of the memorial stone of Meitei king Chandrakirti Singh found in Ukhrul , Churachandpur, Tipaimukh and areas of Imphal Valley. Besides, it also houses the stone tools belonging to the Stone Age found in the Tharon Cave and the Kangkhui Cave of Manipur . It preserves the hardened pots and inscriptions. Various antique coins are also on display in this museum. Ancient artefacts collected from the excavations of Sekta, Khangabok and the Kangla are also on display. free .   \r\n 2 **Chingkhei Eekon** ( Chingkhei Ikon, Chingkhei Pukhri ), northeast of the royal residence (citadel) . Literally meaning \"Northeastern Pond\" in Classical Meitei , this water body is sacred to the Meiteis, and is situated to the northeast of the royal residence (citadel). free .   \r\n 3 **General Slim's Cottage**, to the western side (right side) of the passage way when one enters from the Northern Gate of the Kangla . It is a historical British officer's residence building. free .   \r\n \r\n 4 **Hijagang** ( Kangla Boatyard ), to the west of the Pakhangba Temple, to the north of the site for Meitei Heritage Park . This boatyard building houses 4 traditional Meitei watercrafts, including 2 \"Hiyang Hiren\"s (_race boats of Meitei royalties_) and 2 \"Tanna Hi\"s (_race boats of Meitei commoners_). The \"Hiyang Hiren\" boats are made of Uningthou woods ( Classical Meitei for _Phoebe hainesiana_) while the \"Tanna Hi\" boats of Tairen woods ( Classical Meitei for _Cedrela toona_). free .   \r\n 5 **Pakhangba Temple** ( Pakhangba Laishang ), North of the site for Meitei Heritage Park, East of the Hijagang (Boatyard), south of the Nungseng Eekon, west of the Tomb of Meitei King Bodhchandra . This ancient temple dedicated to God Pakhangba was restored between 2008 and 2019. It features a sacred altar and the 7-coloured flag designed roof, symbolising the 7 Meitei clans. free .   \r\n 6 **Kangla Herbal Garden** ( Herbal Garden, Kangla ), to the north of the \"Manung Thangapat\" ( Classical Meitei for \"inner moat\") . This garden houses multiple species of medicinal plants. It lies to the North of the \"Manung Thangapat\" ( Classical Meitei for \"inner moat\"). It should not be confused with the State Herbal Garden, which is also situated inside the Kangla. free .   \r\n 7 **Kangla Museum** , Western side (left side) of the passage way as one enters the Kangla from its Southern Gate . The Kangla Museum showcases the lifestyles of the Meitei royalties, ancient Meitei artistic and cultural heritage and the maps of Ancient Kangleipak . free .   \r\n 8 **Kangla Uttra Shanglen** ( Uttra Sanglen ), West of the Royal Residence (Citadel), east of the statues of the Guardian Dragons and the Main Western Kangla Gate, north of the ancient Pologround, south of the Marong Khong water channel and the tomb of Meitei king Bodhchandra . This building is a religious office dedicated to Meitei religion (Sanamahism) . Designs of traditional Meitei architecture are distinctly featured with the holy \"chirong\"s (literally \"horns\" in Classical Meitei ), which are the V-shaped structures adorned on the roofs of the building. The building is easily recognisable as two giant statues of dragon lions stood at its western front. free .   \r\n 9 **Luphou Nung** , to the southern side of the Kangla Uttra Shanglen and to the northern side of the Manung Kangjeibung (Inner Pologround) . \"Luphou Nung\" is a historical gravestone of a Chinese invader, kept inside the Kangla fort in Imphal. A Chinese invader named \"Moidana\" (or \"Mayadana\") was defeated and slain by Meitei king Mungyamba of Kangleipak (Manipur) kingdom in 1576 AD. The invader was crushed and buried under the \"Luphou Nung\" stone. It lies to the southern side of the Kangla Uttra Shanglen and to the northern side of the Manung Kangjeibung (Inner Pologround). free .   \r\n 10 **Marong Khong** , to the east of the Pakhangba Temple, to the south of the Rose Garden, to the north of the tombs of Meitei kings, Nara Singh and Bodhachandra Singh . This rectangular shaped elongated water body is a sacred pond of the Meitei people, located on the northern side of the tombs of Meitei kings, Nara Singh and Bodhachandra Singh. free .   \r\n 11 **Memento Museum** ( Kangla Information Centre and Gift Shop ), To the southwest of the Main Western Kangla Gate, to the northwest of the Nura Heikol Garden (Biodiversity Park) . This museum cum information center cum shop houses large collection of mementoes, related to ancient, medieval and modern Meitei culture. free entry .   \r\n 12 **Nungseng Eekon** ( _Nungjeng Eekon, Nungjeng Ikon, Nungjeng Pukhri_ ), To the north of the Pakhangba Temple, to the west of the Rose Garden, to the east and the south of the Inner Moat . This rectangular shaped sacred water body is located in the northern side of the white coloured Pakhangba Temple. \"Nung\" (/noong/) means \"inner\" (referring to \"inner body\") and \"seng\" means \"purification\" or \"cleansing\" in Classical Meitei . free .   \r\n 13 **Nungseng Apicha** ( _Nungjeng Apicha_ ), to the southwest of the Nungjeng Eekon, to the south and the east of the Inner Moat . Literally meaning \"smaller Nungseng / Nungjeng\" in Classical Meitei , this small square pond is a sacred water body, at the southwestern corner of the Nungjeng Eekon. free .   \r\n 14 **Nura Heikol** ( Biodiversity Park ), East of the Outer Moat, west of the Inner Moat, southwest of the Main Kangla Gate, north of the Rock Garden . Literally meaning \"Women’s garden of fruits\" in Meitei language , in this fruit orchard, 700 indigenous fruit-bearing tree saplings were planted in the year 2019. free .   \r\n 15 **Rock Garden**, to the south of the Nura Heikol (Biodiversity Park) and to the west of the Kangla Museum . This garden is easily recognisable with the circular passage ways adoring its entirety. It lies to the south of the Nura Heikol (Biodiversity Park) and to the west of the Kangla Museum. free .   \r\n 16 **Rose Garden**, East of the Pakhangba Temple and the Nungseng Eekon, north of the Royal Residence (Citadel) and the Kangla Uttra Shanglen . This garden consists of 4 square areas, each consisting of 4 square flower beds. On its adjacent western side, the Kangla Cafeteria is situated. free .   \r\n \r\n 17 **Sacred site of Lord Wangpulen (Wangbren)** , South of the Royal Residence (Citadel), east of the State Herbal Garden . This holy shrine dedicated to Meitei water God Wangpulen (Wangbren) displays various sculptures and idols of many deities, mythological creatures and several cultural artefacts. free .   \r\n 18 **Sanggai Yumpham** ( Royal Residence / Citadel ), To the east of the Kangla Uttra Shanglen, to the northeast of the ancient pologround, to the south of the Rose Garden . This old fortified palace compound is partially in demolished state. Its eastern and southern walls are still standing today. It covers a square shaped area of 600 x 600 feet enclosed by brick walls of 14 to 20 feet in heights. free .   \r\n 19 **Site for Meitei Heritage Park** , South of the Pakhangba Temple, west of the ancient pologround, north and east of the Inner Moat . It is a Heritage Park dedicated to the Meitei people and is also known as Meitei Heritage Park. It is located at the southern side of the Pakhangba Temple and the Hijagang (Boatyard), inside the Kangla. free .   \r\n 20 **State Herbal Garden**, to the south of Sanggai Yumpham, the fortified royal residence (citadel) and to the west of the sacred site of Lord Wangpulen (Wangbren) . This garden also houses several medicinal plants. It should not be confused with the Kangla Herbal Garden, which is also situated inside the Kangla. free .   \r\n \r\n 21 **Tomb of King Bodhchandra** ( _Manglen of Ningthou Bodhchandra_ ), To the north of the Kangla Uttra Shanglen, to the east of the Pakhangba Temple, to the south of the Rose Garden, to the west of the Royal Residence (Citadel) . It is the place where the mortal remains of Meitei King Bodhchandra (Bodhachandra), the last ruler of sovereign state of Manipur Kingdom, were consumed with flames on the 9th December, 1955. free .   \r\n 22 **Tomb of King Narasingh** ( of Ningthou Nara Singh ), To the east of the Tomb of King Bodhchandra, to the north of the Royal Residence (Citadel), to the south of the Marong Khong water channel . It is the place where the mortal remains of Meitei King Nara Singh were consumed with flames. free .",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Cycling \r\n Bicycles are available inside the Kangla. One can roam anywhere inside the Kangla. Just walking around on foot couldn't cover the entire place on a single day. So, riding a bicycle helps the visitor a lot in covering the entire place faster than just walking. Personal cycles are not allowed to be taken inside the Kangla. Personal vehicles should be parked at the reserved parking zone. \r\n Photography \r\n Photography is allowed as a part of the freedom of panorama. The architectural, archaeological, botanical, historical, ornithological photography can be extensively done here. \r\n Pilgrimage \r\n One can carry out religious pilgrimages around the 360 sacred sites of the traditional Meitei religion (Sanamahism) inside the Kangla. \r\n Plogging \r\n One can try plogging whenever possible. Kangla is usually clean and tidy regarding human-disposed garbages but leaves fallen from the trees will make plogging possible. \r\n Videography \r\n Film shooting and wedding videography need special permission. But vlogging needs no special permission. One can do lifecasting (video stream), livestream, photoblog, video podcast, etc. at personal level. \r\n Jogging \r\n Early morning and evening timing are ideal for jogging on the hundreds of pathways around the woods, temples, parks, palaces, museums, gardens, etc. Normally, Kangla opens at 9AM but if you want to enter earlier, you need special permission, like others who came for jogging in the early morning. \r\n Research (on either archaeology, architecture, bird life, culture, history or plant life) \r\n Fields are immensely available for research as buildings, excavations, wildlife, etc. are found in the Kangla. Most trees are pinned with medium-sized boards (cards) writing Meitei names, English names and scientific names of the very species.",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Obey COVID-19 guidelines. \r\n\nOther than the COVID-19 pandemic, visitors do not need to worry about safety from any external threats, bullying, robbery, teasing, etc. At every nooks and corners of the Kangla, policemen are engaged to guard and secure the entire zone. Some policemen patrol the area riding on bikes at the intervals every few minutes. Still, make sure to take care of your belongings."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Royal fort"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.643Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage"
+      ],
+      "search_context": "Heritage / Royal fort destination Kangla Kangla Fort Kangla Palace palais de Kangla Sightseeing Kangla ( Meitei : ꯀꯪꯂꯥ, /kang-lā/) is an ancient seat of monarchical government of the Meitei rulers of Ancient Kangleipak (early Manipur ) in present-day India . It was a fortified grand royal residence as well as a religious site of the Meitei language speaking people and the Sanamahism following people of South Asia . Nearly 360 important Meitei shrines are present inside the Kangla. Officially known as the \"Kangl",
+      "travel_facts": {
+        "summary": "**Kangla** hinges **IMF (~11 km)** urban apron beneath **Jiribam (~218 km)** knowing sacred moat gates absorb Meitei dynasty heritage tides.",
+        "keywords": [
+          "kangla fort stacks",
+          "imf imphal merges",
+          "uttra sanglen apron",
+          "jiribam connector tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-keibul-lamjao-national-park",
+      "name": "Keibul Lamjao National Park",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.4856,
+        "lon": 93.8402,
+        "source": "wikidata"
+      },
+      "description": "**Keibul Lamjao National Park** ( Meitei : _Keibul Lamjao Leipaakki Lampaak_) is the world's only floating national park. It is floating on the Loktak Lake in the central bowl-like plain of Manipur in India . It is famous for being the home of the world's only dancing deer species, Brow antlered deer (_Cervus eldi eldi_) ( Meitei : Sangai) and has been on the tentative list for world heritage since 2016. As the place is a major tourist attraction, the national park draws over thousands of visitors every month.",
+      "category": "Wildlife / Nature",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Keibul_Lamjao_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Keibul_Lamjao_National_Park",
+        "wikidata": "https://www.wikidata.org/wiki/Q1737898"
+      },
+      "distance_km": 2133,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Parc national de keibul lamjao",
+        "Keibul Lamjao",
+        "Keibul Lamjao (Parc Nacional de l'Índia)",
+        "Parc nacional de Keibul Lamjao",
+        "Parque nacional de keibul lamjao"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamp_of_India_-_2000_-_Colnect_161114_-_Sangai_Deer_Cervus_eldi_eldi.jpeg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sangai%20at%20the%20Keibullamjao%20National%20Park%2C%20Manipur.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 53
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 195,
+          "note": "Via Moirang/Bishnupur road spokes"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 26858,
+        "content_richness_score": 0.192
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Keibul Lamjao is one of the oldest national parks in India. It is the last and the only natural habitat for the world's only dancing deer species, Brow antlered deer (_Cervus eldi edli_) ( Manipuri : Sangai). \r\n\nMany local villagers have been dispossessed of homes and land to allow park expansion. Some are for the reason of area encroachment.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "**By bus** - Moirang - 10 km (6.2 mi) , Imphal - 53 km (32.9 mi), Guwahati - 522 km (324.4 mi). \r\n\n**By air** - Nearest airport is in Imphal city. Imphal is connected to Kolkata, Delhi, Guwahati, Agartala and Aizawl by regular flights.\r\n\n**By rail** - The nearest railway station is Jiribam. Jiribam is connected by trains from Guwahati and Silchar. Another railway station is at Dimapur. Dimapur is only 215 km (133.6 mi) away from Imphal . \r\n\n**By motorcycle** - Another way to reach Keibul Lamjao from Imphal and Moirang is by riding a motorcycle either in solo or in a group. Such tours are operated by various adventure tourism firms in Manipur . \r\n\nBoth motor boat as well as oaring boat riding facilities are available. Passing through colourful water plants would be a good way to see the park. An adventurous trip would be to take a walk through the park. Though the phumdis (floating mini islands) don't have firm grounds, one can walk on it slowly. Always remember that when one is on a phumdi, s/he will never get drowned. The phumdis are in some sense, live savers for people about to get drowned.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "There are many ways of getting around inside the Keibul Lamjao National Park. One is through a hired or private taxi. Motor boat riding, oaring boat riding, kayaking, hiking, camping, etc. can be done.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Gazing the wildlife either from on top of a watchtower or from the Loktak lake (riding on one of the multiple boats available) may make the visit more exciting. Most of the animals are not habituated with human presence. So, please don't make too much noise if you want to see the animals coming out from the bushes or behind the tall grasses. Carrying a good pair of binoculars will be helpful for watching the wildlife.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Stay at one of the hotels. \r\n Have a boating (either motor or oaring) ride or just do kayaking by yourself inside the park for up-close encounters with the famous Sangai, the dancing deer, dancing on the floating Phumdis. \r\n Take a taxi tour of the park to see other wildlife such as hoolock gibbon, hog deer (C. porcinus), wild boar (Sus scrofa), large Indian civet (Viverra civetta), common otter (Lutra lutra), fox, jungle cat (Felis chaus), Asian golden cat, bay bamboo rat, musk shrew, common shrew, flying fox and sambar (_Cervus unicolor_).",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There is no liquor shop inside the park. But one can get chilled bottles."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "During the COVID pandemic, please obey all the guidelines for safety, including wearing a mask, keeping social distancing and others."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.644Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature destination Keibul Lamjao National Park Parc national de keibul lamjao Keibul Lamjao Keibul Lamjao (Parc Nacional de l'Índia) Parc nacional de Keibul Lamjao Parque nacional de keibul lamjao Wildlife & nature Keibul Lamjao National Park ( Meitei : ) is the world's only floating national park. It is floating on the Loktak Lake in the central bowl-like plain of Manipur in India . It is famous for being the home of the world's only dancing deer species, Brow antlered deer ( ) ( Meitei : Sangai) and has been on the tentative list for world heritage since 2016. As the place is a major tourist attraction, the national park draw",
+      "travel_facts": {
+        "summary": "**Keibul Lamjao** stacks **IMF (~53 km)** Loktak apron beneath **Jiribam (~195 km)** knowing phumdi canoe merges absorb brow-antlered deer tides.",
+        "keywords": [
+          "floating park stacks",
+          "loktak phumdi merges",
+          "sangai sanctuary apron",
+          "moirang boat tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-lamphelpat",
+      "name": "Lamphelpat",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.82507,
+        "lon": 93.90899,
+        "source": "wikidata"
+      },
+      "description": "**Lamphelpat** is a suburb of Imphal in the Indian state of Manipur .",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Lamphelpat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lamphelpat",
+        "wikidata": "https://www.wikidata.org/wiki/Q2341492"
+      },
+      "distance_km": 2160,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 6
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 218,
+          "note": "Road transfer after railhead"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 21488,
+        "content_richness_score": 0.153
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Langol Temple",
+              "description": "This is a temple dedicated to Goddess Langol Lairembi of Sanamahism. The temple premise is generally crowded with the assembly of devotees, including temple dancers and singers. There is a thick woodland and a hill next to the temple complex. Besides religious purposes, people of other religious sects also come to the adjacent woods for outdoor recreation (including backpacking, bushwalking, hiking, trekking) as well as nature photography.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "The Nest",
+              "description": "It is a holiday campsite cum resort. It provides most of the vacationers' wants, food, drink, lodging, sports, entertainment, and shopping on its premises. Holidaymakers will find this place in an affordable price.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Game Village",
+              "description": "It is a countryside mega human settlement established by the Government for providing the accommodations for sportspersons during international, national as well as state level grand sports events. During vacancy on sports events, government employees are allowed to stay here as quarters. Tourists are also allowed to stay here.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.82478,
+                "lon": 93.89763
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Beit-El Synagogue",
+              "description": "It is one of the few synagogues in the Lamphelpat area. Here, prayer, study, assembly and reading of the religious scriptures are mainly done.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Langol Temple**, Lamphel Road, Game Village . 24 hours . This is a temple dedicated to Goddess Langol Lairembi of Sanamahism. The temple premise is generally crowded with the assembly of devotees, including temple dancers and singers. There is a thick woodland and a hill next to the temple complex. Besides religious purposes, people of other religious sects also come to the adjacent woods for outdoor recreation (including backpacking, bushwalking, hiking, trekking) as well as nature photography.   \r\n **The Nest**, Game Village, Lamphelpat . Daily 8AM-7PM . It is a holiday campsite cum resort. It provides most of the vacationers' wants, food, drink, lodging, sports, entertainment, and shopping on its premises. Holidaymakers will find this place in an affordable price.   \r\n 1 **Game Village**. It is a countryside mega human settlement established by the Government for providing the accommodations for sportspersons during international, national as well as state level grand sports events. During vacancy on sports events, government employees are allowed to stay here as quarters. Tourists are also allowed to stay here.   \r\n **Beit-El Synagogue**. It is one of the few synagogues in the Lamphelpat area. Here, prayer, study, assembly and reading of the religious scriptures are mainly done.   \r\n 2 ** Manipur Zoological Garden ** , Imphal-Kanchup Road , ☏ +91 70853 21247 . Oct-Mar: 10AM-4PM; Apr-Sep: 10AM-4:30PM . A smallish zoo but teeming with wildlife. Spanning 8 hectares, in total there are 55 species of animals and 420 animals overall with 14 species endangered and endemic. The rarest and most enchanting of these is the _Sangai_, also known as the brow-antlered deer.  ( updated Feb 2018 ) \r\n Hundreds of Baptist churches and Catholic churches are concentrated in almost every street of Lamphelpat. Entry into these churches is almost free.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.644Z"
+      },
+      "search_context": "City / Urban destination Lamphelpat Sightseeing Lamphelpat is a suburb of Imphal in the Indian state of Manipur .",
+      "travel_facts": {
+        "summary": "**Lamphelpat** hinges **IMF (~6 km)** western suburb apron beneath **Jiribam (~218 km)** knowing stadium–edu stacks absorb Imphal commuter tides.",
+        "keywords": [
+          "lamphelpat stacks",
+          "imf suburb merges",
+          "jiribam connector apron",
+          "imphal west tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-loktak-lake",
+      "name": "Loktak Lake",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.55,
+        "lon": 93.78333,
+        "source": "wikidata"
+      },
+      "description": "**Loktak Lake** ( Meitei : ꯂꯣꯛꯇꯥꯛ ꯄꯥꯠ, Loktak Paat) is a freshwater lake in South Asia. It hosts Keibul Lamjao National Park , which is on the tentative list of the UNESCO World Heritage Site as of 2023. It is in the southern portion of the central bowl like plain of Manipur . Often described as \"world's only floating lake\", it houses countless floating restaurants, floating cafeterias and floating homestays on its surface. \r\nWhile most of the floating restaurants, cafeterias and homestays are built on the floating biomasses (\"Phumdi\" in Meitei language ), there are some which are built on the artificial floating materials like air tanks. \r\n\nLoktak Lake has been popular with visitors since the early 20th century for the presence of circular floating biomasses and its combination of fresh air, silvery water, adjacent mountains and good weather. The largest phumdi makes the Keibul Lamjao National Park the world's only floating national park, which is the only natural habitat for Sangai deer. \r\n\n\r\n \r\n**Loktak Day** (Meitei: ꯂꯣꯛꯇꯥꯛ ꯅꯨꯃꯤꯠ, Loktak Numit) is celebrated every year on 15 October in and around the Loktak lake.",
+      "category": "Lakes / Nature",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Loktak_Lake",
+        "wikipedia": "https://en.wikipedia.org/wiki/Loktak_Lake",
+        "wikidata": "https://www.wikidata.org/wiki/Q2995601"
+      },
+      "distance_km": 2132,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Loktak"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loktak_lakeee.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loktak%20Lake.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 48
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 198,
+          "note": "Shore access commonly via Moirang/Bishnupur"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 68123,
+        "content_richness_score": 0.487
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The etymology of the word \"Loktak\" in Manipuri is that \"Lok\" means \"stream\" and \"Tak\" means \"the end\". The lake's most remarkable features are floating biomasses called _Phumdis_ ( Meitei : ꯐꯨꯝꯗꯤ, Phumdi). \r\n\n\r\n \r\nThe largest Phumdi covers an area of 40 km² and is on the southeastern shore of the lake. It is Keibul Lamjao National Park (Meitei: ꯀꯩꯕꯨꯜ ꯂꯝꯖꯥꯎ ꯂꯩꯄꯥꯛꯀꯤ ꯂꯝꯄꯥꯛ, Keibul Lamjao Leipaak-ki Lampaak). The park is the last natural asylum place of the endangered Sangai deer, the brow-antlered deer ( Meitei : ꯁꯥꯉꯥꯢ, _Cervus eldi eldi_). It is popularly called the \"dancing deer\". The park is one of the 12 geo-tourism sites in Northeast India notified by the Geological Survey of India (GSI) for promotion of geo-tourism. \r\n\n\r\n \r\nThe area around the Loktak Lake is pretty in characteristic, having a kind of flair and sense of history that tends to impress its visitors in a sense deeper than only from a touristic point of view. It has been known for its beauty and uniqueness for many centuries. Uncountable floating restaurants and floating home stays are found in every nook and corner of the lake. Lights shining from these floating houses make the night scene of the lake and its periphery truly colourful. Besides, even lamps on posts (poles) are installed in a regular pattern across all over the lake area. The lake's atmosphere and natural surroundings have been the inspiration for an important part of the creation of the _Khamba Thoibi Sheireng_, a 34,000 lined Manipuri epic poetry, written by poet _Hijam Anganghal_.\r\n\nLoktak Lake was designated as a Ramsar Wetland site on 23 March 1990.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "train",
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train The nearest railway station is at Jiribam . Jiribam is connected to Silchar and Guwahati through railways. Another station is at Dimapur. \r\n\n\r\n By bus By bus, you can reach the lake by travelling to any of the shoreline cities or towns. However, Moirang is usually considered the best because it has the most widespread coverage over the peripheral regions of the lake.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "What most people do to get around is boating, either through motor boats, or oaring boats, or kayaking. \r\n\n\r\n \r\n By boat To reach the floating restaurants, cafeterias and homestays in Loktak Lake, you must hire a boat from the offshore regions of Thanga Island, Karang Island or from the shoreline mainland Manipur, especially from Moirang mainland region. Lots of boating services are available in the shoreline regions of the lake. Starting from the motor boat to the rowing boats, various aquatic vehicles are in service for the transportation to and from the floating buildings in the lake. Many of those floating restaurants and homestays also give directly owned services for the aquatic vehicles. Please choose your convenient ones.\r\n\nMany shipyards can be found in many corners of the lake. The most popular one is just below the foothills of the Sendra Hillock. Life-saving swimming airbags are mandatory for every boat rider (including kayakers). These are provided free of cost. There's no charge for photography, either. \r\n\n\r\n By motorcycle The best thing a motorcycle rider could do is to roam at the shoreline cities and towns of the lake. \r\n\nThe entire lake area is popular with motorcyclists from all over Manipur .\r\nIf you want to hire a scooter, you should contact one from the tour operators in Imphal .\r\n\n\r\n By bicycle Bicycles can be rented for free at hotels, especially home stays, where you are living in. Usually, people don't charge for bicycles.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Loktak Folklore Museum",
+              "description": "A folk museum that displays a collection of artistic, cultural and historical artefacts associated with the lake.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Loktak_Folklore_Museum",
+              "coordinates": {
+                "lat": 24.51767,
+                "lon": 93.81375
+              },
+              "price": null
+            }
+          ],
+          "brief": "Uncountable number of floating restaurants and floating home stays in every nook and corner of the lake. Lights shining from these floating houses make the night scene truly colourful. Besides, even lamps on posts (poles) are installed in a regular pattern across all over the lake area. \r\n **Nurathel Garden** ( Manipuri : Nurathel Leikol) in the middle of the lake - it is connected to the mainland through a narrow land route. So, it's a little peninsula and not an island. \r\n 1 **Loktak Folklore Museum** , ☏ +91 94364 44845 . A folk museum that displays a collection of artistic, cultural and historical artefacts associated with the lake.  ( updated Jun 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Boat trips Take a _boat trip_. The most popular tourist islands are the Thanga Island and the Karang Island . Both are inhabited. \r\n\n\r\n Hiking and water sports Many make a hiking experience in the mountains and hills. There are various ways, from the easiest one to the most challenging. There are many camping sites as well as rest houses. Most roads offer spectacular views across the lake and sometimes it is even possible to see the bird's eye view of the entire lake from the top of a mountain or a hill. One popular strategic peak is the top of the Sendra Hill. The tourist office in Sendra has a larger opportunity of possibilities. The **Sendra Tourist Resort** is on the top of the Sendra Hill. \r\n\nOne can also do some water sports on the lake.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Every hotel and restaurant, terrestrial (shoreline or within the land mass) or aquatic (floating), provides drinks of various types. \r\n\nSome lake boats have provisions of drinks.\r\n\n\r\n Teas made from lotus stems, bamboo leaves, gingers or traditional herbs are usually served to visitors. \r\n Not every restaurant or cafeteria offers coffee: Manipuri people drink tea more often than coffee. \r\n Alcoholic beverages may or may not be available in the floating restaurants and cafeterias."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Loktak Aqua Inn Floating Homestay",
+              "description": "It is built on the phumdis (floating biomasses). It is a good location for sightseeing, recreation, dining and getting around. Laundry and daily housekeeping are in service. Outdoor pool and lifeguards are available. Pet animals are not allowed.",
+              "price": "₹4032/night"
+            },
+            {
+              "name": "Loktak Aquamarine Floating Homestay",
+              "description": "Both Meitei traditional/local as well as international food items are available. It provides private kitchens, full service laundry and free breakfasts. It allows entry for pet animals.",
+              "price": null
+            },
+            {
+              "name": "Loktak Ema Floating Restaurant Cum Home Stay",
+              "description": "This 24-hour open floating restaurant cum homestay is easily identifiable with lots of balloons being attached to the house and flags being erected in the associated phumdi (floating biomass). It is specifically known for its coffee services.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Lakes / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.644Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage",
+        "national_park",
+        "ramsar_site"
+      ],
+      "search_context": "Lakes / Nature destination Loktak Lake Loktak Sightseeing Loktak Lake ( Meitei : ꯂꯣꯛꯇꯥꯛ ꯄꯥꯠ, Loktak Paat) is a freshwater lake in South Asia. It hosts Keibul Lamjao National Park , which is on the tentative list of the UNESCO World Heritage Site as of 2023. It is in the southern portion of the central bowl like plain of Manipur . Often described as \"world's only floating lake\", it houses countless floating restaurants, floating cafeterias and floating homestays on its surfa",
+      "travel_facts": {
+        "summary": "**Loktak** stacks **IMF (~48 km)** freshwater apron beneath **Jiribam (~198 km)** knowing fisherman phumdi merges absorb Keibul Lamjao fringe tides.",
+        "keywords": [
+          "loktak lake stacks",
+          "moirang shore merges",
+          "phumdi hut apron",
+          "floating park tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-moirang",
+      "name": "Moirang",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.5,
+        "lon": 93.77,
+        "source": "wikidata"
+      },
+      "description": "**Moirang** is a town in the Indian state of Manipur .",
+      "category": "Heritage / Lakeside town",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Moirang",
+        "wikipedia": "https://en.wikipedia.org/wiki/Moirang",
+        "wikidata": "https://www.wikidata.org/wiki/Q2625382"
+      },
+      "distance_km": 2128,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thambou_singju_(2).jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 46
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 198,
+          "note": "Road transfer after railhead"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 22338,
+        "content_richness_score": 0.16
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Ebudhou Thangjing Temple",
+              "description": "Annually, traditional 'Lai Haraoba' is celebrated in May. During the festival, people from all over the state, assemble to seek the blessings of God 'Ebudhou Thangjing' (Eputhou Thangching). This festival continues for almost a month or more. During the festival, a mega dance and singing program is offered to the God.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Thangjing_Temple,_Moirang",
+              "coordinates": {
+                "lat": 24.4979,
+                "lon": 93.778
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Ebudhou Thangjing Temple** ( Eputhou Thangching Temple ). Annually, traditional 'Lai Haraoba' is celebrated in May. During the festival, people from all over the state, assemble to seek the blessings of God 'Ebudhou Thangjing' (Eputhou Thangching). This festival continues for almost a month or more. During the festival, a mega dance and singing program is offered to the God.  ( updated Dec 2021 ) \r\n 2 ** The Ina Museum **. 10AM–4PM (closed Mondays) . A war memorial museum focusing about the Second World War , and is the only WWII museum in the state of Manipur.  ( updated Dec 2021 ) \r\n **Sendra** is a small island cum peak located in the middle of world's only floating lake. One may have bird's eye views on the small islands of floating weed from the tourist bungalow located at the top of a hillock. \r\n 3 ** Keibul Lamjao National Park ** . The world's only floating national park.  ( updated Dec 2021 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Lakeside town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.645Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Heritage / Lakeside town destination Moirang Sightseeing Moirang is a town in the Indian state of Manipur .",
+      "travel_facts": {
+        "summary": "**Moirang** hinges **IMF (~46 km)** Loktak apron beneath **Jiribam (~198 km)** knowing INA museum merges absorb Thanga island boat tides.",
+        "keywords": [
+          "moirang ina stacks",
+          "loktak shore merges",
+          "indrajit apron",
+          "thanga boat tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-nongmaiching-ching",
+      "name": "Nongmaiching Ching",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.804,
+        "lon": 94.035,
+        "source": "wikidata"
+      },
+      "description": "The **Nongmaiching Ching** ( Meitei : ꯅꯣꯡꯃꯥꯏꯆꯤꯡ ꯆꯤꯡ), also called the **Nongmaijing Ching** ( Meitei : ꯅꯣꯡꯃꯥꯏꯖꯤꯡ ꯆꯤꯡ) or the **Selloi Langmai Ching** ( Meitei : ꯁꯦꯜꯂꯣꯏ ꯂꯪꯃꯥꯏ ꯆꯤꯡ), is a mountain in the Imphal valley of Manipur . \r\nIt is a holy pilgrimage site for the Meitei people, especially for the followers of Sanamahism (traditional Meitei religion). \r\nIn Sanamahism, it is a sacred mountain and the abode of God Nongpok Ningthou and Goddess Panthoibi .",
+      "category": "Mountains / Trekking",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Nongmaiching_Ching",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nongmaiching_Hill",
+        "wikidata": "https://www.wikidata.org/wiki/Q107669169"
+      },
+      "distance_km": 2169,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Nongmaijing Ching",
+        "Nongmaiching Mountain",
+        "Nongmaijing Mountain",
+        "Nongmaiching Hill",
+        "Nongmaijing Hill"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EA%AF%85%EA%AF%A3%EA%AF%A1%EA%AF%83%EA%AF%A5%EA%AF%8F%EA%AF%86%EA%AF%A4%EA%AF%A1_%EA%AF%86%EA%AF%A4%EA%AF%A1%EA%AF%92%EA%AF%A4_%EA%AF%82%EA%AF%A5%EA%AF%8F%EA%AF%85%EA%AF%A4%EA%AF%A1%EA%AF%8A%EA%AF%A7_%EA%AF%81%EA%AF%85%EA%AF%A5%EA%AF%83%EA%AF%8D%EA%AF%A4_%EA%AF%82%EA%AF%A5%EA%AF%8F%EA%AF%81%EA%AF%AA_(%EA%AF%81%EA%AF%85%EA%AF%A5%EA%AF%83%EA%AF%8D%EA%AF%A4_%EA%AF%80%EA%AF%A4%EA%AF%8C%EA%AF%A3%EA%AF%A1)%EA%AF%92%EA%AF%A4_%EA%AF%91%EA%AF%8B%EA%AF%A5%EA%AF%A1_%EA%AF%85%EA%AF%A3%EA%AF%A1%EA%AF%86%EA%AF%A8%EA%AF%9E_%EA%AF%8A%EA%AF%AA%EA%AF%95_%EA%AF%83%EA%AF%A5%EA%AF%8F%EA%AF%80%EA%AF%A9%EA%AF%97%EA%AF%92%EA%AF%A4_%EA%AF%80%EA%AF%A5%EA%AF%9E%EA%AF%84_%EA%AF%83%EA%AF%83%EA%AF%A4.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 18
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 222,
+          "note": "Trailheads via Imphal/Andro foothills"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17426,
+        "content_richness_score": 0.124
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "To get in the Nongmaiching, it is accessible through its foothills in Imphal , Andro as well as Thoubal . \r\nTaxis or hired bikes are available in the cities, most preferably in the state's capital Imphal, to reach the Nongmaiching.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "To get around the Nongmaiching, one can hire bikes or taxis but these vehicles are available only in metropolitan areas, especially Imphal . \r\nIf one wants to do hiking by himself or herself or with their groups themselves, then they don't need to book any vehicles.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Sanamahi Kiyong (Meitei: ꯁꯅꯥꯃꯍꯤ ꯀꯤꯌꯣꯡ) is a temple dedicated to ancient Meitei God Lainingthou Sanamahi. It has four doors facing the four directions. It has seven layered canopy, depicting seven clan dynasties of the Meitei ethnicity. The most interesting part of the temple is the underground hall under the main chamber of the temple building. The underground chamber is much bigger than the upper chamber. In the underground chamber, many altars are kept.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Bird life photography \r\n Blogging \r\n Botanical research \r\n Camping \r\n Cycling \r\n Excursion \r\n Film shooting \r\n Forestation \r\n Geological research \r\n Hiking \r\n Mountain climbing \r\n Mountain research \r\n Ornithological research \r\n Orographical research \r\n Pedological research \r\n Picnic \r\n Pilgrimage \r\n Planting \r\n Plant life photography \r\n Plogging \r\n Religious studies \r\n Trekking \r\n Videography \r\n Vlogging \r\n Wildlife photography \r\n Zoological research",
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountains / Trekking"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.645Z"
+      },
+      "search_context": "Mountains / Trekking destination Nongmaiching Ching Nongmaijing Ching Nongmaiching Mountain Nongmaijing Mountain Nongmaiching Hill Nongmaijing Hill Sightseeing The Nongmaiching Ching ( Meitei : ꯅꯣꯡꯃꯥꯏꯆꯤꯡ ꯆꯤꯡ), also called the Nongmaijing Ching ( Meitei : ꯅꯣꯡꯃꯥꯏꯖꯤꯡ ꯆꯤꯡ) or the Selloi Langmai Ching ( Meitei : ꯁꯦꯜꯂꯣꯏ ꯂꯪꯃꯥꯏ ꯆꯤꯡ), is a mountain in the Imphal valley of Manipur . It is a holy pilgrimage site for the Meitei people, especially for the followers of Sanamahism (traditional Meitei religion). In Sanamahism, it is a sacred mountain and the abode of God Nongpok Ningthou a",
+      "travel_facts": {
+        "summary": "**Nongmaiching** stacks **IMF (~18 km)** ridge apron beneath **Jiribam (~222 km)** knowing Seloi Langmai trek merges absorb Imphal Valley panorama tides.",
+        "keywords": [
+          "nongmaiching stacks",
+          "seloi langmai merges",
+          "imphal trek apron",
+          "western outlook tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-porompat",
+      "name": "Porompat",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.81255,
+        "lon": 93.95962,
+        "source": "wikidata"
+      },
+      "description": "**Porompat** is a town in the Indian state of Manipur .",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Porompat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Porompat",
+        "wikidata": "https://www.wikidata.org/wiki/Q2483892"
+      },
+      "distance_km": 2164,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Porompat subdivision"
+      ],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 8
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 218,
+          "note": "Road transfer after railhead"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 14558,
+        "content_richness_score": 0.104
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Khana Chaopa Wangpurel Khuman Temple",
+              "description": "This is a temple dedicated to Wangbren (Wangpurel or Wangpulel), god of water of Sanamahism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Yumnam Gunindro Art Gallery",
+              "description": "It is an art gallery displaying visual arts of many artistic disciplines.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.80505,
+                "lon": 93.97064
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Yangoi Ningthou Lai Temple",
+              "description": "It is a temple dedicated to God Yangoi Ningthou of Sanamahism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Sijagurumayum Temple",
+              "description": "It is a temple dedicated to many gods of Hinduism. Here, many idols of Hindu deities are installed.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Satya Sai Baba Temple",
+              "description": "It is a temple dedicated to Sai Baba of Hinduism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Khana Chaopa Wangpurel Khuman Temple**, Near Porompat Water Supply Mamang Lampak . 24 hours . This is a temple dedicated to Wangbren (Wangpurel or Wangpulel), god of water of Sanamahism.   \r\n 1 **Yumnam Gunindro Art Gallery**. It is an art gallery displaying visual arts of many artistic disciplines.   \r\n **Yangoi Ningthou Lai Temple** ( Yangoi Ningthou Laishang ). It is a temple dedicated to God Yangoi Ningthou of Sanamahism.   \r\n **Sijagurumayum Temple**. It is a temple dedicated to many gods of Hinduism. Here, many idols of Hindu deities are installed.   \r\n **Satya Sai Baba Temple**. It is a temple dedicated to Sai Baba of Hinduism.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.645Z"
+      },
+      "search_context": "City / Urban destination Porompat Porompat subdivision Sightseeing Porompat is a town in the Indian state of Manipur .",
+      "travel_facts": {
+        "summary": "**Porompat** hinges **IMF (~8 km)** eastern township apron beneath **Jiribam (~218 km)** knowing palace-adjacent stacks absorb Imphal festival tides.",
+        "keywords": [
+          "porompat stacks",
+          "imf east merges",
+          "imphal township apron",
+          "jiribam connector tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-thanga",
+      "name": "Thanga",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": null,
+      "description": "**Thanga** is an island in the Indian state of Manipur . It is the largest island in Loktak Lake, the main island of an archipelago. Politically, it also has some mainland area under its jurisdiction.",
+      "category": "Islands / Lake communities",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Thanga",
+        "wikipedia": "https://en.wikipedia.org/wiki/Thanga",
+        "wikidata": "https://www.wikidata.org/wiki/Q19898612"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.7,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 54
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 196,
+          "note": "Boat hops from Moirang/Loktak launches"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "boat",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 27991,
+        "content_richness_score": 0.2
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Phumdis - Natural floating islands made of reeds. \r\n Floating homestays and floating restaurants.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Sendra",
+              "description": "It is a hillock island in the archipelago. The bird's eye view of the majority of the lake can be seen from the hilltop watchpoint. There are also holiday resorts in the hilltop.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Loktak Folklore Museum",
+              "description": "It is a folklore museum. It displays a collection of artistic, cultural and historical artefacts associated with the people of island.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.51761,
+                "lon": 93.81373
+              },
+              "price": "₹10 for Indian adult, ₹5 for Indian children, ₹50 for foreigners"
+            },
+            {
+              "order": 3,
+              "name": "Karang Island",
+              "description": "There are many temples of God Khuman Pokpa (progenitor of the Khuman dynasty and ruler of darkness) of Sanamahism. You can reach the island by taking motorboating, rowboating or canoeing.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "entry free except for transportation charge"
+            },
+            {
+              "order": 4,
+              "name": "Lai Nongshaba Temple",
+              "description": "It is a temple of a dragon lion Nongshaba of Sanamahism. During Lai Haraoba festival, dance and music performances dedicated to the God adore the area for the whole month duration.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "Free"
+            },
+            {
+              "order": 5,
+              "name": "PUKHAM CHINGDON TOWER EAGLE HOUSE",
+              "description": "It is a hiking area. Here, backpacking, bushwalking, camping, fell walking, hillwalking, rambling, tramping facilities are available.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "Free"
+            },
+            {
+              "order": 6,
+              "name": "Khwairakpam Lairembi Temple",
+              "description": "It is a temple dedicated to Goddess Khwairakpam Lairembi of Sanamahism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "Free"
+            },
+            {
+              "order": 7,
+              "name": "Lemon Tea Garden",
+              "description": "It is a tea garden. Here, lemon tea and light refreshments are served. It is also a space for the cultivation, display and enjoyment of lemon plants.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Chingningthou Laiphamlen Temple",
+              "description": "It is a temple dedicated to God Ching Ningthou (patron deity of the Thanga island) of Sanamahism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "Free"
+            },
+            {
+              "order": 9,
+              "name": "Ibudhou Cheirenlakpa Khubham Temple",
+              "description": "It is a temple dedicated to God Cheirenlakpa of Sanamahism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "Free"
+            },
+            {
+              "order": 10,
+              "name": "Ibudhou Cheirelakpa Khubham Temple",
+              "description": "It is a temple dedicated to God Cheirelakpa of Sanamahism. Please don't get confused with Ibudhou Cheirenlakpa Khubham Temple of eastern shoreline.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "Free"
+            }
+          ],
+          "brief": "1 ** Keibul Lamjao National Park ** ( Keibul Lamjao Leipakki Lampak ). The world's only floating national park and the only and the last natural habitat of the dancing deer, Sangai (_Cervus eldi eldi_). Backpacking, boating, bushwalking, camping, hiking, hillwalking, picnic, tramping, trekking opportunities available.   \r\n **Sendra** ( Sendra Ithat ) ( South of Imphal city ). 24/7 . It is a hillock island in the archipelago. The bird's eye view of the majority of the lake can be seen from the hilltop watchpoint. There are also holiday resorts in the hilltop.   \r\n 2 **Loktak Folklore Museum**, Thanga Tongbram Leikai, Panathabam Leirak ( Northern shoreline of the main island ), ☏ +91 9436444845 , toll-free: +91 9436444845 , loktakfolkloremuseum16@gmail.com . 8:30AM-6PM (Sunday open) . It is a folklore museum. It displays a collection of artistic, cultural and historical artefacts associated with the people of island. ₹10 for Indian adult, ₹5 for Indian children, ₹50 for foreigners .   \r\n **Karang Island** ( Karang Ithat ) ( North of Thanga main island ). 24 hours . There are many temples of God Khuman Pokpa (progenitor of the Khuman dynasty and ruler of darkness) of Sanamahism. You can reach the island by taking motorboating, rowboating or canoeing. entry free except for transportation charge .   \r\n **Lai Nongshaba Temple** ( Lainingthou Nongshaba Laishang ), Thanga Oinam Leikai, inside the main island ( Southern shoreline of the main island ). 24/7 . It is a temple of a dragon lion Nongshaba of Sanamahism. During Lai Haraoba festival, dance and music performances dedicated to the God adore the area for the whole month duration. Free .   \r\n **PUKHAM CHINGDON TOWER EAGLE HOUSE**. 24/7 . It is a hiking area. Here, backpacking, bushwalking, camping, fell walking, hillwalking, rambling, tramping facilities are available. Free .   \r\n **Khwairakpam Lairembi Temple** ( Khwairakpam Lairembi Laishang ) ( Southern shoreline of the main island ). 24/7 . It is a temple dedicated to Goddess Khwairakpam Lairembi of Sanamahism. Free .   \r\n **Lemon Tea Garden** ( Champra Chaa Heikol Leikol ), Thanga Heisnam Leikai . 8AM-6PM . It is a tea garden. Here, lemon tea and light refreshments are served. It is also a space for the cultivation, display and enjoyment of lemon plants.   \r\n **Chingningthou Laiphamlen Temple** ( Chingningthou Laiphamlen ) ( Southern shoreline of the main island ). 24/7 . It is a temple dedicated to God Ching Ningthou (patron deity of the Thanga island) of Sanamahism. Free .   \r\n **Ibudhou Cheirenlakpa Khubham Temple** ( Ibudhou Cheirenlakpa Khubham ) ( Eastern shoreline of the main island ). 24/7 . It is a temple dedicated to God Cheirenlakpa of Sanamahism. Free .   \r\n **Ibudhou Cheirelakpa Khubham Temple** ( Ibudhou Cheirelakpa Khubham ) ( Northern shoreline of the main island ). 5AM-5PM . It is a temple dedicated to God Cheirelakpa of Sanamahism. Please don't get confused with Ibudhou Cheirenlakpa Khubham Temple of eastern shoreline. Free .",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Hiking, backpacking, boating (motor as well as rowing), bushwalking, camping, canoeing, fell walking, fishing, hillwalking, kayaking, nature photography, picnic, rambling, religious pilgrimage, tramping, trekking facilities are all available.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Santa Hotel",
+              "description": "Particularly serves local specialities, including the local fish.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Local brews"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Islands / Lake communities"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.645Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Islands / Lake communities destination Thanga Sightseeing Thanga is an island in the Indian state of Manipur . It is the largest island in Loktak Lake, the main island of an archipelago. Politically, it also has some mainland area under its jurisdiction.",
+      "travel_facts": {
+        "summary": "**Thanga** stacks **IMF (~54 km)** Loktak apron beneath **Jiribam (~196 km)** knowing island ferry merges absorb floating homestead tides.",
+        "keywords": [
+          "thanga island stacks",
+          "loktak ferry merges",
+          "moirang boat apron",
+          "phumdi village tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-thoubal",
+      "name": "Thoubal",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.63,
+        "lon": 94.02,
+        "source": "wikidata"
+      },
+      "description": "**Thoubal** is a town in the Indian state of Manipur . It is an idyllic town of 46,000 people (2011) that has many lakes and rivers, paddy fields, and gardens.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Thoubal",
+        "wikipedia": "https://en.wikipedia.org/wiki/Thoubal",
+        "wikidata": "https://www.wikidata.org/wiki/Q2299080"
+      },
+      "distance_km": 2157,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20thoubal.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 26
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 212,
+          "note": "Road transfer after railhead"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 18106,
+        "content_richness_score": 0.129
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Thoubal Bazar is the main business hub of the surrounding villages. A variety of hand loom and handicraft products are produced. Agriculture is the main source of income for the majority of the population.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "It is well connected with Imphal , Kakching , Moreh , and Yairipok .\r\n\nTata Magic, Auto, winger are the only means of transport to and from Thoubal.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Khongjom War Memorial Complex",
+              "description": "This is the largest war memorial complex in Manipur. It commemorates the freedom fighters and matyrs of Anglo-Manipuri War that took place in Khongjom, Manipur. It houses the tallest statue of sword in the world.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.5679,
+                "lon": 94.04
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Thoubal Keithel",
+              "description": "It is one of the largest market complexes in Manipur. Here, one can get everything, starting from local handloom and handicrafts products to local seasonal fruits and vegetables.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.6439,
+                "lon": 93.9986
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Khangabok Menjor garden",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.651,
+                "lon": 93.9849
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Khongjom War Memorial Complex** ( Anglo-Manipuri War Memorial Complex ) ( 11 km south of Thoubal ). This is the largest war memorial complex in Manipur. It commemorates the freedom fighters and matyrs of Anglo-Manipuri War that took place in Khongjom, Manipur. It houses the tallest statue of sword in the world.   \r\n 2 **Thoubal Keithel** ( Thoubal Market Complex ). It is one of the largest market complexes in Manipur. Here, one can get everything, starting from local handloom and handicrafts products to local seasonal fruits and vegetables.   \r\n Chinga Lairembi temple \r\n Tomjing ching \r\n Panthoibee temple \r\n Thoubal bazar \r\n Tangjeng ching (from where you can have a bird's eye view of Waithou Lake) \r\n 3 **Khangabok Menjor garden** ( Menjor Hingkhol ).  ( updated Dec 2021 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.645Z"
+      },
+      "search_context": "City / Urban destination Thoubal Sightseeing Thoubal is a town in the Indian state of Manipur . It is an idyllic town of 46,000 people (2011) that has many lakes and rivers, paddy fields, and gardens.",
+      "travel_facts": {
+        "summary": "**Thoubal** hinges **IMF (~26 km)** riverside apron beneath **Jiribam (~212 km)** knowing Khongjom memorial merges absorb Thoubal Keithel craft tides.",
+        "keywords": [
+          "thoubal bazar stacks",
+          "imf southern merges",
+          "khongjom apron",
+          "shared taxi tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-ukhrul",
+      "name": "Ukhrul",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 25.12,
+        "lon": 94.37,
+        "source": "wikidata"
+      },
+      "description": "**Ukhrul/Hunphun** is a town which is the administrative headquarters of the Ukhrul district in the state of Manipur , India .\r\n\n Sirohi National Park is 10-15 km from the town. It is the world's only natural habitat for the Shirui lily flower (_Lilium macklineae_).",
+      "category": "Mountains / Hills",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ukhrul",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ukhrul",
+        "wikidata": "https://www.wikidata.org/wiki/Q1025291"
+      },
+      "distance_km": 2217,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Partial_View_of_North-Eastern_Ukhrul_Town_01.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Partial%20View%20of%20North-Eastern%20Ukhrul%20Town%2001.JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 92,
+          "note": "~3 h winding taxi via SH 202 from Imphal—check local advisories"
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 302,
+          "note": "Long road relay via Imphal"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 19505,
+        "content_richness_score": 0.139
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "A taxi or minivan from Imphal Interstate Bus Terminus requires approximately three hours to reach the airport.\r\n\n\r\n By car State Highway 202 links Ukhrul and Imphal. The road is bumpy, muddy when it rains, and subject to landslides.\r\n\n\r\n By bus A shared taxi/minivan from Imphal Interstate Bus Station costs ₹150. There might be a bus during the Shiroi festival (usually held on the third week of May).",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "1 ** Sirohi National Park **. The world's only natural habitat for the Shirui lily (_Lilium macklineae_), it also hosts tigers, leopards and a variety of rare bird species such as the Blyth's tragopan. Shirui Peak during monsoon season is covered with the blooms of the exotic lily. The best time to see the Shirui lily flower is the third or fourth week of May when the annual Shirui Festival takes place.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "** Chiko Adventures **, chikoadventures@gmail.com . They offer customized camping, trekking, and cycling tour activities and can help you with information and village homestays in the surrounding area. You can also hire camping equipment and bicycles from them. Thecation is in the same building of 25 Degree North Hotel. You can ask the 25 Degree North Hotel and they will direct you to Chiko Adventures.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Chico Adventures",
+              "description": "Offers customised camping, trekking and cycling tour activities, information and village guest accommodation in the surrounding area. It is also possible to hire camping equipment and bicycles from them.",
+              "price": null
+            },
+            {
+              "name": "25 Degree North Hotel",
+              "description": "One of a very few accommodations in Ukhrul that offer free Wi-Fi. It has a restaurant on the second floor, offering common foods such fried rice and noodles and western-style breakfast. The hotel also offers hot water, shower, laundry, and airport transfers.",
+              "price": "₹600 (single); ₹900 (double)"
+            },
+            {
+              "name": "Oasis Hotel",
+              "description": "",
+              "price": "₹400(single)-₹800 as of 2017"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountains / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.646Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Mountains / Hills destination Ukhrul Sightseeing Ukhrul/Hunphun is a town which is the administrative headquarters of the Ukhrul district in the state of Manipur , India . Sirohi National Park is 10-15 km from the town. It is the world's only natural habitat for the Shirui lily flower ( ).",
+      "travel_facts": {
+        "summary": "**Ukhrul** stacks **IMF (~92 km)** hill-road apron beneath **Jiribam (~302 km) relays** knowing Shirui lily merges absorb landslide-prone SH202 tides.",
+        "keywords": [
+          "ukhrul sh202 stacks",
+          "imf hill taxi merges",
+          "shirui peak apron",
+          "hunphun festival tides"
+        ]
+      }
+    },
+    {
+      "slug": "manipur-yangoupokpi-lokchao-wildlife-sanctuary",
+      "name": "Yangoupokpi-Lokchao Wildlife Sanctuary",
+      "region": "",
+      "state": "Manipur",
+      "coordinates": {
+        "lat": 24.32,
+        "lon": 94.23,
+        "source": "wikidata"
+      },
+      "description": "**Yangoupokpi-Lokchao Wildlife Sanctuary** ( Manipuri : Yangoupokpi-Lokchao Lamlak-ki Saa-Ngaa Ngaak Senpham) is a wildlife sanctuary that represents the Indo-Myanmar biological diversity. It is located in the meeting point of the two major geographical zones. This wildlife sanctuary is in Chandel district of Manipur . \r\n\nThe best season to visit the sanctuary is from October to April and the best time to visit is during the early morning.",
+      "category": "Wildlife / Nature",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Yangoupokpi-Lokchao_Wildlife_Sanctuary",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yangoupokpi-Lokchao_Wildlife_Sanctuary",
+        "wikidata": "https://www.wikidata.org/wiki/Q110460281"
+      },
+      "distance_km": 2156,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:43:36.338Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Yangoupokpi-Lokchao Lamlak-ki Saa-Ngaa Ngaak Senpham"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Purple_Sapphire_Heliophorus_epicles_UP_by_Dr._Raju_Kasambe_DSC_8697_(3).jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Purple%20Sapphire%20Heliophorus%20epicles%20UN%20by%20Dr.%20Raju%20Kasambe%20DSC%208697%20(1).jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bir Tikendrajit International Airport",
+          "code": "IMF",
+          "distance_km": 110
+        },
+        "nearest_railway_station": {
+          "name": "Jiribam Junction railway station",
+          "distance_km": 248,
+          "note": "Indo-Myanmar fringe—permits/advisories may apply"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Silchar"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage",
+          "wildlife"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17619,
+        "content_richness_score": 0.126
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The **Yangoupokpi-Lokchao Wildlife Sanctuary** ( Manipuri : Yangoupokpi-Lokchao Lamlak-ki Saa-Ngaa Ngaak Senpham) hosts the unique and vibrant biodiversity of the Indo-Myanmar region because of its strategic location in the juncture of the two major geographical zones.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "**By bus** - Nearest city is Imphal (110 km away from the sanctuary) in the Indo-Myanmar border. \r\n\n**By air** - Nearest airport is in Imphal city (110 km away from the NP). Imphal is connected to Kolkata, Delhi, Guwahati, Agartala and Aizawl by regular flights.\r\n\n**By rail** - The nearest railway station is Jiribam . Jiribam is connected by trains from Guwahati and Silchar. Another railway station is at Dimapur. \r\n\n**By motorcycle** - Another way to reach the wildlife sanctuary from Imphal (110 km away) is by riding a motorcycle either in solo or in a group. Such tours are operated by various adventure tourism firms in Manipur .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "There are many ways of getting around inside the **Yangoupokpi-Lokchao Wildlife Sanctuary** ( Manipuri : Yangoupokpi-Lokchao Lamlak-ki Saa-Ngaa Ngaak Senpham). Some are through bushwalking, camping, hiking, trekking, etc.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Looking at the wildlife by trekking may make the visiting experience the most exciting. Carrying a good pair of binoculars will be helpful for watching the fauna species. One can use the flying drones too.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Stay at one of the resthouses like: (1) Forest Rest House, Moreh, (2) Indo-Myanmar Trade Center Rest House, Moreh, (3) Transit Camp at Wildlife Office, Moreh. \r\n Do hiking throughout the woodland.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There are liquor shops around the sanctuary. Here, local made brews are available. Chilled bottles may or may not be available. So, if you want a one, please bring it from an assured place."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "During the COVID pandemic, please obey all the guidelines for safety, including wearing a mask, keeping social distancing and others."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.646Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature destination Yangoupokpi-Lokchao Wildlife Sanctuary Yangoupokpi-Lokchao Lamlak-ki Saa-Ngaa Ngaak Senpham Wildlife & nature Yangoupokpi-Lokchao Wildlife Sanctuary ( Manipuri : Yangoupokpi-Lokchao Lamlak-ki Saa-Ngaa Ngaak Senpham) is a wildlife sanctuary that represents the Indo-Myanmar biological diversity. It is located in the meeting point of the two major geographical zones. This wildlife sanctuary is in Chandel district of Manipur . The best season to visit the sanctuary is from October to April and the best time to visit is during th",
+      "travel_facts": {
+        "summary": "**Yangoupokpi–Lokchao** hinges **IMF (~110 km)** Chandel apron beneath **Jiribam (~248 km)** knowing Indo-Myanmar biodiversity merges absorb early-morning safari tides.",
+        "keywords": [
+          "yangoupokpi stacks",
+          "chandel border merges",
+          "indo-myanmar apron",
+          "wildlife corridor tides"
+        ]
+      }
+    }
+  ]
+}

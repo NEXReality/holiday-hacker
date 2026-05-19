@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F6FEB</color>
+    <color name="colorPrimaryDark">#1054C4</color>
+    <color name="colorAccent">#1F6FEB</color>
+    <color name="alarmBackground">#0E1B33</color>
+    <color name="alarmCardSurface">#16223D</color>
+    <color name="alarmTextPrimary">#FFFFFF</color>
+    <color name="alarmTextSecondary">#B8C4DA</color>
+    <color name="alarmTextMuted">#8590AA</color>
+    <color name="alarmPillBg">#33000000</color>
+    <color name="alarmPillStroke">#55FFFFFF</color>
+    <color name="alarmHeroFallback">#1E3163</color>
+    <color name="alarmHeroFallbackEnd">#0E1B33</color>
+    <color name="alarmDismiss">#FF3B30</color>
+    <color name="alarmSnooze">#3478F6</color>
+</resources>

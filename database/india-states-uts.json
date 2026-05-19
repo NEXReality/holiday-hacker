@@ -1,0 +1,301 @@
+{
+  "_comment": "States and UTs keyed for the app. Regions match incredibleindia.gov.in browse-by-region navigation. stateCode uses ISO 3166-2:IN except holidayJsonSlug may differ (e.g. Telangana IN-TS for in-ts.json).",
+  "sourceRegionLabels": [
+    "North",
+    "North East",
+    "East",
+    "Central",
+    "West",
+    "South"
+  ],
+  "jurisdictions": [
+    {
+      "name": "Chandigarh",
+      "region": "North",
+      "adminType": "ut",
+      "stateCode": "IN-CH",
+      "incredibleIndiaSlug": "chandigarh",
+      "holidayJsonSlug": "in-ch"
+    },
+    {
+      "name": "Delhi",
+      "region": "North",
+      "adminType": "ut",
+      "stateCode": "IN-DL",
+      "incredibleIndiaSlug": "delhi",
+      "holidayJsonSlug": "in-dl"
+    },
+    {
+      "name": "Haryana",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-HR",
+      "incredibleIndiaSlug": "haryana",
+      "holidayJsonSlug": "in-hr"
+    },
+    {
+      "name": "Himachal Pradesh",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-HP",
+      "incredibleIndiaSlug": "himachal-pradesh",
+      "holidayJsonSlug": "in-hp"
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-JK",
+      "incredibleIndiaSlug": "jammu-and-kashmir",
+      "holidayJsonSlug": "in-jk"
+    },
+    {
+      "name": "Ladakh",
+      "region": "North",
+      "adminType": "ut",
+      "stateCode": "IN-LA",
+      "incredibleIndiaSlug": "ladakh",
+      "holidayJsonSlug": "in-la"
+    },
+    {
+      "name": "Punjab",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-PB",
+      "incredibleIndiaSlug": "punjab",
+      "holidayJsonSlug": "in-pb"
+    },
+    {
+      "name": "Rajasthan",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-RJ",
+      "incredibleIndiaSlug": "rajasthan",
+      "holidayJsonSlug": "in-rj"
+    },
+    {
+      "name": "Uttar Pradesh",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-UP",
+      "incredibleIndiaSlug": "uttar-pradesh",
+      "holidayJsonSlug": "in-up"
+    },
+    {
+      "name": "Uttarakhand",
+      "region": "North",
+      "adminType": "state",
+      "stateCode": "IN-UK",
+      "incredibleIndiaSlug": "uttarakhand",
+      "holidayJsonSlug": "in-uk"
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-AR",
+      "incredibleIndiaSlug": "arunachal-pradesh",
+      "holidayJsonSlug": "in-ar"
+    },
+    {
+      "name": "Assam",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-AS",
+      "incredibleIndiaSlug": "assam",
+      "holidayJsonSlug": "in-as"
+    },
+    {
+      "name": "Manipur",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-MN",
+      "incredibleIndiaSlug": "manipur",
+      "holidayJsonSlug": "in-mn"
+    },
+    {
+      "name": "Meghalaya",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-ML",
+      "incredibleIndiaSlug": "meghalaya",
+      "holidayJsonSlug": "in-ml"
+    },
+    {
+      "name": "Mizoram",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-MZ",
+      "incredibleIndiaSlug": "mizoram",
+      "holidayJsonSlug": "in-mz"
+    },
+    {
+      "name": "Nagaland",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-NL",
+      "incredibleIndiaSlug": "nagaland",
+      "holidayJsonSlug": "in-nl"
+    },
+    {
+      "name": "Sikkim",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-SK",
+      "incredibleIndiaSlug": "sikkim",
+      "holidayJsonSlug": "in-sk"
+    },
+    {
+      "name": "Tripura",
+      "region": "North East",
+      "adminType": "state",
+      "stateCode": "IN-TR",
+      "incredibleIndiaSlug": "tripura",
+      "holidayJsonSlug": "in-tr"
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "region": "East",
+      "adminType": "ut",
+      "stateCode": "IN-AN",
+      "incredibleIndiaSlug": "andaman-and-nicobar-islands",
+      "holidayJsonSlug": "in-an"
+    },
+    {
+      "name": "Bihar",
+      "region": "East",
+      "adminType": "state",
+      "stateCode": "IN-BR",
+      "incredibleIndiaSlug": "bihar",
+      "holidayJsonSlug": "in-br"
+    },
+    {
+      "name": "Jharkhand",
+      "region": "East",
+      "adminType": "state",
+      "stateCode": "IN-JH",
+      "incredibleIndiaSlug": "jharkhand",
+      "holidayJsonSlug": "in-jh"
+    },
+    {
+      "name": "Odisha",
+      "region": "East",
+      "adminType": "state",
+      "stateCode": "IN-OD",
+      "incredibleIndiaSlug": "odisha",
+      "holidayJsonSlug": "in-od"
+    },
+    {
+      "name": "West Bengal",
+      "region": "East",
+      "adminType": "state",
+      "stateCode": "IN-WB",
+      "incredibleIndiaSlug": "west-bengal",
+      "holidayJsonSlug": "in-wb"
+    },
+    {
+      "name": "Chhattisgarh",
+      "region": "Central",
+      "adminType": "state",
+      "stateCode": "IN-CG",
+      "incredibleIndiaSlug": "chhattisgarh",
+      "holidayJsonSlug": "in-cg"
+    },
+    {
+      "name": "Madhya Pradesh",
+      "region": "Central",
+      "adminType": "state",
+      "stateCode": "IN-MP",
+      "incredibleIndiaSlug": "madhya-pradesh",
+      "holidayJsonSlug": "in-mp"
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "region": "West",
+      "adminType": "ut",
+      "stateCode": "IN-DH",
+      "incredibleIndiaSlug": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "holidayJsonSlug": "in-dh"
+    },
+    {
+      "name": "Goa",
+      "region": "West",
+      "adminType": "state",
+      "stateCode": "IN-GA",
+      "incredibleIndiaSlug": "goa",
+      "holidayJsonSlug": "in-ga"
+    },
+    {
+      "name": "Gujarat",
+      "region": "West",
+      "adminType": "state",
+      "stateCode": "IN-GJ",
+      "incredibleIndiaSlug": "gujarat",
+      "holidayJsonSlug": "in-gj"
+    },
+    {
+      "name": "Maharashtra",
+      "region": "West",
+      "adminType": "state",
+      "stateCode": "IN-MH",
+      "incredibleIndiaSlug": "maharashtra",
+      "holidayJsonSlug": "in-mh"
+    },
+    {
+      "name": "Andhra Pradesh",
+      "region": "South",
+      "adminType": "state",
+      "stateCode": "IN-AP",
+      "incredibleIndiaSlug": "andhra-pradesh",
+      "holidayJsonSlug": "in-ap"
+    },
+    {
+      "name": "Karnataka",
+      "region": "South",
+      "adminType": "state",
+      "stateCode": "IN-KA",
+      "incredibleIndiaSlug": "karnataka",
+      "holidayJsonSlug": "in-ka"
+    },
+    {
+      "name": "Kerala",
+      "region": "South",
+      "adminType": "state",
+      "stateCode": "IN-KL",
+      "incredibleIndiaSlug": "kerala",
+      "holidayJsonSlug": "in-kl"
+    },
+    {
+      "name": "Lakshadweep",
+      "region": "South",
+      "adminType": "ut",
+      "stateCode": "IN-LD",
+      "incredibleIndiaSlug": "lakshadweep",
+      "holidayJsonSlug": "in-ld"
+    },
+    {
+      "name": "Puducherry",
+      "region": "South",
+      "adminType": "ut",
+      "stateCode": "IN-PY",
+      "incredibleIndiaSlug": "puducherry",
+      "holidayJsonSlug": "in-py"
+    },
+    {
+      "name": "Tamil Nadu",
+      "region": "South",
+      "adminType": "state",
+      "stateCode": "IN-TN",
+      "incredibleIndiaSlug": "tamil-nadu",
+      "holidayJsonSlug": "in-tn"
+    },
+    {
+      "name": "Telangana",
+      "region": "South",
+      "adminType": "state",
+      "stateCode": "IN-TS",
+      "incredibleIndiaSlug": "telangana",
+      "holidayJsonSlug": "in-ts"
+    }
+  ]
+}

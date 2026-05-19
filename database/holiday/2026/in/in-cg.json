@@ -1,0 +1,61 @@
+{
+  "stateCode": "IN-CG",
+  "stateName": "Chhattisgarh",
+  "year": 2026,
+  "indiaRegion": "Central",
+  "adminType": "state",
+  "incredibleIndiaSlug": "chhattisgarh",
+  "holidayJsonSlug": "in-cg",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year Day", "type": "restricted" },
+    { "date": "2026-01-03", "name": "Maa Shakambhri Jayanti & Cherchera", "type": "gazetted" },
+    { "date": "2026-01-03", "name": "Savtri Bai Phule Jayanti", "type": "restricted" },
+    { "date": "2026-01-07", "name": "Rajim Bhaktin Mata Jayanti", "type": "restricted" },
+    { "date": "2026-01-10", "name": "World Hindi Day", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Makar Sankranti", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Pongal", "type": "restricted" },
+    { "date": "2026-01-20", "name": "Shahid Gaindshing Shahadat Diwas", "type": "restricted" },
+    { "date": "2026-01-23", "name": "Netaji Subhash Chandra Bose Jayanti", "type": "restricted" },
+    { "date": "2026-01-23", "name": "Basant Panchami / Maa Parmeshwari Jayanti", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-03", "name": "Shab-E-Barat", "type": "restricted" },
+    { "date": "2026-02-12", "name": "Maharshi Dayanand Saraswati Jayanti", "type": "restricted" },
+    { "date": "2026-02-19", "name": "Chhatrapati Shivaji Jayanti", "type": "restricted" },
+
+    { "date": "2026-03-03", "name": "Holika Dahan", "type": "restricted" },
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-05", "name": "Bhai Duj (Holi)", "type": "restricted" },
+    { "date": "2026-03-19", "name": "Gudi Padwa", "type": "restricted" },
+    { "date": "2026-03-20", "name": "Cheti Chand", "type": "restricted" },
+    { "date": "2026-03-20", "name": "Jamat-Ul-Vida", "type": "restricted" },
+    { "date": "2026-03-20", "name": "Virangana Awanti Bai Balidan Diwas", "type": "restricted" },
+    { "date": "2026-03-23", "name": "Guha Nishad Raj Jayanti", "type": "restricted" },
+
+    { "date": "2026-04-01", "name": "Hatkeshwar Jayanti", "type": "restricted" },
+    { "date": "2026-04-02", "name": "Dharti Pooja (Khaddi Parv)", "type": "restricted" },
+    { "date": "2026-04-13", "name": "Shrimad Vallabhacharya Jayanti", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Sen Jayanti", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Vaisakhi", "type": "restricted" },
+    { "date": "2026-04-20", "name": "Parshuram Jayanti", "type": "restricted" },
+    { "date": "2026-04-22", "name": "Shankaracharya Jayanti", "type": "restricted" },
+
+    { "date": "2026-06-17", "name": "Chhatrasal Jayanti / Maharana Pratap Jayanti", "type": "restricted" },
+    { "date": "2026-06-23", "name": "Mahesh Navami (Jyeshtha Shukla-9)", "type": "restricted" },
+    { "date": "2026-06-24", "name": "Virangana Durgawati Balidan Diwas", "type": "restricted" },
+
+    { "date": "2026-07-16", "name": "Rath Yatra", "type": "restricted" },
+
+    { "date": "2026-08-15", "name": "Parsi Navvarsh", "type": "restricted" },
+    { "date": "2026-08-17", "name": "Nag Panchami", "type": "restricted" },
+    { "date": "2026-08-26", "name": "Onam", "type": "restricted" },
+
+    { "date": "2026-09-02", "name": "Harchhath", "type": "restricted" },
+    { "date": "2026-09-10", "name": "Pola", "type": "restricted" },
+    { "date": "2026-09-14", "name": "Ganesh Chaturthi", "type": "restricted" },
+    { "date": "2026-09-17", "name": "Vishwakarma Jayanti", "type": "restricted" },
+    { "date": "2026-09-18", "name": "Nawa Khai", "type": "restricted" },
+    { "date": "2026-09-22", "name": "Dhol Gyaras", "type": "restricted" },
+    { "date": "2026-09-25", "name": "Anant Chaturdashi", "type": "restricted" }
+  ]
+}

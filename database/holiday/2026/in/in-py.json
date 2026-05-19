@@ -1,0 +1,68 @@
+{
+  "stateCode": "IN-PY",
+  "stateName": "Puducherry",
+  "year": 2026,
+  "indiaRegion": "South",
+  "adminType": "ut",
+  "incredibleIndiaSlug": "puducherry",
+  "holidayJsonSlug": "in-py",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year", "type": "gazetted" },
+    { "date": "2026-01-14", "name": "Bhogi", "type": "restricted" },
+    { "date": "2026-01-15", "name": "Pongal", "type": "gazetted" },
+    { "date": "2026-01-15", "name": "Pongal (Makara Sankranthi)", "type": "gazetted" },
+    { "date": "2026-01-16", "name": "Thiruvalluvar Day / Mattu Pongal", "type": "gazetted" },
+    { "date": "2026-01-16", "name": "Kanuma", "type": "gazetted" },
+    { "date": "2026-01-17", "name": "Uzhavar Thirunal / Shab-e-Miraj*", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+    { "date": "2026-01-29", "name": "Kandhoori Festival*", "type": "restricted" },
+
+    { "date": "2026-02-04", "name": "Shab-e-Barath*", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Mahasivarathri", "type": "restricted" },
+
+    { "date": "2026-03-03", "name": "Masi Magam / Holi", "type": "restricted" },
+    { "date": "2026-03-16", "name": "Lailathul Qadr*", "type": "restricted" },
+    { "date": "2026-03-19", "name": "Feast of St. Joseph", "type": "restricted" },
+    { "date": "2026-03-20", "name": "Ramzan (Id-ul-Fitr)*", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "Ugadi / Ramzan (Id-ul-Fitr)*", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "Telugu New Year Day", "type": "restricted" },
+    { "date": "2026-03-26", "name": "Sri Rama Navami", "type": "restricted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-06", "name": "Easter Monday", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Vishu 1st Day / Dr. Ambedkar's Birthday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Tamil New Year / Dr. Ambedkar's Birthday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Dr. Ambedkar's Birthday", "type": "gazetted" },
+    { "date": "2026-04-15", "name": "Vishu 2nd Day", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "May Day", "type": "gazetted" },
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "restricted" },
+    { "date": "2026-05-27", "name": "Bakrid (Id-ul-Alha)*", "type": "gazetted" },
+    { "date": "2026-05-28", "name": "Bakrid (Id-ul-Alha)*", "type": "gazetted" },
+
+    { "date": "2026-06-26", "name": "Muharram*", "type": "restricted" },
+
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-25", "name": "Onam 1st Day / Milad-Un-Nabi*", "type": "gazetted" },
+    { "date": "2026-08-25", "name": "Onam 1st Day", "type": "restricted" },
+    { "date": "2026-08-26", "name": "Milad-Un-Nabi*", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Onam 2nd Day", "type": "gazetted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami", "type": "restricted" },
+    { "date": "2026-09-14", "name": "Vinayagar Chathurthi", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Gandhi Jayanthi", "type": "gazetted" },
+    { "date": "2026-10-15", "name": "St. Theresa Festival", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Saraswathi Pooja / Ayudha Pooja", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Mahanavami", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Mahanavami / Ayudha Pooja", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Vijayadasami", "type": "restricted" },
+
+    { "date": "2026-11-01", "name": "Puducherry Liberation Day", "type": "gazetted" },
+    { "date": "2026-11-07", "name": "Deepavali Eve", "type": "restricted" },
+    { "date": "2026-11-08", "name": "Deepavali", "type": "gazetted" },
+
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas", "type": "gazetted" }
+  ]
+}

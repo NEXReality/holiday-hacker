@@ -1,0 +1,11 @@
+{
+  "appId": "in.holidayhacker.app",
+  "appName": "Holiday Hacker",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

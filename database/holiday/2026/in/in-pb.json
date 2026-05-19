@@ -1,0 +1,79 @@
+{
+  "stateCode": "IN-PB",
+  "stateName": "Punjab",
+  "year": 2026,
+  "indiaRegion": "North",
+  "adminType": "state",
+  "incredibleIndiaSlug": "punjab",
+  "holidayJsonSlug": "in-pb",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year Day", "type": "restricted" },
+    { "date": "2026-01-13", "name": "Lohri", "type": "restricted" },
+    { "date": "2026-01-17", "name": "Nirwan Diwas of Bhagwan Adinath Ji", "type": "restricted" },
+    { "date": "2026-01-23", "name": "Basant Panchami / Birthday of Satguru Ram Singh Ji", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-01", "name": "Birthday of Sri Guru Ravidas Ji", "type": "gazetted" },
+    { "date": "2026-02-15", "name": "Maha Shivratri", "type": "gazetted" },
+
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-04", "name": "Hola Mohalla", "type": "restricted" },
+    { "date": "2026-03-08", "name": "International Women's Day", "type": "restricted" },
+    { "date": "2026-03-21", "name": "Id-ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-23", "name": "Shaheedi Diwas of Shaheed Bhagat Singh, Sukhdev & Rajguru", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-08", "name": "Birthday of Sri Guru Nabha Dass Ji", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Vaisakhi / Birthday of Dr. B. R. Ambedkar", "type": "gazetted" },
+    { "date": "2026-04-19", "name": "Birthday of Lord Parshuram Ji", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "May Day", "type": "gazetted" },
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "restricted" },
+    { "date": "2026-05-27", "name": "Id-ul-Zuha (Bakrid)", "type": "gazetted" },
+
+    { "date": "2026-06-18", "name": "Martyrdom Day of Sri Guru Arjun Dev Ji", "type": "gazetted" },
+    { "date": "2026-06-25", "name": "Nirjala Ekadashi", "type": "restricted" },
+    { "date": "2026-06-26", "name": "Muharram", "type": "restricted" },
+    { "date": "2026-06-29", "name": "Kabir Jayanti", "type": "gazetted" },
+    { "date": "2026-06-29", "name": "Death Anniversary of Maharaja Ranjit Singh Ji", "type": "restricted" },
+
+    { "date": "2026-07-31", "name": "Martyrdom Day of Shaheed Udham Singh", "type": "gazetted" },
+
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Birthday of Prophet Muhammad (Id-e-Milad)", "type": "restricted" },
+
+    { "date": "2026-09-04", "name": "Janam Ashtami", "type": "gazetted" },
+    { "date": "2026-09-05", "name": "Birthday of Baba Jiwan Singh Ji", "type": "restricted" },
+    { "date": "2026-09-12", "name": "Pehla Parkash Utsav Sri Guru Granth Sahib Ji / Saragarhi Day", "type": "restricted" },
+    { "date": "2026-09-15", "name": "Samvatsari Diwas", "type": "restricted" },
+    { "date": "2026-09-20", "name": "Birthday of Baba Sri Chand Ji", "type": "restricted" },
+    { "date": "2026-09-25", "name": "Anant Chaturdashi", "type": "restricted" },
+    { "date": "2026-09-28", "name": "Birthday of S. Bhagat Singh Ji", "type": "restricted" },
+
+    { "date": "2026-10-02", "name": "Birthday of Mahatma Gandhi Ji", "type": "gazetted" },
+    { "date": "2026-10-11", "name": "Maharaja Agrasen Jayanti", "type": "gazetted" },
+    { "date": "2026-10-16", "name": "Birthday of Baba Banda Singh Bahadur Ji", "type": "restricted" },
+    { "date": "2026-10-20", "name": "Dussehra", "type": "gazetted" },
+    { "date": "2026-10-26", "name": "Birthday of Maharishi Valmiki Ji", "type": "gazetted" },
+    { "date": "2026-10-27", "name": "Birthday of Sri Guru Ram Dass Ji", "type": "restricted" },
+    { "date": "2026-10-29", "name": "Karva Chauth", "type": "restricted" },
+
+    { "date": "2026-11-01", "name": "New Punjab Day", "type": "restricted" },
+    { "date": "2026-11-08", "name": "Diwali", "type": "gazetted" },
+    { "date": "2026-11-09", "name": "Vishwakarma Day", "type": "gazetted" },
+    { "date": "2026-11-09", "name": "Govardhan Pooja", "type": "restricted" },
+    { "date": "2026-11-11", "name": "Guru Gaddi Diwas Sri Guru Granth Sahib Ji", "type": "restricted" },
+    { "date": "2026-11-15", "name": "Chhath Pooja", "type": "restricted" },
+    { "date": "2026-11-16", "name": "Martyrdom Day of S. Kartar Singh Sarabha Ji", "type": "gazetted" },
+    { "date": "2026-11-20", "name": "Birthday of Sant Nam Dev Ji", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Birthday of Sri Guru Nanak Dev Ji", "type": "gazetted" },
+
+    { "date": "2026-12-14", "name": "Martyrdom Day of Sri Guru Teg Bahadur Ji", "type": "gazetted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" },
+    { "date": "2026-12-26", "name": "Shaheedi Sabha, Shri Fatehgarh Sahib", "type": "restricted" },
+    { "date": "2026-12-27", "name": "Shaheedi Sabha, Shri Fatehgarh Sahib", "type": "restricted" },
+    { "date": "2026-12-28", "name": "Shaheedi Sabha, Shri Fatehgarh Sahib", "type": "gazetted" }
+  ]
+}

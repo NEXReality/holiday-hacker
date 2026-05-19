@@ -118,47 +118,75 @@
   }
 
   function normalizeText(str) {
-    return (str || '').toLowerCase().replace(/[\s\-_.]/g, '');
+    return (str || '').toLowerCase().replace(/[\s\-_.,']/g, '');
   }
 
+  /* Normalised district/city slug: alias values in data.json are hyphenated
+   * (e.g. mumbai-city); keys are alternate names (bombay, mumbai). */
   function aliasToCanonical(str) {
     var key = normalizeText(str);
-    return CITY_ALIAS_MAP[key] || key;
+    var v = CITY_ALIAS_MAP[key];
+    if (v) return normalizeText(v);
+    return key;
   }
 
-  function aliasesForCanonical(canonical) {
+  function aliasesForSlugNorm(slugNorm) {
+    var target = slugNorm || '';
+    if (!target) return [];
     var out = [];
     Object.keys(CITY_ALIAS_MAP).forEach(function (k) {
-      if (CITY_ALIAS_MAP[k] === canonical) out.push(k);
+      if (normalizeText(CITY_ALIAS_MAP[k]) === target) out.push(normalizeText(k));
     });
     return out;
   }
 
   function cityDataMatches(item, query) {
-    var qRaw = normalizeText(query);
-    var qCanon = aliasToCanonical(query);
-    var tokens = [];
-    var labelRaw = normalizeText(item.label || '');
-    var cityRaw = normalizeText(item.city || '');
-    var stateRaw = normalizeText(item.state || '');
-    var labelCanon = aliasToCanonical(item.label || '');
-    var cityCanon = aliasToCanonical(item.city || '');
-    var stateCanon = aliasToCanonical(item.state || '');
-    tokens.push(labelRaw, cityRaw, stateRaw, labelCanon, cityCanon, stateCanon);
-    aliasesForCanonical(cityCanon).forEach(function (a) { tokens.push(a); });
-    aliasesForCanonical(stateCanon).forEach(function (a) { tokens.push(a); });
+    var qN = normalizeText(query);
+    if (!qN) return true;
+    var qSlug = aliasToCanonical(query);
+    var slugN = item.slugNorm || '';
+    var cityN = normalizeText(item.city || '');
+    var stateN = normalizeText(item.state || '');
+    var labelN = normalizeText(item.label || '');
+    if (slugN && qSlug === slugN) return true;
+    var tokens = [labelN, cityN, stateN, slugN];
+    aliasesForSlugNorm(slugN).forEach(function (a) { tokens.push(a); });
     return tokens.some(function (t) {
-      return t.indexOf(qRaw) !== -1 || t.indexOf(qCanon) !== -1;
+      return t && t.indexOf(qN) !== -1;
     });
   }
 
+  function rankLocItem(item, query) {
+    var qN = normalizeText(query);
+    if (!qN) return 0;
+    var score = 0;
+    var cityN = normalizeText(item.city || '');
+    var slugN = item.slugNorm || '';
+    var qSlug = aliasToCanonical(query);
+    if (slugN && qSlug === slugN) score += 500;
+    if (cityN.indexOf(qN) === 0) score += 200;
+    else if (cityN.indexOf(qN) !== -1) score += 100;
+    var aliasList = aliasesForSlugNorm(slugN);
+    for (var i = 0; i < aliasList.length; i++) {
+      var ak = aliasList[i];
+      if (ak.indexOf(qN) === 0) score += 190;
+      else if (ak.indexOf(qN) !== -1) score += 95;
+    }
+    if (normalizeText(item.label || '').indexOf(qN) === 0) score += 60;
+    if (item.major) score += 45;
+    score -= Math.min(35, (item.city || '').length);
+    return score;
+  }
+
   function resolveLocationInput(input) {
-    var q = aliasToCanonical(input);
+    var qN = normalizeText(input);
+    var qSlug = aliasToCanonical(input);
     var exact = cityData.find(function (item) {
-      var cityKey = aliasToCanonical(item.city || '');
-      var stateKey = aliasToCanonical(item.state || '');
-      var labelKey = aliasToCanonical(item.label || '');
-      return cityKey === q || stateKey === q || labelKey === q;
+      if (item.slugNorm && item.slugNorm === qSlug) return true;
+      var l = normalizeText(item.label || '');
+      var c = normalizeText(item.city || '');
+      var s = normalizeText(item.state || '');
+      return l === qN || c === qN || s === qN;
     });
     return exact ? exact.label : '';
   }
@@ -338,8 +366,13 @@
         list.style.display = 'none';
         return;
       }
+      filtered.sort(function (a, b) {
+        var diff = rankLocItem(b, query) - rankLocItem(a, query);
+        if (diff !== 0) return diff;
+        return (a.label || '').localeCompare(b.label || '');
+      });
       list.innerHTML = '';
-      filtered.slice(0, 8).forEach(function (item) {
+      filtered.slice(0, 12).forEach(function (item) {
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'chat-dropdown-item';
@@ -473,10 +506,19 @@
       .then(function (data) {
         CITY_ALIAS_MAP = data.aliases || {};
         data.states.forEach(function (state) {
-          cityData.push({ city: state.name, state: '', label: state.name });
+          cityData.push({ city: state.name, state: '', label: state.name, slugNorm: '', major: false });
           state.cities.forEach(function (city) {
             var cityName = typeof city === 'string' ? city : (city && city.name) || '';
-            cityData.push({ city: cityName, state: state.name, label: cityName + ', ' + state.name });
+            var slug = (city && typeof city === 'object' && city.slug) ? city.slug : '';
+            var slugNorm = slug ? normalizeText(slug) : '';
+            var major = !!(city && typeof city === 'object' && city.is_major_city);
+            cityData.push({
+              city: cityName,
+              state: state.name,
+              label: cityName + ', ' + state.name,
+              slugNorm: slugNorm,
+              major: major
+            });
           });
         });
         processStep();

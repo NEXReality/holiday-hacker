@@ -1,0 +1,63 @@
+{
+  "stateCode": "IN-GA",
+  "stateName": "Goa",
+  "year": 2026,
+  "indiaRegion": "West",
+  "adminType": "state",
+  "incredibleIndiaSlug": "goa",
+  "holidayJsonSlug": "in-ga",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year's Day", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Makar Sankranti", "type": "restricted" },
+    { "date": "2026-01-16", "name": "Feast of St. Joseph Vaz", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-01", "name": "Guru Ravi Das Birthday", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Mahashivratri", "type": "gazetted" },
+    { "date": "2026-02-19", "name": "Shivaji Jayanti", "type": "restricted" },
+
+    { "date": "2026-03-03", "name": "Holi (Dhulivandan)", "type": "gazetted" },
+    { "date": "2026-03-19", "name": "Gudi Padava", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Id-Ul-Fitr (Ramzan Id)", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "restricted" },
+
+    { "date": "2026-04-02", "name": "Maundy Thursday", "type": "restricted" },
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Birth Anniversary of Dr. B.R. Ambedkar", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Vaisakhi / Vishu", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "May Day", "type": "gazetted" },
+    { "date": "2026-05-01", "name": "Budha Purnima", "type": "restricted" },
+    { "date": "2026-05-28", "name": "Id-Ul-Zuha (Bakri Id)", "type": "gazetted" },
+
+    { "date": "2026-06-12", "name": "Feast of Sacred Heart of Jesus", "type": "restricted" },
+    { "date": "2026-06-26", "name": "Muharram", "type": "restricted" },
+
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-25", "name": "Milad-Un-Nabi- (Id-e-Milad)", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Onam", "type": "restricted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "restricted" },
+
+    { "date": "2026-09-04", "name": "Janmasthami", "type": "restricted" },
+    { "date": "2026-09-14", "name": "Hartalika / Ganesh Chaturthi (1st Day)", "type": "gazetted" },
+    { "date": "2026-09-15", "name": "Ganesh Chaturthi (2nd Day)", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Gandhi Jayanti", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Dussehra (Vijaya Dashami)", "type": "gazetted" },
+
+    { "date": "2026-11-02", "name": "All Souls day", "type": "restricted" },
+    { "date": "2026-11-08", "name": "Diwali (Deepavali)", "type": "gazetted" },
+    { "date": "2026-11-10", "name": "Govardhan Puja", "type": "restricted" },
+    { "date": "2026-11-11", "name": "Bhaubij", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Nanak's Jayanti", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Teg Bahadur's Ji Martyrdom Day", "type": "restricted" },
+
+    { "date": "2026-12-03", "name": "Feast of St. Francis Xavier", "type": "gazetted" },
+    { "date": "2026-12-08", "name": "Feast of Immaculate Conception of Mary", "type": "restricted" },
+    { "date": "2026-12-19", "name": "Goa Liberation Day", "type": "gazetted" },
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" },
+    { "date": "2026-12-31", "name": "New Year's Eve", "type": "restricted" }
+  ]
+}

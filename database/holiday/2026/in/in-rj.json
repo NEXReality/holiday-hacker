@@ -1,0 +1,71 @@
+{
+  "stateCode": "IN-RJ",
+  "stateName": "Rajasthan",
+  "year": 2026,
+  "indiaRegion": "North",
+  "adminType": "state",
+  "incredibleIndiaSlug": "rajasthan",
+  "holidayJsonSlug": "in-rj",
+  "holidays": [
+    { "date": "2026-01-01", "name": "Christian New Year Day", "type": "restricted" },
+    { "date": "2026-01-13", "name": "Lohri Festival", "type": "restricted" },
+    { "date": "2026-01-25", "name": "Devnarayan Jayanti", "type": "gazetted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+    { "date": "2026-01-31", "name": "Vishwakarma Jayanti", "type": "restricted" },
+    { "date": "2026-01-31", "name": "Swami Ramanand Jayanti", "type": "restricted" },
+
+    { "date": "2026-02-01", "name": "Guru Ravidas Jayanti", "type": "restricted" },
+    { "date": "2026-02-03", "name": "Shab-e-Barat", "type": "restricted" },
+    { "date": "2026-02-12", "name": "Maharshi Dayanand Saraswati Jayanti", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Maha Shivaratri", "type": "gazetted" },
+    { "date": "2026-02-23", "name": "Gadge Maharaj Jayanti", "type": "restricted" },
+
+    { "date": "2026-03-02", "name": "Holika Dahan", "type": "gazetted" },
+    { "date": "2026-03-03", "name": "Dhulandi", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "Cheti Chand", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "Jumatulvida", "type": "restricted" },
+    { "date": "2026-03-21", "name": "Id-ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-11", "name": "Mahatma Jyotiba Phule Jayanti", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Dr. B. R. Ambedkar Jayanti", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Baisakhi / Sain Jayanti", "type": "restricted" },
+    { "date": "2026-04-19", "name": "Parashuram Jayanti", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "restricted" },
+    { "date": "2026-05-28", "name": "Id-ul-Zuha (Bakrid)", "type": "gazetted" },
+
+    { "date": "2026-06-17", "name": "Maharana Pratap Jayanti", "type": "gazetted" },
+    { "date": "2026-06-26", "name": "Muharram", "type": "gazetted" },
+
+    { "date": "2026-07-29", "name": "Guru Purnima", "type": "restricted" },
+
+    { "date": "2026-08-09", "name": "World Tribal Day", "type": "gazetted" },
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Baravafat (from the moon)", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "gazetted" },
+
+    { "date": "2026-09-03", "name": "Thattadi", "type": "restricted" },
+    { "date": "2026-09-04", "name": "Sri Krishna Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "Ganesh Chaturthi", "type": "restricted" },
+    { "date": "2026-09-16", "name": "Samvatsari", "type": "restricted" },
+    { "date": "2026-09-21", "name": "Ramdev Jayanti, Teja Dashami, Khejadli Martyr's Day", "type": "gazetted" },
+    { "date": "2026-09-25", "name": "Anant Chaturdashi", "type": "restricted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi Jayanti", "type": "gazetted" },
+    { "date": "2026-10-11", "name": "Navratra Sthapana & Maharaja Agrasen Jayanti", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Durga Puja (Ashtami)", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Vijaya Dashami", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Mahanavami", "type": "restricted" },
+    { "date": "2026-10-29", "name": "Karva Chauth", "type": "restricted" },
+
+    { "date": "2026-11-08", "name": "Diwali", "type": "gazetted" },
+    { "date": "2026-11-09", "name": "Govardhan Puja", "type": "gazetted" },
+    { "date": "2026-11-11", "name": "Bhai Dooj", "type": "gazetted" },
+    { "date": "2026-11-24", "name": "Guru Nanak Jayanti", "type": "gazetted" },
+
+    { "date": "2026-12-25", "name": "Christmas", "type": "gazetted" }
+  ]
+}

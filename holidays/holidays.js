@@ -46,6 +46,9 @@
   var editCatIcon    = document.getElementById('editCatIcon');
   var editSaveBtn    = document.getElementById('editSaveBtn');
   var editCatSection = document.getElementById('editCatSection');
+  var editCustomKindSection = document.getElementById('editCustomKindSection');
+  var editCustomKind = document.getElementById('editCustomKind');
+  var editCustomKindIcon = document.getElementById('editCustomKindIcon');
   var editPopupTitle = document.querySelector('.edit-popup-header h1');
   var editDeleteBtn  = document.getElementById('editDeleteBtn');
   var fabAddCustom   = document.getElementById('fabAddCustom');
@@ -211,6 +214,7 @@
       if (list[i].id === origId) {
         list[i].name = patch.name || list[i].name;
         list[i].date = patch.date || list[i].date;
+        if (patch.kind === 'holiday' || patch.kind === 'leave') list[i].kind = patch.kind;
         break;
       }
     }
@@ -230,16 +234,22 @@
     localStorage.setItem(OVERRIDES_KEY, JSON.stringify(ov));
   }
 
+  function normalizeCustomKind(c) {
+    return (c && c.kind === 'leave') ? 'leave' : 'holiday';
+  }
+
   function injectCustomHolidays(holidays) {
     var customs = getCustomHolidays();
     customs.forEach(function (c) {
+      var kind = normalizeCustomKind(c);
       holidays.push({
         name: c.name,
         date: c.date,
         type: 'gazetted',
         _ctx: 'personal',
-        _stateName: 'Personal',
-        _customId: c.id
+        _stateName: kind === 'leave' ? 'Personal leave' : 'Personal',
+        _customId: c.id,
+        _customKind: kind
       });
     });
     return holidays;
@@ -297,6 +307,12 @@
                     isHome     ? 'holiday-card-badge--green'  : 'holiday-card-badge--blue';
     var icon      = isPersonal ? 'person'  :
                     isHome     ? 'home'    : 'apartment';
+    var personalSub = isPersonal
+      ? (h._customKind === 'leave' ? 'Leave' : 'Holiday')
+      : 'Public Holiday';
+    var personalDesc = isPersonal
+      ? (h._customKind === 'leave' ? 'Leave' : 'Holiday')
+      : 'Public Holiday';
 
     var origDate = h._origDate || h.date;
     var customId = h._customId || '';
@@ -316,7 +332,7 @@
               (today_ ? '<span class="holiday-today-pill">Today</span>' : '') +
             '</div>' +
             '<h2 class="holiday-card-title-sm">' + h.name + '</h2>' +
-            '<p class="holiday-card-subtitle">' + (isPersonal ? 'Personal' : 'Public Holiday') + '</p>' +
+            '<p class="holiday-card-subtitle">' + (isPersonal ? personalSub : 'Public Holiday') + '</p>' +
           '</div>' +
         '</div>' +
       '</div>' +
@@ -333,7 +349,7 @@
               '</span>' +
             '</div>' +
             '<h2>' + h.name + '</h2>' +
-            '<p class="holiday-card-desc">' + (isPersonal ? 'Personal Holiday' : 'Public Holiday') + '</p>' +
+            '<p class="holiday-card-desc">' + (isPersonal ? personalDesc : 'Public Holiday') + '</p>' +
             '<div class="holiday-card-actions">' +
               '<div class="plan-trip-toggle-wrap">' +
                 '<span>Plan trip?</span>' +
@@ -642,12 +658,17 @@
   var pickerYear     = new Date().getFullYear();
   var pickerMinDay   = 1;
 
+  function syncCustomKindIcon() {
+    if (!editCustomKindIcon || !editCustomKind) return;
+    editCustomKindIcon.textContent = editCustomKind.value === 'leave' ? 'event_busy' : 'event';
+  }
+
   function openEditPopup(origDate, date, name, ctx, customId) {
     popupMode = 'edit';
     editingHoliday = { origDate: origDate, name: name, ctx: ctx || 'work', customId: customId || null };
 
     var isPersonal = ctx === 'personal';
-    editPopupTitle.textContent = isPersonal ? 'Edit Personal Holiday' : 'Edit Holiday';
+    editPopupTitle.textContent = isPersonal ? 'Edit personal day' : 'Edit Holiday';
     editName.value = name;
     editDeleteBtn.style.display = '';
 
@@ -658,6 +679,15 @@
       updateCatIcon();
     }
 
+    if (isPersonal && customId && editCustomKindSection && editCustomKind) {
+      editCustomKindSection.style.display = '';
+      var found = getCustomHolidays().find(function (x) { return x.id === customId; });
+      editCustomKind.value = (found && found.kind === 'leave') ? 'leave' : 'holiday';
+      syncCustomKindIcon();
+    } else if (editCustomKindSection) {
+      editCustomKindSection.style.display = 'none';
+    }
+
     buildDatePicker(date);
     editOverlay.classList.add('is-open');
   }
@@ -666,12 +696,17 @@
     popupMode = 'add';
     editingHoliday = null;
 
-    editPopupTitle.textContent = 'Add Personal Holiday';
+    editPopupTitle.textContent = 'Add personal day';
     editName.value = '';
     editDeleteBtn.style.display = 'none';
 
     /* Hide category — always personal */
     editCatSection.style.display = 'none';
+    if (editCustomKindSection && editCustomKind) {
+      editCustomKindSection.style.display = '';
+      editCustomKind.value = 'holiday';
+      syncCustomKindIcon();
+    }
 
     var todayISO = new Date().toISOString().slice(0, 10);
     buildDatePicker(todayISO);
@@ -712,6 +747,7 @@
     editCatIcon.classList.toggle('is-home', isHome);
   }
   editCategory.addEventListener('change', updateCatIcon);
+  if (editCustomKind) editCustomKind.addEventListener('change', syncCustomKindIcon);
 
   /* ─── Scroll date picker ─────────────────────────────── */
 
@@ -902,6 +938,93 @@
 
   /* ─── Save edit ─────────────────────────────────────── */
 
+  /* ───────── Confirmation modal: "your edit overlaps a confirmed trip" ─────────
+   * Wired against the markup at #holidayShiftModal in holidays/index.html. We
+   * show it when the user changed a gazetted holiday's date AND at least one
+   * confirmed trip's window covers that date. The shared helper in
+   * /holiday-shift.js does the actual work — this is just the UI gate. */
+  var shiftModal       = document.getElementById('holidayShiftModal');
+  var shiftModalBody   = document.getElementById('holidayShiftBody');
+  var shiftModalList   = document.getElementById('holidayShiftList');
+  var shiftConfirmBtn  = document.getElementById('holidayShiftConfirmBtn');
+  var pendingShiftCtx  = null;
+
+  function fmtShortIso(iso) {
+    if (!iso) return '';
+    var d = new Date(iso + 'T00:00:00');
+    return d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + ' ' + d.getFullYear();
+  }
+
+  function openShiftModal(ctx) {
+    if (!shiftModal) return;
+    pendingShiftCtx = ctx;
+    var trips = ctx.affectedTrips || [];
+    var delta = ctx.deltaDays;
+    var deltaLabel = (delta > 0 ? '+' : '') + delta + ' day' + (Math.abs(delta) !== 1 ? 's' : '');
+    if (shiftModalBody) {
+      shiftModalBody.innerHTML =
+        'You changed <strong>' + (ctx.holidayName || 'this holiday').replace(/</g, '&lt;') + '</strong> from ' +
+        '<strong>' + fmtShortIso(ctx.origDate) + '</strong> to <strong>' + fmtShortIso(ctx.newDate) + '</strong> ' +
+        '(' + deltaLabel + ').<br/>This overlaps ' + trips.length + ' confirmed trip' +
+        (trips.length === 1 ? '' : 's') + '. Should we shift the trip dates and refresh the reminders to match?';
+    }
+    if (shiftModalList) {
+      shiftModalList.innerHTML = trips.map(function (t) {
+        var name = ((t.destination && t.destination.name) || 'Trip').replace(/</g, '&lt;');
+        var oldRange = fmtShortIso(t.windowStart) + ' – ' + fmtShortIso(t.windowEnd || t.windowStart);
+        return '<li><strong>' + name + '</strong> · ' + oldRange + '</li>';
+      }).join('');
+    }
+    shiftModal.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeShiftModal() {
+    if (!shiftModal) return;
+    shiftModal.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    pendingShiftCtx = null;
+  }
+
+  function applyOverrideFromCtx(ctx) {
+    saveOverride(ctx.origDate, { name: ctx.newName, date: ctx.newDate, ctx: ctx.newCtx });
+    closeEditPopup();
+    updatePersonalOptionVisibility();
+    setActiveLocation(activeCtx);
+  }
+
+  if (shiftModal) {
+    shiftModal.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute('data-shift-cancel') === '1') {
+        /* "Keep trip dates" — apply the override but leave trips alone. */
+        var ctx = pendingShiftCtx;
+        closeShiftModal();
+        if (ctx) applyOverrideFromCtx(ctx);
+      }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (shiftModal.hasAttribute('hidden')) return;
+      if (e.key === 'Escape') {
+        var ctx = pendingShiftCtx;
+        closeShiftModal();
+        if (ctx) applyOverrideFromCtx(ctx);
+      }
+    });
+  }
+  if (shiftConfirmBtn) {
+    shiftConfirmBtn.addEventListener('click', function () {
+      var ctx = pendingShiftCtx;
+      if (!ctx) { closeShiftModal(); return; }
+      var shifter = window.HolidayHacker && window.HolidayHacker.shiftConfirmedTripsByHolidayEdit;
+      if (typeof shifter === 'function') {
+        try { shifter(ctx.origDate, ctx.newDate); } catch (_) {}
+      }
+      closeShiftModal();
+      applyOverrideFromCtx(ctx);
+    });
+  }
+
   editSaveBtn.addEventListener('click', function () {
     var newName = editName.value.trim();
     if (!newName) { editName.focus(); return; }
@@ -909,13 +1032,39 @@
     var newDate = pickerISODate();
 
     if (popupMode === 'add') {
-      saveCustomHoliday({ name: newName, date: newDate });
+      var addKind = (editCustomKind && editCustomKind.value === 'leave') ? 'leave' : 'holiday';
+      saveCustomHoliday({ name: newName, date: newDate, kind: addKind });
     } else {
       if (!editingHoliday) return;
       if (editingHoliday.customId) {
-        updateCustomHoliday(editingHoliday.customId, { name: newName, date: newDate });
+        var editKind = (editCustomKind && editCustomKind.value === 'leave') ? 'leave' : 'holiday';
+        updateCustomHoliday(editingHoliday.customId, { name: newName, date: newDate, kind: editKind });
       } else {
-        saveOverride(editingHoliday.origDate, {
+        var origDate = editingHoliday.origDate;
+        var dateChanged = origDate && newDate && origDate !== newDate;
+        /* If the user actually moved a gazetted holiday's date AND any of
+           their confirmed trips covers the old date, ask whether to slide
+           the trip + reminders by the same delta. Otherwise just save the
+           override straight away (the old flow). */
+        var finder = window.HolidayHacker && window.HolidayHacker.findConfirmedTripsCoveringDate;
+        var affected = dateChanged && typeof finder === 'function' ? finder(origDate) : [];
+        if (affected && affected.length) {
+          openShiftModal({
+            origDate: origDate,
+            newDate: newDate,
+            newName: newName,
+            newCtx: editCategory.value,
+            holidayName: editingHoliday.name || newName,
+            deltaDays: (function () {
+              var a = new Date(origDate + 'T00:00:00').getTime();
+              var b = new Date(newDate + 'T00:00:00').getTime();
+              return Math.round((b - a) / 86400000);
+            })(),
+            affectedTrips: affected
+          });
+          return;
+        }
+        saveOverride(origDate, {
           name: newName,
           date: newDate,
           ctx:  editCategory.value

@@ -1,0 +1,78 @@
+{
+  "stateCode": "IN-BR",
+  "stateName": "Bihar",
+  "year": 2026,
+  "indiaRegion": "East",
+  "adminType": "state",
+  "incredibleIndiaSlug": "bihar",
+  "holidayJsonSlug": "in-br",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New year", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Makar Sankranti", "type": "restricted" },
+    { "date": "2026-01-23", "name": "Basant Panchami", "type": "gazetted" },
+    { "date": "2026-01-24", "name": "Karpuri Thakur Jayanti", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic day", "type": "gazetted" },
+
+    { "date": "2026-02-01", "name": "Sant Ravidas Jayanthi", "type": "gazetted" },
+    { "date": "2026-02-04", "name": "Shab-e-barat", "type": "gazetted" },
+    { "date": "2026-02-15", "name": "Mahashivrathri", "type": "gazetted" },
+
+    { "date": "2026-03-02", "name": "Holika Dahan", "type": "restricted" },
+    { "date": "2026-03-03", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-13", "name": "Ramzan ka Antim Juma", "type": "restricted" },
+    { "date": "2026-03-21", "name": "Eid ul Fitr (Eid)", "type": "gazetted" },
+    { "date": "2026-03-22", "name": "Bihar Day", "type": "gazetted" },
+    { "date": "2026-03-22", "name": "Eid-ul-Fitr", "type": "restricted" },
+    { "date": "2026-03-26", "name": "Emperor Ashoka Ashtami", "type": "gazetted" },
+    { "date": "2026-03-27", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanthi", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Bhimrao Ambedkar Jayanti", "type": "gazetted" },
+    { "date": "2026-04-23", "name": "Veer Kunwar Singh Jayanthi", "type": "gazetted" },
+    { "date": "2026-04-25", "name": "Janaki Navami", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "May Day", "type": "gazetted" },
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "gazetted" },
+    { "date": "2026-05-26", "name": "Eid-uz-Zoha (Bakrid)", "type": "restricted" },
+    { "date": "2026-05-28", "name": "Id-ul-Joha (Bakrid)", "type": "gazetted" },
+
+    { "date": "2026-06-18", "name": "Anugrah Narayan Sinha Jayanti", "type": "restricted" },
+    { "date": "2026-06-26", "name": "Muharram", "type": "gazetted" },
+    { "date": "2026-06-27", "name": "Muharram", "type": "restricted" },
+    { "date": "2026-06-29", "name": "Kabir Jayanthi", "type": "gazetted" },
+
+    { "date": "2026-08-04", "name": "Chehallum", "type": "gazetted" },
+    { "date": "2026-08-15", "name": "Independence day", "type": "gazetted" },
+    { "date": "2026-08-24", "name": "Antim Sawan Somvar", "type": "restricted" },
+    { "date": "2026-08-26", "name": "Hazrat Muhammad Sahib Birthday", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "restricted" },
+
+    { "date": "2026-09-04", "name": "Shri Krishna Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "Hartalika Teej Vrat", "type": "restricted" },
+    { "date": "2026-09-17", "name": "Vishwakarma Puja", "type": "restricted" },
+    { "date": "2026-09-25", "name": "Anant Chaturdashi", "type": "restricted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi Jayanti / Durga Puja", "type": "gazetted" },
+    { "date": "2026-10-04", "name": "Jivitputrika Vrat", "type": "restricted" },
+    { "date": "2026-10-11", "name": "Durga Puja Kalash Sthapana", "type": "restricted" },
+    { "date": "2026-10-11", "name": "Jayaprakash Narayan Jayanti", "type": "restricted" },
+    { "date": "2026-10-17", "name": "Durga Puja", "type": "gazetted" },
+    { "date": "2026-10-18", "name": "Durga Puja", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Durga Puja", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Durga Puja", "type": "gazetted" },
+    { "date": "2026-10-21", "name": "Durga Puja (Ekadashi)", "type": "restricted" },
+    { "date": "2026-10-21", "name": "ShriKrishna Singh Jayanti", "type": "restricted" },
+
+    { "date": "2026-11-08", "name": "Diwali", "type": "gazetted" },
+    { "date": "2026-11-10", "name": "Chitragupta Pooja / Bhai Dooj", "type": "gazetted" },
+    { "date": "2026-11-14", "name": "Chhath Puja (Kharna)", "type": "restricted" },
+    { "date": "2026-11-15", "name": "Chhath Puja", "type": "gazetted" },
+    { "date": "2026-11-16", "name": "Chhath Puja", "type": "gazetted" },
+
+    { "date": "2026-12-03", "name": "Dr. Rajendra Prasad Jayanti", "type": "restricted" },
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas", "type": "gazetted" }
+  ]
+}

@@ -2,6 +2,10 @@
   "stateCode": "IN-KL",
   "stateName": "Kerala",
   "year": 2026,
+  "indiaRegion": "South",
+  "adminType": "state",
+  "incredibleIndiaSlug": "kerala",
+  "holidayJsonSlug": "in-kl",
   "holidays": [
     { "date": "2026-01-02", "name": "Mannam Jayanthi", "type": "gazetted" },
     { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },

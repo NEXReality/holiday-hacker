@@ -1,0 +1,3152 @@
+{
+  "state": "Ladakh",
+  "state_code": "LA",
+  "generated_at": "2026-05-18T10:53:17.845Z",
+  "count": 13,
+  "destinations": [
+    {
+      "slug": "ladakh-alchi",
+      "name": "Alchi",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 34.2334,
+        "lon": 77.1625,
+        "source": "wikidata"
+      },
+      "description": "**Alchi** is a village between Leh and Lamayuru in Ladakh , India . It sites beside the Indus River and its main attraction is the fabulous Alchi Gompa or Buddhist monastic complex.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Alchi",
+        "wikipedia": "https://en.wikipedia.org/wiki/Alchi",
+        "wikidata": "https://www.wikidata.org/wiki/Q2402390"
+      },
+      "distance_km": 2365,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alchi%2C_Ladakh%2C_India.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ladakh%2C%20India%20(14507489317).jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 68,
+          "note": "Indus NH1 merges toward Saspol bridge—4 km spur walks thicken summer monastery tides"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 14255,
+        "content_richness_score": 0.102
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Alchi is 4 km off the main road. The bus from Leh to Kargil stops on the main road near the bridge where the Alchi road turns off (near saspol village), there is a 4 km walk from the bridge to Alchi on a dusty road. Sometimes you can hitch a ride with locals but most of the private tour vehicles will not stop.\r\n\nWhen leaving, the bus to Kargil stops at 07:00 at the bridge. It takes approximately 1h 20min to walk to the bridge from Alchi.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "It is all very close. You can walk.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Alchi Gompa",
+              "description": "At the Alchi Monastery (or Alchi Gompa) you will find the Kagyur Lakhang Gompa, with many books and a golden Buddha statue, the Sumrtsek temple with three large Buddha statues whose heads are hidden in the roof, the Vairocana temple with a large Buddha statue in a side room and the Lotsa temple with many small Buddha murals, partially badly damaged by leaking water. There is also a new temple, which is usually not opened for tourists.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Alchi_Monastery",
+              "coordinates": {
+                "lat": 34.22396,
+                "lon": 77.17522
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Alchi Gompa** ( Alchi Choskor ). At the Alchi Monastery (or Alchi Gompa) you will find the Kagyur Lakhang Gompa, with many books and a golden Buddha statue, the Sumrtsek temple with three large Buddha statues whose heads are hidden in the roof, the Vairocana temple with a large Buddha statue in a side room and the Lotsa temple with many small Buddha murals, partially badly damaged by leaking water. There is also a new temple, which is usually not opened for tourists.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Eat the apricots that are in season during the main tourist season, they look fantastic and make the whole village come alive with colour.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Chang beer, a local brew though widely banned in Leh is available here- ask around."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:30.616Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Heritage / Culture City / Urban Alchi Sightseeing Alchi is a village between Leh and Lamayuru in Ladakh , India . It sites beside the Indus River and its main attraction is the fabulous Alchi Gompa or Buddhist monastic complex.",
+      "travel_facts": {
+        "summary": "**Alchi** hinges **IXL Leh (~68 km)** Indus meshes beneath century-old wall-painting gompas—Saspol bridge buses bias Kargil shuttle merges knowing Zoji-La winter closures reroute Srinagar legs.",
+        "keywords": [
+          "ixl indus meshes",
+          "alchi gompa fresco tides",
+          "saspol bridge buses",
+          "leh kargil shuttles",
+          "zoji la winter closures",
+          "ladakh monastery spurs"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-changthang-western-lakes",
+      "name": "Changthang Western Lakes",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": null,
+      "description": "**Changthang Western Lakes** is a rural area and wildlife sanctuary in the Ladakh region of India .\r\n\n\r\n \r\n Cities 1 **Chumathang** – A tourist village with many homestays famous for its nearby hot springs. \r\n 2 **Karzok** – The main village in this area at the banks of Tso Moriri. \r\n 3 **Sumdo** – A small village on the intersection of the road between Tso Moriri and Tso Kar. \r\n 4 **Thukje** – The tourist village next to Tso Kar named after its nearby mountain with several low and high end accommodation options. \r\n Other destinations 1 **Tso Moriri** – The most famous of the lakes here, a high-altitude lake and Ramsar site with an overwhelming mountain scenery at its backdrop. \r\n 2 **Kyagar Tso** – A tranquil lake just before reaching Tso Moriri. \r\n 3 **Tso Kar** – A picturesque and fluctuating salt lake and lagoon known for its size and depth as well as flora and fauna, just next to the Leh-Manali highway. Due to the salinity of the Tso Kar, most of the resident fauna is found in its tributaries and in Tso Startsapuk. It is recognised as India's 42nd \"Ramsar site\". \r\n 4 **Tso Startsapuk** – Kind of part of the Tso Kar lagoon. Together they form the \"More plains\" (a plateau on the Leh–Manali Highway) pool.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Changthang_Western_Lakes",
+        "wikipedia": "https://en.wikipedia.org/wiki/Changthang_Western_Lakes",
+        "wikidata": "https://www.wikidata.org/wiki/Q126456214"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.7,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 248,
+          "note": "Karzok/Tso Moriri convoys via Upshi–Chumathang—inner-line permit radios jitter Puga geothermal merges"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 41458,
+        "content_richness_score": 0.296
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "As part of the **Changthang Wildlife Sanctuary**, this region is a high-altitude wildlife sanctuary and home to many rare species of flora and fauna, especially around the Tso Kar lagoon. Furthermore, the _Puga Geothermal Valley_ offers a surreal landscape and rare vegetation in the middle of an otherwise highly dry region.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "No buses serve this region.\r\n\n\r\n By thumb Hitch-hiking in from Leh (via Chumathang), after getting out of the city, or from the Leh-Manali highway is easy due to the many local villages along the way and the chance to find local traffic.\r\n\nIt is not clear how easy it is hitch-hiking in from Pangong Lake due to the mainly tourist traffic.\r\n\n\r\n By tour Most people will be travelling on an arranged tour, either by taxi or by motorbike.\r\n\n\r\n On foot As everywhere in Ladakh and Himachal Pradesh, the amount of hiking trails is almost unlimited and you could actually hike into Karzok from Kibber in Spiti Valley, a 100 km hiking trail through _Kibber Wildlife Sanctuary_— see trail .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "By road In 2023, the road has been upgraded to asphalt all the way to Tso Moriri. There is just a little unpaved part of 10 km between Tso Kar and Sumdo.\r\n\n\r\n By thumb Local traffic can easily be found throughout the day.\r\n\nSee India#By thumb for general tips and which vehicles to choose.\r\n\n\r\n By taxi It will be harder to find any taxi roaming the area, but if necessary, locals will be happy to help for a few rupees.\r\n\n\r\n On foot There is a 60 km hiking route between Tso Kar and Karzog— see trail . You could hike in or out and do the rest by thumb.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Karzok Monastery",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Korzok_Monastery",
+              "coordinates": {
+                "lat": 32.96576,
+                "lon": 78.25337
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Thukje Monastery",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 33.36162,
+                "lon": 78.02479
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Karzok Monastery** .  ( updated Sep 2023 ) \r\n 2 **Thukje Monastery**.  ( updated Sep 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Chumathang Hot Spring",
+              "description": "A hot spring popular with locals and foreigners alike. There is a commercial resort nearby, but also an inconspicuous building with three doors where you can bath for free—wait for one room to become available and plug the hole of the inner pool to let the water flow in and gather."
+            },
+            {
+              "name": "Puga Geothermal Valley",
+              "description": "An interesting valley with several geysers, hot springs and (alleged) mud volcanoes. Go for sunset when the area offers impressive pictures. You may also try to dip into the river that crosses the valley when it leaves the hot spring area—it becomes quite warm at last."
+            }
+          ],
+          "brief": "A hot spring popular with locals and foreigners alike. There is a commercial resort nearby, but also an inconspicuous building with three doors where you can bath for free—wait for one room to become available and plug the hole of the inner pool to let the water flow in and gather.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:31.459Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary",
+        "ramsar_site"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Changthang Western Lakes Sightseeing As part of the Changthang Wildlife Sanctuary, this region is a high-altitude wildlife sanctuary and home to many rare species of flora and fauna, especially around the Tso Kar lagoon. Furthermore, the _Puga Geothermal Valley_ offers a surreal landscape and rare vegetation in the middle of an otherwise highly dry region. Changthang Western Lakes is a rural area and wildlife sanctuary in the Ladakh region of India . Cities 1 Chumathang – A tourist village with many homestays famous for its nearby hot springs. 2 Karzok – The main village in this area at the banks of Tso Moriri. 3 Sumdo – A small village on the intersection of the road be",
+      "travel_facts": {
+        "summary": "**Changthang Western Lakes** spans **IXL Leh (~248 km)** high-plateau meshes toward Tso Moriri/Tso Kar—homestay convoys bias Ramsar wetland tides knowing Leh–Manali shortcut drills absorb More Plains permit peaks.",
+        "keywords": [
+          "ixl changthang meshes",
+          "tso moriri convoys",
+          "tsokar ramsar tides",
+          "inner line permits",
+          "puga geothermal merges",
+          "more plains plateau radios"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-changthang-wildlife-sanctuary",
+      "name": "Changthang Wildlife Sanctuary",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 33.43355,
+        "lon": 78.47771,
+        "source": "wikidata"
+      },
+      "description": "Redirect to:\n\n Ladakh#Q26794303",
+      "category": "hill_station",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Changthang_Wildlife_Sanctuary",
+        "wikipedia": "https://en.wikipedia.org/wiki/Changthang_Wildlife_Sanctuary",
+        "wikidata": "https://www.wikidata.org/wiki/Q26794303"
+      },
+      "distance_km": 2277,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 1,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Adventure",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.6,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 185,
+          "note": "Plateau centroid bias—wildlife checks thicken Hanle detour merges when Indo-China corridor radios tighten"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "trekking",
+          "nature",
+          "photography"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 1241,
+        "content_richness_score": 0.009
+      },
+      "section_briefs": {},
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:32.310Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Changthang Wildlife Sanctuary Sightseeing High-altitude Changthang plateau wildlife sanctuary spanning Tso Kar–Tso Moriri corridors—permits and convoys coordinated from Leh when NH passes open.",
+      "travel_facts": {
+        "summary": "**Changthang Wildlife Sanctuary** couples **IXL Leh (~185 km)** staging stacks with Changtang cold-desert convoys—kiang/tibetan gazelle tides bias geothermal valley merges knowing army permit checkpoints absorb Hanle detour peaks.",
+        "keywords": [
+          "ixl changtang staging",
+          "cold desert convoys",
+          "kiang wetland tides",
+          "geothermal valley merges",
+          "hanle detour permits",
+          "plateau army checkpoints"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-hanle",
+      "name": "Hanle",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 32.77148,
+        "lon": 78.98321,
+        "source": "wikidata"
+      },
+      "description": "**Hanle** is a village far east in the Ladakh region of India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Hanle",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hanle_(village)",
+        "wikidata": "https://www.wikidata.org/wiki/Q252064"
+      },
+      "distance_km": 2206,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Anlay",
+        "Anley"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanlegompa.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 254,
+          "note": "Indian Astronomical Observatory tides thicken dark-sky permit merges—Nyoma/Fukche routing radios jitter eastern checkpoints"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 20669,
+        "content_richness_score": 0.148
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Hanle is known as the \"Dark Sky Reserve\" of India and one of the most-visited sites of astronomy . The clear sky and zero light pollution in Hanle provide a crystal-clear view of the universe, thus making it a good destination for astronomy in India.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Hanle Monastery",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Hanle_Monastery",
+              "coordinates": {
+                "lat": 32.79028,
+                "lon": 79.00056
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Hanle Monastery** .  ( updated Oct 2022 ) \r\n 2 ** Indian Astronomical Observatory ** . At 4,500 m (14,800 ft), it is the highest observatory in India.  ( updated Oct 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Demchock Hot Spring",
+              "description": ""
+            }
+          ],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:33.145Z"
+      },
+      "search_context": "Mountain / Hills City / Urban Hanle Sightseeing Hanle is known as the \"Dark Sky Reserve\" of India and one of the most-visited sites of astronomy . The clear sky and zero light pollution in Hanle provide a crystal-clear view of the universe, thus making it a good destination for astronomy in India. Hanle is a village far east in the Ladakh region of India .",
+      "travel_facts": {
+        "summary": "**Hanle** climbs **IXL Leh (~254 km)** eastern meshes toward the Indian Astronomical Observatory—dark-sky reserve tides bias restricted convoy merges knowing Changthang winter closures absorb astronomer homestay peaks.",
+        "keywords": [
+          "ixl eastern meshes",
+          "hanle observatory tides",
+          "dark sky reserve merges",
+          "changthang convoy permits",
+          "nyoma routing radios",
+          "ladakh astronomy checkpoints"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-hemis-national-park",
+      "name": "Hemis National Park",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 33.98333,
+        "lon": 77.43333,
+        "source": "wikidata"
+      },
+      "description": "Redirect to:\n\n Ladakh#Q1604804",
+      "category": "nature_reserve",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Hemis_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hemis_National_Park",
+        "wikidata": "https://www.wikidata.org/wiki/Q1604804"
+      },
+      "distance_km": 2336,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 1,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.6,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Parc national de hemis"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/StokKangripiccrop.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 48,
+          "note": "Snow-leopard safari quotas thicken Hemis festival merges—Markha approach radios jitter high-altitude trails"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 1238,
+        "content_richness_score": 0.009
+      },
+      "section_briefs": {},
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:33.980Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Hemis National Park Wildlife & nature Redirect to: Ladakh#Q1604804",
+      "travel_facts": {
+        "summary": "**Hemis National Park** threads **IXL Leh (~48 km)** Indus feeders toward Hemis monastery skirts—snow leopard census tides bias festival staging merges knowing Markha trek feeders absorb Rumbak checkpoint peaks.",
+        "keywords": [
+          "ixl hemis feeders",
+          "snow leopard census tides",
+          "hemis festival merges",
+          "markha trek feeders",
+          "rumbak checkpoints",
+          "ladakh wildlife radios"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-kargil",
+      "name": "Kargil",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 34.5594,
+        "lon": 76.1256,
+        "source": "wikidata"
+      },
+      "description": "** Kargil ** is a town in Ladakh , India . It's an important transit hub of Ladakh, with roads leading from here to Leh , Srinagar , and Padum in Zanskar . One of the two capitals of Ladakh, and the capital of Kargil district, it is still a small town. While interesting in many ways due to its historic position on the caravan routes, nothing of this is visible to the casual visitor. It is notorious with travellers as a necessary stop between Central Ladakh, Zanskar and the Kashmir Valley .\r\n\nThe town is famous due to the Kargil War, when the town and surrounding areas were shelled by Pakistan-based militants.\r\n\nThis article also covers Dras, the coldest settlement in India and a stopover town between Kargil and the Zoji La pass.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kargil",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kargil",
+        "wikidata": "https://www.wikidata.org/wiki/Q2088176"
+      },
+      "distance_km": 2405,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Vall de Kargil"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kargil_town%2C_India_panorama.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kargil%20Town%20Panorama.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 218,
+          "note": "Sheikh ul Alam Srinagar (SXR ~216 km) stacks Zoji-La wings—Kargil Bazaar shared taxis thicken Drass detour peaks"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Srinagar",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 26720,
+        "content_richness_score": 0.191
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Kargil has direct bus connections with Leh, Srinagar, and Padum. Shared Jeeps make a faster, more expensive alternative to the buses, they leave from near the Bus depot, on main Bazaar.\r\n\nMost people passing through Kargil are going from Leh to Srinagar, or vice versa, and have booked a through ticket. Be sure to do this if at all possible.\r\nFor people coming from elsewhere in Ladakh, or going to Zanskar the bus station is chaotic and it can be confusing to get a ticket. The ticket office is down a small pedestrian lane in an unmarked large stone building. There are normally a couple of buses parked in front, a couple minutes' walk from the bus depot.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel The Kargil",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:34.823Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Kargil Sightseeing Kargil is a town in Ladakh , India . It's an important transit hub of Ladakh, with roads leading from here to Leh , Srinagar , and Padum in Zanskar . One of the two capitals of Ladakh, and the capital of Kargil district, it is still a small town. While interesting in many ways due to its historic position on the carava",
+      "travel_facts": {
+        "summary": "**Kargil** balances **IXL Leh (~218 km)** NH1 meshes with **SXR Srinagar (~216 km)** Zoji-La stacks—survivors memorial tides bias Padum/Zanskar shuttle merges knowing Srinagar–Leh highway winter closures reroute convoys.",
+        "keywords": [
+          "ixl nh1 meshes",
+          "sxr zoji la stacks",
+          "kargil bazaar taxis",
+          "padum zanskar shuttles",
+          "drass detour merges",
+          "ladakh transit hub tides"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-kaza",
+      "name": "Kaza",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 32.22556,
+        "lon": 78.07139,
+        "source": "wikidata"
+      },
+      "description": "**Kaza** is in the Trans-Himalayan region of India at an elevation of 3,800 metres (12,500 ft) above average sea level, Kaza is the biggest and most developed town in the Spiti Valley of Eastern Himachal Pradesh .",
+      "category": "village",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kaza",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kaza%2C_Himachal_Pradesh",
+        "wikidata": "https://www.wikidata.org/wiki/Q1013544"
+      },
+      "distance_km": 2141,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Karze",
+        "Karzey",
+        "Kaza, Himachal Pradesh"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gandhala-Kaza_28-6-04_082.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sakya%20Kaza%20Monastery.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kullu–Manali Airport (Bhuntar)",
+          "code": "KUU",
+          "distance_km": 196,
+          "note": "Atal Tunnel Rohtang approach stacks Spiti wings—summer HRTC buses thicken Kunzum permit merges"
+        },
+        "nearest_railway_station": {
+          "name": "Chandigarh Junction railway station",
+          "distance_km": 522,
+          "note": "Overnight Volvo legs toward Manali precede Spiti buses—no rail inside Spiti basin"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Chandigarh"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Chandigarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17879,
+        "content_richness_score": 0.128
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Kaza is the district headquarters of Spiti district in Himachal Pradesh. There are two ways to get to Kaza:\r\n\n**From Manali**\r\n\nOnly open from May (when the snow clears) until October 15th. This route used to go over the Rohtang Pass but now avoids it thanks to the Atal Tunnel. As of 2024, you can take a shared 'taxi' (9 hours, ~1500rs/person), a shared van (10 hours, ~1200rs/person), or a public Himalayan Road Transport Company (HRTC) bus (leaves once per day, 12 hours, ~450rs).\r\n\nThe road surfaces are very poor; the entire stretch has never been metalled/tarred. The ride is generally very bumpy, dusty, and somewhat dangerous due to the cliffsides. But on asking a local person about the road quality, they'd say that the road is a \"good road\". You will have to cross about a score of streams flowing across this State Highway No. 30 which could be about a couple of feet deep. Several locals reported in 2024 that the road was being tarred in the coming years.\r\n\n**From Shimla**\r\n\nThe road from Shimla (via Rekong Peo) is in theory an all-season one. HRTC buses link Kaza with Manali and Rekong Peo. The Rekong Peo connection passes through landslide area at Malling Nullah, with transshipment (crossing on foot and being picked up by a bus on another side) being frequently the only way of passing the landslide. Many people will hire shared taxis or book with a tour group that stops in various towns like Shimla, Sangla, Kalpa, and Nako along the way.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The town itself is small and can be walked from one end to another in 30 minutes. \r\n\nTo visit local sights (e.g. Key Monastery, Hikkim Village, etc), you can schedule a shared taxi through your accommodation or through the taxi stand. Cost is ~2500rs total (in 2024). The taxi stand has jeeps for hire for fixed rates (listed at the booth).\r\n\nIn summer, state transport runs buses through both routes (i.e. Manali -Atal Tunnel-Kaza, and Shimla-Reckongpeo-Sumdo-Kaza). In winters, only one bus runs between Reckongpeo and Kaza each way, both of them leaving early in the morning. \r\n\nRoads are dangerous to drive so if you don't have experience of driving on Himalyan roads, don't do it. In winters there are no buses to villages, so the only option is to hire a taxi, which is not cheap: every km may cost you ₹25-₹40 or more, though it is cheaper than tourist season of summers. \r\n\nIt is common for people to hitchhike in this mountain terrain, where the locals are extremely friendly and willing to help. \r\n\nIt is also possible to arrange for a trek, jeep safari, yak safari or mountain biking via the office of Ecosphere, which conducts responsible and volunteer travel trips and tours in the region (info@spitiecosphere.com). \r\n\nBus schedule (in 2020)\r\n\n\r\n To Manali : 6:30AM \r\n Tabo: 7M and 3PM \r\n Pin Valley: 4PM \r\n Kibber/Ki monastery: 5PM",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Key** **Monastery**: This is about 20 km from Kaza. Every visitor is greeted by a complimentary tea. The monks might give a guided tour also. Photography is not allowed inside the prayer rooms but is allowed in the outdoor areas. \r\n **Komik village**: It is at a height of 4275m. It has a small monastery (women are not allowed inside during prayers). Fossils are also found in this region. The villagers might try to sell the fossils but it's probably not legally allowed to buy and transport the fossils. \r\n **Hikkim village**: A few kilometres before Komik. Main interest is the \"world's highest postoffice\", so it could be a good place to post your postcards \r\n **Kibber village**: Frequently, and wrongly claimed by the locals as the highest village in the region. \r\n **Sakya Kaza Monastery**: A monastery which was inaugurated on July 9th, 2009 by His Holiness The Dalai Lama. \r\n **Dhankar monasteries**: Dhankar is about 40 km from Kaza in the direction of Peo. You can get there either by a taxi, which will take you all the way up the mountain to the monastery, or by the Himachal Pradesh Road Transport bus (leave at 7AM, return at 3PM from Shichling). The bus will drop you at the junction between Dhankar and Shichling villages. From the Shichling fork, you need to trek nearly 10 km to get to the monastery by motorable road or by one of the numerous steep mountain trails. There are two gompas at Dhankar village, the much-famed, 1000 year old monastery hidden in the Spitian mountain rocks and the new Gompa, inaugurated by the Dalai Lama. The old monastery is literally tethering on the edge and the 60 monks who live in the Gompa are being relocated to the new Gompa until the restoration and reinforcement of the older Gompa is complete. Do visit both the Gomaps if you get a chance. The lamas at the older monastery are very helpful and the inquisitive little Dhankar boys (studying to become lamas) will invariably be more than happy to show you around. If you have a chance to meet the head lama at Dhankar, make sure you grab the opportunity to see him. \r\n **Dhankar Lake**: An hour-long trek (90 minutes out and back) to a peaceful high-altitude lake that starts at the Dhankar Monastery. Elevation gain is 250m.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "There are a host of outdoor activities that can be done in the areas surrounding Kaza. Most of these can be arranged beforehand through a tour group, or at your accommodation when you arrive.\r\n\n\r\n Mountain biking \r\n Trekking \r\n Day hikes: outside of walking down the road or doing a multi-day trek, there are few day hikes near Kaza itself. There's a steep day hike near the Buddha Statue near the highway (on Google Maps as \"Buddha statue Kaza top\"). \r\n Camping generally takes place at Chandra Taal, a high-altitude lake that's 3-4 hours from Kaza",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "In an attempt to encourage responsible travel and conservation in the region, an organization called Ecosphere has set up an office shop near the Kaza market, where you can refill clean and safe drinking water, instead of buying multiple plastic mineral water bottles. Here you can also buy seabuckthorne juice and concentrate. Grown in Spiti valley, seabuckthorne is a \"magical\" berry with a combination of nutrients not found in any plants, and its commercialization has created sustainable incomes for women in the region.\r\n\nThere is an 'English Wine &amp; Beer Shop' on the main street in Kaza, selling a typical stock of beer, Indian whisky and 'Old Monk' rum. The local alcohol is made of barley and has two varieties - Chang, the local barley beer and Arakh, the local barley whiskey. These are not freely available in shops, but most locals will be able to arrange a bottle for a nominal price. Another option is to go to Zangchuk guest house and ask the owner to arrange for it."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:35.662Z"
+      },
+      "search_context": "Mountain / Hills City / Urban Kaza Sightseeing Kaza is in the Trans-Himalayan region of India at an elevation of 3,800 metres (12,500 ft) above average sea level, Kaza is the biggest and most developed town in the Spiti Valley of Eastern Himachal Pradesh .",
+      "travel_facts": {
+        "summary": "**Kaza** hinges **KUU Bhuntar (~196 km)** Atal Tunnel meshes beneath Chandigarh trunk rails—Spiti valley tides bias Key monastery merges knowing Kunzum Pass closures reroute Kinnaur crossover peaks.",
+        "keywords": [
+          "kuu atal tunnel meshes",
+          "spiti valley tides",
+          "kaza key monastery merges",
+          "kunzum pass closures",
+          "hrtc spiti buses",
+          "trans himalayan checkpoint radios"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-lamayuru",
+      "name": "Lamayuru",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 34.28,
+        "lon": 76.77,
+        "source": "wikidata"
+      },
+      "description": "**Lamayuru**, also spelt **Lamayouro**, is a small village between Kargil and Leh in Ladakh , India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Lamayuru",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lamayouro",
+        "wikidata": "https://www.wikidata.org/wiki/Q20738504"
+      },
+      "distance_km": 2371,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamayuru_1.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yungdrung%20Gompa%20-%20Lamayuru%20(10000019984).jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 122,
+          "note": "Moonscape ridge tides thicken Fotu La merges—Leh–Srinagar buses benchmark monastery viewpoints"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17819,
+        "content_richness_score": 0.127
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Lamayuru is home to one of the oldest monasteries in Ladakh, dating back to the 10th century. Local legend has it that the place was once a lake that dried up. The village has around 100 houses scattered around the Lamayuru Monastery.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Lamayuru village is 125 km from Leh on the Leh– Srinagar Highway. Any vehicle going from Leh to Kargil, or on to Srinagar, will invariably pass through Lamayuru. State transport buses ply from Leh bus stand to Lamayuru at 08:00 and 14:00; however, it's wiser to visit the bus stand a day before to confirm the timings.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Tharpaling Guest House",
+              "description": "A family-run guest house.",
+              "price": "₹250 for a room (double beds) as of July 2012; food costs extra"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:36.529Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Heritage / Culture City / Urban Lamayuru Sightseeing Lamayuru is home to one of the oldest monasteries in Ladakh, dating back to the 10th century. Local legend has it that the place was once a lake that dried up. The village has around 100 houses scattered around the Lamayuru Monastery. Lamayuru, also spelt Lamayouro, is a small village between Kargil and Leh in Ladakh , India .",
+      "travel_facts": {
+        "summary": "**Lamayuru** couples **IXL Leh (~122 km)** Srinagar highway meshes with tenth-century Yuru Kabgyat tides—moonscape loops bias Wanla trek merges knowing Fotu La convoys absorb Lamayuru monastery dawn queues.",
+        "keywords": [
+          "ixl srinagar highway meshes",
+          "lamayuru moonscape tides",
+          "yuru kabgyat merges",
+          "wanla trek feeders",
+          "fotu la convoys",
+          "ladakh monastery loops"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-leh",
+      "name": "Leh",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 34.16417,
+        "lon": 77.58472,
+        "source": "wikidata"
+      },
+      "description": "**Leh** is one of the two capitals of Ladakh , a union territory of India . Leh is in the Indus River Valley, at a crossroads of the old trading routes from Xinjiang , Tibet and Kashmir . Since 2000, Indian tourists have been visiting Ladakh, with a dramatic increase in 2010 after the film _Three Idiots_.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Leh",
+        "wikipedia": "https://en.wikipedia.org/wiki/Leh",
+        "wikidata": "https://www.wikidata.org/wiki/Q230818"
+      },
+      "distance_km": 2357,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Tal von Leh",
+        "Lehas"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leh.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leh%2C%20Ladakh%2C%20India.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport",
+          "code": "IXL",
+          "distance_km": 6,
+          "note": "Weather holds thicken winter seat quotas—acclimatisation tides dominate first-day merges"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 159882,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "There is a pass that links Leh directly to Khotan . The city's importance as a trading town slowed down with the partition of India, and ended with the closure of the border in 1962 during the Sino-Indian War. Since opening to tourists in 1974, it has become a bustling tourist town, with many Kashmiri traders.\r\n\nIt is a small town, so it is easy to get most places on foot. The old town is a compact area of mud brick houses and narrow lanes directly to the east of Main Bazaar. Changspa is the agricultural \"suburb\" northwest of the centre, with many guesthouses.\r\n\nThe main Bazaar's elevation is approximately 3,555 m (11,490 feet) and Changspa is higher, so take it easy on your first few days there or risk possible altitude sickness . Even those experienced with high altitude might have some trouble.\r\n\nWinters are very cold and due to the drop in tourism, many shops, hotels and trekking companies will be closed. If you plan to visit during the winter and are an independent traveller, double check all arrangements (call your hotel instead of booking online).\r\n\n\r\n 1 **District Magistrate Office** ( DC Office ). First destination for tourists to acquire a permit when intending to head into areas of Ladakh close to the Pakistani and Chinese border. See Ladakh#Fees and permits for more information. ₹600 .  ( updated Sep 2023 )",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Kushok Bakula Rimpochee Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Kushok_Bakula_Rimpochee_Airport",
+            "distance_km": 5,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Kushok Bakula Rimpochee Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Kushok_Bakula_Rimpochee_Airport",
+              "distance_km": 5,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Kushok Bakula Rimpochee Airport** ( **IXL **  IATA ) ( 5 km from the center of Leh ). Planes fly year round and are the only option in the winter. Book early and allow at least a few days of flexibility as flights are often delayed due to weather conditions. Air India, SpiceJet, Vistara and IndiGo have daily flights from Delhi . Air India flights are also available from Srinagar , Jammu and Chandigarh , but not daily. Air India, SpiceJet, and IndiGo also have almost daily flights from UAE to Leh, with a stopover in Delhi.   \r\nWith the bankruptcy of \"Go First\" in 2023 passengers numbers have apparently plumped by half.\r\n\n**Getting there and away**:\r\n\n\r\n **On foot** – From the airport terminal it is just 5 km to the center of Leh, and some accommodation options are even before that. So, you might just decide to walk the distance. \r\n **By bus** – Upon exiting the airport gate, buses running to the centre cost ₹20. Taxi drivers will insist a prepaid taxi is the only way to get into town—don't get tricked! Also the airport website states that there is a public bus. If you don't want to wait for the irregular airport bus, walk along the main road towards the city for about 500 m and around the corner, where many local buses make a u-turn and you can hop-on. \r\n **By taxi** – Only prepaid taxis run from the airport, charging ₹550 to the city centre. \r\n By bus 2 **Leh Bus Terminal**. The Leh bus station is chaotic and poorly organised. There are three sections, one for local transportation within range of Leh (as far as Alchi) in the southern part, one for state run national buses (in the western part), and one for private regional and national buses (in the northern part).  ( updated Sep 2023 ) \r\nThe local buses get exceptionally crowded, times of departure fluctuate greatly, and there is no ticket office (just board the bus, and pay to the conductor). When planning a trip to a destination in Ladakh ask around to find when the departure time roughly is, and show up at the station half an hour early; ask people there what bus to take, don't trust the destinations marked on the buses; take a seat and wait for the bus to depart. Then expect to spend at least an hour at the bus station.\r\n\nExcept for local transportation within range of Leh, it is expected that you book your ticket at least one day in advance, even for Nubra Valley. You will want to make sure that you get a seat and that the bus even goes, especially for Srinagar and Manali. The ticket office is at the far end of the bus station and the process is more straight forward and less time-consuming. For regional destinations you can also turn up at departure, but the bus conductor will definitely let you feel that you should have bought a ticket beforehand.\r\n\n\r\n From Jammu and Kashmir State buses run from Srinagar and also privately operated deluxe buses. The HRTC bus from Srinagar to Leh cost ₹980 (2023). On the way back, they will leave from Leh at 2PM.\r\n\nThe Srinagar buses run longer than the Manali ones, potentially until mid October.\r\n\n\r\n From Himachal Pradesh From Manali , Himachal Road Transport Corporation (HRTC) ply the road between June and around 15th September, allowing you to stop in a number of places along the way—costs ₹156 (Manali-Keylong) + ₹539 (Keylong-Leh). Also, private buses stop in Keylong , Darcha or Sarchu—the last alternative (800 m higher than Leh) involving a high incidence of altitude sickness .\r\n\nFurthermore, Himachal Pradesh Tourist Development Corporation (HPTDC) operates deluxe buses from Manali that stop overnight in Keylong, between June and around 15th September—costs ₹2,700 (August 2017).\r\n\nIt is possible to book direct tickets Delhi-Leh, but the best option is to break off the journey in Manali and at the lower end of Lahaul: Sissu, Keylong (main population centre) or Jispa; all around 3,100 m altitude.\r\n\n\r\n By road There are two roads into Leh—both equally spectacular in different ways, and time-consuming with winding, narrow roads and numerous military checkpoints:\r\n\n\r\n **Manali-Leh Highway** – The route from Manali to Leh, covering a distance of 473 km (294 mi), is the one more commonly taken by tourists. It takes two days, normally with an overnight stop either in Keylong (alt. 3,096 m) or in camp accommodation in Sarchu (4,253 m) or Pang (4,500 m). Making the first stop in Keylong drastically reduces the risk of altitude sickness (AMS). It traverses one of the highest road passes in the world and is surrounded by wild, rugged mountains. The scenery is fantastic, though it is definitely not for the fainthearted. This historical trade route was linked to Yarkhand in China, severed by the India-China war in 1962, and later was transformed into a military supply road. Reliable access is limited from June to October, as it is blocked by snow for the rest of the year. There are plenty of inexpensive (₹200-300) camp accommodation along the way and some interesting sights en route, which can invite you to take your time heading up to Leh, like: \r\n Spiti Valley – A side tour in the east before Keylong and a destination not to be missed. If hiking is your thing, you may take a shortcut by **Chandratal Lake** coming out at **Baralacha Pass** (4,928 m), 45 km before the border with Ladakh. \r\n **Stingri** (3,180 m) – A steep mountain region with many homestays and guest houses. \r\n **Darcha** (3,350 m)– The last green village and a popular mountain village. You can also find cheap camp accommodation along the highway here. \r\n **Deepak Tal** (3,760 m) – A picturesque and popular mountain lake with a PWD tourist rest house nearby. \r\n **Sarchu** (Ladakhi border post, 4,300 m) – Cheer endless inexpensive camps for accommodation. \r\n **Gata Loops** (4,200–4,650 m) – 22 winding loops up a steep mountain. \r\n **Pang** (4,500 m) – A bleak village and rest stop with some accommodation but the interesting **Wayland** natural wind sculptures right when you enter the canyon towards east on foot. \r\n ** Changthang Western Lakes ** (from 4,600 m) – Right off the highway, 4 hr before Leh, an impressive lake and hot spring region. \r\n **Srinagar-Leh Highway** – The main advantage of taking the road from Srinagar, covering a distance of 434 km (270 mi), is that it runs at a lower altitude, and thereby reduces the risk and severity of altitude sickness . It is also open longer—normally from the beginning of June to October. It follows the traditional trade route between Ladakh and Kashmir, which passes through many picturesque villages and farmlands. The disadvantage is that it passes through areas of higher risk of militant troubles. It takes two long days, with an overnight stop in Kargil . There are a few interesting places to stop en route: \r\n Kargil at 2,693 m, where the buses stop and best choice for altitude acclimatization, \r\n Lamayuru , and \r\n Alchi that also offer accommodation. \r\nThe clearance of snow and opening for public transport is announced at the official website of Leh . Srinagar-Leh news updates are found here , and Manali-Leh here .\r\n\n\r\n By taxi The fastest way to get to Leh from ** Manali ** is by tempo traveller or taxi van, sometimes by 4WD. Shared taxis do the trip in one long day (of about 14 hr). Keep in mind that all single day rides comes with a risk of being stranded near 5,000 m without being acclimatised, with severe altitude sickness as a result. The journey costs up to ₹3,000 per person. During the high season tickets must be bought in advance of the day of departure and the main street in old Manali is full of ticket touts.\r\n\nIn case of 4WD, it is advised to take a front seat and do not allow yourself to be seated in the boot. These seats (in the boot) are inward facing and sitting on one of those for that long will take all the pleasure out of the trip.\r\n\nThere might also be minibuses and shared taxis that make an overnight stop in Sarchu—this comes with a high incidence of altitude sickness, since Sarchu (also dubbed \"The Vomit Hilton\") lies more than 700 m higher than Leh, at 4,253 m.\r\n\nPrivately hired taxis allow the luxury of stopping wherever you like, and allow you to decide on how many people you will travel in your group.\r\n\nIf you are coming from ** Srinagar **, go to #1 taxi stand in town. You can either book direct to Leh or book your seat on sumo taxi to Kargil for ₹500, stay overnight and then book your seat for Leh from Kargil and pay ₹400 upon arrival in Leh but this is a lot of messing around and accommodation in Kargil is often of poor value. Get them to drop you at Fort Road in Kargil, which is the heart of the tourist area and accommodation is close by. Ask for middle seat in the taxi as it's too crowded in the front and too uncomfortable in the back.\r\n\n\r\n By thumb Many locals and trucks ply both highways into Leh, some willing to take you the full distance, some just to the next village. Since, there are some sights along the way and to reduce the risk of altitude sickness, especially on the Manali-Leh Highway, it is recommended to have a least one overnight stop at one of the many inexpensive rest stops along the way (₹200–300).\r\n\nSee also #By road for additional information about road conditions and sights along the way.\r\n\nThose staying longer in Ladakh are likely to find themselves traveling by thumb at some point.\r\n\n\r\n By truck It is also possible to travel between Leh and Manali by truck. These trucks ply the route when it opens in summer, and they will be no new sight for anyone who has been in India for even a few days. Making the 450 km journey in the cab of one of these trucks is an experiencenot to miss—they are not as comfortable as taxis, nor do they give as good visibility as taxis or buses. But sleeping in the cab and eating the same food as the locals is worth it.\r\n\nYou don't necessarily have to do the whole distance at once, especially on the Manali-Leh Highway. This way the truck drivers will most likely also not be pressured to charge you for the ride, because many truck drivers will see no reason you should not pay. Some will ask even more than the comparable bus price. However, you are never forced to go with them, so just wait for any indication that this ride will cost and thankfully bow out of the ride.\r\n\nYou can pre-arrange truck drivers (for a few rupees) in Manali by going to the main truck stop in the new town. Here the drivers stop on their way from Delhi to Leh and will be more than happy to give you a ride for about ₹500. Make sure you do not pay before you travel. In Leh, there is a similar truck park. Try to pick a truck with the fewest passengers already, otherwise your trip will be even less comfortable—most drivers are on their own, sometimes going in convoy.\r\n\n\r\n By motorbike The Manali-Leh Highway is very popular with Indians to go on a motorbike. Bikes are available for rent at Manali. Note that you will need a bike allowed for driving in Ladakh—you cannot just take a scooter rented in Delhi.\r\n\nWhen biking to Leh, it is advisable to travel at a slow pace to allow acclimatization. A suggested itinerary is:\r\n\n\r\n Day 1: Manali–Jispa (110 km; 68 mi) \r\n Day 2: Jispa–Pang (130 km; 81 mi) \r\n Day 3: Pang–Leh (130 km; 81 mi). \r\nEssential supplies include: puncture repair kit, spare clutch cables and some good carriers (to hold luggage). The next bike workshop after Manali is Keylong (110 km; 68 mi) and then at Leh (400 km; 249 mi).\r\n\nSee also #By road for additional information about road conditions and sights along the way.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "By bus Also local public buses call at the main bus station of Leh—the airport and close by destinations like Choglamsar or Spituk go for ₹20. Here are some connections (as of Sep 2023):\r\n\n\r\n Choglamsar – Every 15-20 min from dawn till dusk \r\n Spituk – Every 30 min from dawn till dusk \r\n Alchi (government bus) – Leave from Leh at 8AM and 2PM. Leave from Alchi at 10AM and 4PM. \r\n Kharu/Sakti (government bus) – Leave from Leh at 8AM and 1PM. Leave from Kharu/Sakti at noon and 4PM. \r\nFor Alchi and Kharu it is best to be at the bus station at least 30 min before the departure, daily buses will get full quickly—forget about boarding these buses beyond the bus station.\r\n\nIt seems that private buses (including airport) wait a few minutes (or longer) at the 3 **bus stop near Leh Main Gate** —catch them there if you don't wanna head down to the bus station first.\r\n\n\r\n By motorbike Various places on main Bazaar and Changsp Rd rent motorbikes. But Leh, Phyang and Choglamsar are the only places with petrol stations. Make sure you are adequately insured with third party claims before renting any private vehicle.\r\n\n\r\n By taxi They have fixed prices (updated every 2 years) and can be arranged from the taxi stand along Fort Rd. When available, you may also purchase a copy of the fare-booklet for ₹20.\r\n\n\r\n By tour Many travel agents in Leh will offer several day tours to the nearby tourists sites, stating in their shop windows that they just need one or two more people to get the car full. That is BS and a way to lull you in, just to sell you an overpriced tour that is simply a taxi ride around the region. Don't think that these travel agents offer any value.\r\n\nYou are better off organising a private taxi yourself, in case you are two or three people. This way you can determine what the trip will look like—the taxi driver should only be interested in the distance and when he will be back. But don't trust the taxi drivers either and only (full) pay in the end.\r\n\nIf you are on your own, rely on buses and hitchhiking—they are the best way to explore Ladakh.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Shanti Stupa",
+              "description": "Built by a Japanese Buddhist group. This modern stupa is somewhat kitschy, but still worth a visit.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Shanti_Stupa",
+              "coordinates": {
+                "lat": 34.17374,
+                "lon": 77.57472
+              },
+              "price": "₹30"
+            },
+            {
+              "order": 2,
+              "name": "Leh Palace",
+              "description": "Very notably it thrones above the city.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Leh_Palace",
+              "coordinates": {
+                "lat": 34.16628,
+                "lon": 77.58639
+              },
+              "price": "₹25"
+            },
+            {
+              "order": 3,
+              "name": "Karma Dupgyud Choeling",
+              "description": "Monastery in the Karma Kagyu tradition. Not much to see here, unless you are interested in Buddhism, but it is opposite the street of one of the Dalai Lama residencies.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.09645,
+                "lon": 77.6018
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Namgyal Tsemo Gompa",
+              "description": "Above the Palace, built 1430.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Namgyal_Tsemo_Monastery",
+              "coordinates": {
+                "lat": 34.16742,
+                "lon": 77.59032
+              },
+              "price": "₹20"
+            },
+            {
+              "order": 5,
+              "name": "Soma Monastery",
+              "description": "Just around the corner from Main Bazaar, it's a large modern gompa. It's also the location of the Ladakhi Buddhist Association, a conservative political organisation with ties to Hindutva groups.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.16435,
+                "lon": 77.58455
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Hall Of Fame",
+              "description": "Fascinating place run by the Indian Army showcasing the history, glory and the equipment related to army operations in some of the most hostile terrain in the world. It also has a fascinating display on the Siachen battlefield, the highest and one of the more arduous battlefield in the world.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.1391,
+                "lon": 77.54119
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Central Asian Museum",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.16529,
+                "lon": 77.58478
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Confluence of the Zanskar and Indus rivers",
+              "description": "This is easy to find, as the water of Zanskar is brown, whilst that of the Indus is a little pink.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.16563,
+                "lon": 77.3324
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Gurudwara Pathar Sahib",
+              "description": "This Gurudwara houses a rock with the imprint of a Sikh that supposedly prayed here and was supposed to be crushed by the rock, but miraculously survived.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.19163,
+                "lon": 77.37585
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Hemis Monastery",
+              "description": "Supposedly, the largest monastery of Ladakh with at least 150 lamas, but it doesn't look that way. Also notable for a huge painting of the Buddha, which is displayed to the public only once every 12 years - next time will be 2028. The entrance is probably mostly for the museum, but the monastary itself is not special and does not allow for any spectacular pictures. It feels more like a tourist trap, considering the amount of taxis with tourists that ply here—probably their way of paying tribute (and cash) to this monastery.\nIf you are already here anyway and still don't want to go empty-handed, take the service road around the Hemis monastery (avoiding the ticket stand), and head up to Gotsang Monastery in the hills behind—it is a steep 2 km walk.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Hemis_Monastery",
+              "coordinates": {
+                "lat": 33.91248,
+                "lon": 77.70283
+              },
+              "price": "₹100"
+            },
+            {
+              "order": 11,
+              "name": "Magnetic Hill",
+              "description": "A supposed optical illusion, where it seems cars rolling down the hill but actually go up. It might not be as impressive as hyped.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Magnetic_Hill_(India)",
+              "coordinates": {
+                "lat": 34.17099,
+                "lon": 77.35248
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Palace of the King of Ladakh",
+              "description": "The palace is the most noticeable building in Leh district; built in the 17th century, and now undergoing restoration. There's not much to see inside the palace, but there are good views outside.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.07306,
+                "lon": 77.54889
+              },
+              "price": "₹100"
+            },
+            {
+              "order": 13,
+              "name": "Phyang Monastery",
+              "description": "It contains numerous sacred shrines inside the monastery, frescoes dating from the royal period.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Phyang_Monastery",
+              "coordinates": {
+                "lat": 34.18639,
+                "lon": 77.48944
+              },
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Shey Palace and Monastery",
+              "description": "Shey was once the ancient capital of Ladakh and is now just a rural village. The village is surrounded by spectacular mountains, a breathtaking view by day, and a great place to experience Ladakh. A 500 m walk up from the village to the palace will be rewarded with a fantastic view of one of the most beautiful landscapes of Ladakh.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Shey_Monastery",
+              "coordinates": {
+                "lat": 34.07583,
+                "lon": 77.63528
+              },
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "Stok Monastery",
+              "description": "A pleasant village across the Indus with this monastery well worth visiting.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Stok_Monastery",
+              "coordinates": {
+                "lat": 34.06569,
+                "lon": 77.54222
+              },
+              "price": null
+            },
+            {
+              "order": 16,
+              "name": "Thiksey Monastery",
+              "description": "Much more worth it than Hemis, this is an excellent place to visit, a well maintained, active and interesting Geluk (the sect headed by the Dali Lama) Monastery. The two-storey-tall Matreya statue is stunning.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Thikse_Monastery",
+              "coordinates": {
+                "lat": 34.05639,
+                "lon": 77.66667
+              },
+              "price": "₹50"
+            }
+          ],
+          "brief": "For such a historic site and popular tourist destination, Leh has surprisingly few tourist sights (though a great number more are accessible as day trips):\r\n\n\r\n 1 ** Donkey Sanctuary ** ( Home for helpless donkeys ). Just off the road leading to Khardung-La. The public is encouraged to visit the sanctuary and friendly signs will direct you to the sanctuary from the centre of Leh. It is no more than a pleasant 5 to 10 minute stroll from the main road to the Sanctuary and the artistic surprise awaiting you is well worth the effort. It is open to the public throughout the day and donations and juicy carrots are most welcome and used exclusively for improving the lives and welfare of these wonderful animals. Free .   \r\n 2 **Shanti Stupa** ( the entrance fee can be avoided if you take the stairs ). Built by a Japanese Buddhist group. This modern stupa is somewhat kitschy, but still worth a visit. ₹30 .  ( updated Sep 2023 ) \r\n 3 **Leh Palace** . Very notably it thrones above the city. ₹25 .  ( updated Sep 2023 ) \r\n Monasteries and temples Many use Leh as a base to visit the numerous gompas, the Buddhist monasteries of Ladakh.\r\n\n\r\n 4 **Karma Dupgyud Choeling**. Monastery in the Karma Kagyu tradition. Not much to see here, unless you are interested in Buddhism, but it is opposite the street of one of the Dalai Lama residencies.   \r\n 5 **Namgyal Tsemo Gompa** ( Namgyal Tsemo Gompa ). 7–9AM during the morning puja . Above the Palace, built 1430. ₹20 .  ( updated Sep 2023 ) \r\n 6 **Soma Monastery** ( Soma Gompa ). Just around the corner from Main Bazaar, it's a large modern gompa. It's also the location of the Ladakhi Buddhist Association, a conservative political organisation with ties to Hindutva groups.   \r\n Museums 7 **Hall Of Fame** ( War Museum ). Fascinating place run by the Indian Army showcasing the history, glory and the equipment related to army operations in some of the most hostile terrain in the world. It also has a fascinating display on the Siachen battlefield, the highest and one of the more arduous battlefield in the world.   \r\n 8 **Central Asian Museum** .  ( updated Apr 2021 ) \r\n Further afield 9 **Confluence of the Zanskar and Indus rivers**. This is easy to find, as the water of Zanskar is brown, whilst that of the Indus is a little pink.  ( updated Sep 2023 ) \r\n 10 **Gurudwara Pathar Sahib**. This Gurudwara houses a rock with the imprint of a Sikh that supposedly prayed here and was supposed to be crushed by the rock, but miraculously survived.  ( updated Sep 2023 ) \r\n 11 **Hemis Monastery** , Hemis . Supposedly, the largest monastery of Ladakh with at least 150 lamas, but it doesn't look that way. Also notable for a huge painting of the Buddha, which is displayed to the public only once every 12 years - next time will be 2028. The entrance is probably mostly for the museum, but the monastary itself is not special and does not allow for any spectacular pictures. It feels more like a tourist trap, considering the amount of taxis with tourists that ply here—probably their way of paying tribute (and cash) to this monastery.\nIf you are already here anyway and still don't want to go empty-handed, take the service road around the Hemis monastery (avoiding the ticket stand), and head up to Gotsang Monastery in the hills behind—it is a steep 2 km walk. ₹100 .  ( updated Sep 2023 ) \r\n 12 **Magnetic Hill** ( stopping on the way to Alchi could be a good idea, or just hitchhike ). A supposed optical illusion, where it seems cars rolling down the hill but actually go up. It might not be as impressive as hyped.  ( updated Sep 2023 ) \r\n 13 **Palace of the King of Ladakh** ( former royal palace ), Stok . The palace is the most noticeable building in Leh district; built in the 17th century, and now undergoing restoration. There's not much to see inside the palace, but there are good views outside. ₹100 .  ( updated Jul 2023 ) \r\n 14 **Phyang Monastery** , Phyang . It contains numerous sacred shrines inside the monastery, frescoes dating from the royal period.  ( updated Jul 2023 ) \r\n 15 **Shey Palace and Monastery** ( Shey Gompa ), Shey ( 15 km south-east of Leh ). Shey was once the ancient capital of Ladakh and is now just a rural village. The village is surrounded by spectacular mountains, a breathtaking view by day, and a great place to experience Ladakh. A 500 m walk up from the village to the palace will be rewarded with a fantastic view of one of the most beautiful landscapes of Ladakh.  ( updated Jul 2023 ) \r\n 16 **Stok Monastery** ( Stok Gompa ), Stok ( 15 km south of Leh ). A pleasant village across the Indus with this monastery well worth visiting.  ( updated Jul 2023 ) \r\n 17 **Thiksey Monastery** ( Thiksey Gompa ), Thiksey ( the stairs from the lower parking near the highway will let you in for free ). Much more worth it than Hemis, this is an excellent place to visit, a well maintained, active and interesting Geluk (the sect headed by the Dali Lama) Monastery. The two-storey-tall Matreya statue is stunning. ₹50 .  ( updated Jul 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Chhamkang Ri",
+              "description": "A 2-hr hike (3 km) with a great view of Leh and the valley. The trail starts in the very north of Leh."
+            },
+            {
+              "name": "Unnamed Peak",
+              "description": "Another 2-hr hike, which give you a view of the airport of Leh, the valley, and the Stok mountain and its range around. The trail starts east of Leh center, slightly north."
+            },
+            {
+              "name": "Phyang-Leh",
+              "description": "If you take an early morning bus (8AM?) to Phyang village (3,600 m) in the parallel valley west of Leh, this trail leads you by the _Gyamche La Pass_ and back into Leh from the north. This is a proper full day hike of 20 km, and considering its 1,200 m altitude gain, it will require some time. On the way, you can also visit Phyang Monastery."
+            },
+            {
+              "name": "Stok La (pass)",
+              "description": "12.5 km (one-way), 1,200 m altitude gain—it's the pass that leads to Markha Valley. You might be able to do it in one day from Stok if you are fit, otherwise you might have to camp along the way. Note, people say that this is proper mountaineering and you will need some experience."
+            },
+            {
+              "name": "Stok Kangri",
+              "description": "A proper mountain for a 2-3 days hike from Stok. You should have some mountaineerinh experience if you do this peak. Since the peak is officially closed (for commercial tours), there are no camps along the way and you will have to bring your own tent and food. In case anyone asks, just say you are heading to _Stok La_."
+            }
+          ],
+          "brief": "A 2-hr hike (3 km) with a great view of Leh and the valley. The trail starts in the very north of Leh.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Zomsa Restaurant",
+              "description": "Inexpensive mutton chowmein, tupka and momos. No chai, just coffee.",
+              "location": null
+            },
+            {
+              "name": "National Restaurant",
+              "description": "Another mutton place popular with locals serving thali style dishes and chai.",
+              "location": null
+            },
+            {
+              "name": "Gurudwara",
+              "description": "As everywhere in India, the Gurudwara serves mostly rice and dal throughout the day, but often chai is served as well.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There is little in the way of nightlife in Leh. You can have a beer at many of the restaurants, but they close fairly early. For a more adventurous alternative, ask around the old town (or your guest house owner) for **Chang** the local home brewed beer, which costs about ₹15 for a litre; bring your own bottle.\r\n\nBeing a mountain area, clean water (not boiled) is available in restaurants and accommodations. There are a few springs scattered around Leh that provide a natural and plastic free alternative to using bottled water.\r\n\nThe amount of tea stall east of the main bazaar in notable, try the following:\r\n\n\r\n 1 **Tololing Tea Stall**. His chai (milk tea) has a special delicious taste, try finding out why.  ( updated Sep 2023 )"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Eagle Guest House",
+              "description": "A very friendly atmosphere.",
+              "price": null
+            },
+            {
+              "name": "Ecology Hostel",
+              "description": "Quite a different place built for sustainability. They only have double rooms, which can be kind of nice compared to regular hostels. Toilets and restaurant are in different buildings, and the place gets quite hot and dry (literally) during the day.",
+              "price": "₹400"
+            },
+            {
+              "name": "Himalayan Bunker",
+              "description": "An inexpensive, clean and recommended hostel, a little off the center though, but great location for exploring places outside of Leh.",
+              "price": "From ₹350"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Leh is one of the safest places in India.\r\n\nCarry a **torch at night**, as there is next to no street lighting, and there are some very deep drainage ditches. Beware of the stray dogs which rule streets during the night, especially in the inner alleys and around eateries.\r\n\n\r\n Floods Ladakh was struck with serious floods and mud slides in August 2010. The airport was operational within days, and the major roads and bridges after a few weeks, and Manali-Leh was re-routed temporarily, until October after Rumtse, making it more than a hundred kilometres longer. The road was fully operational in October 2010."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:37.363Z",
+        "wikipedia_summary": "Leh is a city in Indian-administered Ladakh in the disputed Kashmir region. It is the largest city and the joint capital of Ladakh. Leh, located in the Leh district, has been the capital of Ladakh since the medieval period and was historically capital of the Kingdom of Ladakh.",
+        "wikipedia_description": "City in Ladakh, Indian-administered Kashmir",
+        "wikipedia_fetched_at": "2026-05-18T09:55:37.415Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Leh Sightseeing Leh is a city in Indian-administered Ladakh in the disputed Kashmir region. It is the largest city and the joint capital of Ladakh. Leh, located in the Leh district, has been the capital of Ladakh since the medieval period and was historically capital of the Kingdom of Ladakh. There is a pass that links Leh directly to Khotan . The city's importance as a trading town slowed down with the partition of India, and ended with the closure of the border in 1962 during the Sino-Indian War. Since opening to tourists in 1974, it has become a bustling tourist town, with many Kashmiri traders. It is a small town, so it is easy to get most places on foot. The old town is a compact area of mud brick houses and narrow lanes directly Leh is one of the two capitals of Ladakh , a union territory of India . Leh is in the Indus River Valley, at a crossroads of the old trading routes from Xinjiang , Tibet and Kashmir . Since 2000, Indian tourists have been visiting Ladakh, with a dramatic increase in 2010 after the film _Three Idiots_.",
+      "travel_facts": {
+        "summary": "**Leh** pairs **IXL (~6 km)** apron stacks with NH1/NH3 highway meshes—Royal Palace tides bias acclimatisation merges knowing Manali–Leh and Srinagar–Leh convoys absorb Khardung staging peaks.",
+        "keywords": [
+          "ixl leh apron stacks",
+          "nh1 nh3 highway meshes",
+          "royal palace tides",
+          "acclimatisation merges",
+          "manali leh convoys",
+          "khardung staging peaks"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-markha-valley-trek",
+      "name": "Markha Valley Trek",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 33.88596,
+        "lon": 77.42337,
+        "source": "wikidata"
+      },
+      "description": "**Markha Valley** is a trek in the union territory of Ladakh , India . It is an amazing trip to get introduced with remote Buddhist Kingdom of Ladakh. While trekking on through this trek tourists passes through beautiful Buddhist monasteries, Mountain Villages, High altitude pastures of Nimaling and High altitude peak Kangyatse. The Markha valley is part of the Hemis National Park.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Mar–mar",
+        "months": [
+          3
+        ],
+        "season": "winter"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Markha_Valley_Trek",
+        "wikipedia": "https://en.wikipedia.org/wiki/Markha_Valley_Trek",
+        "wikidata": "https://www.wikidata.org/wiki/Q14224203"
+      },
+      "distance_km": 2326,
+      "ideal_months": [
+        3
+      ],
+      "min_days": 1,
+      "weather_snippet": "Mar–mar",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          3
+        ],
+        "off_season_months": [],
+        "monsoon_months": [],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 22,
+          "note": "Chilling/Stok staging tides thicken Zanskar river crossings—porter yak quotas jitter Kang Yatze viewpoints"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 3,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.5,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 24375,
+        "content_richness_score": 0.174
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "**Duration**: 5 to 8 days depending upon where you start and where you end your trek. The shortest way of doing this trek is to start from Chilling Village and end the trek at Shang Sumdo village. \r\n **Season**: Mid-May to mid-October \r\nA deservedly popular trek, that follows the beautiful Markha valley. It is almost always done in the direction described, as in the reverse direction the approach to the Gongmaru La is very steep and unpleasant. This means you get an impression of there being fewer trekkers on this route than there in fact are. It is a reasonably straightforward trek, with many villages on the way, and even the odd tea \"house\" tent, it is possible avoid camping out except for the night before crossing the Gongmaru La, which necessitates a tent, and good sleeping bag as it gets very cold here even in summer.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "1 **Chiling (Sumda)** – The most western village of the trail \r\n 2 **Stok La** – A mountain pass close to Leh, which ultimately leads to the trail. It seems however that many people prefer \r\n 3 **Rumbak** – A village with a trail leading to the middle part of Markha Valley. \r\n 4 **Shang Sumdo** – The most east village of the trail \r\n 5 **Markha** (Skiumarkha) – you will come by here, soon or later \r\n 6 **Skiu-Kaya** – A twin town which also has a Buddhist monastery from the 11th century \r\n On foot It is possible to do this trek entirely on your own without any equipment, ponies, etc., by staying in homestays on the way however it is not recommended to do it solo.\r\n\n\r\n By tour Prepare for hard haggling. An 8-day trek including guide, cook, mules, horsemen, tents, sleeping bags, and vegetarian dishes, can cost as low as ₹1,000 per day per person, up to ₹2,000. If you have time, do not go through an agency and hire your equipment from stores in Leh, and your guide, cook, mule, and horsemen from the Tibetan Refugee Camp. It will be much cheaper.\r\n\nForeigners are usually given a foreigner price and it is extremely hard to get the \"Indian price\" (i.e. ₹1,000 per day per head) as quoted above. But with the number of agencies in Leh offering this trek, it is worth a try.\r\n\nChoose your agency carefully. Some agencies do not hesitate to leave trash behind—find an agency which will bring back the trash.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "The following is a route description of the short **Rumbak-Hemis** itinerary:\r\n\n\r\n Cross the bridge over the Indus, follow the jeep road across the empty uninteresting flats. It gets hot here, so try to be threw before the sun gets high in the sky. \r\n After about 7 km turn up the Zhimgchan valley, with scattered trees, to **Zhingchan village** a small settlement of a few houses, and a few campsites. \r\n Keep going a few km to **Rumbak village**, a good place to spend the first night (6–7 hr from Spitok). \r\n **Yurutse village**, is the first village you come to. \r\n **Lartsa campsite**, with beautiful views, is further on, and makes a good place to set up your tent. (4–5 hr from Rumbak) \r\n An hour or so from here is **Kanda La** (4,870 m). Looking south west you can see **Shingo village** (with camping area), a few km further on. \r\n Spend the night in the area around the villages of **Skyu Yokma**, and **Skyu Gongma**. (6–7 hr from Lartsa) \r\n It's 17 km from here to Markha village, far but not a difficult walk up the Markha valley. You will first pass **Pentse campsite** , then the settlements of **Nakdi village**, **Sara village** , and **Chalak village**, before coming to **Lhatho campsite**. \r\n Shortly before **Markha village** with its plentiful campsites. (7–8 hr from Skyu) \r\n Continue past **Tetsa village**, **Umlung**, **Da-amo campsite**, the highest permanent settlement in the Markha valley: **Hangkar village**(4,000 m). \r\n From here the trail goes up to the Nyimaling Plains, a high and remote area, route finding becomes more difficult. The normal campsites are **Tsigu campsite** and **Nyimaling campsite** (7–8 hr from Markha), but there are lots of options on the high plains. \r\n From here is the most difficult stage of the trek, take your time and be aware of the possibility of altitude sickness. \r\n Follow the clear trail up the **Gongmaru La** (5,130 m) (2 hr form Nyimaling camp). On descending from the pass you come to **Lhartsa campsite** and Chuskyurmo campsite just outside **Chokdo village**. (6 hr from Nyimaling campsite) \r\n From this point it's an easy descent past **Ozang village** to **Hemis village**, with its famous Monastery (4-5 hr), restaurant, and shops. You can camp here or take the bus back to Leh.",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:37.975Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Mountain / Hills Markha Valley Trek Sightseeing Duration: 5 to 8 days depending upon where you start and where you end your trek. The shortest way of doing this trek is to start from Chilling Village and end the trek at Shang Sumdo village. Season: Mid-May to mid-October A deservedly popular trek, that follows the beautiful Markha valley. It is almost always done in the direction described, as in the reverse direction the approach to the Gongmaru La is very steep and unpleasant. This means you Markha Valley is a trek in the union territory of Ladakh , India . It is an amazing trip to get introduced with remote Buddhist Kingdom of Ladakh. While trekking on through this trek tourists passes through beautiful Buddhist monasteries, Mountain Villages, High altitude pastures of Nimaling and High altitude peak Kang",
+      "travel_facts": {
+        "summary": "**Markha Valley Trek** stages **IXL Leh (~22 km)** Hemis feeder meshes toward Skiu–Markha corridors—Gongmaru La tides bias homestay trekking merges knowing Indus shuttle jeeps absorb Shang Sumdo finish peaks.",
+        "keywords": [
+          "ixl markha staging",
+          "skiu markha corridors",
+          "gongmaru la tides",
+          "hemis feeder jeeps",
+          "zanskar crossing merges",
+          "ladakh trek permit radios"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-nubra-valley",
+      "name": "Nubra Valley",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 34.55121,
+        "lon": 77.54848,
+        "source": "wikidata"
+      },
+      "description": "**Nubra Valley** is a vast region in Ladakh , India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Nubra_Valley",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nubra",
+        "wikidata": "https://www.wikidata.org/wiki/Q2004108"
+      },
+      "distance_km": 2400,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Nubra",
+        "Valle Nubra",
+        "Valle de nubra"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubra_Sand_Dunes.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/5%20Nubra%20valley.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 118,
+          "note": "Khardung La permits thicken Diskit–Hunder camel tides—Turtuk inner-line radios jitter Siachen sector merges"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 73488,
+        "content_richness_score": 0.525
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Nubra Valley lies in the old **Silk Route** from South to Central Asia. Traders and their caravans used to traverse this route from areas in Ladakh and Kashmir to Central Asian places like Yarkand and Baltistan . Now it is a military area because this region is bordered by Pakistan and China, with whom India does not have very cordial relationship. The valley is relatively warm during summers but temperature goes down to -40 °C during winters.\r\n\nThis region is fed by two rivers, one is **Shyok** and other one is **Nubra**. When descending from Khardung La pass, one encounters **Shyok** river and continues on its left bank. The river's entire basin is visible from road. The river is not full of water so, it has many channels. The basin is filled with sand, stones and occasional green patches of trees, shrubs and sometimes cultivated fields. Same is the case with Nubra river which originates at **Siachen Glacier**. They both meet near a place called Khalsar.\r\n\nTurtuk is the penultimate village open to foreign tourists before Pakistan. Until 1971 Turtuk was a part of Baltistan , shared strong economic and cultural ties with Tibet .",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "In Nubra Valley the road forks at a place called _T-mord_, one of which goes towards towns Diskit and Hunder, and further up to Turtuk and the Line of Control between India and Pakistan . The other road goes to towns like Sumur and Panamik, and further up to Sasoma check point and Siachen base camp, but tourists cannot go beyond Panamik.\r\n\n\r\n By bus There are two bus routes that run daily in each direction at 8AM:\r\n\n\r\n Leh–Skuru – private, via Diskit and Hundar \r\n Leh–Sasoma – government, via Sumur and Panamik \r\nThey take about 7 hr for the complete distance and cost ₹250–320, depending on how far you go. (As of 2023, the Leh–Sasoma might not run once a week, but it is unclear on which weekday.)\r\n\nIt is a long ride, although the road is well-paved almost all the way from Leh, apart from Khardung La, the ride involves at least two longer stops and some parts of the way are unpaved.\r\n\n\r\n By taxi Some people share a taxi for around ₹2,000 from Leh.\r\n\n\r\n By tour Many people book a tour in Leh for visiting Nubra in 2–3 days. This includes taxi tours and self-riding motorbike tours. Often these tours last up until a week and will include Pangong Lake and Tso Moriri .\r\n\n\r\n By thumb Hitch-hiking in directly from Leh is possible, but the bus might be the most straight forward choice. The Pangong Lake route is least served by anyone, and also few people decide to take the Wari La route.\r\n\n\r\n On foot The only meaningful hiking route into Nubra Valley is from Leh to Hundar, a 64-km trail via Lasimiru La at 5,466 m. The trail actually starts in Phyang, but you can also start from Leh combining two routes—see starting trail and main trail .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "By bus There is one bus running between Panamik and Diskit, but it will be quite full:\r\n\n\r\n Panamik &gt; Diskit: 9AM \r\n Diskit &gt; Panamik: ≈3PM \r\nYou can also use the Leh buses to get around in the valleys, at these approximate times:\r\n\n\r\n Diskit &gt; Skuru: 1–1:30PM \r\n Skuru &gt; Hundar &gt; Diskit &gt; T-mord: Skuru 8AM, Hundar 8:30AM, Diskit 9AM, T-mord 10AM \r\n Sumur &gt; Panamik: noon \r\n Panamik &gt; Sumur &gt; T-mord: Panamik 9AM, Sumur 10AM, T-mord 10:30AM \r\nThere have been no bus connection to Turtuk since COVID.\r\n\n\r\n By thumb A lot of local traffic will ply the two roads in either of the Shyok or Nubra Valley. Ladakhis are generally very welcoming and you shouldn't have any issues finding a ride to see all sights.\r\n\nIt is best to start before 11AM, just to make sure not to get stuck anywhere. Heading to Turtuk is also better in the morning than in the afternoon. Heading out from Turtuk in the afternoon is possible, because many tourist visit for the day and then return to the more center of Nubra.\r\n\nSee India#By thumb for general tips and which vehicles to choose.\r\n\n\r\n By taxi Many taxis will run through the valley, bringing in tourists or carrying them between sights. You can of course always rely on them. Keep looking for vans, minibuses and jeeps (no pickup) with yellow licence plates, but they probably introduce themselves to you early enough.\r\n\nAim for ₹20/km.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Diskit Monastery",
+              "description": "The oldest and largest Buddhist monastery (gompa) in the Nubra Valley.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Diskit_Monastery",
+              "coordinates": {
+                "lat": 34.54111,
+                "lon": 77.56028
+              },
+              "price": "₹40"
+            },
+            {
+              "order": 2,
+              "name": "Tso Luvan",
+              "description": "An important Buddhist holy lake inside a minor mountain, great for a stroll and surreal pictures. There is a tea stall and a parking where the trail to the lake begins.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.7471,
+                "lon": 77.5522
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Samtanling Gompa",
+              "description": "Samtanling Gompa has a good collection of tangkhas, Buddha idols and frescoes. And it is greatly located on a hill overviewing the Numbra Valley.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.63181,
+                "lon": 77.62514
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Eco Buddha Park",
+              "description": "A park in construction as of 2023 with a large Buddha statue on the backdrop of the mountain silhouette.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.61266,
+                "lon": 77.61349
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Siachen Glacier",
+              "description": "It is closed to non-military persons. But this might change in the coming years.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Siachen_Glacier",
+              "coordinates": {
+                "lat": 35.1987,
+                "lon": 77.2099
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Shyok Valley",
+              "description": "The area of the Shyok river past Hunder with its mountain scenery, including a few villages of Skuru, Changmar, Bogdan and Turtuk, were only opened to foreign tourists in 2010, so they are still quite new in their contact with tourists and the West, and feel rather unexplored.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 34.684,
+                "lon": 77.3074
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Mani-walls",
+              "description": "Many of these Buddhist walls can be found in the valleys.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Diskit Monastery** . The oldest and largest Buddhist monastery (gompa) in the Nubra Valley. ₹40 .  ( updated Mar 2021 ) \r\n 2 **Tso Luvan** ( south of Panamik, 1 km from the highway ). An important Buddhist holy lake inside a minor mountain, great for a stroll and surreal pictures. There is a tea stall and a parking where the trail to the lake begins.  ( updated Sep 2023 ) \r\n 3 **Samtanling Gompa**, Sumur . Samtanling Gompa has a good collection of tangkhas, Buddha idols and frescoes. And it is greatly located on a hill overviewing the Numbra Valley.  ( updated Mar 2021 ) \r\n 4 **Eco Buddha Park**. A park in construction as of 2023 with a large Buddha statue on the backdrop of the mountain silhouette.  ( updated Sep 2023 ) \r\n 5 **Siachen Glacier** . It is closed to non-military persons. But this might change in the coming years.  ( updated Sep 2023 ) \r\n 6 **Shyok Valley**. The area of the Shyok river past Hunder with its mountain scenery, including a few villages of Skuru, Changmar, Bogdan and Turtuk, were only opened to foreign tourists in 2010, so they are still quite new in their contact with tourists and the West, and feel rather unexplored.  ( updated Sep 2023 ) \r\n **Mani-walls**. Many of these Buddhist walls can be found in the valleys.  ( updated Sep 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Panamik Hot Springs",
+              "description": "There are a few hot springs and a few pools in this area. The pool at the GPS coordinates of this listing is the most sophisticated and touristic one—they might charge for this one in the future. But there is another simple pool just behind Oasis Restaurant, 150 m south."
+            },
+            {
+              "name": "Hunder Sand Dunes",
+              "description": "Various activities are offered, like quad bike, and camel riding on **bactrian camels**, who have two humps reminding us of old times when this region was a part of **Silk Route** to Central Asia. There are some restaurants at the entrance of the \"park\" and parking of course. You also just walk in from Hundar itself without bothering so much about anything commercial."
+            },
+            {
+              "name": "Sumur Sand Dunes",
+              "description": "Not as commercialised as the Hundar Sand Dunes, so just enjoy the tranquillity."
+            },
+            {
+              "name": "Hike up Sumur Lungpa",
+              "description": "... to the two mountain lakes at 5,200 altitude with impressive views onto the surrounding mountains and glaciers. There is a trail, see OpenStreetMap."
+            }
+          ],
+          "brief": "There are a few hot springs and a few pools in this area. The pool at the GPS coordinates of this listing is the most sophisticated and touristic one—they might charge for this one in the future. But there is another simple pool just behind Oasis Restaurant, 150 m south.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Cham Restaurant",
+              "description": "Offers one of the best mutton momos in the region, no cheap fillings like onions but just plain mutton meat.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Himalayan Bunker",
+              "description": "They have large and comfy 6bed tents with clean sheets. Restaurant, warm water bathrooms and WiFi. But the best is when arriving in September, you can fill your stomach with kilos of apricots and apples that grow here and are not harvested, unless to give them to cows.",
+              "price": "₹400"
+            },
+            {
+              "name": "The Nunchi - Huts &amp; Hostel",
+              "description": "",
+              "price": "₹500"
+            },
+            {
+              "name": "Ama Guesthouse Nubra",
+              "description": "Nice and comfy guest house.",
+              "price": "From ₹500 (without food) if not busy"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:38.811Z"
+      },
+      "search_context": "Mountain / Hills City / Urban Nubra Valley Sightseeing Nubra Valley lies in the old Silk Route from South to Central Asia. Traders and their caravans used to traverse this route from areas in Ladakh and Kashmir to Central Asian places like Yarkand and Baltistan . Now it is a military area because this region is bordered by Pakistan and China, with whom India does not have very cordial relationship. The valley is relatively warm during summers but temperature goes down to -40 °C during winters. This r Nubra Valley is a vast region in Ladakh , India .",
+      "travel_facts": {
+        "summary": "**Nubra Valley** climbs **IXL Leh (~118 km)** Khardung meshes toward Shyok dunes—double-humped Bactrian tides bias Diskit gompa merges knowing Panamik hot-spring feeders absorb Turtuk permit peaks.",
+        "keywords": [
+          "ixl khardung meshes",
+          "nubra shyok dunes",
+          "bactrian camel tides",
+          "diskit gompa merges",
+          "turtuk inner line radios",
+          "panamik hot spring feeders"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-pangong-lake",
+      "name": "Pangong Lake",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 33.70472,
+        "lon": 78.75,
+        "source": "wikidata"
+      },
+      "description": "**Pangong Lake** (Tibetan: _Bangong Co_ or _Tsomo Nganglha Ringpo_) is a famous soda lake in the Ladakh region of India . It is actually separated between India and China, and there have been border disputes in the past.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Pangong_Lake",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pangong_Tso",
+        "wikidata": "https://www.wikidata.org/wiki/Q1032254"
+      },
+      "distance_km": 2308,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Pangong Tso",
+        "Lago Pangong",
+        "Bangong Cuo",
+        "Banggong Co",
+        "Pangong",
+        "Banggong",
+        "Pangong Co",
+        "Pangongmeer",
+        "Bangong Co",
+        "Bangong Lake",
+        "Bangong Hu"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pangong%20Tso%202.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 168,
+          "note": "Chang La convoys toward Tangtse—Pangong campsite tides thicken inner-line checkpoint merges"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 28761,
+        "content_richness_score": 0.205
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "As part of the **Changthang Wildlife Sanctuary**, it is a high-altitude wildlife sanctuary and home to many rare species of flora and fauna. It is the highest salt lake in Asia, straddling the Sino-Indian border.\r\n\nApproximately 50% of the length of the overall lake lies within Tibet in China, 40% in Ladakh, India and the remaining 10% is disputed and is a de facto buffer zone between India and China. The lake is 5 km (3.1 mi) wide at its broadest point. All together it covers almost 700 km 2 . During winter the lake freezes completely, despite being saline water.\r\n\nThe past few years have seen a remarkable increase in Indian tourists flocking to Pangong Lake. For security reasons, boating is not permitted. Groups are permitted, accompanied by an accredited guide.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Inquire at the Leh bus station.\r\n\n\r\n By thumb Getting until Tangtse should be considerably easy. After Tangtse the amount of local traffic relevant for hitch-hiking may be reduced.\r\n\n\r\n By tour Most people will be travelling on an arranged tour, either by taxi or by motorbike, often coming the lengthy gravel road from Nubra Valley .\r\n\nTour operators will offer the trip from Leh one day and back the next day for 3 people at ₹4,000 each, but you are better off just inquiring a taxi yourself—just be wary of the taxi drivers, they are not to be trusted, only pay at the end.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "No buses ply the region, so private vehicles will be your only choice.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:39.644Z",
+        "wikipedia_summary": "Pangong Tso or Pangong Lake (Tibetan: སྤང་གོང་མཚོ; Chinese: 班公错; pinyin: Bān gōng cuò; is an endorheic lake spanning eastern Ladakh and West Tibet situated at an elevation of 4,225 m. It is 134 km long. Approximately 50% of the length of the overall lake lies within Tibet administered by China, 40% in Indian-administered Ladakh; the remaining 10% is disputed and is a de facto buffer zone between India and China. The lake is 5 km wide at its broadest point. All together it covers almost 700 km2. During winter the lake freezes completely, despite being saline water. It has a land-locked basin separated from the Indus River basin by a small elevated ridge, but is believed to have been part of the Indus basin in prehistoric times.",
+        "wikipedia_description": "Soda lake located in India and Tibet",
+        "wikipedia_fetched_at": "2026-05-18T09:55:39.696Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills Wildlife / Nature Pangong Lake Sightseeing Pangong Tso or Pangong Lake (Tibetan: སྤང་གོང་མཚོ; Chinese: 班公错; pinyin: Bān gōng cuò; is an endorheic lake spanning eastern Ladakh and West Tibet situated at an elevation of 4,225 m. It is 134 km long. Approximately 50% of the length of the overall lake lies within Tibet administered by China, 40% in Indian-administered Ladakh; the remaining 10% is disputed and is a de facto buffer zone between India and China. The lake is 5 km wide at its broadest point. All together it covers almost 700 km2. During winter the lake freezes completely, despite being saline water. It has a land-locked basin separated from the Indus River basin by a small elevated ridge, but is believed to have been part of the Indus basin in prehistoric times. As part of the Changthang Wildlife Sanctuary, it is a high-altitude wildlife sanctuary and home to many rare species of flora and fauna. It is the highest salt lake in Asia, straddling the Sino-Indian border. Approximately 50% of the length of the overall lake lies within Tibet in China, 40% in Ladakh, India and the remaining 10% is disputed and is a de facto buffer zone between India and China. The lake is 5 km (3.1 mi) wide at its broadest poin Pangong Lake (Tibetan: _Bangong Co_ or _Tsomo Nganglha Ringpo_) is a famous soda lake in the Ladakh region of India . It is actually separated between India and China, and there have been border disputes in the past.",
+      "travel_facts": {
+        "summary": "**Pangong Lake** threads **IXL Leh (~168 km)** Chang La meshes toward Tsomo Nganglha Ringpo—saltwater shimmer tides bias Tangtse homestay merges knowing Indo-China shoreline radios absorb Merak winter freeze peaks.",
+        "keywords": [
+          "ixl chang la meshes",
+          "pangong tsomo tides",
+          "tangtse homestay merges",
+          "inner line checkpoint radios",
+          "merak winter freeze peaks",
+          "changthang lake convoys"
+        ]
+      }
+    },
+    {
+      "slug": "ladakh-zanskar",
+      "name": "Zanskar",
+      "region": "",
+      "state": "Ladakh",
+      "coordinates": {
+        "lat": 33.46889,
+        "lon": 76.8775,
+        "source": "wikidata"
+      },
+      "description": "**Zanskar**, also spelt **Zangskar**, is a vast region in Ladakh , India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "May–Oct (high passes open; winters extreme)",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "season": "high_altitude_cold_desert"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Zanskar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Zanskar",
+        "wikidata": "https://www.wikidata.org/wiki/Q147011"
+      },
+      "distance_km": 2280,
+      "ideal_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "min_days": 2,
+      "weather_snippet": "May/Jun/Jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T15:32:27.310Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Zanskar tehsil",
+        "Zangskar",
+        "Zang-skar"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prayer_flag_above_Tanze_Gompa.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zanskarmap.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "off_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monsoon_months": [
+          7,
+          8
+        ],
+        "avoid_months": [
+          12,
+          1,
+          2
+        ],
+        "average_temp_range_celsius": {
+          "summer": "15–28",
+          "winter": "-15–5"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Kushok Bakula Rimpochee Airport (Leh)",
+          "code": "IXL",
+          "distance_km": 252,
+          "note": "Kargil staging toward Padum—Pensi La ice-road radios jitter Chadar winter trekking merges"
+        },
+        "nearest_railway_station": {
+          "name": "No railway within Ladakh",
+          "distance_km": null,
+          "note": "Trunk railheads remain hundreds of km away (e.g. Jammu Tawi, Chandigarh)—surface legs via Srinagar–Leh or Manali–Leh when snow clears; winters lean on IXL Leh"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chandigarh",
+          "Srinagar"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "wildlife",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 33632,
+        "content_richness_score": 0.24
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Zanskar is famous for its stunning scenery and Tibetan-style Buddhist monasteries. It is more remote and less densely populated, with less infrastructure than other places in Ladakh.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Zanskar Valley is approachable by road from Kargil , which lies on the Srinagar – Leh highway. There is a road under construction which will connect Darcha to Padum and onwards to Leh via Nimoo.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Padum Valley",
+              "description": "Padum sits at an altitude of 3505 m from the sea level. It is the capital of the ancient Zanskar, and is administrative headquarters of the Zanskar region. Padum has population of 1,500–1,600. Padum is a very scarcely inhabited valley in the Zanskar. Padum is one of the famous trekking destinations in Ladakh.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Rangdum Monastery",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Rangdum_Monastery",
+              "coordinates": {
+                "lat": 34.03639,
+                "lon": 76.37306
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Stongdey Monastery",
+              "description": "There is a community of about 60 Gelukpa monks who are the resident of the Stongdey. Stongdey is the second largest monastic establishment in the Zanskar region and this monastic is inhabited by the community of monks. Tourists can approach this place on foot by the road in about 4 hours. Monastery climb is rather strenuous, but it is worthwhile after seeing the breathtaking natural beauty of the valley.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Stongdey_Monastery",
+              "coordinates": {
+                "lat": 33.51926,
+                "lon": 76.98822
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Dzongkhul Monastery",
+              "description": "Spectacular cave monasteries famous in Zanskar.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Dzongkhul_Monastery",
+              "coordinates": {
+                "lat": 33.55,
+                "lon": 76.66
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Padum Valley**. Padum sits at an altitude of 3505 m from the sea level. It is the capital of the ancient Zanskar, and is administrative headquarters of the Zanskar region. Padum has population of 1,500–1,600. Padum is a very scarcely inhabited valley in the Zanskar. Padum is one of the famous trekking destinations in Ladakh.  ( updated Oct 2023 ) \r\n 1 **Rangdum Monastery** .  ( updated Oct 2023 ) \r\n 2 **Stongdey Monastery** ( on the road towards Zabgla, 18 km north from Padum ). There is a community of about 60 Gelukpa monks who are the resident of the Stongdey. Stongdey is the second largest monastic establishment in the Zanskar region and this monastic is inhabited by the community of monks. Tourists can approach this place on foot by the road in about 4 hours. Monastery climb is rather strenuous, but it is worthwhile after seeing the breathtaking natural beauty of the valley.  ( updated Oct 2023 ) \r\n 3 **Dzongkhul Monastery** , Zongkhul . Spectacular cave monasteries famous in Zanskar.  ( updated Oct 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "The Chadar Trek",
+              "description": "The Zanskar Trek is a winter trail located at a very high altitude and one of the best trekking destinations around the world. In Winter, Zanskar river freezes up, and get converted into an amazing adventures trek called _Chadar-The Frozen River Trek_. The traditional name for the Zanskar Trek is Chadar Trek as the river becomes a snow sheet during winters due to heavy snowfall. It boasts of some of the lowest temperatures making it a challenging trek for the adventurers. The most isolated and inaccessible for nearly 8 months during the year due to heavy snowfall. Zanskar has the distinction of being the least interfered with microcosms of Ladakh, and thus one of the last few surviving cultural satellites of Tibet. This geographical isolation together with the esoteric nature of Buddhism practiced here has enabled its ten thousand inhabitants to preserve and perpetuate their cultural identity."
+            }
+          ],
+          "brief": "The Zanskar Trek is a winter trail located at a very high altitude and one of the best trekking destinations around the world. In Winter, Zanskar river freezes up, and get converted into an amazing adventures trek called _Chadar-The Frozen River Trek_. The traditional name for the Zanskar Trek is Chadar Trek as the river becomes a snow sheet during winters due to heavy snowfall. It boasts of some of the lowest temperatures making it a challenging trek for the adventurers. The most isolated and inaccessible for nearly 8 months during the year due to heavy snowfall. Zanskar has the distinction of being the least interfered with microcosms of Ladakh, and thus one of the last few surviving cultural satellites of Tibet. This geographical isolation together with the esoteric nature of Buddhism practiced here has enabled its ten thousand inhabitants to preserve and perpetuate their cultural identity.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Spiritual / Pilgrimage"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:40.246Z"
+      },
+      "search_context": "Mountain / Hills Spiritual / Pilgrimage Zanskar Sightseeing Zanskar is famous for its stunning scenery and Tibetan-style Buddhist monasteries. It is more remote and less densely populated, with less infrastructure than other places in Ladakh. Zanskar, also spelt Zangskar, is a vast region in Ladakh , India .",
+      "travel_facts": {
+        "summary": "**Zanskar** spans **IXL Leh (~252 km)** Kargil meshes toward Padum monastery corridors—Drang Drung glacier tides bias Phuktal trek merges knowing Nimmu–Darcha highway drills absorb Chadar ice-route peaks.",
+        "keywords": [
+          "ixl kargil meshes",
+          "padum monastery corridors",
+          "drang drung glacier tides",
+          "phuktal trek merges",
+          "chadar ice radios",
+          "zanskar valley convoys"
+        ]
+      }
+    }
+  ]
+}

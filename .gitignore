@@ -8,3 +8,19 @@ plan/Project plan.txt
 database/recommendation/CONFIG_LOGIC.md
 database/recommendation/CREDIBILITY_LIST.md
 database/recommendation/SCORE_COMPARISON.md
+
+# Capacitor / Android build artifacts
+node_modules/
+www/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/release/
+*.keystore
+*.jks
+holiday-hacker-release.jks
+android/keystore.properties
+package-lock.json

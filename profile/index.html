@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#f7f6f8"/>
   <title>Holiday Hacker - Profile</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -234,6 +235,95 @@
         </div>
       </section>
 
+      <!-- About / Disclaimer & Contact -->
+      <section class="profile-card profile-card--about" id="profileAboutCard">
+        <div class="profile-card-header">
+          <div class="profile-card-header-start">
+            <span class="profile-card-icon profile-card-icon--about">
+              <span class="material-symbols-outlined">info</span>
+            </span>
+            <h2>Disclaimer &amp; Contact</h2>
+          </div>
+        </div>
+        <div class="profile-card-body profile-about-body">
+
+          <!-- Always-visible summary paragraph -->
+          <div class="profile-about-section">
+            <p>Holiday Hacker is a personal planning assistant that helps you discover Free Holidays, Golden Bridges and Mega Bridges around public and regional holidays, plan destinations to use those windows, and set device reminders for leave application and ticket booking. It runs entirely on your device — there is no account, no cloud sync and no server-side processing of your data.</p>
+          </div>
+
+          <!-- Read-more toggle for the full disclaimer -->
+          <button type="button" class="profile-about-readmore" id="profileAboutReadMore" aria-expanded="false" aria-controls="profileAboutFull">
+            <span class="material-symbols-outlined" id="profileAboutReadMoreChevron">expand_more</span>
+            <span id="profileAboutReadMoreLabel">Read full disclaimer</span>
+          </button>
+
+          <!-- Full disclaimer content (collapsed by default) -->
+          <div class="profile-about-full" id="profileAboutFull" hidden>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Information accuracy</h3>
+              <p>Public holiday lists, regional gazettes, destination details and recommendations bundled with this app are compiled from publicly available sources and may contain errors, omissions, or be partially outdated by the time you use them. Holiday dates for some regions (especially festivals tied to lunar calendars) may shift; banks, employers and schools sometimes follow different lists. Destination descriptions, weather windows, permit requirements and travel-mode data are best-effort and not authoritative.</p>
+              <p><strong>Always verify holiday dates with your employer&rsquo;s HR list, and travel details with the relevant government, transport or hotel websites, before booking tickets or applying for leave.</strong></p>
+            </div>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Recommendations &amp; scoring</h3>
+              <p>Destination suggestions and the ranking shown in Plan are produced by a heuristic scoring engine using your stated travel modes, climate windows, family profile and preferences. They are guidance, not advice; the app cannot guarantee suitability, safety, availability or value for money of any place suggested. Always do your own research before committing to a trip.</p>
+            </div>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Reminders &amp; alarms</h3>
+              <p>Leave-application reminders, booking heads-up notifications (e.g. the 10-minute IRCTC alarm) and the 65-day holiday-planning notification rely entirely on the Android operating system&rsquo;s AlarmManager and notification channels. They <strong>can be delayed, deferred, silenced or dropped</strong> by any of the following, none of which Holiday Hacker can override:</p>
+              <ul class="profile-about-list">
+                <li>Battery optimization / Doze mode (especially on Xiaomi / Redmi / POCO, Realme, Oppo, Vivo / iQOO, Huawei / Honor and similar OEM skins).</li>
+                <li>Do Not Disturb, Focus modes, silent profile or the alarm-stream volume being low or muted.</li>
+                <li>The app being force-stopped, uninstalled, cleared from recent apps aggressively, or having its data cleared.</li>
+                <li>Device reboot before the scheduled time if exact-alarm or boot-completed permissions are revoked.</li>
+                <li>System time / time-zone changes, daylight-saving transitions, or the device being switched off.</li>
+                <li>Future Android updates that further tighten background limits.</li>
+              </ul>
+              <p><strong>Do not rely on Holiday Hacker as your only reminder for time-critical activities such as ticket booking or leave deadlines.</strong> Always set a backup alarm in your phone&rsquo;s native Clock or Calendar app for anything you cannot afford to miss.</p>
+            </div>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Limitation of liability</h3>
+              <p>Holiday Hacker is provided strictly &ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, reliability, completeness or non-infringement. To the maximum extent permitted by applicable law, the developer (Nex Reality) shall not be liable for any direct, indirect, incidental, special, consequential, punitive or exemplary damages arising out of or in connection with your use of, or inability to use, this app — including but not limited to: missed ticket bookings, lost or cancelled trips, missed leave-application deadlines, financial loss, travel disruption, accommodation issues, regulatory or employer-policy violations, or any decision you make based on information or reminders shown by the app. Your sole remedy if you are dissatisfied with the app is to stop using it.</p>
+            </div>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Scope of the app</h3>
+              <p>Holiday Hacker is intended solely as a personal assistant to help you (a) discover potential holiday windows around public / regional holidays, (b) plan candidate destinations for those windows, and (c) receive on-device reminders for leave applications and ticket bookings. It is <strong>not</strong> a travel agent, booking platform, ticket vendor, government holiday register, legal advisor, tax advisor, or financial planner. Treat it as a starting point — then verify everything that materially matters to you with the appropriate authoritative source.</p>
+            </div>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Your data</h3>
+              <p>All of your profile, preferences, selected bridges, planned trips, favorites, custom holidays and reminder settings are stored locally on your device (in browser-storage and the native alarm scheduler). They are not transmitted to any server by this app. App updates from the Play Store will keep this data; uninstalling, clearing app data from Android settings, or tapping &ldquo;Clear all data &amp; reset app&rdquo; below will erase them permanently and is not recoverable.</p>
+            </div>
+
+            <div class="profile-about-section">
+              <h3 class="profile-about-h3">Acceptance</h3>
+              <p>By continuing to use Holiday Hacker, you acknowledge that you have read and accepted this disclaimer. If you do not agree with any part of it, please discontinue use of the app.</p>
+            </div>
+
+          </div>
+
+          <hr class="profile-about-divider"/>
+
+          <!-- Always-visible contact / feedback section -->
+          <div class="profile-about-section">
+            <h3 class="profile-about-h3">Contact &amp; feedback</h3>
+            <p>Found a wrong holiday date, a destination detail that needs correcting, or a feature request? Email us — we read every message.</p>
+            <a class="profile-contact-btn" id="profileContactEmailBtn" href="mailto:info@nexreality.io?subject=Holiday%20Hacker%20feedback">
+              <span class="material-symbols-outlined">mail</span>
+              <span>info@nexreality.io</span>
+            </a>
+            <p class="profile-about-meta">Holiday Hacker by Nex Reality.</p>
+          </div>
+
+        </div>
+      </section>
+
       <!-- Clear Data -->
       <section class="profile-card profile-card--danger">
         <div class="profile-card-header">
@@ -243,19 +333,53 @@
           <h2>Clear Data</h2>
         </div>
         <div class="profile-card-body">
-          <p class="profile-clear-desc">Remove stored data. Resetting personal &amp; calendar will show the onboarding chat again.</p>
+          <p class="profile-clear-desc">Removes everything stored by this app (profile, calendar, holidays, trips, plan, favorites, and reminders). You will start fresh from onboarding.</p>
           <div class="profile-clear-buttons">
-            <button type="button" class="profile-clear-btn" id="profileClearRecommendation">
-              <span class="material-symbols-outlined">recommend</span>
-              Clear Recommendation Preferences
-            </button>
-            <button type="button" class="profile-clear-btn" id="profileClearPersonal">
-              <span class="material-symbols-outlined">restart_alt</span>
-              Clear Personal &amp; Calendar Data
+            <button type="button" class="profile-clear-btn" id="profileClearAllData">
+              <span class="material-symbols-outlined">delete_forever</span>
+              Clear all data &amp; reset app
             </button>
           </div>
         </div>
       </section>
+
+      <!-- Clear-data confirmation modal -->
+      <div class="hh-modal" id="profileClearModal" hidden>
+        <div class="hh-modal__backdrop" data-clear-cancel="1"></div>
+        <div class="hh-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="profileClearModalTitle">
+          <div class="hh-modal__icon">
+            <span class="material-symbols-outlined">warning</span>
+          </div>
+          <h3 class="hh-modal__title" id="profileClearModalTitle">Clear all app data?</h3>
+          <p class="hh-modal__body">This will permanently erase everything stored on this device by Holiday Hacker:</p>
+          <ul class="hh-modal__list">
+            <li>Your profile &amp; onboarding answers</li>
+            <li>Calendar setup, selected bridges and custom holidays</li>
+            <li>Saved trips, plan picks and favorites</li>
+            <li>All scheduled alarms &amp; reminders</li>
+          </ul>
+          <p class="hh-modal__confirm-text">Type <strong>CLEAR</strong> below to confirm:</p>
+          <input
+            type="text"
+            id="profileClearConfirmInput"
+            class="hh-modal__input"
+            autocomplete="off"
+            autocapitalize="characters"
+            autocorrect="off"
+            spellcheck="false"
+            inputmode="text"
+            aria-label="Type CLEAR to confirm"
+          />
+          <p class="hh-modal__hint">This cannot be undone.</p>
+          <div class="hh-modal__actions">
+            <button type="button" class="hh-modal__btn hh-modal__btn--cancel" data-clear-cancel="1">Cancel</button>
+            <button type="button" class="hh-modal__btn hh-modal__btn--danger" id="profileClearConfirmBtn" disabled>
+              <span class="material-symbols-outlined">delete_forever</span>
+              Clear &amp; reset
+            </button>
+          </div>
+        </div>
+      </div>
 
       <div class="profile-footer-meta">
         <p class="profile-last-updated" id="profileLastUpdated"></p>
@@ -288,6 +412,7 @@
     </nav>
   </div>
 
+  <script src="../boot-version.js"></script>
   <script src="profile.js"></script>
 </body>
 </html>

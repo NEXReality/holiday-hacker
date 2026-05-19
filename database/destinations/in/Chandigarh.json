@@ -1,0 +1,805 @@
+{
+  "state": "Chandigarh",
+  "state_code": "CH",
+  "generated_at": "2026-05-18T10:25:10.836Z",
+  "count": 3,
+  "destinations": [
+    {
+      "slug": "chandigarh-mohali",
+      "name": "Mohali",
+      "region": "",
+      "state": "Chandigarh",
+      "coordinates": {
+        "lat": 30.71944,
+        "lon": 76.71806,
+        "source": "wikidata"
+      },
+      "description": "**Mohali** is a satellite city of Chandigarh and is also an administrative district of the Punjab , state in the Plains of India .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Mohali",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mohali",
+        "wikidata": "https://www.wikidata.org/wiki/Q1949069"
+      },
+      "distance_km": 1976,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:18:29.167Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Sahibzada Ajit Singh Nagar",
+        "SAS Nagar",
+        "Ajitgarh",
+        "S.A.S. Nagar"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pracheen_Kala_Kendra_complex%2C_Sector_71%2C_Mohali.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spring%20season%20view%20on%20and%20around%20Chandigarh%20International%20Airport%20road%20%2C%20from%20Banur%20-Landhran%20to%20Mohali%2007.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Shaheed Bhagat Singh International Airport (Chandigarh)",
+          "code": "IXC",
+          "distance_km": 10,
+          "note": "Apron sits in Greater Mohali—confirm terminal relocations when IPL or defence NOTAMs publish"
+        },
+        "nearest_railway_station": {
+          "name": "Mohali (Sahibzada Ajit Singh Nagar) railway station",
+          "distance_km": 4,
+          "note": "Phase-9 halt tying Chandigarh–Delhi Shatabdi stacks with Ambala chord freight"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 40620,
+        "content_richness_score": 0.29
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Mohali Railway Station",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Mohali Railway Station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "International airport",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By bus 1 **Mohali Bus Stand** (The main bus terminal) is located in Sector 8 (Phase 3) \r\n By train 2 **Mohali Railway Station** (Sahibzada Ajitsingh Nagar) is located in Phase 9 \r\n By air 3 **International airport** at Mohali; which is an extension of the Chandigarh International Airport, offers international and domestic service.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Angitha Sahib",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.69552,
+                "lon": 76.72789
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Fateh Burj",
+              "description": "Fateh Burj is the tallest victory tower (minaret) in India, at 328 feet tall.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Fateh_Burj",
+              "coordinates": {
+                "lat": 30.7037,
+                "lon": 76.66839
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Gurudwara Amb Sahib",
+              "description": "A historical shrine commemorating the visit of 7th Guru of Sikhs.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.69918,
+                "lon": 76.7326
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Gurudwara Guru Singh Sabha",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.68759,
+                "lon": 76.71981
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Gurudwara Singh Sahidaan",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.67677,
+                "lon": 76.6872
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Lalan Wala Peer",
+              "description": "An Old Dargah",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Musical Fountain Floral Garden",
+              "description": "Located in the Floral Sculpture Garden",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.75316,
+                "lon": 76.77385
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Rose Garden",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.7121,
+                "lon": 76.72085
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Shiv Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.69457,
+                "lon": 76.73806
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Angitha Sahib** ( Gurdwara Angeetha Sahib ), Phase - 8 .   \r\n 2 **Fateh Burj** ( The Victory Tower ). Fateh Burj is the tallest victory tower (minaret) in India, at 328 feet tall.   \r\n 3 **Gurudwara Amb Sahib**, Phase - 8 . A historical shrine commemorating the visit of 7th Guru of Sikhs.   \r\n 4 **Gurudwara Guru Singh Sabha**, Phase - 1 .   \r\n 5 **Gurudwara Singh Sahidaan**, Sohana .   \r\n **Lalan Wala Peer**, Phase - 1 . An Old Dargah   \r\n 6 **Musical Fountain Floral Garden**. Located in the Floral Sculpture Garden   \r\n 7 **Rose Garden**.   \r\n 8 **Shiv Mandir**, Phase - 1 .",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Cricket:** 1 ** Inderjit Singh Bindra Stadium **, Sukhna Path , ☏ +91 172 223 2300 . Built in 1993, for the time being this hosts Punjab Kings in the Indian Premier League, but they are expected to move to Maharaja Yadavindra Singh Stadium in Mullanpur, Chandigarh . The ground (capacity 45,000) has unusually low-set floodlights to avoid dazzling aircraft at nearby Chandigarh airport, but its main problem in that it's hemmed in by housing.  ( updated Sep 2023 )",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:02.214Z",
+        "wikipedia_summary": "Mohali, officially Sahibzada Ajit Singh Nagar or  Ajitgarh, is a planned city in the Mohali district in Punjab, India, which is an administrative and a commercial hub lying south-west of Chandigarh. It is the headquarters of the Mohali district and one of the six Municipal Corporations of the State. It is officially named after Sahibzada Ajit Singh, the eldest son of Guru Gobind Singh.",
+        "wikipedia_description": "City in Punjab, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:02.507Z"
+      },
+      "search_context": "City / Urban city Mohali Sahibzada Ajit Singh Nagar SAS Nagar Ajitgarh S.A.S. Nagar Sightseeing Mohali, officially Sahibzada Ajit Singh Nagar or Ajitgarh, is a planned city in the Mohali district in Punjab, India, which is an administrative and a commercial hub lying south-west of Chandigarh. It is the headquarters of the Mohali district and one of the six Municipal Corporations of the State. It is officially named after Sahibzada Ajit Singh, the eldest son of Guru Gobind Singh. Mohali is a satellite city of Chandigarh and is also an administrative district of the Punjab , state in the Plains of India .",
+      "travel_facts": {
+        "summary": "**Mohali (SAS Nagar)** wraps **IXC’s apron** and **Mohali station** into one Punjab Kings–scaled suburb—NH grids fuse Chandigarh sectors before Shimla/Manali forks. Cricket-night peaks and airport curfew noise ripple across Phase roads—bias prepaid taxis when IPL crowds jam airport spur.",
+        "keywords": [
+          "IXC Mohali apron",
+          "Mohali Phase-9 rail",
+          "Chandigarh tricity buses",
+          "NH Shimla fork timing",
+          "IPL stadium surge",
+          "defence NOTAM windows"
+        ]
+      }
+    },
+    {
+      "slug": "chandigarh-morni",
+      "name": "Morni",
+      "region": "",
+      "state": "Chandigarh",
+      "coordinates": {
+        "lat": 30.7,
+        "lon": 77.08333,
+        "source": "wikidata"
+      },
+      "description": "**Morni** is a village (hill station) located in the **Morni Hills** in Haryana.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Morni",
+        "wikipedia": "https://en.wikipedia.org/wiki/Morni",
+        "wikidata": "https://www.wikidata.org/wiki/Q6912758"
+      },
+      "distance_km": 1972,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:18:29.167Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Shaheed Bhagat Singh International Airport (Chandigarh)",
+          "code": "IXC",
+          "distance_km": 48,
+          "note": "Panchkula–Barwala road splice—winter fog routinely delays hill taxis leaving the apron"
+        },
+        "nearest_railway_station": {
+          "name": "Chandigarh Junction",
+          "distance_km": 42,
+          "note": "Major IR dock before HR Roadways buses or Panchkula taxi relays climb Morni ghats"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 13181,
+        "content_richness_score": 0.094
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Morni is Haryana's only hill station. It's a totally different experience to Kasauli and similar towns which are within an hour's drive of Chandigarh . The vegetation is subtropical forest. On the winding road (with almost no villages or houses by the sides) leading to Morni there is an outstanding but rarely visited bird and wildlife area.\r\n\nMorni Hills have a fascinating range of flora and fauna. Pines crown the hilltops and trees like Sal, Neem, Mango, Ritha, Pipal, Jamun, Shisham, Amaltas and jacaranda cover the slopes. When the flowering trees blossom, the hillsides are awash with colour, presenting a delightful sight. Morni is a paradise for wildlife enthusiasts and birdwatchers with its teeming population of birds like the wallcreeper, crested kingfisher, bar-tailed treecreeper, blue peafowl, kalij pheasant, red junglefowl, grey francolin, black francolin, quails, Himalayan bulbul and oriental turtle dove as well as animals like jackals, langur monkeys, hares, hyenas, neelgai, wild boar, _kakad_ (barking dear), sambar and even leopards.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "There are several Haryana Roadways buses a day from Chandigarh or Panchkula . The journey is about an hour.\r\n\nTaxis can easily be hired from Chandigarh or Panchkula for the day. The rate is usually ₹6 per kilometre. There are several taxi stands in Panchkula, notably Sectors 10 and 20.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Tikkar Taal",
+              "description": "A popular destination, they are also home to the region's first adventure park. The park, which lies on the bank of the smaller of the 2 Tikkar lakes, was set up by Haryana Tourism in 2004, with the intention of promoting adventure tourism in the lower Himalayan region. It offers a range of activities from low ropes, commando nets, Burma bridge, rappelling &amp; rock-climbing. It also has a tree house, fountains and a cafeteria.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 30.657,
+                "lon": 77.0803
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Tikkar Taal** ( Tikkar Lake ) ( around 7 km from Morni town ). A popular destination, they are also home to the region's first adventure park. The park, which lies on the bank of the smaller of the 2 Tikkar lakes, was set up by Haryana Tourism in 2004, with the intention of promoting adventure tourism in the lower Himalayan region. It offers a range of activities from low ropes, commando nets, Burma bridge, rappelling &amp; rock-climbing. It also has a tree house, fountains and a cafeteria.  ( updated Aug 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "The usually drinks are available as in the rest of Haryana especially beer."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:03.063Z",
+        "wikipedia_summary": "Morni is a village and tourist attraction in the Morni Hills in the Panchkula district of the northern Indian state of Haryana. The village lies at a height of 1,267 metres (4,157 ft) above sea level and is located around 45 kilometres (28 mi) from Chandigarh and 35 kilometres (22 mi) from Panchkula city. It is known for its view of the distant Himalayas, as well as its flora and lakes.\nThe name \"Morni\" is believed to derive from a queen who once ruled the area two thousand years ago. She was said to be a just and noble ruler. Morni was also a jagir of Raja Mir Syed Muhammad Baquar Ali Khan.In the Morni Hills ilaka, landholding patterns reflected a caste-based agrarian structure. Kanets held the majority share, occupying approximately 60% of cultivated land, followed by Gaur Brahmins with around 24%, and Gujars with about 16%. Holdings were predominantly small, typically ranging between four to five acres, and were chiefly cultivated by the proprietors themselves, indicating a system of direct subsistence agriculture with limited reliance on tenant labor.",
+        "wikipedia_description": "Village in India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:03.366Z"
+      },
+      "search_context": "Mountain / Hills Wildlife / Nature destination Morni Sightseeing Morni is a village and tourist attraction in the Morni Hills in the Panchkula district of the northern Indian state of Haryana. The village lies at a height of 1,267 metres (4,157 ft) above sea level and is located around 45 kilometres (28 mi) from Chandigarh and 35 kilometres (22 mi) from Panchkula city. It is known for its view of the distant Himalayas, as well as its flora and lakes. The name \"Morni\" is believed to derive from a queen who once ruled the area two thousand years ago. She was said to be a just and noble ruler. Morni was also a jagir of Raja Mir Syed Muhammad Baquar Ali Khan.In the Morni Hills ilaka, landholding patterns reflected a caste-based agrarian structure. Kanets held the majority share, occupying approximately 60% of cultivated land, followed by Gaur Brahmins with around 24%, and Gujars with about 16%. Holdings were predominantly small, typically ranging between four to five acres, and were chiefly cultivated by the proprietors themselves, indicating a system of direct subsistence agriculture with limited reliance on tenant labor. Morni is Haryana's only hill station. It's a totally different experience to Kasauli and similar towns which are within an hour's drive of Chandigarh . The vegetation is subtropical forest. On the winding road (with almost no villages or houses by the sides) leading to Morni there is an outstanding but rarely visited bird and wildlife area. Morni Hills have a fascinating range of flora and fauna. Pines crown the hilltops and trees like Sal, Neem, Morni is a village (hill station) located in the Morni Hills in Haryana.",
+      "travel_facts": {
+        "summary": "**Morni** stays road-first: **Haryana Roadways** pushes hourly stacks from **Chandigarh/Panchkula (~45 km plains hop)** before winding Shivalik pockets toward **Tikkar Taal**. Mist belts and loose gravel merit daylight ascent—skip chasing trains; birdsong hikes reward slack tyre budgets.",
+        "keywords": [
+          "HR Roadways Panchkula",
+          "Chandigarh taxi relays",
+          "Morni ghat curves",
+          "Tikkar Taal spur roads",
+          "IXC fog contingencies",
+          "birding trail timings"
+        ]
+      }
+    },
+    {
+      "slug": "chandigarh-panchkula",
+      "name": "Panchkula",
+      "region": "",
+      "state": "Chandigarh",
+      "coordinates": {
+        "lat": 30.69444,
+        "lon": 76.85028,
+        "source": "wikidata"
+      },
+      "description": "**Panchkula** is a city in Haryana .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar plains; hills Apr–Jun & Sep–Nov",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "north_india_general"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Panchkula",
+        "wikipedia": "https://en.wikipedia.org/wiki/Panchkula",
+        "wikidata": "https://www.wikidata.org/wiki/Q882172"
+      },
+      "distance_km": 1972,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T13:18:29.167Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Cactus_(1932937161).jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yagya%20Shala%2C%20within%20the%20Mansa%20Devi%20temple%20complex%2C%20Panchkula%20near%20Chandigarh.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          6,
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "8–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Shaheed Bhagat Singh International Airport (Chandigarh)",
+          "code": "IXC",
+          "distance_km": 14,
+          "note": "Tri-city apron southwest—factor Zirakpur choke when Punjab agricultural traffic peaks"
+        },
+        "nearest_railway_station": {
+          "name": "Chandigarh Junction",
+          "distance_km": 11,
+          "note": "Capital-region flagship yard—short taxi or shuttle hops across Sukhna Lake corridors"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 15880,
+        "content_richness_score": 0.113
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Panchkula is more a suburb of the city of Chandigarh than an independent city. The three cities of Chandigarh, Panchkula (in Haryana) and Mohali (in Punjab ) constitute one metropolitan area.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Panchkula shares an airport and a train station with Chandigarh, but has its own bus stand.\r\nIt lies on the Kalka-Ambala road.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Panchkula is 5 km from Chandigarh.\r\n\nThe bus stand of Panchkula is in Sector 5 Panchkula. People like to catch buses within the city from bus-stops that are there on all main roads dividing the sectors.\r\n\nA bus from Chandigarh to Panchkula costs around ₹16–₹20. A taxi costs around ₹100-₹150.\r\n\nThere many taxi stands in Panchkula, in Sector 14, Sector 8.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Cactus Garden",
+              "description": "This is the largest succulent botanical garden of Asia. Situated in the heart of the city of Panchkula, it covers a total area of 7 acres. The Cactus Garden is known for its rare &amp; endangered species of Indian succulents. You can spot nearly 3500 different kinds of species over there. Chandigarh Cactus Garden was set up in the year 1987. This unique garden consists of three green houses. It has been drawing more and more crowds every year, consisting not just of tourists, but botanists also.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "A ticket is required for entry"
+            }
+          ],
+          "brief": "**Cactus Garden** ( Sector 5 (city centre) ). 10:00 to 17:00 . This is the largest succulent botanical garden of Asia. Situated in the heart of the city of Panchkula, it covers a total area of 7 acres. The Cactus Garden is known for its rare &amp; endangered species of Indian succulents. You can spot nearly 3500 different kinds of species over there. Chandigarh Cactus Garden was set up in the year 1987. This unique garden consists of three green houses. It has been drawing more and more crowds every year, consisting not just of tourists, but botanists also. A ticket is required for entry .   \r\nSector 5 of Panchkula has a couple of exotic gardens that mark the greenery of Panchkula. Sector 5 is the heart of city, it almost lies in the centre and is surrounded by 8 sectors.\r\n\nYavnika open-theatre and adjoining park.\r\n\nVatika Gardens along with City Fountains.\r\nPanchkula is an upcoming city with a lot of movie theatres and shopping malls in and around the city.\r\n\n1.Fun Republic in Manimajra, opposite Sector - 7 Panchkula.\r\n2. Shallimaar Mall opposite Sector - 8 Panchkula.\r\n3. Bella Vista opposite Sector 6 &amp; Sector 2 on the Tank Chowk.\r\n4. DT Cinemas IT Park.\r\n5. Paras DownSquare and Adlabs Multiplex, Zirakpur 5 km from Panchkula.\r\n6.PVR in Chandigarh Industrial Area Phase-I.\r\n\n\r\n **Chhatbir zoo is one of the best place to visit. A good place to go with family and no headache of roaming as they have battery cars all over another car comes in next one minute.**",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:03.927Z",
+        "wikipedia_summary": "Panchkula is a city and district headquarter in the Panchkula district in Haryana, India. It is a satellite city of the state capital Chandigarh. Panchkula is a border city with Punjab, Chandigarh and Himachal Pradesh. The origin of the name Panchkula came from \"the place where five irrigation canals meet\". It is approximately 4 kilometres (2.5 mi) southeast of Chandigarh, 105 km (65 mi) southwest of Shimla, 44 km (27 mi) from Ambala and 259 km (161 mi) northeast of New Delhi, the national capital. It is a part of the Chandigarh capital region or Greater Chandigarh. The Chandigarh-Mohali-Panchkula metropolitan region collectively forms a Chandigarh Tricity, with a combined population of over 2 million.",
+        "wikipedia_description": "City in Haryana, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:03.978Z"
+      },
+      "search_context": "City / Urban destination Panchkula Sightseeing Panchkula is a city and district headquarter in the Panchkula district in Haryana, India. It is a satellite city of the state capital Chandigarh. Panchkula is a border city with Punjab, Chandigarh and Himachal Pradesh. The origin of the name Panchkula came from \"the place where five irrigation canals meet\". It is approximately 4 kilometres (2.5 mi) southeast of Chandigarh, 105 km (65 mi) southwest of Shimla, 44 km (27 mi) from Ambala and 259 km (161 mi) northeast of New Delhi, the national capital. It is a part of the Chandigarh capital region or Greater Chandigarh. The Chandigarh-Mohali-Panchkula metropolitan region collectively forms a Chandigarh Tricity, with a combined population of over 2 million. Panchkula is more a suburb of the city of Chandigarh than an independent city. The three cities of Chandigarh, Panchkula (in Haryana) and Mohali (in Punjab ) constitute one metropolitan area. Panchkula is a city in Haryana .",
+      "travel_facts": {
+        "summary": "**Panchkula** mirrors Chandigarh logistics: **IXC (~14 km)** plus **Chandigarh Junction (~11 km)** while Sector-5 bus anatomy feeds Mansa Devi hops toward **Kalka–Shimla** spurs. Ambala NH merges spike long-weekend hill traffic—book outbound lanes before dawn convoys.",
+        "keywords": [
+          "IXC tri-city apron",
+          "Chandigarh Junction taxis",
+          "Sector 5 bus grid",
+          "Kalka Shimla connectors",
+          "Ambala NH merges",
+          "Mansa Devi ridge hops"
+        ]
+      }
+    }
+  ]
+}

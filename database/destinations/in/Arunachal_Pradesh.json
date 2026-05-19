@@ -1,0 +1,2436 @@
+{
+  "state": "Arunachal Pradesh",
+  "state_code": "AR",
+  "generated_at": "2026-05-18T10:17:27.935Z",
+  "count": 10,
+  "destinations": [
+    {
+      "slug": "arunachal-pradesh-bhalukpong",
+      "name": "Bhalukpong",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.01,
+        "lon": 92.65,
+        "source": "wikidata"
+      },
+      "description": "**Bhalukpong** is a small town located at the border of Assam and Arunachal Pradesh in India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bhalukpong",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bhalukpong",
+        "wikidata": "https://www.wikidata.org/wiki/Q4900928"
+      },
+      "distance_km": 2212,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_Momo_dipped_in_curry_at_Hotel_Solu_in_Bhalukpong%2C_Arunachal_Pradesh.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhalukpong.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Tezpur Airport (Salonibari)",
+          "code": "TEZ",
+          "distance_km": 52,
+          "note": "Assam-side staging ~52 km by NH toward Kameng gorge checkpoints"
+        },
+        "nearest_railway_station": {
+          "name": "Bhalukpong railway station (BHNG)",
+          "distance_km": 2,
+          "note": "NFR Rangiya–Murkongselek branch; verify Rangiya connections"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 14033,
+        "content_richness_score": 0.1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Part of Bhalukpong is in Assam and part in Arunachal Pradesh. The place remains highly under-explored. It lies on the Tezpur – Bomdila route (52 km/32 mi from Tezpur and 100 km/62 mi from Bomdila). All tourists visiting Arunachal Pradesh through the Tezpur–Bomdila route have to show their ILP/PAP at the check post here. Although lodges are available in the Assam part of the town, you still need to have an ILP/PAP to visit the parts of town in Arunachal Pradesh.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "From Tezpur, taxis and buses run to Bhalukpong. Any vehicle going to Bomdila from Tezpur will pass through Bhalukpong. Alternately, one can come over to Balipara (20 km/12 mi from Tezpur) and catch the buses that ply on the Itanagar -Bomdila route and alight at Bhalukpong.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Bhalukpong is a small town and can be covered on foot. Alternately you can hire one of the taxis standing at the taxi stand just past the check post to take you around.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Bichum reservoir** \r\n **Pakke Tiger Reserve** also known as Pakhui Wildlife Sanctuary and Pakhui Tiger reserve is a 862 sq. km. (332 sq mi) wildlife sanctuary. Tourists can either go on a day trip or even better can stay at one of the forest lodges for which booking should be made in advance. Note that tourism is not much developed in this area and even locals will not know much about getting inside the reserve. It is advisable to contact local forest office at either Bhalukpong or Seijosa for arranging night stay inside the reserve well in advance. \r\n **Tipi Orchid Research Center** Around 6 km (4 mi) from Bhalukpong check post, Tipi Orchid research center is home to over 450 species of orchids. The best time to visit the center is in April-May when orchids are in full bloom. A to and fro taxi journey should not cost more than ₹300-400 in total.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "River Rafting",
+              "description": ""
+            },
+            {
+              "name": "Trekking",
+              "description": ""
+            }
+          ],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There are multiple wine shops all over the town."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Prasanati tourist lodge",
+              "description": "This is a great place to stay. Constructed by Assam tourism development corporation, the complex is located in a huge space on the bank of Jia Bharali river offering excellent mountain and river view. Prices from ₹400 to 2000.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:26.075Z",
+        "wikipedia_summary": "Bhalukpung is a small town located along the southern reaches of the Himalayas in West Kameng district of Arunachal Pradesh in India. The town is located at 213m above sea level, 100 km from Bomdila, 52 km from Tezpur and 5 km from Tipi. It lies along the Kameng river and is the headquarters of Bhalukpung circle. A road leads to Bomdila via the Tipi Orchidariurm, and the inner line check post is located at Bhalukpung.\nIt has a railway station namely Bhalukpong Railway Station, connected to Rangiya Murkongselek rail line at Balipara. It has 3 platforms. One pair of trains runs daily to and from here.",
+        "wikipedia_description": "Town in Arunachal Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:26.373Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills Wildlife / Nature destination Bhalukpong Sightseeing Bhalukpung is a small town located along the southern reaches of the Himalayas in West Kameng district of Arunachal Pradesh in India. The town is located at 213m above sea level, 100 km from Bomdila, 52 km from Tezpur and 5 km from Tipi. It lies along the Kameng river and is the headquarters of Bhalukpung circle. A road leads to Bomdila via the Tipi Orchidariurm, and the inner line check post is located at Bhalukpung. It has a railway station namely Bhalukpong Railway Station, connected to Rangiya Murkongselek rail line at Balipara. It has 3 platforms. One pair of trains runs daily to and from here. Part of Bhalukpong is in Assam and part in Arunachal Pradesh. The place remains highly under-explored. It lies on the Tezpur – Bomdila route (52 km/32 mi from Tezpur and 100 km/62 mi from Bomdila). All tourists visiting Arunachal Pradesh through the Tezpur–Bomdila route have to show their ILP/PAP at the check post here. Although lodges are available in the Assam part of the town, you still need to have an ILP/PAP to visit the parts of town in Aru Bhalukpong is a small town located at the border of Assam and Arunachal Pradesh in India .",
+      "travel_facts": {
+        "summary": "**Bhalukpong** sits on the Assam–Arunachal **Inner Line** checkpoint along the Tezpur–Bomdila highway: most flyers stage through **Tezpur TEZ (~52 km)** then taxi or ASTC-linked buses. **BHNG** on NFR’s Rangiya–Murkongselek line runs thin commuter pairs—plan Rangiya connections rather than suburban-frequency assumptions. Jun–Sep Kameng valley slips can idle convoys around Tipi orchid detours.",
+        "keywords": [
+          "Tezpur TEZ staging",
+          "BHNG rail spur",
+          "ILP Kameng checkpoint",
+          "Pakke tiger corridor",
+          "monsoon slips",
+          "Tipi orchid detours"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-bomdila",
+      "name": "Bomdila",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.26278,
+        "lon": 92.42111,
+        "source": "wikidata"
+      },
+      "description": "**Bomdila** is a scenic mountainside town in Arunachal Pradesh , and the headquarters of West Kameng district.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bomdila",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bomdila",
+        "wikidata": "https://www.wikidata.org/wiki/Q859141"
+      },
+      "distance_km": 2214,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Bomdila, India"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bomdila.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Tezpur Airport (Salonibari)",
+          "code": "TEZ",
+          "distance_km": 180,
+          "note": "Road haul west Kameng ridge (~5 h Sumo); landslides add daylight buffers"
+        },
+        "nearest_railway_station": {
+          "name": "Rangapara North Junction (RPAN)",
+          "distance_km": 145,
+          "note": "Assam Rangiya-division railhead—still long hill taxi to Bomdila"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 13881,
+        "content_richness_score": 0.099
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By car Bomdila can be reached from Tezpur (180 km/112 mi) by road. The road is mostly smooth as of April 2023, so travel should take less than 5 hours without stops if you are not held up by untimely landslides or major road repairs (which can sometimes require you to wait for an hour to pass).\r\n\nIf returning from Tawang (160 km/99 mi), the travel takes about 4-5 hours depending on the prevalent condition of the road.\r\n\n\r\n By shared taxi Shared Tata Sumo taxis ply on this route. The fare is ₹500-700 (Apr 2023) from Tezpur to Bomdila. The official counter is located inside Tezpur's Assam State Transport Corporation bus stand (A.S.T.C). It is advisable to make the booking and get a seat number a day in advance as the service is not very reliable and also can fill up. The taxis leave A.S.T.C at 5:30AM to Tawang via Bomdila and 11:30AM to Bomdila only. However, drivers may refuse to take foreign travelers in the 11:30 slot due to fears of delays of an hour or more at the Arunachal state border for checking documents, which means arriving in Bomdila after nightfall. However, the process of crossing the state border can be as quick as 5 to 10 minutes if the gate staff aren't busy.\r\n\n\r\n By bus From Tezpur, Bomdila can also be reached by bus. One needs to first go to Balipara which is about 20 km (12 mi) from Tezpur A.S.T.C. Shared Tata Ace Magics ply on Tezpur-Balipara route (rate ₹15 per head). There is a daily Itanagar- Bomdila bus that passes through Balipara at around 11AM. The bus is generally crowded.\r\n\nThere are also buses running directly between Guwahati and Bomdila, but best to check with them first if you're a foreign traveler, as your presence will require them to stop longer at the entrance to Arunachal Pradesh state.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Bomdila is a very small place and walking is the best way to get around the town. It is advisable to hire a taxi to go to the Upper Gompa. (about 4 km/2.5 mi) by road, ₹100). Taxis can be hired from the taxi stand situated just beyond the main market.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "There are three monasteries in and around Bomdila. Locals call them Gompa. It is always best to ask directions to Gompa than saying monastery. \r\n\n**Lower Gompa**: This Gompa is situated just beyond the main market. The taxi stand and the Lower Gompa are situated on opposite ends of the main market. It is a very simple monastery. One can give it a miss if time is of the essence.\r\n\n**Middle Gompa**: This Gompa is situated about 1.5 km (0.9 mi) from the main market.\r\n\n**Upper Gompa** (labeled \"Bomdila Monastery\" on many maps): This Gompa is the most majestic of the three. It is situated about 5 km (3 mi) from the Market. One can hire a taxi from the taxi stand to go this Gompa.\r\n\n**Crafts Centre**: Crafts centre is situated just opposite the Lower Gompa. Local handicrafts are showcased here.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Spiritual / Pilgrimage"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:26.927Z"
+      },
+      "search_context": "Mountain / Hills Spiritual / Pilgrimage destination Bomdila Bomdila, India Sightseeing Bomdila is a scenic mountainside town in Arunachal Pradesh , and the headquarters of West Kameng district.",
+      "travel_facts": {
+        "summary": "**Bomdila** is West Kameng’s ridge hub reached chiefly by **shared Sumos or buses climbing from Tezpur (~180 km / ~5 h)**; book ASTC counters early because afternoon departures may skip travellers needing longer Arunachal paperwork stops. **Guwahati GAU** flyers still converge on Tezpur before the climb—there is no district airport bypass. Ice glaze near upper gompas and debris on NH segments reward spare travel days.",
+        "keywords": [
+          "Tezpur Sumo ladders",
+          "West Kameng NH climbs",
+          "gompa taxi hops",
+          "border paperwork delays",
+          "Guwahati GAU staging",
+          "winter ice glaze"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-deomali",
+      "name": "Deomali",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.15857,
+        "lon": 95.47816,
+        "source": "wikidata"
+      },
+      "description": "**Deomali** is a village in Arunachal Pradesh , India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Deomali",
+        "wikipedia": "https://en.wikipedia.org/wiki/Deomali",
+        "wikidata": "https://www.wikidata.org/wiki/Q1190872"
+      },
+      "distance_km": 2439,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dibrugarh Airport",
+          "code": "DIB",
+          "distance_km": 65,
+          "note": "NH-linked taxi pushes toward Naharkatiya/Tirap interfaces"
+        },
+        "nearest_railway_station": {
+          "name": "Tinsukia Junction",
+          "distance_km": 42,
+          "note": "Broad-gauge trunk from Guwahati—hire cars finish toward foothill roads"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 9954,
+        "content_richness_score": 0.071
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "This place is near an Assam town named Naharkatia . The place can be reached only via roads. The nearest airport location is Dibrugarh .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Budha Monastery",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "WRD Office",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "There is nothing much to see in this small town except that the place by itself is very beautiful with lot of tropical forests, wild elephants and the zig-zag road. Nearby Narottam Nagar is where the Rama Krishna Mission School is located. This is one of the best schools available apart from Sharada Mission school, which is only for girls.\r\n\nThis place is a treat for environmentalists, biologists, and nature lovers with several varieties of fruits and rich flora and fauna.\r\n\n\r\n **Budha Monastery**, Deomali Bazar ( Near Petrol Pump ).   \r\n **WRD Office**.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:27.771Z"
+      },
+      "search_context": "Mountain / Hills Wildlife / Nature destination Deomali Sightseeing Deomali is a village in Arunachal Pradesh , India .",
+      "travel_facts": {
+        "summary": "**Deomali** is Upper Assam forest fringe accessed solely by road after **Dibrugarh DIB (~65 km)** or **Tinsukia rail (~42 km)** hops toward Naharkatiya-country feeders. **ILP compliance** still governs Arunachal segments—drivers occasionally refuse unsigned foreigners at short notice. Night driving through elephant-heavy plantations is discouraged.",
+        "keywords": [
+          "DIB taxi staging",
+          "Tinsukia rail bridge",
+          "Naharkatiya feeders",
+          "ILP Tirap circle",
+          "elephant corridors",
+          "monsoon washouts"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-dirang",
+      "name": "Dirang",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.36222,
+        "lon": 92.24083,
+        "source": "wikidata"
+      },
+      "description": "**Dirang** is a town in West Kameng district of Arunachal Pradesh , lying on the floor of a low valley between the higher mountain towns Bomdila and Tawang . The town is best known for the nearby Dirang Dzong historic fortress, as well as its pleasant scenery, surrounded by wooded slopes with a rushing mountain river running right by the town.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dirang",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dirang",
+        "wikidata": "https://www.wikidata.org/wiki/Q14213565"
+      },
+      "distance_km": 2209,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Tezpur Airport (Salonibari)",
+          "code": "TEZ",
+          "distance_km": 138,
+          "note": "Approximate road km via Bomdila staging (~40 km short hop)"
+        },
+        "nearest_railway_station": {
+          "name": "Rangapara North Junction (RPAN)",
+          "distance_km": 125,
+          "note": "Same Assam rail funnel as Bomdila circuit"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 13062,
+        "content_richness_score": 0.093
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Sumos from Bomdila run every day around 11am-midnight and cost Rs.250 (Apr 2023). There are also sumos from Tawang and even direct from Guwahati and Tezpur , but if you're a foreign traveler coming from Assam make sure to state that clearly, as some may not want to spend time submitting your papers at the border of Arunachal Pradesh.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The town itself is easily small enough to walk around, though Dirang Dzong and some of the hotels and homestays are a bit farther out. Most tourists come here on a tour or with their own car, but it may be possible to hire a taxi locally.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Palyul Changchub Dargyeling Monastery",
+              "description": "A modern monastery in the Nyingma school of Tibetan Buddhism.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Mandala Top",
+              "description": "A modern Buddhist monument made up of 108 stupas arranged in a circle on a mountaintop. The surrounding areas popular with birdwatchers.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Dirang Dzong**. A hilltop fortress village constructed in 1831 and said to be the site of a much older defensive fort. The entry gate and various stone houses are intact, but most of the wall is gone, and there is zero tourist infrastructure - you will be walking around a very intimate still-occupied neighborhood, so be respectful. Located about 5 km east of the Dirang town center, along the main highway in what's sometimes called \"Dirang Village\". The hilltop is accessible only by stairs, and the entrance is hidden between two multi-story modern buildings. \r\n **Hot water spring** 2 km (1.2 mi) from the Dirang Bazar \r\n **Kalachakra Monastery**. A 500-year-old monastery in the Gelugpa school of Tibetan Buddhism. Located above the village. \r\n **Palyul Changchub Dargyeling Monastery**, ☏ +91 3780 242-162 . A modern monastery in the Nyingma school of Tibetan Buddhism.   \r\n **Mandala Top** ( 108 Manes ) ( 27 kilometers up the Mandala road from Dirang Dzong ). A modern Buddhist monument made up of 108 stupas arranged in a circle on a mountaintop. The surrounding areas popular with birdwatchers.  ( updated Apr 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:28.613Z",
+        "wikipedia_summary": "Dirang or simply Dirang H.Q. is a town on NH-13 in the district of West Kameng in the Indian state of Arunachal Pradesh. It is the location of the National Institute of Mountaineering and Adventure Sports (NIMAS). It is the location of a major geothermal power project and is proposed to become the first geothermal powered town in India.",
+        "wikipedia_description": "Town in Arunachal Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:28.665Z"
+      },
+      "search_context": "Mountain / Hills destination Dirang Sightseeing Dirang or simply Dirang H.Q. is a town on NH-13 in the district of West Kameng in the Indian state of Arunachal Pradesh. It is the location of the National Institute of Mountaineering and Adventure Sports (NIMAS). It is the location of a major geothermal power project and is proposed to become the first geothermal powered town in India. Dirang is a town in West Kameng district of Arunachal Pradesh , lying on the floor of a low valley between the higher mountain towns Bomdila and Tawang . The town is best known for the nearby Dirang Dzong historic fortress, as well as its pleasant scenery, surrounded by wooded slopes with a rushing mountain river runni",
+      "travel_facts": {
+        "summary": "**Dirang** lies mid-valley on **NH13 between Bomdila and Tawang**, usually reached by **daily Bomdila Sumos (~40 km)** or private hires continuing from Tezpur stacks. Foreign travellers should confirm drivers accept **Arunachal gate paperwork delays**. Dzong, hot springs and NIMAS-linked logistics fit best outside peak Jul–Sep closures.",
+        "keywords": [
+          "NH13 Bomdila Sumos",
+          "Tezpur staging",
+          "Dirang Dzong access",
+          "foreigner paperwork gates",
+          "NIMAS valley hub",
+          "pre-Sela weather windows"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-itanagar",
+      "name": "Itanagar",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.1,
+        "lon": 93.62,
+        "source": "wikidata"
+      },
+      "description": "**Itanagar** is the capital of Arunachal Pradesh .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Itanagar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Itanagar",
+        "wikidata": "https://www.wikidata.org/wiki/Q41128"
+      },
+      "distance_km": 2291,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "the land of dawn-lit mountains",
+        "Itanagara"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ita_fort_itanagar_161010_(3).jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Itanagar%20town%2001.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Donyi Polo Airport (Hollongi)",
+          "code": "HGI",
+          "distance_km": 15,
+          "note": "Capital apron east—share taxis bridge downtown circuits"
+        },
+        "nearest_railway_station": {
+          "name": "Naharlagun railway station (NHLN)",
+          "distance_km": 15,
+          "note": "Guwahati Shatabdi / Donyi Polo Express patterns—book peak quotas"
+        },
+        "road_access_quality": "average",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Mumbai",
+          "Dibrugarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 30074,
+        "content_richness_score": 0.215
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Donyi Polo Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Donyi_Polo_Airport,_Itanagar",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Donyi Polo Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Donyi_Polo_Airport,_Itanagar",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Donyi Polo Airport** ( **HGI **  IATA , Hollongi Airport, Itanagar Airport ). Daily flights from Dibrugarh , Kolkata , Mumbai , Pasighat and Ziro .  ( updated Dec 2022 ) \r\nAnother option is Lilabari Airport (** IXI **  IATA ) in Lakhimpur (67 km (42 mi)).\r\n\n\r\n By bus Overnight super express buses connect Itanagar with Guwahati and takes about 12 hours. Arunachal State Transport buses connect Itanagar with other North East cities in India.\r\n\n\r\n By train Naharlagun is the nearest railway station, which is nearly 15 km. away from the city. Taxi and bus services are easily available from the railway station to Itanagar. Donyi Polo Express can be availed which runs on all days of a week from Guwahati and Shatabdi Express is available thrice a week from Guwahati. \r\n\n\r\n Inner Line Permit Before you enter Arunachal Pradesh you need to get an inner line permit either from Arunachal Bhavan located at New Delhi or in Kolkata. There is a checkpost at the Assam Arunachal Border in Bandardowa where you need to show the permit and explain your reason for travelling. Foreign tourists too need to get this permit before they can enter in the city.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Buddhist Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Ganga Lake",
+              "description": "A green lake popular for its scenic beauty and a place for recreation and picknicking",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ganga_Lake_(India)",
+              "coordinates": {
+                "lat": 27.07478,
+                "lon": 93.56798
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Indira Gandhi Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.09842,
+                "lon": 93.62114
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Ita Fort",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Jawaharlal Nehru State Museum",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru_Museum,_Itanagar",
+              "coordinates": {
+                "lat": 27.10202,
+                "lon": 93.625
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Buddhist Temple**.   \r\n 1 **Ganga Lake** ( Geker Sinying ). A green lake popular for its scenic beauty and a place for recreation and picknicking   \r\n 2 **Indira Gandhi Park**.   \r\n **Ita Fort**.   \r\n 3 **Jawaharlal Nehru State Museum** ( State Museum ).",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Rafting**",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Cafe Vantage Point",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Arun Subansiri",
+              "description": "",
+              "price": "From ₹700"
+            },
+            {
+              "name": "Hotel Donyi Polo Ashok",
+              "description": "Hotel with 18 rooms with heater, TV with international channels, and fridge in some. The hotel is partly renovated, and the rest of the rooms could do with a renovation too. Has a restaurant serving Indian, Chinese and Western food with extensive out-door catering facilities. A bar is also available.",
+              "price": "Doubles from ₹2,700"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:29.228Z"
+      },
+      "search_context": "City / Urban city Itanagar the land of dawn-lit mountains Itanagara Sightseeing Itanagar is the capital of Arunachal Pradesh .",
+      "travel_facts": {
+        "summary": "**Itanagar** pairs **Donyi Polo HGI (~15 km)** with **Naharlagun NHLN (~15 km)** for the state’s fastest capital stack; overnight **Guwahati–Itanagar buses (~12 h)** remain the budget spine. **Lilabari IXI (~67 km)** covers turboprop redundancy when Hollongi fog cancels. Process **ILP online** before **Banderdewa** screening to trim dusk queues.",
+        "keywords": [
+          "HGI Hollongi flights",
+          "NHLN rail bridge",
+          "Guwahati overnight buses",
+          "Lilabari IXI backup",
+          "ILP Banderdewa",
+          "capital ring traffic"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-pasighat",
+      "name": "Pasighat",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 28.0619,
+        "lon": 95.32594,
+        "source": "wikidata"
+      },
+      "description": "**Pasighat** is one of the oldest places in Arunachal Pradesh and an educational hub.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Pasighat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pasighat",
+        "wikidata": "https://www.wikidata.org/wiki/Q1936930"
+      },
+      "distance_km": 2489,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/River_Siang_(Brahmaputra)_entering_into_the_plains_at_Ranaghat%2C_on_the_east_of_Roing.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasighat%20Town%20-%20May2019.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Pasighat Airport",
+          "code": "IXT",
+          "distance_km": 8,
+          "note": "Alliance Air / FlyBig links toward Guwahati, Dibrugarh, Hollongi—check monsoon NOTAMs"
+        },
+        "nearest_railway_station": {
+          "name": "Murkongselek railway station",
+          "distance_km": 38,
+          "note": "Broad-gauge terminal plus Brahmaputra ferry/jetty hops toward Pasighat plains"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati",
+          "Dibrugarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 21144,
+        "content_richness_score": 0.151
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Pasighat Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Pasighat_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Pasighat Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Pasighat_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Pasighat is connected by the NH-515. Waterways crossing the Brahmaputra River from Dibrugarh by ferry to Oryamghat that is 32 km from Pasighat and can take a bus or taxi. Murkongselek line.\r\n\n\r\n By train Nearest rail head is at Murkongselek which is the terminal station of the Rangia- The 227-km Murkongselek-Pasighat-Tezu-Rupai line is proposed to be extended up to Pasighat. The BG railway line will link North-Assam area with Pasighat town.\r\n\n\r\n By bus Arunachal Pradesh State Transport Services (APSTS) buses run from Itanagar, Shillong, and Meghalaya via Guwahati on the daily basis. Bus services are available from Guwahati, Assam which are run by private operators. Private-owned Winger and Tata Sumo services run across the district and run in the other districts. \r\n\n\r\n By plane 1 **Pasighat Airport** ( **IXT **  IATA ). Daily flights from Dibrugarh , Guwahati , Itanagar , Lakhimpur and Tezpur on Alliance Air on FlyBig.  ( updated Dec 2022 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Pasighat is the land of the mighty Siang and indigenous hanging bridges. A waterfall graces the mountain cliffs and chills the vicinity. Attractions in the town include:\r\n\n\r\n **The Daying Ering Wildlife Sanctuary** is one of the most popular wildlife parks of the state. Spread over an area of 190 km 2 (73 sq mi), alluvial grasslands form the major area and wooded areas constitute about 15%. The rest of the area is water. It is popularly called Jopong. \r\n **Pangin** is about 60 km (37 mi) from Pasighat, and is connected by road. It stands at a point where River Siyom meets Brahmaputra River (River Siang). The district is endowed with some scenic locations on both sides of the Siang. There are also a number of rare plants and herbs which are of medicinal importance. \r\n **Bodak Scenic Area**: The Bodak-Mebo-Jengging Scenic Area is a popular picnic spot for tourists from neighbouring states, towns, and the residents of Pasighat. The scenic area is a large forested area with villages and agricultural lands about 15 km away from the Pasighat main town. The scenic area is along the highway starting from the Siang Bridge and diverges to Mebo village on the right hand side and to Jengging village on the left hand side. The road to Jenning is much more frequented because of the vistas of the Siang river from the road. The area is also home to the **Mïdu Lereng** stone monolith. Many regular picnic spots are now taxed by NGOs who maintain the pristine environment. \r\n **Kekar Monying**: A mountain cliff near _Rottung_ which is an important historical place because it was here that the Adi put up a strong resistance against the British in 1911. \r\n **Komlighat** used to be a river port. The ghat marks the area of the colonial town of Pasighat which has been submerged into the Siang river following a flood and the river changing its course. Now a popular evening spot, the area is frequented by families, youngsters, and the health conscious for jogging, yoga, etc. The spot is also popular for its street food sold by vendors in the area. The ghat provides a wonderful view of the river and the hills surrounding the Pasighat plains. The distant hills are covered with snow in winters. The river bank in the area is very close to the floodplain, which makes for an excellent view with a large stretch of riverine beach. Paradoxically, the lower flood plain also makes it susceptible to flooding during the monsoon and thus, has rows of embankments and other flood control mechanisms. \r\n **Pasighat Buddhist Temple:** on the opposite side of the air strip from the highway, this small temple serves as the only Buddhist worship place in Pasighat. \r\n **East Siang District Museum:** on the opposite side of the Pasighat Airport, it is the district museum of the East Siang District. \r\n **Gomsi**: A cultivation area near Rani Village is another place of historical importance. In June 1996, a team of archaeologists conducted a trial excavation and survey in the site. They have found broken pieces of different evidence, of past culture of early medieval period (probably Pre-Ahom).",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:30.084Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban Wildlife / Nature destination Pasighat Sightseeing Pasighat is one of the oldest places in Arunachal Pradesh and an educational hub.",
+      "travel_facts": {
+        "summary": "**Pasighat** blends **IXT turboprops**, **NH515 Sumos**, and legacy **Dibrugarh river crossings** when weather cans flights. **Murkongselek** is the practical BG railhead east of the Brahmaputra—still expect road transfers because urban passthrough rails remain limited. Siang embankment diversions spike unpredictably during Jun–Sep floods.",
+        "keywords": [
+          "IXT turboprop grid",
+          "Murkongselek ferry staging",
+          "NH515 Sumos",
+          "Dibrugarh river hops",
+          "Siang flood diversions",
+          "East Siang ILP"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-tawang",
+      "name": "Tawang",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.58833,
+        "lon": 91.86528,
+        "source": "wikidata"
+      },
+      "description": "**Tawang** is a town in the Himalayas in the far west of the state of Arunachal Pradesh in North-Eastern India. The second-largest Buddhist monastery (gompa) in the world is here, and was built in 1681.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Tawang",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tawang",
+        "wikidata": "https://www.wikidata.org/wiki/Q1006270"
+      },
+      "distance_km": 2200,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sakyamuni_Buddha.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tawang-town.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Tezpur Airport (Salonibari) — seasonal Tezpur–Tawang links",
+          "code": "TEZ",
+          "distance_km": 325,
+          "note": "Rough road km via Bomdila unless short hops operate—Guwahati GAU (~480 km road) stays widest jet gateway"
+        },
+        "nearest_railway_station": {
+          "name": "Rangapara North Junction (RPAN)",
+          "distance_km": 290,
+          "note": "Assam BG railhead before multi-day hill staging"
+        },
+        "road_access_quality": "poor",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 38301,
+        "content_richness_score": 0.274
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Tawang has a population of 11,000 and is the administrative headquarters of Tawang district.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Permits All visitors require a permit to enter Arunachal state. This means an Inner Line Permit (ILP) for Indians, which can be obtained online from eILP [dead link] , and a Protected Area Permit (PAP) for non-Indians, which can be obtained in person from the Arunachal Bhawan in Guwahati if you're an independent traveler.\r\n\n\r\n By land If entering by land from the direction of Tezpur , as most tourists do, you will be required to show your permit at the police checkpoint at the state border in Bhalukpong .\r\n\nIt is advisable to break your journey at either the mountainside town of Bomdila or better still, the charming little valley town of Dirang . The highest point of the road, the Sela Pass between Dirang and Tawang, is notoriously difficult, and heavy snowfall (mostly during winter) could force you to stay on either side.\r\n\n\r\n By car or motorcycle Tawang town is about a 16-hour drive from Guwahati . The road is long and winding, rising far up into the mountains, back down again, and back up more than once. As of April 2023 the road is mostly well-paced up to the Sela Pass between Dirang and Tawang (except for short sections of construction), but with long bumpy stretches after the pass. There are many fantastic views along the way, especially around Sela Pass, and the benefit of having your own vehicle (or a reserved taxi) is that you can stop wherever you want to enjoy the scenery. Small cars and motorcycles both make the trip regularly, though drivers with 4WD will probably be grateful for it. \r\n\n\r\n By Sumo or bus The most common mode of public transit to Tawang is by shared Tata Sumo SUV from Tezpur in Assam (4 hr. drive from Guwahati). They leave only around 5:30-6:00am from Tezpur's ASTC bus station, and it's recommended that you book a day in advance as they can sometimes fill up. It's also possible to take a Sumo direct from Guwahati. Prepare to be packed in like sardines (up to 15 people in one car), and for your luggage to be tied to the top to make room for more passengers. As of April 2023, the price for a shared Sumo to Tawang was ₹700 from Dirang, ₹1300 from Tezpur, or ₹1700 from Guwahati. \r\n\nThere is also a bus running once a day between Tawang and Guwahati, which takes 17 hours and costs ₹1500. \r\n\n\r\n By air Arunachal Pradesh Government provides Helicopter services from Lokpriya Gopinath Bordoloi International Airport, Guwahati to Tawang. The flying time from Guwahati to Tawang is 1 hour 20 minutes. For bookings, contact sales counter of Arunachal Pradesh Civil Aviation at Guwahati Airport. Before booking one may note that the flight may be cancelled due to many reasons. As of January 2025, the price is ₹4,000 one way. Note that there is a 10kg baggage limit. Call to reserve (+91 9402221775).",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Getting around in Tawang can be divided into two categories. The first one is travel to local sites like Tawang Monastery, War Memorial, Emporium, etc. This can be done by booking a taxi (mostly Maruti OMNI) for half a day. Walking is also possible, but some sites are quite far. The second category is travel to sites outside Tawang, which include P T So lake, Shungetsar (Madhuri) lake and a visit to India-China border at Bumla. A bigger vehicle like a Tata Sumo or Mahindra Bolero should be hired for this, as roads are in bad shape. An entire day is enough to cover these sites.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Sela Pass",
+              "description": "A spectacular high-mountain pass at over 4,000 meters (13,000 ft) elevation, with snowcover for much of the year, leaving no question that you're in the Himalayas. All visitors must pass here on the way to Tawang, unless arriving by air, but you may want to specifically plan for a stop on the way in our out. There is an army camp, a single small eatery, and an often-frozen lake, as well as plenty of panoramic views of rocky, snow-dusted mountains. Scenery along the length of the valley just north of the pass, known as Nuranang, is similarly fantastic.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sela_Pass",
+              "coordinates": {
+                "lat": 27.50354,
+                "lon": 92.10447
+              },
+              "price": "free"
+            },
+            {
+              "order": 2,
+              "name": "Tawang Monastery",
+              "description": "A Tibetan Buddhist gompa (fortified monastery) of the Gelugpa sect, constructed in 1681. It is the second-largest Buddhist monastery in the world and home to more than 500 lamas (monks). The celebrated 6th Dalai Lama was born here.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tawang_Monastery",
+              "coordinates": {
+                "lat": 27.5855,
+                "lon": 91.8572
+              },
+              "price": "free; museum ₹20"
+            },
+            {
+              "order": 3,
+              "name": "Tawang War Memorial",
+              "description": "A large, impressive Indian Army memorial, commemorating the thousands of soldiers who died fighting a 1962 Chinese invasion that led to China temporarily capturing Tawang, Dirang, and Bomdila before withdrawing.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Jaswantgarh War Memorial",
+              "description": "Another large memorial to the 1962 war with China. The memorial sits right on the site of one of India's only victories in the war, and commemorates a Sikh soldier from western India who gave his life to capture a Chinese artillery emplacement, turning the tide of the battle. You can visit here on your way to or from Tawang, as it's located along the main highway.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Nuranang Falls",
+              "description": "A beautiful and spectacular waterfall about a kilometre (0.6 mi) from the town of Jang, between Tawang and the Sela Pass",
+              "wikipedia": "https://en.wikipedia.org/wiki/Nuranang_Falls",
+              "coordinates": {
+                "lat": 27.58944,
+                "lon": 91.98417
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "P.T.Tso Lake",
+              "description": "The lake is frozen for 4–5 months of the year. You can hire a local vehicle to get there. The lake itself is splendid, and the views from it are unbelievable.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Anni Gompa",
+              "description": "A Buddhist monastery managed by nuns. Anni means nun. It's a bit outside of town, so you need to request your guide or taxi driver to take you there.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Madhuri Lake",
+              "description": "Named after Madhuri Dixit, a famous Bollywood actress.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Bum La Pass",
+              "description": "Right on the India-China border, 20.6 km away from Tawang, at the height of 4,633 m above sea level. Look out for a beautiful lake. Permission from the Indian Army is needed to visit Bum La Pass, and is not granted to foreigners, only to Indians. Permission can generally be arranged by your hotel. The pass may be inaccessible in the winter due to heavy snowfall.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Tibetan Medical Dispensary",
+              "description": "It is a short distance from Tawang. A doctor of Tibetan medicine examines you and prescribes Tibetan medicines.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Sela Pass** . A spectacular high-mountain pass at over 4,000 meters (13,000 ft) elevation, with snowcover for much of the year, leaving no question that you're in the Himalayas. All visitors must pass here on the way to Tawang, unless arriving by air, but you may want to specifically plan for a stop on the way in our out. There is an army camp, a single small eatery, and an often-frozen lake, as well as plenty of panoramic views of rocky, snow-dusted mountains. Scenery along the length of the valley just north of the pass, known as Nuranang, is similarly fantastic. free .  ( updated Apr 2023 ) \r\n 2 **Tawang Monastery** . A Tibetan Buddhist gompa (fortified monastery) of the Gelugpa sect, constructed in 1681. It is the second-largest Buddhist monastery in the world and home to more than 500 lamas (monks). The celebrated 6th Dalai Lama was born here. free; museum ₹20 .  ( updated Apr 2023 ) \r\n **Tawang War Memorial**, Nuranang ( within walking distance of Tawang's central markets ). A large, impressive Indian Army memorial, commemorating the thousands of soldiers who died fighting a 1962 Chinese invasion that led to China temporarily capturing Tawang, Dirang, and Bomdila before withdrawing.  ( updated Apr 2023 ) \r\n **Jaswantgarh War Memorial**, Nuranang ( closer to the Sela Pass than to Tawang town ). Another large memorial to the 1962 war with China. The memorial sits right on the site of one of India's only victories in the war, and commemorates a Sikh soldier from western India who gave his life to capture a Chinese artillery emplacement, turning the tide of the battle. You can visit here on your way to or from Tawang, as it's located along the main highway.  ( updated Apr 2023 ) \r\n \r\n \r\n 3 **Nuranang Falls** ( Jang Falls, Bong Bong Falls ). A beautiful and spectacular waterfall about a kilometre (0.6 mi) from the town of Jang, between Tawang and the Sela Pass  ( updated Dec 2020 ) \r\n **P.T.Tso Lake** ( above Tawang ). The lake is frozen for 4–5 months of the year. You can hire a local vehicle to get there. The lake itself is splendid, and the views from it are unbelievable.  ( updated Dec 2020 ) \r\n **Anni Gompa**. A Buddhist monastery managed by nuns. Anni means nun. It's a bit outside of town, so you need to request your guide or taxi driver to take you there.  ( updated Dec 2020 ) \r\n **Madhuri Lake** ( Shungetsar Lake ). Named after Madhuri Dixit, a famous Bollywood actress.  ( updated Dec 2020 ) \r\n **Bum La Pass**. Right on the India-China border, 20.6 km away from Tawang, at the height of 4,633 m above sea level. Look out for a beautiful lake. Permission from the Indian Army is needed to visit Bum La Pass, and is not granted to foreigners, only to Indians. Permission can generally be arranged by your hotel. The pass may be inaccessible in the winter due to heavy snowfall.  ( updated Apr 2023 ) \r\n **Tibetan Medical Dispensary**. It is a short distance from Tawang. A doctor of Tibetan medicine examines you and prescribes Tibetan medicines.  ( updated Dec 2020 ) \r\n \r\n **Gorsam Chorten, Zemithang** Gorsam Chorten (Stupa) is at Zemithang 90 kms from Tawang. It is a 100 ft high stupa built in 12 century AD by Monk Lama Pradhar. It is built to resembles 5 century AD, Boudhnath Stupa in Nepal. Chendebji Chortan in Bhutan is of similar design.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Trekking**. Tawang is an undiscovered trekker's paradise, offering breathtaking views, fresh mountain air, chill weather, and challenging or leisurely treks. For a rigorous trek (classified as hard), take the Jang - Thingbu - Mago - Goi ichen Base Camp - Mago (Back) - Luguthang - Sena Chakra - RA-I route. The easier trekking routes include the Mukto - Gongkhar - Gyamdong - Khet - Kharung - Bongleng - Kungba - Namsring - Kharteng - Lumla route, and the Tawang Gonpa - Gyangong Ani Gonpa - Bhramadongchung Ani Gonpa - Tawang routes. You can also trek along the Namet Village - Zarmang Ani Gonpa - Khromten Gonpa - Geshila - Klimta - Bomla - Y. Junction - Tawang route, which takes you close to the Chinese border outpost at Bomla. Trekkers are advised to come fully attired and prepared for the worst. \r\n Visit the 400 year old Tawang Gompa. Turn the prayer wheels dotted outside small gompas. Meet and chat with the friendly lamas. \r\n Take excursions around town to visit beautiful glacier lakes and smaller gompas with big histories. \r\n Take a nap on a hillock if it's sunny but be prepared to be awoken by a grazing yak.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Spiritual / Pilgrimage"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:30.923Z",
+        "wikipedia_summary": "Tawang is a town and administrative headquarter of Tawang district in the Indian state of Arunachal Pradesh. It lies on NH-13 section of Trans-Arunachal Highway. The town was once the headquarter of the Tawang Tract, which is now divided into the Tawang district and the West Kameng district. Tawang continues as the headquarters of the former. Tawang is the main tourist destination of Arunachal Pradesh.",
+        "wikipedia_description": "Town in Arunachal Pradesh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:52:30.975Z"
+      },
+      "search_context": "Mountain / Hills Spiritual / Pilgrimage destination Tawang Sightseeing Tawang is a town and administrative headquarter of Tawang district in the Indian state of Arunachal Pradesh. It lies on NH-13 section of Trans-Arunachal Highway. The town was once the headquarter of the Tawang Tract, which is now divided into the Tawang district and the West Kameng district. Tawang continues as the headquarters of the former. Tawang is the main tourist destination of Arunachal Pradesh. Tawang has a population of 11,000 and is the administrative headquarters of Tawang district. Tawang is a town in the Himalayas in the far west of the state of Arunachal Pradesh in North-Eastern India. The second-largest Buddhist monastery (gompa) in the world is here, and was built in 1681.",
+      "travel_facts": {
+        "summary": "**Tawang** needs **multi-day staging**: NH13 Sumos grind beyond Bomdila across **Sela Pass** where snow and army traffic chew daylight; **seasonal Tezpur–Tawang flights** shrink exposure when schedules hold. **Guwahati GAU** remains the mainstream jet bridge before two-night hill hops become normal. **ILP vs PAP**, army screening and **Bum La** paperwork diverge sharply—never target same-day turns.",
+        "keywords": [
+          "Sela Pass snow risk",
+          "seasonal TEZ hops",
+          "NH13 Sumo ladders",
+          "ILP and PAP routing",
+          "army checkpoint delays",
+          "Bum La permit limits"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-tezu",
+      "name": "Tezu",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.91667,
+        "lon": 96.16667,
+        "source": "wikidata"
+      },
+      "description": "_Not to be confused with Tezpur , India._ \r\n \r\n**Tezu** is a census town of 18,184 people (2011) in Lohit District, Arunachal Pradesh , India . It is known for its alluring natural beauty. It features many valleys and lakes, the most famous one being the Glow Lake. Other important places of interest include the D'Ering Memorial Wildlife Sanctuary, which is home to more than 150 different bird species, some of which are endangered.",
+      "category": "village",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Tezu",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tezu",
+        "wikidata": "https://www.wikidata.org/wiki/Q13221"
+      },
+      "distance_km": 2544,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_city_centre_of_Tezu.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Tezu Airport",
+          "code": "TEI",
+          "distance_km": 6,
+          "note": "UDAN rotations toward Guwahati, Dibrugarh, Imphal—verify airline seasonal sheets"
+        },
+        "nearest_railway_station": {
+          "name": "Murkongselek railway station",
+          "distance_km": 185,
+          "note": "Long Assam bridge approach until Pasighat–Tezu BG matures—roads dominate"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati",
+          "Dibrugarh"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining",
+          "wildlife",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 93504,
+        "content_richness_score": 0.668
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Tezu, being a small census town is quite developed and popular. It is the fifth largest town in Arunachal Pradesh . It receives a huge number of domestic tourists all around the year. The town is well connected by NH-13, NH-15 and NH-715 highways. A new airport has also been inaugurated in Tezu which provides four flights each week to Guwahati . There is also a glimpse of Tibetan culture here. It is recommended to visit Tezu in the early or late months of the year to get an exciting festive experience.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane Tezu is served by Tezu Airport. Fly Big [dead link] offers flights four times a week to Guwahati. Charter helicopter services are also available. \r\n\n\r\n 1 ** Tezu Airport ** ( **TEI **  IATA ), Tezu Lohitpur Rd , ☏ +91 3804 22308 , fax : +91 3804 23037 , apdtezpur@aai.aero . 24 hours . There are regular flights from Guwahati , Dibrugarh and Imphal .  ( updated Dec 2022 ) \r\n By train The nearest railway station to Tezu is New Tinsukia Junction in the state of Assam. The railway station is served by Northeast Frontier Railway and provides cross country coverage of passenger and cargo services.\r\n\n\r\n By bus From Guwahati, public bus providers like Assam State Transport Corporation and Arunachal Pradesh State Transport Corporation operate to and from Tezu. Tezu is also well connected to almost all towns in Arunachal Pradesh by public and private operators. Available coach services can be booked on redbus . A single ticket costs ₹800.\r\n\n\r\n By car Using a car is also feasible\r\n\n\r\n Coming from Guwahati, take the NH-715 \r\n Coming from Dibrugarh, take the NH-15 \r\n Coming from Pasighat, take the NH-13",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "There are scenic sights of lakes and lush green forests.\r\n\n\r\n 1 **Glow Lake** , Kamlang Sanctuary . Glow Lake is a beautiful picturesque landscape with snow-capped mountains. It is located near Tezu in the Wakaro region. It provides opportunities for some adventurous trekking as there are no paved roads.  ( updated Nov 2021 ) \r\n 2 ** Kamlang Wildlife Sanctuary ** , W58Q+W48 . The sanctuary is in the South-Eastern part of Lohit District.  ( updated Nov 2021 )",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Tezu District Museum and Craft Center",
+              "description": "showcases a number of best art collections that reflect and depict the story of the culture of the tribal Arunachal people.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.92336,
+                "lon": 96.16558
+              },
+              "price": null
+            }
+          ],
+          "brief": "3 **Tezu District Museum and Craft Center** ( Head southeast on NH13. Go through 1 roundabout. Pass by Govt ITI kudaligi (on the right). Turn right onto Jubilee Marg. Destination will be on the right ). showcases a number of best art collections that reflect and depict the story of the culture of the tribal Arunachal people.  ( updated Nov 2021 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Tezu Botanical Garden",
+              "description": "The Tezu Botanical Garden is dotted with varieties of flora that covers a sprawling 23 hectares of land."
+            },
+            {
+              "name": "Tezu Park",
+              "description": "Tezu Park is a centrally located park in the town, which is ideal for spending time with friends and family"
+            }
+          ],
+          "brief": "The Tezu Botanical Garden is dotted with varieties of flora that covers a sprawling 23 hectares of land.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Tezu doesn't have any significant nightlife unless it is the festive season. You can get a good cup of Darjeeling tea or some coffee at any restaurant or cafe."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Oshin Hotel",
+              "description": "Has a restaurant and you can get a great sight from here",
+              "price": null
+            },
+            {
+              "name": "Hotel Highway",
+              "description": "A descent lodge near the main road within the city.",
+              "price": null
+            },
+            {
+              "name": "Hotel Taboka",
+              "description": "Reasonably priced hotel",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:31.530Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills Wildlife / Nature village Tezu Sightseeing Tezu, being a small census town is quite developed and popular. It is the fifth largest town in Arunachal Pradesh . It receives a huge number of domestic tourists all around the year. The town is well connected by NH-13, NH-15 and NH-715 highways. A new airport has also been inaugurated in Tezu which provides four flights each week to Guwahati . There is also a glimpse of Tibetan culture here. It is recommended to visit Tezu in the early or late _Not to be confused with Tezpur , India._ Tezu is a census town of 18,184 people (2011) in Lohit District, Arunachal Pradesh , India . It is known for its alluring natural beauty. It features many valleys and lakes, the most famous one being the Glow Lake. Other important places of interest include the D'Ering Memorial",
+      "travel_facts": {
+        "summary": "**Tezu** rides **Tezu TEI** hops plus **NH13/NH15** coaches through Lohit valley gorges; practical rail still means marathon drives from **Murkongselek (~185 km)** despite headline east-line extensions. Charter helicopters fill urgent gaps when Lohit floods notch highways. Glow Lake and sanctuary treks need dry-season vehicles and permits.",
+        "keywords": [
+          "TEI UDAN hops",
+          "NH13 Lohit buses",
+          "Murkongselek road bridge",
+          "charter helicopter gaps",
+          "Glow Lake access",
+          "monsoon landslides"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-yingkiong",
+      "name": "Yingkiong",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 28.61037,
+        "lon": 95.04753,
+        "source": "wikidata"
+      },
+      "description": "**Yingkiong** is the administrative headquarters of the Upper Siang district of Arunachal Pradesh in North-Eastern India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Yingkiong",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yingkiong",
+        "wikidata": "https://www.wikidata.org/wiki/Q4022768"
+      },
+      "distance_km": 2507,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Pasighat Airport",
+          "code": "IXT",
+          "distance_km": 235,
+          "note": "Then multi-hour Upper Siang Sumo pushes once ILP logistics clear"
+        },
+        "nearest_railway_station": {
+          "name": "Murkongselek railway station",
+          "distance_km": 270,
+          "note": "Not practical same-day arrival—plan road-heavy itineraries only"
+        },
+        "road_access_quality": "poor",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [],
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 12310,
+        "content_richness_score": 0.088
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Yingkiong is the administrative center of an area inhabited by the Adi and Memba peoples. It is a small town, and although lacking in any memorable attractions, it is often used as a departure point for travelers heading into the almost mythical land of Pemako, which straddles the border between Nyingchi prefecture in Tibet and Arunachal.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Payul Monastery",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Mouling National Park",
+              "description": "A biodiverse hotspot and home to animals such as the Bengal tiger, Indian leopard and red panda."
+            }
+          ],
+          "brief": "A biodiverse hotspot and home to animals such as the Bengal tiger, Indian leopard and red panda.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:32.376Z"
+      },
+      "search_context": "Mountain / Hills Wildlife / Nature destination Yingkiong Sightseeing Yingkiong is the administrative center of an area inhabited by the Adi and Memba peoples. It is a small town, and although lacking in any memorable attractions, it is often used as a departure point for travelers heading into the almost mythical land of Pemako, which straddles the border between Nyingchi prefecture in Tibet and Arunachal. Yingkiong is the administrative headquarters of the Upper Siang district of Arunachal Pradesh in North-Eastern India .",
+      "travel_facts": {
+        "summary": "**Yingkiong** is remote **Upper Siang** HQ: travellers typically **fly Pasighat IXT** then endure **long Sumo days** upriver, sometimes staging charters via **Dibrugarh**. Passenger rail never reaches town—budget landslide delays, washed culverts and driver demands for **ILP escorts** when coordinating Pemako-bound logistics.",
+        "keywords": [
+          "Pasighat staging Sumos",
+          "Upper Siang road grades",
+          "ILP escort expectations",
+          "Pemako expedition hub",
+          "monsoon culverts",
+          "no passenger rail"
+        ]
+      }
+    },
+    {
+      "slug": "arunachal-pradesh-ziro",
+      "name": "Ziro",
+      "region": "",
+      "state": "Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.59497,
+        "lon": 93.83854,
+        "source": "wikidata"
+      },
+      "description": "**Ziro**, also spelt **Zero**, is a picturesque town in Arunachal Pradesh , India. It is known for a four-season tourist place and gives a pleasant feel in every season with variant colours in different seasons. It is included the Tentative List for UNESCO's World Heritage Site for the Apatani cultural landscape.",
+      "category": "village",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ziro",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ziro",
+        "wikidata": "https://www.wikidata.org/wiki/Q663062"
+      },
+      "distance_km": 2343,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:32:32.726Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apatani_tribal_women.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20fields%20at%20Ziro%2C%20Arunachal%20Pradesh.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Ziro Airport",
+          "code": "ZER",
+          "distance_km": 5,
+          "note": "Limited Alliance Air ops—Lilabari IXI (~100 km) and Hollongi HGI (~120 km) stay backups"
+        },
+        "nearest_railway_station": {
+          "name": "Naharlagun railway station (NHLN)",
+          "distance_km": 96,
+          "note": "Guwahati expresses terminate—switch to plateau Sumos toward Apatani villages"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining",
+          "wildlife",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 29783,
+        "content_richness_score": 0.213
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The part of the town which is the centre of economic activities and where the \r\n\nZiro Valley is surrounded by green rice fields, thick pine forests, and small traditional villages. The weather here is cool and pleasant throughout the year, making it a perfect place to relax and enjoy nature. Ziro stands at an altitude of approximately 1,500 meters (4,921 feet), giving it a year-round pleasant climate. Its distinct charm comes from its terraced rice fields, bamboo huts, ancient rituals, and sustainable tribal farming practices.\r\n\nZiro Valley is also known for being calm and less crowded, which makes it great for backpackers, nature lovers, and people who like quiet places. The valley is listed in the UNESCO World Heritage tentative list because of its natural beauty and cultural importance. Many Bollywood and documentary films have been shot in Ziro because of its rustic beauty.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Ziro Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Zero_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Ziro Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Zero_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Ziro is 115 km from Itanagar, 123 km from Lilabari, and 96 km from Naharlagun railway station.\r\n\nForeign and Indian tourists (except those from Arunachal) need an Inner Line Permit (ILP) to enter Arunachal Pradesh. It can be obtained online at Arunachal ILP portal.\r\n\n\r\n By plane 1 **Ziro Airport** ( **ZER **  IATA , Zero Airport ). Alliance Air operates flights three times a week from Guwahati Airport (GAU).  ( updated Jul 2025 ) \r\n Lilabari Airport (IXI) in Assam, is about 100 km away. From Lilabari, you can hire a private taxi or take a shared cab to reach Ziro. The journey takes 4-5 hours, depending on road conditions. \r\n Itanagar Airport (also called Hollongi Airport), is around 120 km from Ziro. This airport has regular flights from Guwahati and Kolkata, making it easier for travellers to reach Arunachal Pradesh by air. From the airport, you can take a taxi or shared vehicle to Ziro, which takes 4–5 hours. \r\nIt is a good idea to book a taxi in advance, especially during the rainy season or festival times like the Ziro Music Festival, when demand is high.\r\n\n\r\n By train The nearest railhead is Naharlagun Railway Station, about 100 km from Ziro. Trains from Guwahati and other major cities in Assam stop here.\r\n\n\r\n By road Ziro is accessible via daily buses and shared taxis from Itanagar, Naharlagun, and North Lakhimpur. Roads are scenic but can be rough in monsoon season.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Cycling or walking are the best ways to explore the valley’s villages and fields. Local guides can be hired from homestays or the Ziro tourism office.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Paddy fields**: Intricate irrigation systems and fish-rice farming make the rice fields of Ziro a model of sustainable agriculture. They are best seen during the cultivation and harvest seasons (June–October). \r\n **Meghna Cave Temple**: a 5000-year-old cave temple dedicated to Lord Shiva, perched atop a hill with panoramic views. \r\n Apatani villages The real charm of Ziro lies in its traditional Apatani tribal villages, which are spread across the valley and offer a close look at the local culture, lifestyle, and customs. Some of the largest and oldest villages in Ziro Valley include:\r\n\n\r\n **Hong** – one of the biggest and most famous Apatani villages. \r\n **Hari, Bamin, Dutta** – These villages are known for their unique layout, with closely packed wooden houses built from bamboo, pinewood, and cane, using eco-friendly construction techniques. \r\nApatani women used to be easily recognized by their large nose plugs (yaping hullo) and facial tattoos, which were once symbols of beauty and identity. Although younger generations no longer follow this tradition, you may still see elderly women wearing them today.\r\n\nThe villagers are skilled in sustainable farming. They grow rice in neatly arranged terraced fields, often with fish farming in the same fields—a practice that is admired worldwide for its harmony with nature.\r\n\nVisitors can walk through the narrow village paths, observe daily activities, and interact with friendly locals who are happy to share stories about their traditions, festivals, and beliefs.\r\n\nMost homes have a firewood hearth in the centre for cooking and warmth, and you may even be invited for a cup of millet beer (apong) or to taste bamboo-cooked food.\r\nAlways ask for permission before taking photos of people, especially elders, as a sign of respect.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "** Ziro Festival of Music **. Late Sep-early Oct . An annual outdoor music festival held over four days every September. The festival features about 40 independent music acts from around the world, and has infrastructure built almost completely of locally sourced bamboo and a heavy emphasis on eco-friendly practices.  ( updated Jan 2023 ) \r\n **Talley Valley Wildlife Sanctuary**: about 32 km from Ziro, this dense forest reserve is home to clouded leopards, mithun (a local bovine species), and many rare birds. Great for trekking and birdwatching. \r\n Walk or cycle through pine forests and farmland \r\n Attend tribal festivals like Myoko (March) or Dree (July) \r\n Try bamboo cooking and Apatani millet beer \r\n Interact with locals through eco-tourism homestays \r\n Explore Talley Valley’s hiking trails and orchids",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "7th Heaven Ziro",
+              "description": "Bakery and hot dishes.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Ziro Palace Inn",
+              "description": "In-house restaurant, 24-hour front desk, internet access, power back-up and parking.",
+              "price": "From ₹3,800"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:33.212Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills Wildlife / Nature village Ziro Sightseeing The part of the town which is the centre of economic activities and where the Ziro Valley is surrounded by green rice fields, thick pine forests, and small traditional villages. The weather here is cool and pleasant throughout the year, making it a perfect place to relax and enjoy nature. Ziro stands at an altitude of approximately 1,500 meters (4,921 feet), giving it a year-round pleasant climate. Its distinct charm comes from its terraced rice Ziro, also spelt Zero, is a picturesque town in Arunachal Pradesh , India. It is known for a four-season tourist place and gives a pleasant feel in every season with variant colours in different seasons. It is included the Tentative List for UNESCO's World Heritage Site for the Apatani cultural landscape.",
+      "travel_facts": {
+        "summary": "**Ziro** threads **ZER turboprops**, **NHLN rail (~96 km)** and winding shared taxis from **Itanagar (~115 km)**; **Lilabari IXI** absorbs Hollongi fog cancels but burns daylight on transfers. UNESCO tentative **Apatani cultural landscape** prestige concentrates demand—secure vehicles early ahead of **Ziro Music Festival** weekends.",
+        "keywords": [
+          "ZER Alliance rotations",
+          "NHLN plateau taxis",
+          "Lilabari fog backups",
+          "Apatani terrace drives",
+          "music festival surge",
+          "Talley valley treks"
+        ]
+      }
+    }
+  ]
+}

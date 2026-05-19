@@ -1,7 +1,7 @@
 {
   "state": "Tamil_Nadu",
   "state_code": "TA",
-  "generated_at": "2026-02-27T11:26:39.224Z",
+  "generated_at": "2026-05-18T11:25:11.753Z",
   "count": 11,
   "destinations": [
     {
@@ -15,11 +15,18 @@
         "source": "wikidata"
       },
       "description": "**Ooty**, short for **Ootacamund** and officially **Udhagamandalam** (உதகமண்டலம் _Utakamaṇṭalam_), is a popular **hill resort** in the state of Tamil Nadu in Southern India . The name Udhagamandalam is derived from the Toda word \"othakal-mund\" which means \"house in mountains\". Ooty stands at 2,240 m (7,347 feet) above sea level in the Nilgiri mountain range. Here you can escape the heat of the region around: The weather is quite pleasant at a mean of 20-25°C during the day around the year. Ooty is in the Niligiris District which was one of the first places in India to get rid of plastic carry bags, so if you are heading there, remember to carry your own reusable bags, not plastic.",
-      "category": "village",
+      "category": "Hill station",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Ooty",
@@ -27,19 +34,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q9888"
       },
       "distance_km": 199,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Udhagamandalam",
@@ -60,23 +75,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
+          "name": "Coimbatore International Airport",
           "code": "CJB",
-          "distance_km": null
+          "distance_km": 88,
+          "note": "Nilgiri hairpin climb—Mettupalayam toy-train connection popular"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Mettupalayam railway station",
+          "distance_km": 47,
+          "note": "Nilgiri Mountain Railway ridge link toward Udhagamandalam"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore"
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Singapore"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -86,7 +150,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -106,7 +174,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 99676,
-        "content_richness_score": 0.443
+        "content_richness_score": 0.712
       },
       "section_briefs": {
         "understand": {
@@ -377,7 +445,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Hill station",
+        "Nilgiris"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:35.767Z",
+        "wikipedia_summary": "Ooty is a town and municipality in the Nilgiris district of the Indian state of Tamil Nadu. It is located 86 km (53 mi) northwest of Coimbatore, and is the headquarters of Nilgiris district. Situated in the Nilgiri hills, it is known by the epithet \"King of all the Hill Stations\", and is a popular tourist destination.",
+        "wikipedia_description": "Hill station city in Tamil Nadu, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:35.817Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Hill station Nilgiris destination Ooty Udhagamandalam Ootacamund Udhagai Utakamand Udagamandalam Sightseeing Ooty is a town and municipality in the Nilgiris district of the Indian state of Tamil Nadu. It is located 86 km (53 mi) northwest of Coimbatore, and is the headquarters of Nilgiris district. Situated in the Nilgiri hills, it is known by the epithet \"King of all the Hill Stations\", and is a popular tourist destination.",
+      "travel_facts": {
+        "summary": "**Ooty** hinges **CJB (~88 km) Nilgiri stacks** beneath **Mettupalayam rail (~47 km)** knowing Botanical Garden merges absorb toy-train steam tides.",
+        "keywords": [
+          "ooty nilgiri stacks",
+          "mettupalayam merges",
+          "doddabetta apron",
+          "tea estate tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-kodaikanal",
@@ -390,11 +481,18 @@
         "source": "wikidata"
       },
       "description": "**Kodaikanal ** is a hill station in the Palani Hill Range. It offers beautiful surrounding nature and considerably lower temperatures than other places in Tamil Nadu . It lies 7,200 ft (2,200 m) above sea level in the Dindigul District amongst the Western Ghats of India.",
-      "category": "destination",
+      "category": "Hill station",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kodaikanal",
@@ -402,19 +500,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q253851"
       },
       "distance_km": 305,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Princess of Hill Stations",
@@ -433,27 +539,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Madurai Airport",
+          "code": "IXM",
+          "distance_km": 120,
+          "note": "Ghat road fog pockets—daylight climbs safer"
         },
         "nearest_railway_station": {
-          "name": "The nearest railway station",
-          "distance_km": 100
+          "name": "Kodaikanal Road railway station",
+          "distance_km": 95,
+          "note": "Taxi/jeep switchbacks toward Kodai lake"
         },
-        "road_access_quality": null,
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Mumbai",
           "Chennai",
-          "Kochi"
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
-          "Mumbai",
           "Chennai",
-          "Kochi"
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -463,7 +613,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -483,7 +637,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 108066,
-        "content_richness_score": 0.494
+        "content_richness_score": 0.772
       },
       "section_briefs": {
         "understand": {
@@ -826,7 +980,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Hill station"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:36.367Z",
+        "wikipedia_summary": "Kodaikanal is a municipality and hill station in Dindigul district in the state of Tamil Nadu, India. It is situated at an altitude of 2,225 m (7,300 ft) in the Palani Hills of the Western Ghats. Kodaikanal was established in 1845 to serve as a refuge from the high temperatures and tropical diseases during the summer in the plains. It is a popular tourist destination and is referred to as the \"Princess of Hill stations\" with much of the local economy is based on the hospitality industry serving tourism. As per the 2011 census, the city had a population of 36,501.",
+        "wikipedia_description": "Place in Tamil Nadu, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:36.418Z"
+      },
+      "search_context": "Hill station destination Kodaikanal Princess of Hill Stations Kodai Kodaikanal, Tamil Nadu Sightseeing Kodaikanal is a municipality and hill station in Dindigul district in the state of Tamil Nadu, India. It is situated at an altitude of 2,225 m (7,300 ft) in the Palani Hills of the Western Ghats. Kodaikanal was established in 1845 to serve as a refuge from the high temperatures and tropical diseases during the summer in the plains. It is a popular tourist destination and is referred to as the \"Princess of Hill statio",
+      "travel_facts": {
+        "summary": "**Kodaikanal** stacks **IXM (~120 km) Palani stacks** beneath **Kodaikanal Road rail (~95 km)** knowing star-shaped lake merges absorb Coakers Walk tides.",
+        "keywords": [
+          "kodaikanal ghat stacks",
+          "palani merges",
+          "silver cascade apron",
+          "kodai lake tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-kancheepuram",
@@ -835,11 +1008,18 @@
       "state": "Tamil_Nadu",
       "coordinates": null,
       "description": "**Kanchipuram**, sometimes called Kanjeevaram or Kanchi, is a small town in Tamil Nadu . One of the most important spiritual centres of Hinduism, and a major pilgrim destination; Kanchipuram has several medieval temples with spectacular architecture. It used to be the capital of the Pallava kingdom from the 4th to the 10th century, and was a centre of learning for all the major religions of South India. Hindu temples are still present and in use today, and there are archaeological remains of Jain temples. Unfortunately, although Kanchipuram was reputed to be the centre of Buddhism in South India, and was visited by Chinese Buddhist monks, there are no remains of the Buddhist presence today.\r\n\nModern Kanchipuram is a major weaving centre and visitors will be able to buy handwoven silk at wholesale rates.",
-      "category": "destination",
+      "category": "Heritage / Temple town",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/kancheepuram",
@@ -847,36 +1027,96 @@
         "wikidata": ""
       },
       "distance_km": null,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Chennai International Airport",
+          "code": "MAA",
+          "distance_km": 72
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kanchipuram railway station",
+          "distance_km": 4
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Singapore",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -885,7 +1125,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -904,7 +1148,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 26701,
-        "content_richness_score": 0
+        "content_richness_score": 0.191
       },
       "section_briefs": {
         "get_in": {
@@ -994,7 +1238,23 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Temple town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:36.976Z"
+      },
+      "search_context": "Heritage / Temple town destination kancheepuram Sightseeing Kanchipuram, sometimes called Kanjeevaram or Kanchi, is a small town in Tamil Nadu . One of the most important spiritual centres of Hinduism, and a major pilgrim destination; Kanchipuram has several medieval temples with spectacular architecture. It used to be the capital of the Pallava kingdom from the 4th to the 10th century, and was a centre of learning for all the major religions of South India. Hindu temples are",
+      "travel_facts": {
+        "summary": "**Kanchipuram** anchors **MAA (~72 km) silk-city stacks** beneath **Kanchipuram rail (~4 km)** knowing Ekambareswarar merges absorb handloom corridor tides.",
+        "keywords": [
+          "kanchipuram silk stacks",
+          "mandapa merges",
+          "shiva temple apron",
+          "east coast detour tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-kanniyakumari",
@@ -1007,11 +1267,18 @@
         "source": "wikidata"
       },
       "description": "**Kanyakumari** or **Kanniyakumari** is a town on the southernmost tip of the mainland of India , in the state of Tamil Nadu . It is also known as **Cape Comorin**.",
-      "category": "city",
+      "category": "Coastal / Landmark town",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kanniyakumari",
@@ -1019,19 +1286,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q222267"
       },
       "distance_km": 543,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Przylądek Komoryn",
@@ -1057,20 +1332,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Trivandrum International Airport",
+          "code": "TRV",
+          "distance_km": 92,
+          "note": "Nearest broad hub across Kerala border—Madurai IXM ~245 km Tamil Nadu alternate"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kanniyakumari railway station",
+          "distance_km": 3
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Trivandrum",
+          "Kochi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Bengaluru",
+          "Hyderabad",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -1079,7 +1407,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -1099,7 +1431,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 79512,
-        "content_richness_score": 0.32
+        "content_richness_score": 0.568
       },
       "section_briefs": {
         "understand": {
@@ -1287,7 +1619,23 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Coastal / Landmark town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:37.823Z"
+      },
+      "search_context": "Coastal / Landmark town destination Kanniyakumari Przylądek Komoryn Cap Comorin Kanyakumari Kanya Kumari Kaap Comorin Cape Comorin Cabo Comorim Kânyâkumârî Comorin Kap Comorin Komori Kapp Comorin Cape Cormorin Kanniyākumāri Kanyākumārī Sightseeing Kanyakumari or Kanniyakumari is a town on the southernmost tip of the mainland of India , in the state of Tamil Nadu . It is also known as Cape Comorin.",
+      "travel_facts": {
+        "summary": "**Kanniyakumari** stacks **TRV (~92 km) sangam stacks** beneath **Cape Comorin rail (~3 km)** knowing Vivekananda rock merges absorb sunrise triangle tides.",
+        "keywords": [
+          "kanyakumari cape stacks",
+          "laccadive merges",
+          "vivekananda apron",
+          "thiruvalluvar tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-mahabalipuram",
@@ -1300,11 +1648,18 @@
         "source": "wikidata"
       },
       "description": "**Mamallapuram** (மாமல்லபுரம் _Māmallapuram_), also known as **Mahabalipuram**, is a tourist town 60 km south of Chennai on the east coast of India, famous for its stone carvings.",
-      "category": "village",
+      "category": "Heritage / Coastal town",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Mahabalipuram",
@@ -1312,19 +1667,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q208000"
       },
       "distance_km": 285,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Mamallapuram",
@@ -1344,20 +1707,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Chennai International Airport",
+          "code": "MAA",
+          "distance_km": 56
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Chengalpattu Junction railway station",
+          "distance_km": 29
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Singapore",
+          "Dubai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -1366,7 +1780,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -1385,7 +1803,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 138592,
-        "content_richness_score": 0.679
+        "content_richness_score": 0.99
       },
       "section_briefs": {
         "understand": {
@@ -1726,7 +2144,23 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Coastal town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:38.673Z"
+      },
+      "search_context": "Heritage / Coastal town destination Mahabalipuram Mamallapuram Pancha Rathas Les Cinq Ratha du sud Mavalipuram Descente du Gange Mahaballipuram Māmallapuram Mamallipuram Māmallapuram (India) Sightseeing Mamallapuram (மாமல்லபுரம் ), also known as Mahabalipuram, is a tourist town 60 km south of Chennai on the east coast of India, famous for its stone carvings.",
+      "travel_facts": {
+        "summary": "**Mahabalipuram** hinges **MAA (~56 km) Shore Temple stacks** beneath **Chengalpattu Junction (~29 km)** knowing Pancha Rathas merges absorb Coromandel swell tides.",
+        "keywords": [
+          "mamallapuram stacks",
+          "chengalpattu merges",
+          "unesco shore apron",
+          "arjuna penance tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-madurai",
@@ -1739,11 +2173,18 @@
         "source": "wikidata"
       },
       "description": "**Madurai** (Tamil: மதுரை), formerly **Madura**, is the third-largest city in the Indian state of Tamil Nadu . It's on the banks of the river Vaigai and has been a major settlement for two millennia. It is one of the oldest continuously inhabited cities in the world. The city was the capital of the Pandyan kingdom at **Korkai**, around 600 BCE, and was moved to **Koodal** (present-day Madurai) during the reign of Nedunj Cheliyan I.\r\n\n\r\n \r\nMadurai is famous for its temples built by Pandyan and Madurai Nayak kings in the ancient traditional Tamilian style of architecture. It is also one of India's most outstanding Hindu pilgrimage centres. Madurai is also called as City of Junction (**Koodal nagaram**), City of Jasmine (**Malligai maanagar**), Temple city (**Koil maanagar**), City that never sleeps (**Thoonga nagaram**) and City of four junctions (**Naanmada koodal**).",
-      "category": "city",
+      "category": "City / Urban",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Madurai",
@@ -1751,19 +2192,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q228405"
       },
       "distance_km": 344,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Madura",
@@ -1783,25 +2232,70 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Madurai Airport",
           "code": "IXM",
-          "distance_km": 15
+          "distance_km": 12
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Madurai Junction railway station",
+          "distance_km": 4
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
           "Mumbai",
-          "Chennai"
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
           "Mumbai",
-          "Chennai"
+          "Bengaluru",
+          "Singapore"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -1811,7 +2305,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -1911,7 +2409,24 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:39.506Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban destination Madurai Madura Madhurai Mathurai Maduré Sightseeing Madurai (Tamil: மதுரை), formerly Madura, is the third-largest city in the Indian state of Tamil Nadu . It's on the banks of the river Vaigai and has been a major settlement for two millennia. It is one of the oldest continuously inhabited cities in the world. The city was the capital of the Pandyan kingdom at Korkai, around 600 BCE, and was moved to Koodal (present-day Madurai) during the reign of Nedunj Cheliyan I.",
+      "travel_facts": {
+        "summary": "**Madurai** anchors **IXM (~12 km) Meenakshi stacks** beneath **Madurai Junction (~4 km)** knowing thousand-pillar merges absorb jasmine bazaar tides.",
+        "keywords": [
+          "madurai temple stacks",
+          "meenakshi merges",
+          "thalai nagar apron",
+          "night ceremony tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-chennai",
@@ -1924,27 +2439,46 @@
         "source": "wikidata"
       },
       "description": "\"Madras\" redirects here. For other uses, see Madras (disambiguation) . \r\n \r\n\n\r\n _Chennai is a huge city with several district articles that contain information about specific sights, restaurants, and accommodation._ \r\n**Chennai** ( Tamil : சென்னை _Ceṉṉai_), formerly **Madras**, is the capital of the Southern Indian state of Tamil Nadu . With a population of 8.6 million (2011 census), Chennai's urbanised area is the most populous in Southern India and the fourth most populous in India. It is on the east coast of peninsular India.\r\n\nThough Chennai traces its history to Fort St George and the adjoining village of Madrasapattinam founded by the British East India Company in 1640, some residential districts of the city are older. The name Madras was changed to Chennai in 1997 by a special act of the Tamil Nadu legislature.\r\n\nChennai is well-connected by road, rail and air and is a staging point for tours to the 7th century Pallava temple of Mamallapuram , a UNESCO World Heritage Site , the Hindu temples of Kanchipuram , Sriperumbudur and Tirupati , the bird sanctuary of Vedanthangal and the Pondicherry ashram.\r\n\nChennai has an extremely hot and humid climate, especially in the month of May, and has heavy rains during monsoons (July to November). The worst of the heat can be avoided by visiting from November to February.",
-      "category": "destination",
-      "best_time_to_visit": "",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Chennai",
         "wikipedia": "https://en.wikipedia.org/wiki/Chennai",
         "wikidata": "https://www.wikidata.org/wiki/Q1352"
       },
       "distance_km": 291,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Madras",
@@ -1969,33 +2503,73 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "32–42",
+          "winter": "12–28"
         }
       },
       "travel_access": {
         "nearest_airport": {
           "name": "Chennai International Airport",
           "code": "MAA",
-          "distance_km": null
+          "distance_km": 17
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": 29
+          "name": "Chennai Central railway station",
+          "distance_km": 21,
+          "note": "~8 km from core Marina corridor—Metro/airport prepaid taxis"
         },
         "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
           "Delhi",
-          "Chennai"
+          "Mumbai",
+          "Kolkata",
+          "Kochi",
+          "Howrah"
         ],
         "direct_flight_available_from_major_cities": [
           "Delhi",
-          "Chennai"
+          "Mumbai",
+          "Hyderabad",
+          "Kolkata",
+          "Singapore",
+          "Dubai",
+          "Frankfurt"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -2005,7 +2579,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2025,7 +2603,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 190189,
-        "content_richness_score": 0.992
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -2082,7 +2660,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:40.345Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage",
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban destination Chennai Madras Tchennaï Madrász Madrás Čenaja Madraso Madràs Madrasta Sightseeing \"Madras\" redirects here. For other uses, see Madras (disambiguation) . Chennai ( Tamil : சென்னை ), formerly Madras, is the capital of the Southern Indian state of Tamil Nadu . With a population of 8.6 million (2011 census), Chennai's urbanised area is the most populous in Southern India and the fourth most populous in India. It is on the east coast of peninsular India. Though Chennai traces its history to Fort St Geo",
+      "travel_facts": {
+        "summary": "**Chennai** hinges **MAA (~17 km) Marina stacks** beneath **Chennai Central (~21 km)** knowing Carnatic corridor merges absorb Pondy Bazaar tides.",
+        "keywords": [
+          "chennai central stacks",
+          "metro merges",
+          "ecr apron",
+          "kapaleeshwarar tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-thanjavur",
@@ -2095,11 +2694,18 @@
         "source": "wikidata"
       },
       "description": "**Thanjavur**, also known as **Thanjai** or **Tanjore**, is a historic Chola-era city in Tamil Nadu , 342 km (213 mi) from Chennai . It is also considered the granary and 'rice bowl' of Tamil Nadu.",
-      "category": "city",
+      "category": "Heritage / Temple town",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Thanjavur",
@@ -2107,19 +2713,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q41496"
       },
       "distance_km": 295,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Tanjore",
@@ -2137,25 +2751,70 @@
           "source": "wikivoyage"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Tiruchirapalli International Airport",
+          "name": "Tiruchirappalli International Airport",
           "code": "TRZ",
-          "distance_km": null
+          "distance_km": 58
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Thanjavur Junction railway station",
+          "distance_km": 3
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Chennai"
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Chennai"
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Singapore"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -2165,7 +2824,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -2186,7 +2849,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 76879,
-        "content_richness_score": 0.304
+        "content_richness_score": 0.549
       },
       "section_briefs": {
         "understand": {
@@ -2267,7 +2930,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Temple town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:41.179Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage"
+      ],
+      "search_context": "Heritage / Temple town destination Thanjavur Tanjore Tanjavur Tanjavoor Tanchavur Tancavur Thanjore Tanjore, Thanjai Sightseeing Thanjavur, also known as Thanjai or Tanjore, is a historic Chola-era city in Tamil Nadu , 342 km (213 mi) from Chennai . It is also considered the granary and 'rice bowl' of Tamil Nadu.",
+      "travel_facts": {
+        "summary": "**Thanjavur** stacks **TRZ (~58 km) Chola stacks** beneath **Thanjavur Junction (~3 km)** knowing Brihadeeswarar merges absorb Tamil belt tides.",
+        "keywords": [
+          "thanjai vimana stacks",
+          "chola merges",
+          "tanjore apron",
+          "paddy delta tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-velankanni",
@@ -2280,11 +2962,18 @@
         "source": "wikidata"
       },
       "description": "**Velankanni** is a city in Tamil Nadu in India .",
-      "category": "village",
+      "category": "Spiritual / Pilgrimage",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Velankanni",
@@ -2292,19 +2981,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1510885"
       },
       "distance_km": 352,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -2319,25 +3016,69 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
+          "name": "Tiruchirappalli International Airport",
           "code": "TRZ",
-          "distance_km": 165
+          "distance_km": 158
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Velankanni railway station",
+          "distance_km": 2
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Chennai"
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Chennai"
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -2347,7 +3088,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2367,7 +3112,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 55133,
-        "content_richness_score": 0.173
+        "content_richness_score": 0.394
       },
       "section_briefs": {
         "understand": {
@@ -2484,7 +3229,24 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:42.015Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban destination Velankanni Sightseeing Velankanni is a city in Tamil Nadu in India .",
+      "travel_facts": {
+        "summary": "**Velankanni** hinges **TRZ (~158 km) basilica stacks** beneath **Velankanni rail (~2 km)** knowing Our Lady merges absorb Nagapattinam choir tides.",
+        "keywords": [
+          "velankanni pilgrimage stacks",
+          "nagapattinam merges",
+          "bay chapel apron",
+          "feast tide queues"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-rameshwaram",
@@ -2497,11 +3259,18 @@
         "source": "wikidata"
       },
       "description": "**Rameswaram** (இராமேசுவரம் _Irāmēcuvaram_) is a town on Pamban Island, in Southern Indian state of Tamil Nadu . It's known for Ramanathaswamy Temple, a Hindu pilgrimage site with ornate corridors, huge sculpted pillars and sacred water tanks. Together with Varanasi , it is considered to be one of the holiest places in India for Hindus and part of the Char Dham (four abodes) pilgrimage.",
-      "category": "village",
+      "category": "Spiritual / Pilgrimage",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Rameshwaram",
@@ -2509,19 +3278,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1435144"
       },
       "distance_km": 451,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Rameswaram",
@@ -2535,20 +3312,71 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Madurai Airport",
+          "code": "IXM",
+          "distance_km": 174,
+          "note": "Pamban bridge approach—check wind closures"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Rameswaram railway station",
+          "distance_km": 3
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -2557,7 +3385,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -2576,7 +3408,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 70038,
-        "content_richness_score": 0.263
+        "content_richness_score": 0.5
       },
       "section_briefs": {
         "understand": {
@@ -2788,7 +3620,27 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:42.855Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Spiritual / Pilgrimage City / Urban destination Rameshwaram Rameswaram Rameshvaram Ramanathaswamy Temple Sightseeing Rameswaram (இராமேசுவரம் ) is a town on Pamban Island, in Southern Indian state of Tamil Nadu . It's known for Ramanathaswamy Temple, a Hindu pilgrimage site with ornate corridors, huge sculpted pillars and sacred water tanks. Together with Varanasi , it is considered to be one of the holiest places in India for Hindus and part of the Char Dham (four abodes) pilgrimage.",
+      "travel_facts": {
+        "summary": "**Rameswaram** stacks **IXM (~174 km) Sethu stacks** beneath **Rameswaram rail (~3 km)** knowing Ramanathaswamy merges absorb Agni Theertham tides.",
+        "keywords": [
+          "rameswaram stacks",
+          "pamban merges",
+          "sethu apron",
+          "temple tank tides"
+        ]
+      }
     },
     {
       "slug": "tamilnadu-coimbatore",
@@ -2801,11 +3653,18 @@
         "source": "wikidata"
       },
       "description": "**Coimbatore** is an industrial city of 2 million people (2020) in Tamil Nadu , often likened to being the Manchester or Detroit of Southern India . It's famous for the manufacture of motor-pump sets and varied engineering goods.",
-      "category": "city",
+      "category": "City / Urban",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Coimbatore",
@@ -2813,19 +3672,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q9885"
       },
       "distance_km": 230,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T11:26:37.080Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kovai",
@@ -2849,20 +3716,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Coimbatore International Airport",
           "code": "CJB",
-          "distance_km": 7
+          "distance_km": 10
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Coimbatore Junction railway station",
+          "distance_km": 11
         },
         "road_access_quality": "excellent",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "direct_train_available_from_major_cities": [
+          "Chennai",
+          "Madurai",
+          "Coimbatore",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Hyderabad",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Singapore",
+          "Sharjah"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -2871,7 +3790,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -2892,7 +3815,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 146593,
-        "content_richness_score": 0.727
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -3115,7 +4038,23 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:43.700Z"
+      },
+      "search_context": "City / Urban destination Coimbatore Kovai Cotton City Koyambuthur Koyampuththur Koyambuttur Koyamputtur Koimbatora Kovaja Sightseeing Coimbatore is an industrial city of 2 million people (2020) in Tamil Nadu , often likened to being the Manchester or Detroit of Southern India . It's famous for the manufacture of motor-pump sets and varied engineering goods.",
+      "travel_facts": {
+        "summary": "**Coimbatore** anchors **CJB (~10 km) Kongu stacks** beneath **Coimbatore Junction (~11 km)** knowing Nilgiri textile merges absorb Siruvani breeze tides.",
+        "keywords": [
+          "coimbatore textiles stacks",
+          "peelamedu merges",
+          "nilgiri apron",
+          "startup corridor tides"
+        ]
+      }
     }
   ]
 }

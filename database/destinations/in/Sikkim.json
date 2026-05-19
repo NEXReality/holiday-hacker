@@ -1,0 +1,3766 @@
+{
+  "state": "Sikkim",
+  "state_code": "SI",
+  "generated_at": "2026-05-18T11:23:44.772Z",
+  "count": 14,
+  "destinations": [
+    {
+      "slug": "sikkim-dzongu",
+      "name": "Dzongu",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.5098,
+        "lon": 88.4375,
+        "source": "wikidata"
+      },
+      "description": "**Dzongu** is a triangular, rural region in North Sikkim , India . It is bounded by the Teesta River in the south-east, Tholung Chu River in the north-east and by mighty mountains in the west. It borders the Kangchenjunga Biosphere Reserve. The area is divided into Upper Dzongu and Lower Dzongu.",
+      "category": "Village / Lepcha reserve",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dzongu",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dzongu",
+        "wikidata": "https://www.wikidata.org/wiki/Q14214357"
+      },
+      "distance_km": 1970,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Dzongu valley"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GPX%20Document%20rev3-20x20.png?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 205,
+          "note": "Shared jeep hops via Mangan—inner-line permits for Dzongu pockets"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 198,
+          "note": "Siliguri share-taxi relay toward Passingdang"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 20981,
+        "content_richness_score": 0.15
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Dzongu has been established as an official reserve for the Lepcha people, the aboriginal inhabitants of Sikkim. The Lepchas have strong ties with the nature and have lived here for centuries. An understanding of their culture, customs and language helps to foster an appreciation of the beautiful mountains, deep forests, and the emerald-colored Teesta River.\r\n\nThe region sees little tourist activity and hence seems almost untouched. It is sparsely populated and most of it is covered with dense vegetation. Rice fields and cardamom plantations can be seen near the villages.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Dzongu is about 70 km from the state capital, Gangtok . It is easily reachable by road. Permission from Sikkim Government is required to enter Dzongu. One can obtain permission from the Tourism Office in Gangtok or one in Delhi. Tour operators can arrange the permits before you reach Sikkim.\r\n\n\r\n By plane The nearest airport is in Bagdogra in West Bengal . From here one can either take a pre-paid taxi (from within the airport) or one can go to Siliguri to find a shared taxi. Air India and Go Air fly to this airport. One can either take a taxi up to Gangtok (4 hours), or take a direct taxi to Dzongu which can take the route via Singthem to reach Dzongu in about 5 hours.\r\n\n\r\n By train The nearest rail head is New Jalpaiguri Railway Station, not far from the airport. One can take a taxi up to Gangtok or directly to Dzongu from here. Bus services from here can be availed up to Gangtok.\r\n\n\r\n By taxi An exclusive taxi from the airport/railway station, to Gangtok, will cost from ₹1,500 for a non-AC Indica (for max. 4 people) to ₹1,900 for a Sumo (bigger, SUV style car).\r\n\nA shared taxi from Gangtok, directly up to Dzongu, can be had from the Vajra stand in Gangtok. However these taxis may not ply at all times of the day. Another option is to reach Mangan and get off in the main market. From there, one can easily find an exclusive vehicle/shared taxi to Dzongu. Lower Dzongu is only 10 km from Mangan, which is the capital of North Sikkim District.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "To get around in Dzongu, you will either have to hire a taxi or go hiking. Some destinations are only a short hike away, while others may require 3-4 days of backpacking. Shared taxis ply from near the Police Check-post.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Hee Gyathang** - Is in Lower Dzongu. It has a small lake, considered to be sacred by the Lepchas. \r\n **Keushong** - Reach here after backpacking for 3-4 days. The most pristine place in Dzongu probably. This place has a very beautiful lake and hills all around it. The valley is covered with flowers in the right season. \r\n **Lingthem** - A short but steep hike up from Passingdang village. Great views of Mt. Kangchenjunga and Dzongu Valley. \r\n **Pentong** - Reachable after a trek. Quite close to snow-capped mountains. \r\n **Tholung Monastery** - 20 km from Passingdang. Every three years, Tholung treasures are put on display. It has a cane bridge one can try to cross - excellent experience! \r\n **Tingvong &amp; Kusong** - Two beautiful villages, a short hike apart. \r\n **Traditional Lepcha House Museum** - A model of the Lepcha house built in the traditional style. Houses a museum inside it. Located in Namprikdang, near the confluence of Teesta and Rongyung Chu Rivers. Surrounding area provides great opportunities for Butterfly watching. \r\n **Waterfalls** - Dzongu is full of waterfalls. They can be seen cascading down from every second hill. Lingzya falls is the best among them. Try a bath here! \r\n Itineraries **Keushong Trek**\r\n\n\r\n **Day 1** - Reach Dzongu from Gangtok/ Bagdogra. If you reach early enough, you can visit Lingthem Village. Stay at a Homestay, enjoy traditional Lepcha dishes and interact with the hosts. \r\n **Day 2** - Reach Lingzya falls and then hike up to Tholung, along the thundering Tholung Chu River. (Can be combined with Day 1. It is a 5-hour hike) \r\n **Day 3** - Acclimatize at Tholung (8000 ft). Visit Tholung monastery, cross the cane bridge (great adventure!) to visit the hot springs, see plenty of water falls. (Some people may not find acclimatization necessary, they can proceed directly.) \r\n **Day 4** - Tholung to Keushong. Some stunning scenery awaits you on the way. Enjoy crystal clear waters and dense jungles with lots of flowers, birds and butterflies. Amazing! You will reach Keushong only by evening. \r\n **Day 5** - Explore and enjoy in the Keushong valley. Sit by the Keushong lake, see the valley carpeted by flowers, and explore the surrounding areas. \r\n **Day 6** - Descend to Tholung. \r\n **Day 7** - Tholung to Dzongu and onwards to Gangtok/Bagdogra.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Cross Cane Briges** - Lepchas build cane bridges across rivers. They sway with each step you take on it and thundering rivers flow under them. A must try! \r\n **Fish/ Angle** - Angling is possible in the rivers here. The catch may not be too huge, but a little patience bears results. Trout &amp; Mahseer can be caught here. Nice experience. \r\n **Hike/ Trek/ Backpack** - Small hikes and long treks, both are possible in Dzongu. Both are equally recommended by the people here (and me!). The most enjoyable thing about the trekking here is that it is almost a virgin territory. You encounter untouched forests and streams. \r\n **Observe Nature** - Watch birds, butterflies, different plants. Understand from the Lepchas how they make use of different plants for medicinal purposes etc. Lots of flowers to be seen too. As many as 5 different species of the _Rhododendron_ are found here. \r\n **Watch Cultural Programs** - The Lepchas take pride in displaying their traditions and culture. You can watch Lepcha performing their folk songs and dances. This can be arranged by the homestay host.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Chee** - Traditional Lepcha drink, brewed from millet."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Village / Lepcha reserve"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:24.171Z"
+      },
+      "credibility_recognitions": [
+        "biosphere_reserve"
+      ],
+      "search_context": "Village / Lepcha reserve destination Dzongu Dzongu valley Sightseeing Dzongu is a triangular, rural region in North Sikkim , India . It is bounded by the Teesta River in the south-east, Tholung Chu River in the north-east and by mighty mountains in the west. It borders the Kangchenjunga Biosphere Reserve. The area is divided into Upper Dzongu and Lower Dzongu.",
+      "travel_facts": {
+        "summary": "**Dzongu** hinges **IXB (~205 km) Teesta stacks** beneath **NJP (~198 km)** knowing Lepcha homestay merges absorb Kangchenjunga biosphere tides.",
+        "keywords": [
+          "dzongu reserve stacks",
+          "mangan relay merges",
+          "teesta gorge apron",
+          "homestay permit tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-east-sikkim",
+      "name": "East Sikkim",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.31667,
+        "lon": 88.6,
+        "source": "wikidata"
+      },
+      "description": "**East Sikkim** is a district in Sikkim . Despite being the most populated area, East Sikkim comprised of many monasteries, lakes and hidden picturesque treasures.",
+      "category": "Region / Alpine circuit",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/East_Sikkim",
+        "wikipedia": "https://en.wikipedia.org/wiki/East_Sikkim_district",
+        "wikidata": "https://www.wikidata.org/wiki/Q1772832"
+      },
+      "distance_km": 1963,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "East Sikkim district",
+        "East District",
+        "distritu d'East Sikkim",
+        "East Sikkim (distritu)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/River%20Teesta%2C%20Sikkhim%2C%20India.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 126,
+          "note": "Tsomgo/Nathula circuits stage from Gangtok permits"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 119
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 24685,
+        "content_richness_score": 0.176
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Pakyong Airport (** PYG **  IATA )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Popular tourist locales are the Tsongmo Lake, Lake Menmecho, Dzuluk, Baba Mandir, Gnathang Valley, Elephant Lake Kupup, Lungthung View Point, Tukla Valley, Thambi View Point and the Nathu La pass. The pass and Baba Mandir are open to Indian nationals only. To enter this region a special permit is required; the Inner Line Permit has to be obtained one day prior to departure. This permit is made through local tourist offices. Other tourist areas include the town of Gangtok, the Phodong Monastery north of Gangtok and the Rumtek Monastery.\r\n\nOther special attractions in Gangtok are M G Marg, Hanuman Tok, Ranka Monastery, Himalayan Zoological Park, Palzor Stadium, Tashi View Point, Pakyong Airport view Point, Zuluk and Gnathang Valley.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Hotel Saikripa Development\r\n\n\r\n ** Hotel Saikripa ** ( Suman Mukherjee ), Jeevan Thing Margh ( Gangtok ), ☏ +91 9903042163 ."
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Region / Alpine circuit"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:25.012Z"
+      },
+      "search_context": "Region / Alpine circuit destination East Sikkim East Sikkim district East District distritu d'East Sikkim East Sikkim (distritu) Sightseeing East Sikkim is a district in Sikkim . Despite being the most populated area, East Sikkim comprised of many monasteries, lakes and hidden picturesque treasures.",
+      "travel_facts": {
+        "summary": "**East Sikkim** stacks **IXB (~126 km) Nathula stacks** beneath **NJP (~119 km)** knowing Tsomgo yak merges absorb Rumtek monastery tides.",
+        "keywords": [
+          "east sikkim stacks",
+          "gangtok relay merges",
+          "tsomgo lake apron",
+          "permits highway tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-gangtok",
+      "name": "Gangtok",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.33,
+        "lon": 88.62,
+        "source": "wikidata"
+      },
+      "description": "**Gangtok** is a bustling, friendly hill station, and the capital of the Himalayan state of Sikkim . The name _Gangtok_ is derived from the Tibetan word for 'hillside,' and the city has a population of around 100,000 (2012) being a mixture of indigenous Sikkimese and people of Nepalese and Tibetan ancestry.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Gangtok",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gangtok",
+        "wikidata": "https://www.wikidata.org/wiki/Q186141"
+      },
+      "distance_km": 1966,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Gangtog",
+        "Gántók"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikkim_Gangtok.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikkim%20Gangtok.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 124,
+          "note": "Pakyong PYG ~31 km shortcut when flights operate—verify airline roster"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 118,
+          "note": "Shared taxis/jeeps via NH10 toward Gangtok—book daytime arrivals when possible"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 90744,
+        "content_richness_score": 0.648
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Gangtok is a popular place with tourists heading on treks, although the facilities do not reflect the number of international visitors. However, efforts are being made by the government to improve the conditions. Gangtok is one of the cleanest cities in India and is well organised and beautifully maintained.\r\n\nGangtok resembles the Bhutanese capital, Thimphu . Mostly devoid of large shops, this place is a nice break away from typical city lives. The city is a fascinating place to spend a few nights, the winding side alleys hide some unexpected gems, and the main street (MG Marg) is pedestrianized and a pleasant place to take a stroll.\r\n\nThe city sleeps by 21:00 mostly, except for a few pubs which are open till 23:00.\r\n\nThe best season to visit Gangtok is Jan-March.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Pakyong Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Pakyong_Airport",
+            "distance_km": 35,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Pakyong Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Pakyong_Airport",
+              "distance_km": 35,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Pakyong Airport** ( **PYG **  IATA ) ( 35 km south in the town of Pakyong ). The only airport in Sikkim.  ( updated Mar 2023 ) \r\nBagdogra Airport (** IXB **  IATA ) in Siliguri is farther away, roughly 120 km from Gangtok, but offers more flight connections. It is served by direct flights from Kolkata and Delhi. From the Bagdogra airport you have a number of options to reach Gangtok:\r\n\n\r\n Hire a taxi - a lovely highway passing through beautiful scenery, waterfall and mountains will take you there. \r\n Pick up a shared taxi or bus from Siliguri Bus Station, located on Hill Cart Road. Around ₹400 for the four hour journey. \r\n ** Sikkim Helicopter Service ** ( STDC Helicopter ), ☏ +91 3592 203-960 , +91 73189 06677 (Duty Mobile No) , stdctravels@gmail.com . A helicopter (MI 172) flies twice a day from Bagdogra to Gangtok, departing around 10:40 and at 15: 00 taking 35 minutes. The return flights depart Gangtok at 10:10 in the morning and at 13:55. Pre-booking required, as it carries only 20 passengers. Alt email: stdcsikkim@yahoo.co.in ₹4,500 per person .  ( updated Nov 2016 ) \r\n By train The nearest train station to Gangtok is New Jalpaiguri in Siliguri which has direct connections to New Delhi , Kolkata , and other major cities in India. It is a 10- to 12-hour journey from Kolkata.\r\n\nOnce you arrive in New Jalpaiguri, you can either hire a taxi from the station itself or take an auto-rickshaw to the Siliguri bus stand. From there, you have the option of travelling to Gangtok by state bus, roughly a 5- to 6-hour journey.\r\n\n\r\n By road The roads in the area are all winding mountain roads in poor condition. The average travel speed between Gangtok and other cities is around 30 km/h.\r\n\nShared terrain vehicles connect Gangtok to Siliguri , Darjeeling , Kalimpong , and other mountain locales. Terrain vehicles leave when full and are filled up by priority order so the price is generally fixed.\r\n\nJeeps to Namchi, a nearby tourist destination with many holy sites, costs around ₹110 and takes about 3 hours. Terrain vehicles to Kalimpong cost ₹120 and are available from Deorali (or Mainline) Bus Stand, distance of around 80 km and time around 3.5 hours.\r\n\nFare of the shared taxis is generally fixed, around ₹400 to Gangtok from Siliguri. Drivers might try to charge high so check for the fare with other taxis before taking one.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Taxi fares are mostly fixed.\r\n\nTaxis are the dominant form of transportation due to Gangtok's hilly and steep roads. There are standard charges within the main areas: at least ₹100 for private service and ₹20 for shared. Taxis are available from designated taxi stands.\r\n\n\r\n By road It may be available from the private taxi stand a few minutes downhill from MG Marg. However, most of these will be shared jeeps that are one-way so it would be prudent to inquire ahead of time.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Dodrupchen Monastery",
+              "description": "A monastery in the Nyingma tradition, famous for its large chorten. When in residence, Dodrupchen Rinpoche receives devotees to offer blessings from around 20:00 to 21:30.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Do-drul Chorten",
+              "description": "a Buddhist stupa complex constructed in 1945.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Enchey Monastery",
+              "description": "A 200-year-old monastery in the Nyingma tradition of Tibetan Buddhism, located above Gangtok, just off the road to Lake Tsomgo.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Enchey_Monastery",
+              "coordinates": {
+                "lat": 27.34056,
+                "lon": 88.6275
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Flower show",
+              "description": "Near the White-Hall, flower show is at its best during the flowering season which is mid March to end of May in spring and October to mid December in autumn. The annual Cymbidium Orchid Show is from mid-March to mid-April.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "₹10"
+            },
+            {
+              "order": 5,
+              "name": "Guru Lhakhang",
+              "description": "A Nyingma monastery famous for its large Guru Rinpoche statue and 100,000 smaller statues. A larger version of the Guru Rinpoche statue was supposed to have been constructed in Tibet to protect it from invasion, but the authorities neglected to follow the advise of a high lama, and a smaller statue was built. HH Dalai Lama regretted this oversight, and to compensate had a number of statues built throughout the Himalayas. Those at Guru Lhakhang were created as a result of this command.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Kanchenjunga Tourist Complex",
+              "description": "A combination hotel and family amusement park.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Lake Tsomgo",
+              "description": "A popular and scenic lake around 40 km from Gangtok at an elevation of 3,780 m. Make sure to see Hanuman Tok and Ganesh Tok along the way, monasteries with views of Kangchenjunga.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Ranka Monastery",
+              "description": "Ranka Monastery is newer and quieter but also very beautiful.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Mahatma Gandhi Marg",
+              "description": "A pedestrian only avenue which forms the main shopping district. Near the main entrance of MG Marg is the tourist information office and a taxi stand, the final destination of many taxis from other parts of the city.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Tsuklakhang Palace",
+              "description": "The palatial monastery of Sikkim's former royal family.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tsuklakhang_Palace",
+              "coordinates": {
+                "lat": 27.326,
+                "lon": 88.615
+              },
+              "price": null
+            }
+          ],
+          "brief": "Gangtok provides beautiful views of the surrounding valleys and hills. There are also several viewpoints near the city with views of Kanchenjunga ranges.\r\n\n\r\n **Dodrupchen Monastery**. A monastery in the Nyingma tradition, famous for its large chorten. When in residence, Dodrupchen Rinpoche receives devotees to offer blessings from around 20:00 to 21:30.  ( updated Dec 2020 ) \r\n **Do-drul Chorten** ( Deorali district at the bottom of Gangtok ). a Buddhist stupa complex constructed in 1945.  ( updated Dec 2020 ) \r\n 1 **Enchey Monastery** . A 200-year-old monastery in the Nyingma tradition of Tibetan Buddhism, located above Gangtok, just off the road to Lake Tsomgo.  ( updated Dec 2020 ) \r\n **Flower show** ( 1818 m ), Ridge Park Complex . 10:00-17:00 . Near the White-Hall, flower show is at its best during the flowering season which is mid March to end of May in spring and October to mid December in autumn. The annual Cymbidium Orchid Show is from mid-March to mid-April. ₹10 .  ( updated Jul 2016 ) \r\n **Guru Lhakhang**, Deorali Bazar ( around 500 metres below the taxi stand, directly opp to Gurudwara on the main road ). A Nyingma monastery famous for its large Guru Rinpoche statue and 100,000 smaller statues. A larger version of the Guru Rinpoche statue was supposed to have been constructed in Tibet to protect it from invasion, but the authorities neglected to follow the advise of a high lama, and a smaller statue was built. HH Dalai Lama regretted this oversight, and to compensate had a number of statues built throughout the Himalayas. Those at Guru Lhakhang were created as a result of this command.  ( updated Dec 2020 ) \r\n **Kanchenjunga Tourist Complex** ( nearby Ranka Monastery ). A combination hotel and family amusement park.  ( updated Dec 2020 ) \r\n **Lake Tsomgo**. A popular and scenic lake around 40 km from Gangtok at an elevation of 3,780 m. Make sure to see Hanuman Tok and Ganesh Tok along the way, monasteries with views of Kangchenjunga.  ( updated Dec 2020 ) \r\n 2 ** Namgyal Institute of Tibetology ** , Deorali , tibetologyinfo@gmail.com . M-Sa 10:00-16:00 . A museum and library dedicated to Tibetan culture, language and history. It was inaugurated by the 14th Dalai Lama in 1957.  ( updated Jul 2018 ) \r\n **Ranka Monastery** ( 20 km from Gangtok ). Ranka Monastery is newer and quieter but also very beautiful.  ( updated Dec 2020 ) \r\n **Mahatma Gandhi Marg** ( MG Marg ). A pedestrian only avenue which forms the main shopping district. Near the main entrance of MG Marg is the tourist information office and a taxi stand, the final destination of many taxis from other parts of the city.  ( updated Dec 2020 ) \r\n 3 ** Rumtek Monastery ** ( 15 km from Gangtok ). One of the most famous things to see near Gangtok.  ( updated Dec 2020 ) \r\n 4 **Tsuklakhang Palace** , Secretariat Rd, Vishal Gaon . The palatial monastery of Sikkim's former royal family.  ( updated Feb 2021 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Banjhakri Falls",
+              "description": "This waterfall has an entrance fee of ₹30 for two people and parking fee of ₹20. The site is developed with pathways and bridges around streams leading up the waterfall, decorated with sculptures. The waterfalls are accessible and soft enough to swim in. There is also a restaurant and gift shop."
+            }
+          ],
+          "brief": "This waterfall has an entrance fee of ₹30 for two people and parking fee of ₹20. The site is developed with pathways and bridges around streams leading up the waterfall, decorated with sculptures. The waterfalls are accessible and soft enough to swim in. There is also a restaurant and gift shop.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Agarwal's",
+              "description": "Serves South Indian and North Indian snacks and sweets. Good place to have breakfast. There are two outlets, one on MG Marg and other on the way near the taxi stand. Dosas are not so good.",
+              "location": null
+            },
+            {
+              "name": "House of Bamboo",
+              "description": "Authentic Tibetan and Indo-Chinese fusion cuisine. The beef/pork chilli, the momos and the tea momos are recommended. The beef chilli is not so good.",
+              "location": null
+            },
+            {
+              "name": "Potala",
+              "description": "This place has excellent Sikkimese and Tibetan food. You might find yourself to be the only tourist/ non-local at any time of the day. Good selection of thenthuk, thukpa, faley, momos, chowmein, meat dry fry, rice plates, etc offered with beef, pork or chicken. Vegetarians may have some difficulties. A big bottle of beer starts from ₹90. Definitely try their pork thenthuk and pork momos.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Coffee There are a number of cafes in MG Marg (Road).\r\n\n\r\n **Baker's Cafe**, MG Marg . Was the first cafe in the city to sell cappuccino and latte. A wide selection of Western-style pastries.  ( updated Jul 2016 ) \r\n **Cafe Culture**, Ground Floor, Hotel Pandim, Secretariat Road ( Below Royal Palace ), ☏ +91 98326 15236 (mobile) . At the ridge which is an ideal location for walk and best view of the mountain, the cafe offers fresh Himalayan cuisine like phale (local bread), shiafale (local bread filled with meat and deep fried), momos and grilled sandwiches.   \r\n **Cafe Tibet**. On the way up towards the Zero point, left side. Run by a Tibetan, serves very good coffee although the food is just decent.   \r\n Alcohol **Downtown Multi-cuisine Restaurant and Bar** ( Downtown ), MG Marg ( on MG Road, Opposite SBI Bank, about 2/3 of the way from Titanic Park ). Until 23:00 most nights. On Saturdays until the police come . They have a couple of guitars, a saxophone etc if you feel like playing. Don't be surprised if the whole pub starts singing along. The best time to go is Saturday or Sunday nights, when it is jam packed with both locals and visitors. Saturday night is Karaoke night with songs ranging from Bollywood classics, Napali and English rock, and modern Hindi tunes. The owner Dheeraj Gurung is an amazing host. ₹150 to ₹300 .  ( updated Jan 2016 ) \r\n **Pub 25**, MG Road, Gangtok . Until 23:00 . An upscale pub in the heart of MG Road. Great drinks, tasty food (especially the Malai Tikka and sauteed mushrooms), and an amazing ambiance. The price is higher than other pubs on the street, but worth it.  ( updated Jul 2016 ) \r\n **Taste of Tibet**, MG Marg . Serves Tibetan food, thupkas, gyathuk and thentuk. Includes a bar.   \r\n **Wa Chipa Organic Restaurant** ( Wa Chipa ), 2nd Floor Star Hall ( on the extreme end of New Market towards Namnang; it is in the building with the big Buddha face painted on it ). 11:00-23:00 . This place is a cheap local hangout. In addition to the popular Hit and Dansberg beers, are traditional Nepali and Sikkimese drinks such as Nigar, Raksi, Chhang, Tongba, and various fruit and flower wines/spirits. They may run out of food, but when available includes various meat sekwas (traditional barbeque), wachipa and momos. ₹100-200 .  ( updated Jan 2016 )"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Modern Central Lodge",
+              "description": "A decent place for budget travellers and a good base in the centre of town. Rooms are basic, with old furniture, but that is to be expected for the price. Do bring earplugs as the road-facing rooms are very noisy at night. The building is next to the busiest road in town, and windows cannot be fully closed.",
+              "price": "₹900"
+            },
+            {
+              "name": "Green Hotel",
+              "description": "",
+              "price": "₹200-500"
+            },
+            {
+              "name": "Hotel Nirvana",
+              "description": "TV, carpeted rooms.",
+              "price": "₹700-1500"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:25.851Z",
+        "wikipedia_summary": "Gangtok, Sikkimese: [ɡaŋt̪ʰòk]) is the capital and the most populous city of the Indian state of Sikkim. The seat of eponymous district, Gangtok is in the eastern Himalayan range, at an elevation of 1,650 m (5,410 ft). The city's population of 100,000 consists of the three Sikkimese ethnicities: the Bhutias, Lepchas, Indian Gorkhas as well as plainsmen from other states of India. Within the higher peaks of the Himalayas and with a year-round mild temperate climate, Gangtok is at the centre of Sikkim's tourism industry.",
+        "wikipedia_description": "Capital city of Sikkim, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:25.901Z"
+      },
+      "search_context": "City / Urban destination Gangtok Gangtog Gántók Sightseeing Gangtok, Sikkimese: [ɡaŋt̪ʰòk]) is the capital and the most populous city of the Indian state of Sikkim. The seat of eponymous district, Gangtok is in the eastern Himalayan range, at an elevation of 1,650 m (5,410 ft). The city's population of 100,000 consists of the three Sikkimese ethnicities: the Bhutias, Lepchas, Indian Gorkhas as well as plainsmen from other states of India. Within the higher peaks of the Himala",
+      "travel_facts": {
+        "summary": "**Gangtok** anchors **IXB (~124 km) capital stacks** beneath **NJP (~118 km)** knowing MG Marg merges absorb Rumtek ridge tides.",
+        "keywords": [
+          "gangtok mg marg stacks",
+          "ixb siliguri merges",
+          "nh10 apron",
+          "pakyong shortcut tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-geyzing",
+      "name": "Geyzing",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.29004,
+        "lon": 88.2573,
+        "source": "wikidata"
+      },
+      "description": "**Geyzing**, or Gyalshing, is the capital of West Sikkim . Attractions include Pemyangtse Monastery built in 1640, reputed to be Sikkim's oldest, and Khecheopalri Lake which as legend has it not a leaf is allowed to float on the surface. The town is the base for trekking in the Himalayas and professional expeditions to Mount Kanchenjunga.",
+      "category": "District hub / West Sikkim",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Geyzing",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gyalshing",
+        "wikidata": "https://www.wikidata.org/wiki/Q1707638"
+      },
+      "distance_km": 1940,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Gyalshing"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_Shrine_of_Pemangytse_Gompa_with_prayer_flags.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 141,
+          "note": "Jorethang spur toward Gyalshing ridges"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 134
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 19238,
+        "content_richness_score": 0.137
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The town has a large population of people of Nepalese ancestry and has a population of around 900. \r\n\nThe Nepali language is the predominant language of the region.\r\n\nThe town is situated at an altitude of about 6,500 feet (1,900 m). The town enjoys a temperate climate for most of the year and snow sometimes falls in the vicinity.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "The town is connected to the capital Gangtok by a metalled road. Geyzing is also connected to the West Bengal towns of Darjeeling and Kalimpong via Jorethang. A few kilometres north is the town of Pelling. \r\n\n\r\n By bus There is a daily bus connection to Gangtok and to Siliguri (via Jorethang), both at 8AM. \r\n\n\r\n By shared jeep Shared jeeps go to Gangtok (4 to 5 hr, ₹120), Siliguri (₹125), Legship and Jorethang, where you have to change car when you want to go ahead to Darjeeling.\r\n\n\r\n By taxi There are taxis to Pelling (30 min, ₹20). Taxis to Pelling also operate in the afternoon, whereas taxis to other places leave in the morning only.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Pemayangtse Monastery",
+              "description": "A Buddhist monastery that was planned, designed and founded by Lama Lhatsun Chempo in 1647. It is one of the oldest and premier monasteries of Sikkim, also the most famous in Sikkim.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Pemayangtse_Monastery",
+              "coordinates": {
+                "lat": 27.30444,
+                "lon": 88.25278
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Khecheopalri Lake",
+              "description": "part of Buddhist religious pilgrimage circuit involving the Yuksom, the Dubdi Monastery in Yuksom, Pemayangtse Monastery, the Rabdentse ruins, the Sanga Choeling Monastery, and the Tashiding Monastery. An interesting feature of the lake is that leaves are not allowed to float on the lake, which is ensured by the birds which industriously pick them up as soon as they drop into the lake surface.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Khecheopalri_Lake",
+              "coordinates": {
+                "lat": 27.37333,
+                "lon": 88.20833
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Pemayangtse Monastery** , Pemayangtse village on the main Pelling road ( 6 km from Gyalshing city ). A Buddhist monastery that was planned, designed and founded by Lama Lhatsun Chempo in 1647. It is one of the oldest and premier monasteries of Sikkim, also the most famous in Sikkim.   \r\n \r\n 2 **Khecheopalri Lake** . part of Buddhist religious pilgrimage circuit involving the Yuksom, the Dubdi Monastery in Yuksom, Pemayangtse Monastery, the Rabdentse ruins, the Sanga Choeling Monastery, and the Tashiding Monastery. An interesting feature of the lake is that leaves are not allowed to float on the lake, which is ensured by the birds which industriously pick them up as soon as they drop into the lake surface.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Denkhang",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Atri",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "District hub / West Sikkim"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:26.451Z"
+      },
+      "search_context": "District hub / West Sikkim destination Geyzing Gyalshing Sightseeing Geyzing, or Gyalshing, is the capital of West Sikkim . Attractions include Pemyangtse Monastery built in 1640, reputed to be Sikkim's oldest, and Khecheopalri Lake which as legend has it not a leaf is allowed to float on the surface. The town is the base for trekking in the Himalayas and professional expeditions to Mount Kanchenjunga.",
+      "travel_facts": {
+        "summary": "**Gyalshing** hinges **IXB (~141 km) Rangeet stacks** beneath **NJP (~134 km)** knowing Pemayangtse spur merges absorb west-district tides.",
+        "keywords": [
+          "geyzing gyalshing stacks",
+          "rangeet valley merges",
+          "pem ling apron",
+          "west sikkim tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-khangchendzonga-national-park",
+      "name": "Khangchendzonga National Park",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.6563,
+        "lon": 88.3123,
+        "source": "wikidata"
+      },
+      "description": "**Khangchendzonga National Park** is in West Sikkim in northwestern India . It is a UNESCO World Heritage Site .",
+      "category": "Wildlife / High-altitude reserve",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Khangchendzonga_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Khangchendzonga_National_Park",
+        "wikidata": "https://www.wikidata.org/wiki/Q2605019"
+      },
+      "distance_km": 1976,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kanchenjunga_from_Tiger_Hills.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abhishek532%20LamuneyValley.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 238,
+          "note": "Yuksom trek permits—monsoon landslide buffers essential"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 231,
+          "note": "Multi-day staging toward Dzongri/Goecha relay bases"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17842,
+        "content_richness_score": 0.127
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Khangchendzonga",
+              "description": "India's highest mountain with an elevation of 8586 metres, once believed to be the world's tallest mountain, and the world's third highest mountain.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Kangchenjunga",
+              "coordinates": {
+                "lat": 27.7,
+                "lon": 88.13333
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Khangchendzonga** . India's highest mountain with an elevation of 8586 metres, once believed to be the world's tallest mountain, and the world's third highest mountain.  ( updated May 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / High-altitude reserve"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:27.296Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage",
+        "national_park"
+      ],
+      "search_context": "Wildlife / High-altitude reserve destination Khangchendzonga National Park Wildlife & nature Khangchendzonga National Park is in West Sikkim in northwestern India . It is a UNESCO World Heritage Site .",
+      "travel_facts": {
+        "summary": "**Khangchendzonga NP** stacks **IXB (~238 km) sanctuary stacks** beneath **NJP (~231 km)** knowing yak pasture merges absorb Singalila ridge tides.",
+        "keywords": [
+          "kncp stacks",
+          "yuksom relay merges",
+          "dzongri apron",
+          "high-himalaya permit tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-mangan",
+      "name": "Mangan",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.52,
+        "lon": 88.53,
+        "source": "wikidata"
+      },
+      "description": "**Mangan** is the capital of North Sikkim .",
+      "category": "District hub / North Sikkim",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Mangan",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mangan%2C_India",
+        "wikidata": "https://www.wikidata.org/wiki/Q2308307"
+      },
+      "distance_km": 1977,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 156,
+          "note": "Permit checkpoints north toward Dzongu/Lachen corridors"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 149
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 10794,
+        "content_richness_score": 0.077
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The sleepy town of Mangan happens to be the district headquarters of North Sikkim. It is also the gateway to the northern towns of Sikkim, places like Yumthang , Katao , Chungthang , Lachung and Lachen . Mangan is also 10 km from Dzongu , which is reserved from the Lepcha aboriginal people of Sikkim.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Mangan can be reached from Siliguri by passing through Rangpo, Singtham, Dikchu and Makha. In fact, the town lies in the route which connects Gangtok with the extreme northern towns of Sikkim, like Lachen, and Lachung.\r\n\nJeeps are available from Siliguri to Mangan.\r\n\nMangan can also be from Gangtok. Shared jeeps and taxis are available.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Tosar Lake Trail**. This rewarding trek leads through bamboo, silver fir and rhododendron woods to the emerald Tosar Lake, 4.500 m above sea level. Trek and permits are organised by agencies in Gangtok.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Mountain View",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Tamarind Hotel",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "District hub / North Sikkim"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:28.153Z"
+      },
+      "search_context": "District hub / North Sikkim destination Mangan Sightseeing Mangan is the capital of North Sikkim .",
+      "travel_facts": {
+        "summary": "**Mangan** hinges **IXB (~156 km) Teesta north stacks** beneath **NJP (~149 km)** knowing district HQ merges absorb cane-bridge tides.",
+        "keywords": [
+          "mangan north stacks",
+          "teesta north merges",
+          "dzongu apron",
+          "singhik viewpoint tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-namchi",
+      "name": "Namchi",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.17,
+        "lon": 88.35,
+        "source": "wikidata"
+      },
+      "description": "**Namchi** is the capital of South Sikkim . It resembles Gangtok in many ways (including the central pedestrian promenade), but is considerably more quiet and local in character, spared of the flood of domestic tourists and the catering industry that comes with it.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Namchi",
+        "wikipedia": "https://en.wikipedia.org/wiki/Namchi",
+        "wikidata": "https://www.wikidata.org/wiki/Q2483862"
+      },
+      "distance_km": 1935,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "M Cl"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Namchi.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 116,
+          "note": "Char Dham statue overlooks—Pakyong detours possible"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 110
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 22872,
+        "content_richness_score": 0.163
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The town is located at an altitude of 1,675m and is inhabited by Sherpas and other people of Nepalese Himalayan ancestry. The town has a population of around 5,000.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Baichung Stadium",
+              "description": "Built by the government in honour of the football player _Baichung Bhutia_.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Bhaichung_Stadium",
+              "coordinates": {
+                "lat": 27.16357,
+                "lon": 88.3552
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Meanam Peak",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Maenam Wildlife Sanctuary",
+              "description": "A with rare flora and fauna.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Namchi Monastery",
+              "description": "A Buddhist monastery.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Ralong Monastery",
+              "description": "This monastery is considered as one of the most important and most sacred monasteries of Sikkim. The Monastery was built in order to commemorate the pilgrimage of the fourth Chogyal to Tibet.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Salleybong Bul Cave",
+              "description": "A popular wishing cave, of which the locals believe that wishes come true in, but also a Hindu holy site.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Rock Garden",
+              "description": "great picnic spot with magnificent views on _Mount Kanchendzonga_ (the hird highest peak in the world).",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Solophok",
+              "description": "A Hindu temple with huge statues of Lord Shiva and temples dedicated to the pilgrimage of Char Dham Yatra.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Statue of Guru Padmasambhava",
+              "description": "Statue of Guru Rinpoche (an 8th century Buddhist sage) - at a height of 118 feet, it is reputed to be the world's largest statue - located on a hill 7.5 km from the from the town. The foundation stone was laid by H.H. the Dalai Lama in October 1997 and the statue was consecrated in November 2003.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.17997,
+                "lon": 88.37749
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Tendong Hill",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Tendong State Biodiversity Park",
+              "description": "With the greatest choice of medicinal plants from the Himalayas.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Baichung Stadium** . Built by the government in honour of the football player _Baichung Bhutia_.   \r\n **Meanam Peak**.   \r\n **Maenam Wildlife Sanctuary** ( Treasure house of medicines ) ( 25 kilometres from Namchi ). A with rare flora and fauna.   \r\n **Namchi Monastery**. A Buddhist monastery.   \r\n **Ralong Monastery** ( Buddhist Monastery ) ( accessible from Namchi via Ravangla (6 km from Ravangla) ). This monastery is considered as one of the most important and most sacred monasteries of Sikkim. The Monastery was built in order to commemorate the pilgrimage of the fourth Chogyal to Tibet.   \r\n **Salleybong Bul Cave** ( 30 mins by road from Namchi ). A popular wishing cave, of which the locals believe that wishes come true in, but also a Hindu holy site.   \r\n **Rock Garden** ( A few km out of town on the way to Samdruptse ). great picnic spot with magnificent views on _Mount Kanchendzonga_ (the hird highest peak in the world).   \r\n **Solophok** ( 5 km from Namchi ). A Hindu temple with huge statues of Lord Shiva and temples dedicated to the pilgrimage of Char Dham Yatra.   \r\n 2 **Statue of Guru Padmasambhava**. Statue of Guru Rinpoche (an 8th century Buddhist sage) - at a height of 118 feet, it is reputed to be the world's largest statue - located on a hill 7.5 km from the from the town. The foundation stone was laid by H.H. the Dalai Lama in October 1997 and the statue was consecrated in November 2003.   \r\n **Tendong Hill**.   \r\n **Tendong State Biodiversity Park** ( 16 km from Namchi ). With the greatest choice of medicinal plants from the Himalayas.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:28.991Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban destination Namchi M Cl Sightseeing Namchi is the capital of South Sikkim . It resembles Gangtok in many ways (including the central pedestrian promenade), but is considerably more quiet and local in character, spared of the flood of domestic tourists and the catering industry that comes with it.",
+      "travel_facts": {
+        "summary": "**Namchi** stacks **IXB (~116 km) South Sikkim stacks** beneath **NJP (~110 km)** knowing Samdruptse merges absorb Ravangla ridge tides.",
+        "keywords": [
+          "namchi south stacks",
+          "char dham merges",
+          "ravangla apron",
+          "namchi ropeway tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-nathu-la",
+      "name": "Nathu La",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": null,
+      "description": "The **Old Silk Route** or simply the **Silk Route** is a high-altitude road trip in the East Sikkim district of Sikkim . The 2-day- and 1-night-long road trip follows the ancient trade routes and offers spectacular views of the snow-covered Kanchenjunga, the third-highest peak in the world. The route passes several beautiful high-altitude glacial lakes, high passes opening into Tibet , China and a couple of temples dedicated to a fallen Indian soldier.",
+      "category": "Border pass / Permit circuit",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Nathu_La",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nathu_La",
+        "wikidata": "https://www.wikidata.org/wiki/Q136362357"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 1,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.4,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Sikkim Silk Route"
+      ],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 178,
+          "note": "Army permit windows via Gangtok—weather closures frequent"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 171,
+          "note": "Same-day convoys rarely guaranteed winter snow"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 60261,
+        "content_richness_score": 0.43
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Since 1 **Rongli** is the place where the permits are issued for the Silk Route tour, it saves a lot of time. But since Rongli is not very scenic the tour can also be started from 2 ** Aritar ** 3 **Icche Gaon** and 4 **Sillery Gaon** and a few other destinations in Sikkim or North Bengal . For tourist starting the tour from other destination needs to travel to Rongli for the permit and proceed along the Silk Route. The route can also be done in the reverse direction starting from Gangtok . however it is not a preferred choice. The road trip involves high altitude so necessary precaution for Altitude sickness needs to be taken.",
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Border pass / Permit circuit"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:30.313Z",
+        "wikipedia_summary": "Nathu La is a mountain pass in the Dongkya Range of the Himalayas between China's Yadong County in Tibet, and the Indian states of Sikkim. The pass, at 4,310 m (14,140 ft), connects the towns of Kalimpong and Gangtok to the villages and towns of the lower Chumbi Valley.",
+        "wikipedia_description": "Mountain pass on the Sikkim, India–China border",
+        "wikipedia_fetched_at": "2026-05-18T09:57:30.370Z"
+      },
+      "search_context": "Border pass / Permit circuit destination Nathu La Sikkim Silk Route Sightseeing Nathu La is a mountain pass in the Dongkya Range of the Himalayas between China's Yadong County in Tibet, and the Indian states of Sikkim. The pass, at 4,310 m (14,140 ft), connects the towns of Kalimpong and Gangtok to the villages and towns of the lower Chumbi Valley.",
+      "travel_facts": {
+        "summary": "**Nathu La** hinges **IXB (~178 km) high-pass stacks** beneath **NJP (~171 km)** knowing Indo-China gate merges absorb Baba Harbhajan tides.",
+        "keywords": [
+          "nathula permit stacks",
+          "gangtok convoy merges",
+          "tsomgo apron",
+          "border prayer tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-north-sikkim",
+      "name": "North Sikkim",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.51667,
+        "lon": 88.53333,
+        "source": "wikidata"
+      },
+      "description": "**North Sikkim** is a district in the state of Sikkim . Most of North Sikkim is restricted to travellers and permits are needed to visit these areas. The area, which shares a sensitive border with the People's Republic of China is heavily patrolled by the Indian army. However, in view of exquisite scenic beauty, many tourists have started visiting the region overcoming the difficulties.",
+      "category": "Region / High valleys",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/North_Sikkim",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mangan_district",
+        "wikidata": "https://www.wikidata.org/wiki/Q1784149"
+      },
+      "distance_km": 1977,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Mangan district",
+        "North District",
+        "district du Sikkim septentrional",
+        "distritu de North Sikkim",
+        "North Sikkim (distritu)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yumthang_Vally_and_the_river_in_the_background.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20om%20Kangchengyao%20in%20North%20Sikkim.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 248,
+          "note": "Lachen/Lachung circuits—shared-sum monsoon caution"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 241
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 34947,
+        "content_richness_score": 0.25
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Entry to North Sikkim is only possible on a guided tour, and a travel permit must be organised in Gangtok 1-2 days prior to travel. You would need a copy of your photo id card and 2 photos to obtain the permits for North Sikkim.\r\n\nAll travel is by 4-wheel-drive as the roads are subject to frequent landslides. The terrain is very difficult and cold. Make sure that your tour operator is giving you cars in good condition. Mostly Boleros and Scorpios are the safest bet although Sumo Victas also ply. Nevertheless, the journey into the valley is stunning.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Distances from Gangtok: \r\nChungthang (95 km), Phodong (36 km), Singhik (65 km), Lachen (130 km), Lachung (120 km), Yumthang Valley (140 km), Yumesamdong (155 km), Thangu (160 km), Chopta Valley (163 km)\r\n\nThe road from Mangan goes straight to Chungthang, 95 km from Gangtok, where the road bifurcates. The road to the left goes to Lachen and the road to the right to Lachung . Lachen is the base for tours to Gurudongmar lake and [hopta valle] Lachung for your tours to Yumthang valley.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Lachen to Gurudongmar Lake**. This is one journey which you will never forget. Journey from Lachen starts early at 05:00. It's mostly dark at that time. As you start climbing, the sun rays hit the snow peaks creating spectacular mountains of gold. \r\nThe only halt is at Thangu at 13000 ft where a single restaurant will serve you tea, bread butter (the bread has to be carried by the travellers) and maggi. You get to sit around the earthen furnace. Socks made from Yak wool and rubber boots are available on sale/rent.\r\n\nThe journey ahead is into the land of frozen rivers and chilled waterfalls. After about 16000 ft till Gurudongmar is mostly flat land with mountains on all sides. It's a high altitude desert, with hardly any vegetation and very stony and dusty. You have to make your own roads here and its very easy to get lost. Because it is a plateau, it is very cold as chilled winds come down the frozen mountain slopes. Don't exert much as you would be gasping for breath at this altitude.\r\n\nGurudongmar lake at 17100 ft is mind blowing. In winters, the entire lake is frozen except one corner which is considered to be very sacred. Army jawans are always there to offer help. One should not miss Gurudongmar Lake in the north Sikkim tour.\r\n\n\r\n The **Yumthang Valley** beyond Lachung is the major tourist attraction in the region. The colourful rhododendron bloom (May–June), soaring snow-capped peaks, and herds of wandering yaks makes this an idyllic location. The valley has a thermal spring, although the water can get quite dirty. \r\n **Yumesamdong**, Zero point from Yumthang Valley.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Short walks in the Yumthang Valley are highly recommended.\r\n\nDon't forget to take a walk through the towns in the night. Its dark, a few light bulbs are the only source of light, its creepy but it is something which you cannot find in the cities. All you can hear is the stream of water flowing.\r\n\n\r\n Tours The region of the Yumthang, Yumesamdong, Gurudongmar and Chopta Valley is the only part of North Sikkim that is accessible for tourists. Since North Sikkim is an area of significant military presence (bordering Tibet), tourists may only visit with a guided tour, who must arrange a travel permit. Most organised tours are for 2-3 nights, costing US$30 per day.\r\n\nThere are many travel agents who organize North Sikkim tours. A typical itinerary would be\r\n\nDay 1: Travel from Gangtok to Lachen\r\nDay 2: Travel to Chopta Valley and Gurudongmar early in the morning and return to Lachen, move to Lachung\r\nDay 3: Travel to Yumthang Valley and back to Gangtok.\r\n\nHowever, customized trips only to Lachen/Gurudongmar or Lachung/Yumthang Valley is also available.\r\n\nIt takes about 7 hr to travel from Gangtok to Lachen. The journey is very beautiful, don't forget to stop your vehicle in between to take snaps. The series of Buddhist white prayers flying from long poles create spectacular sights.\r\n\nThere are two major towns in North Sikkim except Mangan, the district capital. These are Lachen and Lachung. The road to both these towns are same except for the last 30 km where they bifurcate. At the junction is a small dhaba serving amazing tea, samosas and coconut based sweets. Don't forget to try them out.\r\n\nBoth Lachen and Lachung are sleepy towns with a small local population. Lachung is more developed than Lachen. Hotels with basic facilities have sprung up. \r\n\nThe journey is long and tiring, but the scenic beauty will help you forget all this.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Sampling the local millet beer (known as tongba or chang) with the locals is a great way of soaking up the atmosphere in Lachung. The Sikkimese beer \"HIT\" is popular for its high alcohol content. Basic brands of beers and liquors are available."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Provided you stay away from military zones, there are few safety concerns in the region. Theft is uncommon.\r\n\nThe journey to Gurudongmar takes you into high altitude regions. Many people experience headaches because of lack of oxygen. Don't exert yourself too much and drink lots of water. The roads are steep and winding and nausea is very common."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Region / High valleys"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:30.924Z"
+      },
+      "search_context": "Region / High valleys destination North Sikkim Mangan district North District district du Sikkim septentrional distritu de North Sikkim North Sikkim (distritu) Sightseeing North Sikkim is a district in the state of Sikkim . Most of North Sikkim is restricted to travellers and permits are needed to visit these areas. The area, which shares a sensitive border with the People's Republic of China is heavily patrolled by the Indian army. However, in view of exquisite scenic beauty, many tourists have started visiting the region overcoming the difficulties.",
+      "travel_facts": {
+        "summary": "**North Sikkim** stacks **IXB (~248 km) Yumthang stacks** beneath **NJP (~241 km)** knowing frozen lake merges absorb Gurudongmar tide gates.",
+        "keywords": [
+          "north sikkim stacks",
+          "lachen relay merges",
+          "yumthang apron",
+          "zero-point tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-pelling",
+      "name": "Pelling",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.3,
+        "lon": 88.23333,
+        "source": "wikidata"
+      },
+      "description": "**Pelling** is a small town in West Sikkim . Pelling is famous for its magnificent views of the snow-capped mountains of _Kanchenjunga_. Situated at an altitude of 1,900 m (6,250 ft), the location offers good views of the surrounding mountain ranges including the _Koktang, Frey, Rathong, Kabru North and Kabru South, Kabru Dom, Talung Kanchenjunga, Pandim, Jopuno, Tinchikhang, Narsing_ and others.",
+      "category": "Heritage / Mountain town",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Pelling",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pelling",
+        "wikidata": "https://www.wikidata.org/wiki/Q7161579"
+      },
+      "distance_km": 1940,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise_over_Kangchenjunga.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 149,
+          "note": "Skywalk ridge drives—cloud banks midday"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 142
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 58814,
+        "content_richness_score": 0.42
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Freddie Pelling founded the town during British rule. He organised protection for the townspeople who lived under threat from raiders coming from the north who stole minerals from the mines there. Since then, Freddie Pelling has become a local hero. Each year there is a parade through the town commemorating him, and celebrating the changes he made. As a token of their thanks they renamed the village after him.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By jeep The quickest way to get to Pelling is to take a 30 min share jeep from Geyzing which acts as the main transport hub for the area. However, if you are sick of being crushed amongst 10 other locals then the walk along the road is particularly pleasant and it should only take around 4-6 hr.\r\n\nThere are regular jeep service from Gangtok at 7AM and 12:30PM. Look for them at the West Sikkim taxi jeep stand near the Gangtok police headquarters.\r\n\nJeeps are also available at the jeep stand at 1PM going to Kechapalari lake and Rimbi , these travel via Pelling on that route.\r\n\nJeeps are available from Siliguri in the afternoon, one jeep hired up to Pelling will cost ₹3000-4000.\r\n\n\r\n By bus SNT Bus are also available from Siliguri (SNT) at Hill Cart Road at 10:30PM. Advance bookings can be done online through popular travel portals.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Motorbike Walk Guides are available in Pelling for nature walks and monastic treks. Some of the younger men and boys of the district have benefited from a training program provided by the Government of Sikkim. Ask in the tourism office as they may only be booked through there.\r\n\n\r\n Bicycle",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Pemayangtse Monastery",
+              "description": "Pemayangtse literally means _perfect sublime lotus_. This is one of the oldest and most important monasteries of Sikkim. Founded in 1705, this monastery belongs to the Nyingma-pa sect. The 3-storied building of the monastery houses a good collection of wall paintings and sculptures. On the 3rd floor of the monastery, there is a 7-tiered painted wooden model of the abode of Guru Rimpoche, complete with rainbows, angels and the whole panoply of Buddha and bodhisattva. In January–February every year, a religious dance called 'Cham' is performed in Pemayangtse.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Pemayangtse_Monastery",
+              "coordinates": {
+                "lat": 27.30521,
+                "lon": 88.25156
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Rabdentse Ruins",
+              "description": "When descending from Pemayangtse Monastery you can take a left turn and take a walk for 10 min to reach to the gateway of Rabdanse Ruins. The ruins lie hidden from the main road. The walk towards Rabdantse is through a forest area with some rare species of orchids and a few lakes. These lakes are also home to local carp fish. There are good views from the top of the ruins looking across the deep valley and to the Khang-chen-Dzonga ranges.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Rabdentse",
+              "coordinates": {
+                "lat": 27.30193,
+                "lon": 88.25643
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Chenrezig statue and skywalk",
+              "description": "The 42-metre-high statue of Chenrezig dominates the Pelling skyline. Chenrezig, also known as Avalokitesvara, “One who looks with unwavering eye,” is the most revered of all Bodhisattvas, embodying the compassion of all Buddhas. The Dalai Lama is said to be the incarnation of Chenrezig (Avalokitesvara). The flight of stairs lead to the pedestal of the gigantic statue housing a small shrine. The pedestal houses a shrine, centered around another statue of Chenrezig (Avalokitesvara). This statues with 11 heads is the most common manifestation of the 108 different forms of Chenrezig (Avalokitesvara). The inner walls of the shrine contains bright coloured fresco depicting the life of Lord Buddha. A ramp spirals along the inner walls of the shrine and leads to an open terrace offering breathtaking birds eye view of the Pelling town, crowned with the eternal snows of Mt Kanchenjunga. The skywalk, although is more famous, is not the primary purpose of this project. It is just an additional attraction to the gigantic statue. Photography inside the shrine is prohibited.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.29645,
+                "lon": 88.2182
+              },
+              "price": "₹50 (₹20 for Sikkimese) for sky walk only. Visit to the Chenrezig statue is free"
+            },
+            {
+              "order": 4,
+              "name": "Sanga Choeling Monastery",
+              "description": "Situated on a ridge above Pelling and overlooking the famous Pemayangtse Monastery. Built in 1697 AD, it is considered to be one of the oldest monasteries in the State. In order to reach this Monastery one has to be prepared to spend at least 40 min walking up the steep hilly slope and through the forest.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sanga_Choeling_Monastery",
+              "coordinates": {
+                "lat": 27.29775,
+                "lon": 88.22169
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Pemayangtse Monastery** . Pemayangtse literally means _perfect sublime lotus_. This is one of the oldest and most important monasteries of Sikkim. Founded in 1705, this monastery belongs to the Nyingma-pa sect. The 3-storied building of the monastery houses a good collection of wall paintings and sculptures. On the 3rd floor of the monastery, there is a 7-tiered painted wooden model of the abode of Guru Rimpoche, complete with rainbows, angels and the whole panoply of Buddha and bodhisattva. In January–February every year, a religious dance called 'Cham' is performed in Pemayangtse.   \r\n 2 **Rabdentse Ruins** . When descending from Pemayangtse Monastery you can take a left turn and take a walk for 10 min to reach to the gateway of Rabdanse Ruins. The ruins lie hidden from the main road. The walk towards Rabdantse is through a forest area with some rare species of orchids and a few lakes. These lakes are also home to local carp fish. There are good views from the top of the ruins looking across the deep valley and to the Khang-chen-Dzonga ranges.   \r\n 3 **Chenrezig statue and skywalk**. The 42-metre-high statue of Chenrezig dominates the Pelling skyline. Chenrezig, also known as Avalokitesvara, “One who looks with unwavering eye,” is the most revered of all Bodhisattvas, embodying the compassion of all Buddhas. The Dalai Lama is said to be the incarnation of Chenrezig (Avalokitesvara). The flight of stairs lead to the pedestal of the gigantic statue housing a small shrine. The pedestal houses a shrine, centered around another statue of Chenrezig (Avalokitesvara). This statues with 11 heads is the most common manifestation of the 108 different forms of Chenrezig (Avalokitesvara). The inner walls of the shrine contains bright coloured fresco depicting the life of Lord Buddha. A ramp spirals along the inner walls of the shrine and leads to an open terrace offering breathtaking birds eye view of the Pelling town, crowned with the eternal snows of Mt Kanchenjunga. The skywalk, although is more famous, is not the primary purpose of this project. It is just an additional attraction to the gigantic statue. Photography inside the shrine is prohibited. ₹50 (₹20 for Sikkimese) for sky walk only. Visit to the Chenrezig statue is free .  ( updated Oct 2020 ) \r\n 4 **Sanga Choeling Monastery** . Situated on a ridge above Pelling and overlooking the famous Pemayangtse Monastery. Built in 1697 AD, it is considered to be one of the oldest monasteries in the State. In order to reach this Monastery one has to be prepared to spend at least 40 min walking up the steep hilly slope and through the forest.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Monastery trek**: Pelling is the starting point of the Monastery trek Pelling to Kechapalari Llake (6 hr), Kechapalari Lake to Yuksum (3 to 4 hr) and Yuksum to Tashiding (6 hr) The trek follows small local paths as well as the very quiet main road. It is a rewarding 3-day trek. A handmade map is available at Tourist Information Centre. The paths are poorly marked, but the best strategy is to simply ask a local to point you in the right direction. You will never be lost as the countryside is dotted with small villages throughout it. \r\n **Darap Village** Amongst the few unexplored areas this village historically known as Therap, meaning flat land, is home to a few of the Limboo people. Tucked away in the interiors of Himalayan belt, this cold, high altitude village was long unknown to the outside world. Sitting at an altitude well over 1,600 m (5,250 ft) above mean sea level, the valley is exposed to temperature variations of -5℃ to 28℃. This makes Darap a storehouse of various rare and endangered species of flora and fauna. The Limboo culture is also well preserved in this valley. Darap village is rich in natural resources, bio-diversity and particularly very rich in cultures and customs of local tribes called ‘Limboo'. \r\n Darap is easily accessible as it is well connected with roadways from different corners of Sikkim. The nearest railhead is about 145 km (4½ hr drive). The nearest airport is about 115 km away and the journey is approximately 5 hr by road. \r\n Trekking and village walks including observation of rural lifestyle with participation in organic farming activities for those who may be interested. \r\n Traditional house visits \r\n Cultural shows and ancient Limboo story telling sessions \r\n Handicraft making \r\n Visit the cave at Khanchendzongna National Park \r\n Bird watching \r\n Volunteer to assist with community programs \r\n **Fishing at Rimbi** An ideal place for fishing is located 2 km away from Darap. Enjoy the day fishing. ‘Assala’ local fish has a very unique taste and is only found in this region. \r\n **Hot Stone bath** \r\n **Jungle walk-bird watching** Darap is situated at the door step of Khanchendzongna Biosphere Reserve (KBR) which is very rich in flora and fauna. \r\n **Local Language Learning:** Learn local languages -Limboo, Lepcha (Tribe of Sikkim), Bhutia and Nepali languages or even arrangement can be made to interact with the local school students (share your experiences) with them. \r\n **Limboo Heritage House:** Built in 1810 by Limboo Village Chieftain (Mondal). Traditional architecture \r\n **Milking a cow:** For those who have grown up in urban areas and wanted to know about rural life. \r\n **Rani dunga** Religious and nature trek (Darap to Neydham via Rani Dhunga) \r\n **Singhalilla nature**, culture and adventure trek in the Khangchendzonga Biosphere Reserve. \r\n **Trekking into West Sikkim** (Darap to Dzongri and the Goecha La) \r\n **Yuma Meditation Centre**. Find out about Yuma (goddess).",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Melting Point",
+              "description": "Multi cuisine restaurant and bar.",
+              "location": null
+            },
+            {
+              "name": "Big Chill",
+              "description": "Multi cuisine restaurant and bar.",
+              "location": null
+            },
+            {
+              "name": "Cloves Resto",
+              "description": "A variety of fresh Nepali and Indian dishes.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Places where you can eat and drink include The Treat, Pork, Deorali, Ladak Restaurant, Have More and many other small small joints where you can get momo and thukpa. You can also try tongba, a fermented millet wine served in a bamboo container with bamboo straw. The standard price of tingba is ₹50.\r\n\n\r\n **The Big Chilled** ( Opposite Chiminda International ). Happy hour 5-7PM"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Kabur",
+              "description": "Staff is helpful in arranging jeeps, storing luggage, etc., hot water only in the morning, fast but unreliable Wifi.",
+              "price": "Double room for ₹400, dorm available"
+            },
+            {
+              "name": "Hotel Garuda",
+              "description": "Attached restaurant is quite good; however, the cleanliness of the kitchen may be questionable. No Wifi.",
+              "price": "Dormitory available for ₹150/night"
+            },
+            {
+              "name": "Hill Retreat",
+              "description": "7 rooms with a cozy bar, a little bit away from the other buildings. Amar Daju is a good cook. Booking accepted by email.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Mountain town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:31.771Z"
+      },
+      "credibility_recognitions": [
+        "biosphere_reserve"
+      ],
+      "search_context": "Heritage / Mountain town destination Pelling Sightseeing Pelling is a small town in West Sikkim . Pelling is famous for its magnificent views of the snow-capped mountains of . Situated at an altitude of 1,900 m (6,250 ft), the location offers good views of the surrounding mountain ranges including the and others.",
+      "travel_facts": {
+        "summary": "**Pelling** hinges **IXB (~149 km) Kanchenjunga stacks** beneath **NJP (~142 km)** knowing Pemayangtse merges absorb Rabdentse ruin tides.",
+        "keywords": [
+          "pelling skyline stacks",
+          "kanchenjunga merges",
+          "changay falls apron",
+          "monastery trek tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-ravangla",
+      "name": "Ravangla",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.2925,
+        "lon": 88.35944,
+        "source": "wikidata"
+      },
+      "description": "**Ravangla** is a relatively new tourist spot in South Sikkim . It is a small picturesque town on the highway from Gangtok to Gyalshing at an elevation of 8,000 ft. Ravangla is one of the few places in Sikkim which offer undisturbed views of the Greater Himalayas (Mt. Kanchenjunga, Mt. Pandim, Mt. Sinialchu, Mt. Kabru).",
+      "category": "Hill town / Monastery circuit",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ravangla",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ravangla",
+        "wikidata": "https://www.wikidata.org/wiki/Q3065077"
+      },
+      "distance_km": 1947,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabong_monastery.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temi%20Tea%20Garden%20Ravangla.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 129,
+          "note": "Buddha Park perch—misty dawn vistas"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 122
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 50737,
+        "content_richness_score": 0.362
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "In April and May lots of flowers are in full blossom. The weather in Ravangla is very volatile, so always be prepared for rains.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Ravangla is situated about 65 km west of Gangtok and 52 km east of Pelling . It is directly accessible from Gangtok (2 hr 15 min), Siliguri (126 km - 4 hr 30 min), Darjeeling and Kalimpong . If you want to reach Ravangla by evening, make sure you book or hire a taxi by afternoon. Beyond afternoon, one can reach Ravangla by traveling to Namchi and from there another taxi to Ravangla.\r\n\n\r\n By jeep or taxi Jeeps arrive at and leave from the crossing at the southern end of the market. A few taxis go directly to Pelling, but normally you will have to change cars at Gyalshing.\r\n\n\r\n By bus Buses to Gangtok leave at 9AM, to Gyalshing at 11AM. There are two buses to Namchi at 9AM and 1pm. If you want to go to Darjeeling, you will have to take a bus or taxi to Jorethang first and change cars there.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Bon Monastery",
+              "description": "The Bon faith was prevalent in Tibet until the 8th Century AD (before the advent of Buddhism). Presumably many of its rituals were taken over by Buddhism, such as the prayer flags and the burning of incense.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Borong and Ralang Cha-chu",
+              "description": "These sulphur springs are traditional winter spas. Visitors spend there a few days soaking in the sulphur springs to which healing effects are attributed. _Ralang Cha-chu_ is reached after a 1-hour downhill walk from _Ralang monastery_ into Rangit valley. _Borong Cha-chu_ is a 7-km drive from Ralang and an additional 45 minutes walk downhill. The hot springs are located along the banks of the Rangit River and are best to be visited between December and February. Temporary huts are available for overnight stays at nominal rates, but you have to bring along bedding and cooking utensils. During the hot spring season basic vegetables are sold by the local village people.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Doling Monastery",
+              "description": "A gompa of the _Nyingmapa (Red Hat) sect_ of Buddhism, situated amidst cardamom plantations.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Khandosangphu and Sharchog Bephug",
+              "description": "These two holy caves where _Guru Padmasambhava_, who spread Buddhism in Tibet in the 7th century, is said to have meditated on his journey to Tibet. Khandosangphu Cave is 34 km from Ravangla (8 km beyond Legshep). _Sharchog Bephug_ at Sangmo village (8 km from Ravangla) is the largest of holy caves, extending into the Menam and Tendong hills.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Ralang Monasteries",
+              "description": "There are two monasteries of the _Kagyupa sect_ of Buddhism. The Old monastery was built in 1768.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ralang_Monastery",
+              "coordinates": {
+                "lat": 27.32838,
+                "lon": 88.33486
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Rangit Water World",
+              "description": "A dam across the Rangit river, for a hyroelectric project",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Rayong Sunrise View Point",
+              "description": "The viewpoint offers spectacular view of the sunrise up the snowy peaks of Mt. Narsing, Jopuno, Kabur, Rathong and Pandim.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Shiva Mandir",
+              "description": "(26 km) is a shrine revered by the local people on the bank of the Rangit river at Legshep",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Tashiding Monastery",
+              "description": "(39 km from Ravangla) is the most sacred monastery complex in Sikkim. It was built in 1716.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tashiding_Monastery",
+              "coordinates": {
+                "lat": 27.06667,
+                "lon": 88.46667
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Temi Tea Garden",
+              "description": "(15 km from Ravangla) is one of the most beautifully situated tea gardens of Sikkim. The journey on the winding road via _Dentham_ is specatular. A 9 km trek from Dentham through the Tendon Sanctuary leads to a dormant volcano with views on the _Kanchenjunga_ and _Singalila_ range in the West and the plane in Southern Sikkim.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Tinkitam Village",
+              "description": "(6 km from Ravangla), a quaint little Sikkimese village, known to orchid lovers as the natural habitat of Paphiopedilum fairieanum (lady’s slipper), which is in full blossom in October and November.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Buddha Park",
+              "description": "A large Buddhist complex completed in 2013 with the main Buddha statue 40 metres high.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Buddha_Park_of_Ravangla",
+              "coordinates": {
+                "lat": 27.3136,
+                "lon": 88.36367
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Bon Monastery**. The Bon faith was prevalent in Tibet until the 8th Century AD (before the advent of Buddhism). Presumably many of its rituals were taken over by Buddhism, such as the prayer flags and the burning of incense.   \r\n **Borong and Ralang Cha-chu**. These sulphur springs are traditional winter spas. Visitors spend there a few days soaking in the sulphur springs to which healing effects are attributed. _Ralang Cha-chu_ is reached after a 1-hour downhill walk from _Ralang monastery_ into Rangit valley. _Borong Cha-chu_ is a 7-km drive from Ralang and an additional 45 minutes walk downhill. The hot springs are located along the banks of the Rangit River and are best to be visited between December and February. Temporary huts are available for overnight stays at nominal rates, but you have to bring along bedding and cooking utensils. During the hot spring season basic vegetables are sold by the local village people.   \r\n **Doling Monastery** ( 4 km from Barfung village ). A gompa of the _Nyingmapa (Red Hat) sect_ of Buddhism, situated amidst cardamom plantations.   \r\n **Khandosangphu and Sharchog Bephug**. These two holy caves where _Guru Padmasambhava_, who spread Buddhism in Tibet in the 7th century, is said to have meditated on his journey to Tibet. Khandosangphu Cave is 34 km from Ravangla (8 km beyond Legshep). _Sharchog Bephug_ at Sangmo village (8 km from Ravangla) is the largest of holy caves, extending into the Menam and Tendong hills.   \r\n 1 **Ralang Monasteries** ( 13 km from Ravangla ), ☏ +91 80161 05747 . There are two monasteries of the _Kagyupa sect_ of Buddhism. The Old monastery was built in 1768.   \r\n **Rangit Water World** ( Rangeet Dam ) ( 26 km (1 hr) downhill from Ravangla ). A dam across the Rangit river, for a hyroelectric project   \r\n **Rayong Sunrise View Point** ( (8 km) on the road to _Damthang_ ). The viewpoint offers spectacular view of the sunrise up the snowy peaks of Mt. Narsing, Jopuno, Kabur, Rathong and Pandim.   \r\n **Shiva Mandir**. (26 km) is a shrine revered by the local people on the bank of the Rangit river at Legshep   \r\n 2 **Tashiding Monastery** ( Central Elevated Glory ). (39 km from Ravangla) is the most sacred monastery complex in Sikkim. It was built in 1716.   \r\n **Temi Tea Garden**. (15 km from Ravangla) is one of the most beautifully situated tea gardens of Sikkim. The journey on the winding road via _Dentham_ is specatular. A 9 km trek from Dentham through the Tendon Sanctuary leads to a dormant volcano with views on the _Kanchenjunga_ and _Singalila_ range in the West and the plane in Southern Sikkim.   \r\n **Tinkitam Village**. (6 km from Ravangla), a quaint little Sikkimese village, known to orchid lovers as the natural habitat of Paphiopedilum fairieanum (lady’s slipper), which is in full blossom in October and November.   \r\n 3 **Buddha Park** ( Tathagata Tsal ), Ralong Rd , ☏ +91 95936 26269 . A large Buddhist complex completed in 2013 with the main Buddha statue 40 metres high.  ( updated Jul 2018 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Ravangla serves as basis for moderate treks to Menam (3,200 m) and Tendong (2,575 m).\r\n\n\r\n **Menam trek**. The ascent to the Maenam is about 12 km long with a difference in altitude of about 1,000 m and takes about 3 to 4 hrs. Weather permitting it offers splendid views on the steep peak of _Mount Narsing_ (5,825 m), Kanchenjunga , and other prominent peaks of Sikkim . It is not easy to find the path, therefore a local guide (₹1000-1500, group of 4 in 2015) is highly recommended. A small brick hut at the few minutes before the top can be used as accommodation. The hut can accommodate up to 5 people and can be managed for even 6 people. No availability of water at the top. There is a small Gompa (a small Buddhist temple) at the peak. The path winds through a forest of oak, chestnut, magnolia and rhododendron trees. There are few trees along the trek whose barks have unique property of glowing in the dark. The guide will get you one if you ask, but its effect is short lived (2 to 3 days) and not sure if it glows until you carry it back to your place. There are two types of paths along the trek, one which is made as a footpath for easy and gradual climb and another is a very rough short route which goes very steep crossing the footpath at many places. Only sufficiently fit people use the short route according to the guide. Flowers are in full blossom in April and May. The area is the natural habitat of the red panda, Himalayan black bear and many species of deer and is designated as a Wildlife Sanctuary. Before starting the trek one must register his/her name in the forest barrack which is just near the entry point of the trek. If guides are not available to anyone, the person in the forest office will either help you find one or he himself will come as a guide. The forest entry fees is ₹25 (2015) per day. The entry point to the trek is near the Buddha Park entry gate and any local will assist you to the forest office on asking for it. \r\n **Tendong trek** starts with a 13-km drive to _Damthang_ and 2 hr 30 min trek. Tendong peak (8,500 ft, 2,575 m) offers a spectacular view of the mountains of Sikkim and the distant plains of North Bengal.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Florida Cafe",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Karma Cafe",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Taste of Sikkim",
+              "description": "While authentic Sikkimese/Tibetan is served, including momo dumplings and thukpa soup, the restaurant also serves standard North Indian food.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "10Zing",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Reegyal",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Zumthang",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Hill town / Monastery circuit"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:32.608Z",
+        "wikipedia_summary": "Rabong or Ravangla is a small town with an elevation of 8000 feet located, near Namchi City in the Namchi district of the Indian state of Sikkim. It is connected by state highway to other major towns in the state and lies between Namchi, Pelling and Gangtok. It is the starting point for the trek to Maenam Wildlife Sanctuary. It is approximately 65 km from the state capital, Gangtok, and 120 km from Siliguri, West Bengal. The name is derived from the Sikkimese language. ‘Ra’ means wild sheep, 'vong' translates to a rearing place, and ‘la’ means a pass.",
+        "wikipedia_description": "Town in Sikkim, India",
+        "wikipedia_fetched_at": "2026-05-18T09:57:32.660Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Hill town / Monastery circuit destination Ravangla Sightseeing Rabong or Ravangla is a small town with an elevation of 8000 feet located, near Namchi City in the Namchi district of the Indian state of Sikkim. It is connected by state highway to other major towns in the state and lies between Namchi, Pelling and Gangtok. It is the starting point for the trek to Maenam Wildlife Sanctuary. It is approximately 65 km from the state capital, Gangtok, and 120 km from Siliguri, West Ben",
+      "travel_facts": {
+        "summary": "**Ravangla** stacks **IXB (~129 km) Maenam stacks** beneath **NJP (~122 km)** knowing Tathagata statue merges absorb alpine meadow tides.",
+        "keywords": [
+          "ravangla buddha stacks",
+          "maenam merges",
+          "south ridge apron",
+          "monastery hike tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-south-sikkim",
+      "name": "South Sikkim",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.16667,
+        "lon": 88.36667,
+        "source": "wikidata"
+      },
+      "description": "**South Sikkim** is a district in Sikkim . It is the most industrialized district of the state.",
+      "category": "Region / Buddha circuit",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/South_Sikkim",
+        "wikipedia": "https://en.wikipedia.org/wiki/Namchi_district",
+        "wikidata": "https://www.wikidata.org/wiki/Q1805051"
+      },
+      "distance_km": 1936,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Namchi district",
+        "Sikkim Sur",
+        "South District",
+        "distritu de South Sikkim",
+        "South Sikkim (distritu)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikkim%20mountains%20from%20samdrumptse.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 119,
+          "note": "Temi tea trails Temi/Ralong loops"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 112
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 18716,
+        "content_richness_score": 0.134
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "** Jorethang ** is situated about 30 km from Darjeeling. The small place is an important traffic junction in South Sikkim. There are daily busses to Siliguri at 8AM, Gangtok at 7:30AM, Namchi at 8:30AM and Pelling at 3PM. There are shared jeeps to Darjeeling (25 km, ₹100), Namchi (1 hr, ₹25) and Leghsip (1 hr) where you have to change cars for Ravangla, Yoksum and Tashiding, as well as to Gangtok (4 to 5 hr, ₹100) and Silguri (4 to 5 hr, ₹100). Most shared jeeps leave Jorethang earlier than 1PM.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Region / Buddha circuit"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:33.225Z"
+      },
+      "search_context": "Region / Buddha circuit destination South Sikkim Namchi district Sikkim Sur South District distritu de South Sikkim South Sikkim (distritu) Sightseeing South Sikkim is a district in Sikkim . It is the most industrialized district of the state.",
+      "travel_facts": {
+        "summary": "**South Sikkim** hinges **IXB (~119 km) Temi stacks** beneath **NJP (~112 km)** knowing Namchi statue merges absorb tea-estate tides.",
+        "keywords": [
+          "south sikkim stacks",
+          "temi tea merges",
+          "ravangla apron",
+          "chardham spur tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-west-sikkim",
+      "name": "West Sikkim",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.28333,
+        "lon": 88.25,
+        "source": "wikidata"
+      },
+      "description": "**West Sikkim** is a district in Sikkim .\r\nThe highlight of West Sikkim is the amazing Himalayan treks in the foothills of Mt Kanchenjunga (also spelt Kangchendzonga). The rolling mountains also offer some \"low altitude\" treks.",
+      "category": "Region / Kanchenjunga foothills",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/West_Sikkim",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gyalshing_district",
+        "wikidata": "https://www.wikidata.org/wiki/Q611357"
+      },
+      "distance_km": 1939,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Gyalshing district",
+        "distritu de West Sikkim",
+        "West Sikkim (distritu)",
+        "West District"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabdentse%20Palace%2C%20Sikkim%2C%20India.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 139,
+          "note": "Pelling/Yuksom spokes—landslide season buffers"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 132
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 35162,
+        "content_richness_score": 0.251
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "A special hiking permit is required for all high-altitude treks, and thus these treks must be organised through a tour guide. Travel to Yuksom and Pelling is allowed without a special permit (however the normal Sikkim permit is still required).",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "As for all destinations in Sikkim, the major mode of transport is \"jeep\", which refers to the ubiquitous 4x4 vehicles that plow around the hairpin bends. Times can be quite variable depending on road conditions, generally it takes 4-6 hours to travel from Gangtok to Yuksom or Pelling. Landslides and bridge repairs can make this trip take considerably longer. Locals catch the \"share jeep\", packing in 10 passengers, which is not recommended for those who highly value their personal space (however these are very cheap). Considerably more expensive is the \"private jeep\", but if travelling in a group this is often quite economical. From some destinations, if a direct jeep does not run, you may have to go via Geyzing, the major transport centre in West Sikkim (Geyzing is a short jeep ride down the hill from Pelling).",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Jeeps can be hailed along main roads throughout the region, but if all 10 seats are full (which is common), you may have to ride on the back.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Itineraries Many people spend 5-7 days on a trek, then a further 2-3 days exploring Yuksom and Pelling.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "The **high altitude treks** are highly recommended, and certainly compare favourably to those across the border in Nepal. Most of the high altitude treks start from Yuksom. All treks must be accompanied by a tour guide, who arrange a special trekking permit. The more popular treks either go to Zongri (4000m) or Gochela Pass (5000m). The Zongri trek usually takes 5-6 days, and the Gochela trek 7-8 days, though this varies depending on fitness and previous exposure to high altitudes. The region is extremely beautiful, with numerous photographic opportunities. \r\n\n**Altitude sickness** is a common concern in this region due to the relatively short distances required to gain significant altitude. A \"rest day\" for acclimatisation is strongly advised at Tsokha (3000m). \r\n\nSuccessful climbing to Gochela Pass usually involves leaving at 3AM on that morning to reach the pass for sunrise before the clouds sweep in. Porters, with the help of yaks and ponies carry most of your gear, but you should carry your own day-pack with water, snacks and warm weather gear. **Temperatures** can fall well below zero at any time of the year at high altitude, and you should either hire or take genuine cold-weather gear and sleeping bags(most tour companies will hire these). One of the more popular tour companies is Modern Tours (linked to Modern Central Lodge in Gangtok) -- they hire sleeping bags and jackets at no cost. Most tour agencies cost $30-35 USD per day (including transport, food, porters and an English-speaking guide).\r\n\n**Low altitude treks** are also popular, and since an additional permit isn't necessary, these can be done at your own pace. The typical trek starts in Pelling, and finishes either at Yuksom (3 days 40 km), or Ravangla (4 days, 54 km). The route follows both roads and paths, and several guesthouses are available for accommodation along the way. The trek passes Khecheopalri Lake, 14 km from Pelling.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Soft drink, beer and bottled water are cheap and widely available. The bold traveller can sample the dirt-cheap Sikkimese rum."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "There are few safety concerns in the region -- people are generally quite trustworthy. There are considerably fewer touts and rip-off artists compared with lowland India.\r\n\nPermits can be extended at the office of the Superintendent of Police at **Tikjuk**, halfway between Gyalshing and Pelling (M-Sa 10AM to 4PM)."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Region / Kanchenjunga foothills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:34.069Z"
+      },
+      "search_context": "Region / Kanchenjunga foothills destination West Sikkim Gyalshing district distritu de West Sikkim West Sikkim (distritu) West District Sightseeing West Sikkim is a district in Sikkim . The highlight of West Sikkim is the amazing Himalayan treks in the foothills of Mt Kanchenjunga (also spelt Kangchendzonga). The rolling mountains also offer some \"low altitude\" treks.",
+      "travel_facts": {
+        "summary": "**West Sikkim** stacks **IXB (~139 km) Rangeet stacks** beneath **NJP (~132 km)** knowing Khecheopalri merges absorb Yuksom trekhead tides.",
+        "keywords": [
+          "west sikkim stacks",
+          "rangeet merges",
+          "pelling apron",
+          "yuksom corridor tides"
+        ]
+      }
+    },
+    {
+      "slug": "sikkim-yuksom",
+      "name": "Yuksom",
+      "region": "",
+      "state": "Sikkim",
+      "coordinates": {
+        "lat": 27.36917,
+        "lon": 88.22222,
+        "source": "wikidata"
+      },
+      "description": "**Yuksom** is a small village in Sikkim it serves as the starting point of the Dzongri - Goechala Trek. The 8 - 9 day trek is the most popular in Sikkim and leads to the base of the third highest mountain in the world, Kangchenjunga. It is said that it was the first capital of Sikkim. It is very calm and peaceful, a real get-away for those who want to avoid the tourist crowd.",
+      "category": "Trek gateway / Historic capital",
+      "best_time_to_visit": {
+        "text": "Mar–May & Oct–Dec",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "season": "eastern_himalayas"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Yuksom",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yuksom",
+        "wikidata": "https://www.wikidata.org/wiki/Q839046"
+      },
+      "distance_km": 1945,
+      "ideal_months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar/Apr/May",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:23.948Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Yuksum"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dubdi_Monastery_3.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuksom%20Village.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "18–28",
+          "winter": "5–15"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Bagdogra Airport",
+          "code": "IXB",
+          "distance_km": 172,
+          "note": "Coronation throne hikes—check Khanchendzonga permits"
+        },
+        "nearest_railway_station": {
+          "name": "New Jalpaiguri Junction railway station",
+          "distance_km": 165,
+          "note": "Jeep relay via Legship/Jorethang hairpins"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Delhi",
+          "Guwahati",
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "trekking"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 57618,
+        "content_richness_score": 0.412
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Yuksom means “meeting place of the three learned monks”. According to the legend, three monks from Tibet selected _Phuntsog Namgyal_ as the first King of Sikkim and gave him the title _Chogyal_, meaning “religious King” or “the king who rules with righteousness”. Yuksom is part of _Demazon_ (valley of rice), the sacred landscape consisting of four religious sites which have been blessed by _Guru Padmasambhava_ and which are considered to be the four plexuses of the human body, in which Yuksom represents the 'third eye'.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train"
+          ],
+          "nearest_station": {
+            "name": "in Bagdogra",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": 150,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "in Bagdogra",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": 150,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By jeep or taxi Reach here in 2-3 hours from Geyzing or 3-4 hours from Jorethang, using shared or private jeeps. There are no buses to Yuksom, there are taxis to Yuksom from Jorethang, Geyzing , Tashiding , Pelling and Gangtok. From Jorethang taxi stand, two shared jeeps leave around 1PM or a little later (as of Nov 2024). These go via Tashiding. From Geyzing, one jeep leaves in the morning and crosses Pelling on the way.\r\n\n\r\n By train The nearest railway station is New Jalpaiguri (NJP) which is about 150 km from Yuksom. From NJP, one could book a taxi to Yuksom for ₹2000, in 2009. Be careful to leave NJP by 11AM as it takes around 6-7 hours to reach Yuksom via Jorethang . The road to Yuksom is poorly lit and it is not advisable to travel at night.\r\n\n\r\n By plane The nearest airport is in Bagdogra , 12 km west of Siliguri and about 170 km from Yuksom.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Yuksom is the base camp for many treks in Sikkim. One can trek to **Tashiding/Dzongri peak/Goecha La** from here.\r\nYou can also trek to **Kachupuri lake** from Yuksom. It's a relatively tough steep trek (10 km) if you not a high altitude trekker. There are no shared jeeps to/from Kachupuri lake, but it might be possible to join a tour jeep for this journey.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Throne of Norbugang",
+              "description": "Yuksom literally means the meeting place of three learned men. Lama Lutsum Chembo meet Sempa Chembo and Rinzing Chembo in Yuksom in 1641. They crowned Phunstok as the first king of Sikkim. He ascended the throne with the title of Chogyal, meaning the king who rules with righteousness, and was conferred the surname Namgyal. The stone throne on which this historical coronation took place still stands and is known as the Throne of Norbugang. The simple stone throne has four seats on different levels. The topmost seat was reserved for chief lama Lutsum Chembo. On his right, the slightly lower seat was meant for the newly crowned king Phunstok. On the left of the chief lama were two seats in descending height meant for the other two lamas Sempa Chembo and Rinzing Chembo respectively. The throne is fitted with the names and pictures of the lamas and the king in respective positions. Locals considered this place holy and offer regular prayers. Te historic coronation took place under a pine tree, which still stands. Opposite the throne is a giant chorten (stupa), which is said to contain water and soil from all parts of Sikkim.The complex houses a small newly built monastery and the entire complex is decorated with multi colured prayer flags.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Norbugang_Chorten",
+              "coordinates": {
+                "lat": 27.36965,
+                "lon": 88.21709
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Kathok Pokhri",
+              "description": "Kathok Pokhri is a small lake, or rather a pond, connected to the historical coronation of Sikkim. Legend says that after coronation the new king was blessed by the three lamas with the water of the Kathok Pokhri. The lake still exists and is considered holy by the locals. The lake is lined with fluttering prayer flags.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.3717,
+                "lon": 88.22208
+              },
+              "price": "₹20"
+            },
+            {
+              "order": 3,
+              "name": "Dubdi Monastery",
+              "description": "The monastery was built in 1701, and it is one of the oldest monasteries in Sikkim. A winding trail leads to the monastery. The trail starts with the Yuksom Primary Health centre on the left and the Limbo Homestay on the right. Fluttering prayer flags welcome visitors to the monastery complex. The monastery consists of several structures including several chortens (stupas). Fluttering prayer flags welcome visitors to the monastery complex. Sadly the monastery remains closed most of the time.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Dubdi_Monastery",
+              "coordinates": {
+                "lat": 27.36655,
+                "lon": 88.22999
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Kartok Monastery",
+              "description": "This beautiful monastery gets its name from the nearby holy lake. This small monastery is newly constructed and has no connection with the historic coronation.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.37056,
+                "lon": 88.22342
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Yuksom Temple",
+              "description": "A small temple on the side of the road housing several giant prayer wheels.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.3691,
+                "lon": 88.22258
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Shrine of Yangthang Rinpoche",
+              "description": "Yangthang Rinpoche is said to be the incarnation of Lama Lutsum Chembo. The shrine is topped with a giant statue of Yangthang Rinpoche. The bare-bodied statue has a brown skin colour along white beard and hair tied in a knot. This is also a new construction.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 27.36935,
+                "lon": 88.2174
+              },
+              "price": null
+            }
+          ],
+          "brief": "It is a very beautiful place. It is surrounded by majestic mountain peaks (some of them are covered with snow throughout the year). There is a village Buddhist temple where prayers happen every evening at dusk, a must to experience. The place is so beautiful that you can just be here and relax and gaze at the nature for one whole week and you will not know when the week was over because time would fly by.\r\n\n\r\n 1 **Throne of Norbugang** . Yuksom literally means the meeting place of three learned men. Lama Lutsum Chembo meet Sempa Chembo and Rinzing Chembo in Yuksom in 1641. They crowned Phunstok as the first king of Sikkim. He ascended the throne with the title of Chogyal, meaning the king who rules with righteousness, and was conferred the surname Namgyal. The stone throne on which this historical coronation took place still stands and is known as the Throne of Norbugang. The simple stone throne has four seats on different levels. The topmost seat was reserved for chief lama Lutsum Chembo. On his right, the slightly lower seat was meant for the newly crowned king Phunstok. On the left of the chief lama were two seats in descending height meant for the other two lamas Sempa Chembo and Rinzing Chembo respectively. The throne is fitted with the names and pictures of the lamas and the king in respective positions. Locals considered this place holy and offer regular prayers. Te historic coronation took place under a pine tree, which still stands. Opposite the throne is a giant chorten (stupa), which is said to contain water and soil from all parts of Sikkim.The complex houses a small newly built monastery and the entire complex is decorated with multi colured prayer flags.  ( updated Jul 2020 ) \r\n 2 **Kathok Pokhri**. Kathok Pokhri is a small lake, or rather a pond, connected to the historical coronation of Sikkim. Legend says that after coronation the new king was blessed by the three lamas with the water of the Kathok Pokhri. The lake still exists and is considered holy by the locals. The lake is lined with fluttering prayer flags. ₹20 .  ( updated Jul 2020 ) \r\n 3 **Dubdi Monastery** , West District ( 1 hrs walk from Yuksom ). The monastery was built in 1701, and it is one of the oldest monasteries in Sikkim. A winding trail leads to the monastery. The trail starts with the Yuksom Primary Health centre on the left and the Limbo Homestay on the right. Fluttering prayer flags welcome visitors to the monastery complex. The monastery consists of several structures including several chortens (stupas). Fluttering prayer flags welcome visitors to the monastery complex. Sadly the monastery remains closed most of the time.   \r\n 4 **Kartok Monastery** ( opposite Kartok Lake ). This beautiful monastery gets its name from the nearby holy lake. This small monastery is newly constructed and has no connection with the historic coronation.   \r\n 5 **Yuksom Temple**. A small temple on the side of the road housing several giant prayer wheels.   \r\n 6 **Shrine of Yangthang Rinpoche** ( South of Throne of Norbugang ). Yangthang Rinpoche is said to be the incarnation of Lama Lutsum Chembo. The shrine is topped with a giant statue of Yangthang Rinpoche. The bare-bodied statue has a brown skin colour along white beard and hair tied in a knot. This is also a new construction.  ( updated Jul 2020 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Dubdi and Hongri monasteries",
+              "description": "(4 hours one way), the views are superb, the trail passes through a small waterfall and a small village upm in the hills called Chung. Truly a rewarding experience."
+            },
+            {
+              "name": "Dzongri Trek",
+              "description": ""
+            },
+            {
+              "name": "Dzongri and Goecha La Trek",
+              "description": ""
+            },
+            {
+              "name": "Kanchandzongha National Park",
+              "description": "It will take you 2 hours to trek into the wildlife sanctuary and go to a particular waterfall on the way to Dzongri. Very beautiful. You can also bathe here but will need to be careful. It's the coldest, purest and sweetest water ever! All the high-altitude treks including Kanchandzongha start from here: you get a wonderful view of Kanchandzongha from here and get to see yaks too. A few travel agencies are around and you can often find groups to join. Permits are easily available via travel agencies. You can also rent hiking gear in travel agencies around Yuksom (e.g. Hiddenparadise Adventure Tours ,Glacier Treks &amp; Adventure +91 8768809566)."
+            },
+            {
+              "name": "Kanchenjunga Goecha La Trek",
+              "description": ""
+            },
+            {
+              "name": "Khecheopalri Lake",
+              "description": "(1 day). The lake is revered by Buddhists and Hindus. The word \"Khecheopalri\" is derived from \"Khcheo\" meaning 'flying yoginis/angels' and \"Palri\" meaning 'Palace'. Wish full-filling powers are attrributed to the lake, which is surrounded by the _Khechoedpaldri Hill_, which is considered sacred as well. The _Maghe Purne Festival_ in April/May attracts thousands of pilgrims from India, Nepal and Bhutan. The _Chho-Tsho Festival_ is celebrated here in October at the end of the cardamom harvest. Khecheopalri Lake is part of the _Buddhist pilgrimage circuit_ which consists of Tashiding, Monastery and Pemayangtse Monasteries, the ruins of Rabdentse and the Sanga Choeling monastery."
+            }
+          ],
+          "brief": "(4 hours one way), the views are superb, the trail passes through a small waterfall and a small village upm in the hills called Chung. Truly a rewarding experience.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There are two brands of bottled beer available Hit and Dansberg. Dansberg is a wonderful mild beer brewed and bottled in Sikkim. Hit on the other hand is a strong beer.\r\n\nThe other option is to go for the local brew called \"Bamboo\". It consists of fermented millet grains in a broad bamboo stem cut to be used as a tumbler. Warm water is added to the container, within a few minutes it acquires the flavour of port wine. It is drunk through a narrow straw also made of bamboo. More water is added to the tumbler when it runs out. With time the flavour of the Bamboo gets milder.\r\n\nThe potency of the drink is dependent on the aging of the millet used. Millet fermented for ten to fifteen days result in a medium to mild drink. Up to three month old fermented drinks can result in a very strong brew."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Demazong Hotel",
+              "description": "Nice hotel in the village center, in front of Gupta restaurant. Clean and well furnished, some rooms are ensuite while others are not: prices for doubles are between ₹150 to ₹300. The owner is a friendly Tibetan woman.",
+              "price": "₹100-350"
+            },
+            {
+              "name": "Dragon Hotel",
+              "description": "Nice hotel near the village center. Clean, well maintained and really quiet. Nice view from the room balcony. Hot water. No wi-fi.",
+              "price": "₹600/double/low season"
+            },
+            {
+              "name": "Hotel Tashi Gang",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Trek gateway / Historic capital"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:57:34.917Z"
+      },
+      "search_context": "Trek gateway / Historic capital destination Yuksom Yuksum Sightseeing Yuksom is a small village in Sikkim it serves as the starting point of the Dzongri - Goechala Trek. The 8 - 9 day trek is the most popular in Sikkim and leads to the base of the third highest mountain in the world, Kangchenjunga. It is said that it was the first capital of Sikkim. It is very calm and peaceful, a real get-away for those who want to avoid the tourist crowd.",
+      "travel_facts": {
+        "summary": "**Yuksom** hinges **IXB (~172 km) Goecha stacks** beneath **NJP (~165 km)** knowing Norbugang merges absorb Dzongri staging tides.",
+        "keywords": [
+          "yuksom trek stacks",
+          "goecha relay merges",
+          "norbugang apron",
+          "dzongri base tides"
+        ]
+      }
+    }
+  ]
+}

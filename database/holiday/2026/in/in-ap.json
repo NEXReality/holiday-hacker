@@ -1,0 +1,67 @@
+{
+  "stateCode": "IN-AP",
+  "stateName": "Andhra Pradesh",
+  "year": 2026,
+  "indiaRegion": "South",
+  "adminType": "state",
+  "incredibleIndiaSlug": "andhra-pradesh",
+  "holidayJsonSlug": "in-ap",
+  "holidays": [
+    { "date": "2026-01-01", "name": "NEW YEAR'S DAY", "type": "restricted" },
+    { "date": "2026-01-03", "name": "BIRTHDAY OF HAZRATH ALI (RA)", "type": "restricted" },
+    { "date": "2026-01-14", "name": "BHOGI", "type": "gazetted" },
+    { "date": "2026-01-15", "name": "MAKARA SANKRANTI", "type": "gazetted" },
+    { "date": "2026-01-16", "name": "KANUMA", "type": "gazetted" },
+    { "date": "2026-01-16", "name": "SHAB-E-MERAJ (27th Rajab)", "type": "restricted" },
+    { "date": "2026-01-26", "name": "REPUBLIC DAY", "type": "gazetted" },
+
+    { "date": "2026-02-03", "name": "SHAB-E-BARATH", "type": "restricted" },
+    { "date": "2026-02-15", "name": "MAHA SIVARATRI", "type": "gazetted" },
+
+    { "date": "2026-03-03", "name": "HOLI", "type": "gazetted" },
+    { "date": "2026-03-11", "name": "SHAHADAT OF HAZRATH ALI (RA)", "type": "restricted" },
+    { "date": "2026-03-13", "name": "JAMATUL VEDA", "type": "restricted" },
+    { "date": "2026-03-15", "name": "SHAB-E-QADAR", "type": "restricted" },
+    { "date": "2026-03-19", "name": "UGADI", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "EID-UL-FITR (RAMZAN)", "type": "gazetted" },
+    { "date": "2026-03-27", "name": "SRI RAMA NAVAMI", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "MAHAVEER JAYANTHI", "type": "restricted" },
+
+    { "date": "2026-04-03", "name": "GOOD FRIDAY", "type": "gazetted" },
+    { "date": "2026-04-05", "name": "BABU JAGJIVAN RAM BIRTHDAY", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "DR. B. R. AMBEDKAR BIRTHDAY", "type": "gazetted" },
+    { "date": "2026-04-20", "name": "BASAVA JAYANTHI", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "BUDDHA PURNIMA", "type": "restricted" },
+    { "date": "2026-05-27", "name": "EID-UL-ADHA (BAKRID)", "type": "gazetted" },
+
+    { "date": "2026-06-03", "name": "EID-E-GADEER", "type": "restricted" },
+    { "date": "2026-06-16", "name": "MOHARRAM (1447 HIJRI)", "type": "restricted" },
+    { "date": "2026-06-25", "name": "MOHARRUM (SHAHADAT IMAM HUSSAIN RA)", "type": "gazetted" },
+
+    { "date": "2026-07-16", "name": "RATHA YATRA", "type": "restricted" },
+
+    { "date": "2026-08-04", "name": "ARBAYEEN (CHAHALLUM 1447 HIJRI)", "type": "restricted" },
+    { "date": "2026-08-15", "name": "INDEPENDENCE DAY", "type": "gazetted" },
+    { "date": "2026-08-15", "name": "PARSI NEW YEAR'S DAY", "type": "restricted" },
+    { "date": "2026-08-21", "name": "VARA LAKSHMI VRATHAM", "type": "gazetted" },
+    { "date": "2026-08-25", "name": "MILAD-UN-NABI (SAWS)", "type": "gazetted" },
+
+    { "date": "2026-09-04", "name": "SRI KRISHNA ASHTAMI", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "VINAYAKA CHAVITHI", "type": "gazetted" },
+    { "date": "2026-09-22", "name": "YAZ DAHUM SHAREEF", "type": "restricted" },
+
+    { "date": "2026-10-02", "name": "MAHATMA GANDHI JAYANTHI", "type": "gazetted" },
+    { "date": "2026-10-10", "name": "MAHALAYA AMAVASYA", "type": "restricted" },
+    { "date": "2026-10-18", "name": "DURGASHTAMI", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "VIJAYA DASAMI", "type": "gazetted" },
+    { "date": "2026-10-27", "name": "HAZRATH SYED MOHAMMED JUVANPURI MEHDI BIRTHDAY", "type": "restricted" },
+
+    { "date": "2026-11-08", "name": "DEEPAVALI", "type": "gazetted" },
+    { "date": "2026-11-24", "name": "GURU NANAK JAYANTHI", "type": "restricted" },
+
+    { "date": "2026-12-24", "name": "CHRISTMAS EVE", "type": "restricted" },
+    { "date": "2026-12-25", "name": "CHRISTMAS", "type": "gazetted" },
+    { "date": "2026-12-26", "name": "BOXING DAY", "type": "restricted" }
+  ]
+}

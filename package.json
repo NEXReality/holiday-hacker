@@ -1,0 +1,26 @@
+{
+  "name": "holiday-hacker",
+  "version": "1.0.0",
+  "description": "Holiday Hacker - Android wrapper for the existing HTML/CSS/JS travel planner with native loud alarms.",
+  "private": true,
+  "scripts": {
+    "sync:www": "node sync-www.js",
+    "holiday:2027:publicholidays": "node scripts/build-holidays-2027-from-publicholidays.js",
+    "enrich:destinations": "node scripts/enrich-destinations.js",
+    "enrich:destinations:wiki": "node scripts/enrich-destinations.js --wikipedia",
+    "enrich:destinations:file": "node scripts/enrich-one-state-file.js",
+    "backfill:reachable-by": "node scripts/backfill-reachable-by.js",
+    "android:copy": "npm run sync:www && npx cap copy android",
+    "android:sync": "npm run sync:www && npx cap sync android",
+    "android:open": "npm run android:sync && npx cap open android",
+    "android:release:bundle": "npm run android:sync && cd android && .\\gradlew.bat bundleRelease",
+    "android:release:apk": "npm run android:sync && cd android && .\\gradlew.bat assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

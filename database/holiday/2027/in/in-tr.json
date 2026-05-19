@@ -1,0 +1,163 @@
+{
+  "stateCode": "IN-TR",
+  "stateName": "Tripura",
+  "year": 2027,
+  "indiaRegion": "North East",
+  "adminType": "state",
+  "incredibleIndiaSlug": "tripura",
+  "holidayJsonSlug": "in-tr",
+  "source": "PublicHolidays.in India 2027 aggregate (https://publicholidays.in/#2027-public-holidays). Not an official government gazette; moon-based and regional dates are provisional.",
+  "dataQuality": "estimate",
+  "holidays": [
+    {
+      "date": "2027-01-23",
+      "name": "Netaji Subhas Chandra Bose Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-26",
+      "name": "Republic Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-02-11",
+      "name": "Vasant Panchami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-06",
+      "name": "Maha Shivaratri",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Idul Fitr",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-22",
+      "name": "Holi",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Biju Festival",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-15",
+      "name": "Bengali New Year",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-21",
+      "name": "Garia Puja",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "May Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-09",
+      "name": "Guru Rabindranath Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Bakrid / Eid al Adha",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-20",
+      "name": "Buddha Purnima",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-25",
+      "name": "Kazi Nazrul Islam Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-06-15",
+      "name": "Muharram",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-07-11",
+      "name": "Kharchi Puja",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-07-28",
+      "name": "Ker Puja",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Eid e Milad",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Independence Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-25",
+      "name": "Janmashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-09-29",
+      "name": "Mahalaya Amavasye",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-02",
+      "name": "Gandhi Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-06",
+      "name": "Maha Saptami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-08",
+      "name": "Maha Ashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-09",
+      "name": "Maha Navami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-10",
+      "name": "Vijaya Dashami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Diwali",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Lakshmi Puja",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Christmas Day",
+      "type": "gazetted"
+    }
+  ]
+}

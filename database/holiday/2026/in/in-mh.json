@@ -1,0 +1,43 @@
+{
+  "stateCode": "IN-MH",
+  "stateName": "Maharashtra",
+  "year": 2026,
+  "indiaRegion": "West",
+  "adminType": "state",
+  "incredibleIndiaSlug": "maharashtra",
+  "holidayJsonSlug": "in-mh",
+  "holidays": [
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-15", "name": "Mahashivratri", "type": "gazetted" },
+    { "date": "2026-02-19", "name": "Chhatrapati Shivaji Maharaj Jayanti", "type": "gazetted" },
+
+    { "date": "2026-03-03", "name": "Holi (Second Day)", "type": "gazetted" },
+    { "date": "2026-03-19", "name": "Gudi Padwa", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Ramzan-Id (Id-Ul-Fitra / Shawal-1)", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Janmakalyanak", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-14", "name": "Dr. Babasaheb Ambedkar Jayanti", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "Maharashtra Din / Buddha Purnima", "type": "gazetted" },
+    { "date": "2026-05-28", "name": "Bakri Id (Id-Uz-Zuha)", "type": "gazetted" },
+
+    { "date": "2026-06-26", "name": "Moharram", "type": "gazetted" },
+
+    { "date": "2026-08-15", "name": "Independence Day / Parsi New Year (Shahenshahi)", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Id-E-Milad", "type": "gazetted" },
+
+    { "date": "2026-09-14", "name": "Ganesh Chaturthi", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi Jayanti", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Dasara", "type": "gazetted" },
+
+    { "date": "2026-11-08", "name": "Diwali Amavasya (Laxmi Pujan)", "type": "gazetted" },
+    { "date": "2026-11-10", "name": "Diwali (Bali Pratipada)", "type": "gazetted" },
+    { "date": "2026-11-24", "name": "Guru Nanak Jayanti", "type": "gazetted" },
+
+    { "date": "2026-12-25", "name": "Christmas", "type": "gazetted" }
+  ]
+}

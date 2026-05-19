@@ -1,0 +1,80 @@
+{
+  "stateCode": "IN-AS",
+  "stateName": "Assam",
+  "year": 2026,
+  "indiaRegion": "North East",
+  "adminType": "state",
+  "incredibleIndiaSlug": "assam",
+  "holidayJsonSlug": "in-as",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year's Day", "type": "restricted" },
+    { "date": "2026-01-05", "name": "Rongker Karkli", "type": "restricted" },
+    { "date": "2026-01-13", "name": "Uruka of Magh Bihu", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Magh Bihu", "type": "gazetted" },
+    { "date": "2026-01-17", "name": "Silpi Divas", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic day", "type": "gazetted" },
+    { "date": "2026-01-27", "name": "Busu Dima Festival", "type": "restricted" },
+
+    { "date": "2026-02-04", "name": "Shab-E-Barat", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Shivaratri", "type": "restricted" },
+    { "date": "2026-02-17", "name": "Karbi-Dehal-Kachir Dom", "type": "restricted" },
+    { "date": "2026-02-18", "name": "Ali-Aye-Ligang", "type": "restricted" },
+
+    { "date": "2026-03-02", "name": "Khring Khring Baithow Puja", "type": "restricted" },
+    { "date": "2026-03-03", "name": "Dol Jatra", "type": "gazetted" },
+    { "date": "2026-03-17", "name": "Lailatur Qadar", "type": "restricted" },
+    { "date": "2026-03-21", "name": "Id-Ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-25", "name": "Tora Chira Bihu", "type": "restricted" },
+    { "date": "2026-03-31", "name": "Mahabir Jayanti", "type": "restricted" },
+
+    { "date": "2026-04-04", "name": "Easter Sunday", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Bohag Bihu", "type": "gazetted" },
+    { "date": "2026-04-15", "name": "Bohag Bihu", "type": "gazetted" },
+    { "date": "2026-04-15", "name": "Deuri Bihu", "type": "restricted" },
+    { "date": "2026-04-16", "name": "Bohag Bihu", "type": "gazetted" },
+    { "date": "2026-04-18", "name": "Birthday of Gurudev Kalicharan Brahma", "type": "restricted" },
+    { "date": "2026-04-22", "name": "Tithi of Gopal Dev", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "May Day", "type": "gazetted" },
+    { "date": "2026-05-01", "name": "Sati Radhika Utsav", "type": "restricted" },
+    { "date": "2026-05-16", "name": "Tithi of Hari dev", "type": "restricted" },
+    { "date": "2026-05-23", "name": "Birthday of Sri Sri Krishnaguru", "type": "restricted" },
+    { "date": "2026-05-24", "name": "Motak Roja Swargadeo Sarbananda Singha Divas", "type": "restricted" },
+    { "date": "2026-05-27", "name": "Id-ul \u2013Zuha", "type": "gazetted" },
+    { "date": "2026-05-31", "name": "Baikhowa Festival", "type": "restricted" },
+
+    { "date": "2026-06-20", "name": "Death Anniversary of Bishnu Prasad Rabha", "type": "restricted" },
+    { "date": "2026-06-30", "name": "Hul Divas", "type": "restricted" },
+
+    { "date": "2026-07-13", "name": "Birthday of Napali Poet Bhanu Bhakta Acharya", "type": "restricted" },
+
+    { "date": "2026-08-13", "name": "Death Anniversary of Bir Tikendrajit", "type": "restricted" },
+    { "date": "2026-08-15", "name": "Independence day", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Fateha-e-Dwaz-Daham", "type": "restricted" },
+
+    { "date": "2026-09-12", "name": "Tirubhav Tithi of Srimanta Sankardeva", "type": "gazetted" },
+    { "date": "2026-09-15", "name": "Nau khai Festival", "type": "restricted" },
+    { "date": "2026-09-16", "name": "Birthday of Sri Sri Thakur Anukul Cahandra", "type": "restricted" },
+    { "date": "2026-09-21", "name": "Janmotsav of Srimanta Sankardeva", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Birthday of Mahatma Gandhi", "type": "gazetted" },
+    { "date": "2026-10-18", "name": "Kati Bahu & Durga Puja", "type": "gazetted" },
+    { "date": "2026-10-19", "name": "Durga Puja & Vijaya Dashomi", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Durga Puja & Vijaya Dashomi", "type": "gazetted" },
+    { "date": "2026-10-21", "name": "Durga Puja & Vijaya Dashomi", "type": "gazetted" },
+
+    { "date": "2026-11-01", "name": "Kuki Chavang Kut", "type": "restricted" },
+    { "date": "2026-11-07", "name": "Wangala Festival", "type": "restricted" },
+    { "date": "2026-11-08", "name": "Kali Puja & Diwali", "type": "gazetted" },
+    { "date": "2026-11-11", "name": "Abhibhav Thithi of Sri Sri Bhubaneswar Sadhu Thakur", "type": "restricted" },
+    { "date": "2026-11-19", "name": "Bir Raghav Moran Divas", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Death Anniversary of Guru Teg Bahadur Ji", "type": "restricted" },
+
+    { "date": "2026-12-05", "name": "Sikpui Ruoi (Harvest Festival of Hmar Community)", "type": "restricted" },
+    { "date": "2026-12-10", "name": "Martyr's Day", "type": "restricted" },
+    { "date": "2026-12-19", "name": "Death Anniversary of Shree Shree Aniruddhadev", "type": "restricted" },
+    { "date": "2026-12-22", "name": "Gaan Ngai", "type": "restricted" },
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" }
+  ]
+}

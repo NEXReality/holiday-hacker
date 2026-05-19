@@ -1,0 +1,3837 @@
+{
+  "state": "Andaman and Nicobar Islands",
+  "state_code": "AN",
+  "generated_at": "2026-05-18T12:00:00.000Z",
+  "count": 16,
+  "destinations": [
+    {
+      "slug": "andaman-and-nicobar-islands-baratang",
+      "name": "Baratang",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 12.11667,
+        "lon": 92.78333,
+        "source": "wikidata"
+      },
+      "description": "Part of the Andaman and Nicobar Islands off the coast of India , ** Baratang Island** is one of the best parts of a trip to the islands. Here you get to see wild nature as well as its beauty. An Andaman trip would be incomplete without a trip to Baratang and Jirkatang.",
+      "category": "Beaches",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Baratang",
+        "wikipedia": "https://en.wikipedia.org/wiki/Baratang_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q2338592"
+      },
+      "distance_km": 1651,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 1,
+      "weather_snippet": "Oct–May",
+      "vibe": "Beach",
+      "travel_facts": {
+        "summary": "Baratang lies in Middle Andaman and is the usual day-trip or overnight stop north of Port Blair. Reach it by road from Port Blair through the Jarawa Tribal Reserve on the Andaman Trunk Road—vehicles move only in Forest Department convoys; stopping, walking off-road or photographing the reserve is prohibited. Cross Middle Strait by short ferry to Baratang jetty. Famous stops: mangrove boat ride to limestone caves, mud volcano, and Parrot Island at sunset (needs a night halt). Seas and roads are most dependable October–May; heavy monsoon rain can delay ferries. All mainland visitors first fly or sail to Port Blair (IXZ); Indian airlines operate frequent narrow-body flights from Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad and Visakhapatnam—always recheck schedules before booking. There is no railway anywhere in the islands.",
+        "keywords": ["jarawa reserve convoy", "middle strait ferry", "limestone caves", "mud volcano", "north middle andaman"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.75,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Baratang Island"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baratang%20I%20locale.png?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": true
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "water_sports",
+          "relaxation"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 21599,
+        "content_richness_score": 0.154
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "It is about 90 km away from Port Blair . Regular bus services are available from STS Bus Terminal, Aberdeen Bazar. Journey takes about 2 hrs and 30 minutes from Port Blair to Middle Strait and the fare is just ₹45. The journey is in 2 phases - P.Blair to Jirkatang (40 km, 1 hr 15 mins) and then Jirkatang to Baratang (49 km, 1 hr 15 mins, no overtake zone through Jarwa Reserve Forest). From Nilambur Jetty at middle strait ferry \n\n services are available for Baratang Island. Ferry fare is only ₹3/- and it takes about 15 minutes to reach Baratang from Nilambur Jetty.\r\n\n \r\nIt is advisable to take a conducted tour of the Baratang islands, if you want to return on the same day. In that case you will miss seeing Parrot Islands. Once you start from Port Blair early morning at around 04:00, the first halt is at Jirkatang (40 km from Port Blair on road). At Jirkatang you will get a forest/police check post.\n\n Just opposite to the check post on the other side of the road is a temple (just for a landmark).\n\n From here starts a stretch of 49 km forest (Jarwah Reserve Forest), where you cannot halt your vehicle or walk on foot or take snaps/video. On the other end of the Jarwah Reserve forest is Middle strait jetty. The jetty will take you to the other side of the strait in about 15 minutes. Here you have reached Baratang islands. \r\n\nThis is one of the most exciting part of journey, where you will see the tribes (Jarwah). They are short height, black in complexion, with reddish eyes. They feed on roasted pig meat mainly. Fish and fruits being the other part of their diet. The Government of India has taken every step to ensure that no one interferes with the Jarwahs' freedom. Offering food items to Zarawah is strictly prohibited; once when they were offered food (generally fried and spicy as other Indians normally eat), some of the people in the tribe started dying. The Forest Department (Andaman Adi Janjati Samiti) also provides them with clothes. On your way to Middle strait jetty you might still find a lot of people among the tribes, particularly young men, asking for food. Please do not pay any heed. Always speak to your driver before doing anything.\r\n\nInteracting with the Jarwahs is strictly prohibited as is taking photos of them. There are stories as well as facts of tribes attacking tourists/convoys with bows and arrows and harassing trespassers. So please keep away from them and enjoy the experience.\r\n\nThe vehicles have to leave in convoys. There are 8 convoy throughout the day from Jirkatang (6:30, 07:00, 07:30, 08:00, 09:30, 11:30, 13:30, 14:30). So please take care of the timings. You cannot cross the forest unless you are in one of the convoys. At Jirkatang check post there is a toilet/bathroom with all facilities. So if you have left from you hotel/lodge at around 04:00 you will reach there by 05:15 and you can get fresh and alight your bus/vehicle by 06:30 before the 1st convoy leaves for Baratang. In the convoy 2 wheelers/bicycles are not allowed. Only 4 wheelers are allowed. The 1st vehicle in the convoy is always a bus, with 1-2 armed policemen. And the Jarwahs fear the forest police. It is simply amazing to see how two worlds (civilised and uncivilised) coexist in this reserve forest with some amount of discipline. Hats off to the Andaman Adi Janjati Samiti.\r\n\n\r\nThis is the only road connecting to North Andaman to places like Kadamtala (28 km from Baratang jetty), Rangat (71 km from Baratang jetty), Mayabunder (141 km from Baratang jetty), Diglipur (203 km from Baratang jetty). Here it is interesting to see how buses/vehicles alight the jetty to reach either side of the middle strait.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "At Baratang you can see **Mud Volcano** \n\n which is about 4 km away from the jetty. To reach there you can hire a shared taxi @ ₹20/- per head to and fro.\r\nFrom Baratang, regular boat services are available for **Limestone Caves** . These ancient caves are located about 50 minutes (by sea) away from Baratang Jetty. The fare of boat is ₹200/- per head for both ways. It includes speed boat fare also which is required to reach Limestone Caves. The boat journey through the heart of dense mangrove forest is simply breathtaking. The boat ride here is a lifetime experience for some. Its something you get to see only in channels like NatGeo or Discovery otherwise. At the limestone caves remember to carry a torchlight, its very dark inside. \n\n \r\nAnother must-see attraction is **Parrot Island**. The experience at Parrot Island at sunset, when all the parrots are returning home is indeed a mesmerizing experience. For this a night's stay is required at Baratang.\r\n\n\r\n Itineraries Some points to note :\r\n\n\r\n Do not waste time in visiting everything what the locals – other tourists – travel guide trumpets. Covering each of the points is a long journey either by boat or road – in whichever the case the journey can be extremely time and energy consuming. \r\n The places like limestone caves, mud volcano are boring and disappointing. Unless you have specific interest in it, do not bother to waste a long day which would start at 03:40 while you plan to visit these two places. \r\nAt the same time visiting Baratang can be more memorable if the trip is taken with a night stay at Baratang. The early morning journey which generally starts at 03:40 in the morning can easily be avoided. The main reason for any tourist opting for the early morning hectic trip is only because of improper guidance from the Port Blair tour operators. There are regular bus services to Baratang. Book your seat in any bus with your convenient timings and visit Baratang Island. APWD guest house, forest guest house and panchayat guest house are some of the places for the night halt. The only good private property at Baratang is Dew Dale Resorts. By doing so you can also add Parrot Island trip at Baratang in your itinerary, which is really a breathtaking experience. Do visit Baratang Island which is one of the most beautiful parts of Andaman &amp; Nicobar Islands but only with a night halt to avoid the hectic 03:40 trips.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There is one bar and restaurant at Baratang jetty."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Crossroads",
+              "description": "The setting is rural, isolated, and far from the madding crowd. All rooms at this resort are double bedded. Cable TV and running cold/hot water are available 24 hrs.",
+              "price": "AC rooms ₹3,990, non-AC rooms ₹2,790"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "The Middle strait jetty is infested with saltwater crocodiles."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "highlights": [
+        "Limestone Caves",
+        "Mud Volcano",
+        "Parrot Island",
+        "Jarawa Reserve Forest (transit only)"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:46.053Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Baratang Island is an island of the Andaman Islands. It belongs to the North and Middle Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island lies 150 km (93 mi) north of Port Blair.",
+        "wikipedia_description": "Indian island of the Andaman chain",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Baratang_I_locale.png/330px-Baratang_I_locale.png",
+        "wikipedia_fetched_at": "2026-05-18T09:10:46.562Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.474Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal Beaches Baratang Baratang Island Beach Baratang Island is an island of the Andaman Islands. It belongs to the North and Middle Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island lies 150 km (93 mi) north of Port Blair. Part of the Andaman and Nicobar Islands off the coast of India , Baratang Island is one of the best parts of a trip to the islands. Here you get to see wild nature as well as its beauty. An Andaman trip would be incomplete without a trip to Baratang and Jirkatang. Limestone Caves Mud Volcano Parrot Island Jarawa Reserve Forest (transit only)"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-barren-island",
+      "name": "Barren Island",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.66667,
+        "lon": 92.75,
+        "source": "wikidata"
+      },
+      "description": "**Barren Island** is a remote uninhabited volcanic island east of the main Andaman chain and one of South Asia’s few accessible active volcanoes. Tourist access is strictly regulated: day cruises from Port Blair may offer distant viewing only—landing is not permitted for leisure.",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Barren_Island",
+        "wikipedia": "https://en.wikipedia.org/wiki/Barren_Island_(Andaman_Islands)",
+        "wikidata": "https://www.wikidata.org/wiki/Q248212"
+      },
+      "distance_km": 1653,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "Barren Island sits roughly 130–140 km northeast of Port Blair and hosts India’s only historically confirmed active stratovolcano in this region. Leisure travellers cannot disembark on the island; wildlife/marine rules limit visits to authorised boat tours that circle at a safe offshore distance on calm-sea days—confirm outfitters in Port Blair and expect cancellations during monsoon swell (June–September). Dedicated overnight volcano cruises are rare; keep spare nights in Port Blair for weather holds. Reach the Andamans first via Veer Savarkar Airport (IXZ) from major Indian cities (Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad, Visakhapatnam—subject to airline schedules); onward movement is coastal shipping only—no railway.",
+        "keywords": ["active volcano", "regulated boat cruise", "no landing", "day excursion port blair"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.75,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ile%20Barren%2C%201995.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": true,
+        "wildlife_caution": true
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "boat_excursion",
+          "sightseeing",
+          "photography"
+        ],
+        "activity_density_score": 0.25,
+        "requires_advance_booking": true
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 1251,
+        "content_richness_score": 0.14
+      },
+      "section_briefs": {},
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "highlights": [
+        "India's only active volcano",
+        "Boat tours only"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:46.773Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Barren Island is an uninhabited island in the Andaman Sea. It is the only confirmed active volcano in the Indian subcontinent, and the only active volcano along a chain of volcanoes from Sumatra to Myanmar. It is a part of the Indian Union territory of Andaman and Nicobar Islands, and lies about 138 km (86 mi) northeast of the territory's capital, Port Blair.",
+        "wikipedia_description": "Active volcanic island in the Andaman Sea",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Barren_Island_Active_Volcano.jpg/330px-Barren_Island_Active_Volcano.jpg",
+        "wikipedia_fetched_at": "2026-05-18T09:10:47.069Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.476Z"
+      },
+      "search_context": "Wildlife / Nature Barren Island Sightseeing Barren Island volcanic boat excursion regulated cruise active volcano no landing Port Blair IXZ ferry coastal India Bay of Bengal snorkel dive coral marine park"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-cinque-islands",
+      "name": "Cinque Islands",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.26667,
+        "lon": 92.7,
+        "source": "wikidata"
+      },
+      "description": "**North and South Cinque Islands** form a marine-national-park pair south of Port Blair, famed for coral reefs, steep jungle slopes and clear snorkel/dive water when seas are calm. Access is permit-heavy and often folded into live-aboard or chartered dive itineraries—not a casual DIY beach hop.",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Cinque_Islands",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cinque_Islands",
+        "wikidata": "https://www.wikidata.org/wiki/Q5121081"
+      },
+      "distance_km": 1653,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 1,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "The Cinque twin islets lie in Duncan Passage roughly a half-day boat ride from Port Blair and sit inside a highly protected marine park belt. Expect mandatory wildlife/forest permits, guided boat transfers and occasional closures during cyclone warnings. Activities centre on scuba, snorkelling and bird-watching on calm winter seas (November–April); heavy monsoon swell makes scheduling unreliable June–September. Fly into Veer Savarkar International Airport (IXZ) from mainland hubs (Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad, Visakhapatnam—carrier-dependent), then arrange charter or dive-shop logistics—there is no railway and no self-drive access.",
+        "keywords": ["marine national park", "scuba snorkelling", "forest permits", "duncan passage", "protected islands"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.75,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ISS039-E-761_-_View_of_the_Andaman_Islands.jpg/330px-ISS039-E-761_-_View_of_the_Andaman_Islands.jpg",
+          "caption": "Cinque Islands",
+          "source": "wikipedia_rest"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": true,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 149091,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "1,400 km from mainland India and 1,000 km from Thailand, the Andaman and Nicobar Islands are one of the most remote spots on the planet. The original inhabitants are various aboriginal tribes, ethnically Melanesian , who exist more or less out of the mainstream. There are some tribes, most notably the Sentinelese, who have had almost no contact with the rest of the world. Of nearly 600 islands, only 30 are open to foreign tourists, and all of these are in the Andamans.\r\n\nThe islands exist in India's popular consciousness mainly because they were used as a penal colony during British rule to imprison rebels and freedom fighters, in addition to hardened criminals. The majority of people living on the islands are descendants of migrants from the mainland. Some of them descended from the prisoners.\r\n\nDuring World War II , the Andamans were the only part of India that was, briefly, occupied by the Japanese. While notionally handed over to Subhash Chandra Bose's 'Free India\", in practice the Japanese held the reins of power. The territory was run brutally — suspected resistance members were tortured and executed, and when food started to run out towards the end of the war, people were deported to uninhabited islands to fend for themselves.\r\n\nThe islands were just north of the epicentre of the earthquake in 2004 and were the site of dozens of aftershocks. The Nicobars were badly hit by the resulting tsunami , while the Andamans escaped with a few bruises.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Since 2018, most foreigners can visit 30 islands in the Andamans, including basically all of those commonly visited by tourists, without a Restricted Area Permit (RAP). This includes South Andaman Island, Middle Andaman Island and Little Andaman Island (except tribal reserves), Neil Island , Havelock Island , Long Island , Diglipur , Baratang , North Passage and islands in the Mahatma Gandhi Marine National Park (excluding Boat Hobday Island, Twin Island, Tarmugli Island, Malay Island and Pluto Island). Overnight stays in the park are with permission only. Citizens and former citizens of the aforementioned three countries must still obtain a RAP to visit any part of the Andaman and Nicobar Islands.\r\n\n**Indian nationals** do not require a permit to visit the Andamans. However, permits are required to visit the Nicobar Islands and other tribal areas, which are rarely given. Application on an official form should be addressed to the Deputy Commissioner, South Andaman District, Port Blair.\r\n\n\r\n By plane The primary way to reach the Andaman and Nicobar Islands by air is from the Indian mainland to Port Blair . As of 2025 the islands have no direct international flights.\r\n\nThe main airport of the islands is **Veer Savarkar International Airport** (** IXZ **  IATA ) in Port Blair. A new, modern terminal capable of handling 5 million passengers per year was opened in 2023. There are no night flights as the airport is handed over to the Indian Air Force after 3PM.\r\n\n\r\n By boat It's possible to take a ship from Kolkata (c. 60 hr), Chennai or Visakhapatnam (almost 4 days) to Port Blair. It is less expensive at only ₹1961 (as of November 2011). Facilities are basic, though and many prefer to sleep on the deck rather than in the cramped bunks. The ferries can take up to five days to arrive depending on weather and various other variables. This can be quite frustrating for many. The Bay of Bengal is not calm, and those who get seasickness easily should consider flying, instead.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Between islands The Andaman and Nicobar is a vast archipelago, and aside from some erratic, infrequent helicopter shuttles, **passenger ferries** are the only practical way to move between the islands. Both government and private operators serve the main routes between Port Blair , Havelock Island (Swaraj Dweep), and Neil Island (Shaheed Dweep).\r\n\n\r\n Government ferries The government-run **Directorate of Shipping Services** (DSS) operates two kinds of vessels: small \"tourist\" ferries and larger \"local\" ferries. Fares are affordable at ₹150–500 one way from Port Blair to Havelock Island , making this the cheapest option. However, government ferries are slower (3–4 hours vs 1.5–2 hours for private ferries), and tickets must be purchased at the Phoenix Bay jetty counter in Port Blair — no online booking is available.\r\n\nTourist ferries seat about 100 people in padded bucket seats in a notionally air-conditioned cabin (which can still get sweltering hot). While you can access the top deck, there are no seats, shade or shelter outside. Local ferries are considerably larger, seating up to 400 in two levels: padded \"bunk\" or \"luxury\" seating upstairs, and plain old benches on the \"deck\" downstairs. Neither class is air-conditioned, but ocean breezes keep temperatures tolerable, and a canteen dishes out chai, samosas and bottled water. Due to their larger size, they are more stable in heavy seas, but take about twice as long as tourist ferries.\r\n\n\r\n Private ferry operators Four private operators run air-conditioned catamaran services on the main inter-island routes, with journey times of 1.5–2.5 hours:\r\n\n\r\n ** Makruzz ** — The most established private operator. Runs Port Blair–Havelock and Havelock–Neil Island routes. Offers Premium, Deluxe and Royal class seating. Tickets from ₹1,200–2,800 one way. \r\n ** Nautika ** — Premium catamaran service on the same routes as Makruzz. Known for comfortable interiors. Tickets from ₹1,200–2,800. \r\n **Green Ocean** — A budget-friendly private option with lower fares. Primarily runs the Port Blair–Havelock route. \r\n **ITT Majestic** — The newest operator. Runs the Port Blair–Havelock route. \r\nPrivate ferry tickets can be booked online through the operators' websites or through ferry comparison platforms . During peak season (October–February), demand often exceeds supply, so book at least 2–3 days in advance. Services may be changed or cancelled at short notice due to inclement weather, notably cyclones in the Bay of Bengal.\r\n\n\r\n Within the islands **Auto-rickshaws** are available in Port Blair and on Havelock Island . \r\n **Taxis** are available in Port Blair, Havelock and Neil Island. All kinds of vehicles except for high end luxury vehicles are available to rent in the islands. Cab bookings can be done inside the airport on arrival from dedicated travel counter approved by the Airport Authority of India. \r\n **Scooters and motorcycles** used to be available for rent in Port Blair and Havelock. In Havelock Island two-wheelers are the best option to get around, especially to Radhanagar beach. 2-wheeler rental will cost ₹400-500 per day excluding petrol and security deposit.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Indira Point",
+              "description": "The southernmost point of India.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Indira_Point",
+              "coordinates": {
+                "lat": 6.75417,
+                "lon": 93.82833
+              },
+              "price": null
+            }
+          ],
+          "brief": "The only place with historical attractions of note is Port Blair , which houses British-era colonial buildings, including the notorious Cellular Jail, and a few World War II bunkers dating from the brief Japanese occupation.\r\n\n\r\n 1 **Indira Point** . The southernmost point of India.  ( updated Nov 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Middle Button Island National Park",
+              "description": "Spotted deer can be found here."
+            },
+            {
+              "name": "Mount Harriet National Park",
+              "description": "Named after Harriet Tytler who did early work documenting the monuments of Delhi."
+            },
+            {
+              "name": "North Button Island National Park",
+              "description": "Home of the dugong, dolphin, water monitor and other animals."
+            },
+            {
+              "name": "Rani Jhansi Marine National Park",
+              "description": "A national park known for its coral reefs and marine life."
+            },
+            {
+              "name": "Saddle Peak National Park",
+              "description": "Surrounded by tropical vegetation and forest, many species can be found here."
+            },
+            {
+              "name": "South Button Island National Park",
+              "description": "Shallow water coral reefs popular for scuba diving."
+            },
+            {
+              "name": "Campbell Bay National Park",
+              "description": "Part of the Great Nicobar Biosphere Reserve."
+            },
+            {
+              "name": "Galathea National Park",
+              "description": "Part of the Great Nicobar Biosphere Reserve with rare species of plants and animals."
+            }
+          ],
+          "brief": "Spotted deer can be found here.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Fresh coconuts are popular and widely available. \r\n Alcohol is available in some restaurants and at 'English Beer &amp; Wine Shops' in Port Blair and on Havelock Island . The beers will not be cold except in local bars. \r\n Local bars are dingy and poorly lit, giving them a very eerie feel. \r\n There is no pub culture or nightclubs."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:47.279Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "The Cinque Islands are a pair of islands in the Andaman Archipelago, on the north side of Duncan Passage, between Rutland Island and Passage Island. They are part of the Andaman and Nicobar Islands Union Territory of India.North Cinque Island\nSouth Cinque Island",
+        "wikipedia_description": "Islands in the Andaman Archipelago, India",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ISS039-E-761_-_View_of_the_Andaman_Islands.jpg/330px-ISS039-E-761_-_View_of_the_Andaman_Islands.jpg",
+        "wikipedia_fetched_at": "2026-05-18T09:10:47.843Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.476Z"
+      },
+      "search_context": "Wildlife / Nature City / Urban Nature & Wildlife Areas Cinque Islands Sightseeing The Cinque Islands are a pair of islands in the Andaman Archipelago, on the north side of Duncan Passage, between Rutland Island and Passage Island. They are part of the Andaman and Nicobar Islands Union Territory of India.North Cinque Island South Cinque Island 1,400 km from mainland India and 1,000 km from Thailand, the Andaman and Nicobar Islands are one of the most remote spots on the planet. The original inhabitants are various aboriginal tribes, ethnically Melanesian , who exist more or less out of the mainstream. There are some tribes, most notably the Sentinelese, who have had almost no contact with the rest of the world. Of nearly 600 islands, only 30 are open to foreign tourists, and all of the The Andaman and Nicobar Islands are a group of nearly 600 islands in the Bay of Bengal. Although part of India politically, they are closer to Indonesia and Myanmar than to the Indian mainland. Most people come here for the beaches and scuba diving , especially on Havelock Island and Neil Island .",
+      "credibility_recognitions": [
+        "national_park"
+      ]
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-diglipur",
+      "name": "Diglipur",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 13.26667,
+        "lon": 93,
+        "source": "wikidata"
+      },
+      "description": "**Diglipur** is a friendly, dusty little town in the North and Middle Andaman district of the Andaman and Nicobar Islands in India. The main attractions do not lie within the town itself, but this is where buses arrive and depart from. Tourist accommodation is located in the nearby village of Kalipur.",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Diglipur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Diglipur",
+        "wikidata": "https://www.wikidata.org/wiki/Q5276296"
+      },
+      "distance_km": 1668,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "Diglipur is the main base for North Andaman exploration—gateway treks to Saddle Peak, visits to the limestone-cemented Ross & Smith twin sandbar off Aerial Bay (permits/forest boats apply), and turtle nesting watches at Kalipur/Cuthbert Bay beaches November–February. Overland buses run from Port Blair (roughly 300 km, full-day journeys on the Andaman Trunk Road); ferries also link Rangat and Long Island on some days—always confirm DSS/private sailing calendars. Fly or sail into Port Blair (IXZ) first—Indian carriers connect Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad and Visakhapatnam with seasonal frequency changes. Monsoon seas can cancel boats; plan October–May for predictable logistics.",
+        "keywords": ["ross smith sandbar", "saddle peak trek", "kalipur beach", "north andaman hub", "aerial bay boats"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baratang_Andaman_4170046.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 15213,
+        "content_richness_score": 0.109
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By road **Buses** run daily between Diglipur and Port Blair (10 hours), Rangat (4 hours) and Mayabunder (2.5 hours).\r\n\nBuses leave from the centre of town opposite the police stand. There's a ticket booking office here from which you can book tickets on the public express bus back to Port Blair or other southern destinations. Other destinations in North and Middle Andaman (for instance, Rangat) you buy tickets on the bus. Deluxe buses can be booked at a shop opposite the bus stand.\r\n\nThe only thing to be worried here is that the bus leaves around 3:30 - 4 AM only from designated areas and if you are not certain about the location then it is recommended to book a cab from Port Blair to Diglipur. \r\nAs of 2017, road transport either by bus or cab is the most convenient.\r\n\n\r\n By ferry Ferries come from Port Blair a few times per week and take around 10 hours. You can book ferry tickets at the administration block. It's by the Dolphin roundabout, and the ferry ticket windows are on the outside of the left hand side of the building. Ferries leave from Aerial Bay jetty, a ₹10 shared jeep or bus journey outside of town - about 1/2 hour.\r\n\nIf you are coming to Andaman for a short interval of time anywhere less than 10 -15 days, then it is not recommended to take a ferry to Diglipur as the sailing is tentative and mainly the government ferry opens up for locals in the islands.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "It's 30 minutes by bus from Diglipur to the Aerial Bay jetty (where ferries dock) and then another 30 minutes to Kalipur, where the \"best\" accommodation is called Pristine Beach Resort. You can go by sea plane also from Port Blair to Diglipur. There are daily flights from Port Blair to Diglipur and Diglipur to Port Blair.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Snorkeling. There's some great snorkelling between Kalipur beach and the small island behind the pristine beach resort. Update (Jan, 2011): Kalipur beach is salt water crocodile-infested. Swimming there is hazardous. The beach is a source of sand flies, so use repellent. \r\n\n\r\n\n\r\n Climbing Saddle Peak. Climb to the highest point in the Andaman islands and marvel at the scenery. The climb itself is great too - the path follows the beach and then cuts through different types of jungle and forest up to the top. \r\nYou can buy your ₹250 permit from the forestry department office at the trailhead which is open from 6am to 2pm - there's no need to buy it in advance.\r\n\nYou can get a guide from Pristine Beach Resort (₹100) or go by yourself. To get there follow the road through Kalipur as it turns into a track, then a small path. At the very end of the path (about 1/2 hour) you will find the forestry department hut where you should buy your permit. After that, follow the trees with the red0and-yellow painted bands. The path follows the beach, so if you lose it just go down to the beach and you'll soon see then again. To cross the streams you can either wade or go down onto the beach where the outflow will be leapable. When the beach curves round to the left look for the sign on your right and then follow the red bands painted on the trees. It's difficult to get lost - there's only one path.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There are a few friendly bars in Diglipur and in Kalipur. One of them is Pristine Beach Resort (see \"Sleep\" below)."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "highlights": [
+        "Ross & Smith twin islands",
+        "Saddle Peak",
+        "Turtle nesting (seasonal)"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:48.053Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Diglipur is the largest town of North Andaman Island, in the Andaman Archipelago, India. It is located on the southern side of Aerial Bay, at 43 metres above sea level, 298 kilometres north of Port Blair. It is crossed by the Kalpong River, the only river of the Andaman islands. Saddle Peak, the highest point in the archipelago, lies about 10 km to the south. Diglipur is also a county (tehsil) of the North and Middle Andaman District of the Andaman and Nicobar Islands union territory. Its area is 884 km2, and its population was 42,877 people as of 2001.",
+        "wikipedia_description": "Place in Andaman and Nicobar Islands, India",
+        "wikipedia_thumbnail": null,
+        "wikipedia_fetched_at": "2026-05-18T09:10:48.344Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.477Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal City / Urban Nature & Wildlife Areas Diglipur Sightseeing Diglipur is the largest town of North Andaman Island, in the Andaman Archipelago, India. It is located on the southern side of Aerial Bay, at 43 metres above sea level, 298 kilometres north of Port Blair. It is crossed by the Kalpong River, the only river of the Andaman islands. Saddle Peak, the highest point in the archipelago, lies about 10 km to the south. Diglipur is also a county (tehsil) of the North and Middle Andaman District of the Andaman and Nicobar Islands union territory. Its area is 884 km2, and its population was 42,877 people as of 2001. Diglipur is a friendly, dusty little town in the North and Middle Andaman district of the Andaman and Nicobar Islands in India. The main attractions do not lie within the town itself, but this is where buses arrive and depart from. Tourist accommodation is located in the nearby village of Kalipur. Ross & Smith twin islands Saddle Peak Turtle nesting (seasonal)"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-havelock-island",
+      "name": "Havelock Island",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.96667,
+        "lon": 93,
+        "source": "wikidata"
+      },
+      "description": "** Havelock Island ** ( Hindi : हैवलॉक द्वीप, Malayalam : ഹെയ്വ്ലോക് ദ്വീപുകള്‍), now known officially as **Swaraj Dweep** (Island of Freedom), is the most visited of the Andaman Islands . It's becoming popular for its beaches, laid back atmoshere and great scuba diving.",
+      "category": "Beaches",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Havelock_Island",
+        "wikipedia": "https://en.wikipedia.org/wiki/Havelock_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q1591501"
+      },
+      "distance_km": 1676,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Beach",
+      "travel_facts": {
+        "summary": "Swaraj Dweep (formerly Havelock) is the Andamans’ busiest leisure island: Radhanagar’s wide white beach, Elephant Beach snorkelling trips and PADI/SSI dive centres anchor most itineraries. Access is almost entirely via Phoenix Bay/Haddo jetties in Port Blair using government ferries or private catamarans (Makruzz, Nautika, Green Ocean, ITT Majestic)—book ahead December–January peak. Peak underwater visibility tends mid-January–mid-May; heavy monsoon shuts many boats late May–July. Helicopter seats are limited and weather-dependent. Reach Port Blair first by air (IXZ serves Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad, Visakhapatnam on airline-published schedules) or overnight ship from Chennai/Kolkata/Visakhapatnam—no railway.",
+        "keywords": ["swaraj dweep", "radhanagar beach", "scuba diving", "private catamaran", "government ferry DSS"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Swaraj Dweep",
+        "Havelock Island"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Havelock_Beach5_Takeda.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Radhanagar%20LateAfternoon.JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "poor",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "scuba_diving",
+          "snorkeling",
+          "relaxation"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": true
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 102175,
+        "content_richness_score": 0.73
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The Indian government has been advocating eco-friendly tourism development on Havelock for a while now, and while it's the most visited of the islands it sees only a fraction of the visitors that crowd other island destinations such as Thailand . The pace of life is slow, the locals are friendly and still not too affected by tourism, and the facilities are moderately basic for the most part. While many of the lodges have 'resort' in their names, none come even close, thankfully.\r\n\nThe beaches have been given a rather boring numbering system instead of names, although some names like Radhanagar are in popular use. The arrival port is at Beach #1, the junction at the center is Beach #3 (aka Govind Nagar), the junction near Dolphin Resort is Beach #5 (Vijay Nagar) and so on. Govind Nagar, the main \"town\", is small and has only a handful of shops and local _dhabas_. Most accommodation is grouped along the road from Beach #3 to Beach #5. From the 'junction' near Beach #3 a road veers off to Beach #7 (Radhanagar Beach), the most beautiful spot on the island.\r\n\nMid-January until mid-May sees the best weather, and often the best diving conditions. The days are mostly sunny at this time of year, and the sea sometimes flat enough to reflect the clouds. The monsoon usually hits around late May, lasting until the end of July, and is probably the worst time to visit the island – strong winds, frequent rain and low visibility underwater. August thru November see some occasional showers and slightly rougher seas, but diving can still be great at this time of year. The weather often takes a turn for the worse for the month of December through early January.\r\n\nHavelock island now has an ATM, and some of the hotels and resorts are able to perform card transactions. Nevertheless, it is best to make sure you take plenty of cash with you from Port Blair. Also, it is hard to buy some items in the market - differing factors of sun cream can be hard to find, as can mosquito repellent.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "**Ferries** are the major way on or off the island. 2-3 arrive daily from Port Blair (2-4 hours) and one from Rangat , one of which comes via Neil Island . Schedules vary according to day and season, so enquiry locally, and see Andaman and Nicobar Islands about the differences between the ship types.\r\n\n**Government-operated ferries** are best booked in advance, as seats often sell out. Rates are ₹250 for Coach and ₹350 for First Class. These ferries are air conditioned and can be booked in advance from the counter at the DSS in port Blair. A booking counter is also available in Havelock at the Jetty and operates from 09:15 to 12:15 and 02:15 to 16/15. You will have to get there early and stand in line, but as soon as the counter opens it can become pretty hectic so be prepared.\r\n\nIn busy seasons, local ferries should be booked in advance. You can buy tickets yourself from the Port Blair ferry office on arrival, or resorts will often offer to pre-book your tickets for the journey there and back, which you can either picked up from a travel agency on Port Blair, or they will send someone to meet you prior to your ferry. This is a good idea particularly if you're trying to make it from your flight to your resort on the same day, as the schedules don't leave much room for error. If you don't have a return ticket, try to get your resort to book - or you will need to get the Havelock port early and elbow your way to the front of the queue as the locals do, and even then the ferry can still be fully booked with all of the resorts taking the tickets. On the return, the 4:30PM ferry gets booked up first, so it's often safer to get the 10:00 if you need to be sure of making onward connections.\r\n\nAlternately, there are many an air-conditioned **catamaran ferry** from Port Blair to Havelock. Tickets prices starts from ₹1000 to ₹3000. As the ferry is more expensive it is less likely to be full, and its schedule meets incoming flights. Tickets can be booked from a dedicated ticket booking window at Port Blair, thus avoiding the queue barging. On return you can book through your guesthouse (or wild orchid, emerald gecko &amp; andaman bubbles) on Havelock. Some of the shops in the market also book the tickets on these cruises at same price so it should not be difficult to get them.\r\n\nFlight times from Port Blair to mainland India sometimes are changed without warning - including being brought forward. So it's definitely worth calling the day before to confirm your onward flights. Also be prepared to stay couple of days more than planned in Havelock because the boats to Port Blair will be cancelled if the weather is bad.\r\n\nThe other option is to fly in. **Pawan Hans** (+91-3192-233601) helicopters do operate from Port Blair but since it has limited seats it is always advisable to confirm the availability well in advance. The sea plane operations have been suspended since 2016.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Local **buses** and **shared jeeps** ply the 2 main roads between the port (on Beach #1), Radhanagar Beach (Beach #7), and Beach #5 where the bulk of the accommodation is located. There is a local bus for Radhanagar waiting at beach #1 at around the time the ferry (10-10:30) arrives. The cost of a ticket from Beach #1 to Radhanagar is around 50, shared jeeps a little more. Try to get off the ferry quickly and walk out of the parking area (where all the taxis and autorickshaws are parked) to catch the bus, although foreigners tend to have to stay back a bit to complete their permit formalities. The journey from Beach #1 to Radhanagar is around 30-45 minutes. \r\n **Auto-rickshaws** are also available. Fares are more or less standardized: from Beach #5 resorts to the market costs ₹.100, from Beach #1 (the port) to Beach #5 ₹200, and a return trip from the market to Radhanagar Beach (with waiting time) is ₹. 400. You can usually flag them down on one of the main roads, or at the market. \r\n **Bicycles, scooters and motorcycles** are available for hire near the centre of 'town' (Beach #3), or inquire at your guesthouse. A Honda Activa will run around ₹500/day. Geared motorcycles are available for ₹500/day and gearless scooters (Honda Activa etc.) for ₹500/day. If you intend to hire for more than one day, then bargaining can bring down the price further. Petrol is available at some of the shops in the market or look out for boards that say \"Petrol Pump\". It's available for approximately ₹. 80 per litre (Apr 2019), and can go up to ₹. 120 per liter at some shops. \r\nBicycles are available for ₹. 80 per day (Apr 2019).\r\n\n\r\n **Private taxi operators** A/c and non-a/c taxis are available for hire through your resort or travel agent. However these are pricey and non-reliable. A/c taxis charge around ₹1,500 for a full day (eight hours) but the eight hours exists in theory. They will drop you off at your destination and disappear. For the return trip, you either have to pre-fix a pick-up time with them or give them a call on their cell phones. You may be better off hiring a scooter or motorcycle for the day.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Radhanagar Beach",
+              "description": "One of the most beautiful beaches on the island and rated as the best in Asia by _Time_ in 2004. Gorgeous, silky white sand backed by a forest that provides welcome shade looks out over turquoise water, some stretches with a sandy bottom good for swimming and some with excellent coral reefs that are great for snorkeling ; a great combination indeed. Sunsets here are often spectacular and it's a popular time to be at the beach, but be careful not to miss the last trucks back if you're not staying here. A man with an elephant walks through the forest occasionally, offering rides for a fee. Buses run throughout the day until sunset, as do auto-rickshaws and shared 4 wheel-drive trucks. If you are fit, you can bicycle from Govind Nagar but the journey is quite bumpy and steep. There are a few food shacks where the road hits the beach, all of which rent snorkels and fins.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 11.98423,
+                "lon": 92.95313
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Elephant Beach",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 12.00941,
+                "lon": 92.94716
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Kalapathar Beach",
+              "description": "Located on one corner of Havelock, this beach gets its name from the surrounding village Kalapathar and the black rocks (Kalapathar Rocks) that adorn the coastline here. The emerald seas, the tropical forests on one side of the road the coastline, and on other side the silken smooth silver sands and the sheer solitude make this beach a great place to relax.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 12.0002,
+                "lon": 93.0036
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Radhanagar Beach** ( Beach nº 7 ) ( From Govind Nagar, follow the road West and the signs for about 10 km. ). One of the most beautiful beaches on the island and rated as the best in Asia by _Time_ in 2004. Gorgeous, silky white sand backed by a forest that provides welcome shade looks out over turquoise water, some stretches with a sandy bottom good for swimming and some with excellent coral reefs that are great for snorkeling ; a great combination indeed. Sunsets here are often spectacular and it's a popular time to be at the beach, but be careful not to miss the last trucks back if you're not staying here. A man with an elephant walks through the forest occasionally, offering rides for a fee. Buses run throughout the day until sunset, as do auto-rickshaws and shared 4 wheel-drive trucks. If you are fit, you can bicycle from Govind Nagar but the journey is quite bumpy and steep. There are a few food shacks where the road hits the beach, all of which rent snorkels and fins.  ( updated Mar 2015 ) \r\n 2 **Elephant Beach** ( A path to the beach starts from the road to Radhanagar ; look for a dip in the road on a curve where there will usually be a few motorbikes parked. Several paths head off from this point, ask around for the correct one. If you choose to trek alone through the forest then stick to broad path since there are forks along the way. The walk is about 30 minutes at an easy pace with dry weather. ). **Elephant Beach** is further north from Radhanagar and is popular with Indian tourists. The shoreline here was largely swept away by the 2004 tsunami and the beach is a fraction of what it used to be; however, the coral here is probably the best on the island, making this an excellent spot for snorkeling. It's reachable on foot from Beach #7 or by fishing boat from the east side of the island; many resorts arrange snorkeling and diving trips here. Since the tsunami, the path ends in an expanse of uninviting looking swampy water. Rather than attempting to go around, wade straight through it — the beach is only 100 meters straight ahead, the water is rarely above knee-height and the ground is solid. As you enter the swamp, you would see a small red board ahead, to your left; bear towards it. Wear sandals when crossing to avoid sharp shells. During high tide, water may be a foot deeper in last 6 metres or so. While snorkeling, keep an eye out for the glass-bottom boats. If trek and get to the beach and are tired to trek back an option would be to take a boat ride from there to jetty, normally they charge ₹100 per person, only challenge is finding someone who is willing to take you and then take an Auto ride for ₹100 again to the point where the vehicle is parked.  ( updated Mar 2015 ) \r\n 3 **Kalapathar Beach** ( Travel along the road From Beach nº 3 and Beach nº 5 ). Located on one corner of Havelock, this beach gets its name from the surrounding village Kalapathar and the black rocks (Kalapathar Rocks) that adorn the coastline here. The emerald seas, the tropical forests on one side of the road the coastline, and on other side the silken smooth silver sands and the sheer solitude make this beach a great place to relax.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Pool Table at Pearl Beach Resort",
+              "description": "Pool Table is available at Havelock island at Pearl Beach Resort..Rent is ₹400 per Hour .."
+            },
+            {
+              "name": "Havelock Divers",
+              "description": ""
+            },
+            {
+              "name": "Nemo Divers",
+              "description": ""
+            },
+            {
+              "name": "Sea Link",
+              "description": ""
+            }
+          ],
+          "brief": "Pool Table is available at Havelock island at Pearl Beach Resort..Rent is ₹400 per Hour ..",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Golden Spoon",
+              "description": "The wooden benches and low-ceiling shack may seem humble, but the seafood is exceptional. Home-made masalas dress the most delectable prawns, crabs, or freshly-fished snappers at low prices. Cheapest lobster on the Island. Provides take-away service so you can enjoy your meal on the beach. Considering it is a small kitchen, and all the food is prepared fresh - expect to wait for your order but it is worth it.",
+              "location": null
+            },
+            {
+              "name": "Dhabas",
+              "description": "Serve seafood and basic local Indian food, and are the cheapest way to eat on the island. There are also snack stands near here selling samosas, sweets and the like. More dhabas can be found near Radhanagar Beach (Beach #7), serving fresh sea food at reasonable prices; you may have to wait up to an hour for the food out here.",
+              "location": null
+            },
+            {
+              "name": "Geetha Restaurant",
+              "description": "Grilled fish, prawns are served. Price varies with size",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Beer** is available at most of the resorts and at the \"English Beer &amp; Wine Shop\" near the port. Wild Orchid, B3, **Symphony Palms** offers various brand of beers \r\n **Alcohol** all types of alcohol are available at the bar in the Wild Orchid Resort. \r\n Fresh **coconuts** are available around the island - after you drink the juice they'll be happy to whack it open so you can eat the flesh too."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Cafe del Mar",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "El Dorado",
+              "description": "Huts with communal showers and toilets ₹200. Huts with en suite toilet and shower ₹500. Due to the place being quite new most huts are reasonably clean and well maintained. Reasonable restaurant, serves beer.",
+              "price": null
+            },
+            {
+              "name": "Gold India",
+              "description": "Huts with en suite toilet and shower ₹500. Average restaurant, serves alcohol.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration",
+            "Use sunscreen, wear a hat"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "highlights": [
+        "Radhanagar Beach",
+        "Elephant Beach",
+        "Kalapathar Beach",
+        "Scuba diving"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:48.558Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Havelock Island, officially known as Swaraj Dweep, is one of the largest islands in Ritchie's Archipelago, to the east of Great Andaman within the Andaman Islands. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is 41 km (25 mi) northeast of the capital city, Port Blair.",
+        "wikipedia_description": "Island of the Andaman Islands",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Havelock%2C_Andaman_%26_Nicobar_Islands.JPG/330px-Havelock%2C_Andaman_%26_Nicobar_Islands.JPG",
+        "wikipedia_fetched_at": "2026-05-18T09:10:48.609Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.478Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal Beaches Havelock Island Swaraj Dweep Havelock Island Beach Havelock Island, officially known as Swaraj Dweep, is one of the largest islands in Ritchie's Archipelago, to the east of Great Andaman within the Andaman Islands. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is 41 km (25 mi) northeast of the capital city, Port Blair. The Indian government has been advocating eco-friendly tourism development on Havelock for a while now, and while it's the most visited of the islands it sees only a fraction of the visitors that crowd other island destinations such as Thailand . The pace of life is slow, the locals are friendly and still not too affected by tourism, and the facilities are moderately basic for the most part. While many of the lodges have 'resort' in their names, Havelock Island ( Hindi : हैवलॉक द्वीप, Malayalam : ഹെയ്വ്ലോക് ദ്വീപുകള്‍), now known officially as Swaraj Dweep (Island of Freedom), is the most visited of the Andaman Islands . It's becoming popular for its beaches, laid back atmoshere and great scuba diving. Radhanagar Beach Elephant Beach Kalapathar Beach Scuba diving"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-jarwa-reserve",
+      "name": "Jarwa Reserve",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": null,
+      "description": "**Jarwa Reserve** is in Andaman and Nicobar of India .",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Jarwa_Reserve",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jarwa_Reserve",
+        "wikidata": "https://www.wikidata.org/wiki/Q14924965"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "This entry denotes the Jarawa Tribal Reserve corridor along the Middle Andaman highway—not a sightseeing venue. Tourist vehicles may transit only in police-organised convoys between Jirkatang and Middle Strait; stopping, feeding people, photography or attempting contact with Jarawa community members violates Indian law and risks disease transmission to vulnerable populations. Trips to Baratang cross this corridor; plan permits/timing through authorised operators only. Reach Andaman entries via Port Blair (IXZ); onward logistics identical to other islands—no railway.",
+        "keywords": ["jarawa indigenous reserve", "restricted corridor", "convoy transit only", "middle strait baratang", "ethical tourism"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.85,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": true,
+        "wildlife_caution": true
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "transit_corridor",
+          "nature_observation_from_vehicle"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 13143,
+        "content_richness_score": 0.094
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "It is illegal and highly inadvisable to visit the Jarawa given the risk of outsiders bringing infections to which they are not immune. In 1999 and 2006, the Jarawa suffered outbreaks of measles – a disease that has wiped out many tribes worldwide following contact with outsiders.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "**Andaman Trunk Road**, Jarawa Reserve lies between Jarkatang and Mangroove Creek. The Andaman Trunk Road passes through this reserve, the only means of road contact between south and north Andaman .\r\n\nThis encroachment risks exposing the Jarawa to diseases to which they have no immunity, and creating a dependency on outsiders. Poachers steal the game the Jarawa rely on, and there are reports of sexual exploitation of Jarawa women.\r\n\n\r\n By bus Bus tours operate into the area.\r\n\n\r\n By car The Andaman Trunk Road passes through the Jarawa Reserve.\r\n\n\r\n Fees and permits A permit can be obtained from Jarkatang (JPP Jarkatang 2) for Indian tourists in a tourist vehicle. If you want to use your own vehicle you have to seek permission from A&amp;N Police commissioner office.\r\n\nJarawa Reserve lies between Jarkatang and Mangroove Creek. The Andaman Trunk Road passes through this reserve, the only means of road contact between south and north Andaman.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Tour operators regularly conduct tours into these reserves which are both illegal and potentially harmful for the Jarawa tribe. It is illegal for tour companies to use sightings of the Jarawa to advertise their trips and also to offer tours which return on the same day.\r\n\n\r\n **Bus trips**, into the reserves are a gruelling 8-hr bus ride both ways. The bus does not stop so all you get is a passing glance out the window if you wish to catch a glimpse of the Jarwa people. Some commentators say that \"the Jarawa are being used as a human safari which is both degrading and dangerous for them\". [1] \r\nSome tour operators provide a boat ride in the mangroves, this takes around 1 hr. Tours also visit the limestone caves and a mud volcano. Price is around ₹400/person inclusive of food and water.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:48.811Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "The Jarwa Reserve Forest protects the Jarawa tribal reserve on Middle Andaman. The Andaman Trunk Road passes through a transit corridor; visiting or photographing the Jarawa is illegal and harmful to the community. Permits apply for road transit only.",
+        "wikipedia_fetched_at": "2026-05-18T09:11:43.145Z",
+        "wikipedia_source": "manual_from_wikivoyage",
+        "tourism_status": "restricted_transit_only",
+        "deep_enriched_at": "2026-05-18T09:52:06.478Z"
+      },
+      "search_context": "Wildlife / Nature City / Urban Nature & Wildlife Areas Jarwa Reserve Sightseeing The Jarwa Reserve Forest protects the Jarawa tribal reserve on Middle Andaman. The Andaman Trunk Road passes through a transit corridor; visiting or photographing the Jarawa is illegal and harmful to the community. Permits apply for road transit only. It is illegal and highly inadvisable to visit the Jarawa given the risk of outsiders bringing infections to which they are not immune. In 1999 and 2006, the Jarawa suffered outbreaks of measles – a disease that has wiped out many tribes worldwide following contact with outsiders. Jarwa Reserve is in Andaman and Nicobar of India . Jarawa Reserve Forest (transit only) Limestone caves nearby via Baratang tours",
+      "highlights": [
+        "Jarawa Reserve Forest (transit only)",
+        "Limestone caves nearby via Baratang tours"
+      ]
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-little-andaman",
+      "name": "Little Andaman",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 10.75,
+        "lon": 92.5,
+        "source": "wikidata"
+      },
+      "description": "**Little Andaman** is an island in the South Andaman district of the Andaman and Nicobar Islands . Of the islands open to tourism, it's one of the largest, yet its remote location makes it the least visited. Those that do make the journey will stumble across pristine beaches, waterfalls, oil palm plantations and good surf. During the off-season, you will likely be the only tourist on the whole island.",
+      "category": "Beaches",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Little_Andaman",
+        "wikipedia": "https://en.wikipedia.org/wiki/Little_Andaman",
+        "wikidata": "https://www.wikidata.org/wiki/Q1579619"
+      },
+      "distance_km": 1640,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Beach",
+      "travel_facts": {
+        "summary": "Little Andaman lies south of Port Blair and suits travellers wanting quieter beaches, waterfalls and seasonal beginner surf at Butler Bay while accepting modest infrastructure. Ferry connections from Port Blair are less frequent than Havelock/Neil—expect longer crossings and flexible schedules. Tribal reserve pockets (Onge areas such as Dugong Creek) remain closed to tourism; obey signage. Ideal November–April when swell is manageable; monsoon suspends many sailings June–September. Mainland access is flight or ship into Port Blair (IXZ linked with Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad, Visakhapatnam per airline timetables)—no railway.",
+        "keywords": ["butler bay surf", "quiet andaman island", "waterfalls", "limited ferry", "onge tribal reserve closed"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Klein-Andaman"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cute_little_flower_in_Andaman_Island.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Little%20Andaman%20locale.png?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          2
+        ],
+        "off_season_months": [],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "water_sports",
+          "relaxation"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 12917,
+        "content_richness_score": 0.092
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "While most of the Andaman Islands escaped major damage from the 2004 tsunami, Little Andaman wasn't quite so lucky. Almost the entire island was ravaged, though it has since bounced back, and a few small hotels and resorts built.\r\n\nDugong Creek in the North and the South Bay area are tribal reserves for the Onge tribe and are off-limits to tourists.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Ferries arrive daily at **Hut Bay** from Port Blair .\r\n\nThere are 2 types of ferries (as of February 2011):\r\n\n\r\n **Slow/big ferry** - takes about 8.5 hours - costs ₹55 (more comfy and does the trip even if the weather is bad) \r\n **Speedboat** - takes about 6 hours - costs ₹25 (plastic seats, ferry might not go if the weather is bad) \r\nGet your tickets a day before you want to leave in Port Blair.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Local fishing boats can take you to other parts of the island from Hut Bay, otherwise, your feet are your best friends.\r\n\nYou can rent motorbikes for ₹300 (fixed price) and bicycles.\r\nCheck the bike (e.g. the brakes!) before you accept it. Most of the bikes are far from a perfect condition.\r\n\nBuses, Rickshaws and Jeeps get you around the island.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Things to see and do:\r\n\n\r\n Waterfalls \r\n Lighthouse \r\n Beaches (Butler Bay beach is a very beautiful one) \r\n Charter a boat for a 1-2 hour river tour through untouched wilderness",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Sandflies can be a problem on the island.\r\n\nDo not swim in waterfalls as crocodiles have been reported."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "highlights": [
+        "Butler Bay Beach",
+        "Waterfalls",
+        "Surfing (seasonal)"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:49.473Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Little Andaman Island is the fourth largest of the Andaman Islands of India with an area of 707 km2, lying at the southern end of the archipelago. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. It lies 88 km (55 mi) south of Port Blair, the capital of Andaman and Nicobar Islands.",
+        "wikipedia_description": "Island in India",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Little_Andaman_STS032-72-64.jpg/330px-Little_Andaman_STS032-72-64.jpg",
+        "wikipedia_fetched_at": "2026-05-18T09:10:49.763Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.478Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal Beaches Little Andaman Klein-Andaman Beach Little Andaman Island is the fourth largest of the Andaman Islands of India with an area of 707 km2, lying at the southern end of the archipelago. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. It lies 88 km (55 mi) south of Port Blair, the capital of Andaman and Nicobar Islands. While most of the Andaman Islands escaped major damage from the 2004 tsunami, Little Andaman wasn't quite so lucky. Almost the entire island was ravaged, though it has since bounced back, and a few small hotels and resorts built. Dugong Creek in the North and the South Bay area are tribal reserves for the Onge tribe and are off-limits to tourists. Little Andaman is an island in the South Andaman district of the Andaman and Nicobar Islands . Of the islands open to tourism, it's one of the largest, yet its remote location makes it the least visited. Those that do make the journey will stumble across pristine beaches, waterfalls, oil palm plantations and good surf. Butler Bay Beach Waterfalls Surfing (seasonal)"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-long-island-andamans",
+      "name": "Long Island (Andamans)",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 12.38,
+        "lon": 92.93,
+        "source": "wikidata"
+      },
+      "description": "**Long Island** is a small island in the North and Middle Andaman district of the Andaman and Nicobar Islands in India .",
+      "category": "Beaches",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Long_Island_(Andamans)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Long_Island_(Andaman_Islands)",
+        "wikidata": "https://www.wikidata.org/wiki/Q14222960"
+      },
+      "distance_km": 1665,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 1,
+      "weather_snippet": "Oct–May",
+      "vibe": "Beach",
+      "travel_facts": {
+        "summary": "Long Island is a low-key Middle Andaman outpost with limited lodges—mostly appealing to slow travellers combining Rangat–Diglipur hops. Passenger ferries call intermittently from Rangat or Port Blair routes depending on DSS calendars; verify sailing months ahead because schedules shrink outside peak season. Activities centre on village walks, mangrove-fringed coves and digital detox—do not expect nightlife or upscale resorts. Fly or sail into Port Blair first (IXZ connects multiple mainland metros), then coordinate island ferries—no railway.",
+        "keywords": ["middle andaman ferry", "offbeat island", "DSS schedule", "rangat connection", "basic lodging"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.75,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "water_sports",
+          "relaxation"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 28392,
+        "content_richness_score": 0.203
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Long Island has very little infrastructure. There is one small village, one government rest house that must be booked through Port Blair and a hotel in the form of huts.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "The permit you receive on arrival in Port Blair is good for Long Island. The officer in charge on the Island will gently remind you to register as you walk to the Blue Planet resort. You do not need to check out when you leave the Island.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Getting around is limited to the village near the Jetty, a walk on the beach or a trek to Lalaji Bay. Only a few motorised vehicles circulate so you'll have to use your feet like everyone does here. A walk with luggages from the Jetty to the resort can be long, but you may ask for a ride if you see a motorcycle. You may want to take a boat to the beach (beware that the boat owners don't do trips in the dark.\r\n\nIf you want to cross the Island to go to Lalaji Bay, you must get an additional permit (forest permit) delivered by the Forest Office near the jetty. This office is closed on Sundays, so have you permit ready in advance. The Blue Planet manager will be happy to help you with it.",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Government resthouse",
+              "description": "Only two rooms: you must book in advance with A&amp;N Tourism , but it is often occupied by government officials.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:49.968Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Long Island is an island of the Andaman Islands. It belongs to the North and Middle Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands.\nThe island is located 80 km (50 mi) north from Port Blair.",
+        "wikipedia_description": "Island within Indian union territory",
+        "wikipedia_thumbnail": null,
+        "wikipedia_fetched_at": "2026-05-18T09:10:50.262Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.478Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal Beaches Long Island (Andamans) Beach Long Island is an island of the Andaman Islands. It belongs to the North and Middle Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is located 80 km (50 mi) north from Port Blair. Long Island has very little infrastructure. There is one small village, one government rest house that must be booked through Port Blair and a hotel in the form of huts. Long Island is a small island in the North and Middle Andaman district of the Andaman and Nicobar Islands in India ."
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-mahatma-gandhi-marine-national-park",
+      "name": "Mahatma Gandhi Marine National Park",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.57056,
+        "lon": 92.65694,
+        "source": "wikidata"
+      },
+      "description": "**Mahatma Gandhi Marine National Park** is in the South Andaman district of the Andaman and Nicobar Islands .",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Mahatma_Gandhi_Marine_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mahatma_Gandhi_Marine_National_Park",
+        "wikidata": "https://www.wikidata.org/wiki/Q3364527"
+      },
+      "distance_km": 1644,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Wildlife & nature",
+      "travel_facts": {
+        "summary": "The MG Marine park offshore belt protects limestone-fringed islets famous for glass-bottom boats, snorkelling and seasonal openings of **Jolly Buoy** versus **Red Skin** islands—forest permits are bundled into boat tickets and plastic restrictions apply (carry refill bottles). Boats embark from Wandoor Jetty (~30 km southwest of central Port Blair) typically mornings around high-season daylight slots—closures spike during rough seas or coral spawning rotations announced locally. Combine as a half-day trip with nearby beaches rather than as standalone lodging—stay in Port Blair or coastal resorts north/east of town. Reach India mainland hubs via Port Blair IXZ on airline-published schedules (including Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, Mumbai, Visakhapatnam); ferry onward within islands—no trains.",
+        "keywords": ["jolly buoy red skin alternate", "wandoor jetty boats", "plastic ban marine park", "snorkelling permits", "south andaman day trip"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Wandoor_beach_from_Mahatma_Gandhi_Marine_National_Park.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jolly%20Boys%20Island%202010.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": true,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 19752,
+        "content_richness_score": 0.141
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Mahatma Gandhi Marine National Park is a national park of India in Wandoor on the Andaman Islands 29 km from Port Blair. The park is on the South Western coast of South Andaman, in the Bay of Bengal. The park's boundary runs along the coasts and sometimes along islands within the range of latitude between 11°22, 06\" and 11° 36 -34\" N and longitude between 92° 30.00\"W and 92° 40.33' E covering a total area of 281 50 ha (281.5 km²).\r\n\n15 islands and several islets of the labyrinth group of islands, like Alexandra, **Red Skin**, Boat, Hobday, Tarmugli, Grub, Chester, Snob, Bell, Pluto, Malay, **Jolly Boys**, Riflemen, Twins and parts of Rutland island make up this park. \r\n\nThe park was closed for rehabilitation after the 2004 tsunami but has since reopened, with damage seeming to be less than had been reported. Red Skin and Jolly Bouy islands are open during tourist season in an alternate fashion to save the biodiversity surrounding the islands.\r\n\nThe rest of the islands that come under the National Park are still not open to public and is protected by the forest department.\r\n\nThe park is under the overall administrative control of the Chief Wildlife Warden of the forest department of A&amp;N islands administration. Though the park is uninhabited, there are 8 villages adjacent to the parking area with a population of about 3000 (1981 census).",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Wandoor, a small fishing hamlet, is the entry point to the park. Wandoor is about 30 km from Port Blair . \r\n\nOne can reach Wandoor by hired taxi or by bus in about 45 min from Port Blair. \r\n\nThe local bus service is reliable and offers economical alternatives to taxis. Buses are available from and for Port Blair every 30 min or so. Tickets cost ₹10 one-way. Local buses ply from 6AM to 8PM.\r\n\nThe Tourist Department of Andaman runs 2-3 minibus trips each day. The return trip costs about ₹90. The buses start from Andaman Teal House and can be boarded from the office of the Director of Information and Publicity and Tourism (IP &amp; T), Port Blair.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Although the island is small, you may explore the forest through the pathway made inside. It is not advised by the authorities to go into the jungle.\r\n\nThe island also has a great white sand beach to sit back and relax.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "The alternative to other overrun tourist spots in the Andamans. Snorkelling here is excellent during the season when the water is flat and clear. A very professionally run PADI/CMAS dive centre is now at Wandoor.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Packaged water, aerated drinks and fresh coconut water are available in Wandoor. Visitors should carry their own water when entering the park. \r\n\nBeer or other drinks are available at bars or resorts nearby."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "highlights": [
+        "Jolly Buoy Island",
+        "Red Skin Island",
+        "Snorkelling",
+        "Glass-bottom boats"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:50.463Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Mahatma Gandhi Marine National Park is a national park in India, near Wandoor on the Andaman Islands. It belongs to the South Andaman administrative district, part of the Indian union territory of the Andaman and Nicobar Islands.",
+        "wikipedia_description": "National park on the Andaman Islands in India",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Mahatma_Gandhi_Marine_National_Park.jpg/330px-Mahatma_Gandhi_Marine_National_Park.jpg",
+        "wikipedia_fetched_at": "2026-05-18T09:10:50.751Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.479Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal Nature & Wildlife Areas Mahatma Gandhi Marine National Park Parc national marin mahatma gandhi Wildlife & nature Mahatma Gandhi Marine National Park is a national park in India, near Wandoor on the Andaman Islands. It belongs to the South Andaman administrative district, part of the Indian union territory of the Andaman and Nicobar Islands. Mahatma Gandhi Marine National Park is a national park of India in Wandoor on the Andaman Islands 29 km from Port Blair. The park is on the South Western coast of South Andaman, in the Bay of Bengal. The park's boundary runs along the coasts and sometimes along islands within the range of latitude between 11°22, 06\" and 11° 36 -34\" N and longitude between 92° 30.00\"W and 92° 40.33' E covering a total area of 281 50 ha (281.5 km²). 15 islands and Mahatma Gandhi Marine National Park is in the South Andaman district of the Andaman and Nicobar Islands . Jolly Buoy Island Red Skin Island Snorkelling Glass-bottom boats"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-narcondam-island",
+      "name": "Narcondam Island",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 13.4472,
+        "lon": 94.2632,
+        "source": "wikidata"
+      },
+      "description": "**Narcondam Island** is a small volcanic island part of the Indian territory of Andaman and Nicobar Islands . It is 710 m above sea level at the highest point. The island has an area of 7 km 2 (2.7 sq mi).",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Narcondam_Island",
+        "wikipedia": "https://en.wikipedia.org/wiki/Narcondam_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q1965316"
+      },
+      "distance_km": 1805,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "Narcondam is an isolated stratovolcano east of the main Andaman ridge and home to the endemic Narcondam hornbill—India lists it as a wildlife sanctuary with landing banned for casual tourists. Expedition cruising or rare permitted scientific dives are the only realistic access routes; logistics originate from Port Blair long-range charters subject to Navy/coastal-security corridors and calm-season windows November–April. Expect multi-night commitments and frequent cancellations. Fly into Port Blair (IXZ) first— mainland connectivity mirrors other union hubs (Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad, Visakhapatnam)—then negotiate specialised marine permits—never assume availability.",
+        "keywords": ["narcondam hornbill endemic", "wildlife sanctuary no landing", "expedition diving permit", "remote volcano island", "restricted marine zone"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Narcondam Wildlife Sanctuary"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narcondam_hornbill.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narcondam%20Island.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": true,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "expedition_boat",
+          "technical_diving",
+          "wildlife_observation"
+        ],
+        "activity_density_score": 0.25,
+        "requires_advance_booking": true
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 9541,
+        "content_richness_score": 0.068
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Narcondam is classified as an active volcano. The Indian Coast Guard is building a huge coastal surveillance radar facility at the island. This project was delayed for a long time because it was considered harmful to the local horn bill population.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "The Narcondam Hornbill is endemic to the island. It is an endangered species. There is a separate Wildlife sanctuary in the island to protect the horn-bill.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Narcondam is known as a diving destination. There are rocky ridges and steep slopes like chimneys useful for diving. The islands offer gently sloping terrain populated with fields of hard corals and colourful reef fish.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:50.957Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Narcondam, India's easternmost island, is a small volcanic island located in the northern Andaman Sea. The island's peak rises to 710 m above mean sea level, and it is formed of andesite. It is part of the Andaman Islands, the main body of which lie approximately 74 km (46 mi) to the west. The island is part of the Indian union territory of Andaman and Nicobar Islands. The island is small, covering an area of approximately 7.6 square kilometres. It was classified as an active volcano by the Geological Survey of India.",
+        "wikipedia_description": "Island in India",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Narcondam_I-_locale.png/330px-Narcondam_I-_locale.png",
+        "wikipedia_fetched_at": "2026-05-18T09:10:51.247Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.479Z"
+      },
+      "search_context": "Wildlife / Nature Narcondam Wildlife Sanctuary endemic hornbill stratovolcano wildlife sanctuary no landing expedition diving permit remote volcano island restricted marine zone Port Blair charter India easternmost island volcanic peak Andaman Sea conservation",
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ]
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-neil-island",
+      "name": "Neil Island",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.82306,
+        "lon": 93.05833,
+        "source": "wikidata"
+      },
+      "description": "**Neil Island**, now known officially as **Shaheed Dweep** (Island of Martyrs), is in the Andaman Islands .",
+      "category": "Beaches",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Neil_Island",
+        "wikipedia": "https://en.wikipedia.org/wiki/Neil_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q6988773"
+      },
+      "distance_km": 1684,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Beach",
+      "travel_facts": {
+        "summary": "Shaheed Dweep (Neil) is Ritchie Archipelago’s compact chill-stop—flat coastal loops link Bharatpur’s snorkel-friendly lagoon, Laxmanpur sunsets and the limestone Natural Bridge reef shelf at low tide. Ferries run daily from Port Blair (~90–120 minutes depending on vessel) and connect onward to Havelock/Swaraj on intersecting DSS routes—reserve seats in peak winter because cabins fill quickly. Cyclonic swell shuts sailings July–September; flights remain via Port Blair only. Mainland visitors fly IXZ (multi-city connections published by IndiGo, Air India Group, others—subject to change); combine ferry timing with domestic arrivals due to afternoon military curfew on airport ops.",
+        "keywords": ["shaheed dweep", "bharatpur snorkelling", "natural bridge neil", "government ferry DSS", "ritchie archipelago"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Shaheed Dweep",
+        "Neill Island",
+        "Neil Island"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neil_Island_-_Map.png?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shaheed%20Island%2C%20Andaman%20Islands%2C%20Tropical%20beach.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "water_sports",
+          "relaxation"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 22494,
+        "content_richness_score": 0.161
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Neil, with its very relaxed vibe and long, deserted beaches is a place to chill out after the \"bustle\" of Havelock Island . Neil is quite small compared to Havelock. Its widest part is about 5 km in length. You can walk the whole island in about an hour or two.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Ferry from _ Port Blair to Neil_. It takes 2 hours and costs ₹195. One return sailing a day. Neil Island has no ticket office, just get on the ferry and then buy your tickets on board. There's also the boat from Port Blair to Rangat which calls at Neil as its first stop.\r\n\n_Havelock to Neil_. The Rangat ferry calls at Havelock and then to Neil. It takes 1 hour and costs ₹195.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "On arrival, the guesthouse owners will meet you at the jetty, and give you a free autorickshaw ride to their guesthouse. The return journey will cost ₹50.\r\n\nBicycles can be rented here for a price between ₹50-₹75 per day. Though not needed they can be useful if you want to travel around Neil in a day.\r\n\nYou can get an auto-rickshaw and go around to see self-declared private 'resorts' to find accommodation.\r\n\nTwo Wheeler Hire:\r\nYou can hire a two wheeler for ₹300 per day. This is the best way to explore the Island as you have the freedom to go to any place at any time. Definitely much cheaper than hiring a taxi or an auto. Make sure to fill Fuel before 5 in the evening, as you might not find any later. Having a bike would also help you to stop at any part of the beach to click Pictures and enjoy the place. Also one can use a two-wheeler to explore other resorts for better food, if the food given by their resort is not so good.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Beach #8**: Snorkeling here plus a small cave to check out. Lots of shells around if you are a shell collector. \r\n **Natural bridge**: A small strip of land that connects the mainland to a small (3*3) island of sorts (not worth it but the rockpools around this at low tide are worth checking out). \r\n **Sitapur beach**: Lovely sunrise. Serene beach. Good for a swim.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Sunset point** is the west most point of the beach west of the jetty which the guesthouses are on. There are ravenous sandflies, so if you're spending any time there then take a hammock. Pretty sunsets. If you snorkel directly west off the point there is some wonderful snorkelling. There's sometimes a current. Snorkeling near beach with the caves and also off Havelock if you choose to take the private ride. Mantas to be seen on the ride if you are lucky. Get here in the morning. check the rockpools, snorkel then bail in the afteroon. \r\n **Snorkelling** is also very good around the jetty at Neil. edges of the shallow reefs have some live corals, many different kinds of fish and lots of anemones with resident clown fish. Great variety of shells are available but are not supposed to be taken from the islands. \r\n ** India Scuba Explorers **, Beach#1 ( get to beach #1, on the left side of the road about a 300m before Tango Resort ), ☏ +91 9474238646 . A PADI Dive Resort offering all PADI courses and daily dive safaris to spectacular new dive sites around the unexplored waters of Neil Island.   \r\n Water sports and swimming are only allowed at the Bharatpur Beach in Neil Island; all other attractions are for sightseeing only.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Gan Garden Restaurant",
+              "description": "Take main road from bazaar towards sunset point, opposite football pitch is Gan Garden, nice family run restaurant, good choice of meals and they will happily cook any fish for you that you manage to catch yourself or buy from the fish market for a small charge! The family will also happily arrange other activities for you, Gan can organise jungle trips and Sanjay can organise snorkelling or fishing trips on their speed boat! Trips are all around ₹500 per person and will be a full day trip including lunch!",
+              "location": null
+            },
+            {
+              "name": "Green Heaven restaurant",
+              "description": "The restaurant is very friendly, has great food (try the grilled fish or chocolate pancake) and the service is positively instant compared with the glacial service at the resorts!",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Coconut milk.\r\n\nAlcohol is also available in most of the resorts."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Cocon-huts Resort",
+              "description": "Come out of the jetty and walk straight up to main road, turn right and walk about 500m down road, then turn right straight after the football pitch, nice friendly staff, 10 basic cheap huts with decent communal shower and bathroom facilities set in nice large open area, opens out onto beach, 4 bungalows are available but apparently have to be booked from Port Blair.",
+              "price": "₹150-₹250"
+            },
+            {
+              "name": "Hawabill nest guest house (IP&amp;T)",
+              "description": "Near the jetty proved to be a very decent place. The Dorms are clean with proper beds and a community bath/toilet. Good news, there were no other tourists except an occasional day tripper family. They also have a chef who can prepare the food on request. To book contact A&amp;N Tourism",
+              "price": "₹150"
+            },
+            {
+              "name": "Pearl Park Beach Resort",
+              "description": "Another 500 metres further west from Tango and pretty much the same except it doesn't front onto the beach. Similar pricing to Tango.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Beach / Coastal"
+      ],
+      "highlights": [
+        "Bharatpur Beach",
+        "Laxmanpur Beach",
+        "Natural Bridge"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:51.458Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Neil Island, officially known as Shaheed Dweep, is an island of the Andaman Islands, located in Ritchie's Archipelago. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is located 36 km (22 mi) northeast from Port Blair.",
+        "wikipedia_description": "Island in the Andaman Islands of India",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Keshet_neal_island_india.jpg/330px-Keshet_neal_island_india.jpg",
+        "wikipedia_fetched_at": "2026-05-18T09:10:51.509Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.479Z"
+      },
+      "search_context": "Beach / Coastal Beaches Neil Island Shaheed Dweep Neill Island Neil Island Beach Neil Island, officially known as Shaheed Dweep, is an island of the Andaman Islands, located in Ritchie's Archipelago. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is located 36 km (22 mi) northeast from Port Blair. Neil, with its very relaxed vibe and long, deserted beaches is a place to chill out after the \"bustle\" of Havelock Island . Neil is quite small compared to Havelock. Its widest part is about 5 km in length. You can walk the whole island in about an hour or two. Neil Island, now known officially as Shaheed Dweep (Island of Martyrs), is in the Andaman Islands . Bharatpur Beach Laxmanpur Beach Natural Bridge"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-port-blair",
+      "name": "Port Blair",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.66667,
+        "lon": 92.75,
+        "source": "wikidata"
+      },
+      "description": "**Port Blair** (officially **Sri Vijaya Puram**) is the capital and largest city of the Andaman and Nicobar Islands group, with a population of around 100,000.",
+      "category": "City",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Port_Blair",
+        "wikipedia": "https://en.wikipedia.org/wiki/Port_Blair",
+        "wikidata": "https://www.wikidata.org/wiki/Q200716"
+      },
+      "distance_km": 1653,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "**Port Blair / Sri Vijaya Puram** is the archipelago’s civil aviation and ferry hub: Veer Savarkar International Airport (IXZ) handles roughly hourly daytime arrivals under civilian schedules until mid-afternoon curfew when Indian Air Force exercises resume—plan buffers if interconnecting to boats the same day. Published non-stop routes typically include Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, Mumbai and Visakhapatnam (Air India Group, IndiGo, SpiceJet and occasional charter carriers—verify current rotations online). Phoenix Bay and Haddo jetties ticket DSS ferries to Swaraj/Neil while Aberdeen Bazaar anchors urban buses and taxis. Overnight passenger ships still sail periodically from Chennai/Kolkata/Visakhapatnam (~60–70 hours, berth classes vary—Indian Railways does not serve town because tracks stop at mainland coast).",
+        "keywords": ["IXZ hub", "afternoon flight curfew", "phoenix bay ferry", "cellular jail gateway", "ship from chennai kolkata"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Sri Vijaya Puram",
+        "Port Blair"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PortBlair_SeasideRoad.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport",
+          "code": "IXZ",
+          "distance_km": 2
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null
+        },
+        "road_access_quality": null,
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru",
+          "Mumbai"
+        ],
+        "access_note": "Main gateway to the Andaman & Nicobar Islands; inter-island ferries and catamarans from Phoenix Bay / Haddo jetties.",
+        "reachable_by": [
+          "car",
+          "bus",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": true,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 121858,
+        "content_richness_score": 0.87
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Port Blair is an upcoming city not very different from many other smaller Indian cities. It doesn't share the beauty of the rest of the Andamans, although the seaside has been tarted up a bit. It comprises people from all over India and one can imagine it as a mini-India with no conflicts on region and religion. Aside from Cellular Jail, there are quite a few places which include Ross Island, Barren Island (known for the only active volcano) and a few others known for their historical importance. A week's trip can cover the must-see places on the islands. You can, however, do day trips to other places close by like Wandoor and Ross Island.\r\n\nOn 13th September 2024, the Indian government officially re-named the city to **Sri Vijaya Puram** in an attempt to have a clean break from their colonial past.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane 1 ** Veer Savarkar International Airport ** ( **IXZ **  IATA ) ( 2 km (1.2 mi) from city centre ). As of 2025, Port Blair has only flights from elsewhere in India. A new modern terminal opened in 2024. There are no night flights as the airport is handed over to the Indian Air Force after 15:00. Flights to Port Blair are not really \"low-cost\" compared to the same airlines' mainland India flights, but are still cheaper than other ways to get to the islands. Price varies significantly with the date, so if your travel dates aren't fixed, you can save significantly by being flexible. Advance booking at least several days before the trip is recommended.  ( updated Nov 2022 ) \r\n Airlines ** Air India ** flies from Chennai , Delhi , Kolkata and Visakhapatnam . They charge a much higher rate for foreigners than Indian residents. \r\n ** IndiGo ** flies from Chennai, Delhi, Hyderabad and Kolkata. \r\n ** SpiceJet [dead link] ** offers flights direct from Chennai and Kolkata. \r\n Ground transport Taxis and autorickshaws wait outside the terminal at flight times. Public buses can be flagged down on the main road just outside the airport (cross the road). A bus to Aberdeen Bazaar will cost no more than ₹7. The terminal is small and reasonably modern, with an air-conditioned departure hall, but aside from an overpriced kiosk selling chai and crisps, there's not much to tide you over if your flight is delayed.\r\n\n\r\n By helicopter Helicopters used to run from inter-island helicopter service 1 km from the airport terminal. There are scheduled services to Havelock, Neil, Carnicobar, Hutbay, Campbellbay and other islands. Pawan Hans Helicopter Ltd is operating its fleet of 03 Dauphin Helicopters from Port Blair under the Andaman and Nicobar Islands Administration. But you have to book a ticket in advance for a comfortable journey to the other islands. An air service, Mehair, operates an amphibious Cessna Caravan to the outer islands\r\n\n\r\n By bus Buses connect Port Blair with other points on Grand Andaman, including Baratang Island (2½ hr), Rangat (6 hr) and Diglipur (8 hr).\r\n\nTo get \"deluxe\" bus tickets, go to the little arena of shops across the road from the bus station. Ask around, but the man is in the fourth shop on the left on the ground floor.\r\n\nIf you're going further than Rangat the road is somewhat bumpy, so it's recommended not to get a seat number greater than 20 (as this is over or behind the rear axle). Don't get the rear seats as they are a bench - you'd be better off on a public bus.\r\n\n\r\n By boat Regular pax ship services are available to Port Blair from Chennai. There are 3 to 4 sailings every month, The voyage takes about 50 to 60 hrs and the ship normally berths at Port Blair for about 2 to 4 days. There are two jetties in Port Blair. Phoenix Bay Jetty to go to Havelock and other far destinations. Rajiv Gandhi Water Sports Complex to take smaller ferries to Ross Island, North Bay and Viper Island.\r\n\nSchedules and tariffs can be obtained from:\r\n\n\r\n Shipping Corporation of India Ltd., Jawahar Building, Rajaji Salai, Chennai ☏ +91 44 25231401 , ☏ +91 44 25231402 , ☏ +91 44 25231403 , ☏ +91 44 25231404 , ☏ +91 44 25231405 , ☏ +91 44 25231406 , ☏ +91 44 25231407 , ☏ +91 44 25231408 , ☏ +91 44 25231409 , ☏ +91 44 25225835 , ☏ +91 44 25231407 . \r\n Deputy Director of Shipping Services, A&amp;N Administration, 6, Rajaji Salai, Chennai ☏ +91 44 25220841 , ☏ +91 44 25226873 \r\nEstimated fares:\r\nName of Vessel and fare per berth\r\n\n\r\n M.V.Nicobar ₹5,880 \r\n M.V.Nancowry ₹4,860 \r\n M.V.Swarajdweep ₹1,510 to ₹3,870 \r\n M.V.Harshvardhana ₹1,510 to ₹5,880 \r\n M.V.Akbar ₹1,310 to ₹5,880",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Auto fare from the airport to Aberdeen Bazaar in the city centre is ₹30. Auto fare from Aberdeen Bazaar to Rajiv Gandhi Water Sports Complex is ₹10. From Aberdeen Bazaar to Marine jetty (from where you get ships to Havelock Islands, Long island, etc.) is also ₹10 (as on March 2010). Tourists can expect to be charged a higher price. The auto-rickshaws will overcharge you if they can see you don't know where you are going or what you are doing. One way of avoiding being fleeced by them is to just climb in the back of the auto-rickshaws and say \"Aberdeen Bazaar\" for example. \r\n **Boats** are available to destinations like Ross Island . The boat fare is ₹75 for a return journey. It takes approximately 15 minutes by ferry from Rajiv Gandhi Water Sports Complex jetty. \r\n **Local buses** are also available for inter-city and intra-city travel. Very cheap, but you'll need to ask around to figure out the routes. \r\n **Private hire cars** are available for local sightseeing around Port Blair and South Andaman. \r\n **Motorcycles** have been available for hire from a few shops around MA Rd. However, it seems they are no longer available for rent in Port Blair. Police have seized a lot of 2-wheelers for speeding and driving without a licence, so people have stopped renting them. You can rent scooters (light motorcycles) and motorcycles on MG road about 2 km up the hill to the west from Aberdeen Bazaar but they are ₹400 for one day which does not include an overnight as of Jan 2011. Expect to get lost. \r\n **Walking** is a good option. But expect to get lost if you go too far and it is mostly quite steep hills that all look alike, so remember some landmarks.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Anthropological Museum",
+              "description": "Interesting anthropological museum which gives the history of the various A&amp;N tribes.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Cellular Jail",
+              "description": "Built by the British to house political prisoners far away from the mainland. All prisoners were kept in isolation cells and subjected to a brutal work regime, with regular whippings and executions. Briefly taken over by the Japanese during WW2, who added torture to the palette. Today, however, the jail has been transformed into an immaculately kept national monument complete with a garden that seems very much at odds with the earlier horrors. You can watch it from morning 09:30 to 16:00 A light-and-sound show in Hindi (17:00) and English (18:00) available in the evenings.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": "₹20"
+            },
+            {
+              "order": 3,
+              "name": "Central Agricultural Research Institute (CARI)",
+              "description": "CARI scientists are conducting research on different aspects of island agriculture. Landscaping of CARI is beautiful and it is worth seeing. Here you can see farms of different livestocks and poultry viz. Cattle, pig, goat, rabbit, turkey, quail, Guinea fowl, duck, fisheries ponds, integrated farming system model, etc., and fodder blocks as well.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Chatam Saw Mill",
+              "description": "A saw mill, oldest in Asia. Also the Chatam jetty is where ships from Chennai/Kolkata loaded with goods enter Port Blair. From the jetty passenger jetty is available for Bamboo flat and Dundus Point.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Corbyn's Cove",
+              "description": "An OK beach, and the closest to Port Blair. Popular with locals for swimming and watching the sunset. However, part of the beach was washed away by the 2004 tsunami and currents can be very strong, so be careful if you decide to swim.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Japanese Bunkers",
+              "description": "Bunkers built by the Japanese army during World War II. There's one more right down the hill from Cellular Jail.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Mini Zoo",
+              "description": "A medium sized zoo containing some species only found on the islands. Has now moved to Chidiya Tapu.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Anthropological Museum**. closed Thursdays and Public Holidays . Interesting anthropological museum which gives the history of the various A&amp;N tribes.   \r\n **Cellular Jail**. closed on Mondays . Built by the British to house political prisoners far away from the mainland. All prisoners were kept in isolation cells and subjected to a brutal work regime, with regular whippings and executions. Briefly taken over by the Japanese during WW2, who added torture to the palette. Today, however, the jail has been transformed into an immaculately kept national monument complete with a garden that seems very much at odds with the earlier horrors. You can watch it from morning 09:30 to 16:00 A light-and-sound show in Hindi (17:00) and English (18:00) available in the evenings. ₹20 .   \r\n **Central Agricultural Research Institute (CARI)** ( about 4 km away from the airport ). CARI scientists are conducting research on different aspects of island agriculture. Landscaping of CARI is beautiful and it is worth seeing. Here you can see farms of different livestocks and poultry viz. Cattle, pig, goat, rabbit, turkey, quail, Guinea fowl, duck, fisheries ponds, integrated farming system model, etc., and fodder blocks as well.   \r\n **Chatam Saw Mill**, Chatam ( 15 mins by bus from STS bus terminal, private buses available ₹6 per person ). A saw mill, oldest in Asia. Also the Chatam jetty is where ships from Chennai/Kolkata loaded with goods enter Port Blair. From the jetty passenger jetty is available for Bamboo flat and Dundus Point.   \r\n **Corbyn's Cove** ( beach ). An OK beach, and the closest to Port Blair. Popular with locals for swimming and watching the sunset. However, part of the beach was washed away by the 2004 tsunami and currents can be very strong, so be careful if you decide to swim.   \r\n **Japanese Bunkers**, near Corbyn's Cove . Bunkers built by the Japanese army during World War II. There's one more right down the hill from Cellular Jail.   \r\n **Mini Zoo**. A medium sized zoo containing some species only found on the islands. Has now moved to Chidiya Tapu.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Co exactly opposite to the third gate of Aberdeen Bazar.\r\nThe unit here makes polyurethane products for mining sector. The products include Self Cleaning Filters &amp; PolyurethaneScreens\r\n\n\r\n **Boat tours from Port Blair** You would be lured by agents to do a 3 island packaged tour (Ross + North Bay + Viper) in Port Blair for ₹400. The trip starts at 09:00 and ends at 17:00. Complimentary lunch and breakfast is provided by the tour operator. Please don’t fall into that trap. Since, Viper Island has now become a landfill for all the refuse and complete waste of time and money. It is much better to do a 2 island tour, which are North Bay + Ross Island for ₹225 . Tour for North Bay + Ross island starts at 10:00 from Rajiv Gandhi Water Sports complex. Agents also try to sell single tour of Viper Island by the name of ‘Harbour Cruise’ for ₹90. That tour starts at 15:00. and ends at 17:00. \r\nYou can get information about boat tours from A&amp;N tourism, but not book the tour there. Instead, go to the aquarium jetty 1/2 hour before departure and you can buy the tickets from one of the four booths by the entrance.\r\n\nYou can also pay the local fishermen to take you on day trips to mangrove creeks (Bridget Creek is nice) or places like Mt Harriet National Park (where you can beach your boat and go birdwatching). Don't pay more than ₹2,000/day for the boat, and you can often bargain it down to much less. Check with the Forest Dept in advance as many destinations require certain permissions.\r\n\n\r\n **Snorkeling at Jolly Buoy**. To reach here, first you have to reach Mahatma Gandhi Marine National Park at Wandoor. Wandoor is around 30 km from Port Blair. There is only one ferry which takes you from Wandoor to Jolly Buoy and leaves at around 09:00. In peak season (December – January), book in advance is advisable. Tickets cost around ₹50 per head. The cost for snorkelling is ₹550 per person. There are no facilities to buy food or drink, and so whilst bringing these with you is recommended plastic bags are banned.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Katubomman",
+              "description": "Vegetarian South Indian food.",
+              "location": null
+            },
+            {
+              "name": "Annaporna Cafeteria",
+              "description": "Pure vegetarian restaurant, offering South and North Indian food. Costly. One of the few places that accept credit cards.",
+              "location": null
+            },
+            {
+              "name": "Vegan Creek Pure Veg Restaurant",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Coconut water (_daap_ or _naaryal pani_) is available everywhere for ₹30-45 (Sep 2023). One green coconut costs ₹30 in front of Cellular jail and they charge ₹40 at North bay island (Sep 2023)."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Aashiaanaa Residency Inn",
+              "description": "",
+              "price": "Non air-con room ₹300-650, and air-con room ₹800-1000."
+            },
+            {
+              "name": "Central Lodge",
+              "description": "Very basic but some rooms have nice character, and some are dank, so look at a couple if possible. Popular with budget backpackers and those that haven't left India since they came in 1964.",
+              "price": "₹80-120"
+            },
+            {
+              "name": "Hornbill Nest Resort",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "credibility_recognitions": [
+        "asi_monument",
+        "national_park"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:51.713Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Port Blair, officially named Sri Vijaya Puram, is the capital city of the Indian union territory of Andaman and Nicobar Islands. It is located on the South Andaman Island situated between the Bay of Bengal to the west and the Andaman Sea to the east. It is located approximately 1,190 km (740 mi) from Chennai and 1,255 km (780 mi) from Kolkata in mainland India. It is the headquarters of the South Andaman district, and the union territory's only notified town.",
+        "wikipedia_description": "Capital city of the Andaman and Nicobar Islands, India",
+        "wikipedia_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/View_from_South_Point%2C_%28Port_Blair%2C_India%29.jpg/330px-View_from_South_Point%2C_%28Port_Blair%2C_India%29.jpg",
+        "wikipedia_fetched_at": "2026-05-18T09:10:51.763Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.480Z"
+      },
+      "search_context": "Heritage / Culture City / Urban City Port Blair Sri Vijaya Puram Port Blair Sightseeing Port Blair, officially named Sri Vijaya Puram, is the capital city of the Indian union territory of Andaman and Nicobar Islands. It is located on the South Andaman Island situated between the Bay of Bengal to the west and the Andaman Sea to the east. It is located approximately 1,190 km (740 mi) from Chennai and 1,255 km (780 mi) from Kolkata in mainland India. It is the headquarters of the South Andaman district, and the union territory's only notified town. Port Blair is an upcoming city not very different from many other smaller Indian cities. It doesn't share the beauty of the rest of the Andamans, although the seaside has been tarted up a bit. It comprises people from all over India and one can imagine it as a mini-India with no conflicts on region and religion. Aside from Cellular Jail, there are quite a few places which include Ross Island, Barren Island (known for the only active volcano) and Port Blair (officially Sri Vijaya Puram) is the capital and largest city of the Andaman and Nicobar Islands group, with a population of around 100,000. Cellular Jail Corbyn's Cove Anthropological Museum Ferry hub to Havelock & Neil",
+      "highlights": [
+        "Cellular Jail",
+        "Corbyn's Cove",
+        "Anthropological Museum",
+        "Ferry hub to Havelock & Neil"
+      ]
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-rangat",
+      "name": "Rangat",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 12.50306,
+        "lon": 92.91333,
+        "source": "wikidata"
+      },
+      "description": "**Rangat** is in North and Middle Andaman , a thoroughly uninteresting dustbowl from which the ferry leaves for Havelock. The only beach nearby was unfortunately washed away by the tsunami and all that remains is stones. Apart from that the only thing to keep you here is the transport connections.",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Rangat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rangat",
+        "wikidata": "https://www.wikidata.org/wiki/Q4389855"
+      },
+      "distance_km": 1662,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "Rangat is Middle Andaman’s transit knot—daily buses roll up from Port Blair (~210 km) and interconnect northern Diglipur (~70 km) hops while DSS ferries stitch onward legs toward Long Island or eastbound sailings that sometimes tag Neil/Havelock depending on seasonal roster changes announced at Phoenix Bay ticket counters. Budget travellers use it as a sleep-stop before turtle nesting walks at Cuthbert Bay (Dec–Feb) or Panchavati waterfall picnics; upscale lodging is thin so temper expectations. Reach Andaman via Port Blair IXZ on airline-listed metros (Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad, Visakhapatnam—confirm seat inventory early); road legs hug humid rainforest coastlines—night driving discouraged.",
+        "keywords": ["middle andaman bus hub", "rangat jetty ferry", "cuthbert bay turtles", "diglipur staging town", "DSS connectivity"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 14903,
+        "content_richness_score": 0.106
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By bus There is a bus service (210 km) from Port Blair via Baratang .\r\n\n\r\n By ferry A ferry runs Rangat to Long Island to Havelock to Neil to Port Blair daily except Saturday. The jetty is quite a way from town so take an autorickshaw (₹50)\r\n\n\r\n 1 **Rangat Jetty**.  ( updated Mar 2021 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Panchavati water fall and beach Amkunj beach Betapur beach Cutbert Bay Beach (20 km.) away from Rangat bazaar/jetty is a turtle nesting ground (December to February). \r\n\nGovernment owned Guest house Hawksbill Nest is near to the Cutbert bay beach and Turtle sanctuary",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Aroma Restaurant",
+              "description": "Fresh food with different varieties of Bengali, Indian and Chinese foods.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There are a couple of bars near the UK Nest guesthouse."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "U.K. Nest",
+              "description": "Slightly grubby rooms with tiny en-suite bathrooms &amp; cable TV. Room service available. Good if you're stuck for a night in Rangat.",
+              "price": "₹350"
+            },
+            {
+              "name": "Hawksbill Nest",
+              "description": "On a beach north of town where Hawksbill turtles nest in season. To book contact A&amp;N Tourism",
+              "price": "Dorm ₹150 p/p; double ₹600, a\\c double ₹1000."
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:51.966Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Rangat is a town on the Middle Andaman Island, Andaman Archipelago. It is also one of the three counties (tehsils) administrative divisions of the North and Middle Andaman district, in the Andaman and Nicobar Islands union territory of India. Its population, according to the 2001 Census of India, was 38,824 people, mainly of Bengalis and Tamils.",
+        "wikipedia_description": "Village in Andaman and Nicobar Islands, India",
+        "wikipedia_thumbnail": null,
+        "wikipedia_fetched_at": "2026-05-18T09:10:52.255Z",
+        "deep_enriched_at": "2026-05-18T09:52:06.480Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal City / Urban Nature & Wildlife Areas Rangat Sightseeing Rangat is a town on the Middle Andaman Island, Andaman Archipelago. It is also one of the three counties (tehsils) administrative divisions of the North and Middle Andaman district, in the Andaman and Nicobar Islands union territory of India. Its population, according to the 2001 Census of India, was 38,824 people, mainly of Bengalis and Tamils. Rangat is in North and Middle Andaman , a thoroughly uninteresting dustbowl from which the ferry leaves for Havelock. The only beach nearby was unfortunately washed away by the tsunami and all that remains is stones. Apart from that the only thing to keep you here is the transport connections. Panchavati waterfall Amkunj Beach Cuthbert Bay turtle nesting (Dec–Feb)",
+      "highlights": [
+        "Panchavati waterfall",
+        "Amkunj Beach",
+        "Cuthbert Bay turtle nesting (Dec–Feb)"
+      ]
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-ross-island",
+      "name": "Ross Island",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.6755,
+        "lon": 92.7626,
+        "source": "wikidata"
+      },
+      "description": "**Ross Island** (officially **Netaji Subhash Chandra Bose Island**) is a small island near Port Blair with British colonial ruins, peacocks, and a popular light-and-sound show. Day trips by ferry from the Water Sports Complex.",
+      "category": "Beaches",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ross_Island_(India)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Netaji_Subhash_Chandra_Bose_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q3521265"
+      },
+      "distance_km": 1654,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 1,
+      "weather_snippet": "Oct–May",
+      "vibe": "Beach",
+      "travel_facts": {
+        "summary": "Netaji Subhash Chandra Bose Island (formerly Ross) sits inside Port Blair’s harbour and showcases moss-covered British-era bakery, church and commissioner ruins reclaimed by rain-forest—deer and peafowl roam freely. Tickets bundle ferries from Aberdeen/Rajiv Gandhi Water Sports Complex (~15 minutes each way) with optional bundled North Bay combos; last boats depart before dusk and ASI cameras monitor fragile masonry. Evening bilingual light-and-sound shows recap Cellular Jail history—reserve seats dry-season weekends. Because it shares Port Blair’s logistics, mainland visitors align domestic flights or ships identical to capital gateway routes (IXZ connections across major Indian cities; afternoon civilian flight ban applies).",
+        "keywords": ["port blair harbour island", "british ruins andaman", "light and sound show", "half day ferry", "heritage walkway"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.75,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Netaji Subhash Chandra Bose Island"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ross%20Island%2C%20Andamans%2C%20Penal%20Colony%20harbor.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "24–32",
+          "winter": "22–30"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "beach",
+          "water_sports",
+          "relaxation"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 5223,
+        "content_richness_score": 0.037
+      },
+      "section_briefs": {
+        "get_in": {
+          "brief": "Ferry from Rajiv Gandhi Water Sports Complex, Port Blair (~15 min). Combined Ross + North Bay boat tours are common.",
+          "source": "wikivoyage_parent"
+        },
+        "see": {
+          "brief": "British-era church, bakery, and administrative buildings overgrown by banyan trees; deer and peacocks roam freely. Evening light-and-sound show on the Cellular Jail history.",
+          "source": "wikivoyage_parent"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Heritage / Culture",
+        "Wildlife / Nature",
+        "Beach / Coastal"
+      ],
+      "highlights": [
+        "British colonial ruins",
+        "Peacocks",
+        "Light & sound show"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:52.469Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Ross Island, officially named Netaji Subhash Chandra Bose Island, is an island of the Andaman Islands. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is situated 3 km (2 mi) east from central Port Blair.",
+        "wikipedia_fetched_at": "2026-05-18T09:11:43.144Z",
+        "wikipedia_source": "manual_title_override",
+        "deep_enriched_at": "2026-05-18T09:52:06.481Z"
+      },
+      "search_context": "Heritage / Culture Wildlife / Nature Beach / Coastal Beaches Ross Island Netaji Subhash Chandra Bose Island Beach Ross Island, officially named Netaji Subhash Chandra Bose Island, is an island of the Andaman Islands. It belongs to the South Andaman administrative district, part of the Indian union territory of Andaman and Nicobar Islands. The island is situated 3 km (2 mi) east from central Port Blair. Ross Island (officially Netaji Subhash Chandra Bose Island) is a small island near Port Blair with British colonial ruins, peacocks, and a popular light-and-sound show. Day trips by ferry from the Water Sports Complex. British colonial ruins Peacocks Light & sound show"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-smith-and-ross-islands",
+      "name": "Smith and Ross Islands",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": null,
+      "description": "**Smith and Ross Islands** are in the Andaman Islands of India .",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Smith_and_Ross_Islands",
+        "wikipedia": "https://en.wikipedia.org/wiki/Smith_Island_(Andaman_Islands)",
+        "wikidata": "https://www.wikidata.org/wiki/Q14234160"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "The paired Ross & Smith sandbar formation lies off Diglipur’s Aerial Bay inside Mahatma Gandhi Marine reserve zoning—visitors typically arrange forest-approved boats from Diglipur/Kalipur landing points after obtaining same-day permits from counters near the jetty (carry photo ID and cash). Mid-tide exposes the tombolo linking both islets—ideal for drone-free swimming windows November–April when swell stays moderate. Night stays on the sandbar are normally banned; treat as full-day add-on while basing in Diglipur. Logistics chain: mainland flight to Port Blair IXZ → overnight bus or multi-hop ferry north → local boats; cyclonic headlines may scrub sailings with little notice.",
+        "keywords": ["ross smith sandbar", "aerial bay boat permit", "diglipur day trip", "marine reserve tombolo", "north andaman beaches"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9500000000000001,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andaman_ross_is.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "island_ferry_or_road",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 12442,
+        "content_richness_score": 0.089
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "It is questionable whether it's legal to visit these islands, although it has been in the past, and day trips were easily arranged from Diglipur .",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Diglipur is the entry point for these islands.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Ruins on Ross Island \r\n There is a lighthouse on Ross Island that was commissioned in 1973. It sits on the slope of Bopung Hill at an altitude of 40 metres (130 feet). \r\n Smith Island is home to the Olive Ridley turtles. If you are there at the right time, you can see the turtles nesting.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Heritage / Culture",
+        "Wildlife / Nature",
+        "City / Urban"
+      ],
+      "highlights": [
+        "Ross & Smith twin sandbar",
+        "Ross Island lighthouse",
+        "Olive Ridley turtle nesting"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:52.963Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Smith and Ross Islands are a pair of islands off Diglipur in North Andaman, connected by a seasonal sandbar. Ross Island (North Andaman) has a lighthouse; Smith Island is known for Olive Ridley turtle nesting. Access is typically arranged from Diglipur and may require forest permits.",
+        "wikipedia_fetched_at": "2026-05-18T09:11:43.145Z",
+        "wikipedia_source": "manual_composite",
+        "deep_enriched_at": "2026-05-18T09:52:06.481Z"
+      },
+      "search_context": "Heritage / Culture Wildlife / Nature City / Urban Nature & Wildlife Areas Smith and Ross Islands Sightseeing Smith and Ross Islands are a pair of islands off Diglipur in North Andaman, connected by a seasonal sandbar. Ross Island (North Andaman) has a lighthouse; Smith Island is known for Olive Ridley turtle nesting. Access is typically arranged from Diglipur and may require forest permits. It is questionable whether it's legal to visit these islands, although it has been in the past, and day trips were easily arranged from Diglipur . Smith and Ross Islands are in the Andaman Islands of India . Ross & Smith twin sandbar Ross Island lighthouse Olive Ridley turtle nesting"
+    },
+    {
+      "slug": "andaman-and-nicobar-islands-wandoor",
+      "name": "Wandoor",
+      "region": "",
+      "state": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.58867,
+        "lon": 92.61529,
+        "source": "wikidata"
+      },
+      "description": "_Not to be confused with Wandoor, a town in Malappuram District of Kerala ._ \r\n \r\n \r\n**Wandoor** is a small village near the southern tip of South Andaman . It has some beaches and a couple of accommodation options and is a nice place to relax, but it is more known as the gateway to the Mahatma Gandhi Marine National Park . From Mahatma Gandhi Marine National Park you will get boats to Jolly Buoy (Boat charges ₹450/- per person both ways, ₹50 for a forest permit to Jolly Buoy and ₹25/- for the camera).",
+      "category": "Nature & Wildlife Areas",
+      "best_time_to_visit": {
+        "text": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "dry_winter_spring"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Wandoor",
+        "wikipedia": null,
+        "wikidata": "https://www.wikidata.org/wiki/Q55265695"
+      },
+      "distance_km": 1639,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct–May",
+      "vibe": "Sightseeing",
+      "travel_facts": {
+        "summary": "**Wandoor (South Andaman)** is the embarkation beachhead for Mahatma Gandhi Marine National Park boats—expect Forest Department counters to bundle camera fees, plastic bans and fixed morning sailing batches (~30 km southwest of central Port Blair via NH4 spur; public buses every 30–45 minutes daytime or prepaid taxis). Lodging is modest guesthouses oriented to snorkellers prepping Jolly Buoy/Red Skin rotations; combine with Chiriya Tapu birding sunsets if staying overnight. Same mainland gateway rules as Port Blair (IXZ jet links plus Chennai/Kolkata passenger ships); trains never reach the coastline.",
+        "keywords": ["marine park jetty", "jolly buoy embarkation", "south andaman buses", "wandoor guesthouses", "plastic free boating rules"]
+      },
+      "metadata": {
+        "extracted_at": "2026-05-12T10:23:33.692Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Wandur"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Wandoor_beach_from_Mahatma_Gandhi_Marine_National_Park.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20lazy%20Harbour.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3
+        ],
+        "off_season_months": [],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Veer Savarkar International Airport (Port Blair)",
+          "code": "IXZ",
+          "distance_km": null,
+          "note": "Reach via flight to Port Blair (IXZ), then ferry or road as applicable"
+        },
+        "nearest_railway_station": {
+          "name": null,
+          "distance_km": null,
+          "note": "No rail network on the islands"
+        },
+        "road_access_quality": "average",
+        "direct_train_available_from_major_cities": [],
+        "direct_flight_available_from_major_cities": [
+          "Chennai",
+          "Delhi",
+          "Kolkata",
+          "Hyderabad",
+          "Visakhapatnam",
+          "Bengaluru"
+        ],
+        "ferry_hub": "Port Blair",
+        "reachable_by": [
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": true
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17213,
+        "content_richness_score": 0.123
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "At **Jolly Buoy** you will get to see corals (red, blue, sponge corals etc). Also, you will be able to see life within these corals (particularly zebrafish). There is another island called **Red Skin Island**. Both Jolly Buoy and Red Skin remain open for tourists for 6 months alternately. Tourists Wandoor + Jolly Buoy/Red Skin is a day trip. A night stay is not required. Boats from Jolly Buoy would return by 3PM and then you can watch the sunset at Wandoor beach and return to Port Blair by bus.\r\n\nCorals at Jolly Buoy are simply mesmerizing. You are requested not to litter, or throw bottles, paper or food at Jolly Buoy. Please try to keep the island clean. Coral grows at the rate of 1 inch every 10 years. So please try to keep the island clean.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "**Buses** are available from the Port Blair STS bus terminal to Wandoor village. There is no bus number, but the bus will have a board saying Wandoor. They take around 1.5 hours to reach. Buses are more or less comfortable since there is hardly any passenger in the bus. Tickets can be purchased in the bus itself (₹12 per head per trip). Wandoor beach is around 5 minute walk from Wandoor village. All buses are forced to go up to the beach for their return journey, as narrow roads in village are not wide enough to allow buses turn back. Tourists planning to go to beach directly can continue in the buses till beach (for no extra cost). Just for a landmark, from the Mahatma Gandhi Marine National Park as you walk towards Wandoor beach you will get a public toilet on your left. At Wandoor beach there is a government primary school (established 1969, New Wandoor, South Andaman). \r\n \r\n **Scooters &amp; motorcycles** not available in Wandoor (March 2010).",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Mahatma Gandhi Marine National Park — a national park of India in Wandoor on the Andaman Islands",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Snorkeling** is possible at some good sites near Wandoor. (Jolly Bouy/Red Skin Island) \r\n People who do not wish to swim can hire glass-bottomed boats to view the coral-reefs. Boats are available only up to noon (unless in peak tourist periods).",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "There is a tap near the village, carry bottled water if possible. There is a lot of coconut water around to sustain."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "PWD Rest House Government Lodge",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "_indiaRegion": "South",
+      "categories": [
+        "Wildlife / Nature",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "highlights": [
+        "Mahatma Gandhi Marine National Park gateway",
+        "Jolly Buoy Island boats",
+        "Red Skin Island (alternate season)"
+      ],
+      "enrichment": {
+        "auto_categorized_at": "2026-05-18T09:10:54.564Z",
+        "source_region": "Andaman and Nicobar Islands batch enrich",
+        "wikipedia_summary": "Wandoor is a village at the southern tip of South Andaman and the main gateway to Mahatma Gandhi Marine National Park. Boats depart for Jolly Buoy and Red Skin islands (open on alternating six-month schedules) for snorkelling and coral viewing.",
+        "wikipedia_fetched_at": "2026-05-18T09:11:43.145Z",
+        "wikipedia_source": "manual_from_wikivoyage",
+        "deep_enriched_at": "2026-05-18T09:52:06.481Z"
+      },
+      "search_context": "Wildlife / Nature Beach / Coastal City / Urban Nature & Wildlife Areas Wandoor Wandur Sightseeing Wandoor is a village at the southern tip of South Andaman and the main gateway to Mahatma Gandhi Marine National Park. Boats depart for Jolly Buoy and Red Skin islands (open on alternating six-month schedules) for snorkelling and coral viewing. At Jolly Buoy you will get to see corals (red, blue, sponge corals etc). Also, you will be able to see life within these corals (particularly zebrafish). There is another island called Red Skin Island. Both Jolly Buoy and Red Skin remain open for tourists for 6 months alternately. Tourists Wandoor + Jolly Buoy/Red Skin is a day trip. A night stay is not required. Boats from Jolly Buoy would return by 3PM and then you can watch the sunset at Wando _Not to be confused with Wandoor, a town in Malappuram District of Kerala ._ Wandoor is a small village near the southern tip of South Andaman . It has some beaches and a couple of accommodation options and is a nice place to relax, but it is more known as the gateway to the Mahatma Gandhi Marine National Park . From M Mahatma Gandhi Marine National Park gateway Jolly Buoy Island boats Red Skin Island (alternate season)",
+      "credibility_recognitions": [
+        "national_park"
+      ]
+    }
+  ],
+  "state_enrichment": {
+    "union_territory": true,
+    "region": "South",
+    "gateway_city": "Port Blair",
+    "gateway_airport_iata": "IXZ",
+    "best_time_to_visit": "Oct–May (clear seas; avoid monsoon Jun–Sep)",
+    "peak_months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "monsoon_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "permits_note": "Indian nationals: RAP generally not required for main tourist islands. Restricted/tribal areas and some islets need forest permits.",
+    "enriched_at": "2026-05-18T09:10:46.052Z"
+  }
+}

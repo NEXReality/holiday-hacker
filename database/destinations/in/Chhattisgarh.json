@@ -1,0 +1,2780 @@
+{
+  "state": "Chhattisgarh",
+  "state_code": "CH",
+  "generated_at": "2026-05-18T10:30:59.820Z",
+  "count": 10,
+  "destinations": [
+    {
+      "slug": "chhattisgarh-bhilai",
+      "name": "Bhilai",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 21.21,
+        "lon": 81.38,
+        "source": "wikidata"
+      },
+      "description": "**Bhilai** is a major city in the Indian state of Chhattisgarh . It is also referred as Steel City because of steel plant by Steel Authority of India Ltd (SAIL).",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bhilai",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bhilai",
+        "wikidata": "https://www.wikidata.org/wiki/Q242144"
+      },
+      "distance_km": 1000,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Bhilainagar",
+        "Bhilai Nagar",
+        "Durg-Bhilai Nagar",
+        "Bhilai Nagar (ort i Indien)",
+        "Bhiláinagar"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20WDM%203A%20loco%20(14090)%20of%20Visakhapatnam%20shed%20with%20a%20passenger%20train%20at%20Bhilai.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport (Raipur)",
+          "code": "RPR",
+          "distance_km": 47,
+          "note": "NH shuttle into Durg–Bhilai twin-city belt—steel-plant shift traffic clogs peak hours"
+        },
+        "nearest_railway_station": {
+          "name": "Bhilai Nagar railway station",
+          "distance_km": 4,
+          "note": "Mumbai–Howrah trunk berths often pause at adjacent Durg Junction—verify coach boards"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Mumbai",
+          "Kolkata",
+          "Delhi",
+          "Raipur"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 30509,
+        "content_richness_score": 0.218
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Bhilai railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Bhilai_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Bhilai railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Bhilai_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Bhilai Power House railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Bhilai_Power_House_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Bhilai Nagar railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Bhilai_Nagar_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By train All of the trains passing between Mumbai and Howrah have a major stop at Durg Junction which is just adjacent to Bhilai. Amritsar -Delhi trains that go through Bilaspur via Nagpur also stop in these stations (primarily Durg and sometimes Bhilai Nagar).\r\n\n\r\n 1 **Bhilai railway station** .  ( updated Aug 2021 ) \r\n 2 **Bhilai Power House railway station** .  ( updated Nov 2021 ) \r\n 3 **Bhilai Nagar railway station** .  ( updated Nov 2021 ) \r\n By plane Swami Vivekananda Airport, formerly known as Mana (Raipur) Airport, is 47 km from Bhilai.\r\n\nTake a cab from there to the city via Raipur or to the nearest railway station.\r\n\n\r\n By bus Connected by a decent Bus services to Nagpur And Bilaspur.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Central avenue have Tempo and 6 seaters (Kind of public transport maximum fare is ₹8).\r\nYou can also travel around in Autos.\r\n\n**Civic Centre:** Most happening place in Bhilai. You can eat, have Ice Cream, and Hangout with friends. Good restaurants are Hari Raj and Veggie India. Krazy Kool is also good for Ice Cream, pizzas, etc.\r\n\n**Sector 6 market:** Biggest Shopping center in Bhilai.\r\n\n**Bhilai Steel Plant:** Prestigious Steel plant of SAIL\r\n\n**Maitri Garden:** Zoo and recreation center.\r\n\n**Shivnath Nadi:** Coolest place to Picnic and hangout _(best bargain: fresh fish from locals artisans)_",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Maitri Bagh Zoo",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Maitri_Bagh",
+              "coordinates": {
+                "lat": 21.16971,
+                "lon": 81.35381
+              },
+              "price": null
+            }
+          ],
+          "brief": "**Jawaharlal Nehru Multipurpose Hall** (Civic center) displays local art. \r\n **Jayanti Stadium** (Government funded Stadium) \r\n **Musical Fountain** (Maitri Garden) \r\n 1 **Maitri Bagh Zoo** .  ( updated Nov 2021 )",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Annaras",
+              "description": "Famous for fresh juice of variety of seasonal fruites, specially juice of sugar cane",
+              "location": null
+            },
+            {
+              "name": "doodh ka coffee",
+              "description": "Famous coffee shop for youngsters",
+              "location": null
+            },
+            {
+              "name": "Maa Lakshmi",
+              "description": "Famous for Chop and Mughlai food",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Rockford** Open air restaurant to chill out (Boys only) 50m from Nehrunagar Rail signal.\r\n**Delhi Durbar** Supela Akash Ganga for family entertainment.\r\n**Hotel Grand Dhillon** Luxury bar having indoor bar at 5th floor and a rooftop bar."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:04.531Z",
+        "wikipedia_summary": "Bhilai is a city in Durg district of the Indian state of Chhattisgarh, in eastern central India. Along with its twin-city Durg, the urban agglomeration of Durg-Bhilai Nagar has a population of more than a million, making it the second most populous urban area in Chhattisgarh after Raipur. The Bhilai metropolis contains three municipal corporations: Bhilai Municipal Corporation, Bhilai Charoda Municipal Corporation and Risali Municipal Corporation.",
+        "wikipedia_description": "Metropolis in Chhattisgarh",
+        "wikipedia_fetched_at": "2026-05-18T09:53:04.582Z"
+      },
+      "search_context": "Heritage / Culture City / Urban city Bhilai Bhilainagar Bhilai Nagar Durg-Bhilai Nagar Bhilai Nagar (ort i Indien) Bhiláinagar Sightseeing Bhilai is a city in Durg district of the Indian state of Chhattisgarh, in eastern central India. Along with its twin-city Durg, the urban agglomeration of Durg-Bhilai Nagar has a population of more than a million, making it the second most populous urban area in Chhattisgarh after Raipur. The Bhilai metropolis contains three municipal corporations: Bhilai Municipal Corporation, Bhilai Charoda Municipal Corporation and Risali Municipal Corporation. Bhilai is a major city in the Indian state of Chhattisgarh . It is also referred as Steel City because of steel plant by Steel Authority of India Ltd (SAIL).",
+      "travel_facts": {
+        "summary": "**Bhilai** rides **SECR’s Mumbai–Howrah chord** through **Bhilai Nagar/Durg** docks while flyers stage via **Raipur RPR (~47 km)**. SAIL freight pulses sync with passenger expresses—book autos knowing plant-shift surges stall NH feeders.",
+        "keywords": [
+          "RPR steel-city shuttle",
+          "Durg Junction trunk",
+          "Bhilai Nagar locals",
+          "SECR Howrah Mumbai",
+          "plant shift traffic",
+          "Nagpur Bilaspur buses"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-bilaspur-chhattisgarh",
+      "name": "Bilaspur (Chhattisgarh)",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 22.15,
+        "lon": 82.01667,
+        "source": "wikidata"
+      },
+      "description": "**Bilaspur** is the second-largest city in Chhattisgarh , India after the capital, Raipur .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bilaspur_(Chhattisgarh)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bilaspur%2C_Chhattisgarh",
+        "wikidata": "https://www.wikidata.org/wiki/Q860452"
+      },
+      "distance_km": 1123,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Bilaspur",
+        "Bilaspur, Chhattisgarh",
+        "Bilāspur"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bilaspur_Junction_Railway_Station_Building_001.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bilaspur%20Junction%20Railway%20Station%20Building%20001.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport (Raipur)",
+          "code": "RPR",
+          "distance_km": 118,
+          "note": "NH130 splice toward capital—pair with Bilaspur Junction Rajdhani/Vande stacks"
+        },
+        "nearest_railway_station": {
+          "name": "Bilaspur Junction",
+          "distance_km": 3,
+          "note": "SECR flagship yard hosting Nagpur Vande Bharat spokes plus Kolkata–Mumbai mail"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Chennai",
+          "Kolkata",
+          "Nagpur"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 57304,
+        "content_richness_score": 0.409
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train"
+          ],
+          "nearest_station": {
+            "name": "Bilaspur Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Bilaspur_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Bilaspur Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Bilaspur_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By train Bilaspur is well connected with the big four metropolitan cities — Delhi , Mumbai , Chennai and Kolkata — and to other major cities via rail and road.\r\n\n\r\n \r\n 1 **Bilaspur Junction railway station** . Served by several express trains, including a Vande Bharat Express from Nagpur .  ( updated Jun 2023 ) \r\n By plane The nearest airport is Swami Vivekananda Airport at Raipur.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "**Amarkantak** is also near where the River Narmada originates. \r\n The **temples** built in the 10th and 11th centuries by the Kalachuri dynasty. \r\n **Ratanpur** - The old capital of the Chhattisgarh state - Ratanpur, is about 25 km away on Katghora Road. According to the local people, it had an important place in all four Yugas. As per its tourism importance, there is an old fort which is till date in good condition. There is good attractive old sculpture on the stone over the frame of Ganesha gate. On the frame of this gate Idols of River Ganga-Jamuna can be seen. On entrance are glimpses of the Tandav Dance of Lord Shivji and statue of Brahma and Vishnu.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Maosaji",
+              "description": "It serves pretty good sweets and has been around since the 1970s.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:05.147Z",
+        "wikipedia_summary": "Bilaspur is a city located in Bilaspur District in the Indian state of Chhattisgarh. Bilaspur is the administrative headquarters of the Bilaspur District and Bilaspur Division. The Chhattisgarh High Court, located at Bodri, District Bilaspur has privileged it with the title Nyayadhani of the State. This city is the commercial center and business hub of the northeast Chhattisgarh region.",
+        "wikipedia_description": "Metropolis in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:05.437Z"
+      },
+      "search_context": "Heritage / Culture City / Urban city Bilaspur (Chhattisgarh) Bilaspur Bilaspur, Chhattisgarh Bilāspur Sightseeing Bilaspur is a city located in Bilaspur District in the Indian state of Chhattisgarh. Bilaspur is the administrative headquarters of the Bilaspur District and Bilaspur Division. The Chhattisgarh High Court, located at Bodri, District Bilaspur has privileged it with the title Nyayadhani of the State. This city is the commercial center and business hub of the northeast Chhattisgarh region. Bilaspur is the second-largest city in Chhattisgarh , India after the capital, Raipur .",
+      "travel_facts": {
+        "summary": "**Bilaspur** anchors **Bilaspur Junction**—Chhattisgarh’s judicial–commercial knot—before **RPR (~118 km)** highway flights. High-court weeks and coal-field freight tighten pit lanes—bias prepaid cabs when marathon expresses discharge.",
+        "keywords": [
+          "Bilaspur Junction SECR",
+          "RPR NH shuttle",
+          "Vande Nagpur spokes",
+          "high court session peaks",
+          "Amrakantak road forks",
+          "coal belt freight"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-dantewada",
+      "name": "Dantewada",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 18.9,
+        "lon": 81.35,
+        "source": "wikidata"
+      },
+      "description": "**Dantewada** is a town in southern Chhattisgarh , named after the major temple in the area, Danteshwari Temple.",
+      "category": "village",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dantewada",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dantewada",
+        "wikidata": "https://www.wikidata.org/wiki/Q3921198"
+      },
+      "distance_km": 772,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Maa Danteshwari Airport (Jagdalpur)",
+          "code": "JGB",
+          "distance_km": 88,
+          "note": "Thin Bastar rotations—double-check security advisories before NH221 overnight hops"
+        },
+        "nearest_railway_station": {
+          "name": "Dantewara railway station",
+          "distance_km": 3,
+          "note": "Kirandul–Visakhapatnam corridor pulses—road transfers still dominate temple circuits"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Visakhapatnam",
+          "Raipur"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Hyderabad",
+          "Raipur"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "culture",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 19359,
+        "content_richness_score": 0.138
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": {
+            "name": "Dantewara railway station",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Dantewara railway station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "1 **Dantewara railway station** .  ( updated Nov 2021 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Danteshwari Temple",
+              "description": "LIterally meaning \"Teeth Goddess\", according to legend this is where the teeth of the Hindu goddess Sati fell.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Danteshwari_Temple",
+              "coordinates": {
+                "lat": 18.9,
+                "lon": 81.35
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Saath Dhara Waterfalls",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Fulpad Waterfall",
+              "description": "Reaching these falls requires a hefty trek.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 18.5719,
+                "lon": 81.4006
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Barsoor Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Danteshwari Temple** . LIterally meaning \"Teeth Goddess\", according to legend this is where the teeth of the Hindu goddess Sati fell.  ( updated May 2020 ) \r\n **Saath Dhara Waterfalls**.  ( updated May 2020 ) \r\n 2 **Fulpad Waterfall** ( Indul Jharna Waterfalls ). Reaching these falls requires a hefty trek.  ( updated Jan 2021 ) \r\n **Barsoor Temple**.  ( updated Jan 2021 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:05.996Z",
+        "wikipedia_summary": "Dantewada is a town and a municipality, in the state of Chhattisgarh, India. It is the administrative headquarters of Dantewada District, and the fourth largest city of Bastar division. The town is named after the goddess Danteshwari, whose temple is located there.",
+        "wikipedia_description": "Town in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:06.426Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban village Dantewada Sightseeing Dantewada is a town and a municipality, in the state of Chhattisgarh, India. It is the administrative headquarters of Dantewada District, and the fourth largest city of Bastar division. The town is named after the goddess Danteshwari, whose temple is located there. Dantewada is a town in southern Chhattisgarh , named after the major temple in the area, Danteshwari Temple.",
+      "travel_facts": {
+        "summary": "**Dantewada** pairs **Dantewara station** halts with **Jagdalpur JGB (~88 km)** apron relays toward **Danteshwari temple** pilgrimages. Bastar security rotations and monsoon landslides routinely reshape bus timings—avoid dusk convoys.",
+        "keywords": [
+          "Dantewara rail corridor",
+          "JGB Bastar apron",
+          "NH221 convoy timing",
+          "temple pilgrimage peaks",
+          "Kirandul freight pulses",
+          "monsoon slide risk"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-durg",
+      "name": "Durg",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 21.19,
+        "lon": 81.28,
+        "source": "wikidata"
+      },
+      "description": "**Durg** is a major city in the Indian state of Chhattisgarh .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Durg",
+        "wikipedia": "https://en.wikipedia.org/wiki/Durg",
+        "wikidata": "https://www.wikidata.org/wiki/Q956602"
+      },
+      "distance_km": 994,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Drug",
+        "Durg (India)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Durg_railway_station.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patel%20chowk%2C%20durg.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport (Raipur)",
+          "code": "RPR",
+          "distance_km": 54,
+          "note": "Mana apron feeder—Shivnath bridge tailbacks spike festival weekends"
+        },
+        "nearest_railway_station": {
+          "name": "Durg Junction",
+          "distance_km": 3,
+          "note": "Grand Mumbai–Howrah berths—rapid interchange into Bhilai steel-town locals"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Mumbai",
+          "Kolkata",
+          "Delhi",
+          "Nagpur",
+          "Raipur"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 26040,
+        "content_richness_score": 0.186
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Durg sits along the east bank of the Shivnath River on the Chhattisgarh plain with some hills to the south and southwest. It is an agricultural center, with the huge Bhilal steel plant to the east. Historically, it was part of the Kosala kingdom of ancient India. Its name is derived from the Hindi term \"durga\" for fort, and it used to be a fortress from which the Marathas subjugated Chhattisgarh.\r\nThe National Highway No. 6 (Mumbai - Sambalpur - Kolkata) is the major highway of the district and the train route is the main line of the South Eastern Railway midway between Mumbai-Kolkata.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Durg railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Durg_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Durg railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Durg_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By train Trains leave frequently from Raipur. All of the trains passing between Mumbai and Howrah have a major stop at Durg Junction.\r\n\n\r\n 1 **Durg railway station** .  ( updated Nov 2021 ) \r\n By plane Mana (Raipur) Airport is 54 km from Durg.\r\n\n\r\n By bus Connected by decent bus services to Nagpur , Jashpur and Bilaspur .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Balod",
+              "description": "Balod houses Prachin Kila or oldest Palace, Mandir and Sati Chabutra.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Devbaloda",
+              "description": "Famous for its ancient Shiv Mandir.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Kharkhara",
+              "description": "Its major attraction is a Dam which is 1,128 m long and is located on the Kharkhara River.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Maitri Bagh",
+              "description": "It features landscaped garden which is a joint initiative of Indian and Russian government and a Zoo. The highlights of Zoo are exotic animal and avian species, lake, toy trains and others. The musical fountain on the island in the artificial lake is a dynamic spectacle which responds to the music in a way that interprets the style and rhytmm of the musical performance. As the music plays, jets of water shoot in the air, twist, sway, pirouette, pulse, drum and skip with the beat - each movement lit by brilliant colours.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Nagpura",
+              "description": "It is a site to visit exquisite Jain temples and Pasharwanath Tirth.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Taj Mahal",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Tandula",
+              "description": "The prime attraction of this place is a Dam on Tandula River. It is an exciting picnic spot also.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Twin City Durg-Bhilai",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Ganga Maiya Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Balod** ( 60 km away ). Balod houses Prachin Kila or oldest Palace, Mandir and Sati Chabutra.   \r\n **Devbaloda** ( 13 km away ). Famous for its ancient Shiv Mandir.   \r\n **Kharkhara**. Its major attraction is a Dam which is 1,128 m long and is located on the Kharkhara River.   \r\n **Maitri Bagh**. It features landscaped garden which is a joint initiative of Indian and Russian government and a Zoo. The highlights of Zoo are exotic animal and avian species, lake, toy trains and others. The musical fountain on the island in the artificial lake is a dynamic spectacle which responds to the music in a way that interprets the style and rhytmm of the musical performance. As the music plays, jets of water shoot in the air, twist, sway, pirouette, pulse, drum and skip with the beat - each movement lit by brilliant colours.   \r\n **Nagpura**. It is a site to visit exquisite Jain temples and Pasharwanath Tirth.   \r\n **Taj Mahal** ( durg ).   \r\n **Tandula** ( around 39 km away ). The prime attraction of this place is a Dam on Tandula River. It is an exciting picnic spot also.   \r\n **Twin City Durg-Bhilai**.   \r\n **Ganga Maiya Temple**.  ( updated May 2020 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Ashish International Hotel",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "The Avalon",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Dream Palace Hotel",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:06.976Z",
+        "wikipedia_summary": "Durg is a city in the Indian state of Chhattisgarh, east of the Shivnath River and is part of the Durg-Bhilai urban agglomeration. With an urban population of 1,064,077, Durg-Bhilai is the second most populous urban area in Chhattisgarh after Raipur. It is the headquarters of Durg District.",
+        "wikipedia_description": "City in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:07.031Z"
+      },
+      "search_context": "Heritage / Culture City / Urban city Durg Drug Durg (India) Sightseeing Durg is a city in the Indian state of Chhattisgarh, east of the Shivnath River and is part of the Durg-Bhilai urban agglomeration. With an urban population of 1,064,077, Durg-Bhilai is the second most populous urban area in Chhattisgarh after Raipur. It is the headquarters of Durg District. Durg sits along the east bank of the Shivnath River on the Chhattisgarh plain with some hills to the south and southwest. It is an agricultural center, with the huge Bhilal steel plant to the east. Historically, it was part of the Kosala kingdom of ancient India. Its name is derived from the Hindi term \"durga\" for fort, and it used to be a fortress from which the Marathas subjugated Chhattisgarh. The National Highway No. 6 (Mumbai - Sambalpur - K Durg is a major city in the Indian state of Chhattisgarh .",
+      "travel_facts": {
+        "summary": "**Durg** stacks **Durg Junction** marshalling yards beside **RPR (~54 km)** flyers before NH6 swings toward Bilaspur/Nagpur triangles. Twin-city autos oscillate with Bhilai plant bells—sync stadium hops around evening shift releases.",
+        "keywords": [
+          "Durg Junction Howrah line",
+          "RPR taxi wedges",
+          "NH6 Nagpur splice",
+          "Bhilai twin-city autos",
+          "Shivnath bridge queues",
+          "cricket-night detours"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-jagdalpur",
+      "name": "Jagdalpur",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 19.07,
+        "lon": 82.03,
+        "source": "wikidata"
+      },
+      "description": "**Jagdalpur** is a city in Bastar district in the Indian state of Chhattisgarh .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Jagdalpur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jagdalpur",
+        "wikidata": "https://www.wikidata.org/wiki/Q1006363"
+      },
+      "distance_km": 827,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Dźagdalpur"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indravati_River_Jagdalpur_Chhattisgarh_India.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indravati%20River%20Jagdalpur%20Chhattisgarh%20India.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Maa Danteshwari Airport (Jagdalpur)",
+          "code": "JGB",
+          "distance_km": 12,
+          "note": "ATR-era apron—Raipur/RPR triangles remain backup when VFR holds cancel rotations"
+        },
+        "nearest_railway_station": {
+          "name": "Jagdalpur railway station",
+          "distance_km": 4,
+          "note": "Visakhapatnam–Kirandul passenger spine plus Raipur overnight sleepers"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Hyderabad",
+          "Visakhapatnam",
+          "Raipur",
+          "Bilaspur"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Hyderabad",
+          "Raipur"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 35634,
+        "content_richness_score": 0.255
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train From Visakhapatnam , catch the 1 Vishakapatnam - Kirandul Passenger (1VK) departing Vishakapatnam at around 6:45AM and reaching Jagdalpur by around 5:30PM. It has reserved First Class &amp; Sleeper Class accommodation.\r\n\n\r\n By car From Hyderabad, you have to reach Bhadrachalam first and then drive down close to 251 km on the single-laned NH 212, via Konta &amp; Sukma to reach Jagdalpur. Road conditions are bad, and be prepared for frequent checks by law enforcement authorities. Your vehicle of choice for a trip to Jagdalpur should ideally be a vehicle having a high ground clearance, and SUVs like the TATA Safari &amp; Ford Endeavour fit the bill perfectly. From Hyderabad , Jagdalpur is around 600 km.\r\n\n\r\n By bus From Raipur , the road to Jagdalpur is good enough. You have regular overnight a/c and non-a/c sleeper buses running between Raipur/ Bilaspur and Jagdalpur. From Raipur, Jagdalpur is around 300 km.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Chitradhara Waterfalls",
+              "description": "Shaped like a horseshoe, it is a popular picnic spot.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Chitrakoot Falls",
+              "description": "The third largest waterfall in India, justly known as the \"Indian Niagara Falls\", will not disappoint you. This spectacular horseshoe-shaped fall is formed where the river Indravati abruptly collapses into a 100 feet deep cavern. The mouth of the fall, when in full profusion, is over 1,000 feet wide. Chitrakot is best seen during and after the monsoon, between July and October. If you want to take photographs, the light is best in the afternoons. Accommodation available, a couple of hundred metres away from the falls. Chhattisgarh Tourism Board (CTB) offers Log Huts (on stilts) with a tariff of ₹1000/- + Luxury Tax of ₹50/- (As on July 2007 - check up with Chhattisgarh Tourism Board for the latest tariff).",
+              "wikipedia": "https://en.wikipedia.org/wiki/Chitrakote_Falls",
+              "coordinates": {
+                "lat": 19.2065,
+                "lon": 81.69998
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Mandwa Waterfalls",
+              "description": "javascript:",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mandwa_Waterfalls",
+              "coordinates": {
+                "lat": 18.99081,
+                "lon": 81.7933
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Mendri Ghumar",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mendri_Ghumar",
+              "coordinates": {
+                "lat": 19.16523,
+                "lon": 81.66337
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Tamda Ghumar",
+              "description": "",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tamda_Ghumar",
+              "coordinates": {
+                "lat": 19.17278,
+                "lon": 81.62905
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Teerathgarh Waterfall",
+              "description": "This 300 ft high waterfall is actually situated in the Kanger Valley National Park (about 15 minutes from the park entrance), about 37 km south of Jagdalpur (You need to take a detour from NH 212 - the road to Bhadrachalam). The fall here splits into multiple falls, creating a stunning vista. While the Teerathgarh falls are not as wide as Chitrakot, you may stand almost under them, or walk across the top to sit on a rock rising up out of the middle. Well maintained steps lead down to the bottom. There is a small temple on a large rock opposite the falls. All around are the ruins of a 1,000 year old, advanced, Hindu civilisation . Teerathgarh makes a lovely picnic spot. Get down to the base of the falls, and spend time observing the falls in their full glory. Directions - Boards to the falls are virtually non-existent, so be prepared to ask around a bit - locals are co-operative though! The best time to visit is from October to February.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Teerathgarh_Falls",
+              "coordinates": {
+                "lat": 18.91417,
+                "lon": 81.86528
+              },
+              "price": null
+            }
+          ],
+          "brief": "Check out the **ancient palace** built by Kaktiya Dynasty Rulers, around 1.5 km away from Luniya Square. \r\n Check out the new **archeological museum** made on the front of Sirhasaar Square, where you can enjoy the conserved ancient idols and statues showing rich architecture and sculpture of Nagwanshi rulers of the early 11th century. \r\n Enjoy a hangout with your friends at Dalpatsagar Lake, most suitable for youngsters, youth, and joggers. It is 500 m from the palace. \r\n Check out the **Anthropological museum** (about 3 km from the city centre - closed on Sundays) \r\n Waterfalls Jagdalpur is the gateway to several magnificent waterfalls. Some falls are seasonal and only impress post-monsoon.\r\n\n\r\n **Chitradhara Waterfalls** ( 19 km from Jagdalpur ). Shaped like a horseshoe, it is a popular picnic spot.  ( updated May 2020 ) \r\n 1 **Chitrakoot Falls** ( about 38 km to the west of Jagdalpur - a one hour drive on an excellent road. ). The third largest waterfall in India, justly known as the \"Indian Niagara Falls\", will not disappoint you. This spectacular horseshoe-shaped fall is formed where the river Indravati abruptly collapses into a 100 feet deep cavern. The mouth of the fall, when in full profusion, is over 1,000 feet wide. Chitrakot is best seen during and after the monsoon, between July and October. If you want to take photographs, the light is best in the afternoons. Accommodation available, a couple of hundred metres away from the falls. Chhattisgarh Tourism Board (CTB) offers Log Huts (on stilts) with a tariff of ₹1000/- + Luxury Tax of ₹50/- (As on July 2007 - check up with Chhattisgarh Tourism Board for the latest tariff).  ( updated Oct 2022 ) \r\n 2 **Mandwa Waterfalls** ( 38 km west of Jagdalpur ). javascript:  ( updated May 2020 ) \r\n 3 **Mendri Ghumar** ( 44 km (27 mi) west of Jagdalpur ).  ( updated May 2020 ) \r\n 4 **Tamda Ghumar** ( 48 km (30 mi) west of Jagdalpur ).  ( updated May 2020 ) \r\n 5 **Teerathgarh Waterfall** . This 300 ft high waterfall is actually situated in the Kanger Valley National Park (about 15 minutes from the park entrance), about 37 km south of Jagdalpur (You need to take a detour from NH 212 - the road to Bhadrachalam). The fall here splits into multiple falls, creating a stunning vista. While the Teerathgarh falls are not as wide as Chitrakot, you may stand almost under them, or walk across the top to sit on a rock rising up out of the middle. Well maintained steps lead down to the bottom. There is a small temple on a large rock opposite the falls. All around are the ruins of a 1,000 year old, advanced, Hindu civilisation . Teerathgarh makes a lovely picnic spot. Get down to the base of the falls, and spend time observing the falls in their full glory. Directions - Boards to the falls are virtually non-existent, so be prepared to ask around a bit - locals are co-operative though! The best time to visit is from October to February.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "there is also a big lake within Jagdalpur, with boating facilities. \r\n Take a walk down the **Sanjay market** area. \r\n Check out **Shahid Park,** nearly 500 m from Luniya Square.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Mandiya (ragi) page - \"Mandiya page\" simply means a kind of drink made from the boiling of rice powder and a special seed rurally called 'mandiya', which is like mustard seed with a very refreshing taste. 'Page' means 'drink'. \r\n Mahua - the traditional Bastar drink. Have it strong or mix it with water or soft drinks. \r\n Some other drinks such as sulphi and chhindras are also available which are sweet natural liquid extracts of sulphi tree and chhind tree(a kind of Palm tree). No need to mix water, it will taste as coconut tree drink. with time it will have more vigour you should drink it the same day other it will become sour and impossible to drink the next day."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:07.596Z",
+        "wikipedia_summary": "Jagdalpur is a city located in the southern part of Chhattisgarh state in India. It is the administrative headquarters of the Bastar district and Bastar division. Before the independence of India, it also served as the capital of the erstwhile princely state of Bastar. It is the fourth largest city of Chhattisgarh.",
+        "wikipedia_description": "City in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:07.954Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Heritage / Culture City / Urban city Jagdalpur Dźagdalpur Sightseeing Jagdalpur is a city located in the southern part of Chhattisgarh state in India. It is the administrative headquarters of the Bastar district and Bastar division. Before the independence of India, it also served as the capital of the erstwhile princely state of Bastar. It is the fourth largest city of Chhattisgarh. Jagdalpur is a city in Bastar district in the Indian state of Chhattisgarh .",
+      "travel_facts": {
+        "summary": "**Jagdalpur** is Bastar’s waterfall gateway—**JGB (~12 km)** props short hops while **Kirandul–Vizag rail** absorbs eco-trekkers. NH30/NH212 convoys face frequent enforcement checks—budget daylight SUVs before Chitrakote runs.",
+        "keywords": [
+          "JGB Bastar stacks",
+          "Kirandul Vizag rail",
+          "Chitrakote road spur",
+          "NH212 Sukma checks",
+          "Raipur sleeper buses",
+          "monsoon fall swell"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-kanker",
+      "name": "Kanker",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 20.26778,
+        "lon": 81.50083,
+        "source": "wikidata"
+      },
+      "description": "**Kanker** is a town in the southern part of Chhattisgarh , India . It is the headquarters of its district. For most of the colonial period it was the seat of the administration of the eponymous princely state. It is a town that falls geographically in the transition zone between the northernmost parts of the Deccan plateau and the Mahanadi plains, surrounded by pretty hills and forests and crisis-crossed by streams that are tributaries of the river Mahanadi. The Kanker Palace Heritage, which was the residence of the ruler of Kanker and is now lived in by his descendants, has a guest house that you can stay at.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kanker",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kanker%2C_Chhattisgarh",
+        "wikidata": "https://www.wikidata.org/wiki/Q609848"
+      },
+      "distance_km": 912,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque_in_Kanker.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport (Raipur)",
+          "code": "RPR",
+          "distance_km": 128,
+          "note": "NH30 splice toward Bastar transition belt—JGB (~175 km) alternate via Jagdalpur"
+        },
+        "nearest_railway_station": {
+          "name": "Kanker railway station",
+          "distance_km": 3,
+          "note": "Raipur–Jagdalpur passenger rhythm—heritage palace taxis meet dawn arrivals"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Raipur",
+          "Jagdalpur",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 15440,
+        "content_richness_score": 0.11
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Malanjhkudum Waterfalls",
+              "description": "The major falls of Kanker. Fairly secluded by Indian standards.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 20.1577,
+                "lon": 81.4221
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Charre-Marre Waterfall",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Shivani Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Malanjhkudum Waterfalls**. The major falls of Kanker. Fairly secluded by Indian standards.  ( updated May 2020 ) \r\n **Charre-Marre Waterfall**.  ( updated May 2020 ) \r\n **Shivani Temple**.  ( updated May 2020 ) \r\n ** Kanker Palace Heritage **, ☏ +91-7868-222005 .  ( updated May 2020 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:08.509Z",
+        "wikipedia_summary": "Kanker is a municipality and the headquarters of Kanker District, in the Indian state of Chhattisgarh. It is the second largest city of Bastar division after Jagdalpur.",
+        "wikipedia_description": "Place in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:08.804Z"
+      },
+      "search_context": "Heritage / Culture City / Urban destination Kanker Sightseeing Kanker is a municipality and the headquarters of Kanker District, in the Indian state of Chhattisgarh. It is the second largest city of Bastar division after Jagdalpur. Kanker is a town in the southern part of Chhattisgarh , India . It is the headquarters of its district. For most of the colonial period it was the seat of the administration of the eponymous princely state. It is a town that falls geographically in the transition zone between the northernmost parts of the Deccan platea",
+      "travel_facts": {
+        "summary": "**Kanker** sits mid-plateau between **Raipur RPR (~128 km)** jets and **Kanker station** branch expresses toward Jagdalpur. Forest-fringe drives reward daylight starts—palace-stay pickups rarely run past dusk.",
+        "keywords": [
+          "Kanker station branch",
+          "RPR NH30 wedge",
+          "palace heritage taxis",
+          "Bastar transition roads",
+          "Malanjhkudum trek staging",
+          "forest fringe timing"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-korba",
+      "name": "Korba",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 22.34583,
+        "lon": 82.69639,
+        "source": "wikidata"
+      },
+      "description": "**Korba** is a city in Chhattisgarh .\r\n\n\r\n \r\n**Korba** is the power capital of Chhattisgarh. The district comes under Bilaspur division and is inhabited mainly by tribals including the protected tribe Korwas (Pahadi Korwa). Korba is blessed with lush green forest cover, where a sizable number of tribal population is found. The Adivaisis in the forest areas live in harmony with the environment and have retained their distinctive cultural characteristics and traditional observances.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Korba",
+        "wikipedia": "https://en.wikipedia.org/wiki/Korba%2C_Chhattisgarh",
+        "wikidata": "https://www.wikidata.org/wiki/Q2008189"
+      },
+      "distance_km": 1174,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BALCO_plant.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Korba%20railway%20station.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport (Raipur)",
+          "code": "RPR",
+          "distance_km": 200,
+          "note": "Thermal-belt taxi haul—verify Bilaspur rail shortcuts before fog closures"
+        },
+        "nearest_railway_station": {
+          "name": "Korba railway station",
+          "distance_km": 3,
+          "note": "Champa (~40 km) feeds Mumbai–Howrah berths—coal-stack freight often reshuffles slots"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Raipur",
+          "Nagpur",
+          "Bilaspur",
+          "Bengaluru",
+          "Visakhapatnam"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 22443,
+        "content_richness_score": 0.16
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Korba railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Korba_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Korba railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Korba_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By car Korba is well connected with Bilaspur and Champa. Bilaspur at a distance of 150 km and Champa at 40 km. Bus service at regular interval operate throughout the day.\r\n\n\r\n By train Korba is at a distance of 40 km from Champa juntion on Mumbai Howrah line. Besides direct train to Raipur, Nagpur, Vishakapatnam, weekly trains to Bangalore and Trivandrum make the city easily accessible by rail.\r\n\n\r\n 1 **Korba railway station** , Old Bus Stand Rd .  ( updated Mar 2021 ) \r\n By plane The nearest airport is in Raipur (** RPR **  IATA ), which is 200 km from Korba.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Chaithurgarh",
+              "description": "It was constructed by Raja Pratwidev First. Archeologists consider it as one of the strongest natural fort. Since it is protected by strong natuaral walls, only at some places walls have been built. The fort has three main entrances which are named as Menaka, Humkara, and Simhadwar.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Chaiturgarh",
+              "coordinates": {
+                "lat": 22.5103,
+                "lon": 82.2714
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Bhawani Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Koshgai Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Madwarani Temple",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Sarwa Mangala Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Silver Jubilee Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Vivekanand Garden",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Dev Pahari Waterfall",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Chaithurgarh** ( 70 km away from Korba town, 25 KM north of Pali and situated at a height of 3060 height on the hill top ). It was constructed by Raja Pratwidev First. Archeologists consider it as one of the strongest natural fort. Since it is protected by strong natuaral walls, only at some places walls have been built. The fort has three main entrances which are named as Menaka, Humkara, and Simhadwar.  ( updated Mar 2021 ) \r\n **Bhawani Mandir**.   \r\n **Koshgai Temple**.  ( updated May 2020 ) \r\n **Madwarani Temple**.  ( updated May 2020 ) \r\n **Sarwa Mangala Mandir**.   \r\n **Silver Jubilee Park**.   \r\n **Vivekanand Garden**.   \r\n **Dev Pahari Waterfall**.  ( updated May 2020 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Indian Coffee House",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:09.362Z",
+        "wikipedia_summary": "Korba is a city and an industrial area in Korba District in the Indian state of Chhattisgarh. Korba was part of Bilaspur District before 25 May 1998. It was later designated as a separate district for ease of administration, but is still under Bilaspur Division.",
+        "wikipedia_description": "City in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:09.658Z"
+      },
+      "search_context": "City / Urban city Korba Sightseeing Korba is a city and an industrial area in Korba District in the Indian state of Chhattisgarh. Korba was part of Bilaspur District before 25 May 1998. It was later designated as a separate district for ease of administration, but is still under Bilaspur Division. Korba is a city in Chhattisgarh . Korba is the power capital of Chhattisgarh. The district comes under Bilaspur division and is inhabited mainly by tribals including the protected tribe Korwas (Pahadi Korwa). Korba is blessed with lush green forest cover, where a sizable number of tribal population is found. The Adivai",
+      "travel_facts": {
+        "summary": "**Korba** powers Chhattisgarh via **Korba station** links into **Champa’s Howrah chord** while flyers shoulder **RPR (~200 km)** drives. GEVRA coal corridors clog dawn lorries—keep rail-first backups during strikes.",
+        "keywords": [
+          "Korba Champa rail",
+          "RPR thermal taxi",
+          "Howrah Mumbai chord",
+          "coal corridor lorries",
+          "BALCO plant pulses",
+          "Nagpur diversion buses"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-mainpat",
+      "name": "Mainpat",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 22.837,
+        "lon": 83.315,
+        "source": "wikidata"
+      },
+      "description": "**Mainpat** is a small village in Chhattisgarh state, Central India. Mainpat has become known for the Tibetans who have been living there for the last four or five decades.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Mainpat",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mainpat",
+        "wikidata": "https://www.wikidata.org/wiki/Q14223667"
+      },
+      "distance_km": 1252,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport (Raipur)",
+          "code": "RPR",
+          "distance_km": 340,
+          "note": "Long plateau approach via Ambikapur—night hill fog bans most taxi hauls"
+        },
+        "nearest_railway_station": {
+          "name": "Ambikapur railway station",
+          "distance_km": 55,
+          "note": "Share taxis finish the sal-clad climb—confirm carnival-season permits for monastery hops"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Raipur",
+          "Varanasi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai"
+        ],
+        "reachable_by": [
+          "car",
+          "bus"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 10094,
+        "content_richness_score": 0.072
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Mainpat is a group of 62 plateaus perched at 1,100 m/3,200 ft. The road climbs 30 km from the base of the hill through forests of Sal. The area has been home to the Yadavs and tribes like Manjhi, Manjhwar, Kanwar, Oraon and Pahadi Korwa, and more recently Tibetans.\r\n\nMainpat, locally known as 'Mini Tibet', is a hill station on a plateau in Sarguja District of Chhattisgarh state. Chhattisgarh is the most forested state of India. Mainpat was nothing more than a jungle clearing where only a few local Indians dared to live. It was a beautiful landscape in a very isolated place. The Tibetan people built huts which gradually developed to better houses where they live today. The condition of the roads remained in bad shape. It has been renovated and is in great condition at least for now.\r\n\nThis is one of the regions where the Indian government settled Tibetan refugees in 1963 in the wake of the Chinese invasion of Tibet. Apart from the jungle tribals of the area, there are 7 settlements accommodating around 2,000 people, with Tibetan Buddhist monasteries in most of the camps.\r\n\nMainpat is a charming picturesque place with many cultural and natural sites of interest. Viewed from Mehta Point and Pharphatia, the valley and hills of Mainpat offer beautiful waterfalls, like Tiger Point where tigers roam and Machali or Fish Point as the river here was known for a type of fish. A strange sight includes the bouncing swap of Jaljali and charming Chota Jharanā tucked away in a pocket of jungle with a small waterfall with beautiful scenic views. Other notable sights include the beautiful Buddhist temples on this remote jungle plateau and attractions such as Bageecha and Zalzala. There are plenty of inspiring adventures to be explored in this wild and remote hill station.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Mainpat is about 55 km by road from Ambikapur . The journey takes about one hour. Avoid driving after dusk.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "There are several **Tibetan monasteries**; and especially the monastery in the 3rd camp is really nice. \r\n There is a place called **Bouncing Land** or \"Jaljala\" in a local language. The speciality of this place is that if a person jumps in one place, things in the whole area shake and the ground appears to be like a trampoline. \r\n Every year in January or February, the **Mainpat Carnival** is celebrated at this place and it is really cool. \r\n There are two scenic **waterfalls**, namely Tiger Point Waterfall and Fish Point Waterfall. \r\n The sunset at **Mehta Point** is famous, but sometimes the fog reduces the fun. \r\n **Parpatiya** also provides a very nice scenic beauty and several hills appear to be exact cube blocks from there.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Para-sailing \r\n Para-gliding \r\n Rappelling \r\n Zorbing ball \r\n Mountain climbing \r\n River crossing \r\n Tracking",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "Spiritual / Pilgrimage"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:10.211Z",
+        "wikipedia_summary": "Mainpat is a hill station and small village in the Surguja district in the northern part of the state of Chhattisgarh, India. It lies about 55 kilometres (34 mi) by road from the divisional headquarter of Ambikapur. The hill station is 50 km south of Ambikapur, 160 km northeast of Korba, and 360 km northeast of state capital Raipur.",
+        "wikipedia_description": "Village in Chhattisgarh, India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:10.503Z"
+      },
+      "search_context": "Mountain / Hills Spiritual / Pilgrimage destination Mainpat Sightseeing Mainpat is a hill station and small village in the Surguja district in the northern part of the state of Chhattisgarh, India. It lies about 55 kilometres (34 mi) by road from the divisional headquarter of Ambikapur. The hill station is 50 km south of Ambikapur, 160 km northeast of Korba, and 360 km northeast of state capital Raipur. Mainpat is a group of 62 plateaus perched at 1,100 m/3,200 ft. The road climbs 30 km from the base of the hill through forests of Sal. The area has been home to the Yadavs and tribes like Manjhi, Manjhwar, Kanwar, Oraon and Pahadi Korwa, and more recently Tibetans. Mainpat, locally known as 'Mini Tibet', is a hill station on a plateau in Sarguja District of Chhattisgarh state. Chhattisgarh is the most forested state of India. Mainpat was nothing Mainpat is a small village in Chhattisgarh state, Central India. Mainpat has become known for the Tibetans who have been living there for the last four or five decades.",
+      "travel_facts": {
+        "summary": "**Mainpat (“Mini Tibet”)** hinges on **Ambikapur (~55 km)** hill taxis climbing sal forests before Tibetan monastery circuits. Avoid post-dusk curves—landslides and refugee-settlement shuttles dominate daylight windows.",
+        "keywords": [
+          "Ambikapur hill taxis",
+          "sal forest climb",
+          "Tibetan monastery loops",
+          "RPR long staging",
+          "Mainpat Carnival peaks",
+          "night-drive bans"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-naya-raipur",
+      "name": "Naya Raipur",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 21.161,
+        "lon": 81.787,
+        "source": "wikidata"
+      },
+      "description": "**Naya Raipur**, also known as **Atal Nagar**, **Nava Raipur** or **New Raipur**, is the planned capital of Chhattisgarh , near Raipur .",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Naya_Raipur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nava_Raipur",
+        "wikidata": "https://www.wikidata.org/wiki/Q6983051"
+      },
+      "distance_km": 1014,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Atal Nagar-Nava Raipur",
+        "Atal Nagar"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raipur-Naya_Raipur_BRTS.png?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Secretariat%20in%20Naya%20Raipur.JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport",
+          "code": "RPR",
+          "distance_km": 8,
+          "note": "Apron straddles Nava Raipur west edge—app taxis beat inflated airport counters"
+        },
+        "nearest_railway_station": {
+          "name": "Mandir Hasaud railway station",
+          "distance_km": 10,
+          "note": "Capital-complex rail shuttle—Raipur Junction (~18 km) absorbs long-distance berths"
+        },
+        "road_access_quality": "excellent",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Kolkata"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 28692,
+        "content_richness_score": 0.205
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train"
+          ],
+          "nearest_station": {
+            "name": "Mandir Hasaud railway station",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Mandir Hasaud railway station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane Swami Vivekananda Airport (** RPR **  IATA ) is at the western edge of Naya Raipur. For travelling from the airport to the city centre, it is better to book a taxi in advance. Services like Uber, Ola and Rapido are available in the city. The travel counter in the airport has high prices. The taxi drivers outside the airport charge the same high rates as the counter if not booked in advance.\r\n\n\r\n By train 1 **Mandir Hasaud railway station** .  ( updated Oct 2022 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "1 ** Nandanvan Jungle Safari ** .  ( updated Oct 2022 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Shaheed Veer Narayan Singh International Cricket Stadium",
+              "description": "Opened in 2008, it is the second largest cricket stadium in India and the fourth largest cricket stadium in the world by seating capacity."
+            },
+            {
+              "name": "Swagat Vatika",
+              "description": "A beautiful coverleaf interchange as you zip around Raipur and Naya Raipur."
+            }
+          ],
+          "brief": "Opened in 2008, it is the second largest cricket stadium in India and the fourth largest cricket stadium in the world by seating capacity.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:11.062Z",
+        "wikipedia_summary": "Nava Raipur, officially known as Atal Nagar-Nava Raipur, is a planned city and fully Greenfield city in Indian state of Chhattisgarh. It is planned to replace Raipur as the capital city of Chhattisgarh. The Government of Chhattisgarh, the state's administrative body is situated here. The city is located between National Highway 53 and National Highway 30, about 17 km south-east of the capital city Raipur. Swami Vivekananda Airport separates Raipur and Nava Raipur.",
+        "wikipedia_description": "City in India",
+        "wikipedia_fetched_at": "2026-05-18T09:53:11.354Z"
+      },
+      "search_context": "City / Urban city Naya Raipur Atal Nagar-Nava Raipur Atal Nagar Sightseeing Nava Raipur, officially known as Atal Nagar-Nava Raipur, is a planned city and fully Greenfield city in Indian state of Chhattisgarh. It is planned to replace Raipur as the capital city of Chhattisgarh. The Government of Chhattisgarh, the state's administrative body is situated here. The city is located between National Highway 53 and National Highway 30, about 17 km south-east of the capital city Raipur. Swami Vivekananda Airport separates Raipur and Nava Raipur. Naya Raipur, also known as Atal Nagar, Nava Raipur or New Raipur, is the planned capital of Chhattisgarh , near Raipur .",
+      "travel_facts": {
+        "summary": "**Naya Raipur (Atal Nagar)** wraps **RPR’s western fence** with **Mandir Hasaud** rail feeds into Secretariat boulevards. BRTS spine syncs cricket-stadium traffic—pre-book rides when assembly sessions clog NH strips.",
+        "keywords": [
+          "RPR apron adjacency",
+          "Mandir Hasaud rail",
+          "BRTS capital spine",
+          "Shaheed Veer Narayan stadium pulses",
+          "NH53 merges",
+          "app taxi arbitrage"
+        ]
+      }
+    },
+    {
+      "slug": "chhattisgarh-raipur",
+      "name": "Raipur",
+      "region": "",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "lat": 21.23795,
+        "lon": 81.63368,
+        "source": "wikidata"
+      },
+      "description": "**Raipur** is the largest city in Chhattisgarh . It had been the seat of government of the state until the formation of Naya Raipur . There is not a great deal for visitors to see with most tourists visiting the surrounding region.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Mar (hot summers)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "continental_plateau"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Raipur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Raipur",
+        "wikidata": "https://www.wikidata.org/wiki/Q372773"
+      },
+      "distance_km": 1014,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T10:06:35.153Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Raipoor",
+        "Ryepoor"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raipur_Rajbari_(Palace)_in_Birbhum_01.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TempioRaipur.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          5,
+          6
+        ],
+        "average_temp_range_celsius": {
+          "summer": "32–42",
+          "winter": "12–28"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Swami Vivekananda Airport",
+          "code": "RPR",
+          "distance_km": 20,
+          "note": "South-city apron—Uber/Ola reliable once airport touts price-gouge"
+        },
+        "nearest_railway_station": {
+          "name": "Raipur Junction",
+          "distance_km": 5,
+          "note": "SECR hub for Mumbai/Kolkata/Delhi tiers plus Bastar/Jagdalpur bus relays"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Chennai",
+          "Ahmedabad",
+          "Nagpur",
+          "Hyderabad"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Kolkata"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 77889,
+        "content_richness_score": 0.556
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Swami Vivekananda Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Swami_Vivekananda_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Swami Vivekananda Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Swami_Vivekananda_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            },
+            {
+              "name": "Raipur Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Raipur_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Swami Vivekananda Airport** ( **RPR **  IATA , Raipur Airport ) ( 20 km (12 mi) south of city centre ). For travelling from the airport to the city centre, it is better to book a taxi in advance. Services like Uber, Ola and Rapido are available in the city. The travel counter in the airport has high prices. The taxi drivers outside the airport charge the same high rates as the counter if not booked in advance.   \r\n By train Mumbai , Kolkata , Delhi , Chennai , Ahmedabad , Nagpur , Bhubaneswar , Bhopal , Pune , Jamshedpur and Ambikapur are accessible by train. There are many shops near the station, including an internet café across from Raipur Junction (orange sign).\r\n\n\r\n 2 **Raipur Junction railway station** .  ( updated Aug 2021 ) \r\n By bus There are bus services to Nagpur , Amravati , Mandla , Jagdalpur , Ambikapur and Sambalpur .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Booking through a mobile app is cheaper if you want to save a few rupees.\r\n\nRaipur and the nearby Naya Raipur are served by the **Raipur and Naya Raipur Bus Rapid Transit System** (**Raipur-Naya Raipur BRTS**) since 2016.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Mahant Ghasi Memorial Museum",
+              "description": "A small but well maintained museum with exhibits on the history of the state and an impressive collection of carvings, upstairs has a display of tribal artifacts and models. The museum ground has a beautiful open air restaurant where you can try interesting tribal food at street food prices, There is also a well equipped government tourist office, recommended.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 21.24411,
+                "lon": 81.64426
+              },
+              "price": "Entry costs ₹5"
+            },
+            {
+              "order": 2,
+              "name": "Banjari Mata Mandir",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Mahaveer Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 21.24358,
+                "lon": 81.60905
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Nagar Ghadi",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Nandanvan Zoo/garden",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Urja Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Vivekananda Sarovar",
+              "description": "A large statue in the center of a somewhat shabby lake (under refurbishment). Built in honour of Swami Vivekanada who was chief disciple of the 19th-century Indian mystic Ramakrishna and is credited with introducing yoga and Vedanta to the western world. There are boat rides in the evening.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 21.23277,
+                "lon": 81.63339
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Mahant Ghasi Memorial Museum**, Ghadi Chowk, Raj Bhawan Rd, Civil Lines ( near Kutchery Chowk intersection ), ☏ +91 771 2537404 . A small but well maintained museum with exhibits on the history of the state and an impressive collection of carvings, upstairs has a display of tribal artifacts and models. The museum ground has a beautiful open air restaurant where you can try interesting tribal food at street food prices, There is also a well equipped government tourist office, recommended. Entry costs ₹5 .  ( updated Jun 2024 ) \r\n **Banjari Mata Mandir**, Bilaspur Road .   \r\n 2 **Mahaveer Park** ( Anupam Garden ).   \r\n **Nagar Ghadi** ( City Clock Tower ) ( Near the Shastri Chowk and Dau Kalyan Singh hospital ).  ( updated Feb 2019 ) \r\n **Nandanvan Zoo/garden**, Bhilai Road .  ( updated Feb 2019 ) \r\n **Urja Park**, Mana Road .   \r\n 3 **Vivekananda Sarovar** ( Budha Talab ). A large statue in the center of a somewhat shabby lake (under refurbishment). Built in honour of Swami Vivekanada who was chief disciple of the 19th-century Indian mystic Ramakrishna and is credited with introducing yoga and Vedanta to the western world. There are boat rides in the evening.   \r\n **Raipur town hall**, a renovated Victorian-era hall between the station and bus stand. (Collectorate, Kachche Wali Chowk Garden Ke Paas, Raipur)",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Visit the city's shopping malls (Chhattisgarh Mall, RK mall, Magneto The Mall, Big Bazaar and Kishore shopping mall).\r\n\nAs Raipur is a hub for clothing sales, you can purchase fine garments cheaply at Pandri Market. Dealers of whole Chhattisgarh are found in one place at Pandri Market.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Indian Coffee House",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Ten Downing Street (TDS),** at Magneto The Mall. \r\n **Eat Drink Love (EDL),** at Ambuja City Center. \r\n **The Music Cafe (TMC),** at Ambuja City Center. \r\n **Firangi Paani,** at Magneto The Mall."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Chidambara International",
+              "description": "A basic business hotel, AC, close to the airport.",
+              "price": "₹1500-₹2500"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:53:11.913Z"
+      },
+      "search_context": "Heritage / Culture City / Urban city Raipur Raipoor Ryepoor Sightseeing Raipur is the largest city in Chhattisgarh . It had been the seat of government of the state until the formation of Naya Raipur . There is not a great deal for visitors to see with most tourists visiting the surrounding region.",
+      "travel_facts": {
+        "summary": "**Raipur** couples **Raipur Junction** long-distance stacks with **RPR (~20 km)** domestic apron feeding tribal waterfalls statewide. Central capital buzz spills onto NH express corridors—align Bastar buses before midnight depot closures.",
+        "keywords": [
+          "Raipur Junction SECR",
+          "RPR domestic apron",
+          "BRTS Nava Raipur tie",
+          "NH Bastar buses",
+          "tribal museum hops",
+          "capital ring congestion"
+        ]
+      }
+    }
+  ]
+}

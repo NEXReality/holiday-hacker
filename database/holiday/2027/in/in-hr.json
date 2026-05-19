@@ -1,0 +1,173 @@
+{
+  "stateCode": "IN-HR",
+  "stateName": "Haryana",
+  "year": 2027,
+  "indiaRegion": "North",
+  "adminType": "state",
+  "incredibleIndiaSlug": "haryana",
+  "holidayJsonSlug": "in-hr",
+  "source": "PublicHolidays.in India 2027 aggregate (https://publicholidays.in/#2027-public-holidays). Not an official government gazette; moon-based and regional dates are provisional.",
+  "dataQuality": "estimate",
+  "holidays": [
+    {
+      "date": "2027-01-15",
+      "name": "Guru Gobind Singh Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-01-26",
+      "name": "Republic Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-02-11",
+      "name": "Vasant Panchami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-02-20",
+      "name": "Guru Ravidas Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-06",
+      "name": "Maha Shivaratri",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Idul Fitr",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-22",
+      "name": "Holi",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-03-23",
+      "name": "S. Bhagat Singh's Martyrdom Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Dr Ambedkar Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Vaisakh",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-15",
+      "name": "Ram Navami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-04-19",
+      "name": "Mahavir Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-08",
+      "name": "Maharshi Parasuram Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Bakrid / Eid al Adha",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-06-07",
+      "name": "Maharana Pratap Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-06-18",
+      "name": "Sant Guru Kabir Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-07-31",
+      "name": "Shaheed Udham Singh's Martyrdom Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Independence Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-17",
+      "name": "Raksha Bandhan",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-08-25",
+      "name": "Janmashtami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-09-03",
+      "name": "Haryali Teej",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-09-23",
+      "name": "Heroes' Martyrdom Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-01",
+      "name": "Maharaja Agrasen Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-02",
+      "name": "Gandhi Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-10",
+      "name": "Vijaya Dashami",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-15",
+      "name": "Maharishi Valmiki Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Diwali",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-10-30",
+      "name": "Deepavali Holiday",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-11-01",
+      "name": "Haryana Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-11-14",
+      "name": "Guru Nanak Jayanti",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Christmas Day",
+      "type": "gazetted"
+    },
+    {
+      "date": "2027-12-26",
+      "name": "Shaheed Udham Singh Jayanti",
+      "type": "gazetted"
+    }
+  ]
+}

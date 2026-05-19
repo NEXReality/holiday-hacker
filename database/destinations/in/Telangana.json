@@ -1,7 +1,7 @@
 {
   "state": "Telangana",
   "state_code": "TE",
-  "generated_at": "2026-02-27T12:21:29.706Z",
+  "generated_at": "2026-05-18T11:26:17.477Z",
   "count": 3,
   "destinations": [
     {
@@ -15,7 +15,7 @@
         "source": "wikidata"
       },
       "description": "_For other places with the same name, see Hyderabad (disambiguation) ._ \r\n \r\n _Hyderabad is a huge city with several district articles that contain information about specific sights, restaurants, and accommodation._ \r\n \r\n**Hyderabad,** ( Telugu : హైదరాబాదు, Urdu : حیدرآباد _Haidarābād_, Hindi : हैदराबाद _Haidarābād_), also known as the **Pearl City,** is the capital of Telangana in Southern India . **Secunderabad**, 8 km away, is its twin city. Though at one point the twins were two different cities, relentless urbanisation has meant that they are now conjoined into one metropolis, called **Greater Hyderabad**.\r\n\nLocated on the hot and dry **Deccan Plateau**, Hyderabad is a city replete with history and tradition, It now competes with Bengaluru and Chennai for the crown of India's IT capital; Microsoft and Google have their India headquarters here.",
-      "category": "destination",
+      "category": "City / Urban",
       "best_time_to_visit": {
         "text": "Dec–dec",
         "months": [
@@ -40,10 +40,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "City of Pearls",
@@ -86,19 +87,37 @@
           "distance_km": 22
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Hyderabad Deccan railway station",
+          "distance_km": 7,
+          "note": "Secunderabad Junction ~12 km twin-city alternate hub"
         },
         "road_access_quality": "excellent",
         "direct_train_available_from_major_cities": [
+          "Hyderabad",
+          "Delhi",
           "Mumbai",
           "Chennai",
-          "Kochi"
+          "Bengaluru",
+          "Kolkata",
+          "Visakhapatnam",
+          "Kochi",
+          "Pune"
         ],
         "direct_flight_available_from_major_cities": [
+          "Delhi",
           "Mumbai",
           "Chennai",
-          "Kochi"
+          "Bengaluru",
+          "Kolkata",
+          "Dubai",
+          "Singapore",
+          "London"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -228,7 +247,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.692Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "City / Urban destination Hyderabad City of Pearls Hyderabad, India Hajderabad Haidarábád Hyderabad, Ấn Độ Edrabad Haydarabad, Hindistan Haidarābād Sightseeing Hyderabad, ( Telugu : హైదరాబాదు, Urdu : حیدرآباد , Hindi : हैदराबाद ), also known as the Pearl City, is the capital of Telangana in Southern India . Secunderabad, 8 km away, is its twin city. Though at one point the twins were two different cities, relentless urbanisation has meant that they are now conjoined into one metropolis, called Greater Hyderabad. Located on the hot and dry Deccan Plateau, Hyderabad is a city",
+      "travel_facts": {
+        "summary": "**Hyderabad** anchors **HYD (~22 km) Pearl-City stacks** beneath **Deccan/Nampally rail (~7 km)** knowing Charminar merges absorb Hussain Sagar tides.",
+        "keywords": [
+          "hyd rgia stacks",
+          "metro merges",
+          "charminar apron",
+          "hitec city tides"
+        ]
+      }
     },
     {
       "slug": "telangana-ramoji-film-city",
@@ -241,11 +279,18 @@
         "source": "wikidata"
       },
       "description": "The **Southern Suburbs** of Hyderabad consists of most of the **Ranga Reddy** district. It is home to **Ramoji Film City** and large reservoirs like **Himayat Sagar** and **Osman Sagar**.",
-      "category": "destination",
+      "category": "Attraction / Studio complex",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Ramoji_Film_City",
@@ -253,19 +298,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1786944"
       },
       "distance_km": 490,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T12:21:27.987Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -275,20 +328,66 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Rajiv Gandhi International Airport",
+          "code": "HYD",
+          "distance_km": 38,
+          "note": "Eastern outer-ring hops—studio shuttle buses from pickup hubs"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Hyderabad Deccan railway station",
+          "distance_km": 28,
+          "note": "RTC/electric buses plus taxis toward Abdullahpurmet corridor"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Hyderabad",
+          "Secunderabad",
+          "Warangal"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Hyderabad",
+          "Chennai",
+          "Mumbai",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -297,7 +396,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -315,7 +418,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 44569,
-        "content_richness_score": 0
+        "content_richness_score": 0.318
       },
       "section_briefs": {
         "get_in": {
@@ -336,7 +439,23 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Attraction / Studio complex"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.693Z"
+      },
+      "search_context": "Attraction / Studio complex destination Ramoji Film City Sightseeing The Southern Suburbs of Hyderabad consists of most of the Ranga Reddy district. It is home to Ramoji Film City and large reservoirs like Himayat Sagar and Osman Sagar.",
+      "travel_facts": {
+        "summary": "**Ramoji Film City** stacks **HYD (~38 km) backlot stacks** beneath **Hyderabad Deccan (~28 km)** knowing guided studio merges absorb themed-set tides.",
+        "keywords": [
+          "ramoji stacks",
+          "hayathnagar merges",
+          "film city apron",
+          "hyderabad day-trip tides"
+        ]
+      }
     },
     {
       "slug": "telangana-warangal",
@@ -349,11 +468,18 @@
         "source": "wikidata"
       },
       "description": "**Warangal** is in East Telangana in Southern India . Historically known as _Orugallu_ and also _Ekashila Nagaram_ (City carved in single stone). _Warangal_ is part of a tertiary city including **Kazipet** and **Hanamkonda** cities. The region once came under _Kakatiya dynasty_.",
-      "category": "destination",
+      "category": "Heritage / Temple city",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Warangal",
@@ -361,19 +487,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q213077"
       },
       "distance_km": 590,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-27T12:21:27.987Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Hanamkonda district",
@@ -396,23 +530,68 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Rajiv Gandhi International Airport",
+          "code": "HYD",
+          "distance_km": 165,
+          "note": "NH163 corridor—high-frequency Volvo hops from Hyderabad"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Warangal railway station",
+          "distance_km": 4,
+          "note": "Grand Trunk corridor Delhi–Chennai expresses"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Delhi",
+          "Chennai",
+          "Mumbai",
+          "Kolkata",
+          "Visakhapatnam"
         ],
         "direct_flight_available_from_major_cities": [
-          "Hyderabad"
+          "Hyderabad",
+          "Chennai",
+          "Mumbai",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "safety_profile": {
@@ -422,7 +601,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 4,
@@ -441,7 +624,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 77926,
-        "content_richness_score": 0.211
+        "content_richness_score": 0.557
       },
       "section_briefs": {
         "understand": {
@@ -605,7 +788,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Temple city"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.693Z"
+      },
+      "credibility_recognitions": [
+        "geo_heritage"
+      ],
+      "search_context": "Heritage / Temple city destination Warangal Hanamkonda district Ekasila Nagaram Oragallu Warangal Urban distritu de Warangal Urban Warangal Urban (distritu) Hanumakonda district Sightseeing Warangal is in East Telangana in Southern India . Historically known as and also (City carved in single stone). is part of a tertiary city including Kazipet and Hanamkonda cities. The region once came under .",
+      "travel_facts": {
+        "summary": "**Warangal** hinges **HYD (~165 km) Kakatiya stacks** beneath **Warangal rail (~4 km)** knowing Thousand-Pillar merges absorb Bhadrakali lake tides.",
+        "keywords": [
+          "warangal fort stacks",
+          "kakatiya merges",
+          "thousand pillar apron",
+          "muslim nagar tides"
+        ]
+      }
     }
   ]
 }

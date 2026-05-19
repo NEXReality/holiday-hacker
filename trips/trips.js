@@ -8,14 +8,371 @@
   var PLANNED_TRIPS_KEY   = 'holidayHacker_plannedTrips';
   var FAVORITES_KEY       = 'holidayHacker_favorites';
   var TRIP_SETTINGS_KEY   = 'holidayHacker_tripSettings';
+  var ALARM_PERMS_KEY     = 'holidayHacker_alarmPermsAsked';
   var HOMETOWN_IMAGE_URL  = 'https://img.freepik.com/free-vector/suburban-house-illustration_33099-2357.jpg';
+  var DEST_PLACEHOLDER_IMAGE_URL = 'https://img.magnific.com/premium-vector/summer-time-car-beach-with-few-suitcase-vacation-travel-huge-pile-things-holiday-flat-cartoon-style-illustration-landscape-concept-isolated_185796-16.jpg';
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  /* kind: 'booking' modes (train/bus/flight) get a booking-opens alarm plus a 9 PM
+     heads-up notification the previous night. 'pretrip' modes (car) get a single
+     reminder a few days before travel — no "booking opens" semantics apply. */
+  var BOOKING_CONFIG = {
+    train:  { days: 60, time: '08:00', label: 'Book Train',     kind: 'booking' },
+    bus:    { days: 30, time: '08:00', label: 'Book Bus',       kind: 'booking' },
+    flight: { days: 45, time: '10:00', label: 'Book Flight',    kind: 'booking' },
+    car:    { days:  3, time: '09:00', label: 'Road trip prep', kind: 'pretrip' }
+  };
+
+  function tripCardImageUrl(d) {
+    d = d || {};
+    var u = String(d.imageUrl || '').trim();
+    if ((d.isHometown || d.slug === '__hometown__') && !u) return HOMETOWN_IMAGE_URL;
+    return u || DEST_PLACEHOLDER_IMAGE_URL;
+  }
+
+  function toISODateLocal(d) {
+    var y = d.getFullYear();
+    var m = d.getMonth() + 1;
+    var day = d.getDate();
+    return y + '-' + (m < 10 ? '0' : '') + m + '-' + (day < 10 ? '0' : '') + day;
+  }
+  /** Last Mon–Fri on or before (windowStart − 1 calendar day). */
+  function defaultTravelDepartureDate(windowStart) {
+    var d = new Date(windowStart + 'T00:00:00');
+    d.setDate(d.getDate() - 1);
+    while (d.getDay() === 0 || d.getDay() === 6) {
+      d.setDate(d.getDate() - 1);
+    }
+    return toISODateLocal(d);
+  }
+  function travelDateBounds(windowStart, windowEnd) {
+    var min = defaultTravelDepartureDate(windowStart);
+    var max = windowEnd || windowStart;
+    if (max < min) max = min;
+    return { min: min, max: max };
+  }
+  /** Saved travel day from trip settings, or default last working day before the holiday window. */
+  function getEffectiveTravelDepartureDate(windowStart, windowEnd, settingsEntry) {
+    var saved = settingsEntry && settingsEntry.travelDepartureDate;
+    if (saved && /^\d{4}-\d{2}-\d{2}$/.test(saved)) return saved;
+    var bounds = travelDateBounds(windowStart, windowEnd);
+    return bounds.min;
+  }
+
+  /* Native loud-alarm bridge (Capacitor / Android only). On the web build all
+     of these become no-ops, so the same code runs unchanged in the browser. */
+  function holidayAlarmPlugin() {
+    if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.HolidayAlarm) {
+      return window.Capacitor.Plugins.HolidayAlarm;
+    }
+    return null;
+  }
+  function armNativeAlarm(id, whenMs, title, body, context) {
+    var p = holidayAlarmPlugin();
+    if (!p) return;
+    if (!whenMs || whenMs <= Date.now()) return;
+    var payload = {
+      id: String(id),
+      timestamp: whenMs,
+      title: title || 'Holiday Hacker',
+      body: body || ''
+    };
+    if (context) {
+      if (context.destName)    payload.destName    = String(context.destName);
+      if (context.destState)   payload.destState   = String(context.destState);
+      if (context.windowName)  payload.windowName  = String(context.windowName);
+      if (context.windowStart) payload.windowStart = String(context.windowStart);
+      if (context.windowEnd)   payload.windowEnd   = String(context.windowEnd);
+      if (context.windowDays)  payload.windowDays  = Number(context.windowDays) || 0;
+      if (context.mode)        payload.mode        = String(context.mode);
+      if (context.imageUrl)    payload.imageUrl    = String(context.imageUrl);
+    }
+    p.schedule(payload).catch(function () {});
+  }
+  function buildAlarmContext(trip, mode) {
+    if (!trip) return null;
+    var dest = trip.destination || {};
+    return {
+      destName:    dest.name || '',
+      destState:   dest.state || '',
+      windowName:  trip.windowName || '',
+      windowStart: trip.windowStart || '',
+      windowEnd:   trip.windowEnd || trip.windowStart || '',
+      windowDays:  trip.windowDays || 0,
+      mode:        mode || '',
+      imageUrl:    tripCardImageUrl(dest)
+    };
+  }
+  function clearNativeAlarm(id) {
+    var p = holidayAlarmPlugin();
+    if (!p) return;
+    p.cancel({ id: String(id) }).catch(function () {});
+  }
+  function requestAlarmPermissionsOnce() {
+    var p = holidayAlarmPlugin();
+    if (!p) return;
+    if (localStorage.getItem(ALARM_PERMS_KEY) === '1') return;
+    localStorage.setItem(ALARM_PERMS_KEY, '1');
+    try { p.requestPermissions(); } catch (_) {}
+    setTimeout(function () {
+      try {
+        var ua = (navigator.userAgent || '').toLowerCase();
+        if (!/xiaomi|redmi|poco|oppo|realme|vivo|iqoo|huawei|honor/.test(ua)) return;
+        var msg = 'On your phone, the system may stop trip alarms when Holiday Hacker is in deep sleep. Allow it to run unrestricted in the background so alarms ring on time. Open battery settings now?';
+        if (window.confirm(msg)) {
+          try { p.openBatterySettings(); } catch (_) {}
+        }
+      } catch (_) {}
+    }, 2500);
+  }
+  function buildAlarmTimestamp(anchorDateStr, daysBefore, time) {
+    var d = new Date(anchorDateStr + 'T00:00:00');
+    d.setDate(d.getDate() - (daysBefore || 0));
+    var parts = (time || '10:00').split(':');
+    var h = parseInt(parts[0], 10); if (isNaN(h)) h = 10;
+    var m = parseInt(parts[1], 10); if (isNaN(m)) m = 0;
+    d.setHours(h, m, 0, 0);
+    return d.getTime();
+  }
+  function leaveAlarmId(windowStart) { return 'leave-' + windowStart; }
+  function bookAlarmId(windowStart) { return 'book-' + windowStart; }
+  function bookPreAlarmId(windowStart) { return 'book-pre-' + windowStart; }
+  function destNameOf(trip) {
+    return (trip && trip.destination && trip.destination.name) || 'your trip';
+  }
+  function armLeaveAlarm(trip, settings) {
+    if (!trip || !trip.windowStart) return;
+    if ((trip.leaves || 0) <= 0) return;
+    var ts = (settings && settings[trip.windowStart]) || {};
+    var when = buildAlarmTimestamp(trip.windowStart, ts.reminderDays || 30, ts.reminderTime || '10:00');
+    var name = destNameOf(trip);
+    armNativeAlarm(
+      leaveAlarmId(trip.windowStart),
+      when,
+      'Apply leave for ' + name + ' trip',
+      'Submit your leave application for the upcoming ' + name + ' trip.',
+      buildAlarmContext(trip, ts.mode)
+    );
+  }
+  function bookingOpenTimestamp(travelIso, cfg, bookingTime) {
+    return buildAlarmTimestamp(travelIso, cfg.days, bookingTime);
+  }
+  /* Returns the timestamp of 9:00 PM on the day before the given timestamp.
+     Used so the heads-up notification lands the evening before the loud alarm. */
+  function nightBeforeAt9pm(timestamp) {
+    var d = new Date(timestamp);
+    d.setDate(d.getDate() - 1);
+    d.setHours(21, 0, 0, 0);
+    return d.getTime();
+  }
+  function armBookingAlarm(trip, settings) {
+    if (!trip || !trip.windowStart) return;
+    var ts = (settings && settings[trip.windowStart]) || {};
+    var mode = ts.mode;
+    if (!mode || !BOOKING_CONFIG[mode]) {
+      var fallbackModes = getTravelModes();
+      mode = (fallbackModes && fallbackModes[0]) || 'car';
+      if (!BOOKING_CONFIG[mode]) return;
+      ts.mode = mode;
+      if (settings && settings[trip.windowStart]) settings[trip.windowStart].mode = mode;
+    }
+    if (!mode || !BOOKING_CONFIG[mode]) return;
+    var cfg = BOOKING_CONFIG[mode];
+    var isPretrip = cfg.kind === 'pretrip';
+    var bookingTime = getEffectiveBookingTime(mode, ts);
+    var travelIso = getEffectiveTravelDepartureDate(trip.windowStart, trip.windowEnd, ts);
+    var directWhen = buildAlarmTimestamp(travelIso, 0, bookingTime);
+    var testWindowMs = 2 * 24 * 60 * 60 * 1000;
+    var useDirectTest = directWhen > Date.now() && (directWhen - Date.now()) <= testWindowMs;
+    var openAt = bookingOpenTimestamp(travelIso, cfg, bookingTime);
+    var isDefaultTime = isDefaultBookingTime(mode, bookingTime);
+    var name = destNameOf(trip);
+    var travelLbl = reminderDateLabel(travelIso, 0);
+    var alarmCtx = buildAlarmContext(trip, mode);
+
+    /* Car / pretrip flow: a single loud reminder, no booking-window logic and no
+       9 PM heads-up. Fires `cfg.days` before travel at the user's chosen time, or
+       at the test offset when travel is imminent. */
+    if (isPretrip) {
+      clearNativeAlarm(bookPreAlarmId(trip.windowStart));
+      var pretripAt = useDirectTest ? directWhen : openAt;
+      if (!pretripAt || pretripAt <= Date.now()) {
+        clearNativeAlarm(bookAlarmId(trip.windowStart));
+        return;
+      }
+      armNativeAlarm(
+        bookAlarmId(trip.windowStart),
+        pretripAt,
+        cfg.label + ' for ' + name,
+        cfg.days + '-day countdown to ' + travelLbl + ' — check fuel, route and vehicle.',
+        alarmCtx
+      );
+      return;
+    }
+
+    /* Booking flow (train / bus / flight). */
+    var alarmAt = useDirectTest
+      ? directWhen
+      : (isDefaultTime ? (openAt - (10 * 60 * 1000)) : openAt);
+    /* If default-time 10-min alarm already passed but booking is still ahead,
+       fall back to booking-open time so users still get a loud alarm. */
+    if (!useDirectTest && isDefaultTime && alarmAt <= Date.now() && openAt > Date.now()) {
+      alarmAt = openAt;
+    }
+    /* Heads-up notification at 9 PM the previous evening so the user is primed
+       for the loud morning alarm. Falls back to (openAt − 24h) if 9 PM is in
+       the past, so we never schedule a no-op alarm. */
+    var nightBefore = nightBeforeAt9pm(openAt);
+    var preAt = nightBefore > Date.now() ? nightBefore : (openAt - (24 * 60 * 60 * 1000));
+    if (!useDirectTest && isBookingWindowAlreadyOpen(travelIso, cfg)) {
+      clearNativeAlarm(bookAlarmId(trip.windowStart));
+      clearNativeAlarm(bookPreAlarmId(trip.windowStart));
+      return;
+    }
+    armNativeAlarm(
+      bookAlarmId(trip.windowStart),
+      alarmAt,
+      cfg.label + ' for ' + name,
+      (isDefaultTime
+        ? ('IRCTC booking starts in 10 min at ' + formatTime12(bookingTime) + ' for travel on ' + travelLbl + '.')
+        : ('Booking starts now at ' + formatTime12(bookingTime) + ' for travel on ' + travelLbl + '.')),
+      alarmCtx
+    );
+    armNativeAlarm(
+      bookPreAlarmId(trip.windowStart),
+      preAt,
+      cfg.label + ' tomorrow morning · ' + name,
+      'Heads-up: booking opens tomorrow at ' + formatTime12(bookingTime) + ' for travel on ' + travelLbl + '. Get ready for the alarm in the morning.',
+      alarmCtx
+    );
+  }
+  function clearTripAlarms(windowStart) {
+    if (!windowStart) return;
+    clearNativeAlarm(leaveAlarmId(windowStart));
+    clearNativeAlarm(bookAlarmId(windowStart));
+    clearNativeAlarm(bookPreAlarmId(windowStart));
+  }
+
+  /* ───────── Holiday planning notification (65 days out) ───────── */
+
+  /* Fires once for each upcoming Free Holiday / Golden Bridge / Mega Bridge so
+     users have time to book before transport inventories open. The advisor data
+     itself filters out plain working-day holidays that don't bridge into a
+     long break, so anything in gifts/bridges/megas is by definition planable. */
+  var HOLIDAY_PLAN_DAYS = 65;
+  var HOLIDAY_PLAN_TIME = '10:00';
+
+  function holidayPlanAlarmId(type, start) {
+    return 'holiday-' + type + '-' + start;
+  }
+  function holidayTypeLabel(type) {
+    if (type === 'gift') return 'Free Holiday';
+    if (type === 'mega') return 'Mega Bridge';
+    return 'Golden Bridge';
+  }
+  function buildHolidayBodyText(item, type) {
+    var range = (item && item.end && item.end !== item.start)
+      ? (reminderDateLabel(item.start, 0) + ' – ' + reminderDateLabel(item.end, 0))
+      : reminderDateLabel(item.start, 0);
+    var days = Math.max(1, item && item.days ? item.days : 1);
+    var leaves = (item && item.leaves) || 0;
+    var bits = [range + ' · ' + days + (days === 1 ? ' day' : ' days')];
+    if (type === 'gift') {
+      bits.push('no leaves needed');
+    } else {
+      bits.push(leaves > 0 ? (leaves + (leaves === 1 ? ' leave' : ' leaves')) : 'no leaves needed');
+    }
+    bits.push('Plan ahead — bookings open soon.');
+    return bits.join(' · ');
+  }
+  function holidayItemHasPlanPotential(item, type) {
+    if (!item || !item.start) return false;
+    var days = item.days || 0;
+    if (type === 'gift') {
+      /* A gift weekend with only 1 working day off and 0 leaves is essentially
+         a regular weekend — skip the heads-up. */
+      return days >= 3;
+    }
+    /* Bridges and megas are by construction multi-day plannable breaks. */
+    return days >= 3;
+  }
+  function syncHolidayPlanningNotifications() {
+    var data;
+    try { data = JSON.parse(localStorage.getItem(ADVISOR_DATA_KEY) || '{}'); } catch (e) { return; }
+    if (!data || typeof data !== 'object') return;
+
+    var entries = [];
+    (data.gifts   || []).forEach(function (g) { entries.push({ type: 'gift',   item: g }); });
+    (data.bridges || []).forEach(function (b) { entries.push({ type: 'bridge', item: b }); });
+    (data.megas   || []).forEach(function (m) { entries.push({ type: 'mega',   item: m }); });
+
+    var validIds = {};
+    entries.forEach(function (entry) {
+      var item = entry.item;
+      var type = entry.type;
+      if (!item || !item.start) return;
+      if (!holidayItemHasPlanPotential(item, type)) return;
+
+      var id = holidayPlanAlarmId(type, item.start);
+      if (validIds[id]) return;
+      validIds[id] = true;
+
+      var whenMs = buildAlarmTimestamp(item.start, HOLIDAY_PLAN_DAYS, HOLIDAY_PLAN_TIME);
+      if (whenMs <= Date.now()) {
+        clearNativeAlarm(id);
+        return;
+      }
+      var name = (item.name || holidayTypeLabel(type));
+      armNativeAlarm(
+        id,
+        whenMs,
+        holidayTypeLabel(type) + ' in 65 days · ' + name,
+        buildHolidayBodyText(item, type),
+        {
+          windowName:  name,
+          windowStart: item.start,
+          windowEnd:   item.end || item.start,
+          windowDays:  item.days || 0
+        }
+      );
+    });
+
+    /* Reconcile against the native scheduler: any holiday-* alarm that is no
+       longer in the freshly-computed advisor set has had its underlying
+       window removed (calendar shifted, holiday data updated, user unticked
+       a bridge, etc.) — cancel it so it can never fire for a deleted window. */
+    var p = holidayAlarmPlugin();
+    if (p && typeof p.listScheduled === 'function') {
+      try {
+        p.listScheduled().then(function (res) {
+          var alarms = (res && res.alarms) || [];
+          alarms.forEach(function (a) {
+            if (!a || typeof a.id !== 'string') return;
+            if (a.id.indexOf('holiday-') !== 0) return;
+            if (!validIds[a.id]) clearNativeAlarm(a.id);
+          });
+        }).catch(function () {});
+      } catch (_) {}
+    }
+  }
 
   function getTripSettings() {
     try { return JSON.parse(localStorage.getItem(TRIP_SETTINGS_KEY) || '{}'); } catch (e) { return {}; }
   }
   function saveTripSettings(settings) {
     localStorage.setItem(TRIP_SETTINGS_KEY, JSON.stringify(settings));
+  }
+  function pruneTripSettings(activeTrips) {
+    var settings = getTripSettings();
+    var valid = {};
+    (activeTrips || []).forEach(function (t) {
+      if (t && t.windowStart) valid[t.windowStart] = true;
+    });
+    var dirty = false;
+    Object.keys(settings).forEach(function (k) {
+      if (!valid[k]) { delete settings[k]; dirty = true; }
+    });
+    if (dirty) saveTripSettings(settings);
   }
   function getFavorites() {
     try { return JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]'); } catch (e) { return []; }
@@ -53,14 +410,15 @@
   }
 
   function syncConfirmedTrips() {
-    var trips = getConfirmedTrips();
-    if (!trips.length) return trips;
-    var active = getActiveWindowStarts();
-    var cleaned = trips.filter(function (t) { return !!active[t.windowStart]; });
-    if (cleaned.length !== trips.length) {
-      localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(cleaned));
-    }
-    return cleaned;
+    /* Confirmed trips are user-owned personal data — they snapshot their own
+       windowStart / windowEnd / windowDays / windowName / windowType at the
+       moment the user taps "Confirm trip" on the Plan page. They are NEVER
+       auto-deleted by the advisor, by app data updates, or by the user
+       deselecting a bridge in Calendar. The only way a confirmed trip goes
+       away is the explicit Remove button on the Trips page (which also
+       cancels its alarms). This function is kept as a no-op for backward
+       compatibility with old call sites. */
+    return getConfirmedTrips();
   }
 
   function formatRange(start, end) {
@@ -98,17 +456,95 @@
 
   var MODE_ICONS = { flight: 'flight', train: 'train', bus: 'directions_bus', car: 'directions_car' };
 
-  function getTrainText(windowStart) {
-    var today = new Date();
-    today.setHours(0, 0, 0, 0);
-    var start = new Date((windowStart || '') + 'T00:00:00');
-    var diff = Math.ceil((start - today) / (24 * 60 * 60 * 1000));
-    return diff < 60 ? 'Booking already started — check availability' : 'Booking opens 60 days prior @ 8:00 AM';
+  /* Format helpers used by reminder/booking labels so users see actual dates,
+     not just relative offsets like "30 days before". */
+  function formatTime12(time) {
+    var p = (time || '10:00').split(':');
+    var h = parseInt(p[0], 10); if (isNaN(h)) h = 10;
+    var mm = (p[1] || '00').slice(0, 2);
+    var ampm = h < 12 ? 'AM' : 'PM';
+    var h12 = h === 0 ? 12 : (h > 12 ? h - 12 : h);
+    return h12 + ':' + mm + ' ' + ampm;
+  }
+  function reminderDateLabel(windowStart, daysBefore) {
+    if (!windowStart) return '';
+    var d = new Date(windowStart + 'T00:00:00');
+    d.setDate(d.getDate() - (daysBefore || 0));
+    var label = MONTHS[d.getMonth()] + ' ' + d.getDate();
+    if (d.getFullYear() !== new Date().getFullYear()) {
+      label += ', ' + d.getFullYear();
+    }
+    return label;
+  }
+  function leaveReminderSubText(windowStart, days, time) {
+    var dateLabel = reminderDateLabel(windowStart, days);
+    var timeLabel = formatTime12(time);
+    return dateLabel
+      ? days + ' days before • ' + dateLabel + ' at ' + timeLabel
+      : days + ' days before • ' + timeLabel;
+  }
+  function getEffectiveBookingTime(mode, settingsEntry) {
+    var cfg = BOOKING_CONFIG[mode] || {};
+    var saved = settingsEntry && settingsEntry.bookingReminderTime;
+    if (saved && /^\d{2}:\d{2}$/.test(saved)) return saved;
+    return cfg.time || '08:00';
+  }
+  function isDefaultBookingTime(mode, bookingTime) {
+    var cfg = BOOKING_CONFIG[mode];
+    if (!cfg) return false;
+    return (bookingTime || '') === cfg.time;
+  }
+  function bookingTravelSuffix(travelAnchorIso) {
+    if (!travelAnchorIso) return '';
+    return ' · for travel on ' + reminderDateLabel(travelAnchorIso, 0);
+  }
+  function isBookingWindowAlreadyOpen(travelAnchorIso, cfg) {
+    if (!travelAnchorIso || !cfg) return false;
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    var openDay = new Date(travelAnchorIso + 'T00:00:00');
+    openDay.setHours(0, 0, 0, 0);
+    openDay.setDate(openDay.getDate() - (cfg.days || 0));
+    return today >= openDay;
+  }
+  function bookingModeContent(mode, travelAnchorIso, bookingTime) {
+    var icons = MODE_ICONS;
+    var cfg = BOOKING_CONFIG[mode];
+    var suff = bookingTravelSuffix(travelAnchorIso);
+    var effectiveTime = bookingTime || (cfg && cfg.time) || '08:00';
+    if (mode === 'train' && cfg) {
+      if (isBookingWindowAlreadyOpen(travelAnchorIso, cfg)) {
+        return { icon: icons.train, text: 'Booking already open — check availability' + suff };
+      }
+      return {
+        icon: icons.train,
+        text: 'Booking opens ' + reminderDateLabel(travelAnchorIso, cfg.days) + ' at ' + formatTime12(effectiveTime) + (isDefaultBookingTime(mode, effectiveTime) ? ' (alarm 10 min before)' : '') + suff
+      };
+    }
+    if ((mode === 'bus' || mode === 'flight') && cfg) {
+      if (isBookingWindowAlreadyOpen(travelAnchorIso, cfg)) {
+        return { icon: icons[mode], text: 'Booking already open — check availability' + suff };
+      }
+      return {
+        icon: icons[mode],
+        text: 'Ideal booking ' + reminderDateLabel(travelAnchorIso, cfg.days) + ' at ' + formatTime12(effectiveTime) + (isDefaultBookingTime(mode, effectiveTime) ? ' (alarm 10 min before)' : '') + suff
+      };
+    }
+    if (mode === 'car' && cfg) {
+      return {
+        icon: icons.car,
+        text: 'Road trip prep ' + reminderDateLabel(travelAnchorIso, cfg.days) + ' at ' + formatTime12(effectiveTime) + suff
+      };
+    }
+    if (mode === 'car') {
+      return { icon: icons.car, text: 'Pre-departure checklist' + suff };
+    }
+    return { icon: icons[mode] || mode, text: 'Pre-departure checklist' + suff };
   }
 
   function populate() {
     var container = document.getElementById('tripsHacks');
     var trips = syncConfirmedTrips();
+    pruneTripSettings(trips);
     var totalLeavesSaved = 0;
     trips.forEach(function (t) {
       totalLeavesSaved += computeLeavesSaved(t);
@@ -144,18 +580,23 @@
       if (beatTextEl) beatTextEl.textContent = "You're beating " + utilizationPct + '% of hackers!';
     } catch (err) {}
 
+    try { syncHolidayPlanningNotifications(); } catch (e) {}
+
+    /* Re-arm any alarms that were left in a pending state by an in-flight
+       holiday-date edit on the Calendar page. Idempotent — schedule() will
+       just overwrite the existing alarm with the same id. */
+    try { drainPendingRearm(); } catch (_) {}
+
     var travelModes = getTravelModes();
     var allSettings = getTripSettings();
+    var tripSettingsDirty = false;
     var html = '';
     trips.forEach(function (t, idx) {
       var d = t.destination || {};
       var isHometownTrip = d.slug === '__hometown__' || d.isHometown;
-      var imgUrl = (d.imageUrl || '').trim();
-      if (isHometownTrip && !imgUrl) imgUrl = HOMETOWN_IMAGE_URL;
+      var imgUrl = tripCardImageUrl(d);
       var imgCls = isHometownTrip ? ' trips-card-img--hometown' : '';
-      var imgStyle = imgUrl
-        ? 'background-image: url(\'' + imgUrl.replace(/'/g, "\\'") + '\')'
-        : 'background-color: var(--gray-300)';
+      var imgStyle = 'background-image: url(\'' + imgUrl.replace(/'/g, "\\'") + '\')';
       var label = formatRange(t.windowStart, t.windowEnd);
       var leavesUsed = t.leaves || 0;
       var needsLeaveReminder = leavesUsed > 0;
@@ -165,14 +606,16 @@
       var meta = t.windowDays + 'D/' + (t.windowDays - 1) + 'N • ' + leavesUsed + ' Leave' + (leavesUsed !== 1 ? 's' : '') + ' used';
       var destName = (d.name || '').replace(/</g, '&lt;');
       var ts = allSettings[t.windowStart] || {};
+      if (ts.travelDepartureDate && !/^\d{4}-\d{2}-\d{2}$/.test(ts.travelDepartureDate)) {
+        delete ts.travelDepartureDate;
+        allSettings[t.windowStart] = ts;
+        tripSettingsDirty = true;
+      }
       var savedDays = ts.reminderDays || 30;
       var savedTime = ts.reminderTime || '10:00';
-      var tParts = savedTime.split(':');
-      var tH = parseInt(tParts[0], 10) || 10;
-      var tMM = (tParts[1] || '00').slice(0, 2);
-      var tAmpm = tH < 12 ? 'AM' : 'PM';
-      var tH12 = tH === 0 ? 12 : (tH > 12 ? tH - 12 : tH);
-      var displayTime = tH12 + ':' + tMM + ' ' + tAmpm;
+      var travelPick = getEffectiveTravelDepartureDate(t.windowStart, t.windowEnd, ts);
+      var defaultModeForCard = (ts.mode || travelModes[0] || 'car');
+      var bookingTime = getEffectiveBookingTime(defaultModeForCard, ts);
       var fav = isFavorite(t.windowStart);
       var favIcon = fav ? 'favorite' : 'favorite_border';
       var favCls = fav ? ' trips-card-action-btn--fav-active' : '';
@@ -180,7 +623,7 @@
         ? ('<div class="trips-card-leave-reminder">' +
             '<div class="trips-card-reminder-row">' +
               '<div class="trips-card-reminder-icon"><span class="material-symbols-outlined">event_note</span></div>' +
-              '<div class="trips-card-reminder-display"><p class="trips-card-reminder-title">Leave Application</p><p class="trips-card-reminder-sub">' + savedDays + ' days before • ' + displayTime + '</p></div>' +
+              '<div class="trips-card-reminder-display"><p class="trips-card-reminder-title">Leave Application</p><p class="trips-card-reminder-sub">' + leaveReminderSubText(t.windowStart, savedDays, savedTime) + '</p></div>' +
               '<button type="button" class="trips-card-reminder-edit" aria-label="Edit"><span class="material-symbols-outlined">edit</span></button>' +
               '<button type="button" class="trips-card-advisor-toggle is-on" aria-label="Toggle reminder"></button>' +
             '</div>' +
@@ -225,8 +668,21 @@
                 return btns;
               })() + '</div>' +
               '<div class="trips-card-booking" data-mode="' + (travelModes[0] || 'car') + '">' +
-                '<span class="material-symbols-outlined trips-card-booking-icon">' + (MODE_ICONS[travelModes[0]] || 'directions_car') + '</span>' +
-                '<p class="trips-card-booking-text">' + (travelModes[0] === 'train' ? getTrainText(t.windowStart) : { flight: 'Remind me when prices drop', bus: 'Ideal booking 30 days prior @ 8:00 AM', car: 'Pre-departure checklist' }[travelModes[0]] || 'Pre-departure checklist') + '</p>' +
+                '<button type="button" class="trips-card-booking-text trips-card-booking-edit-trigger">' + bookingModeContent((travelModes[0] || 'car'), travelPick, bookingTime).text + '</button>' +
+                '<button type="button" class="trips-card-reminder-edit trips-card-booking-date-edit" aria-label="Edit travel day"><span class="material-symbols-outlined">edit</span></button>' +
+              '</div>' +
+              '<div class="trips-card-booking-edit-wrap" style="display:none">' +
+                '<section class="edit-field">' +
+                  '<label class="edit-field-label" for="trips-travel-' + idx + '">Travel day</label>' +
+                  '<input id="trips-travel-' + idx + '" type="date" class="edit-field-input trips-travel-date-input" value="' + travelPick + '" aria-label="Travel day"/>' +
+                '</section>' +
+                '<section class="edit-field">' +
+                  '<label class="edit-field-label" for="trips-book-time-' + idx + '">Booking reminder time</label>' +
+                  '<input id="trips-book-time-' + idx + '" type="time" class="edit-field-input trips-booking-time-input" value="' + bookingTime + '" aria-label="Booking reminder time"/>' +
+                '</section>' +
+                '<div class="trips-card-booking-edit-actions">' +
+                  '<button type="button" class="trips-card-edit-done trips-card-booking-edit-done">Done</button>' +
+                '</div>' +
               '</div>' +
             '</div>' +
             '<div class="trips-card-actions">' +
@@ -242,6 +698,8 @@
         '</div>' +
       '</div>';
     });
+
+    if (tripSettingsDirty) saveTripSettings(allSettings);
 
     if (container) container.innerHTML = html;
 
@@ -278,28 +736,51 @@
       /* Transport mode */
       var transportBtns = card.querySelectorAll('.trips-card-transport-btn');
       var bookingEl = card.querySelector('.trips-card-booking');
-      function getModeContent(mode) {
-        var icons = { flight: 'flight', train: 'train', bus: 'directions_bus', car: 'directions_car' };
-        var texts = { flight: 'Remind me when prices drop', train: getTrainText(trip && trip.windowStart), bus: 'Ideal booking 30 days prior @ 8:00 AM', car: 'Pre-departure checklist' };
-        return { icon: icons[mode] || MODE_ICONS[mode], text: texts[mode] || 'Pre-departure checklist' };
+      function refreshBookingLine() {
+        if (!bookingEl || !trip) return;
+        var tsNow = getTripSettings()[windowStart] || {};
+        var anchor = getEffectiveTravelDepartureDate(trip.windowStart, trip.windowEnd, tsNow);
+        var activeBtn = card.querySelector('.trips-card-transport-btn--active');
+        var mode = activeBtn ? activeBtn.getAttribute('data-mode') : (travelModes[0] || 'car');
+        var content = bookingModeContent(mode, anchor, getEffectiveBookingTime(mode, tsNow));
+        var textEl = bookingEl.querySelector('.trips-card-booking-text');
+        if (textEl) textEl.textContent = content.text;
       }
-      function setTransportActive(btn) {
+      function setTransportActive(btn, opts) {
         transportBtns.forEach(function (b) { b.classList.remove('trips-card-transport-btn--active'); });
         btn.classList.add('trips-card-transport-btn--active');
         var mode = btn.getAttribute('data-mode');
-        var content = getModeContent(mode);
+        var tsAnchor = getTripSettings()[windowStart] || {};
+        var anchor = getEffectiveTravelDepartureDate(trip.windowStart, trip.windowEnd, tsAnchor);
+        var content = bookingModeContent(mode, anchor, getEffectiveBookingTime(mode, tsAnchor));
         if (bookingEl) {
-          var iconEl = bookingEl.querySelector('.trips-card-booking-icon');
           var textEl = bookingEl.querySelector('.trips-card-booking-text');
-          if (iconEl) iconEl.textContent = content.icon;
           if (textEl) textEl.textContent = content.text;
         }
         if (bookingEl) bookingEl.setAttribute('data-mode', mode);
+
+        if (!opts || !opts.skipPersist) {
+          var allSettingsLocal = getTripSettings();
+          var entry = allSettingsLocal[windowStart] || {};
+          entry.mode = mode;
+          allSettingsLocal[windowStart] = entry;
+          saveTripSettings(allSettingsLocal);
+          if (remindersCb && remindersCb.checked) {
+            requestAlarmPermissionsOnce();
+            armBookingAlarm(trip, allSettingsLocal);
+          }
+        }
       }
       transportBtns.forEach(function (btn) {
         btn.addEventListener('pointerdown', function (e) { e.stopPropagation(); setTransportActive(btn); });
         btn.addEventListener('click', function (e) { e.stopPropagation(); setTransportActive(btn); });
       });
+
+      var savedMode = (allSettings[windowStart] && allSettings[windowStart].mode) || null;
+      if (savedMode) {
+        var savedBtn = card.querySelector('.trips-card-transport-btn[data-mode="' + savedMode + '"]');
+        if (savedBtn) setTransportActive(savedBtn, { skipPersist: true });
+      }
 
       /* Actions grid is always visible when card is expanded (no toggle needed) */
 
@@ -321,18 +802,24 @@
           e.stopPropagation();
           var sub = reminderDisplay.querySelector('.trips-card-reminder-sub');
           var tv = editTime.value || '10:00';
-          var p = tv.split(':');
-          var h = parseInt(p[0], 10) || 10;
-          var m = (p[1] || '00').slice(0, 2);
-          var ampm = h < 12 ? 'AM' : 'PM';
-          var h12 = h === 0 ? 12 : (h > 12 ? h - 12 : h);
-          var timeStr = h12 + ':' + m + ' ' + ampm;
           var dv = parseInt(editDays.value, 10) || 30;
-          if (sub) sub.textContent = dv + ' days before • ' + timeStr;
+          if (sub) sub.textContent = leaveReminderSubText(windowStart, dv, tv);
           editWrap.style.display = 'none';
           var settings = getTripSettings();
-          settings[windowStart] = { reminderDays: dv, reminderTime: tv };
+          var prev = settings[windowStart] || {};
+          settings[windowStart] = {
+            reminderDays: dv,
+            reminderTime: tv,
+            mode: prev.mode,
+            travelDepartureDate: prev.travelDepartureDate,
+            bookingReminderTime: prev.bookingReminderTime
+          };
           saveTripSettings(settings);
+          if (remindersCb && remindersCb.checked) {
+            requestAlarmPermissionsOnce();
+            armLeaveAlarm(trip, settings);
+            armBookingAlarm(trip, settings);
+          }
         });
       }
 
@@ -340,15 +827,68 @@
       var remindersCb = card.querySelector('.trips-card-reminders-cb');
       var advisorToggle = card.querySelector('.trips-card-advisor-toggle');
       var transportSection = card.querySelector('.trips-card-transport');
-      function syncRemindersState() {
+      function syncRemindersState(isUserChange) {
         var on = remindersCb && remindersCb.checked;
         if (advisorToggle) advisorToggle.classList.toggle('is-on', on);
         if (transportSection) transportSection.classList.toggle('trips-card-transport--muted', !on);
+        if (on) {
+          if (isUserChange) requestAlarmPermissionsOnce();
+          var s = getTripSettings();
+          armLeaveAlarm(trip, s);
+          armBookingAlarm(trip, s);
+        } else {
+          clearTripAlarms(windowStart);
+        }
       }
       if (remindersCb) {
-        remindersCb.addEventListener('change', syncRemindersState);
-        syncRemindersState();
+        remindersCb.addEventListener('change', function () { syncRemindersState(true); });
+        syncRemindersState(false);
       }
+
+      var bookingDateEditBtn = card.querySelector('.trips-card-booking-date-edit');
+      var bookingTextEditBtn = card.querySelector('.trips-card-booking-edit-trigger');
+      var bookingDateEditWrap = card.querySelector('.trips-card-booking-edit-wrap');
+      var travelInput = bookingDateEditWrap ? bookingDateEditWrap.querySelector('.trips-travel-date-input') : null;
+      var bookingTimeInput = bookingDateEditWrap ? bookingDateEditWrap.querySelector('.trips-booking-time-input') : null;
+      var bookingSaveBtn = bookingDateEditWrap ? bookingDateEditWrap.querySelector('.trips-card-booking-edit-done') : null;
+      function toggleBookingEditor(e) {
+        if (e) e.stopPropagation();
+        if (!bookingDateEditWrap) return;
+        var isHidden = bookingDateEditWrap.style.display === 'none' || bookingDateEditWrap.style.display === '';
+        bookingDateEditWrap.style.display = isHidden ? 'block' : 'none';
+      }
+      function saveBookingEditorValues() {
+        if (!trip || !travelInput || !bookingTimeInput) return null;
+        var v = travelInput.value;
+        if (!v) return null;
+        var bt = bookingTimeInput.value || '08:00';
+        var allS = getTripSettings();
+        var ent = allS[windowStart] || {};
+        var activeBtn = card.querySelector('.trips-card-transport-btn--active');
+        var activeMode = activeBtn ? activeBtn.getAttribute('data-mode') : ((ent.mode && BOOKING_CONFIG[ent.mode]) ? ent.mode : (travelModes[0] || 'car'));
+        if (BOOKING_CONFIG[activeMode]) ent.mode = activeMode;
+        ent.travelDepartureDate = v;
+        ent.bookingReminderTime = bt;
+        allS[windowStart] = ent;
+        saveTripSettings(allS);
+        refreshBookingLine();
+        return allS;
+      }
+      if (bookingDateEditBtn && bookingDateEditWrap && travelInput && bookingTimeInput && trip) {
+        bookingDateEditBtn.addEventListener('click', toggleBookingEditor);
+        if (bookingTextEditBtn) bookingTextEditBtn.addEventListener('click', toggleBookingEditor);
+        if (bookingSaveBtn) bookingSaveBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var updated = saveBookingEditorValues();
+          if (!updated) return;
+          bookingDateEditWrap.style.display = 'none';
+          if (remindersCb && remindersCb.checked) {
+            requestAlarmPermissionsOnce();
+            armBookingAlarm(trip, updated);
+          }
+        });
+      }
+
       card.querySelectorAll('.trips-card-advisor-toggle').forEach(function (tgl) {
         tgl.addEventListener('click', function (e) {
           e.stopPropagation();
@@ -409,6 +949,12 @@
         removeBtn.addEventListener('click', function (e) {
           e.stopPropagation();
           if (!confirm('Remove this trip? The holiday window will remain available for a new destination.')) return;
+          clearTripAlarms(windowStart);
+          var settings = getTripSettings();
+          if (settings[windowStart]) {
+            delete settings[windowStart];
+            saveTripSettings(settings);
+          }
           var allTrips = getConfirmedTrips();
           allTrips = allTrips.filter(function (t) { return t.windowStart !== windowStart; });
           localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(allTrips));
@@ -473,6 +1019,7 @@
 
     var settings = getTripSettings();
     var ts = settings[trip.windowStart] || {};
+    var travelAnchorIso = getEffectiveTravelDepartureDate(trip.windowStart, trip.windowEnd, ts);
     var reminderDays = ts.reminderDays || 30;
     var reminderTime = ts.reminderTime || '10:00';
     var remCb = card ? card.querySelector('.trips-card-reminders-cb') : null;
@@ -504,22 +1051,24 @@
                           bus:   { days: 30, time: '08:00', label: 'Book Bus' },
                           flight:{ days: 45, time: '10:00', label: 'Book Flight' } };
     var bc = mode ? bookingConfig[mode] : null;
-    if (bc && remOn) {
-      var bookDate = dateMinus(trip.windowStart, bc.days);
-      var bp = bc.time.split(':');
+    if (bc && remOn && !isBookingWindowAlreadyOpen(travelAnchorIso, bc)) {
+      var bookingEventTime = getEffectiveBookingTime(mode, ts);
+      var bookDate = dateMinus(travelAnchorIso, bc.days);
+      var bp = bookingEventTime.split(':');
       var bh = parseInt(bp[0], 10);
       var bmm = bp[1] || '00';
       var bampm = bh < 12 ? 'AM' : 'PM';
       var bh12 = bh === 0 ? 12 : (bh > 12 ? bh - 12 : bh);
       var bTimeLabel = bh12 + ':' + bmm + ' ' + bampm;
+      var travelShort = fmtDateShort(new Date(travelAnchorIso + 'T00:00:00'));
       events.push({
         id: 'booking',
         label: bc.label + ' - ' + fmtDateShort(bookDate) + ' at ' + bTimeLabel,
         summary: bc.label + ': ' + dName + ' trip (' + rangeLabel + ')',
-        description: bc.label + ' for your ' + dName + ' trip on ' + rangeLabel,
+        description: bc.label + ' for travel on ' + travelShort + ' — ' + dName + ' (' + rangeLabel + ')',
         allDay: false,
         dateObj: bookDate,
-        time: bc.time
+        time: bookingEventTime
       });
     }
     return events;
@@ -726,6 +1275,7 @@
         var allTrips = getConfirmedTrips();
         var match = allTrips.find(function (t) { return t.windowStart === currentTrip.windowStart; });
         if (match) {
+          var oldStart = match.windowStart;
           match.windowStart = w.start;
           match.windowEnd = w.end;
           match.windowDays = w.days;
@@ -733,6 +1283,14 @@
           match.windowType = w.type;
           match.leaves = w.leaves || 0;
           localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(allTrips));
+          try {
+            var tripSettings = getTripSettings();
+            if (tripSettings[oldStart]) {
+              tripSettings[w.start] = tripSettings[oldStart];
+              delete tripSettings[oldStart];
+              saveTripSettings(tripSettings);
+            }
+          } catch (ex) {}
         }
         overlay.remove();
         populate();
@@ -828,16 +1386,20 @@
     if (imgEl) {
       imgEl.style.backgroundImage = 'none';
       imgEl.style.backgroundColor = 'var(--gray-200)';
-      var detailImg = (d.imageUrl || '').trim();
-      if ((d.isHometown || d.slug === '__hometown__') && !detailImg) detailImg = HOMETOWN_IMAGE_URL;
-      if (detailImg) {
-        var sep = detailImg.indexOf('?') >= 0 ? '&' : '?';
-        var bust = detailImg + sep + '_t=' + Date.now();
-        imgEl.style.backgroundImage = 'url("' + bust.replace(/"/g, '%22') + '")';
-        imgEl.style.backgroundColor = 'transparent';
-      }
+      var detailImg = tripCardImageUrl(d);
+      var sep = detailImg.indexOf('?') >= 0 ? '&' : '?';
+      var bust = detailImg + sep + '_t=' + Date.now();
+      imgEl.style.backgroundImage = 'url("' + bust.replace(/"/g, '%22') + '")';
+      imgEl.style.backgroundColor = 'transparent';
     }
-    if (catEl) catEl.textContent = (d.isHometown || d.slug === '__hometown__') ? 'Hometown visit' : (d.category || '');
+    if (catEl) {
+      var catShow = '';
+      if (d.isHometown || d.slug === '__hometown__') catShow = 'Hometown visit';
+      else if (d.categories && d.categories.length) catShow = d.categories.join(' · ');
+      else if (Array.isArray(d.category)) catShow = d.category.join(' · ');
+      else catShow = d.category || '';
+      catEl.textContent = catShow;
+    }
     var descHtml = (d.isHometown || d.slug === '__hometown__')
       ? ('<p>Family time in your hometown.' +
           ((trip.leaves || 0) > 0
@@ -918,9 +1480,52 @@
 
   window.addEventListener('storage', function (e) {
     if (e.key === CONFIRMED_TRIPS_KEY) populate();
+    if (e.key === ADVISOR_DATA_KEY) {
+      try { syncHolidayPlanningNotifications(); } catch (_) {}
+    }
   });
 
   document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === 'visible') populate();
   });
+
+  /* Expose the holiday-planning notifier and trip reconciler so the calendar
+     advisor can refresh both in-place right after recomputing bridges. This
+     keeps alarms cancelled as soon as a window is removed (unselected
+     bridge, unfavorited gift, advisor recompute, etc.) instead of waiting
+     for the next visit to the Trips page. */
+  window.HolidayHacker = window.HolidayHacker || {};
+  window.HolidayHacker.syncHolidayPlanningNotifications = syncHolidayPlanningNotifications;
+  window.HolidayHacker.reconcileConfirmedTripsAndAlarms = function () {
+    try { syncConfirmedTrips(); } catch (_) {}
+  };
+
+  /* ───────── Pending re-arm handoff from the Holidays-edit flow ─────────
+   *
+   * When the user edits a holiday date in /holidays/, holiday-shift.js
+   * (loaded on both pages) updates the trip's windowStart/windowEnd in
+   * localStorage and cancels the old native alarms immediately so they
+   * don't fire at the wrong time. It also pushes the new windowStart(s)
+   * into PENDING_REARM_KEY. Next time we land on /trips/, populate() runs,
+   * we drain that queue and re-arm every leave/booking/heads-up alarm at
+   * the new dates using the full trips.js scheduling logic. */
+  var PENDING_REARM_KEY = 'holidayHacker_pendingTripRearm';
+  function drainPendingRearm() {
+    var pending;
+    try { pending = JSON.parse(localStorage.getItem(PENDING_REARM_KEY) || '[]'); }
+    catch (_) { pending = []; }
+    if (!pending || !pending.length) return;
+    var trips = getConfirmedTrips();
+    var settings = getTripSettings();
+    var byStart = {};
+    trips.forEach(function (t) { if (t && t.windowStart) byStart[t.windowStart] = t; });
+    pending.forEach(function (ws) {
+      var trip = byStart[ws];
+      if (!trip) return;
+      try { armLeaveAlarm(trip, settings); } catch (_) {}
+      try { armBookingAlarm(trip, settings); } catch (_) {}
+    });
+    try { localStorage.removeItem(PENDING_REARM_KEY); } catch (_) {}
+  }
+  window.HolidayHacker.drainPendingRearm = drainPendingRearm;
 })();

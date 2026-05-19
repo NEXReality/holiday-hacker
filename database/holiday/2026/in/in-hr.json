@@ -1,0 +1,55 @@
+{
+  "stateCode": "IN-HR",
+  "stateName": "Haryana",
+  "year": 2026,
+  "indiaRegion": "North",
+  "adminType": "state",
+  "incredibleIndiaSlug": "haryana",
+  "holidayJsonSlug": "in-hr",
+  "holidays": [
+    { "date": "2026-01-23", "name": "Sir Chhotu Ram Jayanti / Basant Panchami", "type": "gazetted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-12", "name": "Guru Brahmanand Jayanti / Maharishi Dayanand Saraswati Jayanti(with State Celebration)", "type": "restricted" },
+
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-23", "name": "Shaheedi Diwas/ Martyrdom day of Bhagat Singh, Rajguru & Sukhdev", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Dr. B.R. Ambedkar Jayanti / Vaisakhi", "type": "gazetted" },
+
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "restricted" },
+    { "date": "2026-05-25", "name": "Maharishi Kayshap Jayanti", "type": "restricted" },
+    { "date": "2026-05-27", "name": "Id-Ul-Zuha (Bakrid)", "type": "gazetted" },
+
+    { "date": "2026-06-17", "name": "Maharana Pratap Jayanti", "type": "gazetted" },
+    { "date": "2026-06-18", "name": "Guru Arjan Dev's Martyrdom Day", "type": "restricted" },
+    { "date": "2026-06-26", "name": "Muharram", "type": "restricted" },
+    { "date": "2026-06-29", "name": "Sant Kabir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-07-31", "name": "Shaheed Udham Singh Martyrdom Day", "type": "gazetted" },
+
+    { "date": "2026-08-15", "name": "Hariyali Teej", "type": "restricted" },
+    { "date": "2026-08-26", "name": "Milad-un-Nabi or Id-E-Milad (Birth of Prophet Mohammad)", "type": "restricted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "gazetted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-23", "name": "Shaheed Divas / Haryana War Heroes's Martyrdom Day", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi Jayanti", "type": "gazetted" },
+    { "date": "2026-10-20", "name": "Dussehra", "type": "gazetted" },
+    { "date": "2026-10-26", "name": "Maharishi Valmiki Jayanti", "type": "gazetted" },
+    { "date": "2026-10-29", "name": "Karva Chauth", "type": "restricted" },
+
+    { "date": "2026-11-09", "name": "Goverdhan Puja", "type": "restricted" },
+    { "date": "2026-11-09", "name": "Vishwakarma Day", "type": "gazetted" },
+    { "date": "2026-11-15", "name": "Chhath Puja", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Nanak Dev Jayanti", "type": "gazetted" },
+
+    { "date": "2026-12-14", "name": "Guru Teg Bahadur's Martyrdom Day", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" },
+    { "date": "2026-12-26", "name": "Shaheed Udham Singh's Jayanti", "type": "restricted" }
+  ]
+}

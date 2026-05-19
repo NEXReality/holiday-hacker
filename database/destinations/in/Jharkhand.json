@@ -1,0 +1,3935 @@
+{
+  "state": "Jharkhand",
+  "state_code": "JH",
+  "generated_at": "2026-05-18T10:47:38.359Z",
+  "count": 13,
+  "destinations": [
+    {
+      "slug": "jharkhand-betla-national-park",
+      "name": "Betla National Park",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.8878,
+        "lon": 84.1901,
+        "source": "wikidata"
+      },
+      "description": "**Betla National Park** is in Jharkhand , India.",
+      "category": "nature_reserve",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Betla_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Betla_National_Park",
+        "wikidata": "https://www.wikidata.org/wiki/Q2663264"
+      },
+      "distance_km": 1398,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Palamau National Park"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca_mulatta_in_Guiyang.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca%20mulatta%20in%20Guiyang.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 165,
+          "note": "Patna (~220 km road) stacks alternate charter tails—Palamu valley merges thicken winter safari quotas"
+        },
+        "nearest_railway_station": {
+          "name": "Daltonganj railway station",
+          "distance_km": 25,
+          "note": "Betla gate village sits south along NH—Latehar forest belts random checkpoint drills"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 16880,
+        "content_richness_score": 0.121
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "One of India's first national parks, it was formed primarily for the protection of tigers, in the Latehar and Palamu district of Jharkhand, India. It is spread over an area of 226.32 km 2 (87.38 sq mi). It was declared a national park in 1986. The tourist zone area is 53 km 2 (20 sq mi) in the buffer zone.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Betla village (at 23.8878°N 84.190139°ECoordinates: 23.8878°N 84.190139°E) is the only entry point to the park. The village is situated 25 road-km south of Daltonganj, 65 road-km northwest of Latehar and 170 road-km northwest of Ranchi.\r\n\n\r\n By plane The nearest airport, Ranchi, is connected by daily flights to all major Indian cities. Patna airport is around 250 road-km from Betla. Most resorts have pick-ups facilities. Jharkhand Tourism also arranges pick-ups on advance notice.\r\n\n\r\n By rail The nearest railway station to Betla is at Barwadih Junction, which is 15 km away by taxi or bus. The station features connections from Daltonganj , Latehar , Ranchi , Sasaram , Gaya , Patna , Varanasi , Prayagraj , Kolkata , Bhopal , Delhi and Amritsar .\r\n\n\r\n By road 10 road-km southeast of Daltonganj leave the NH75 to take the 15 km to Betla on a secondary road.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:35.348Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Betla National Park Wildlife & nature One of India's first national parks, it was formed primarily for the protection of tigers, in the Latehar and Palamu district of Jharkhand, India. It is spread over an area of 226.32 km 2 (87.38 sq mi). It was declared a national park in 1986. The tourist zone area is 53 km 2 (20 sq mi) in the buffer zone. Betla National Park is in Jharkhand , India.",
+      "travel_facts": {
+        "summary": "**Betla** hinges **Daltonganj (~25 km)** Palamu rails beneath **IXR (~165 km)** charter stacks—Moist Peninsular forest belts bias jeep safari queues knowing NH merges thicken coal-corridor dust peaks.",
+        "keywords": [
+          "daltonganj palamu rails",
+          "ixr charter stacks",
+          "moist peninsular belts",
+          "jeep safari quotas",
+          "palamu checkpoint drills",
+          "nh coal corridor dust"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-bokaro-steel-city",
+      "name": "Bokaro Steel City",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.67,
+        "lon": 86.15,
+        "source": "wikidata"
+      },
+      "description": "**Bokaro Steel City** is a city in Jharkhand and one of the most important industrial cities in the Eastern Region. Population of the urban area is more than 1,000,000 with area above than 200 km 2 . The city is very well planned and systematic, with wide 4- to 6-lane roads across the city, a good sewage system, 24-hour electricity supply and the greenest environment in the region. Bokaro is famous for its steel plant, which is the biggest in Asia, as well as for its quality educational system. It is also a popular tourist destination for people from Eastern Region and also foreigners.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bokaro_Steel_City",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bokaro_Steel_City",
+        "wikidata": "https://www.wikidata.org/wiki/Q861827"
+      },
+      "distance_km": 1492,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Bokaro"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/City_park_-_Bokara_Steel_City.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bokaro%20Steel%20City%20at%20Night%20.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 126,
+          "note": "NH23 apron hops—industrial smog stacks thicken winter inversion drills"
+        },
+        "nearest_railway_station": {
+          "name": "Bokaro Steel City railway station",
+          "distance_km": 4,
+          "note": "Grand Chord feeders toward Kolkata—coal corridor expresses thicken festival peaks"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 79147,
+        "content_richness_score": 0.565
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Bokaro Steel City railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Bokaro_Steel_City_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Bokaro Steel City railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Bokaro_Steel_City_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By train Bokaro is well connected through rail to all parts of India. There few trains from southern states. The connecting trains are available.\r\n\n\r\n 1 **Bokaro Steel City railway station** .  ( updated Dec 2019 ) \r\n By car Bokaro Steel City is at the junction of NH-32 and NH-23 which link it to the state capital Ranchi , Patna , Jamshedpur , Dhanbad and other major towns. NH-2 (GT Road) is just 50 km away from the city. Other state highways connect the city to nearby regions. Bokaro is connected through direct 2 Volvo service providers to Kolkata . The city has 3 bus terminals from where more than 1,000 buses/mini buses arrive and depart in all directions.\r\n\n\r\n By plane Bokaro has an air strip reserved for private use of Steel Authority of India Limited (SAIL). The nearest commercial airport is at Ranchi , a distance of 120 km. There is a civil airport at Dhanbad .\r\n\nBest season: October to March.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Aaiyappa Mandir",
+              "description": "It is an important social, cultural and religious meeting place for people from the south.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.66551,
+                "lon": 86.16755
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Babudih",
+              "description": "A village in Chas Block famous for 75 foot (23 m) high tower.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Bokaro Ispat Pustakalaya",
+              "description": "Has a collection of over 40,000 books (including some valuable manuscript) that meets the reading requirements of the people in the township. It is managed by the management of the steel plant.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Bokaro Steel Plant",
+              "description": "One of the largest steel mills in the country, with an output capacity of more than five million tonnes of salable steel. It's a fully integrated steel plant; hence, a visit here will give you a first hand experience of steel-making from raw material handling, coke ovens, blast furnace to steel melting shops and rolling mills where you see the finished product.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.68468,
+                "lon": 86.10104
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Bokaro Thermal",
+              "description": "This is the home of the oldest thermal power plant in Asia, started in 1952 in collaboration with USA and West Germany by the then Prime Minister of the country Pandit Jawaharlal Nehru.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.78538,
+                "lon": 85.87581
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Chandrapura",
+              "description": "A town famous for Chandrapura Thermal Power Station, a unit of Damodar Valley Corporation. It was a big source of pollution for the adjoining areas owing to the coal based generators, but things changed after electrostatic precipitators were installed in the chimneys, and large scale afforestation was carried out. The town lies on the northern edge of the Damodar river. The Chandrapura Railway Station is a small but beautifully designed Railway Station.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Chas",
+              "description": "Once a small grain trading hub of the region, this town first became famous during the Second World War when the British Government used it as a base to supply soldiers fighting on the eastern front against the Japanese. After the decision of Government of India to establish the Bokaro Steel Plant it gained in stature. It was the administrative headquarters of the area when Bokaro was a part of Dhanbad district, and later when Bokaro became a district. The headquarters have been moved to the steel township. Chas continues to be a trading hub, but has declined in importance after the rise of the township to the west.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Chira Chas",
+              "description": "This area is real estate hub for the City. Many New colonies came up at this place.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.6583,
+                "lon": 86.17645
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "City Centre, Sector 4",
+              "description": "The city centre is the main shopping district of the city. The difference of this market and most other major markets in Indian cities happens to be the planning of the market. There is ample parking space, and the approach roads, as well as those inside the market are wide. The place houses almost all major Indian banks, has the best shops in the city for clothing, electronics, and the best food joints. You can find anything from a needle to a car in the market. It used to be home for the only cinema theaters in the city, but only two of them (Jeetendra and Pali Plaza) is operational now. The latest comers to the market are coaching institutes, small clinics, and hospitals. Their rate of growth shows the demand these services have in the city.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "City Park",
+              "description": "Bokaro has a well maintained City Park with an artificial lake. Three artificial islands have been added. These islands were designed in Japanese style. The park used to have some small animals but they were all transferred to the Jawaharlal Botanical Garden in the early 90s. There is a small guest house that is used to host parties for visiting dignitaries. A small restaurant also stands at the eastern edge of the lake. There is a small toy train that is run for some time early every year. The park hosts an annual Basant Mela (Spring Fiesta) in early February. The southern part of the park is used by thousands during the annual Chhatth puja in October/November. A new small beautiful park was opened in 2007 to make city park more beautiful and make people more enjoy chat new year picnic.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.65477,
+                "lon": 86.15355
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Garga Dam",
+              "description": "It is a famous picnic spot for the denizens of Bokaro. Lustrous green surroundings and variety of aquatic habitat residing in and around Garga Dam lures the school excursions and biological expeditions to this place. This dam is constructed for the use of steel plant as well as for the water supply for its people.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.63188,
+                "lon": 86.06953
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Gayatri Mandir",
+              "description": "People use to visit the place during the morning and evening time for the daily prayer. Navmi puja at Gayatri mandir is also famous. Khichri is distributed as the prasad on the occasion of Navmi puja.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.66456,
+                "lon": 86.07476
+              },
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Gawai Dam",
+              "description": "A good picnic spot near Pindrajora on Purulia road. It is 15 km from the city. The picnic spot is likable because of the flow of a stream due to leaving of water from the dam.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 14,
+              "name": "Ghaus Nagar",
+              "description": "This area is a suburb where people from different part of Bihar living and working in Bokaro Steel Plant. Some people who are retired from Bokaro Steel City are also settled permanently.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.65013,
+                "lon": 86.16959
+              },
+              "price": null
+            },
+            {
+              "order": 15,
+              "name": "Jainamore",
+              "description": "One of the 42 villages in Jaridih block of Bokaro. It is on the NH-23 at a distance of around 7 km away from the Bokaro Steel City Railway Station. Close to Jainamore is the Garga Dam on the river Garga which passes through Bokaro. The dam is a popular tourist and picnic spot and known for its scenic surroundings.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 16,
+              "name": "Jagannath Temple",
+              "description": "The newly built Jagannath temple is another attraction. The temple is a replica of the famous temple in Puri, Odisha.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.67821,
+                "lon": 86.15398
+              },
+              "price": null
+            },
+            {
+              "order": 17,
+              "name": "Jawaharlal Nehru Biological Park",
+              "description": "The biggest zoological garden in Jharkhand was built in the late 1980s and early 1990s. It has animals and birds from different parts of the world, with the big cats being the biggest attractions. The zoo came into limelight after multiple breedings of white tigers, Royal Bengal tigers, and the Asiatic lion over a short span of time. The cubs were sent to different zoos in India and abroad, since the available resources were not good enough to cater to the needs of so many big cats. Boating is allowed in the artificial lake created within the park. There is also a kids corner near bear cage and adjacent to it is a small dam. Now the facility of toy train is also available inside.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.68148,
+                "lon": 86.15281
+              },
+              "price": null
+            },
+            {
+              "order": 18,
+              "name": "Kali Mandir",
+              "description": "Located in sector 8, it is one of the oldest temples of the city. As the name suggests, the temple is dedicated to one of the incarnations of Shakti, Goddess Kali. Besides the religious activities it is also a major socializing place for the Bengalis of the city. The temple organizes an annual painting competition attended by hundreds of students from the schools of the city.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.64372,
+                "lon": 86.13089
+              },
+              "price": null
+            },
+            {
+              "order": 19,
+              "name": "Mohan Kumar Mangalam Stadium",
+              "description": "It is a very well maintained stadium by SAIL having a capacity of 30000. It is also the training centre and headquarters of SAIL football academy. It comes lively on 14th November when Children's Day function is celebrated on its grounds with colourful dance and cultural programmes from the various schools of Bokaro.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.66747,
+                "lon": 86.15673
+              },
+              "price": null
+            },
+            {
+              "order": 20,
+              "name": "Noori Masjid",
+              "description": "It is the biggest mosque in the city where the Muslims come for tubliq.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.65523,
+                "lon": 86.16705
+              },
+              "price": null
+            },
+            {
+              "order": 21,
+              "name": "Pupunki Ashram",
+              "description": "The last Kasba in the Bokaro Dhanbad route is Pupunki. The village, along with its fields and captive fishery ponds is squeezed between NH-32, Bokaro-Chandrapura Railway line and the Damodar river. Opposite to this village across the NH-32 is the pious Pupunki Ashram \"The Multiversity\". Established by Akhanda Mandaleshwer Sri Sri Swami Swarupananda Paramhansha Deva, popularly Known as Babamani. This Ashram was an age old home for Gurus who used to harbour Gaushalas with 100s of students being imparted scientific and spiritual knowledge in the past. One can still see the remnants of the past with many rituals still intact in this Ashram. This place is also a popular picnic spot these days.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 22,
+              "name": "Ram Mandir",
+              "description": "It is the most famous mandir dedicated to Lord Ram and other smaller mandirs. Other gods and goddesses include Hanuman Mandir, Radha Krishna Mandir, Shiv Parivar Mandir, Durga Mandir, Surya Mandir, Kali Mandir, Lord Venkateshwar Mandir, Shiv Mandir, and Sheetala Mandir. Ram Mandir was established in 1967-68 by the late Founder Secretary Pt. Parma Nand Tripathi, a great labor leader. The mandir houses a rich Dharmik library and Rishi Niwas. All festivals, pravachan, Kirtan, functions, and celebrations are organized by the Shree Ram Mandir Trust. Also, the poor arrange more than 250 marriages in a year in the Ram Mandir campus at a very low cost. The Ram Mandir market is also famous for its coffee house, batata poori, chat, samosa, phuchka, and famous egg-rolls. Ram Mandir houses one of the oldest markets of Bokaro. The airport is one kilometer from Ram Mandir.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.65139,
+                "lon": 86.13865
+              },
+              "price": null
+            },
+            {
+              "order": 23,
+              "name": "Siwandih",
+              "description": "A suburb which houses a large number of migrants from Bihar living and working in the Steel mill. The area is situated in western part of Bokaro near the Bokaro Railway Station. The Garga Dam is nearby to this place. Azad Nagar is an area in Siwandih two mosques are there in this area. Two of big Idgah one in Millat Nager is also in this area for Muslims prayer for ID and IDU'L Zuha. Popular neighborhoods in Siwandih are Bansgora, Islampur, Makhdumpur,Millat Nager and Haisabatu.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.63977,
+                "lon": 86.10687
+              },
+              "price": null
+            },
+            {
+              "order": 24,
+              "name": "Tenughat",
+              "description": "Tenughat is famous for Tenughat Dam and Tenughat Thermal Power Station. A canal too runs through the region.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Aaiyappa Mandir** ( in sector 5 ). It is an important social, cultural and religious meeting place for people from the south.   \r\n **Babudih**. A village in Chas Block famous for 75 foot (23 m) high tower.   \r\n **Bokaro Ispat Pustakalaya** ( near Bokaro Hotel. ). Has a collection of over 40,000 books (including some valuable manuscript) that meets the reading requirements of the people in the township. It is managed by the management of the steel plant.   \r\n 2 **Bokaro Steel Plant**. One of the largest steel mills in the country, with an output capacity of more than five million tonnes of salable steel. It's a fully integrated steel plant; hence, a visit here will give you a first hand experience of steel-making from raw material handling, coke ovens, blast furnace to steel melting shops and rolling mills where you see the finished product.   \r\n 3 **Bokaro Thermal**. This is the home of the oldest thermal power plant in Asia, started in 1952 in collaboration with USA and West Germany by the then Prime Minister of the country Pandit Jawaharlal Nehru.   \r\n **Chandrapura**. A town famous for Chandrapura Thermal Power Station, a unit of Damodar Valley Corporation. It was a big source of pollution for the adjoining areas owing to the coal based generators, but things changed after electrostatic precipitators were installed in the chimneys, and large scale afforestation was carried out. The town lies on the northern edge of the Damodar river. The Chandrapura Railway Station is a small but beautifully designed Railway Station.   \r\n **Chas**. Once a small grain trading hub of the region, this town first became famous during the Second World War when the British Government used it as a base to supply soldiers fighting on the eastern front against the Japanese. After the decision of Government of India to establish the Bokaro Steel Plant it gained in stature. It was the administrative headquarters of the area when Bokaro was a part of Dhanbad district, and later when Bokaro became a district. The headquarters have been moved to the steel township. Chas continues to be a trading hub, but has declined in importance after the rise of the township to the west.   \r\n 4 **Chira Chas**. This area is real estate hub for the City. Many New colonies came up at this place.   \r\n **City Centre, Sector 4**. The city centre is the main shopping district of the city. The difference of this market and most other major markets in Indian cities happens to be the planning of the market. There is ample parking space, and the approach roads, as well as those inside the market are wide. The place houses almost all major Indian banks, has the best shops in the city for clothing, electronics, and the best food joints. You can find anything from a needle to a car in the market. It used to be home for the only cinema theaters in the city, but only two of them (Jeetendra and Pali Plaza) is operational now. The latest comers to the market are coaching institutes, small clinics, and hospitals. Their rate of growth shows the demand these services have in the city.   \r\n 5 **City Park**. Bokaro has a well maintained City Park with an artificial lake. Three artificial islands have been added. These islands were designed in Japanese style. The park used to have some small animals but they were all transferred to the Jawaharlal Botanical Garden in the early 90s. There is a small guest house that is used to host parties for visiting dignitaries. A small restaurant also stands at the eastern edge of the lake. There is a small toy train that is run for some time early every year. The park hosts an annual Basant Mela (Spring Fiesta) in early February. The southern part of the park is used by thousands during the annual Chhatth puja in October/November. A new small beautiful park was opened in 2007 to make city park more beautiful and make people more enjoy chat new year picnic.   \r\n 6 **Garga Dam** ( near Bokaro Steel City (about 12 km from city centre). ). It is a famous picnic spot for the denizens of Bokaro. Lustrous green surroundings and variety of aquatic habitat residing in and around Garga Dam lures the school excursions and biological expeditions to this place. This dam is constructed for the use of steel plant as well as for the water supply for its people.   \r\n 7 **Gayatri Mandir** ( in Sector-9/A. ). People use to visit the place during the morning and evening time for the daily prayer. Navmi puja at Gayatri mandir is also famous. Khichri is distributed as the prasad on the occasion of Navmi puja.   \r\n **Gawai Dam**. A good picnic spot near Pindrajora on Purulia road. It is 15 km from the city. The picnic spot is likable because of the flow of a stream due to leaving of water from the dam.   \r\n 8 **Ghaus Nagar** ( Ghousnagar Colony ), Chas ( Bokaro Steel City ). This area is a suburb where people from different part of Bihar living and working in Bokaro Steel Plant. Some people who are retired from Bokaro Steel City are also settled permanently.   \r\n **Jainamore**. One of the 42 villages in Jaridih block of Bokaro. It is on the NH-23 at a distance of around 7 km away from the Bokaro Steel City Railway Station. Close to Jainamore is the Garga Dam on the river Garga which passes through Bokaro. The dam is a popular tourist and picnic spot and known for its scenic surroundings.   \r\n 9 **Jagannath Temple** ( Located in Sector 4 ). The newly built Jagannath temple is another attraction. The temple is a replica of the famous temple in Puri, Odisha.   \r\n 10 **Jawaharlal Nehru Biological Park**. The biggest zoological garden in Jharkhand was built in the late 1980s and early 1990s. It has animals and birds from different parts of the world, with the big cats being the biggest attractions. The zoo came into limelight after multiple breedings of white tigers, Royal Bengal tigers, and the Asiatic lion over a short span of time. The cubs were sent to different zoos in India and abroad, since the available resources were not good enough to cater to the needs of so many big cats. Boating is allowed in the artificial lake created within the park. There is also a kids corner near bear cage and adjacent to it is a small dam. Now the facility of toy train is also available inside.   \r\n 11 **Kali Mandir**. Located in sector 8, it is one of the oldest temples of the city. As the name suggests, the temple is dedicated to one of the incarnations of Shakti, Goddess Kali. Besides the religious activities it is also a major socializing place for the Bengalis of the city. The temple organizes an annual painting competition attended by hundreds of students from the schools of the city.   \r\n 12 **Mohan Kumar Mangalam Stadium**. It is a very well maintained stadium by SAIL having a capacity of 30000. It is also the training centre and headquarters of SAIL football academy. It comes lively on 14th November when Children's Day function is celebrated on its grounds with colourful dance and cultural programmes from the various schools of Bokaro.   \r\n 13 **Noori Masjid** ( situated in sector 4 ). It is the biggest mosque in the city where the Muslims come for tubliq.   \r\n **Pupunki Ashram**. The last Kasba in the Bokaro Dhanbad route is Pupunki. The village, along with its fields and captive fishery ponds is squeezed between NH-32, Bokaro-Chandrapura Railway line and the Damodar river. Opposite to this village across the NH-32 is the pious Pupunki Ashram \"The Multiversity\". Established by Akhanda Mandaleshwer Sri Sri Swami Swarupananda Paramhansha Deva, popularly Known as Babamani. This Ashram was an age old home for Gurus who used to harbour Gaushalas with 100s of students being imparted scientific and spiritual knowledge in the past. One can still see the remnants of the past with many rituals still intact in this Ashram. This place is also a popular picnic spot these days.   \r\n 14 **Ram Mandir** ( in sector 1 ). It is the most famous mandir dedicated to Lord Ram and other smaller mandirs. Other gods and goddesses include Hanuman Mandir, Radha Krishna Mandir, Shiv Parivar Mandir, Durga Mandir, Surya Mandir, Kali Mandir, Lord Venkateshwar Mandir, Shiv Mandir, and Sheetala Mandir. Ram Mandir was established in 1967-68 by the late Founder Secretary Pt. Parma Nand Tripathi, a great labor leader. The mandir houses a rich Dharmik library and Rishi Niwas. All festivals, pravachan, Kirtan, functions, and celebrations are organized by the Shree Ram Mandir Trust. Also, the poor arrange more than 250 marriages in a year in the Ram Mandir campus at a very low cost. The Ram Mandir market is also famous for its coffee house, batata poori, chat, samosa, phuchka, and famous egg-rolls. Ram Mandir houses one of the oldest markets of Bokaro. The airport is one kilometer from Ram Mandir.   \r\n 15 **Siwandih**. A suburb which houses a large number of migrants from Bihar living and working in the Steel mill. The area is situated in western part of Bokaro near the Bokaro Railway Station. The Garga Dam is nearby to this place. Azad Nagar is an area in Siwandih two mosques are there in this area. Two of big Idgah one in Millat Nager is also in this area for Muslims prayer for ID and IDU'L Zuha. Popular neighborhoods in Siwandih are Bansgora, Islampur, Makhdumpur,Millat Nager and Haisabatu.   \r\n **Tenughat**. Tenughat is famous for Tenughat Dam and Tenughat Thermal Power Station. A canal too runs through the region.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "The best time to visit Bokaro is from October till March. One can enjoy the festivities through Durga Puja, Diwali, Christmas and the new year which the city celebrates with great fervour.\r\nBokaro can boast of several beautiful lakes and picnic spots in its vicinity and citizens of Bokaro are known for their fascination for picnics, which are organized by Bokaro Steel plant Departments, housing societies and individuals in the months of December till January. The Garga Dam, in particular (Near Bokaro Railway station/Balidih) is one of the favourite picnic spots for city's denizens. \r\nNature lovers can find solace in the city's wide sprawling roads, lined with luscious green trees, and the city park. Those who love shopping can visit the vast shopping arcades of City Centre, Sector 4. \r\nOrganizations such as Quality circle (BSL) regularly host plays at community centres, located in each of the sectors. \r\nIf you want to get a taste of small town India, which is rapidly evolving along the by lanes of development and prosperity, come to Bokaro. You would not be disappointed.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Authorized Permit rooms at:\r\n\n\r\n **Hans Regency**.   \r\n **Hotel Classic**.   \r\n **Hotel Blue Diamond**.   \r\n **Hotel Reliance**.   \r\n **Hotel Yamuna Villa**, chas .   \r\n **Rainbow**.   \r\n **Saki Restaurant**, Chas .   \r\n **Vasant Vihar**."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Blue Diamond",
+              "description": "TV, AC, free WiFi, refrigerator, and a king-sized bed.",
+              "price": null
+            },
+            {
+              "name": "Hotel Classic",
+              "description": "",
+              "price": "₹1100-1700"
+            },
+            {
+              "name": "Hotel Hans Regency",
+              "description": "",
+              "price": "₹1825-2425"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:36.197Z"
+      },
+      "search_context": "City / Urban Bokaro Steel City Sightseeing Bokaro Steel City is a city in Jharkhand and one of the most important industrial cities in the Eastern Region. Population of the urban area is more than 1,000,000 with area above than 200 km 2 . The city is very well planned and systematic, with wide 4- to 6-lane roads across the city, a good sewage system, 24-hour el",
+      "travel_facts": {
+        "summary": "**Bokaro Steel City** sits **Bokaro Steel City (~4 km)** chord meshes beneath **IXR (~126 km)** NH23 stacks—planned township grids bias Tata-sector taxis knowing NH32 mergers absorb Maithon-bound Volvo tides.",
+        "keywords": [
+          "bokaro chord meshes",
+          "ixr nh23 stacks",
+          "tata sector taxis",
+          "nh32 maithon merges",
+          "grand chord kolkata feeds",
+          "jharia coal expresses"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-dassam-falls",
+      "name": "Dassam Falls",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.14336,
+        "lon": 85.46644,
+        "source": "wikidata"
+      },
+      "description": "The **Dasam Falls** (Hindi/दासम झरना/) is the collective name for _cascade_ type waterfalls Ranchi . They form the southern end of the Kanchi River.\r\n\nDasam Falls is famed for its beauty and as a valuable source of hydroelectric power. Balancing recreational and commercial uses has been a challenge for the stewards of the falls since the 1930s.\r\n\nThis Dasam waterfall is formed when the river Abe of **Swarnekhara** falls from a height of 144 ft (44 m) flowing from the plateau of southern Chhotanagpur plateau or Ranchi. If you want to see Leela of the mountains of Jharkhand, this place is the best, which at first glance really looks like the Himalayan valleys. Forests are forests all around and the waterfall of the spring is quite deep. At rainy time, it takes a very frightening look.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dassam_Falls",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dassam_Falls",
+        "wikidata": "https://www.wikidata.org/wiki/Q37918"
+      },
+      "distance_km": 1403,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dassam%20falls.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 42,
+          "note": "NH33 merges toward Jamshedpur—last-mile hop taxis thicken monsoon Kanchi gorge slips"
+        },
+        "nearest_railway_station": {
+          "name": "Ranchi Junction railway station",
+          "distance_km": 38,
+          "note": "Shared taxis finish cascade viewpoints—Hatia expresses thicken Ranchi plateau peaks"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 9763,
+        "content_richness_score": 0.07
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "With the elevation height of 336 metres (1,102 ft) and the total height of 44 metres.\r\n\nThe name is derived from the local Mundari word Da Song. In the Mundari language , _da_ means the means of water and the conjugation, i.e. pouring water. Due to the event of water emanating from the nature, the locals would have given such a name, but today all it is called Dasam is in place of Da Song.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "This waterfall is close to the city Ranchi, so if you want to come from other states, it will be good to come first to Ranchi. From there you will have to move NH-33 on the route going to Jamshedpur by bus. Then a private vehicle will be accessible to NH-33 only because public transport is not available there. \r\n\nDasam Falls is about 400 km from Kolkata . National Highway No. 33 or 30 km from Ranchi on NH-33 is a village, 100 km north from Jamshedpur and a village - Tamara.\r\n\nThen 10 km west of Taimara is towards the west - Dasam Falls Bundu is the closest subdivision, 25 km away from here. Earlier this area was in Ranchi district but in the meantime the peg has arrived in the district. Some rural settlements get in the way from the main road, then the road passing through the thick forest leads directly to the tenth floor. If you leave from Jamshedpur, 38 km east of this region is a famous Diwari temple at the place called Tamad.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Dasam Falls are both a daytime and evening attraction. In the evening the beauty of the fall is outstanding on full-moon nights. At night, floodlights illuminate both sides of the falls for several hours after dark (until midnight). More than 6.7 million tourists visit each year.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "The oldest and best known tourist attraction at Dasam Falls is the \"Maid of the Mist\" boat.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:37.031Z"
+      },
+      "search_context": "Mountain / Hills Dassam Falls Sightseeing With the elevation height of 336 metres (1,102 ft) and the total height of 44 metres. The name is derived from the local Mundari word Da Song. In the Mundari language , _da_ means the means of water and the conjugation, i.e. pouring water. Due to the event of water emanating from the nature, the locals would have given such a name, but today all it is called Dasam is in place of Da Song. The Dasam Falls (Hindi/दासम झरना/) is the collective name for _cascade_ type waterfalls Ranchi . They form the southern end of the Kanchi River. Dasam Falls is famed for its beauty and as a valuable source of hydroelectric power. Balancing recreational and commercial uses has been a challenge for the stewards of the fa",
+      "travel_facts": {
+        "summary": "**Dassam Falls** threads **Ranchi Junction (~38 km)** plateau ribbons toward **IXR (~42 km)** NH33 stacks—private hop taxis bias monsoon Kanchi merges knowing public buses stall before final gorge climbs.",
+        "keywords": [
+          "ranchi plateau ribbons",
+          "ixr nh33 stacks",
+          "kanchi cascade merges",
+          "monsoon gorge taxis",
+          "hatia express tides",
+          "jharkhand waterfall hops"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-deoghar",
+      "name": "Deoghar",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 24.48,
+        "lon": 86.7,
+        "source": "wikidata"
+      },
+      "description": "**Deoghar** (देवघर _Devghar_), also called **Baidyanath Dham**, is a Hindu pilgrimage town in Jharkhand . It is famous for the Baidyanath (Shiva) temple.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Deoghar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Deoghar",
+        "wikidata": "https://www.wikidata.org/wiki/Q1192453"
+      },
+      "distance_km": 1598,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deoghar_railway_station.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naulakkha%20Temple%20-%20Deoghar%20-%20Jharkhand%20(5).jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Deoghar Airport",
+          "code": "DGH",
+          "distance_km": 12,
+          "note": "Kolkata starters bias charter stacks—Sawan jyotirlinga tides choke Jul–Aug apron merges"
+        },
+        "nearest_railway_station": {
+          "name": "Jasidih Junction railway station",
+          "distance_km": 16,
+          "note": "Branch shuttles serve Baidyanathdham (~7 km)—Howrah–Delhi chord expresses thicken winter peaks"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 51683,
+        "content_richness_score": 0.369
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": {
+            "name": "Deoghar Airport",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Deoghar_Airport",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Deoghar Airport",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Deoghar_Airport",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 **Deoghar Airport** ( **DGH **  IATA ). Inaugurated in 2022. Has flights from Kolkata .  ( updated Oct 2022 ) \r\n By train There are three railway stations serving Deoghar, 2 ** Deoghar Junction    ER**  3 ** Baidyanathdham Deoghar    ER**  and 4 ** Jasidih Junction    ER**  .\r\n\n Deoghar Junction    ER   is on Rampurhat –Jasidih line, while Baidyanathdham Deoghar    ER   is the terminus of a 7-km branch line originating at Jasidih Junction    ER   on the Howrah – Delhi main line. Apart from local trains on the branch line, trekkers (type of terrain vehicle) taking in passengers on a per person fare basis. Auto-rickshaws are available frequently just outside Jasidih station. They charge ₹8 per person in a shared auto and up to ₹150 in a reserved auto. However, due to the road bridge that connects Jasidih to Deoghar collapsing, the auto rickshaws take alternative longer route thus charge about ₹15 per person and up to ₹150 in reserved. The best means to get to Deoghar is the local up-down train available every few hours at Jasidih station on Platform No. 4.\r\n\nSome express trains that stop at Deoghar Junction:\r\n\n\r\n From Rampurhat : Jasidih Express \r\n From Ranchi : Godda Intercity Express \r\nSome express trains that stop at Jasidih:\r\n\n\r\n From New Delhi : Howrah Duronto Express, Howrah Rajdhani Express \r\n From Howrah : Amritsar Mail, Bagh Express, Kumbha Express, New Delhi Duronto Express, New Delhi Rajdhani Express, Patna Jan Shatabdi Express, Patna Vande Bharat Express (fastest), Poorva Express, Vibhuti Express \r\n From Patna : Howrah Jan Shatabdi Express, Howrah Vande Bharat Express (fastest) \r\n From Rampurhat : Jasidih Express \r\n From Ranchi : Godda Intercity Express \r\n By bus or car Deoghar is 373 km from Kolkata , 60 km from Giridih , 281 km from Patna , 67 km from Dumka , 30 km from Madhupur , 250 km from Ranchi , 53 km from Shimultala etc. Regular buses are available from surrounding towns.\r\n\nNo need to wait for minutes or hours, all conveyances are available in this route.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Tongas charge around ₹400, autorickshaws around ₹500 and hired cars ₹700-1,000 for a visit to most of the important places in the town.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Trikut Hill",
+              "description": "Source of the Mayurakshi River. Vehicles come to the base but one has to walk up. A ropeway has been built to ferry people to the top. Other than the ropeway, tourists can also use the stairs to reach the top. The hill is covered with clouds in rainy seasons and waterfalls and small streams are visible from July–September. There are views from the top of the mountain.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Trikut_Hill",
+              "coordinates": {
+                "lat": 24.499,
+                "lon": 86.837
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 ** Baidyanath Temple ** . According to Hindu mythology, Ravana went to Mount Kailash and prayed to Lord Shiva, who gave him a Jyotirlinga to take to his land, with the promise not to place the lingam anywhere else. In case that happened, the lingam would remain fixed on that spot forever. The gods, who were unhappy at the prospect of the divine lingam being established in the enemy kingdom, which would render them powerless against their adversary, worked a trick on Ravana. He mistakenly handed over the lingam to a Brahmin, who grounded it at Deoghar. Ravana did his best to uproot it but beyond breaking the tip he was unsuccessful. In deep remorse, he used to come to this place everyday and worship the lingam by offering water from the Ganges. Historically the temple is dated to 1596. The temple has almost all god &amp; goddesses and whole temple is built on a single rock. During the month of Sawan (June–July) people from across the country come to offer ganga jal to the divine shivalinga. For centuries, devotees, in the month of Sawan undertake a rigorous 100-km pilgrimage on foot from Ajgaibinath (Sultanganj) in Bhgalpur district to offer holy water from the Ganges to the lingam at Deoghar. It is very crowded in Deoghar during this period as more than 5 million devotees visit every year. Hence it is not recommended for a casual traveler to visit Deoghar during these months.  ( updated Oct 2023 ) \r\n **Balanand Ashram Yogashala,** Karnibagh - Yoga Institution. \r\n \r\n **Fuljhari Pahar **- 48 km from Deoghar, this is hill for those who want to start mountain climbing. It has a height of around 800 m and it is safe for climbing. \r\n **Harila Joria** - 8 km from Deoghar, famous for Shiva Temple \r\n **Nandan Pahar** - A picnic spot with some basic rides atop a small hill. Vehicles come to the base but one has to walk up. \r\n **Naulakha Mandir** - it is a beautiful temple of Radha-Krishna on the outskirts of Deogarh \r\n **Prabhu Jagadbandhu Ashrama** - 4 km from Deoghar, on the way to Tapovan, near Charki Pahari crossing - for short stay in a cool, pristine environment with monks and other ashramiks. \r\n 2 ** Ramkrishna Mission Vidyapith ** , Tiwari Chowk ( Williams Town ). The Universal Temple of Sri Ramakrishna held in the bosom of the Vidyapith campus is a place of attraction to the religious minded. There, morning prayer and evening services (Aratrikam) are conducted by the resident boys as part of their daily routine. Religious festivals, observances and worships are carried out in it.  ( updated Oct 2023 ) \r\n **Satsang Ashram** - it is a holy place for the followers of Sri Sri Thakur Anukulachandra. It also has a museum and a zoo with a sarva dharma mandir. \r\n **Tapovan** - A picnic spot with some caves and lots of monkeys. 8 km from Deoghar, Balanand Brahmachari used to meditate here. \r\n 3 **Trikut Hill** ( 16 km (9.9 mi) from Deoghar ). Source of the Mayurakshi River. Vehicles come to the base but one has to walk up. A ropeway has been built to ferry people to the top. Other than the ropeway, tourists can also use the stairs to reach the top. The hill is covered with clouds in rainy seasons and waterfalls and small streams are visible from July–September. There are views from the top of the mountain.  ( updated Oct 2023 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "** Rikhia Ashram **, Village Pania Pagaar , ☏ +91 6432290870 , +91 9304488889 , +91 9430799449 (also fax) . Rikhia peeth is the tapobhumi (place of spiritual sadhana or practice) of Swami Satyananda Saraswati, founder of the Bihar School of Yoga, Munger. Swami Satyananda came to Rikhia with the sankalpa to live in seclusion, on 23 September 1989.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Most of the places of Deoghar have groundwater as their main water source and therefore it is suggested to carry a bottle of mineral water in your journey.\r\n\n\r\n **Lassi** ( dahhi ki lassi ), on the mandir lane . Try cool dahhi ki lassi, it is also famous in Deoghar."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Joty",
+              "description": "Near to the West entrance gate of Baidyanath Temple.",
+              "price": "₹350"
+            },
+            {
+              "name": "Saraswati Ashram",
+              "description": "Saraswati Ashram is one of the budget hotels at Deoghar very near Bhaidyanath Dham Mandir, Good place to stay and good place to eat.",
+              "price": "₹200-500"
+            },
+            {
+              "name": "Sewa Dham",
+              "description": "Ashram-type accommodation, run by a trust, with non-AC rooms, big halls, one kitchen providing Vegan food, groups may use the kitchen upon request.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:37.862Z",
+        "wikipedia_summary": "Deoghar is a city and a municipal corporation in Deoghar district in the Indian state of Jharkhand. It is also the administrative headquarters of Deoghar district. It is a holy place of Hinduism. The city is primarily known for Baidyanath Temple, one of the 12 Jyotirlingas of Shiva, one of the principal deities in Hinduism. The sacred temples of the city make this a place for pilgrimage and tourists. The city is very sacred to the followers of Hinduism, regardless of sects.",
+        "wikipedia_description": "City in Jharkhand, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:37.912Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban Deoghar Sightseeing Deoghar is a city and a municipal corporation in Deoghar district in the Indian state of Jharkhand. It is also the administrative headquarters of Deoghar district. It is a holy place of Hinduism. The city is primarily known for Baidyanath Temple, one of the 12 Jyotirlingas of Shiva, one of the principal deities in Hinduism. The sacred temples of the city make this a place for pilgrimage and tourists. The city is very sacred to the followers of Hinduism, regardless of sects. Deoghar (देवघर _Devghar_), also called Baidyanath Dham, is a Hindu pilgrimage town in Jharkhand . It is famous for the Baidyanath (Shiva) temple.",
+      "travel_facts": {
+        "summary": "**Deoghar** pairs **Jasidih (~16 km)** chord feeders with **DGH (~12 km)** regional stacks—Baidyanath branch shuttles bias jyotirlinga tides knowing Sawan pilgrim surges absorb alternate bridge-route autos.",
+        "keywords": [
+          "jasidih chord feeders",
+          "dgh regional stacks",
+          "baidyanath branch shuttles",
+          "jyotirlinga sawan tides",
+          "howrah delhi expresses",
+          "pilgrim bridge autos"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-dhanbad",
+      "name": "Dhanbad",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.79278,
+        "lon": 86.435,
+        "source": "wikidata"
+      },
+      "description": "**Dhanbad** is a city in Jharkhand ; it is considered the coal capital of India.\r\n\nThe coalfields around Dhanbad are known as the **Jharia coalfields**. They cover an area of around 448 km 2 , the total reserve of coal is estimated at 5,000 million tonnes. Jharia coalfields are the only major source of coking or metallurgical coal in the country. There are 112 coal mines in the district. Jharia town adjacent to Dhanbad is considered a separate town administratively. Munidih Colliery is the largest colliery in India. ONGC is using CBM (Coal Beded Methane) for producing electricity at many places of Dhanbad. Tata Power along with DVC is setting up a 1050 MW thermal power plant in Dhanbad. It has chemical plants, other industries, and produces mica and many different minerals.",
+      "category": "city",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dhanbad",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dhanbad",
+        "wikidata": "https://www.wikidata.org/wiki/Q244159"
+      },
+      "distance_km": 1521,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Dhanbād",
+        "Coal capital"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhatinda_Falls_3.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20dhanbad.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 139,
+          "note": "Netaji Subhas Chandra Bose Airport (Kolkata) (~259 km) stacks eastern hubs—coal-smog inversions thicken winter"
+        },
+        "nearest_railway_station": {
+          "name": "Dhanbad Junction railway station",
+          "distance_km": 4,
+          "note": "Grand Chord metallurgy heaps—Jharia feeder taxis choke coal-belt peak shifts"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Hyderabad",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 91091,
+        "content_richness_score": 0.651
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Dhanbad Junction railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Dhanbad_Junction_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Dhanbad Junction railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Dhanbad_Junction_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Kolkata is 250 km away; Patna , 325 km. Gaya is 217 km away. Dhanbad has an airstrip for small planes. MDLR airlines and Air India is also planning to launch domestic services.\r\n\n\r\n By train Kolkata is 259 km from Dhanbad. Some of the convenient trains connecting Kolkata and Dhanbad are:\r\n\n\r\n 2019/2020 Howrah–Ranchi Shatabdi Express (no train on Sunday) \r\n 3317/ 3318 Black Diamond Express \r\n 3029/3030 Coalfield Express \r\nSome of the long-distance trains passing through Dhanbad are:\r\n\n\r\n 2301/2302 Howrah Rajdhani Express (no train departing Howrah on Sunday, no train departing New Delhi on Friday) \r\n 2313/2314 Sealdah Rajdhani Express. \r\n 2381/2382 Howrah–New Delhi Poorva Express (train departing Howrah on Wednesday, Thursday, Sunday; train departing New Delhi on Monday, Tuesday, Friday) \r\n 2311/2312 Howrah–Kalka Netaji Express \r\n 2321/2322 Howrah– Mumbai Mail (via Prayagraj) \r\n 3009/3010 Howrah–Dehradun Doon Express \r\n 3151/3152 Sealdah–Jammu Tawi Express \r\n 3025/3026 Howrah Bhopal (departing Howrah on Monday, departing Bhopal on Wednesday) \r\n 1448/1449 Howrah Jabalpur Shaktipunj Express \r\n 1159/1160 Howrah Gwalior Chambal Express (departing Howrah on Tuesday, Wednesday, Sunday; departing Gwalior on Tuesday, Thursday, Saturday) \r\n 9306/9305 Howrah Indore Shipra Express (departing Howrah on Monday, Thursday, Saturday; departing Indore on Tuesday, Thursday, Saturday) \r\n 2942/2941 Asansol Ahmedabad Parashnath Express (departing Asansol on Thursday, departing Ahmedabad on Tuesday) \r\n 3403/3404 and 3405/3406 Ranchi Bhagalpur Vananchal Express \r\n 8621/8622 Patna Hatia Pataliputra Express \r\n 8624/8623 Hatia Rajendranagar Express. \r\nFor train timings etc. check with Indian Railways .\r\n\n\r\n 1 **Dhanbad Junction railway station** .  ( updated Nov 2021 ) \r\n By road Dhanbad is just off the Grand Trunk Road (NH 2). One can drive into Dhanbad from Govindpur or Rajganj . It is connected via Chas and Bokaro Steel City to Ramgarh and via Chas and Muri to Ranchi . \r\n\nMost of the important cities and towns of Jharkhand, Bengal and Bihar have bus links with Dhanbad. It has a large bus station about 2 km from the railway station. Luxury Volvo buses ply between Dhanbad and Kolkata and between Dhanbad and Ranchi. Auto rickshaws are popular transport links with neighbouring towns and in the coalfields, but these are generally overcrowded. Autos are now used for transportation and as compared to trekkers they are more economical.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Hired cars and taxis are available at the railway station 24/7. Auto rickshaws are also available till late at night. This is also a cheap mode of transport as rickshaw wallahs demand more.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Bhatinda Fall",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.7112,
+                "lon": 86.3313
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Chark Khurd",
+              "description": "The village, which is about 10 km from Tundi on the Dhanbad-Govindpur -Giridih Road, is noted for its hot spring.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Chati Gobindpur",
+              "description": "The village is in Govindpur development block, contains two ancient pillars which are locally associated with Emperor Asoka and the Afghan Chief Sher Shah.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.834,
+                "lon": 86.516
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Gopalpur",
+              "description": "The village lies in Nirsa-cum-Chirkunda development block. It contains an ancient pillar said to date back to the time of Emperor Asoka. There is also a large stone image said to be of Asoka.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Jhinjhipahari",
+              "description": "The village is in Baghmara development block. It is said that an ancient temple of Lord Shiva was found when the mines here were being worked.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Lilori Sthan",
+              "description": "It is famous for Goddess Kali temple, it is also one of the devipeth.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.8194,
+                "lon": 86.3022
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Maithon Dam",
+              "description": "Maithon Dam is the biggest Dam of Damodar Valley Corporation. This dam has been built to control flood in the Barakar River. The reservoir of Maithon Dam is spread across 65 km². In the mid of this reservoir, there is an island. A rest house has been built on this island. Boating &amp; fishing facilities are also available in this reservoir. There is a Deer park and Birds garden near this Dam these are also of a tourists importance.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.7852,
+                "lon": 86.8119
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Meva",
+              "description": "The village is in Nirsa-cum-Chirkunda Block. It contains ancient pillars said to date back to the time of Emperor Ashoka. There is also a large stone image said to be of Ashoka.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Panchet Dam",
+              "description": "This is the longest dam of Damodar Valley Corporation. Garh Panchakot beside the lake has lodging facilities.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.6815,
+                "lon": 86.7473
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Panrra",
+              "description": "The village, which also lies in Nirsa-cum-Chirkunda Block, it said to have derived its name from the Pandavas. According to local legend the Pandavas spent some period of their exile in hiding at this place. The village contains an ancient temple of Lord Shiva known as Pandeweshar Mahadev. The temple is believed to have been constructed by Hindu King at a much later day.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Sudamdih Colliery",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.656,
+                "lon": 86.431
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Tetulia",
+              "description": "Just near the Damodar River in the Dhanbad district, there is a spring of hot water.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Topchanchi",
+              "description": "In Topchanchi, tourists can see an artificial lake that was excavated along the base of the slant of the Parasnath Hill in 1915. This lake was created to supply water to Jharia. Visitors can also go to Gomoh, which is 6 km from the Topchanchi Lake. Gomoh is the place where on 18th January 1941 Netaji Subhash Chandra Bose embarked on the train for his departure from India. To honour this event, a statue of Netaji has been set up in the Topchanchi market.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.923,
+                "lon": 86.182
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Bhatinda Fall** ( 14 km from Dhanbad railway station ).   \r\n ** Central Institute of Mining and Fuel Research **, Digwadih, Dhanbad , ☏ +91-326-2296004 , director@cimfr.nic.in . CIMFR, Dhanbad is one of the national laboratories of Council of Scientific and Industrial Research, Government of India. This laboratory was established in 1956 for carrying out research and development work in the field of mining and related subjects to make mining safe, productive, reduce its environmental impact and economical as well as reduce health hazards to miners and environmental pollution and degradation created due to mining and associated industrial activities.   \r\n 2 ** Indian Institute of Technology ** ( Indian School of Mines ). An institute of national importance. It was established in 1926, and has one of the most beautiful engineering campuses in the country.   \r\n **Chark Khurd**. The village, which is about 10 km from Tundi on the Dhanbad-Govindpur -Giridih Road, is noted for its hot spring.   \r\n 3 **Chati Gobindpur**. The village is in Govindpur development block, contains two ancient pillars which are locally associated with Emperor Asoka and the Afghan Chief Sher Shah.   \r\n Two types of **Coal Mines** – the open cast and underground. Advance permission has to be procured from Bharat Coking Coal Ltd. [dead link] for visiting any of their mines. Sudamdih is worth a visit. \r\n **Gopalpur**. The village lies in Nirsa-cum-Chirkunda development block. It contains an ancient pillar said to date back to the time of Emperor Asoka. There is also a large stone image said to be of Asoka.   \r\n **Jhinjhipahari**. The village is in Baghmara development block. It is said that an ancient temple of Lord Shiva was found when the mines here were being worked.   \r\n 4 **Lilori Sthan** ( near Katras, about 22 km from Dhanbad railway station ). It is famous for Goddess Kali temple, it is also one of the devipeth.   \r\n 5 **Maithon Dam** ( about 52 km from Dhanbad ). Maithon Dam is the biggest Dam of Damodar Valley Corporation. This dam has been built to control flood in the Barakar River. The reservoir of Maithon Dam is spread across 65 km². In the mid of this reservoir, there is an island. A rest house has been built on this island. Boating &amp; fishing facilities are also available in this reservoir. There is a Deer park and Birds garden near this Dam these are also of a tourists importance.   \r\n **Meva**. The village is in Nirsa-cum-Chirkunda Block. It contains ancient pillars said to date back to the time of Emperor Ashoka. There is also a large stone image said to be of Ashoka.   \r\n 6 **Panchet Dam** ( About 54 km from Dhanbad ). This is the longest dam of Damodar Valley Corporation. Garh Panchakot beside the lake has lodging facilities.   \r\n **Panrra**. The village, which also lies in Nirsa-cum-Chirkunda Block, it said to have derived its name from the Pandavas. According to local legend the Pandavas spent some period of their exile in hiding at this place. The village contains an ancient temple of Lord Shiva known as Pandeweshar Mahadev. The temple is believed to have been constructed by Hindu King at a much later day.   \r\n 7 **Sudamdih Colliery**.   \r\n **Tetulia**. Just near the Damodar River in the Dhanbad district, there is a spring of hot water.   \r\n 8 **Topchanchi** ( Located 37 km from Dhanbad ). In Topchanchi, tourists can see an artificial lake that was excavated along the base of the slant of the Parasnath Hill in 1915. This lake was created to supply water to Jharia. Visitors can also go to Gomoh, which is 6 km from the Topchanchi Lake. Gomoh is the place where on 18th January 1941 Netaji Subhash Chandra Bose embarked on the train for his departure from India. To honour this event, a statue of Netaji has been set up in the Topchanchi market.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Carnivals are arranged by Lions Club, Rotary Club and other clubs, mostly in winter and these are open to visitors also.\r\n\nDhanbad is surrounded by beautiful picnic spots. People are very helpful and friendly and love visitors.\r\n\n\r\n **Charak Pathar** is a popular picnic spot. This is a village, which falls under the development block of Govindpur in the district of Dhanbad. The place gets its name from an old white stone boulder called Charak Pathar.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Take Home",
+              "description": "Veg and non-veg. Try Hyderabad Chicken Biryani(₹80).",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Hotel Skylark**, Bank More, Dhanbad , ☏ +91 326 305284 .   \r\n **Aroti**, Hirapur Dhanbad ."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Hotel Hindustan International",
+              "description": "Comfortable and reasonably priced A/C and Non A\\C rooms.",
+              "price": null
+            },
+            {
+              "name": "Hotel Rock",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Hotel Sky Lark",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:38.462Z"
+      },
+      "search_context": "City / Urban Dhanbad Sightseeing Dhanbad is a city in Jharkhand ; it is considered the coal capital of India. The coalfields around Dhanbad are known as the Jharia coalfields. They cover an area of around 448 km 2 , the total reserve of coal is estimated at 5,000 million tonnes. Jharia coalfields are the only major source of coking or metallurgical co",
+      "travel_facts": {
+        "summary": "**Dhanbad** anchors **Dhanbad Junction (~4 km)** coal chord meshes beneath **IXR (~139 km)** apron stacks—Kolkata eastern gateways absorb metallurgy pilgrims knowing Jharia feeder taxis jitter cordon drills.",
+        "keywords": [
+          "dhanbad junction chords",
+          "ixr apron stacks",
+          "kolkata eastern gateways",
+          "jharia feeder taxis",
+          "grand chord metallurgy",
+          "coal belt cordon drills"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-hazaribagh-national-park",
+      "name": "Hazaribagh National Park",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 24.139,
+        "lon": 85.366,
+        "source": "wikidata"
+      },
+      "description": "**Hazaribagh National Park**, also called **Hazaribag Wildlife Sanctuary**, is in Jharkhand , India . Hazaribagh town forms the base for visiting the national park. NH 33 (Hazaribagh-Barhi sector) runs through a part of the national park. The main gate of the national park at Pokharia is 21 km from Barhi and 16 km from Hazaribagh.",
+      "category": "nature_reserve",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Hazaribagh_National_Park",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hazaribagh_Wildlife_Sanctuary",
+        "wikidata": "https://www.wikidata.org/wiki/Q3595683"
+      },
+      "distance_km": 1487,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Wildlife & nature",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Hazaribagh Wildlife Sanctuary",
+        "Hazaribag Wildlife Sanctuary",
+        "sanctuaire faunique de Hazaribag"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_Lizard.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 91,
+          "note": "NH33 merges toward Barhi—safari gate taxis thicken Koderma shortcut peaks"
+        },
+        "nearest_railway_station": {
+          "name": "Hazaribagh Town railway station",
+          "distance_km": 10,
+          "note": "Grand Chord alternate Hazaribagh Road (~67 km) stacks—shared taxis benchmark Pokharia gates"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "wildlife",
+          "trekking",
+          "nature"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17421,
+        "content_richness_score": 0.124
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "**By air** - the nearest airport is at Ranchi , 91 km away. \r\n **By rail** - the nearest railway station is Hazaribag, which is 10 km away, or alternately one can approach the park from the Hazaribagh Road railway station (67 km), both on the Howrah-Delhi Grand Chord line. \r\n **By road** - Hazaribagh town is connected by road to Ranchi 91 km, Dhanbad 128 km, Gaya 130 km, Patna 235 km, Daltongunj 198 km, and Kolkata (via Asansol-Govindapur-Barhi) 434 km. \r\n **By bus** - regular bus services connect the town with Koderma, Hazaribagh Road railway station, Patna, Gaya, Ranchi, Dhanbad, Daltongunj and other nearby places.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "A trip to the park starts at 17:00 from the Divisional Forest Office, West Division, Hazaribagh and it ends at 22:00. Charges are ₹50 per head. Reservation can be made with the Divisional Forest Officer, West Division, Hazaribagh. Visitors are generally not allowed to travel in the inner core of the forest.\r\n\nMr. Kalyan Banerjee of Dilkhush Restaurant, Sadar Hospital Road or Main Road makes arrangements for tour of the sanctuary by three hours. One can also make own arrangements by hiring a car at about ₹500 and staying one night at the Park. Spot lights, available at ₹7, should be taken. Total road length inside the park is 111 km.\r\n\nFirearms are not allowed inside the park.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Watch towers generally have been constructed above the pools of water, so that in summer visitors may sit on these towers and easily see the animals that come to drink water. Artificial saltlicks have also been made for the animals.\r\n\nThere is a tiger trap used by the Raja of Ramgarh to snare the animal. This spot is on the way to Rajderba, just a few kilometres ahead to the left.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Loud noises and bright lights from vehicles frighten animals away. Leave the animals to themselves and just watch them from a distance.\r\n\nThe towers are must see in hazaribagh forest. Tower no. 5 and 6 are not so far from the rest house.But 7 and 11 are a bit far. But tower no. 7 is a must see for nature lovers during sunset. It's like an adventure to walk to tower 7.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Carry whatever you want. No hard drinks are available. As a custom, it is advisable to carry an extra bottle or two of hard drink for the caretaker and the cook. You can get that extra bottle in the Hazaribag town reasonably cheap. They are away from the town and would welcome you with open arms."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Forest Rest House",
+              "description": "Built at Rajderwah, in the national park, 30 km from Hazaribagh. Contact : Divisional Forest Officer, West Division, Hazaribagh, Tele.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Do not go too near the animals."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:39.311Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Hazaribagh National Park Wildlife & nature Hazaribagh National Park, also called Hazaribag Wildlife Sanctuary, is in Jharkhand , India . Hazaribagh town forms the base for visiting the national park. NH 33 (Hazaribagh-Barhi sector) runs through a part of the national park. The main gate of the national park at Pokharia is 21 km from Barhi and 16 km from Hazarib",
+      "travel_facts": {
+        "summary": "**Hazaribagh National Park** balances **Hazaribagh Town (~10 km)** chord feeders with **IXR (~91 km)** NH33 stacks—Pokharia safari gates bias shared taxi tides knowing Barhi merges absorb Koderma shortcut drills.",
+        "keywords": [
+          "hazaribagh town feeders",
+          "ixr nh33 stacks",
+          "pokharia safari gates",
+          "grand chord alternates",
+          "barhi koderma merges",
+          "sanctuary taxi tides"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-jamshedpur",
+      "name": "Jamshedpur",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 22.8,
+        "lon": 86.18333,
+        "source": "wikidata"
+      },
+      "description": "**Jamshedpur** (जमशेदपुर _Jamśedpur_) is the largest city in the state of Jharkhand .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Jamshedpur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jamshedpur",
+        "wikidata": "https://www.wikidata.org/wiki/Q200054"
+      },
+      "distance_km": 1420,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Dźamśedpur",
+        "Tatanagar",
+        "Kalimati",
+        "Singhbhum"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Tatanagar_Railway_station.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cityscapes%20of%20Jamshedpur.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 130,
+          "note": "Netaji Subhas Chandra Bose Airport (Kolkata) (~227 km) stacks eastern wings—Sonari strip lacks scheduled passenger tails"
+        },
+        "nearest_railway_station": {
+          "name": "Tatanagar Junction railway station",
+          "distance_km": 8,
+          "note": "SER meshes toward Kolkata—steel-sector expresses thicken Monday factory peaks"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Hyderabad",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 103717,
+        "content_richness_score": 0.741
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Jamshedpur is named after the industrialist Jamsetji Tata and is home to such industrial giants as Tata Steel and Tata Motors. Jamshedpur is one of the 'Industrial Cities' of India, being known by many as \"The Steel City\". Jamshedpur is maintained by Tata Steel for the most part. Tata Steel is responsible for the infrastructure as well the public services offered in most parts of the city.\r\n\nLanguages spoken in the area are Hindi, Bhojpuri, Maithili, Bengali, Urdu, Punjabi, Tamil, Santhali and Odia. Jamshedpur is a cosmopolitan city with people from all over the country. English is understood in the main areas of visitor interest.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train The railway station, known as 1 ** Tatanagar    SER**  .   , is an important railway junction on the South Eastern Railway (SER) network and is connected to Ranchi and Barkakhana, Asansol on the Howrah–Delhi line via Purulia and Adra, and Gua via Noamundi and Barajamda. There are direct trains from all the major cities of India, viz., Kolkata , Mumbai , Delhi , Chennai , Bangalore , Ranchi , and Patna . Kolkata and Patna are linked with superfast trains. You may also take a train to Dhanbad or Ranchi and then a taxi or a bus to Jamshedpur. It may take around four hours from Dhanbad to Jamshedpur and two and a half to three from Ranchi.\r\n\n\r\n By bus Regular bus services are available to Jamshedpur from Ranchi (140 km), Patna , Gaya, Kolkata (270 km), and Hazaribagh .\r\n\n\r\n By car Jamshedpur is connected by road with most of the major cities in India. **NH 18** connects Jamshedpur to Govindpur on NH 19 (Kolkata-Agra) via Chandil, Chas and Dhanbad. **NH 43** connects Jamshedpur to Rachi. Kolkata is 270 km from Jamshedpur via Baharagora and Kharagpur. Ranchi is 140 km from Jamshedpur. The highway from Ranchi is double-laned but without a divider. Chandil is about 35 km from Jamshedpur.\r\n\n\r\n By plane There are no commercial flights to Jamshedpur airport which is restricted to chartered planes of the Tata group.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Auto Rickshaws are available 24/7 at Jamshedpur railway station. However, there is no pre paid booth. Be prepared to bargain hard.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Bhatia Park",
+              "description": "This park is at Shastri Nagar along the banks of the Kharkhai river.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.80407,
+                "lon": 86.15594
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Bhubaneshwari Temple",
+              "description": "Located in Telco, atop a small hill. Offers a panoramic view of the city, and the scenic surroundings (breathtaking view of a meandering river.) The temple premises add a serene and spiritual touch to the surroundings.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.77778,
+                "lon": 86.25895
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Dimna Lake",
+              "description": "Located approximately 13 km from the centre of the township. It is a manmade lake built by Tata Steel for water supply to the town. It has wonderful scenario near the Dalma hills. This lake is surrounded by mountains in all four directions, and has a guest house of Tata Steel.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.86367,
+                "lon": 86.26284
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Hudco Lake",
+              "description": "Located in Telco Colony, is a beautiful park and picnic spot with an artificial waterfall and lake.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.76199,
+                "lon": 86.25554
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Jubilee Park",
+              "description": "This park was a gift by Tata Steel to the citizens of Jamshedpur on its 50th anniversary. This 200-acre park, with a rose garden and a lake, now has a zoo and an amusement park. A favourite with joggers, cyclists and anglers. The Laser show and the musical fountains (introduced in 2000) is an excellent centre of attraction for the visitors.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.81155,
+                "lon": 86.19679
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Kali Temple",
+              "description": "Very famous temple of Goddess Kali, made on a raised cut mountain.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.79668,
+                "lon": 86.24026
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Keenan Stadium",
+              "description": "This well known stadium has hosted several One Day International cricket matches, but is no longer in use.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.80583,
+                "lon": 86.1914
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Rivers Meet",
+              "description": "The confluence of rivers Kharkai and Subarnarekha. A popular picnic spot.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.83532,
+                "lon": 86.16098
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Russi Mody Centre of Excellence",
+              "description": "A unique structure, just outside the Jubilee Park, designed by the famous architect, Hafeez Contractor, is home to the many professional associations of Jamshedpur. It also houses the Tata Steel Archives, where one can see documents relating to the history of the Steel Company and the city.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Sir Dorabji Tata Park",
+              "description": "This park is near Keenan Stadium, and hosts Jamshedpur's annual flower show in December.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.8058,
+                "lon": 86.18948
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Tata Zoological Park",
+              "description": "Located in Sakchi, one of the favourite tourism place in Jamshedpur.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 22.8156,
+                "lon": 86.1952
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Dhatkidih Masjid",
+              "description": "A famous mosque in Dhatkidih, fully in white colour like Taj Mahal.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Regal Building",
+              "description": "It was built in 1936. Nowadays it is a shopping mall.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Bhatia Park**. This park is at Shastri Nagar along the banks of the Kharkhai river.   \r\n 2 **Bhubaneshwari Temple**. Located in Telco, atop a small hill. Offers a panoramic view of the city, and the scenic surroundings (breathtaking view of a meandering river.) The temple premises add a serene and spiritual touch to the surroundings.   \r\n 3 **Dimna Lake**. Located approximately 13 km from the centre of the township. It is a manmade lake built by Tata Steel for water supply to the town. It has wonderful scenario near the Dalma hills. This lake is surrounded by mountains in all four directions, and has a guest house of Tata Steel.   \r\n 4 **Hudco Lake**. Located in Telco Colony, is a beautiful park and picnic spot with an artificial waterfall and lake.   \r\n 5 **Jubilee Park**. This park was a gift by Tata Steel to the citizens of Jamshedpur on its 50th anniversary. This 200-acre park, with a rose garden and a lake, now has a zoo and an amusement park. A favourite with joggers, cyclists and anglers. The Laser show and the musical fountains (introduced in 2000) is an excellent centre of attraction for the visitors.   \r\n 6 **Kali Temple** ( at Pardih on NH-33 ). Very famous temple of Goddess Kali, made on a raised cut mountain.   \r\n 7 **Keenan Stadium**. This well known stadium has hosted several One Day International cricket matches, but is no longer in use.   \r\n 8 **Rivers Meet** ( Domuhani ) ( extreme north-west point of the city ). The confluence of rivers Kharkai and Subarnarekha. A popular picnic spot.   \r\n **Russi Mody Centre of Excellence**. A unique structure, just outside the Jubilee Park, designed by the famous architect, Hafeez Contractor, is home to the many professional associations of Jamshedpur. It also houses the Tata Steel Archives, where one can see documents relating to the history of the Steel Company and the city.   \r\n 9 **Sir Dorabji Tata Park**. This park is near Keenan Stadium, and hosts Jamshedpur's annual flower show in December.   \r\n 10 **Tata Zoological Park** ( Tata Steel Zoological Park ). Located in Sakchi, one of the favourite tourism place in Jamshedpur.   \r\n **Dhatkidih Masjid**, Zamir Complex, Dhatkidih ( near Kabir Memorial College, opposite DTDC Dhatkidih ). A famous mosque in Dhatkidih, fully in white colour like Taj Mahal.  ( updated Dec 2020 ) \r\n **Regal Building** ( Colonial House ), Bistupur Main Rd, Bistupur . It was built in 1936. Nowadays it is a shopping mall.  ( updated Dec 2020 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Dalma Hill",
+              "description": "Drive 20 min through Tata-Purulia Highway towards Purulia. There is a driveway from the base to the top of the hill, where you can stay. There are two facilities, one provided by JUSCO and the other by the Forest Dept."
+            },
+            {
+              "name": "Gol Pahari",
+              "description": "This temple is atop a small hill and offers a panoramic view of the city."
+            }
+          ],
+          "brief": "Drive 20 min through Tata-Purulia Highway towards Purulia. There is a driveway from the base to the top of the hill, where you can stay. There are two facilities, one provided by JUSCO and the other by the Forest Dept.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Appetite",
+              "description": "A great multicuisine restaurant with a great view of the Tata Steel factory (best viewed at night). Located next to the Gurudwara in Sakchi.",
+              "location": null
+            },
+            {
+              "name": "Blooms",
+              "description": "A suburban bar and restaurant in Bistupur.",
+              "location": null
+            },
+            {
+              "name": "Cinnamon",
+              "description": "Good value for moeny. At the Sonnet Hotel, South Park Bistupur. It's a 24/7 facility. Breakfast here starts at 6AM.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Alcohol is strictly not served after 11PM due to local laws.\r\n\n\r\n **Adda**. The bar of the Sonnet hotel is an expensive but excellent place to spend evening.   \r\n **Asian inn**, Dhatkidhi ( Near the Mosque ). A good restaurant with good service and tasty food. Not so expensive.   \r\n **Country Club**. A beautiful bar with an Egyptian background on the walls, swimming pool, and an ice cream parlour.   \r\n **Golden Ice**. This comfortable bar at Hotel Ganga International offers very Standard Services.   \r\n **60 ML**. A great sports bar with very tasty food, also has a pool table.   \r\n **Xing**. The ITC Fortune Hotel Centre Point has a bar serving drinks.   \r\n _**Restaurants**_ — _Equinox_, _Centre Point_, _Host_, _Deep Purple_, _Blooms_ all serve alcohol."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:40.144Z"
+      },
+      "search_context": "City / Urban Jamshedpur Sightseeing Jamshedpur is named after the industrialist Jamsetji Tata and is home to such industrial giants as Tata Steel and Tata Motors. Jamshedpur is one of the 'Industrial Cities' of India, being known by many as \"The Steel City\". Jamshedpur is maintained by Tata Steel for the most part. Tata Steel is responsible for the infrastructure as well the public services offered in most parts of the city. Languages spoken in the area are Hindi, Bhojpuri, Maithil Jamshedpur (जमशेदपुर _Jamśedpur_) is the largest city in the state of Jharkhand .",
+      "travel_facts": {
+        "summary": "**Jamshedpur** couples **Tatanagar (~8 km)** SER meshes with **IXR (~130 km)** apron stacks—Kolkata eastern gateways bias Tata-sector tides knowing NH33 merges absorb Ranchi plateau Volvo hops.",
+        "keywords": [
+          "tatanagar ser meshes",
+          "ixr apron stacks",
+          "kolkata eastern gateways",
+          "tata sector tides",
+          "ranchi nh33 merges",
+          "steel city expresses"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-madhupur",
+      "name": "Madhupur",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 24.26694,
+        "lon": 86.64583,
+        "source": "wikidata"
+      },
+      "description": "**Madhupur** is a city in Deoghar district of Jharkhand . It is considered a health resort because the water there is said to cure digestion ailments. Historically, many notable people, particularly from Bengal, owned a house in Madhupur. Amongst them was Sir Asutosh Mookerjee. His younger son, Uma Prasad Mookerjee, the writer famous for his travel books spent time there. Their house _Ganga Prasad Bhaban_ is still there.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Madhupur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Madhupur%2C_Deoghar",
+        "wikidata": "https://www.wikidata.org/wiki/Q1883345"
+      },
+      "distance_km": 1576,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Deoghar Airport",
+          "code": "DGH",
+          "distance_km": 54,
+          "note": "IXR Ranchi (~252 km) stacks plateau charters—health-resort taxis thicken winter Bengal migrant peaks"
+        },
+        "nearest_railway_station": {
+          "name": "Madhupur Junction railway station",
+          "distance_km": 3,
+          "note": "Howrah–Delhi mainline meshes—Giridih branch locals thicken mineral-water kiosk merges"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 14627,
+        "content_richness_score": 0.104
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By rail **Madhupur is 294 km (via main line) from Howrah**. It is on the Howrah-Delhi main line. There is a branch line from Madhupur to Giridih (32 km away). Vidyasagar (Karmatanr), associated with the memory of Pandit Iswar Chandra Vidyasagar, is 24 km from Madhupur on the main line towards Kolkata. For timings etc. check with Indian Railways .",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Cycle rickshaws and tongas are available for local transport, and you can find a car or taxi easily.\r\n\nOr you can take a bus from Madhupur bus stand near the Madhupur Railway station and visit nearby places like Sarath, Palojori, Dumka, etc.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Bahanno Bigha \r\n Kapil Math \r\n Sonar bungalow, good collection of roses \r\n Baba Nayak Dham, Ganjobari \r\n Kali temple at Pathrol \r\n Kali temple at Fago, 4 km towards south \r\n Bakolia jharana (waterfalls).",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "You can visit the 'Madhupur Sadar Bazaar ' near the Railway Station and do some shopping.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Famous for its lassi (a drink made with yoghurt curds and sugar). The sattu sharbat is very tasty and healthy, but can only be found during the summer."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "West View Lodge",
+              "description": "Howrah contact.",
+              "price": "₹550 /person (2016)"
+            },
+            {
+              "name": "Bengal Motion Pictures Employees Union Holiday Home",
+              "description": "Kolkata contact.",
+              "price": null
+            },
+            {
+              "name": "The University of Calcutta Holiday Home",
+              "description": "The house was donated by Dr.H.C. Mookherjee, the first Governor of West Bengal. There are four rooms. The rent of the rooms at first floor are ₹300/-per room, and the ground floor rooms are available at ₹240/ per room.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:41.461Z"
+      },
+      "search_context": "City / Urban Madhupur Sightseeing Madhupur is a city in Deoghar district of Jharkhand . It is considered a health resort because the water there is said to cure digestion ailments. Historically, many notable people, particularly from Bengal, owned a house in Madhupur. Amongst them was Sir Asutosh Mookerjee. His younger son, Uma Prasad Mookerjee, the wr",
+      "travel_facts": {
+        "summary": "**Madhupur** rests **Madhupur Junction (~3 km)** mainline meshes beneath **DGH (~54 km)** pilgrim stacks—Howrah–Delhi expresses bias mineral-water resort tides knowing Giridih branch locals thicken health-retreat peaks.",
+        "keywords": [
+          "madhupur junction meshes",
+          "dgh pilgrim stacks",
+          "howrah delhi expresses",
+          "giridih branch locals",
+          "health resort tides",
+          "deoghar charter merges"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-maithon",
+      "name": "Maithon",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.78,
+        "lon": 86.81,
+        "source": "wikidata"
+      },
+      "description": "**Maithon** is a town in northern Jharkhand . The Barakar River east of Maithon forms the border with West Bengal at Asansol .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Maithon",
+        "wikipedia": "https://en.wikipedia.org/wiki/Maithon",
+        "wikidata": "https://www.wikidata.org/wiki/Q2227385"
+      },
+      "distance_km": 1545,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 178,
+          "note": "Kolkata NSCBI (~218 km) stacks eastern picnic hubs—Barakar dam viewpoints thicken winter fog merges"
+        },
+        "nearest_railway_station": {
+          "name": "Kumardubi railway station",
+          "distance_km": 9,
+          "note": "Asansol cordon feeders—shared autos benchmark Maithon dam picnics"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 53315,
+        "content_richness_score": 0.381
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Barakar railway station",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Barakar railway station",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "Maithon can be reached by train, bus or car, from Kolkata , and by road from Dhanbad or Asansol .\r\n\n\r\n By train From Howrah station catch trains heading for Asansol or Kumardubi (KMME). Maithon is 30 km from Asansol, local auto will charge approx ₹300-₹400. From Kumardubi, Maithon is only 9 km, local auto charges ₹100.\r\n\nYou can also go from Kolkata to Barakar (16 km from Maithon).\r\n\n\r\n 1 **Barakar railway station** .  ( updated Dec 2022 ) \r\n By bus By bus you can reach Asansol, from there go by auto or a hired car (₹500-₹600). There is regular mini bus service between Asansol main city bus stand and Maithon.\r\n\n\r\n By car Maithon falls on the historic ** Grand Trunk Road **, which heads east to Durgapur , Bardhaman and Chandannagar before reaching to Howrah , and west to Dhanbad , continuing through the Plains before reaching Pakistan and Afghanistan .\r\n\nThe **NH 19**, previously **NH 2**, also runs through this town and largely overlaps with the GT Road.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Bathanbari",
+              "description": "A popular weekend picnic spot and its main attraction is the Barakar River. The Maithon Dam has created a massive reservoir with hills in the backdrop.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.81215,
+                "lon": 86.83525
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Begunia temple complex",
+              "description": "The temple complex at the Barakar River consists of four temples, with the fourth being the oldest. It is amongst the oldest rekha-deul temples in West Bengal. The temples have Shivalingas and idols of Ganesha and Durga.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.73564,
+                "lon": 86.81307
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Kalyaneshwari Temple",
+              "description": "A 500-year-old centre of Shakti worship. Legend has it that human sacrifices were offered at Kalyaneshwari in the remote past. The temple of Goddess Kalyaneshwari is believed to fulfill the wishes of childless women.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Kalyaneshwari_Temple",
+              "coordinates": {
+                "lat": 23.7773,
+                "lon": 86.829
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Maithon Dam",
+              "description": "one of the four dams of DVC with a huge water reservoir. The Reservoir has small islands. These islands can be reached by row boats. The most famous island is Sabuj Dwip.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Maithon_Dam",
+              "coordinates": {
+                "lat": 23.7852,
+                "lon": 86.8119
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Bathanbari** . A popular weekend picnic spot and its main attraction is the Barakar River. The Maithon Dam has created a massive reservoir with hills in the backdrop.  ( updated Dec 2022 ) \r\n 2 **Begunia temple complex** . The temple complex at the Barakar River consists of four temples, with the fourth being the oldest. It is amongst the oldest rekha-deul temples in West Bengal. The temples have Shivalingas and idols of Ganesha and Durga.  ( updated Oct 2022 ) \r\n 3 **Kalyaneshwari Temple** . A 500-year-old centre of Shakti worship. Legend has it that human sacrifices were offered at Kalyaneshwari in the remote past. The temple of Goddess Kalyaneshwari is believed to fulfill the wishes of childless women.  ( updated Dec 2022 ) \r\n 4 **Maithon Dam** . one of the four dams of DVC with a huge water reservoir. The Reservoir has small islands. These islands can be reached by row boats. The most famous island is Sabuj Dwip.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Row boat** - a seat rowing boat is ₹300 and additional ₹20-50 tip to the boatman allows you to experience rowing with your own hand. Also you have options to do paddle boating. Or take a hi-speed trip in a speed-boat by paying ₹500.",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Asha Resorts",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Maithon Hotel and Restaurant",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Majumdar Nivas of DVC",
+              "description": "Main office: CPRO, DVC Towers, CIT Housing Complex, VIP Rd, Kolkata. Limited food menu.",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:42.297Z"
+      },
+      "search_context": "Mountain / Hills Maithon Sightseeing Maithon is a town in northern Jharkhand . The Barakar River east of Maithon forms the border with West Bengal at Asansol .",
+      "travel_facts": {
+        "summary": "**Maithon** stitches **Kumardubi (~9 km)** Asansol feeders toward **IXR (~178 km)** plateau stacks—Barakar dam picnics bias shared-auto tides knowing Kolkata eastern gateways absorb overnight Volvo merges.",
+        "keywords": [
+          "kumardubi asansol feeders",
+          "ixr plateau stacks",
+          "barakar dam picnics",
+          "shared auto tides",
+          "kolkata overnight volvos",
+          "jharkhand wb border merges"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-massanjore",
+      "name": "Massanjore",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": null,
+      "description": "**Massanjore** (मसानजोर _Masānjor_) is a city in Jharkhand . The place is just amazing for adventurous persons. Hill climbing or swimming is pretty much enjoyable. The broad river, mountains, Jharkhand gives its identity everywhere. At night, the total ambiance changes.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Massanjore",
+        "wikipedia": "https://en.wikipedia.org/wiki/Massanjore",
+        "wikidata": "https://www.wikidata.org/wiki/Q14224342"
+      },
+      "distance_km": null,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 1,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.8,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Massenjore_dam.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Massanjore%20in%20Dumka%20district%2C%20Jharkhand%2014.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Deoghar Airport",
+          "code": "DGH",
+          "distance_km": 148,
+          "note": "IXR Ranchi (~268 km) stacks plateau charters—Mayurakshi dam ridges thicken winter Bengal crossover peaks"
+        },
+        "nearest_railway_station": {
+          "name": "Dumka railway station",
+          "distance_km": 26,
+          "note": "Rampurhat branch meshes toward Siuri—hill reservoir taxis choke festival picnic merges"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 3,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.5,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 16167,
+        "content_richness_score": 0.115
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "It is on the Suri-Dumka road, about 24 km from Dumka in Jharkhand, and about 45 km from Suri in West Bengal. Buses ply on this road. A nice place for family and friends to stay and enjoy the nature.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:43.129Z"
+      },
+      "search_context": "Mountain / Hills Massanjore Sightseeing Massanjore (मसानजोर _Masānjor_) is a city in Jharkhand . The place is just amazing for adventurous persons. Hill climbing or swimming is pretty much enjoyable. The broad river, mountains, Jharkhand gives its identity everywhere. At night, the total ambiance changes.",
+      "travel_facts": {
+        "summary": "**Massanjore** climbs **Dumka (~26 km)** Rampurhat meshes beneath **DGH (~148 km)** regional stacks—Mayurakshi dam ridges bias Bengal crossover picnics knowing Siuri road merges absorb tribal highway checkpoints.",
+        "keywords": [
+          "dumka rampurhat meshes",
+          "dgh regional stacks",
+          "mayurakshi dam ridges",
+          "bengal crossover picnics",
+          "siuri road merges",
+          "tribal highway checkpoints"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-parasnath-hills",
+      "name": "Parasnath Hills",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.9611,
+        "lon": 86.1371,
+        "source": "wikidata"
+      },
+      "description": "**Parasnath Hills** are a range of hills in northern Jharkhand . The highest peak is 1350 metres.",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Parasnath_Hills",
+        "wikipedia": "https://en.wikipedia.org/wiki/Shikharji",
+        "wikidata": "https://www.wikidata.org/wiki/Q155776"
+      },
+      "distance_km": 1517,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Shikharji",
+        "Parasnath Hill",
+        "Sammet Shikhar",
+        "Sammed Shikhar"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Subh_Swami_Ganadhara_Tonk%2C_Shikharji.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shikharji%20Parasnath%20Giridih.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport (Ranchi)",
+          "code": "IXR",
+          "distance_km": 178,
+          "note": "Kazi Nazrul Islam Airport (Durgapur) (~135 km) stacks alternate wings—Shikharji trek quotas thicken Jain festival peaks"
+        },
+        "nearest_railway_station": {
+          "name": "Parasnath railway station",
+          "distance_km": 12,
+          "note": "Grand Chord meshes Madhuban approaches—pony convoys bias dawn summit queues"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Hyderabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": true,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 71852,
+        "content_richness_score": 0.513
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "This range is one of the most important pilgrimage centres for Jains. They call it Sammed Sikharji. The hill is named after Parasnath, the 23rd Tirthankara. Twenty of the twenty-four Jain Tirthankaras attained salvation on this hill. According to some, nine Tirthakaras attained salvation on this hill. For each of them there is a shrine (gumti or tuk) on the hill. Some of the temples on the hill are believed to be more than 2,000 years old. However, although the place has been inhabited from ancient times, the temples may be of more recent origin.\r\n\nAbout 50,000 Jain pilgrims visit Sammed Shikharji every year.\r\n\nThe Santhals call it Marang Buru, the hill of the deity. They celebrate a hunting festival on the full moon day in Baisakh (mid April).",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Best time to visit is from October to March when the weather is pleasant.\r\n\n\r\n By road Parasnath Hill is on Grand Trunk Road NH 2.The nearby place for reaching Parasnath is Ranchi 190 km, Bokaro 40 km, Jhumri Tileya 80 km Dhanbad 60 km and Hazaribagh 80 km\r\n\n\r\n By rail Parashnath station on the Howrah-Delhi grand chord line is the base for a visit to Parashnath. The adjacent town is called **Isri** or **Isri Bazar**. It has got some Jain dharmashalas. There is a Dak Bungalow at Dumri about a mile from the station. There is small station at **Nimiaghat** from where also Parasnath Hill is accessible, but the said route is not the popular one, people only travel by this route once a year. Best is to take 36 seat bus/rental car from Isri Bazar for Madhuban and the metalled trek route of 9 km to Shikharji (Parashnath).\r\n\n\r\n Parasnath - one passenger train in the evening is available for Dhanbad. \r\nAlmost all the major trains running on The Grand Chord line (Delhi to Kolkata) stop at Parasnath station. These include New Delhi - Kolkata Rajdhani Express, Puri - New Delhi Purushottam Express, Mumbai- Howrah Mail, Ahmedabad-Asansol Parasnath Express. In view of the tourist volume, Parasnath station has been built as a model station by Indian Railways.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "The summit of Parasnath Hill can be reached either from the southern or the northern side. There are two recognized routes to Parasnath Hill.\r\n\nThe southern approach is from Isri Bazaar, to the top, is motorable for about 2 km, the rest being a climb of 8 km.\r\n\nThe northern approach is a 13 km route from Madhuban village on the Dumri-Giridih road. Madhuban is about 40 km from Giridih and about 10 km from Parasnath rail station/ Isri Bazaar/ Dumri, all on Grand Trunk Road (NH 2). Buses ply along this route from Dumri to Giridih and stop at Madhuban village. Hired cars or taxis are available at Isri Bazar, just outside the rail station. There are a number of Jain temples at Madhuban.\r\n\nAfter 3.5 km from Madhuban there is a stream called Gandharva nala and further up there is another stream Sita nala. The Jains hold the portion from Gandharva nala up to the summit as very sacred. It is easier to reach Parasnath from its northern side.\r\n\nPonies and dandis for the climb can be arranged at short notice. Jeeps and such power-driven vehicles can be hired to carry visitors for a considerable distance up the hill. Thereafter they have to walk.\r\n\n\r\n Area landmarks 1 **Parashnath railway station**.   \r\n 2 **Nimiaghat railway station**.   \r\nNote: The attached map is slightly erroneous. Dumri is wrongly shown, so is the road from Dumri. Dumri is where the Forest Rest House is marked.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Shri Sammed Sikharji",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9612,
+                "lon": 86.1369
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "31st Tonk of Bhagwan Shri Parshavnath",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9635,
+                "lon": 86.1295
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "30th Tonk of Bhagwan Shri Neminath",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9625,
+                "lon": 86.1299
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "29th Tonk of Bhagwan Shri Ajitnath",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.96197,
+                "lon": 86.13001
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Choprakund",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.96292,
+                "lon": 86.13497
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Shri Swambhadra Koot",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9592,
+                "lon": 86.1384
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "17th Tonk of Bhagwan Shri Vasupujya",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9578,
+                "lon": 86.1401
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "18th Tonk of Bhagwan Shri Abhinandanath",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9572,
+                "lon": 86.1404
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "12th Tonk of Bhagwan Shri Chandrahprabhu",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9637,
+                "lon": 86.1465
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Tonks of 24 Jain Tirthankaras",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.9959,
+                "lon": 86.1471
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Jain History Museum",
+              "description": "It houses a number of Jain scriptures, idols and manuscript. One can view the clear sight of Parasnath Temple using the telescope installed at the balcony of the museum.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.0068,
+                "lon": 86.1489
+              },
+              "price": null
+            }
+          ],
+          "brief": "9612 86.1369 1 **Shri Sammed Sikharji**.   \r\n 2 **31st Tonk of Bhagwan Shri Parshavnath**.   \r\n 3 **30th Tonk of Bhagwan Shri Neminath**.   \r\n 4 **29th Tonk of Bhagwan Shri Ajitnath**.   \r\n 5 **Choprakund**.   \r\n 6 **Shri Swambhadra Koot**.   \r\n 7 **17th Tonk of Bhagwan Shri Vasupujya**.   \r\n 8 **18th Tonk of Bhagwan Shri Abhinandanath**.   \r\n 9 **12th Tonk of Bhagwan Shri Chandrahprabhu**.   \r\n**Partly up the hill**\r\n\n\r\n 10 **Tonks of 24 Jain Tirthankaras**.   \r\n**At Hill Base (Madhuban)**\r\n\n\r\n 11 **Jain History Museum**. It houses a number of Jain scriptures, idols and manuscript. One can view the clear sight of Parasnath Temple using the telescope installed at the balcony of the museum.   \r\n Jain temples - Samosharan temple and Bhomiyaji Asthan \r\nNote: Enlarge (+) the attached map to view a particular area in more detail.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Engage in religious activities. \r\n Climb the hill. There is a road going up for some distance. \r\n Panoramic views of the surrounding areas as one goes higher up the hill - Chandraprabhuji, Pushpnandanji, Goutamswamiji and Chaprakund. \r\n Madhuban is a popular picnic spot. But is it sacred for Jains, so no alcohol or non-vegetarian food may be consumed there.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Kalpana Hotel",
+              "description": "Hotel serving vegetarian food.",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Alcohol is prohibited in this area."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Bharatbarshiya Digambar Jain Tirthakshetra Committee",
+              "description": "This is speacially for Jains who do the parikrama of \"6 miles uphill, 6 miles parikrama and 6 miles downhill\". For the food in the evening one has to reach Dak Bunglow by 4:30PM. Food is served to only the pilgrims with staying permission. Hot water is available from early in the morning till 8AM",
+              "price": "Dormitory: ₹50 per head"
+            },
+            {
+              "name": "Niharika Dharmasala",
+              "description": "Five storeyed building with modern amenities.",
+              "price": null
+            },
+            {
+              "name": "Shaswat Bhawan",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Use sunscreen, wear a hat",
+            "BSNL (Cellone) network available"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:43.962Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Mountain / Hills Parasnath Hills Sightseeing This range is one of the most important pilgrimage centres for Jains. They call it Sammed Sikharji. The hill is named after Parasnath, the 23rd Tirthankara. Twenty of the twenty-four Jain Tirthankaras attained salvation on this hill. According to some, nine Tirthakaras attained salvation on this hill. For each of them there is a shrine (gumti or tuk) on the hill. Some of the temples on the hill are believed to be more than 2,000 years old. Howeve Parasnath Hills are a range of hills in northern Jharkhand . The highest peak is 1350 metres.",
+      "travel_facts": {
+        "summary": "**Parasnath Hills** hinges **Parasnath (~12 km)** Grand Chord meshes beneath **IXR (~178 km)** plateau stacks—Shikharji Jain summit convoys bias pony-assisted dawn tides knowing Dhanbad coal merges absorb Giridih feeder taxis.",
+        "keywords": [
+          "parasnath grand chord meshes",
+          "ixr plateau stacks",
+          "shikharji jain convoys",
+          "pony dawn summit tides",
+          "madhuban approach merges",
+          "dhanbad giridih feeders"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-ranchi",
+      "name": "Ranchi",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 23.35556,
+        "lon": 85.33472,
+        "source": "wikidata"
+      },
+      "description": "**Ranchi** (रांची _Rañcī_) is the capital of the Indian state of Jharkhand .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Ranchi",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ranchi",
+        "wikidata": "https://www.wikidata.org/wiki/Q174461"
+      },
+      "distance_km": 1414,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Rańczi",
+        "Ranĉio"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20From%20Pahari%20Temple.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Birsa Munda Airport",
+          "code": "IXR",
+          "distance_km": 10,
+          "note": "Hatia apron stacks alternate suburban merges—Smart City metro pilots thicken plateau peaks"
+        },
+        "nearest_railway_station": {
+          "name": "Ranchi Junction railway station",
+          "distance_km": 4,
+          "note": "Hatia satellite merges toward Tatanagar—waterfall charter taxis choke Sunday Jonha hops"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Hyderabad",
+          "Patna",
+          "Bengaluru"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 3,
+        "has_medical_facilities_nearby": true,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 144718,
+        "content_richness_score": 1
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Ranchi ( rahny-chee ) is on the Chota Nagpur Plateau, at a height of 650 m (2,140) feet above sea level. The entire area is generally covered with red soil. Extensive forests around Ranchi are home to bears, sambar, chital, nilgai and hares. Summer afternoons are hot but evenings and nights are cool and enjoyable (maximum 40°C, min 16°C). It is cool/cold in winter (maximum 25°C and minimum 0°C). Annual rainfall is 1530 mm.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By plane 1 ** Birsa Munda Airport ** ( **IXR **  IATA ), HInoo ( 7 km from the city centre and 1 km from Hatia    SER   ). It has daily flights from Bangalore, Bhubaneswar, Delhi, Hyderabad, Indore, Jharsuguda, Kolkata, Mumbai, Patna, and Raipur.  ( updated Jun 2020 ) \r\n By rail Ranchi is connected by rail to important places all over the country. Hatia is a station next to Ranchi and serves as terminus for many of the trains. Given below are some of the convenient trains. The first number is for the train from Ranchi and second for the train to Ranchi.\r\n\n\r\n By road Ranchi is well connected by a network of roads with all the neighbouring cities and towns. The distance from some important locations are as follows: Bokaro 110 km, Dhanbad 170 km, Jamshedpur 140 km, Chaibasa 130 km, Hazaribagh 100 km, Gaya 220 km, Patna 340 km, Barhi (on NH 2 Grand Trunk Road) 136 km, Rourkela 250 km, Kolkata 415 km. Bus connections are available from almost all cities and towns in the area.\r\n\nYou can travel from Simdega, Chaibasa, Jamudag, Lohardaga and other places using **Lily Travels** Delux bus service from Ranchi City.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Ranchi like a number of other cities in North India, has a concept of share auto. The share autos operate along fixed routes and take in as many passengers as physically possible. Fares vary depending upon the route. City buses also ply on designated routes for most of hours.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Aqua World",
+              "description": "An aquarium, game parlour and food court are worth seeing and good values.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.38232,
+                "lon": 85.32042
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Pahari Mandir",
+              "description": "It gives an excellent 360-degree view of the city. A must visit.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.37529,
+                "lon": 85.31095
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Tagore Hill",
+              "description": "Tagore Hill is about 90 m (300 ft) above its base. The elder brother of Rabindranath Tagore, Jyotirindranath Tagore purchased the hillok Morabadi and built up an _ashram_ after the suicide of his wife Kadambari Devi. You can get a panoramic view from the top of the hill, and a great part of Ranchi can be seen from this place.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.40122,
+                "lon": 85.33783
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Ranchi Science Centre",
+              "description": "The first science museum established in the state of Jharkhand. It houses several exhibits on astronomy, evolution and topics connected to the area such as coal mining.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ranchi_Science_Centre",
+              "coordinates": {
+                "lat": 23.407,
+                "lon": 85.34
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Tribal Research Institute and Museum",
+              "description": "The museum is dedicated to the 32 tribal groups of Jharkhand and providing a platform to learn about many of the lesser known tribal cultures in the state.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tribal_Research_Institute_and_Museum",
+              "coordinates": {
+                "lat": 23.3943,
+                "lon": 85.3332
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Ranchi Lake",
+              "description": "Excavated in 1842, it is centrally situated. The lake has boating facilities.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.36836,
+                "lon": 85.31815
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Rukka Dam",
+              "description": "A big dam on the outskirts of the city. It offers an excellent ambiance for picnic and recreation.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.45838,
+                "lon": 85.52775
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Dhurva Dam",
+              "description": "A reservoir on the outskirts of the city. An excellent place to enjoy a scenic sunset view.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.27963,
+                "lon": 85.25889
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Kanke Dam",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.39988,
+                "lon": 85.30457
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Rock Garden",
+              "description": "A beautiful place to hang out. Vehicle parking facilities available.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.40385,
+                "lon": 85.31298
+              },
+              "price": "Entry ticket ₹10 per adult"
+            },
+            {
+              "order": 11,
+              "name": "Bhagwan Birsa Jaiwik Udyaan",
+              "description": "This is an excellent biological park to visit.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Bhagwan_Birsa_Biological_Park",
+              "coordinates": {
+                "lat": 23.18614,
+                "lon": 85.28324
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "Deer Park",
+              "description": "",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Aqua World** ( Machhli Ghar ). An aquarium, game parlour and food court are worth seeing and good values.  ( updated May 2024 ) \r\n 2 **Pahari Mandir** ( on a small hill, off Ratu Road which is about 2 km from Main Road ). It gives an excellent 360-degree view of the city. A must visit.   \r\n 3 **Tagore Hill**, Morabadi ( about 5 km from the city ). Tagore Hill is about 90 m (300 ft) above its base. The elder brother of Rabindranath Tagore, Jyotirindranath Tagore purchased the hillok Morabadi and built up an _ashram_ after the suicide of his wife Kadambari Devi. You can get a panoramic view from the top of the hill, and a great part of Ranchi can be seen from this place.  ( updated May 2024 ) \r\n 4 ** Yogoda Satsanga Society of India- Ashram ** ( Yogoda Satsanga Sakha Math ), Paramahansa Yogananda Path ( less than 1 km from Ranchi station ), ☏ +91 651 2460071 . 9AM - 5 PM . Paramahansa Yogananda, the author of Autobiography of a Yogi, began his life's work here. The natural beauty and peaceful atmosphere offer refreshment to mind and spirit. No .  ( updated May 2020 ) \r\n 5 **Ranchi Science Centre** , Tagore Hill Road, Near, Temple Rd, Chiraundi, Morabadi . The first science museum established in the state of Jharkhand. It houses several exhibits on astronomy, evolution and topics connected to the area such as coal mining.  ( updated Jan 2021 ) \r\n 6 ** State Museum Hotwar ** , Hotwar Khelgaon Mega Sports Complex . An arts and cultural heritage museum showcasing Jharkhand's rich history.  ( updated Jan 2021 ) \r\n 7 **Tribal Research Institute and Museum** , Tagore Hill Rd, Tetartoli, Morabadi , ☏ +91 651 255 1824 . The museum is dedicated to the 32 tribal groups of Jharkhand and providing a platform to learn about many of the lesser known tribal cultures in the state.  ( updated Jan 2021 ) \r\n Lakes and dams 8 **Ranchi Lake**. Excavated in 1842, it is centrally situated. The lake has boating facilities.   \r\n 9 **Rukka Dam** ( Getalsud Dam ) ( 8 km from booty more ). A big dam on the outskirts of the city. It offers an excellent ambiance for picnic and recreation.   \r\n 10 **Dhurva Dam**. A reservoir on the outskirts of the city. An excellent place to enjoy a scenic sunset view.   \r\n 11 **Kanke Dam**.   \r\n Parks and gardens 12 **Rock Garden**. A beautiful place to hang out. Vehicle parking facilities available. Entry ticket ₹10 per adult .   \r\n 13 **Bhagwan Birsa Jaiwik Udyaan** ( Bhagwan Birsa Biological Park ), Main Road, NH33, Ormanjhi , ☏ +91 94705 90734 . This is an excellent biological park to visit.   \r\n **Deer Park** ( 16 km on Ranchi-Khunti Road ).",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Durga Pooja",
+              "description": "Dashehara time: One of the best poojas the country has. The atmosphere, the feel, the decorations, the Goddess statue and the people are just amazing."
+            },
+            {
+              "name": "JSCA cricket stadium",
+              "description": "in HEC area, world class stadium with modern facilities."
+            }
+          ],
+          "brief": "Dashehara time: One of the best poojas the country has. The atmosphere, the feel, the decorations, the Goddess statue and the people are just amazing.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [
+            {
+              "name": "Birsa Vihar",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Capitol Hill",
+              "description": "",
+              "location": null
+            },
+            {
+              "name": "Capitol Residency",
+              "description": "",
+              "location": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "**Birsa D Bar &amp; Restaurant**, Birsa Chowk, Khuti Road .   \r\n **Hangul Bar &amp; Restaurant**, ☏ +91 651 207780 . Hotel Chinar   \r\n **Saqi Bar &amp; Restaurant**, Kanke Road ."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Anand Hotel",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Ganga Ashram Hotel",
+              "description": "",
+              "price": null
+            },
+            {
+              "name": "Gujrat Hotel",
+              "description": "",
+              "price": null
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "Summer (Mar–May) is hot; avoid dehydration"
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:44.813Z",
+        "wikipedia_summary": "Ranchi is the capital city and also the largest district by population of the Indian state of Jharkhand. Ranchi was the centre of the Jharkhand movement, which called for a separate state for the tribal regions of South Bihar, northern Odisha, western West Bengal and the eastern area of what is present-day Chhattisgarh. The Jharkhand state was formed on 15 November 2000 by carving out the Bihar divisions of Chota Nagpur and Santhal Parganas. Ranchi is being developed as a Smart City because it was selected as one of the hundred Indian cities to be developed as a smart city under PM Narendra Modi's flagship Smart Cities Mission.",
+        "wikipedia_description": "Capital of Jharkhand, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:44.875Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Ranchi Sightseeing Ranchi is the capital city and also the largest district by population of the Indian state of Jharkhand. Ranchi was the centre of the Jharkhand movement, which called for a separate state for the tribal regions of South Bihar, northern Odisha, western West Bengal and the eastern area of what is present-day Chhattisgarh. The Jharkhand state was formed on 15 November 2000 by carving out the Bihar divisions of Chota Nagpur and Santhal Parganas. Ranchi is being developed as a Smart City because it was selected as one of the hundred Indian cities to be developed as a smart city under PM Narendra Modi's flagship Smart Cities Mission. Ranchi ( rahny-chee ) is on the Chota Nagpur Plateau, at a height of 650 m (2,140) feet above sea level. The entire area is generally covered with red soil. Extensive forests around Ranchi are home to bears, sambar, chital, nilgai and hares. Summer afternoons are hot but evenings and nights are cool and enjoyable (maximum 40°C, min 16°C). It is cool/cold in winter (maximum 25°C and minimum 0°C). Annual rainfall is 1530 mm. Ranchi (रांची _Rañcī_) is the capital of the Indian state of Jharkhand .",
+      "travel_facts": {
+        "summary": "**Ranchi** pairs **Ranchi Junction (~4 km)** plateau meshes with **IXR (~10 km)** Birsa stacks—Hatia expresses bias Jonha-Hundru charter tides knowing Chota Nagpur tribal museums thicken festival corridor merges.",
+        "keywords": [
+          "ranchi junction meshes",
+          "ixr birsa stacks",
+          "hatia plateau expresses",
+          "jonha hundru charters",
+          "chota nagpur museums",
+          "smart city pilot merges"
+        ]
+      }
+    },
+    {
+      "slug": "jharkhand-santhal-parganas",
+      "name": "Santhal Parganas",
+      "region": "",
+      "state": "Jharkhand",
+      "coordinates": {
+        "lat": 24.5,
+        "lon": 87.5,
+        "source": "wikidata"
+      },
+      "description": "**Santhal Parganas** is in Jharkhand , India .",
+      "category": "destination",
+      "best_time_to_visit": {
+        "text": "Oct–Feb (pre-monsoon heat Mar–May)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "season": "humid_subtropical"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Santhal_Parganas",
+        "wikipedia": "https://en.wikipedia.org/wiki/Santhal_Pargana_division",
+        "wikidata": "https://www.wikidata.org/wiki/Q7420152"
+      },
+      "distance_km": 1651,
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "min_days": 2,
+      "weather_snippet": "Oct/Nov/Dec",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:01:09.173Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Santhal Pargana division",
+        "Divisió de Santhal Parganas",
+        "Santal Pargana"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santhal%20Pargana%20division.png?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "30–40",
+          "winter": "15–26"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Deoghar Airport",
+          "code": "DGH",
+          "distance_km": 92,
+          "note": "IXR Ranchi (~248 km) stacks plateau wings—tribal fair corridors thicken Dumka–Pakur merges"
+        },
+        "nearest_railway_station": {
+          "name": "Jasidih Junction railway station",
+          "distance_km": 78,
+          "note": "Grand Chord meshes Dumka branches—overnight expresses thicken harvest-season peaks"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna",
+          "Ranchi",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Patna"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 20385,
+        "content_richness_score": 0.146
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:45.429Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Santhal Parganas Sightseeing Santhal Parganas is in Jharkhand , India .",
+      "travel_facts": {
+        "summary": "**Santhal Parganas** spans **Jasidih (~78 km)** Grand Chord meshes beneath **DGH (~92 km)** regional stacks—tribal heartland highways bias Dumka harvest fairs knowing Ranchi plateau charters absorb overnight Volvo tides.",
+        "keywords": [
+          "jasidih grand chord meshes",
+          "dgh regional stacks",
+          "tribal santhal highways",
+          "dumka harvest fairs",
+          "ranchi plateau charters",
+          "jharkhand division merges"
+        ]
+      }
+    }
+  ]
+}

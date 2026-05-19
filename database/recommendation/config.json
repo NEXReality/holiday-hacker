@@ -38,26 +38,31 @@
       "condition": "month Jun-Aug AND (Beaches/Landslide zones)"
     }
   },
+  "_distance_tuning_notes": "Nearby ranking uses distance_bands_by_mode (band points by km) plus distance_actual_weight (extra points per km closer). Bands: 0_300 = 0–300 km, 300_600 = 300–600 km, 600_1200 = 600–1200 km, 1200_plus = 1200+ km.",
   "distance_bands_by_mode": {
     "car": {
-      "0_300": 30,
+      "0_300": 40,
       "300_600": 10,
-      "600_plus": -20
+      "600_1200": -30,
+      "1200_plus": -120
     },
     "bus": {
       "0_300": 20,
       "300_600": 30,
-      "600_plus": -10
+      "600_1200": -20,
+      "1200_plus": -100
     },
     "train": {
-      "0_300": 10,
-      "300_600": 30,
-      "600_plus": 20
+      "0_300": 35,
+      "300_600": 40,
+      "600_1200": 25,
+      "1200_plus": 10
     },
     "flight": {
-      "0_300": -40,
+      "0_300": -80,
       "300_600": 10,
-      "600_plus": 30
+      "600_1200": 35,
+      "1200_plus": 45
     }
   },
   "popularity_bands": {
@@ -114,39 +119,55 @@
       "coast",
       "backwater",
       "seaside",
-      "coastal"
+      "coastal",
+      "shore"
     ],
     "mountain": [
       "mountain",
+      "hill station",
       "hill",
       "hills",
       "tea garden",
+      "tea country",
       "coffee",
       "mist",
-      "trek"
+      "trek",
+      "trekking",
+      "high ridges",
+      "valley"
     ],
     "heritage": [
       "heritage",
       "historic",
+      "historical",
       "palace",
       "fort",
       "ruins",
-      "ancient"
+      "ancient",
+      "archaeological",
+      "colonial",
+      "monuments"
     ],
     "wildlife": [
       "wildlife",
       "nature",
+      "national park",
       "park",
       "sanctuary",
+      "reserve",
       "forest",
       "tiger",
-      "elephant"
+      "elephant",
+      "mangrove"
     ],
     "city": [
       "city",
+      "metro city",
+      "metro",
       "urban",
       "sightseeing",
-      "landmark"
+      "landmark",
+      "planned township"
     ],
     "spiritual": [
       "temple",
@@ -156,9 +177,31 @@
       "church",
       "mosque",
       "sabarimala",
-      "spiritual"
+      "spiritual",
+      "yoga hub",
+      "yoga",
+      "tirth",
+      "ashram",
+      "char dham",
+      "ghats",
+      "holy city",
+      "sacred",
+      "jyotirlinga"
     ]
   },
+  "spiritual_filter_strong_keywords": [
+    "pilgrimage",
+    "holy city",
+    "city of temples",
+    "sacred city",
+    "most sacred",
+    "char dham",
+    "ghats",
+    "tirth",
+    "tirtha",
+    "major holy",
+    "important pilgrimage"
+  ],
   "seasonal_map": {
     "summer_risk_months": [
       3,
@@ -181,7 +224,20 @@
     ],
     "monsoon_landslide_states": [
       "Kerala",
-      "Karnataka"
+      "Karnataka",
+      "Uttarakhand",
+      "Himachal Pradesh",
+      "Sikkim",
+      "Jammu and Kashmir"
+    ],
+    "monsoon_nature_friendly_regions": [
+      "South",
+      "West"
+    ],
+    "monsoon_nature_friendly_states_extra": [
+      "Odisha",
+      "West Bengal",
+      "Andaman and Nicobar Islands"
     ],
     "peak_season_months": [
       10,
@@ -193,12 +249,34 @@
   },
   "popularity_multiplier": 100,
   "spiritual_not_selected_penalty": -80,
+  "spiritual_selected_bonus": 90,
   "peak_season_bonus": 25,
-  "distance_actual_weight": 0.03,
+  "distance_actual_weight": 0.05,
+  "direct_route_bonus": 25,
+  "no_direct_route_penalty": -10,
+  "same_state_penalty": -8,
+  "same_state_weekend_bonus": 6,
+  "last_mile_threshold_km": 100,
+  "last_mile_penalty_per_km": 0.15,
+  "last_mile_max_penalty": -25,
+  "impossible_mode_penalty": -250,
+  "category_match_primary_bonus": 40,
+  "category_match_secondary_bonus": 15,
+  "off_segment_penalty": -12,
+  "leave_block_match_bonus": 25,
+  "leave_block_mismatch_penalty": -30,
+  "climate_avoid_month_penalty": -60,
+  "climate_monsoon_nature_penalty": -25,
   "credibility_weights": {
     "unesco_world_heritage": 30,
     "unesco_tentative": 15,
     "geo_heritage": 10,
     "asi_monument": 10
+  },
+  "travel_access_rules": {
+    "_comment": "Used by scripts/backfill-reachable-by.js and plan filter fallback. reachable_by on each destination: car | bus | train | flight.",
+    "flight_only_from_mainland_states": ["Andaman and Nicobar Islands", "Lakshadweep"],
+    "gateway_slug_tokens": ["port-blair", "kavaratti", "agatti"],
+    "no_rail_states": ["Ladakh", "Andaman and Nicobar Islands", "Lakshadweep"]
   }
 }

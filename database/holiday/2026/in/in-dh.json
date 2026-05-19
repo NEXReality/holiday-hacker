@@ -1,0 +1,64 @@
+{
+  "stateCode": "IN-DH",
+  "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+  "year": 2026,
+  "indiaRegion": "West",
+  "adminType": "ut",
+  "incredibleIndiaSlug": "dadra-and-nagar-haveli-and-daman-and-diu",
+  "holidayJsonSlug": "in-dh",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year's Day", "type": "restricted" },
+    { "date": "2026-01-03", "name": "Hazrat Ali's Birthday", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Makar Sankranti / Maghu Bihu / Pongal", "type": "gazetted" },
+    { "date": "2026-01-23", "name": "Basant Panchami / Sri Panchami", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-01", "name": "Guru Ravidas's Birthday", "type": "restricted" },
+    { "date": "2026-02-12", "name": "Birthday of Swami Dayananda Saraswati", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Maha Shivratri", "type": "restricted" },
+
+    { "date": "2026-03-03", "name": "Holika Dahan / Dolyatra", "type": "restricted" },
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-19", "name": "Chaitra Sukladi / Gudi Padava / Ugadi / Cheti Chand", "type": "gazetted" },
+    { "date": "2026-03-20", "name": "Jamat-ul-Vida", "type": "restricted" },
+    { "date": "2026-03-21", "name": "Id-ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-05", "name": "Easter Sunday", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Vaishakhi / Vishu / Mesadi (Tamil New Year's Day)", "type": "restricted" },
+    { "date": "2026-04-15", "name": "Vaisakhadi (Bengali) / Bahag Bihu (Assam)", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "restricted" },
+    { "date": "2026-05-09", "name": "Birthday of Gurudev Rabindranath Tagore", "type": "restricted" },
+    { "date": "2026-05-27", "name": "Id-ul-Zuha (Bakrid)", "type": "restricted" },
+
+    { "date": "2026-06-26", "name": "Muharram", "type": "restricted" },
+
+    { "date": "2026-07-16", "name": "Rath Yatra", "type": "restricted" },
+
+    { "date": "2026-08-15", "name": "Independence Day / Parsi New Year's Day (Nauraj)", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Milad-un-Nabi / Id-e-Milad (Birthday of Prophet Mohammad)", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Onam or Thiru Onam Day", "type": "restricted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "gazetted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "Ganesh Chaturthi / Vinayaka Chaturthi", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi's Birthday", "type": "gazetted" },
+    { "date": "2026-10-18", "name": "Dussehra (Saptami)", "type": "restricted" },
+    { "date": "2026-10-19", "name": "Dussehra (Mahashtami)", "type": "restricted" },
+    { "date": "2026-10-20", "name": "Dussehra (Vijay Dashmi)", "type": "gazetted" },
+    { "date": "2026-10-26", "name": "Maharishi Valmiki's Birthday", "type": "restricted" },
+    { "date": "2026-10-29", "name": "Karaka Chaturthi (Karwa Chouth)", "type": "restricted" },
+
+    { "date": "2026-11-09", "name": "Govardhan Puja", "type": "gazetted" },
+    { "date": "2026-11-11", "name": "Bhai Duj", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Teg Bahadur's Martyrdom Day", "type": "restricted" },
+
+    { "date": "2026-12-23", "name": "Hazrat Ali's Birthday", "type": "restricted" },
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" }
+  ]
+}

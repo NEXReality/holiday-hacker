@@ -1,0 +1,61 @@
+{
+  "stateCode": "IN-CH",
+  "stateName": "Chandigarh",
+  "year": 2026,
+  "indiaRegion": "North",
+  "adminType": "ut",
+  "incredibleIndiaSlug": "chandigarh",
+  "holidayJsonSlug": "in-ch",
+  "holidays": [
+    { "date": "2026-01-13", "name": "Lohri", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Makar Sankranti", "type": "restricted" },
+    { "date": "2026-01-23", "name": "Basant Panchami", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-01", "name": "Guru Ravidas's Birthday", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Maha Shivratri", "type": "restricted" },
+
+    { "date": "2026-03-03", "name": "Holika Dahan", "type": "restricted" },
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-21", "name": "Id-ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "gazetted" },
+    { "date": "2026-04-05", "name": "Easter Sunday", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Vaisakhi", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "gazetted" },
+    { "date": "2026-05-27", "name": "Id-ul-Zuha (Bakrid)", "type": "gazetted" },
+
+    { "date": "2026-06-18", "name": "Sri Guru Arjan Dev Ji's Martyrdom Day", "type": "restricted" },
+    { "date": "2026-06-26", "name": "Muharram", "type": "restricted" },
+    { "date": "2026-06-29", "name": "Sant Kabir Jayanti", "type": "restricted" },
+
+    { "date": "2026-08-15", "name": "Independence Day", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Milad-un-Nabi / Id-e-Milad", "type": "restricted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "restricted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami (Vaishnava)", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "Ganesh Chaturthi / Vinayaka Chaturthi", "type": "restricted" },
+
+    { "date": "2026-10-02", "name": "Mahatma Gandhi's Birthday", "type": "gazetted" },
+    { "date": "2026-10-11", "name": "Maharaja Agrasen Jayanti", "type": "restricted" },
+    { "date": "2026-10-20", "name": "Dussehra", "type": "gazetted" },
+    { "date": "2026-10-26", "name": "Maharishi Valmiki's Birthday", "type": "gazetted" },
+    { "date": "2026-10-29", "name": "Karaka Chaturthi (Karwa Chouth)", "type": "restricted" },
+
+    { "date": "2026-11-08", "name": "Diwali (Deepavali)", "type": "gazetted" },
+    { "date": "2026-11-09", "name": "Govardhan Puja / Vishwakarma Day", "type": "restricted" },
+    { "date": "2026-11-11", "name": "Bhai Duj", "type": "restricted" },
+    { "date": "2026-11-15", "name": "Pratihar Shashthi / Surya Shashthi (Chhat Puja)", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Nanak's Birthday", "type": "gazetted" },
+
+    { "date": "2026-12-14", "name": "Sri Guru Teg Bahadur Ji Martyrdom Day", "type": "restricted" },
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" },
+    { "date": "2026-12-26", "name": "Jor Mela Fatehgarh Sahib", "type": "restricted" },
+    { "date": "2026-12-27", "name": "Jor Mela Fatehgarh Sahib", "type": "restricted" },
+    { "date": "2026-12-28", "name": "Jor Mela Fatehgarh Sahib", "type": "restricted" }
+  ]
+}

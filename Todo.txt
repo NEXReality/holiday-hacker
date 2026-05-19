@@ -1,4 +1,4 @@
 Todo
 
-- educate the recommentation logic to the user, like weather, etc
-- remove the number from Plan cards
+app
+---

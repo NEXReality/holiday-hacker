@@ -1,0 +1,72 @@
+{
+  "stateCode": "IN-LD",
+  "stateName": "Lakshadweep",
+  "year": 2026,
+  "indiaRegion": "South",
+  "adminType": "ut",
+  "incredibleIndiaSlug": "lakshadweep",
+  "holidayJsonSlug": "in-ld",
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year's Day", "type": "restricted" },
+    { "date": "2026-01-03", "name": "Hazrat Ali's Birthday", "type": "restricted" },
+    { "date": "2026-01-14", "name": "Pongal / Makar Sankranti", "type": "gazetted" },
+    { "date": "2026-01-16", "name": "Rajab 27", "type": "restricted" },
+    { "date": "2026-01-23", "name": "Basant Panchami / Sri Panchami", "type": "restricted" },
+    { "date": "2026-01-26", "name": "Republic Day", "type": "gazetted" },
+
+    { "date": "2026-02-01", "name": "Guru Ravidas's Birthday", "type": "restricted" },
+    { "date": "2026-02-12", "name": "Birthday of Swami Dayananda Saraswati", "type": "restricted" },
+    { "date": "2026-02-15", "name": "Maha Shivratri", "type": "restricted" },
+    { "date": "2026-02-19", "name": "Shivaji Jayanti", "type": "restricted" },
+
+    { "date": "2026-03-03", "name": "Holika Dahan / Dolyatra", "type": "restricted" },
+    { "date": "2026-03-04", "name": "Holi", "type": "gazetted" },
+    { "date": "2026-03-17", "name": "Ramzan 27", "type": "restricted" },
+    { "date": "2026-03-19", "name": "Chaithra Sukladi / Gudi Padava / Ugadi / Cheti Chand", "type": "restricted" },
+    { "date": "2026-03-20", "name": "Jamat-ul-Vida", "type": "restricted" },
+    { "date": "2026-03-21", "name": "Id-ul-Fitr", "type": "gazetted" },
+    { "date": "2026-03-26", "name": "Ram Navami", "type": "gazetted" },
+    { "date": "2026-03-31", "name": "Mahavir Jayanti", "type": "gazetted" },
+
+    { "date": "2026-04-03", "name": "Good Friday", "type": "restricted" },
+    { "date": "2026-04-05", "name": "Easter Sunday", "type": "restricted" },
+    { "date": "2026-04-14", "name": "Vaisakhi / Vishu / Meshadi (Tamil New Year)", "type": "restricted" },
+    { "date": "2026-04-15", "name": "Vaisakhadi (Bengal) / Bahag Bihu (Assam)", "type": "restricted" },
+
+    { "date": "2026-05-01", "name": "Buddha Purnima", "type": "gazetted" },
+    { "date": "2026-05-09", "name": "Guru Rabindranath Tagore's Birthday", "type": "restricted" },
+    { "date": "2026-05-27", "name": "Id-ul-Zuha (Bakrid)", "type": "gazetted" },
+
+    { "date": "2026-06-26", "name": "Muharram", "type": "gazetted" },
+
+    { "date": "2026-07-16", "name": "Rath Yatra", "type": "restricted" },
+
+    { "date": "2026-08-15", "name": "Parsi New Year's Day", "type": "restricted" },
+    { "date": "2026-08-15", "name": "Independence Day / Naoroz", "type": "gazetted" },
+    { "date": "2026-08-26", "name": "Onam / Milad-un-Nabi / Id-e-Milad", "type": "gazetted" },
+    { "date": "2026-08-28", "name": "Raksha Bandhan", "type": "restricted" },
+
+    { "date": "2026-09-04", "name": "Janmashtami", "type": "gazetted" },
+    { "date": "2026-09-14", "name": "Ganesh Chaturthi / Vinayak Chaturthi", "type": "gazetted" },
+
+    { "date": "2026-10-02", "name": "Gandhi Jayanti", "type": "gazetted" },
+    { "date": "2026-10-18", "name": "Dussehra (Saptami)", "type": "restricted" },
+    { "date": "2026-10-19", "name": "Dussehra (Mahashtami)", "type": "restricted" },
+    { "date": "2026-10-20", "name": "Dussehra (Mahanavami)", "type": "restricted" },
+    { "date": "2026-10-20", "name": "Dussehra (Vijay Dashmi)", "type": "gazetted" },
+    { "date": "2026-10-26", "name": "Maharshi Valmiki's Birthday", "type": "restricted" },
+    { "date": "2026-10-29", "name": "Karaka Chaturthi (Karva Chauth)", "type": "restricted" },
+
+    { "date": "2026-11-08", "name": "Diwali (Deepavali)", "type": "restricted" },
+    { "date": "2026-11-08", "name": "Naraka Chaturdasi", "type": "restricted" },
+    { "date": "2026-11-09", "name": "Govardhan Puja", "type": "restricted" },
+    { "date": "2026-11-11", "name": "Bhai Duj", "type": "restricted" },
+    { "date": "2026-11-15", "name": "Pratihar Shashthi / Surya Shashthi (Chhath Puja)", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Teg Bahadur's Martyrdom Day", "type": "restricted" },
+    { "date": "2026-11-24", "name": "Guru Nanak's Birthday", "type": "gazetted" },
+
+    { "date": "2026-12-23", "name": "Hazrat Ali's Birthday", "type": "restricted" },
+    { "date": "2026-12-24", "name": "Christmas Eve", "type": "restricted" },
+    { "date": "2026-12-25", "name": "Christmas Day", "type": "gazetted" }
+  ]
+}

@@ -1,0 +1,1668 @@
+{
+  "state": "Nagaland",
+  "state_code": "NA",
+  "generated_at": "2026-05-18T11:16:30.662Z",
+  "count": 7,
+  "destinations": [
+    {
+      "slug": "nagaland-angami",
+      "name": "Angami",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 25.6747,
+        "lon": 94.1086,
+        "source": "curated approx (Kohima district hub)"
+      },
+      "description": "**Angami** Naga communities are centred on the Kohima district ridges; travellers normally stage via **Dimapur airport/rail** into Kohima for heritage villages, churches, and seasonal festivals.",
+      "category": "Culture / Ethnic overview",
+      "sections_present": [],
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Angami",
+        "wikipedia": "https://en.wikipedia.org/wiki/Angami",
+        "wikidata": ""
+      },
+      "distance_km": null,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 1,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.1,
+        "last_verified": "2026-05-18"
+      },
+      "raw_snippets": {},
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dimapur Airport",
+          "code": "DMU",
+          "distance_km": 92,
+          "note": "Hub relay ~74 km to Kohima ridge resorts—Sumo traffic spikes during Hornbill week"
+        },
+        "nearest_railway_station": {
+          "name": "Dimapur Junction railway station",
+          "distance_km": 95,
+          "note": "Broad-gauge trunk into Nagaland; onward taxi/bus to Kohima (~2 h)"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Chennai",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 2,
+      "ideal_for_weekend_trip": true,
+      "ideal_leave_block_type": [
+        "2_day_weekend"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.3,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": null
+      },
+      "image_override": null,
+      "categories": [
+        "Culture / Ethnic overview"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.652Z"
+      },
+      "search_context": "Culture / Ethnic overview destination Angami Sightseeing Angami Naga communities are centred on the Kohima district ridges; travellers normally stage via Dimapur airport/rail into Kohima for heritage villages, churches, and seasonal festivals.",
+      "travel_facts": {
+        "summary": "**Angami** cultural stacks hinge **DMU (~92 km) Kohima relays** beneath **Dimapur Junction (~95 km)** knowing Kisama heritage merges absorb Tenyidie ridge festival tides.",
+        "keywords": [
+          "angami kohima stacks",
+          "dimapur relay merges",
+          "hornbill apron",
+          "kisama heritage tides"
+        ]
+      }
+    },
+    {
+      "slug": "nagaland-dimapur",
+      "name": "Dimapur",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 25.9125,
+        "lon": 93.74167,
+        "source": "wikidata"
+      },
+      "description": "**Dimapur** is in Nagaland , north east India .",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dimapur",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dimapur",
+        "wikidata": "https://www.wikidata.org/wiki/Q867111"
+      },
+      "distance_km": 2218,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dimapur_Airport_in_2011.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dimapur%20Town.jpeg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dimapur Airport",
+          "code": "DMU",
+          "distance_km": 8
+        },
+        "nearest_railway_station": {
+          "name": "Dimapur Junction railway station",
+          "distance_km": 4
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Chennai",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 23312,
+        "content_richness_score": 0.167
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "plane",
+            "train"
+          ],
+          "nearest_station": {
+            "name": "Dimapur railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Dimapur_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Dimapur railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Dimapur_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane 1 ** Dimapur Airport ** ( **DMU **  IATA ). IndiGo has Boeing flights to Dimapur from Kolkata and Delhi . Air India Express has flights to Guwahati . Alliance Air flies to Imphal  ( updated Jul 2023 ) \r\n By train Dimapur is linked by train or bus. It is one of the most important railway stations of the region. There are direct trains from New Delhi , Kolkata , Bangalore and Chennai .\r\n\n\r\n 2 **Dimapur railway station** ( DMV ).  ( updated Jul 2022 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Dimapur Ao Baptist Church",
+              "description": "The largest church in Asia.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.75552,
+                "lon": 93.8736
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Dimapur Ao Baptist Church** ( Ao Babtist Church ). The largest church in Asia.   \r\n The residence of Hirimba. \r\n Green Park- A nice place to hang out with beautiful lakes around.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Being a strict Christian Revival state, Nagaland has officially banned all sales of alcohol. However, it is widely available on the black market."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.652Z"
+      },
+      "search_context": "City / Urban destination Dimapur Sightseeing Dimapur is in Nagaland , north east India .",
+      "travel_facts": {
+        "summary": "**Dimapur** anchors **DMU (~8 km)** plain gateway apron beside **Dimapur Junction (~4 km)** knowing NH29 stacks absorb Kohima shared-Sumo tides.",
+        "keywords": [
+          "dmu gateway stacks",
+          "dimapur junction merges",
+          "chümoukedima apron",
+          "kohima taxi tides"
+        ]
+      }
+    },
+    {
+      "slug": "nagaland-kohima",
+      "name": "Kohima",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 25.66667,
+        "lon": 94.11944,
+        "source": "wikidata"
+      },
+      "description": "**Kohima** is the capital city of Nagaland in North-Eastern India . Nagaland, also known as the \"Switzerland of Asia\", is a breath-takingly beautiful place.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Mar–mar",
+        "months": [
+          3
+        ],
+        "season": "winter"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Kohima",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kohima",
+        "wikidata": "https://www.wikidata.org/wiki/Q234056"
+      },
+      "distance_km": 2232,
+      "ideal_months": [
+        3
+      ],
+      "min_days": 2,
+      "weather_snippet": "Mar–mar",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kohima_Street_in_December_2016.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kohima%2024%20July%202021.jpeg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          3
+        ],
+        "off_season_months": [],
+        "monsoon_months": [],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dimapur Airport",
+          "code": "DMU",
+          "distance_km": 74
+        },
+        "nearest_railway_station": {
+          "name": "Dimapur Junction railway station",
+          "distance_km": 74,
+          "note": "No rail inside Kohima—complete via NH29 taxi/bus (~2 h)"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Chennai",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          3
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 45429,
+        "content_richness_score": 0.324
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "The people are very friendly and warm hearted. It had a population of 115,000 in 2011.\r\n\nThe name Kohima was chosen by the British as they could not pronounce the Angami name of _Kewhi–ra_ (Tenyidie for \"the land where the flower ‘Kewhi’ grows\"). It is named after the wild flowering plant ‘Kewhi’, found in the mountains. Most local people prefer to use ‘Kewhi–ra’.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Expect the weather to get much cooler along the way, since Dimapur is on the tropical plain, and Kohima is higher in the mountains.\r\n\n\r\n By plane Dimapur Airport is 74 km from Kohima and a 2-hour drive.\r\n\n\r\n By train Kohima is not connected by train. Dimapur, on the Guwahati - Dibrugarh line, is the closest railway station, with direct rail connections to Delhi , Kolkata , Guwahati , and Chennai .\r\n\n\r\n By car National Highway 39 connects Kohima to Dimapur . The drive from Dimapur takes about 2 hours (74 km). \r\n By bus By bus Kohima is connected to Imphal , Dimapur , Guwahati , Tinsukia and other major cities of North-Eastern India.\r\n\nThe bus journey from Kohima to Dimapur is 2½ to 4 hours (depending on the bus). Non-AC Nagaland State Transport buses leave from a state near Dimapur train station and charge ₹100 as of May 2023. They run frequently during weekdays, waiting to depart until tickets have been sold for all the seats. If you have a large backpack or luggage, consider taking a share taxi or nicer bus instead, since there's no place to stow luggage on these buses except in the overhead racks, and the seats are always full.\r\n\n\r\n By shared taxi This is preferred way to get from Dimapur to Kohima for many locals. Expect to be packed tightly into the car with other travelers, but at least your luggage will be stowed in back or up top. Maruti Suzuki Omnis and other cars leave frequently on weekdays from near Dimapur Railway Station, across the parking lot from the main entrance. As of March 2025, the fare was Rs. 330 per head and all shared taxis dropped passengers at the ISBT, on the outskirts of Kohima. From ISBT, local taxis to various locations in Kohima are available at reasonable prices.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Walking is the best way to feel the pulse of the capital. Local taxis are widely available and typically charge Rs. 100 to 200 for destinations within the town centre (as of March 2025). In addition, shared taxis to specific destinations (locally called line taxis) are available at certain places. For example, there are shared taxis heading from BOC junction to Kisama and Kigwema; just ask around.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Bara Basti",
+              "description": "Supposedly the second largest village in Asia. See the traditional Angami way of life.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Catholic Church on Aradhurah Hill",
+              "description": "Located near the Little Flower School. This is the biggest church of its kind in the predominantly Christian north-eastern region of India. The view of the town from this church is outstanding.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.65256,
+                "lon": 94.10453
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "The Deputy Commissioner's Bungalow",
+              "description": "For over a month, Japanese troops battled British and Indian troops at this small bungalow in Kohima. The battle, known as the Battle of the Tennis Court, was the turning point in the fight against Japan and the bungalow still stands in this state capital. The Tennis Courts are now a part of the Kohima War Cemetery.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Nagaland State Museum",
+              "description": "Though information is somewhat limited, the museum has nice displays and some rare Naga artifacts and archaeological finds; as of April 2019, there is a very interesting photo exhibition and models of traditional sports equipment. There are also a few statues and a tank turret outside.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Nagaland_State_Museum",
+              "coordinates": {
+                "lat": 25.68501,
+                "lon": 94.10485
+              },
+              "price": "₹10, ₹50 for photography (you may be asked to pay both on entry)"
+            },
+            {
+              "order": 5,
+              "name": "Kohima War Cemetery",
+              "description": "The cemetery is maintained by the Commonwealth Graves Commission for the Allied war dead. The cemetery lies on the slopes of Garrison Hill, in what was once the Deputy Commissioner's tennis court, which was the scene of intense fighting known as the \"Battle of the Tennis Court\".",
+              "wikipedia": "https://en.wikipedia.org/wiki/Kohima_War_Cemetery",
+              "coordinates": {
+                "lat": 25.66771,
+                "lon": 94.10293
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Kohima Zoo",
+              "description": "You can see the rare Tragopan bird, the state bird of Nagaland and the Mithun, the state animal.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 25.69261,
+                "lon": 94.08996
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Naga Bazaar",
+              "description": "You can find nearly anything that is living and moving here on sale. Nagas have a wide-ranging cuisine encompassing the entire spectrum of living things.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "**Bara Basti**. Supposedly the second largest village in Asia. See the traditional Angami way of life.   \r\n 1 **Catholic Church on Aradhurah Hill** ( Cathedral Church ). Located near the Little Flower School. This is the biggest church of its kind in the predominantly Christian north-eastern region of India. The view of the town from this church is outstanding.   \r\n **The Deputy Commissioner's Bungalow**. For over a month, Japanese troops battled British and Indian troops at this small bungalow in Kohima. The battle, known as the Battle of the Tennis Court, was the turning point in the fight against Japan and the bungalow still stands in this state capital. The Tennis Courts are now a part of the Kohima War Cemetery.   \r\n 2 **Nagaland State Museum** ( Kohima Museum ). Though information is somewhat limited, the museum has nice displays and some rare Naga artifacts and archaeological finds; as of April 2019, there is a very interesting photo exhibition and models of traditional sports equipment. There are also a few statues and a tank turret outside. ₹10, ₹50 for photography (you may be asked to pay both on entry) .  ( updated Apr 2019 ) \r\n 3 **Kohima War Cemetery** , Garrison Hill . The cemetery is maintained by the Commonwealth Graves Commission for the Allied war dead. The cemetery lies on the slopes of Garrison Hill, in what was once the Deputy Commissioner's tennis court, which was the scene of intense fighting known as the \"Battle of the Tennis Court\".   \r\n 4 **Kohima Zoo**. You can see the rare Tragopan bird, the state bird of Nagaland and the Mithun, the state animal.   \r\n **Naga Bazaar**. You can find nearly anything that is living and moving here on sale. Nagas have a wide-ranging cuisine encompassing the entire spectrum of living things.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "While you are visiting Kohima, you can go for a picnic/trekking in the forest. There are rivers where you can picnic and the forest are really beautiful. You can find different varieties of orchids which you will never find anywhere else in the world. Whether it is during winter or spring, the sight of the forest is breathtaking.\r\n\n\r\n Trek to the beautiful ** Dzüko Valley **. You will never forget it your entire life. It's a valley at the top of the mountains that you can only reach by walking trail, including a portion of steep climbing through the forest. What is amazing is that you will find rivers and waterfalls in this valley which is situated at the top of the mountains. Make sure you carry very warm clothing for your stay there as this place is really very cold. There are three different routes, with one that can be done round-trip in a day if you're a stronger hiker, though most visitors opt to spend a night at the valley rim, either by camping with a tent or by staying in a very basic guesthouse there. Do your research in advance. The most popular entrance is from Viswema village. \r\n Trek to the top of Japfü peak, the 2nd highest in Nagaland, and also Pulie Badze Peak overlooking the suburb of Jotsoma. The views from atop these peaks are out of the world. \r\n **Motorcycle ride** - Kickstart Adventures [dead link] , an adventure tourism firm, has pioneered motorcycle tours in Nagaland. This adventure motorbike tour covers not only popular places but also rural parts of Nagaland to experience first-hand of tribal cultures and traditions. Tours are conducted all round the year (season/off-season) \r\n There are several small billiards halls where men drink whisky and hang out upstairs near the intersection north of the main bus station.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Nagaland is officially a dry state, but if you ask the waiters you will get everything from Jack Daniels to local zutho (rice beer).\r\n\n\r\n Budget Mid-range **Dream Cafe**, located close to the War Memorial. It has some of the best coffee in Nagaland, which isn't saying much. \r\n Splurge"
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.653Z"
+      },
+      "search_context": "City / Urban destination Kohima Sightseeing Kohima is the capital city of Nagaland in North-Eastern India . Nagaland, also known as the \"Switzerland of Asia\", is a breath-takingly beautiful place.",
+      "travel_facts": {
+        "summary": "**Kohima** hinges **DMU (~74 km)** mountain shuttle apron beneath **Dimapur rail (~74 km)** knowing war-cemetery stacks absorb Dzükou gateway tides.",
+        "keywords": [
+          "kohima ridge stacks",
+          "dimapur sumo merges",
+          "nisamu apron",
+          "hornbill capital tides"
+        ]
+      }
+    },
+    {
+      "slug": "nagaland-patsho",
+      "name": "Patsho",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 26.1125,
+        "lon": 94.93194,
+        "source": "wikidata"
+      },
+      "description": "**Patsho**( IPA : /pɑ³³.tsʰɒ⁵⁵/ ) is a village in North East India , in the state of Nagaland , in a low lying mountain comparing to neighbouring villages and towns having something unique and exciting for visitors.",
+      "category": "Village / Remote hills",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Patsho",
+        "wikipedia": "https://en.wikipedia.org/wiki/Patsho",
+        "wikidata": "https://www.wikidata.org/wiki/Q122143616"
+      },
+      "distance_km": 2327,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patsho_Khiamniungan_man_with_Ahangk%C3%BCha_headgear.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pathso%20Village.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Jorhat Airport",
+          "code": "JRH",
+          "distance_km": 250,
+          "note": "Noklak helipad (~37 km) niche charters—verify permits"
+        },
+        "nearest_railway_station": {
+          "name": "Amguri railway station",
+          "distance_km": 206,
+          "note": "Jorhat Town railway station ~243 km alternate Assam trunk"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 23589,
+        "content_richness_score": 0.168
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "With over 3000 people in the village, a figure that doubles if you include neighbouring villages especially Patsho range is the largest village in Noklak district and seemingly the economic, political and cultural hub of the region.\r\n\nTo understand, the village is divided into khels with some sort of authority representing the people. These authorities: one from each khel are village council member. Every khel has a Pou(Morung) built within the community jurisdiction with huge logdrums that symbolizes village traditional society.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Jorhat Airport in Assam located around",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": 250,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Jorhat Airport in Assam located around",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": 250,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "By plane The nearest airport is Jorhat Airport in Assam located around 250 km from the village. There is a helipad in Noklak, the distance from Patsho to Noklak is 37 km.[29]\r\n\n\r\n By rail The nearest railway stations are Amguri railway station and Jorhat Town railway station located around 206 km and 243 km from the village respectively.\r\n\n\r\n By road The village is connected with roads. The Patsho Road passes through the district alongside other intra-district roads. The NH 202 and NH 702B are the nearest highways to the village. Both the highways pass through Tuensang.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Patsho is filled with Pou (Morung) with huge logdrums kept inside. You can go around seeing the simplicity of arts and culture that reflects olden societal norm.\r\n\n\r\n \r\nSee some places like _Longshen king_ from where numerous places are seen around, standing there on the top.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "Enjoy hiking in the mountains around the village. To some extent it is accessible by public transport, with courses ranging from easy to difficult. The village is located in Low lying landscape where one can see captivating scenery around. These breathtaking mountains are Mount Khülio-king which is far from the village, Khüjai king (mountain), Lümuoking mountain, Longsheu king, etc. If you don't like mountains, you may walk along Langnyu river which is located some kilometres way from Patsho.\r\n\nIf You are visiting during festivals like Tsoukum, Miu and Khautsausie, Watch traditional dances, traditional games, that usually takes place at 'Shiemong', the play ground of warriors, or Other places decided to conduct by village authorities.\r\n\nYou can watch or join the local football teams at public ground colloquially Khaushiu ground or Patsho Town Public ground located at the anterior of EAC Office.\r\n\nIn Patsho village, indoor sports are not practiced due to lack of infrastructure but the games like badminton are played outdoor untill late night. Anyone can join and enjoy the game with the locals.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Drinking alcohol is prohibited in the state."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Village / Remote hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.653Z"
+      },
+      "search_context": "Village / Remote hills destination Patsho Sightseeing Patsho( IPA : /pɑ³³.tsʰɒ⁵⁵/ ) is a village in North East India , in the state of Nagaland , in a low lying mountain comparing to neighbouring villages and towns having something unique and exciting for visitors.",
+      "travel_facts": {
+        "summary": "**Patsho** stacks **JRH (~250 km)** Noklak apron beneath **Amguri rail (~206 km)** knowing Pou morung log-drum merges absorb Khiamniungan festival tides.",
+        "keywords": [
+          "patsho noklak stacks",
+          "jorhat jrh merges",
+          "amguri rail apron",
+          "morung drum tides"
+        ]
+      }
+    },
+    {
+      "slug": "nagaland-tuensang",
+      "name": "Tuensang",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 26.23333,
+        "lon": 94.81667,
+        "source": "wikidata"
+      },
+      "description": "**Tuensang** is one of the major districts of Nagaland in the North-Eastern India .",
+      "category": "District / Town hub",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Tuensang",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tuensang_district",
+        "wikidata": "https://www.wikidata.org/wiki/Q2571393"
+      },
+      "distance_km": 2325,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Tuensang district",
+        "distritu de Tuensang",
+        "Tuensang (distritu)"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naga%20female%20by%20retlaw%20snellac.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dimapur Airport",
+          "code": "DMU",
+          "distance_km": 252,
+          "note": "~8 h MST bus hops—mountain fatigue common"
+        },
+        "nearest_railway_station": {
+          "name": "Dimapur Junction railway station",
+          "distance_km": 252,
+          "note": "Road completion via NH29/NH702 spokes"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Chennai",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 11880,
+        "content_richness_score": 0.085
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Tuensang has some of the most undiscovered beauty in Nagaland. **Mount Saramati**, which is the highest mountain in Nagaland, is located in Tuensang district.\r\n\nTuensang is home to four major tribes: the Yimchunger, Chang, Sangtam and Khiamniungan.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "bus",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By bus or by private cars or hired taxis. To get to Tuensang Town one has to first reach Dimapur , which is the only city in Nagaland connected with railways and airlines.\r\n\n\r\n By car Maruti van and Long Jeep are good for comfortable journeys, but be careful of the steep hills and sharp turns.\r\n\n\r\n By bus From Dimapur you have to take a bus which cost around ₹300 and takes 8hrs to reach. Government-operated buses are cheaper than private cars.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Getting around in Tuensang is very easy. Walking is the best option, as you can see the scenic beauty of the mountain range surrounding the town.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [],
+          "brief": "Tuensang Village is ancient and intact. Chingmei village is also one of the biggest villages of the Chang tribe, with beautiful views of Mount Saramati. Nature is the only thing that you will see, purely virgin forest. Going hunting and fishing with the locals is great fun.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Tuensang district is good for the scenic beauty for nature-lovers, but people who love to party will not find much entertainment, as discothèques are banned in Nagaland by a factional group. You will find virtually no alcoholic drinks, though you might find some local rice beer."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "There are a lot of factional clashes in and around Tuensang, so you have to be very careful, and make sure not to get into fights.\r\n\nCarry warm clothing as the weather is cold year-round."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "District / Town hub"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.653Z"
+      },
+      "search_context": "District / Town hub destination Tuensang Tuensang district distritu de Tuensang Tuensang (distritu) Sightseeing Tuensang is one of the major districts of Nagaland in the North-Eastern India .",
+      "travel_facts": {
+        "summary": "**Tuensang** hinges **DMU (~252 km) overnight bus relays** beneath **Dimapur rail (~252 km)** knowing Saramati frontier stacks absorb Chang–Yimchunger hornbill tides.",
+        "keywords": [
+          "tuensang bus stacks",
+          "dimapur eastern merges",
+          "mount saramati apron",
+          "district highway tides"
+        ]
+      }
+    },
+    {
+      "slug": "nagaland-viswema",
+      "name": "Viswema",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 25.5607,
+        "lon": 94.1463,
+        "source": "wikidata"
+      },
+      "description": "**Viswema** is a Southern Angami Naga village located in Nagaland . With a resident population of a little over 7,400 (2011), it is the second biggest village in the state.\r\n\nIt is considered to be one of the oldest Tenyimi village with most Chakhesang villages and also many other Angami villages pointing their origin towards Viswema.",
+      "category": "Village / Trek gateway",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Viswema",
+        "wikipedia": "https://en.wikipedia.org/wiki/Viswema",
+        "wikidata": "https://www.wikidata.org/wiki/Q27964238"
+      },
+      "distance_km": 2227,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Viswema.jpeg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dimapur Airport",
+          "code": "DMU",
+          "distance_km": 95,
+          "note": "Bir Tikendrajit Intl (IMF) ~120 km south via AH1 alternate apron"
+        },
+        "nearest_railway_station": {
+          "name": "Dimapur Junction railway station",
+          "distance_km": 95,
+          "note": "Kohima Zubza rail under construction—future nearer trekheads"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Chennai",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 26400,
+        "content_richness_score": 0.189
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus",
+            "car"
+          ],
+          "nearest_station": {
+            "name": "Dimapur Airport",
+            "code": null,
+            "wikipedia": null,
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Dimapur Airport",
+              "code": null,
+              "wikipedia": null,
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "The airport serves domestic flights.\r\n\nThe Bir Tikendrajit International Airport is about 120 kilometres (75 miles) south of Viswema.\r\n\nBoth the airports are linked to Viswema by the Asian Highway 1.\r\n\n\r\n By train The Dimapur railway station serves as the nearest railway station to Viswema. The Kohima Zubza Railway Station is under-construction on the Dhansiri–Zubza line. When completed, it will be the nearest railway station to Viswema.\r\n\n\r\n By car By bus",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Dzüko Valley",
+              "description": "The main entry to Dzüko Valley is from Viswema where one can travel to the rest house above Teyozwü by a Tata Sumo taxi. From here one has to climb forty minutes to the top of the mountain. This is where Dzüko starts but the main valley is still another two hours walk away.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Dz%C3%BCko_Valley",
+              "coordinates": {
+                "lat": 25.55348,
+                "lon": 94.06702
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Mount Tempü",
+              "description": "This is the highest peak in Viswema situated at an altitude of 2994m above sea level. The best time to visit this peak is during the snow covered winter months.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mount_Temp%C3%BC",
+              "coordinates": {
+                "lat": 25.53068,
+                "lon": 94.08493
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Teyozwü Hill",
+              "description": "This is a hill between Viswema and the Dzüko valley.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Teyozw%C3%BC_Hill",
+              "coordinates": {
+                "lat": 25.5603,
+                "lon": 94.1253
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Hope Garden",
+              "description": "This is a garden above Viswema on the way to Dzüko valley. It is also a part family burial ground of a Yeri–mi clan.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Latakhrü Park",
+              "description": "It provides a resting shed to travellers and farmers on the route.",
+              "wikipedia": null,
+              "coordinates": null,
+              "price": null
+            }
+          ],
+          "brief": "1 **Dzüko Valley** . The main entry to Dzüko Valley is from Viswema where one can travel to the rest house above Teyozwü by a Tata Sumo taxi. From here one has to climb forty minutes to the top of the mountain. This is where Dzüko starts but the main valley is still another two hours walk away.   \r\n 2 **Mount Tempü** . This is the highest peak in Viswema situated at an altitude of 2994m above sea level. The best time to visit this peak is during the snow covered winter months.   \r\n 3 **Teyozwü Hill** . This is a hill between Viswema and the Dzüko valley.   \r\n **Hope Garden**. This is a garden above Viswema on the way to Dzüko valley. It is also a part family burial ground of a Yeri–mi clan.   \r\n **Latakhrü Park** ( at Krayo ). It provides a resting shed to travellers and farmers on the route.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "**Te–l Khukhu** is a festival that falls on the 13th of Chünyi (July). It is a time of giving and sharing of food with each other. It is the only festival dedicated for girls. Come July and the young damsels are abuzz with preparations for the Te–l Khukhu festival. They start collecting wild flowers in advance to decorate the particular Chokrwu (eaves at the entrance of a house) they decide on. The most common flowers are Khwüso Pü (Ginger lily, Hedychium aurantiacum wall), Phakü Pü (Rock butterfly lily, Hedychium ellepticum Buch), Terü su and Tsakoshe Pitha Nü (Tender Maize). Gone were the days when different animistic rituals were performed but with the advent of Christianity the rituals were no longer performed. Today it is celebrated as a time of get-togetherness and sharing the little you have with your dear and near ones. \r\n **Kene**, the folk wrestling style and traditional sport of the Nagas is a popular local sport in Viswema. Viswema biennially sends its wrestling title-holder to participate in the Naga Wrestling Championship. \r\n **Pcheda** is a traditional game that requires players to throw thin bamboo sticks from a set distance. An open competition is held annually in January.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Village / Trek gateway"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.653Z"
+      },
+      "search_context": "Village / Trek gateway destination Viswema Sightseeing Viswema is a Southern Angami Naga village located in Nagaland . With a resident population of a little over 7,400 (2011), it is the second biggest village in the state. It is considered to be one of the oldest Tenyimi village with most Chakhesang villages and also many other Angami villages pointing their origin towards Viswema.",
+      "travel_facts": {
+        "summary": "**Viswema** stacks **DMU (~95 km)** AH1 apron beneath **Dimapur rail (~95 km)** knowing Teyozwü trek merges absorb Dzüko valley sunrise tides.",
+        "keywords": [
+          "viswema dzuko stacks",
+          "dmu ah1 merges",
+          "southern angami apron",
+          "teyozwu trek tides"
+        ]
+      }
+    },
+    {
+      "slug": "nagaland-zunheboto",
+      "name": "Zunheboto",
+      "region": "",
+      "state": "Nagaland",
+      "coordinates": {
+        "lat": 26.0146,
+        "lon": 94.5264,
+        "source": "wikidata"
+      },
+      "description": "**Zunheboto** is a hill town and administrative hub in central Nagaland, known for monumental Sumi Baptist church architecture and surrounding Sümi heritage villages.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Zunheboto",
+        "wikipedia": "https://en.wikipedia.org/wiki/Z%C3%BCnheboto",
+        "wikidata": "https://www.wikidata.org/wiki/Q2484053"
+      },
+      "distance_km": 2287,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:46:53.897Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sumitraditional.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zunheboto%20Town.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Dimapur Airport",
+          "code": "DMU",
+          "distance_km": 200
+        },
+        "nearest_railway_station": {
+          "name": "Dimapur Junction railway station",
+          "distance_km": 200,
+          "note": "Shared taxi/bus spokes ~5–6 h depending on halts"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Chennai",
+          "Bengaluru"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Kolkata",
+          "Guwahati",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 17449,
+        "content_richness_score": 0.125
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "The nearest airport and railway station are both at Dimapur which is 200 km (120 mi) away by road. From Dimapur, you can take a bus or taxi to get to the village of Zunheboto.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Sumi Baptist Church",
+              "description": "Taking a decade to build and with a capacity of 8,500, it is one of the largest churches in Asia.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sumi_Baptist_Church,_Zunheboto",
+              "coordinates": {
+                "lat": 26.01789,
+                "lon": 94.52917
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 ** Ghosu Bird Sanctuary **. Birdwatchers can find over twenty species of endangered avifauna at Ghosu. Many species of migratory birds stop by from June to September every year.  ( updated Jun 2017 ) \r\n 2 **Sumi Baptist Church** . Taking a decade to build and with a capacity of 8,500, it is one of the largest churches in Asia.  ( updated Jun 2017 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.654Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban destination Zunheboto Sightseeing Zunheboto is a hill town and administrative hub in central Nagaland, known for monumental Sumi Baptist church architecture and surrounding Sümi heritage villages.",
+      "travel_facts": {
+        "summary": "**Zunheboto** hinges **DMU (~200 km)** central ridge relays beneath **Dimapur rail (~200 km)** knowing Sumi Baptist megachurch stacks absorb district hornbill tides.",
+        "keywords": [
+          "zunheboto stacks",
+          "dimapur central merges",
+          "sumi church apron",
+          "nagaland highway tides"
+        ]
+      }
+    }
+  ]
+}

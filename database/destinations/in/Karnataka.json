@@ -1,7 +1,7 @@
 {
   "state": "Karnataka",
   "state_code": "KA",
-  "generated_at": "2026-02-21T17:15:49.491Z",
+  "generated_at": "2026-05-18T10:49:34.603Z",
   "count": 31,
   "destinations": [
     {
@@ -17,9 +17,16 @@
       "description": "**Kali Tiger Reserve** (formerly called **Anshi National Park**) is in Karnataka state of India .",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Anshi_National_Park",
@@ -27,19 +34,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q2373398"
       },
       "distance_km": 414,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Wildlife & nature",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.9,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kali Tiger Reserve"
@@ -52,31 +67,72 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "28–36",
+          "winter": "18–28"
         }
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Hubballi Airport",
+          "code": "HBX",
+          "distance_km": 132,
+          "note": "IXE Mangalore (~218 km) stacks coastal wings—Kali River safari gates bias monsoon ghats slips"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Londa Junction railway station",
+          "distance_km": 58,
+          "note": "Castle Rock feeders toward Dandeli—Western Ghats jeep quotas thicken winter tiger census drills"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -94,7 +150,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -105,7 +165,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 14139,
-        "content_richness_score": 0.003
+        "content_richness_score": 0.101
       },
       "section_briefs": {
         "understand": {
@@ -157,7 +217,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:46.284Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Anshi National Park Wildlife & nature Kali Tiger Reserve (KTR) was earlier known as Anshi National Park because there is a place called Anshi within the national park. The KTR area basically encompass the river Kali and its tributaries in Uttara Kannada (UK) district of Karnataka state. The forests are part of Western ghats of India. Kali Tiger Reserve (formerly called Anshi National Park) is in Karnataka state of India .",
+      "travel_facts": {
+        "summary": "**Anshi (Kali Tiger Reserve)** hinges **Londa (~58 km)** Konkan meshes beneath **HBX (~132 km)** apron stacks—Kali River corridors bias jeep safari tides knowing Dandeli rafting merges absorb Uttara Kannada forest checkpoints.",
+        "keywords": [
+          "londa konkan meshes",
+          "hbx apron stacks",
+          "kali river corridors",
+          "western ghats jeep quotas",
+          "dandeli rafting merges",
+          "uttara kannada forest gates"
+        ]
+      }
     },
     {
       "slug": "karnataka-badami",
@@ -172,9 +253,16 @@
       "description": "**Badami** (Kannada: ಬದಾಮಿ), formerly **Vatapi**, is a city in the Bagalkot district of Northern Karnataka , in Southern India . It is a historical place.",
       "category": "Ancient Ruins",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Badami",
@@ -182,19 +270,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q590751"
       },
       "distance_km": 387,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Vâtâpi",
@@ -214,22 +310,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Hubballi Airport",
+          "code": "HBX",
+          "distance_km": 106,
+          "note": "Bagalkot sector apron hops—Chalukya cave stacks thicken winter heritage tides"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Badami railway station",
+          "distance_km": 5,
+          "note": "Gadag–Bagalkot feeders toward Bijapur—auto hops benchmark Agastya lake viewpoints"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -248,7 +395,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -259,9 +410,8 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 56063,
-        "content_richness_score": 0.176
+        "content_richness_score": 0.4
       },
-      "credibility_recognitions": ["unesco_tentative"],
       "section_briefs": {
         "understand": {
           "brief": "Badami was the capital of the Early Chalukyas, who ruled much of Karnataka and Andhra Pradesh between the 6th and 8th centuries. It was founded in 540 CE by Pulakesi I (535-566 CE), an early ruler of the Chalukyas. His sons Kirthivarman (567-598 CE) and his brother Mangalesha I (598-610 CE) constructed the cave temples. The greatest among them was Pulakeshi II (610-642 CE) who defeated many kings including Pallava king Mahendra Verman I and extended the kingdom.",
@@ -438,7 +588,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:47.130Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Badami Sightseeing Badami was the capital of the Early Chalukyas, who ruled much of Karnataka and Andhra Pradesh between the 6th and 8th centuries. It was founded in 540 CE by Pulakesi I (535-566 CE), an early ruler of the Chalukyas. His sons Kirthivarman (567-598 CE) and his brother Mangalesha I (598-610 CE) constructed the cave temples. The greatest among them was Pulakeshi II (610-642 CE) who defeated many kings including Pallava king Mahendra Verman I and exten Badami (Kannada: ಬದಾಮಿ), formerly Vatapi, is a city in the Bagalkot district of Northern Karnataka , in Southern India . It is a historical place.",
+      "travel_facts": {
+        "summary": "**Badami** pairs **Badami station (~5 km)** Chalukya meshes with **HBX (~106 km)** Deccan stacks—Agastya lake caves bias twilight heritage tides knowing Pattadakal shuttle merges thicken Bagalkot highway peaks.",
+        "keywords": [
+          "badami chalukya meshes",
+          "hbx deccan stacks",
+          "agastya lake caves",
+          "pattadakal shuttle merges",
+          "bagalkot highway tides",
+          "north karnataka heritage hops"
+        ]
+      }
     },
     {
       "slug": "karnataka-bandipur-national-park",
@@ -453,9 +622,16 @@
       "description": "**Bandipur National Park** is in Karnataka state in India .",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Bandipur_National_Park",
@@ -463,19 +639,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q665110"
       },
       "distance_km": 179,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Wildlife & nature",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Venugopala Wildlife Sanctuary",
@@ -494,28 +678,72 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "28–36",
+          "winter": "18–28"
         }
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kempegowda International Airport (Bengaluru)",
+          "code": "BLR",
+          "distance_km": 218,
+          "note": "Coimbatore stacks alternate Nilgiri wings—Bandipur night-ban drills thicken safari booking peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Mysuru Junction railway station",
+          "distance_km": 78,
+          "note": "NH766 merges via Gundlupet—elephant corridor taxis choke SH weekday checkpoints"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -533,7 +761,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -544,7 +776,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 30546,
-        "content_richness_score": 0.07
+        "content_richness_score": 0.218
       },
       "section_briefs": {
         "understand": {
@@ -606,7 +838,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:47.962Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Bandipur National Park Wildlife & nature Famous for its tiger and elephant reserve and protected sandalwood trees, this 890 km 2 park is one of India's most delightful wildlife sanctuaries. Bandipur National Park is in Karnataka state in India .",
+      "travel_facts": {
+        "summary": "**Bandipur** threads **Mysuru Junction (~78 km)** Nilgiri feeders toward **BLR (~218 km)** gateway stacks—Gundlupet forest gates bias elephant corridor safaris knowing Ooty crossover taxis thicken NH766 night-ban drills.",
+        "keywords": [
+          "mysuru nilgiri feeders",
+          "blr gateway stacks",
+          "gundlupet forest gates",
+          "elephant corridor safaris",
+          "nh766 night ban drills",
+          "ooty crossover taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-bangalore",
@@ -646,10 +899,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Bengaluru",
@@ -700,26 +954,38 @@
         "nearest_airport": {
           "name": "Kempegowda International Airport",
           "code": "BLR",
-          "distance_km": 40
+          "distance_km": 38,
+          "note": "Devanahalli apron stacks—Namma Metro feeds thicken Kempegowda terminal merges"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": 30
+          "name": "Krantiveera Sangolli Rayanna (Bengaluru City) railway station",
+          "distance_km": 4,
+          "note": "Yeshwantpur/Cantt meshes toward Chennai—startup corridor expresses thicken Monday peaks"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai",
           "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
           "Chennai",
-          "Hyderabad"
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai",
           "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
           "Chennai",
-          "Hyderabad"
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -867,7 +1133,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Heritage / Culture"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:48.809Z",
+        "wikipedia_summary": "Bengaluru, also known as Bangalore, is the capital and largest city of the southern Indian state of Karnataka. As per the 2011 census, the city had a population of 8.4 million, making it the third most populous city in India and the most populous in South India. The Bengaluru metropolitan area had a population of around 8.5 million, making it the fifth most populous urban agglomeration in the country. It is located towards the southern end of the Deccan Plateau, at an altitude of 900 m (3,000 ft) above sea level. The city is known as India's \"Garden City\", due to its parks and greenery.",
+        "wikipedia_description": "Capital of Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:48.861Z"
+      },
+      "search_context": "City / Urban Heritage / Culture Bangalore Sightseeing Bengaluru, also known as Bangalore, is the capital and largest city of the southern Indian state of Karnataka. As per the 2011 census, the city had a population of 8.4 million, making it the third most populous city in India and the most populous in South India. The Bengaluru metropolitan area had a population of around 8.5 million, making it the fifth most populous urban agglomeration in the country. It is located towards the southern end of the Deccan Plateau, at an altitude of 900 m (3,000 ft) above sea level. The city is known as India's \"Garden City\", due to its parks and greenery. Once called the \"Pensioner's Paradise\", these epithets don't apply to modern Bangalore, due to its explosive growth in the 21st century. _Bangalore is a huge city with several district articles that contain information about specific sights, restaurants, and accommodation._ Bangalore, also known as Bengaluru ( Kannada : ಬೆಂಗಳೂರು _Beṅgaḷūru_), is the capital of the Indian state of Karnataka . It is a large, cosmopolitan city with a large working populati",
+      "travel_facts": {
+        "summary": "**Bengaluru** anchors **Bangalore City (~4 km)** trunk meshes beneath **BLR (~38 km)** Devanahalli stacks—Silicon Plateau metros bias Cubbon heritage tides knowing Mysuru Shatabdi merges absorb Whitefield tech corridor peaks.",
+        "keywords": [
+          "bangalore city trunk meshes",
+          "blr devanahalli stacks",
+          "silicon plateau metros",
+          "cubbon heritage tides",
+          "mysuru shatabdi merges",
+          "whitefield tech corridors"
+        ]
+      }
     },
     {
       "slug": "karnataka-bannerghatta-national-park",
@@ -907,10 +1195,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -940,19 +1229,41 @@
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kempegowda International Airport (Bengaluru)",
+          "code": "BLR",
+          "distance_km": 46,
+          "note": "Bannerghatta Road merges thicken zoo safari queues—metro feeder chaos spikes weekends"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Bangalore City railway station",
+          "distance_km": 22,
+          "note": "BMTC Route 365 feeders toward park gates—lion safari slots jitter holiday peaks"
         },
-        "road_access_quality": "average",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -984,7 +1295,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 32887,
-        "content_richness_score": 0.08
+        "content_richness_score": 0.235
       },
       "section_briefs": {
         "understand": {
@@ -1048,7 +1359,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:49.412Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Bannerghatta National Park Wildlife & nature The park was founded in 1970, and declared a national park in 1974. This 104.27 km² national park consists mostly of dense forest and scrub land. There is also a state-run zoo within the national park, which is home to wild animals such as tiger, lion, bison, leopard and wild boar. The national park is an important corridor for elephants migrating between the eastern and western ghats. Other attractions at the zoo include a crocodile farm, serpen Bannerghatta National Park is in South Bangalore .",
+      "travel_facts": {
+        "summary": "**Bannerghatta** couples **Bangalore City (~22 km)** metro feeders with **BLR (~46 km)** apron stacks—Bannerghatta Road safaris bias zoo lion tides knowing BMTC Route 365 merges absorb elephant corridor weekend queues.",
+        "keywords": [
+          "bangalore city metro feeders",
+          "blr apron stacks",
+          "bannerghatta road safaris",
+          "bmtc route 365 merges",
+          "lion safari slots",
+          "urban elephant corridors"
+        ]
+      }
     },
     {
       "slug": "karnataka-belgaum",
@@ -1094,10 +1426,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.9,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Belgao",
@@ -1142,17 +1475,41 @@
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Belagavi Airport",
+          "code": "IXG",
+          "distance_km": 14,
+          "note": "Goa Dabolim (~118 km) stacks coastal wings—NH48 merges thicken winter defence expo peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Belagavi railway station",
+          "distance_km": 5,
+          "note": "Pune–Bengaluru chord feeders—VRL Volvo tides dominate highway merges"
         },
-        "road_access_quality": "excellent",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -1189,7 +1546,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 66808,
-        "content_richness_score": 0.22
+        "content_richness_score": 0.477
       },
       "section_briefs": {
         "understand": {
@@ -1266,7 +1623,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:50.260Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Belgaum Sightseeing Belgaum got its name from Venugrama, meaning \"bamboo village\". It is the district HQ. The most ancient place in the district is Halsi; and this, once the capital of a dynasty of nine Kadamba kings. In 1776 the country was overrun by Hyder Ali of Mysore, but was retaken by the Peshwa with British assistance. In 1818 it was handed over to the British East India Company, and made district of Sangli state. Belgaum has been the focal point of a border Belgaum, now known officially as Belagavi, is a city in Northwestern Karnataka , close to the state of Goa .",
+      "travel_facts": {
+        "summary": "**Belagavi** rests **Belagavi station (~5 km)** chord meshes beneath **IXG (~14 km)** apron stacks—NH48 Mumbai feeders bias Goa weekend tides knowing Kittur heritage merges absorb Mahadayi basin checkpoints.",
+        "keywords": [
+          "belagavi chord meshes",
+          "ixg apron stacks",
+          "nh48 mumbai feeders",
+          "goa weekend tides",
+          "kittur heritage merges",
+          "northwest karnataka volvos"
+        ]
+      }
     },
     {
       "slug": "karnataka-belur",
@@ -1281,9 +1657,16 @@
       "description": "_For other places with the same name, see Belur (disambiguation) ._ \r\n \r\n \r\n**Belur** ( Kannada : ಬೇಲೂರು) is a historic town in Hassan district of Karnataka state.",
       "category": "Religious Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Belur",
@@ -1291,19 +1674,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q760603"
       },
       "distance_km": 189,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Belûr",
@@ -1326,23 +1717,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
+          "name": "Mangalore International Airport",
           "code": "IXE",
-          "distance_km": null
+          "distance_km": 154,
+          "note": "BLR (~224 km) stacks plateau charter wings—Charmadi Ghat merges thicken monsoon mist peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": 37
+          "name": "Hassan railway station",
+          "distance_km": 38,
+          "note": "Hoysala temple hops toward Halebidu—shared taxis benchmark Chennakeshva viewpoints"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -1362,7 +1802,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -1373,9 +1817,8 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 42584,
-        "content_richness_score": 0.12
+        "content_richness_score": 0.304
       },
-      "credibility_recognitions": ["unesco_world_heritage"],
       "section_briefs": {
         "understand": {
           "brief": "Belur is a historic town with beautiful, famous temples, some dating to the times of the Hoysala Dynasty (11th-13th centuries). It sits on the banks of the river Bhadra, that originates close to this place, and forms the junction of the Hassan - Chikmaglur and Arsikere - Mudigere highways, a.k.a Charmadi Ghat, which acts as a substitute road for descending towards the Western Coast of Karnataka.",
@@ -1504,7 +1947,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:51.112Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage"
+      ],
+      "search_context": "Spiritual / Pilgrimage Heritage / Culture City / Urban Belur Sightseeing Belur is a historic town with beautiful, famous temples, some dating to the times of the Hoysala Dynasty (11th-13th centuries). It sits on the banks of the river Bhadra, that originates close to this place, and forms the junction of the Hassan - Chikmaglur and Arsikere - Mudigere highways, a.k.a Charmadi Ghat, which acts as a substitute road for descending towards the Western Coast of Karnataka. _For other places with the same name, see Belur (disambiguation) ._ Belur ( Kannada : ಬೇಲೂರು) is a historic town in Hassan district of Karnataka state.",
+      "travel_facts": {
+        "summary": "**Belur** hinges **Hassan (~38 km)** Malnad meshes beneath **IXE (~154 km)** coastal stacks—Chennakeshva frieze tides bias Charmadi Ghat hops knowing Halebidu shuttle merges thicken Bhadra riverside peaks.",
+        "keywords": [
+          "hassan malnad meshes",
+          "ixe coastal stacks",
+          "chennakeshva frieze tides",
+          "charmadi ghat hops",
+          "halebidu shuttle merges",
+          "hoysala heritage taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-bhadra-tiger-reserve",
@@ -1542,10 +2008,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.9,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Bhadra Wildlife Sanctuary"
@@ -1571,17 +2038,41 @@
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mangalore International Airport",
+          "code": "IXE",
+          "distance_km": 192,
+          "note": "HBX (~152 km) stacks northern wings—Bhadra dam safari launches thicken Linganamakki reservoir peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Bhadravati railway station",
+          "distance_km": 32,
+          "note": "Lakavalli lodge feeders—Shivamogga expresses thicken Tunga-Bhadra merge tides"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -1613,7 +2104,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 13484,
-        "content_richness_score": 0
+        "content_richness_score": 0.096
       },
       "section_briefs": {
         "understand": {
@@ -1665,7 +2156,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:51.961Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Bhadra Tiger Reserve Sightseeing Bhadra Tiger Reserve is a protected forest area notified as Tiger project by the government. The forest and hills are part of Western ghats of India. The Bhadra Tiger Reserve mostly covers the catchment area of river Bhadra and back waters of Bhadra dam at Lakavalli ( BR Project ) near Bhadravathi town. River Bhadra is tributary of Tungabhadra river which in turn is tributary of river Krishna. Bhadra Tiger Reserve ( BTR ) encompass certain area o Bhadra Tiger Reserve or Bhadra Wildlife Sanctuary is in Karnataka state of India .",
+      "travel_facts": {
+        "summary": "**Bhadra Tiger Reserve** balances **Bhadravati (~32 km)** Tunga meshes beneath **IXE (~192 km)** coastal stacks—Lakavalli dam safaris bias Kudremukh skirts knowing Shivamogga Malnad taxis absorb reservoir viewpoint merges.",
+        "keywords": [
+          "bhadravati tunga meshes",
+          "ixe coastal stacks",
+          "lakavalli dam safaris",
+          "malnad reservoir taxis",
+          "kudremukh skirt merges",
+          "western ghats safari launches"
+        ]
+      }
     },
     {
       "slug": "karnataka-bidar",
@@ -1680,9 +2194,16 @@
       "description": "**Bidar** (Kannada: ಬೀದರ, Urdu: بیدار) is a city in the Indian state of Karnataka . Once a citadel of Badri Shahi and Bahamani empire Bidar still houses the remains of a gigantic fort along with a couple of tomb complexes.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Bidar",
@@ -1690,19 +2211,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q461922"
       },
       "distance_km": 548,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "City of Whispering Monuments",
@@ -1720,20 +2249,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Bidar Airport",
+          "code": "IXX",
+          "distance_km": 10,
+          "note": "Hyderabad RGIA (~148 km) stacks primary wings—Bahmani tomb taxis thicken winter heritage peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Bidar railway station",
+          "distance_km": 5,
+          "note": "Hyderabad–Secunderabad expresses thicken Deccan plateau merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -1753,7 +2335,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -1764,7 +2350,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 89965,
-        "content_richness_score": 0.315
+        "content_richness_score": 0.643
       },
       "section_briefs": {
         "understand": {
@@ -2155,7 +2741,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:52.797Z",
+        "wikipedia_summary": "Bidar is a city and the headquarters of the Bidar district in Karnataka state of India. Bidar is a prominent place on the archaeological map of India. It is well known for architectural, historical religious and rich heritage sites. Picturesquely perched on the Deccan Plateau, the Bidar fort is more than 500 years old and still standing strong. According to the book \"Bidar Heritage\" published by the state Department of Archaeology, Museums and Heritage, of the 61 monuments listed by the department, about 30 are tombs located in and around Bidar city., hence its nickname, \"City of Whispering Monuments\". The heritage sites in and around Bidar have become the major attraction for film shooting in recent years, with Bollywood making visits apart from Kannada film industry.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:52.848Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Bidar Sightseeing Bidar is a city and the headquarters of the Bidar district in Karnataka state of India. Bidar is a prominent place on the archaeological map of India. It is well known for architectural, historical religious and rich heritage sites. Picturesquely perched on the Deccan Plateau, the Bidar fort is more than 500 years old and still standing strong. According to the book \"Bidar Heritage\" published by the state Department of Archaeology, Museums and Heritage, of the 61 monuments listed by the department, about 30 are tombs located in and around Bidar city., hence its nickname, \"City of Whispering Monuments\". The heritage sites in and around Bidar have become the major attraction for film shooting in recent years, with Bollywood making visits apart from Kannada film industry. Bidar (Kannada: ಬೀದರ, Urdu: بیدار) is a city in the Indian state of Karnataka . Once a citadel of Badri Shahi and Bahamani empire Bidar still houses the remains of a gigantic fort along with a couple of tomb complexes.",
+      "travel_facts": {
+        "summary": "**Bidar** couples **Bidar station (~5 km)** Deccan meshes with **IXX (~10 km)** regional stacks—Bahmani whispering-monument tides bias Hyderabad charter merges knowing Gulbarga plateau Volvos absorb Aurangabad crossover peaks.",
+        "keywords": [
+          "bidar deccan meshes",
+          "ixx regional stacks",
+          "bahmani monument tides",
+          "hyderabad charter merges",
+          "gulbarga plateau volvos",
+          "plateau heritage taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-bijapur",
@@ -2170,9 +2778,16 @@
       "description": "**Bijapur**, now known officially as **Vijayapura** (Kannada: ವಿಜಯಪುರ), is the district headquarters of Bijapur District in a city in Northwestern Karnataka . It was once the capital of the Bijapur Sultanate, ruled by the Adil Shahi dynasty. Tombs, palaces, mosques, darghas and a portion of the fortified citadel still stand; this includes the Gol Gumbaz. The Gol Gumbaz houses the second largest dome in the world.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Bijapur_(Karnataka)",
@@ -2180,19 +2795,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3636023"
       },
       "distance_km": 474,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Vijayapura",
@@ -2212,20 +2835,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kalaburagi Airport",
+          "code": "GBI",
+          "distance_km": 118,
+          "note": "Basava airport Vijayapura opening timelines jitter schedules—HBX (~162 km) stacks interim hubs"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Vijayapura railway station",
+          "distance_km": 4,
+          "note": "Solapur–Hubballi expresses thicken Gol Gumbaz viewpoint tides"
         },
-        "road_access_quality": "excellent",
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -2244,7 +2920,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -2255,7 +2935,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 121071,
-        "content_richness_score": 0.444
+        "content_richness_score": 0.865
       },
       "section_briefs": {
         "understand": {
@@ -2656,7 +3336,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:53.409Z",
+        "wikipedia_summary": "Bijapur is the district headquarters of the Bijapur district of the Karnataka state of India. It is also the headquarters for Bijapur Taluk. Bijapur city is well known for its historical monuments of architectural importance built during the rule of the Adil Shahi dynasty. It is also well known for the popular Karnataka premier league team, the Bijapur Bulls. Bijapur is located 519 km (322 mi) northwest of the state capital Bengaluru and about 550 km (340 mi) from Mumbai and 210 km (130 mi) north east of the city of Belgaum.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:53.459Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Bijapur Sightseeing Bijapur is the district headquarters of the Bijapur district of the Karnataka state of India. It is also the headquarters for Bijapur Taluk. Bijapur city is well known for its historical monuments of architectural importance built during the rule of the Adil Shahi dynasty. It is also well known for the popular Karnataka premier league team, the Bijapur Bulls. Bijapur is located 519 km (322 mi) northwest of the state capital Bengaluru and about 550 km (340 mi) from Mumbai and 210 km (130 mi) north east of the city of Belgaum. After the fall of the Bahamni Sultanate in 1490, Bujapur came under the control of Adil Shahi dynasty. From 1490 to 1686 Bijapur served as their capital. For almost two centuries, Bijapur was converted into a fortified citadel surrounded with towering walls complete with massive bastions and gateways. The Adil Shahi sultans came up with magnificent palaces, tombs and mosques, turning the city into a medieval wonder. The Gol Gambuz is the most wel Bijapur, now known officially as Vijayapura (Kannada: ವಿಜಯಪುರ), is the district headquarters of Bijapur District in a city in Northwestern Karnataka . It was once the capital of the Bijapur Sultanate, ruled by the Adil Shahi dynasty. Tombs, palaces, mosques, darghas and a portion of the fortified citadel still stand; t",
+      "travel_facts": {
+        "summary": "**Vijayapura (Bijapur)** anchors **Vijayapura station (~4 km)** Adil Shahi meshes beneath **GBI (~118 km)** interim stacks—Gol Gumbaz acoustics bias Ibrahim Roza tides knowing Solapur highway merges absorb Satara crossover peaks.",
+        "keywords": [
+          "vijayapura adil shahi meshes",
+          "gbi interim stacks",
+          "gol gumbaz acoustics",
+          "ibrahim roza tides",
+          "solapur highway merges",
+          "deccan sultanate taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-chikmagalur",
@@ -2671,9 +3373,16 @@
       "description": "**Chikmagalur**, officially **Chikkamagaluru** ( Kannada : ಚಿಕ್ಕಮಗಳೂರು), is a city in Karnataka , known for its coffee plantations and Bababudan Giri ranges.",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Chikmagalur",
@@ -2681,19 +3390,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q980917"
       },
       "distance_km": 200,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Chikkamagaluru",
@@ -2711,23 +3428,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Mangalore airport",
+          "name": "Mangalore International Airport",
           "code": "IXE",
-          "distance_km": null
+          "distance_km": 172,
+          "note": "BLR (~246 km) stacks plateau wings—Bababudangiri coffee jeep quotas thicken bloom-season peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Chikkamagaluru railway station",
+          "distance_km": 3,
+          "note": "Kadur–Shivamogga passengers thicken plantation taxi merges"
         },
-        "road_access_quality": null,
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -2748,7 +3514,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -2759,7 +3529,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 60320,
-        "content_richness_score": 0.193
+        "content_richness_score": 0.431
       },
       "section_briefs": {
         "understand": {
@@ -2895,7 +3665,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:54.012Z"
+      },
+      "search_context": "Mountain / Hills City / Urban Chikmagalur Sightseeing Chikmagalur city (Chikkamagaluru district) is at the foot of highest mountain range in Karnataka. The life-supporting rivers of Karnataka and other states - Tunga, Bhadra, Hemavati, Vedavati, Yagachi originate in the Western Ghat hills of the district. The district is a great attraction to all kinds of people - trekkers, pilgrims, travellers and tourists. This area is famous for the coffee estates in the vicinity and also known as the Coffee Belt Chikmagalur, officially Chikkamagaluru ( Kannada : ಚಿಕ್ಕಮಗಳೂರು), is a city in Karnataka , known for its coffee plantations and Bababudan Giri ranges.",
+      "travel_facts": {
+        "summary": "**Chikkamagaluru** sits **Chikkamagaluru station (~3 km)** coffee meshes beneath **IXE (~172 km)** Malnad stacks—Mullayanagiri skyline tides bias plantation homestay merges knowing Kadur rail feeders absorb Kemmangundi hairpin peaks.",
+        "keywords": [
+          "chikkamagaluru coffee meshes",
+          "ixe malnad stacks",
+          "mullayanagiri skyline tides",
+          "plantation homestay merges",
+          "kadur rail feeders",
+          "bababudangiri jeep quotas"
+        ]
+      }
     },
     {
       "slug": "karnataka-coorg",
@@ -2910,9 +3699,16 @@
       "description": "**Kodagu**, also called **Coorg**, is a district in Karnataka State. Coorg is known for its hospitability of people and beautiful scenery. This is one of the best destinations for nature lover in India . Tourists get fascinated by colourful scenery, wooded slopes, undulating landscape and quaint villages of Coorg. There are endless mountain ranges which attract thousands of tourists every year.",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kodagu",
@@ -2920,19 +3716,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1553185"
       },
       "distance_km": 210,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kodagu district",
@@ -2952,23 +3756,72 @@
           "source": "wikivoyage"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Picturesque way to Coorg The nearest airport",
-          "code": null,
-          "distance_km": null
+          "name": "Mangalore International Airport",
+          "code": "IXE",
+          "distance_km": 138,
+          "note": "MYQ Mysuru (~118 km) stacks alternate apron tails—Sampaje Ghat merges thicken Kodagu mist peaks"
         },
         "nearest_railway_station": {
-          "name": "Picturesque way to Coorg The nearest airport and railway station",
-          "distance_km": 100
+          "name": "Mysuru Junction railway station",
+          "distance_km": 118,
+          "note": "KSRTC Volvo tides dominate Mysuru–Madikeri merges—monsoon landslip radios jitter ghats"
         },
-        "road_access_quality": "poor",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 4,
@@ -2988,7 +3841,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -2999,7 +3856,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 46311,
-        "content_richness_score": 0.135
+        "content_richness_score": 0.331
       },
       "section_briefs": {
         "get_in": {
@@ -3088,7 +3945,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:54.872Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Mountain / Hills City / Urban Coorg Sightseeing Kodagu, also called Coorg, is a district in Karnataka State. Coorg is known for its hospitability of people and beautiful scenery. This is one of the best destinations for nature lover in India . Tourists get fascinated by colourful scenery, wooded slopes, undulating landscape and quaint villages of Coorg. There are en",
+      "travel_facts": {
+        "summary": "**Coorg (Kodagu)** spans **Mysuru Junction (~118 km)** plateau feeders toward **IXE (~138 km)** coastal stacks—Madikeri rajas-seat tides bias plantation highway merges knowing Dubare elephant camps absorb Talakaveri hairpin peaks.",
+        "keywords": [
+          "mysuru kodagu feeders",
+          "ixe coastal stacks",
+          "madikeri plantation tides",
+          "sampaje ghat merges",
+          "dubare elephant camps",
+          "western ghats mist radios"
+        ]
+      }
     },
     {
       "slug": "karnataka-dandeli",
@@ -3103,9 +3983,16 @@
       "description": "**Dandeli** is a small town in the western ghats of North-West Karnataka , India . Dandeli is known as a wildlife sanctuary and is proud of being one of the tiger projects. People have also moved from across India to work in the industries in Dandeli. Dandeli is also known for its adventure activities on the River Kali. Located close to the Supa Dam on Kali, Dandeli offers options for white water rafting and canoeing. The rapids are class 3 and there is one recirculating rapid in the circuit.",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Dandeli",
@@ -3113,19 +4000,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q721378"
       },
       "distance_km": 410,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -3140,27 +4035,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": 80
+          "name": "Hubballi Airport",
+          "code": "HBX",
+          "distance_km": 72,
+          "note": "GOI Dabolim (~138 km) stacks leisure rafting wings—Kali River adventure quotas thicken winter peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Alnavar Junction railway station",
+          "distance_km": 32,
+          "note": "Londa–Dharwad feeders—safari camp taxis choke hornbill festival merges"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
           "Hyderabad",
+          "Chennai",
+          "Kochi",
           "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
           "Hyderabad",
+          "Chennai",
+          "Kochi",
           "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 4,
@@ -3180,7 +4120,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -3191,7 +4135,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 25158,
-        "content_richness_score": 0.048
+        "content_richness_score": 0.18
       },
       "section_briefs": {
         "get_in": {
@@ -3263,7 +4207,33 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:55.713Z",
+        "wikipedia_summary": "Dandeli is a taluk in Uttara Kannada district of Karnataka, India, in the Malenadu region.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:55.767Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Dandeli Sightseeing Dandeli is a taluk in Uttara Kannada district of Karnataka, India, in the Malenadu region. Dandeli is a small town in the western ghats of North-West Karnataka , India . Dandeli is known as a wildlife sanctuary and is proud of being one of the tiger projects. People have also moved from across India to work in the industries in Dandeli. Dandeli is also known for its adventure activities on the River Kali. Lo",
+      "travel_facts": {
+        "summary": "**Dandeli** threads **Alnavar (~32 km)** Malnad meshes beneath **HBX (~72 km)** apron stacks—Kali River rafting tides bias hornbill sanctuary merges knowing Anshi tiger skirts absorb Konkan overnight Volvo peaks.",
+        "keywords": [
+          "alnavar malnad meshes",
+          "hbx apron stacks",
+          "kali river rafting tides",
+          "hornbill sanctuary merges",
+          "anshi tiger skirts",
+          "uttara kannada adventure taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-gokarna",
@@ -3278,9 +4248,16 @@
       "description": "**Gokarna** is a small pilgrimage town on the coast in the Karnataka state of India . It's a conservative Hindu pilgrimage town, home to several temples and festivals. The town is full of locals and pilgrims, and doesn't have much in the way of facilities for tourists, other than a handful of guesthouses and local restaurants.",
       "category": "Beaches",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Gokarna",
@@ -3288,19 +4265,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1025271"
       },
       "distance_km": 395,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -3315,24 +4300,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
+          "name": "Dabolim Airport (Goa)",
           "code": "GOI",
-          "distance_km": null
+          "distance_km": 144,
+          "note": "IXE Mangalore (~238 km) stacks southern Konkan wings—Om Beach cliff walks thicken sunset peaks"
         },
         "nearest_railway_station": {
-          "name": "Mangalore Central",
-          "distance_km": 8
+          "name": "Gokarna Road railway station",
+          "distance_km": 12,
+          "note": "Konkan Railway merges toward Kumta—rickshaw tides benchmark Mahabaleshwar temple lanes"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
           "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -3351,7 +4385,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -3362,7 +4400,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 79597,
-        "content_richness_score": 0.273
+        "content_richness_score": 0.569
       },
       "section_briefs": {
         "understand": {
@@ -3475,7 +4513,27 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:56.327Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Beach / Coastal City / Urban Gokarna Sightseeing Gokarna means _cow's ear_ in Sanskrit. One of the Hindu epics states that \"aatmalimga\" of the God Shiva is in the shape of a cow's ear in the Mahabaleshwar temple and the town gains its name as Gokarna. The town is mostly centred around the KSRTC bus stand. About a kilometre from the bus-stand, the Gokarna beach starts, forming the coast of the town. As you trudge along the narrow lanes of the town towards the beach (the lane is named 'Samudra Ma Gokarna is a small pilgrimage town on the coast in the Karnataka state of India . It's a conservative Hindu pilgrimage town, home to several temples and festivals. The town is full of locals and pilgrims, and doesn't have much in the way of facilities for tourists, other than a handful of guesthouses and local restaura",
+      "travel_facts": {
+        "summary": "**Gokarna** hinges **Gokarna Road (~12 km)** Konkan meshes beneath **GOI (~144 km)** leisure stacks—Half Moon Beach treks bias Kudle sunset tides knowing Karwar rail feeders absorb conservative pilgrimage checkpoint merges.",
+        "keywords": [
+          "gokarna road konkan meshes",
+          "goi leisure stacks",
+          "om beach cliff walks",
+          "kudle sunset tides",
+          "mahabaleshwar temple lanes",
+          "konkan railway rickshaws"
+        ]
+      }
     },
     {
       "slug": "karnataka-hampi",
@@ -3490,9 +4548,16 @@
       "description": "**Hampi**, in the state of Karnataka , India , is the site of the once-magnificent capital of the Vijayanagara Empire. The ruins are a UNESCO World Heritage site .",
       "category": "Ancient Ruins",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Hampi",
@@ -3500,19 +4565,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q26732"
       },
       "distance_km": 290,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Vijayanagar",
@@ -3537,25 +4610,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Vidyanagar Airport",
           "code": "VDY",
-          "distance_km": 35
+          "distance_km": 36,
+          "note": "BLR (~310 km) stacks primary wings—Tungabhadra coracle tides thicken Virupaksha dawn queues"
         },
         "nearest_railway_station": {
-          "name": "Hosapete Junction",
-          "distance_km": 13
+          "name": "Hospet Junction railway station",
+          "distance_km": 13,
+          "note": "Guntakal–Hubballi expresses thicken UNESCO boulder-field taxi merges"
         },
-        "road_access_quality": "good",
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Hyderabad"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Hyderabad"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -3575,7 +4695,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -3586,9 +4710,8 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 111710,
-        "content_richness_score": 0.405
+        "content_richness_score": 0.798
       },
-      "credibility_recognitions": ["unesco_world_heritage"],
       "section_briefs": {
         "understand": {
           "brief": "Hampi was the capital of South Indian Vijayanagara Empire from the fourteenth to seventeenth centuries.\r\n\nAs a UNESCO World Heritage site, Hampi attracts many visitors, many from other countries. For first-time visitors, it is highly recommended to hire a guide to help understand the magic and grandeur of Hampi by explaining its history and associated legends.\r\n\nBefore the fall of Vijayanagara Empire, diamonds were sold on the streets. The main street selling diamonds and other precious stones was surprisingly called Pan Supaari Street. A visitor can still see the exact location of Pan Supaari Street in Hampi, which has been marked with a board by Archaeological Survey of India (ASI).\r\n\nHampi is well worth at least one visit. The area is simply stunning and you will be in awe of the millions of boulders surrounding the area, many of which are scaled by climbers from all over the world. Within this landscape lies a little oasis with lush palm, banana, and mango trees and rice paddies nestled near the river.\r\n\nHampi is a great place to spend a few days wandering around and discovering the rich, vibrant history while also having a bit of 'your' time.\r\n\nHampi hosts the 'Hampi Utsav' (literally 'Hampi Festival') every year during the first week of November. It is a visual delight as all the monuments/ruins are lighted in the night and it is a cultural extravaganza of dance and music.",
@@ -3900,7 +5023,33 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:57.162Z",
+        "wikipedia_summary": "Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra. Hampi continues as a religious centre, with the Virupaksha Temple, an active Adi Shankara-linked monastery and various monuments belonging to the old city.",
+        "wikipedia_description": "Ancient and medieval monuments, a UNESCO World Heritage Site in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:54:57.214Z"
+      },
+      "credibility_recognitions": [
+        "unesco_world_heritage",
+        "asi_monument"
+      ],
+      "search_context": "Heritage / Culture City / Urban Hampi Sightseeing Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra. Hampi continues as a religious centre, with the Virupaksha Temple, an active Adi Shankara-linked monastery and various monuments belonging to the old city. Hampi was the capital of South Indian Vijayanagara Empire from the fourteenth to seventeenth centuries. As a UNESCO World Heritage site, Hampi attracts many visitors, many from other countries. For first-time visitors, it is highly recommended to hire a guide to help understand the magic and grandeur of Hampi by explaining its history and associated legends. Before the fall of Vijayanagara Empire, diamonds were sold on the streets. The main stree Hampi, in the state of Karnataka , India , is the site of the once-magnificent capital of the Vijayanagara Empire. The ruins are a UNESCO World Heritage site .",
+      "travel_facts": {
+        "summary": "**Hampi** pairs **Hospet Junction (~13 km)** Tungabhadra meshes with **VDY (~36 km)** Vijayanagara stacks—Virupaksha boulder tides bias coracle sunset merges knowing BLR overnight Volvos absorb Hazara Rama choir peaks.",
+        "keywords": [
+          "hospet tungabhadra meshes",
+          "vdy vijayanagara stacks",
+          "virupaksha boulder tides",
+          "coracle sunset merges",
+          "unesco ruin taxis",
+          "tungabhadra heritage hops"
+        ]
+      }
     },
     {
       "slug": "karnataka-jog-falls",
@@ -3915,9 +5064,16 @@
       "description": "**Sagara** is a city in Central Karnataka , most famous for its proximity to Jog Falls.",
       "category": "Waterfalls",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Sagara",
@@ -3925,19 +5081,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q672241"
       },
       "distance_km": 331,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -3947,20 +5111,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Shivamogga Airport",
+          "code": "RQY",
+          "distance_km": 118,
+          "note": "IXE (~188 km) stacks coastal wings—Sharavathi gorge viewpoints thicken monsoon mist peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Talaguppa railway station",
+          "distance_km": 36,
+          "note": "Shivamogga Town feeders—hydro viewpoint taxis choke Linganamakki weekend merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 2,
       "ideal_for_weekend_trip": true,
@@ -3978,7 +5195,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -3989,7 +5210,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 23203,
-        "content_richness_score": 0.04
+        "content_richness_score": 0.166
       },
       "section_briefs": {
         "get_in": {
@@ -4070,7 +5291,25 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:57.777Z"
+      },
+      "search_context": "Mountain / Hills Jog Falls Sightseeing Sagara is a city in Central Karnataka , most famous for its proximity to Jog Falls.",
+      "travel_facts": {
+        "summary": "**Jog Falls** climbs **Talaguppa (~36 km)** Sharavathi meshes beneath **RQY (~118 km)** Malnad stacks—hydro viewpoint tides bias Sagara homestay merges knowing Shivamogga trunk expresses absorb Western Ghats spray peaks.",
+        "keywords": [
+          "talaguppa sharavathi meshes",
+          "rqy malnad stacks",
+          "jog hydro viewpoints",
+          "sagara homestay merges",
+          "shivamogga trunk expresses",
+          "western ghats spray tides"
+        ]
+      }
     },
     {
       "slug": "karnataka-kalaburagi",
@@ -4085,9 +5324,16 @@
       "description": "**Kalaburagi** (Kannada: ಗುಲಬರ್ಗಾ), previously known as **Gulbarga**, is a city in Northern Karnataka and the head quarters of the Kalaburagi District. Gulburga literally means \"city of gardens\" while Kaliburagi means \"rocky land.\" It was once the capital of the Bahamani Sultanate and an important sufi centre.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kalaburagi",
@@ -4095,19 +5341,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q37112"
       },
       "distance_km": 492,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.9,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kalburgi",
@@ -4124,25 +5378,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Kalaburagi Airport",
           "code": "GBI",
-          "distance_km": null
+          "distance_km": 16,
+          "note": "Hyderabad RGIA (~218 km) stacks primary wings—Bahmani tomb merges thicken winter heritage peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kalaburagi railway station",
+          "distance_km": 6,
+          "note": "Mumbai–Chennai chord feeders—Sharana Basaveshwara taxis dominate NH65 merges"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 4,
@@ -4162,7 +5463,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -4173,7 +5478,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 83962,
-        "content_richness_score": 0.291
+        "content_richness_score": 0.6
       },
       "section_briefs": {
         "understand": {
@@ -4335,7 +5640,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:58.613Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Kalaburagi Sightseeing Kalaburagi means the \"land of stones and thorns\" in Kannada (_kal_ means \"stone\" and \"bur\" means thorn). Gulbarga means \"city of flowers and gardens\" in Persian and Urdu (_gul_ means \"flower\" and _bar_ means \"leaf\"). The history of Kalaburagi can be traced to the sixth century. It was ruled by the Rashtrakutas, Chalukyas, Yadavas and Hoysalas till the early 14th century, when this city was annexed to the Delhi Sultanate, first by General Ulugh Kh Kalaburagi (Kannada: ಗುಲಬರ್ಗಾ), previously known as Gulbarga, is a city in Northern Karnataka and the head quarters of the Kalaburagi District. Gulburga literally means \"city of gardens\" while Kaliburagi means \"rocky land.\" It was once the capital of the Bahamani Sultanate and an important sufi centre.",
+      "travel_facts": {
+        "summary": "**Kalaburagi** anchors **Kalaburagi station (~6 km)** Bahmani meshes beneath **GBI (~16 km)** apron stacks—Bidar crossover tides bias Sufi shrine merges knowing Solapur Volvo feeders absorb Hyderabadi weekend peaks.",
+        "keywords": [
+          "kalaburagi bahmani meshes",
+          "gbi apron stacks",
+          "bidar crossover tides",
+          "sufi shrine merges",
+          "nh65 heritage taxis",
+          "deccan plateau expresses"
+        ]
+      }
     },
     {
       "slug": "karnataka-karwar",
@@ -4350,9 +5674,16 @@
       "description": "**Karwar** is a city in Karnataka.",
       "category": "Beaches",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Karwar",
@@ -4360,19 +5691,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q2727978"
       },
       "distance_km": 426,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Baticala",
@@ -4390,29 +5729,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": "Dabolim Airport",
-          "code": "GOI",
-          "distance_km": null
+          "name": "Manohar International Airport (Mopa, Goa)",
+          "code": "GOX",
+          "distance_km": 92,
+          "note": "HBX (~148 km) stacks eastern wings—Kali river bridge merges thicken seafood harbour peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Karwar railway station",
+          "distance_km": 6,
+          "note": "Konkan Railway meshes toward Mumbai—inspection-car tides jitter monsoon Konkan slips"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
           "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
           "Chennai",
+          "Kochi",
           "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
           "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
           "Chennai",
+          "Kochi",
           "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 4,
@@ -4432,7 +5814,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -4443,7 +5829,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 19012,
-        "content_richness_score": 0.023
+        "content_richness_score": 0.136
       },
       "section_briefs": {
         "get_in": {
@@ -4496,7 +5882,26 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:54:59.447Z"
+      },
+      "search_context": "Beach / Coastal City / Urban Karwar Sightseeing Karwar is a city in Karnataka.",
+      "travel_facts": {
+        "summary": "**Karwar** couples **Karwar station (~6 km)** Konkan meshes with **GOX (~92 km)** coastal stacks—Devbagh beach tides bias seafood harbour merges knowing Ankola feeders absorb Goa weekend crossover peaks.",
+        "keywords": [
+          "karwar konkan meshes",
+          "gox coastal stacks",
+          "devbagh beach tides",
+          "seafood harbour merges",
+          "konkan railway expresses",
+          "uttara kannada bridge hops"
+        ]
+      }
     },
     {
       "slug": "karnataka-kollur",
@@ -4511,9 +5916,16 @@
       "description": "**Byndoor** is the northernmost taluka of Udupi district , spanning from the coast to the foothills of the western ghats. The **Kollur Mookambika temple** is located around 28 km from the town of Byndoor.",
       "category": "Religious Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Byndoor",
@@ -4521,19 +5933,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q6427407"
       },
       "distance_km": 312,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [],
       "images": [
@@ -4543,20 +5963,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mangalore International Airport",
+          "code": "IXE",
+          "distance_km": 142,
+          "note": "NH66 merges toward Byndoor—Mookambika darshan taxis thicken Navaratri peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Bijoor railway station",
+          "distance_km": 28,
+          "note": "Konkan feeders toward Kundapura—shared taxis benchmark Souparnika ghats"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 2,
       "ideal_for_weekend_trip": true,
@@ -4574,7 +6047,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -4585,7 +6062,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 29051,
-        "content_richness_score": 0.064
+        "content_richness_score": 0.208
       },
       "section_briefs": {
         "get_in": {
@@ -4699,7 +6176,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:00.297Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Spiritual / Pilgrimage City / Urban Kollur Sightseeing Byndoor is the northernmost taluka of Udupi district , spanning from the coast to the foothills of the western ghats. The Kollur Mookambika temple is located around 28 km from the town of Byndoor.",
+      "travel_facts": {
+        "summary": "**Kollur** threads **Bijoor (~28 km)** Konkan meshes beneath **IXE (~142 km)** coastal stacks—Mookambika shrine tides bias Kudajadri forest merges knowing Udupi feeder buses absorb Kodachadri pilgrimage peaks.",
+        "keywords": [
+          "bijoor konkan meshes",
+          "ixe coastal stacks",
+          "mookambika shrine tides",
+          "kudajadri forest merges",
+          "byndoor nh66 taxis",
+          "konkan pilgrimage hops"
+        ]
+      }
     },
     {
       "slug": "karnataka-kudremukh-national-park",
@@ -4714,9 +6213,16 @@
       "description": "**Kudremukh National Park** is in Chikmagalur (district) in Karnataka . It offers the visitor 600 km² of undulating mountains and tropical wet evergreen forest. It is noted for its scenic beauty. Owing to the dense forests, sighting wildlife can be challenging, though the area is rich in wildlife. Nonetheless the drive through the forest ranges can be enchanting and exhilarating.",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kudremukh_National_Park",
@@ -4724,19 +6230,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1766106"
       },
       "distance_km": 253,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Wildlife & nature",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Kudremukh",
@@ -4756,30 +6270,72 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "28–36",
+          "winter": "18–28"
         }
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mangalore International Airport",
+          "code": "IXE",
+          "distance_km": 102,
+          "note": "HBX (~238 km) stacks northern wings—horse-face peak treks thicken post-monsoon permit peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Kadur railway station",
+          "distance_km": 82,
+          "note": "Kalasa jeep feeders—Chikmagalur plantation merges absorb Western Ghats checkpoints"
         },
-        "road_access_quality": null,
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -4797,7 +6353,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -4808,7 +6368,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 17558,
-        "content_richness_score": 0.017
+        "content_richness_score": 0.125
       },
       "section_briefs": {
         "understand": {
@@ -4857,7 +6417,32 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:01.145Z",
+        "wikipedia_summary": "Kudremukha is the name of a mountain range and an individual mountain peak located in Chikmagalur district, in Karnataka, India. It is also the name of a small hill station and iron ore-mining town situated near the mountain, about 20 kilometres from Kalasa in Kalasa Taluk. The name Kuduremukha literally means \"horse-faced\" in Kannada and refers to a particular picturesque view of a side of the mountain that resembles a horse's face. It was also referred to as 'Samseparvata', historically since it was approached from Samse village. Kuduremukha is Karnataka's 2nd highest peak after Mullayanagiri and 26th highest peak in western ghats. The nearest International Airport is at Mangalore which is at a distance of 99 kilometres.",
+        "wikipedia_description": "Mountain in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:01.433Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Mountain / Hills Kudremukh National Park Wildlife & nature Kudremukha is the name of a mountain range and an individual mountain peak located in Chikmagalur district, in Karnataka, India. It is also the name of a small hill station and iron ore-mining town situated near the mountain, about 20 kilometres from Kalasa in Kalasa Taluk. The name Kuduremukha literally means \"horse-faced\" in Kannada and refers to a particular picturesque view of a side of the mountain that resembles a horse's face. It was also referred to as 'Samseparvata', historically since it was approached from Samse village. Kuduremukha is Karnataka's 2nd highest peak after Mullayanagiri and 26th highest peak in western ghats. The nearest International Airport is at Mangalore which is at a distance of 99 kilometres. It began its existence as a Reserved Forest in 1916, and was designated a national park in 1987. Kudremukha means 'horse face', and is in reference to the appearance of a mountain peak in the park. Kudremukh (Kannada: ಕುದುರೆಮುಖ) also spelled Kuduremukha is a mountain range in Chikkamagaluru district, in Karnataka, India. It is also the name of a small hill station town situated near the mountain, about 48 km from Karkala and about 20 km from Kala Kudremukh National Park is in Chikmagalur (district) in Karnataka . It offers the visitor 600 km² of undulating mountains and tropical wet evergreen forest. It is noted for its scenic beauty. Owing to the dense forests, sighting wildlife can be challenging, though the area is rich in wildlife. Nonetheless the drive thr",
+      "travel_facts": {
+        "summary": "**Kudremukh** hinges **Kadur (~82 km)** Malnad meshes beneath **IXE (~102 km)** coastal stacks—horse-face peak permits bias Bhagawathi forest merges knowing Kalasa jeep tides absorb national-park closure radios.",
+        "keywords": [
+          "kadur malnad meshes",
+          "ixe coastal stacks",
+          "kudremukh peak permits",
+          "kalasa jeep feeders",
+          "western ghats checkpoints",
+          "horse face trek tides"
+        ]
+      }
     },
     {
       "slug": "karnataka-madikeri",
@@ -4872,9 +6457,16 @@
       "description": "**Madikeri** (also Mercara) is a beautiful hill station and capital of Kodagu region of Karnataka State, between Mangalore and Mysore . It has a population of over 33,000 people (2011).",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Madikeri",
@@ -4882,19 +6474,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q298416"
       },
       "distance_km": 211,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Mercara"
@@ -4911,22 +6511,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mangalore International Airport",
+          "code": "IXE",
+          "distance_km": 136,
+          "note": "MYQ Mysuru (~122 km) stacks alternate wings—Abbey Falls taxis thicken plantation mist peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Mysuru Junction railway station",
+          "distance_km": 122,
+          "note": "KSRTC ghats buses dominate Mercara merges—monsoon landslip drills jitter Sampaje"
         },
-        "road_access_quality": null,
+        "road_access_quality": "moderate",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -4945,7 +6596,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -4956,7 +6611,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 70917,
-        "content_richness_score": 0.237
+        "content_richness_score": 0.507
       },
       "section_briefs": {
         "understand": {
@@ -5130,7 +6785,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:01.996Z",
+        "wikipedia_summary": "Madikeri, earlier called as Mercara is city and headquarters of Kodagu district in the Karnataka state of India. It is recognised as one of the world's eight \"hottest hotspots\" of biological diversity and is also a UNESCO World Heritage Site. The city is ranked 1st in India for clean air and air quality index in 2024.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:02.047Z"
+      },
+      "search_context": "Mountain / Hills City / Urban Madikeri Sightseeing Madikeri, earlier called as Mercara is city and headquarters of Kodagu district in the Karnataka state of India. It is recognised as one of the world's eight \"hottest hotspots\" of biological diversity and is also a UNESCO World Heritage Site. The city is ranked 1st in India for clean air and air quality index in 2024. The history of Madikeri is related to the history of Kodagu. Kodagu became the part of British India after 1834. The history of Madikeri is related to the history of Kodagu. From the 2nd to 6th century AD, the northern part of Kodagu was ruled by Kadambas. The southern part of Kodagu was ruled by Gangas from 4th to 11th century. After defeating the Gangas in the 11th century, Cholas became the rulers of Kodagu. In the 12th century, Cholas lost Ko Madikeri (also Mercara) is a beautiful hill station and capital of Kodagu region of Karnataka State, between Mangalore and Mysore . It has a population of over 33,000 people (2011).",
+      "travel_facts": {
+        "summary": "**Madikeri** balances **Mysuru Junction (~122 km)** Kodagu feeders with **IXE (~136 km)** coastal stacks—Abbey Falls viewpoints bias Raja Seat dusk tides knowing Kushalnagar highway merges absorb Dubare rafting crossover peaks.",
+        "keywords": [
+          "mysuru kodagu feeders",
+          "ixe coastal stacks",
+          "abbey falls viewpoints",
+          "raja seat dusk tides",
+          "sampaje ghat buses",
+          "coorg plantation merges"
+        ]
+      }
     },
     {
       "slug": "karnataka-mangalore",
@@ -5145,9 +6822,16 @@
       "description": "**Mangalore** (_Mangaluru_), in the Coastal Karnataka region, is a blend of new and old. With the increasing influx of students from various states of India and different parts of the world, Mangalore has virtually become a 'melting pot' of cultures, given the various communities that make up the social framework of Mangalore: the Tuluvas (Bunts, Billawas, Mogaveeras, Kulals, Shivalli Madhva Brahmins, Jains, Devadigas, Chitpavans), the Brahmins, the Konkani Catholics, the Bearys, the Goud-Saraswath Brahmins (Konkanas), Devangs (M'lore Kannada, Tulu, M'lore Malayalam), etc.\r\n\nMangalore is a port city of about half a million people (2011), and the headquarters of Dakshina Kannada district of Karnataka State in India .",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Mangalore",
@@ -5155,19 +6839,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q127041"
       },
       "distance_km": 298,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Mangaluru",
@@ -5192,33 +6884,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Mangalore International Airport",
           "code": "IXE",
-          "distance_km": 20
+          "distance_km": 14,
+          "note": "Bajpe apron hops—Tulu coast cruises thicken Udipi feast corridor peaks"
         },
         "nearest_railway_station": {
-          "name": "Mangalore Junction",
-          "distance_km": 5
+          "name": "Mangalore Central railway station",
+          "distance_km": 4,
+          "note": "Konkan meshes toward Mumbai—port spice tides dominate Mangalore Central merges"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
-          "Chennai",
+          "Bengaluru",
           "Hyderabad",
-          "Goa",
-          "Pune"
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
-          "Chennai",
+          "Bengaluru",
           "Hyderabad",
-          "Goa",
-          "Pune"
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -5238,7 +6969,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -5249,7 +6984,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 191047,
-        "content_richness_score": 0.732
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -5541,7 +7276,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Beach / Coastal"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:02.611Z",
+        "wikipedia_summary": "Mangaluru, formerly called Mangalore, is a major industrial port city in the Indian state of Karnataka and on the west coast of India. It is located between the Arabian Sea and the Western Ghats about 352 km (219 mi) west of Bengaluru, the state capital, 14 km north of the Karnataka–Kerala border and 297 km (185 mi) south of Goa. Mangaluru is the state's only city to have all four modes of transport—air, road, rail and sea. The population of the urban agglomeration was 619,664 according to the 2011 national census of India. It is known for being one of the locations of the Indian strategic petroleum reserves.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:03.372Z"
+      },
+      "search_context": "City / Urban Beach / Coastal Mangalore Sightseeing Mangaluru, formerly called Mangalore, is a major industrial port city in the Indian state of Karnataka and on the west coast of India. It is located between the Arabian Sea and the Western Ghats about 352 km (219 mi) west of Bengaluru, the state capital, 14 km north of the Karnataka–Kerala border and 297 km (185 mi) south of Goa. Mangaluru is the state's only city to have all four modes of transport—air, road, rail and sea. The population of the urban agglomeration was 619,664 according to the 2011 national census of India. It is known for being one of the locations of the Indian strategic petroleum reserves. Traditionally, Mangalore was an important trading port with ties with the Persian Gulf states dating back to the 14th century. With its strategic location, it was occupied by a number of dynasties and colonial rulers, namely the Portuguese in the mid-16th century. In the 18th century, its control was contested by Haidar Ali and Tipu Sultan on one hand and the British on the other. Under the Mysore sultans (1763), it became a strategic shipbuildin Mangalore (_Mangaluru_), in the Coastal Karnataka region, is a blend of new and old. With the increasing influx of students from various states of India and different parts of the world, Mangalore has virtually become a 'melting pot' of cultures, given the various communities that make up the social framework of Mangal",
+      "travel_facts": {
+        "summary": "**Mangaluru** pairs **Mangalore Central (~4 km)** Konkan meshes with **IXE (~14 km)** Bajpe stacks—Tulu heritage tides bias Udupi temple merges knowing NH66 coastal Volvos absorb Bekal crossover peaks.",
+        "keywords": [
+          "mangalore central konkan meshes",
+          "ixe bajpe stacks",
+          "tulu heritage tides",
+          "udipi temple merges",
+          "nh66 coastal volvos",
+          "dakshina kannada port hops"
+        ]
+      }
     },
     {
       "slug": "karnataka-murdeshwar",
@@ -5556,9 +7313,16 @@
       "description": "**Murdeshwar** is a town in Uttara Kannada region in southern India. The name \"Murdeshwar\" means Shiva or Eeshwara.",
       "category": "Religious Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Murdeshwar",
@@ -5566,19 +7330,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q2992986"
       },
       "distance_km": 358,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Murudeshwara",
@@ -5596,24 +7368,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
           "name": "Mangalore International Airport",
-          "code": null,
-          "distance_km": null
+          "code": "IXE",
+          "distance_km": 166,
+          "note": "Konkan cliff statue viewpoints thicken scuba Netrani charters—monsoon swell radios jitter harbours"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Murudeshwar railway station",
+          "distance_km": 4,
+          "note": "Konkan Railway merges toward Karwar—auto tides benchmark Raja Gopura climbs"
         },
         "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
           "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -5632,7 +7453,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -5643,7 +7468,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 23189,
-        "content_richness_score": 0.04
+        "content_richness_score": 0.166
       },
       "section_briefs": {
         "understand": {
@@ -5702,7 +7527,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:03.923Z",
+        "wikipedia_summary": "Murdeshwar is a town in Uttara Kannada district in the state of Karnataka, India, and lies on the coast of the Arabian Sea. It contains the world's third tallest Shiva statue, as well as the Murudeshwara Temple. The town has a railway station on the Mangalore–Mumbai Konkan railway route.",
+        "wikipedia_description": "Town in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:04.212Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Beach / Coastal City / Urban Murdeshwar Sightseeing Murdeshwar is a town in Uttara Kannada district in the state of Karnataka, India, and lies on the coast of the Arabian Sea. It contains the world's third tallest Shiva statue, as well as the Murudeshwara Temple. The town has a railway station on the Mangalore–Mumbai Konkan railway route. \"Murdeshwar\" is another name of the Hindu god Shiva. Famous for the world's tallest Shiva statue, this beach town lies on the coast of the Arabian Sea and is also famous for the Murdeshwar Temple. Murdeshwar is a town in Uttara Kannada region in southern India. The name \"Murdeshwar\" means Shiva or Eeshwara.",
+      "travel_facts": {
+        "summary": "**Murdeshwar** hinges **Murudeshwar station (~4 km)** Konkan meshes beneath **IXE (~166 km)** coastal stacks—second-highest Shiva statue tides bias Netrani dive merges knowing Gokarna shuttle taxis absorb Honnavar harbour peaks.",
+        "keywords": [
+          "murudeshwar konkan meshes",
+          "ixe coastal stacks",
+          "shiva statue viewpoint tides",
+          "netrani dive merges",
+          "konkan railway autos",
+          "uttara kannada coastal hops"
+        ]
+      }
     },
     {
       "slug": "karnataka-mysore",
@@ -5717,9 +7565,13 @@
       "description": "**Mysore**, officially **Mysuru** (ಮೈಸೂರು), is the second-most populous city of the state of Karnataka after Bangalore . It was the capital of the Wodeyar dynasty and is considered to be the cultural capital of Karnataka. Mysore is among the cleanest and best-planned cities in India. The regal city is striking a balance between olden times and modernity, resulting in the city being both old and new.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "Year-round",
-        "months": [],
-        "season": "all_year"
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          3,
+          4,
+          5
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Mysore",
@@ -5727,7 +7579,11 @@
         "wikidata": "https://www.wikidata.org/wiki/Q10086"
       },
       "distance_km": 126,
-      "ideal_months": [],
+      "ideal_months": [
+        3,
+        4,
+        5
+      ],
       "min_days": 2,
       "weather_snippet": "Year-round",
       "vibe": "Sightseeing",
@@ -5736,10 +7592,11 @@
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.8,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Mahisur",
@@ -5789,26 +7646,40 @@
       },
       "travel_access": {
         "nearest_airport": {
-          "name": "Mysore Airport",
+          "name": "Mysuru Airport",
           "code": "MYQ",
-          "distance_km": null
+          "distance_km": 12,
+          "note": "BLR (~178 km) stacks heavy wings—limited MYQ schedules jitter palace illumination peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Mysuru Junction railway station",
+          "distance_km": 4,
+          "note": "Chamundi expresses thicken Dasara procession merges—Brindavan gardens taxis spike Sundays"
         },
-        "road_access_quality": "excellent",
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
           "Chennai",
-          "Hyderabad"
+          "Kochi",
+          "Goa"
         ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore",
+          "Delhi",
           "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
           "Chennai",
-          "Hyderabad"
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -5844,7 +7715,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 251402,
-        "content_richness_score": 0.981
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -6146,7 +8017,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:04.764Z",
+        "wikipedia_summary": "Mysore, officially Mysuru, is a city in the southern Indian state of Karnataka. It is the headquarters of Mysore district and Mysore division. As the traditional seat of the Wadiyar dynasty, the city functioned as the capital of the Kingdom of Mysore for almost six centuries. Known for its heritage structures, palaces, and its culture, Mysore has been called the \"City of Palaces\", the \"Heritage City\", and the \"Cultural capital of Karnataka\". It is the second-most populous city in the state and one of the cleanest cities in India according to the Swachh Survekshan.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:05.056Z"
+      },
+      "search_context": "Heritage / Culture City / Urban Mysore Sightseeing Mysore, officially Mysuru, is a city in the southern Indian state of Karnataka. It is the headquarters of Mysore district and Mysore division. As the traditional seat of the Wadiyar dynasty, the city functioned as the capital of the Kingdom of Mysore for almost six centuries. Known for its heritage structures, palaces, and its culture, Mysore has been called the \"City of Palaces\", the \"Heritage City\", and the \"Cultural capital of Karnataka\". It is the second-most populous city in the state and one of the cleanest cities in India according to the Swachh Survekshan. Mysore's recorded history dates back over a thousand years. Its name has a mythological origin. According to Hindu mythology, the demon Mahishasura was slain by the Goddess Chamundi at the place where present-day Mysore is. A statue of Mahishasura stands on Chamundi Hill on the outskirts of the city. In later times, the city rose to prominence when it became the capital of a breakaway vassal state of the Vijayanagara Empire, ruled by the Wodeyar Mysore, officially Mysuru (ಮೈಸೂರು), is the second-most populous city of the state of Karnataka after Bangalore . It was the capital of the Wodeyar dynasty and is considered to be the cultural capital of Karnataka. Mysore is among the cleanest and best-planned cities in India. The regal city is striking a balance betwee",
+      "travel_facts": {
+        "summary": "**Mysuru** couples **Mysuru Junction (~4 km)** palace meshes with **MYQ (~12 km)** apron stacks—Chamundi hill tides bias Dasara illumination merges knowing Bengaluru Shatabdi feeders absorb Brindavan musical fountain peaks.",
+        "keywords": [
+          "mysuru junction palace meshes",
+          "myq apron stacks",
+          "chamundi hill tides",
+          "dasara illumination merges",
+          "bengaluru shatabdi feeders",
+          "wodeyar heritage taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-nagarhole-national-park",
@@ -6161,9 +8054,16 @@
       "description": "** Nagarahole Tiger Reserve **, previously known as Rajiv Gandhi Nagarahole National Park (Kannada ನಾಗರಹೊಳೆ ರಾಷ್ಟ್ರೀಯ ಉದ್ಯಾನವನ), is in Kodagu district in the Cauvery Basin in India 's Karnataka State.",
       "category": "Nature & Wildlife Areas",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Nagarhole_National_Park",
@@ -6171,19 +8071,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1520200"
       },
       "distance_km": 187,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Wildlife & nature",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Nacia Parko Rajiv Gandhi",
@@ -6208,28 +8116,72 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "28–36",
+          "winter": "18–28"
         }
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mysuru Airport",
+          "code": "MYQ",
+          "distance_km": 96,
+          "note": "BLR (~236 km) stacks gateway wings—Kabini safari launches thicken Kodagu elephant tides"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Mysuru Junction railway station",
+          "distance_km": 88,
+          "note": "HD Kote feeders toward safari gates—forest dept jeep quotas jitter peak weekends"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -6247,7 +8199,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -6258,7 +8214,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 24473,
-        "content_richness_score": 0.045
+        "content_richness_score": 0.175
       },
       "section_briefs": {
         "understand": {
@@ -6312,7 +8268,31 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Wildlife / Nature"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:05.610Z",
+        "wikipedia_summary": "Nagarahole National Park is a national park located in Kodagu district and Mysore district in Karnataka, India. This park was declared the 37th Tiger Reserve of India in 2003. It is part of the Nilgiri Biosphere Reserve. The Western Ghats Nilgiri Sub-Cluster of 6,000 km2 (2,300 sq mi), including all of Nagarhole National Park, is under consideration by the UNESCO World Heritage Committee for selection as a World Heritage Site. The park has rich forest cover, small streams, hills, valleys and waterfalls, and populations of Bengal tiger, gaur, Indian elephant, Indian leopard, chital and Sambar deer.",
+        "wikipedia_description": "National park in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:05.906Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Wildlife / Nature Nagarhole National Park Wildlife & nature Nagarahole National Park is a national park located in Kodagu district and Mysore district in Karnataka, India. This park was declared the 37th Tiger Reserve of India in 2003. It is part of the Nilgiri Biosphere Reserve. The Western Ghats Nilgiri Sub-Cluster of 6,000 km2 (2,300 sq mi), including all of Nagarhole National Park, is under consideration by the UNESCO World Heritage Committee for selection as a World Heritage Site. The park has rich forest cover, small streams, hills, valleys and waterfalls, and populations of Bengal tiger, gaur, Indian elephant, Indian leopard, chital and Sambar deer. Nagarahole Tiger Reserve , previously known as Rajiv Gandhi Nagarahole National Park (Kannada ನಾಗರಹೊಳೆ ರಾಷ್ಟ್ರೀಯ ಉದ್ಯಾನವನ), is in Kodagu district in the Cauvery Basin in India 's Karnataka State.",
+      "travel_facts": {
+        "summary": "**Nagarhole** threads **Mysuru Junction (~88 km)** Cauvery meshes beneath **MYQ (~96 km)** apron stacks—Kabini backwater safaris bias HD Kote merges knowing Bandipur crossover taxis absorb Nilgiri biosphere checkpoint peaks.",
+        "keywords": [
+          "mysuru cauvery meshes",
+          "myq apron stacks",
+          "kabini safari launches",
+          "hd kote feeders",
+          "nilgiri biosphere checkpoints",
+          "nagarahole elephant tides"
+        ]
+      }
     },
     {
       "slug": "karnataka-nandi-hills",
@@ -6327,9 +8307,16 @@
       "description": "**Nandi Hills** is a hill station in Karnataka State, India . This range of Nandi on the craggy hills (the highest peak being 1500 m) holds the shimmering Amrita Sarovar Lake and offers walks of sylvan beauty. It is a popular health resort today.",
       "category": "Mountains",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Nandi_Hills",
@@ -6337,19 +8324,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q3518367"
       },
       "distance_km": 48,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Nandidrug",
@@ -6372,21 +8367,72 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kempegowda International Airport (Bengaluru)",
+          "code": "BLR",
+          "distance_km": 42,
+          "note": "Sunrise convoy gates thicken weekend checkpoint drills—two-wheeler bans beyond toll plazas"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Chikkaballapur Junction railway station",
+          "distance_km": 24,
+          "note": "Hill taxi hops toward Nandi gates—cyclists bias predawn curve merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
         "direct_flight_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
         ]
       },
       "recommended_max_days": 5,
@@ -6406,7 +8452,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -6417,7 +8467,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 33281,
-        "content_richness_score": 0.082
+        "content_richness_score": 0.238
       },
       "section_briefs": {
         "understand": {
@@ -6563,7 +8613,29 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:06.461Z",
+        "wikipedia_summary": "Nandi Hills is an ancient hill fortress built by the Ganga dynasty in the Chikkaballapur district of Karnataka state. It is now a locality situated 10 km from Chickballapur town and approximately 60 km from Bengaluru. The hills are near the town of Nandi. In traditional belief, the hills are the origin of the Arkavathy river, Ponnaiyar River, Palar River, Papagni River and Penna River. Watching the sunrise at Nandi Hills is popular with tourists. The second SAARC summit was held at Nandi Hills in 1986.",
+        "wikipedia_description": "Town in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:06.753Z"
+      },
+      "search_context": "Mountain / Hills City / Urban Nandi Hills Sightseeing Nandi Hills is an ancient hill fortress built by the Ganga dynasty in the Chikkaballapur district of Karnataka state. It is now a locality situated 10 km from Chickballapur town and approximately 60 km from Bengaluru. The hills are near the town of Nandi. In traditional belief, the hills are the origin of the Arkavathy river, Ponnaiyar River, Palar River, Papagni River and Penna River. Watching the sunrise at Nandi Hills is popular with tourists. The second SAARC summit was held at Nandi Hills in 1986. The hills are about 60 km east of Bangalore and about 1500m above sea level. The deviation road at Oordagere on the Bangalore-Tumkur Road can reach it. On the top of the hill, there are temples dedicated to Sri Ugra Narasimha and Sri Yoga Narasimha. On the lower hill there is a temple dedicated to Sri Bhoga Narasimha. There is a Traveler's Bungalow and a Kalyana Mantap on the top of the hill and a Forest Lodge and Taluk Board T.B. at the foot of Nandi Hills is a hill station in Karnataka State, India . This range of Nandi on the craggy hills (the highest peak being 1500 m) holds the shimmering Amrita Sarovar Lake and offers walks of sylvan beauty. It is a popular health resort today.",
+      "travel_facts": {
+        "summary": "**Nandi Hills** climbs **Chikkaballapur (~24 km)** plateau feeders toward **BLR (~42 km)** apron stacks—sunrise convoy tides bias Amrita Sarovar merges knowing Bengaluru weekend cyclists absorb toll-gate checkpoint peaks.",
+        "keywords": [
+          "chikkaballapur plateau feeders",
+          "blr apron stacks",
+          "nandi sunrise convoys",
+          "amrita sarovar merges",
+          "weekend hill taxis",
+          "bangalore ridge checkpoint drills"
+        ]
+      }
     },
     {
       "slug": "karnataka-shimoga",
@@ -6578,9 +8650,16 @@
       "description": "**Shimoga**, now known officially as **Shivamogga**, is a town in the state of Karnataka . The name originates from _Shiva-mukha_ i.e., face of Lord Shiva.",
       "category": "Points of Interest & Landmarks",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Shimoga",
@@ -6588,19 +8667,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q281796"
       },
       "distance_km": 243,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Shivamogga"
@@ -6617,20 +8704,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Shivamogga Airport",
+          "code": "RQY",
+          "distance_km": 16,
+          "note": "BLR (~308 km) stacks primary wings—Malnad gateway tides thicken Tunga riverside peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Shivamogga Town railway station",
+          "distance_km": 4,
+          "note": "Bengaluru overnight expresses thicken Jog Falls feeder merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 4,
       "ideal_for_weekend_trip": false,
@@ -6649,7 +8789,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -6660,7 +8804,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 45742,
-        "content_richness_score": 0.133
+        "content_richness_score": 0.327
       },
       "section_briefs": {
         "get_in": {
@@ -6812,7 +8956,33 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "City / Urban",
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:07.311Z",
+        "wikipedia_summary": "Shimoga, officially Shivamogga, is a city and the district headquarters of Shimoga district in the Karnataka state of India. The city lies on the banks of the Tunga River. Being the gateway for the hilly region of the Western Ghats, the city is popularly nicknamed the \"Gateway of Malnad\". The population of Shimoga city is 322,650 as per 2011 census. The city has been selected for the Smart Cities Mission standing in the fourth position in the state and 25th in the country as of November 2020.",
+        "wikipedia_description": "City in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:07.601Z"
+      },
+      "credibility_recognitions": [
+        "national_park",
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / Urban Mountain / Hills Shimoga Sightseeing Shimoga, officially Shivamogga, is a city and the district headquarters of Shimoga district in the Karnataka state of India. The city lies on the banks of the Tunga River. Being the gateway for the hilly region of the Western Ghats, the city is popularly nicknamed the \"Gateway of Malnad\". The population of Shimoga city is 322,650 as per 2011 census. The city has been selected for the Smart Cities Mission standing in the fourth position in the state and 25th in the country as of November 2020. Shimoga, now known officially as Shivamogga, is a town in the state of Karnataka . The name originates from _Shiva-mukha_ i.e., face of Lord Shiva.",
+      "travel_facts": {
+        "summary": "**Shivamogga** anchors **Shivamogga Town (~4 km)** Tunga meshes beneath **RQY (~16 km)** Malnad stacks—Agumbe rainforest tides bias Sigandur ferry merges knowing Sagara highway Volvos absorb Kodachadri crossover peaks.",
+        "keywords": [
+          "shivamogga town tunga meshes",
+          "rqy malnad stacks",
+          "agumbe rainforest tides",
+          "sigandur ferry merges",
+          "jog falls feeder volvos",
+          "gateway malnad taxis"
+        ]
+      }
     },
     {
       "slug": "karnataka-shivasamudram",
@@ -6827,9 +8997,16 @@
       "description": "**Shivanasamudra** is the location of a hydroelectric project in Karnataka , but more pertinently it is also home to a few lovely waterfalls.",
       "category": "Waterfalls",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Shivanasamudram",
@@ -6837,19 +9014,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q38397"
       },
       "distance_km": 88,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Shivanasamudra Falls",
@@ -6864,20 +9049,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kempegowda International Airport (Bengaluru)",
+          "code": "BLR",
+          "distance_km": 142,
+          "note": "MYQ Mysuru (~85 km) stacks alternate wings—Barachukki gorge viewpoints thicken Cauvery spray peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Maddur railway station",
+          "distance_km": 44,
+          "note": "BLR–Mysuru trunk feeders—Barachukki/Gaganachukki taxi tides choke monsoon muddy merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 2,
       "ideal_for_weekend_trip": true,
@@ -6895,7 +9133,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -6906,7 +9148,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 21927,
-        "content_richness_score": 0.035
+        "content_richness_score": 0.157
       },
       "section_briefs": {
         "understand": {
@@ -6962,7 +9204,28 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Mountain / Hills"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:08.161Z",
+        "wikipedia_summary": "Shivanasamudra Falls is a cluster of waterfalls on the borders of Malavalli, Mandya and Kollegala, Chamarajanagara, in Karnataka, India, situated along the river Kaveri. The falls form the contour between the districts of Chamarajanagara and Mandya. The Bharachukki Falls in Kollegala, with a height of 69 metres, and the Gaganachukki Falls in Malavalli, with a height of 90 metres, collectively form the Shivanasamudra Falls.",
+        "wikipedia_description": "Waterfall in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:08.455Z"
+      },
+      "search_context": "Mountain / Hills Shivasamudram Sightseeing Shivanasamudra Falls is a cluster of waterfalls on the borders of Malavalli, Mandya and Kollegala, Chamarajanagara, in Karnataka, India, situated along the river Kaveri. The falls form the contour between the districts of Chamarajanagara and Mandya. The Bharachukki Falls in Kollegala, with a height of 69 metres, and the Gaganachukki Falls in Malavalli, with a height of 90 metres, collectively form the Shivanasamudra Falls. The Shivanasamudra falls are formed on the Cauvery river. A little distance before the falls, the river splits into two, forming an island. The two streams fall down to the same point and flow downstream. The two falls are called Gagana Chukki (90 metres) Bhara Chukki (69 metres) The two falls are really majestic during the monsoon season. Shivanasamudra is the location of a hydroelectric project in Karnataka , but more pertinently it is also home to a few lovely waterfalls.",
+      "travel_facts": {
+        "summary": "**Shivasamudram** stitches **Maddur (~44 km)** Kaveri meshes beneath **BLR (~142 km)** plateau stacks—Barachukki spray tides bias Kollegal approach merges knowing Mysuru feeder autos absorb hydro-road checkpoint peaks.",
+        "keywords": [
+          "maddur kaveri meshes",
+          "blr plateau stacks",
+          "barachukki spray tides",
+          "gaganachukki taxi merges",
+          "mandya gorge viewpoints",
+          "kaveri hydro checkpoint radios"
+        ]
+      }
     },
     {
       "slug": "karnataka-shravanabelagola",
@@ -6977,9 +9240,16 @@
       "description": "** Shravanabelagola ** is a village famous for its impressive Jain temple. It is located in Hassan District of Karnataka .",
       "category": "Religious Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Shravanabelagola",
@@ -6987,19 +9257,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q1026193"
       },
       "distance_km": 121,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Sravanbelagola",
@@ -7031,20 +9309,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Kempegowda International Airport (Bengaluru)",
+          "code": "BLR",
+          "distance_km": 158,
+          "note": "IXE (~282 km) stacks coastal wings—Bahubali mahamastakabhisheka tides thicken Jain festival peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Shravanabelagola railway station",
+          "distance_km": 6,
+          "note": "Bengaluru–Mysuru expresses thicken Channarayapatna taxi merges"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -7063,7 +9394,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -7074,7 +9409,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 52186,
-        "content_richness_score": 0.16
+        "content_richness_score": 0.373
       },
       "section_briefs": {
         "understand": {
@@ -7152,7 +9487,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:09.010Z",
+        "wikipedia_summary": "Shravanabelagola is a town located near Channarayapatna of Hassan district in the Indian state of Karnataka and is 144 km (89 mi) from Bengaluru. The Gommateshwara Bahubali statue at Shravanabelagola is one of the most important tirthas in Jainism, one that reached a peak in architectural and sculptural activity under the patronage of Western Ganga dynasty of Talakad. Chandragupta Maurya is said to have died on the hill of Chandragiri, which is located in Shravanabelagola, in 298 BCE after he became a Jain monk and assumed an ascetic life style.",
+        "wikipedia_description": "Town in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:09.300Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Heritage / Culture City / Urban Shravanabelagola Sightseeing Shravanabelagola is a town located near Channarayapatna of Hassan district in the Indian state of Karnataka and is 144 km (89 mi) from Bengaluru. The Gommateshwara Bahubali statue at Shravanabelagola is one of the most important tirthas in Jainism, one that reached a peak in architectural and sculptural activity under the patronage of Western Ganga dynasty of Talakad. Chandragupta Maurya is said to have died on the hill of Chandragiri, which is located in Shravanabelagola, in 298 BCE after he became a Jain monk and assumed an ascetic life style. Shravanabelagola is a Jain pilgrim destination located in the Hassan district of Karnataka state, Southern India, at an altitude of about 800 m (2,600 ft) above sea level. The town is wedged between two rocky hills- Vindhyagiri and Chandragiri. It is at a distance of It is 11 km from Channarayapatna , 52 km from Hassan town, the headquarters of the Hassan district and 157 km from Bangalore . There are good roads from Bangalore and Mysore to Shrav Shravanabelagola is a village famous for its impressive Jain temple. It is located in Hassan District of Karnataka .",
+      "travel_facts": {
+        "summary": "**Shravanabelagola** pairs **Shravanabelagola station (~6 km)** Jain meshes with **BLR (~158 km)** apron stacks—Vindhyagiri Bahubali tides bias Chandragiri sunrise merges knowing Hassan highway feeders absorb mahamastakabhisheka crowd peaks.",
+        "keywords": [
+          "shravanabelagola jain meshes",
+          "blr apron stacks",
+          "bahubali vindhyagiri tides",
+          "chandragiri sunrise merges",
+          "hassan highway feeders",
+          "gommateshwara festival peaks"
+        ]
+      }
     },
     {
       "slug": "karnataka-srirangapatna",
@@ -7167,9 +9525,16 @@
       "description": "**Srirangapatna** (ಶ್ರೀರಂಗಪಟ್ಟಣ _Śrīraṅgapaṭṭana_), anglicised to _Seringapatam_ during the British Raj, is a town in Mandya district of Karnataka , India . On an island in the Cauvery River, the town of Srirangapatna was once the fortress capital of the region controlled by Hyder Ali and his son Tipu Sultan.",
       "category": "Historic Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Srirangapatna",
@@ -7177,19 +9542,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q653988"
       },
       "distance_km": 115,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.9,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Seringapatam",
@@ -7206,22 +9579,73 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "28–36",
+          "winter": "18–28"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mysuru Airport",
+          "code": "MYQ",
+          "distance_km": 28,
+          "note": "BLR (~124 km) stacks heavy wings—Cauvery island fort tides thicken Tipu heritage peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Shrirangapattana railway station",
+          "distance_km": 3,
+          "note": "Ranganathaswamy ghat merges toward Mysuru—coracle taxis spike weekend pilgrim peaks"
         },
-        "road_access_quality": null,
+        "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -7240,7 +9664,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -7251,7 +9679,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 50315,
-        "content_richness_score": 0.152
+        "content_richness_score": 0.359
       },
       "section_briefs": {
         "understand": {
@@ -7456,7 +9884,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Heritage / Culture",
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:09.858Z",
+        "wikipedia_summary": "Srirangapatna or Srirangapattana is a town and headquarters of one of the seven Taluks of Mandya district, in the Indian State of Karnataka. It gets its name from the Ranganathaswamy temple consecrated around 984 CE. Later, under the British rule, the city was renamed to Seringapatam. Located near the city of Mandya, it is of religious, cultural and historic importance.",
+        "wikipedia_description": "Town in Karnataka, India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:10.146Z"
+      },
+      "search_context": "Heritage / Culture Spiritual / Pilgrimage City / Urban Srirangapatna Sightseeing Srirangapatna or Srirangapattana is a town and headquarters of one of the seven Taluks of Mandya district, in the Indian State of Karnataka. It gets its name from the Ranganathaswamy temple consecrated around 984 CE. Later, under the British rule, the city was renamed to Seringapatam. Located near the city of Mandya, it is of religious, cultural and historic importance. Srirangapatna (ಶ್ರೀರಂಗಪಟ್ಟಣ _Śrīraṅgapaṭṭana_), anglicised to _Seringapatam_ during the British Raj, is a town in Mandya district of Karnataka , India . On an island in the Cauvery River, the town of Srirangapatna was once the fortress capital of the region controlled by Hyder Ali and his son Tipu Sultan.",
+      "travel_facts": {
+        "summary": "**Srirangapatna** hinges **Shrirangapattana (~3 km)** Cauvery meshes beneath **MYQ (~28 km)** apron stacks—Tipu summer palace tides bias Ranganatha island merges knowing Mysuru feeder buses absorb Sangama viewpoint peaks.",
+        "keywords": [
+          "shrirangapattana cauvery meshes",
+          "myq apron stacks",
+          "tipu palace tides",
+          "ranganatha island merges",
+          "mysuru feeder buses",
+          "mandya heritage coracles"
+        ]
+      }
     },
     {
       "slug": "karnataka-udupi",
@@ -7471,9 +9922,16 @@
       "description": "Most Indians know of **Udupi** not as a place, but as a category of restaurants. Udupi restaurants that generally serve vegetarian food in the South Indian style can be found all over India. However, the town itself is not as well-known as its widespread cuisine. Still fewer know of its reputation as the location of a Krishna temple and a monastery established by the founder of one of the three main philosophical strains of present-day Hinduism. \r\n\nFurther, the suburb **Manipal** is popular due to it being a major educational centre, attracting students from all over the world. \r\n\nThe town of Udupi lies in Udupi _taluka_ which in turn is in Udupi district . This article covers the taluka. To its north is Kundapura and to its west is Karkala , at the foothills of the Western Ghats. To the south of Udupi is Mangalore , which is the headquarters of the Dakshina Kannada district.",
       "category": "Religious Sites",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–Mar (cooler; monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "season": "tropical_peninsula"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Udupi",
@@ -7481,19 +9939,27 @@
         "wikidata": "https://www.wikidata.org/wiki/Q584295"
       },
       "distance_km": 311,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-02-21T17:15:26.931Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Udipi",
@@ -7514,31 +9980,72 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "28–36",
+          "winter": "18–28"
         }
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Mangalore International Airport",
+          "code": "IXE",
+          "distance_km": 58,
+          "note": "NH66 merges toward Malpe—Krishna mutt darshan tides thicken Paryaya rotation peaks"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Udupi railway station",
+          "distance_km": 5,
+          "note": "Konkan meshes toward Kundapura—Manipal student autos dominate coastal merges"
         },
         "road_access_quality": "good",
         "direct_train_available_from_major_cities": [
-          "Bangalore",
-          "Mumbai"
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
         ],
-        "direct_flight_available_from_major_cities": []
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Kochi",
+          "Goa"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
       },
       "recommended_max_days": 5,
       "ideal_for_weekend_trip": false,
@@ -7558,7 +10065,11 @@
         "requires_advance_booking": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "safety_profile": {
@@ -7569,7 +10080,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 191007,
-        "content_richness_score": 0.732
+        "content_richness_score": 1
       },
       "section_briefs": {
         "understand": {
@@ -7745,7 +10256,27 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:10.697Z"
+      },
+      "search_context": "Spiritual / Pilgrimage Beach / Coastal City / Urban Udupi Sightseeing Most Indians know of Udupi not as a place, but as a category of restaurants. Udupi restaurants that generally serve vegetarian food in the South Indian style can be found all over India. However, the town itself is not as well-known as its widespread cuisine. Still fewer know of its reputation as the location of a Kris",
+      "travel_facts": {
+        "summary": "**Udupi** couples **Udupi station (~5 km)** Konkan meshes with **IXE (~58 km)** Bajpe stacks—Krishna mutt ashta matha tides bias Malpe harbour merges knowing Agumbe ghat feeders absorb St Mary's island boat peaks.",
+        "keywords": [
+          "udupi konkan meshes",
+          "ixe bajpe stacks",
+          "krishna mutt matha tides",
+          "malpe harbour merges",
+          "konkan railway expresses",
+          "coastal pilgrimage taxis"
+        ]
+      }
     }
   ]
 }

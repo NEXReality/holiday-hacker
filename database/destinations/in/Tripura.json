@@ -1,0 +1,1317 @@
+{
+  "state": "Tripura",
+  "state_code": "TR",
+  "generated_at": "2026-05-18T11:27:32.803Z",
+  "count": 5,
+  "destinations": [
+    {
+      "slug": "tripura-agartala",
+      "name": "Agartala",
+      "region": "",
+      "state": "Tripura",
+      "coordinates": {
+        "lat": 23.83333,
+        "lon": 91.26667,
+        "source": "wikidata"
+      },
+      "description": "**Agartala** ( Bengali : আগরতলা _Āgartalā_) is the capital city of Tripura , and is the second-largest city in North-Eastern India after Guwahati. It is on the banks of the Haora River, near the Bangladesh border, about 90 km (55 mi) east of Bangladesh's capital Dhaka. Agartala is being developed under the Smart Cities Mission, a flagship scheme of the Government of India, the third international internet gateway after Mumbai and Chennai.",
+      "category": "City / Urban",
+      "best_time_to_visit": {
+        "text": "Jul–jul",
+        "months": [
+          7
+        ],
+        "season": "winter"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Agartala",
+        "wikipedia": "https://en.wikipedia.org/wiki/Agartala",
+        "wikidata": "https://www.wikidata.org/wiki/Q170454"
+      },
+      "distance_km": 1879,
+      "ideal_months": [
+        7
+      ],
+      "min_days": 2,
+      "weather_snippet": "Jul–jul",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:39.021Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ujjayanta_Palace_as_seen_from_the_midpoint_of_the_avenue_01.JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agartala-mayday152.jpg?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          7
+        ],
+        "off_season_months": [],
+        "monsoon_months": [],
+        "avoid_months": [],
+        "average_temp_range_celsius": {
+          "summer": null,
+          "winter": null
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Maharaja Bir Bikram Airport",
+          "code": "IXA",
+          "distance_km": 12,
+          "note": "Bangladesh Akhaura crossing—verify immigration notices before routing"
+        },
+        "nearest_railway_station": {
+          "name": "Agartala railway station",
+          "distance_km": 4,
+          "note": "NFR Lumding–Sabroom spine—Guwahati/Kolkata expresses"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati",
+          "Delhi",
+          "Silchar",
+          "Agartala",
+          "New Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Ahmedabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          7
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 128344,
+        "content_richness_score": 0.917
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Agartala is a city of 400,000 people (2011) on a plain along the Haora River, although the city also extends to the low-lying hills on its northern parts.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "plane",
+            "train",
+            "bus"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "If coming via road from Bangladesh, the nearby Akhaura Land Port accepts eVisas. The Cumilla Land Port, further south, does not (July 2023). Exit of Bangladesh incurs a \"Travel Tax\" of Tk 1,000.\r\n\n\r\n By plane 1 ** Maharaja Bir Bikram Kishore Manikya Bahadur Airport ** ( **IXA **  IATA ). Agartala can be reached by air from Delhi , Mumbai , Bangalore , Ahmedabad , Chennai and many other cities of India via Kolkata or Guwahati . There are also direct flights from Aizawl in Mizoram . Airfare varies from ₹1,800-7,000.   \r\nTo get into the city from the airport, there are infrequent buses, or you can take an auto (tuktuk). There's a counter outside at the pickup and dropoff area where you can buy a ticket for your auto journey at a guaranteed zone-based price, ranging from about ₹200-400 depending on the destination.\r\n\n\r\n By train 2 ** Agartala    NFR**  ( 5 km (3.1 mi) S of city centre ). Agartala lies on the Sabroom-Lumding line, with daily trains south, to/from Sabroom, and north, as far as Silchar. Trains to/from further destinations occur less frequently, on alternate days, or even weekly. The _Tripura Sundari Express_ links Delhi to Agartala once every week via Guwahati . The _Sealdah-Sabroom Kanchanjungha Express_ (13173/74) from Kolkata (Sealdah) also stops at Agartala.  ( updated Mar 2026 ) \r\nSome regional trains also stop at 3 ** Jogendranagar    NFR**  , closer to the city.\r\n\n\r\n By bus Agartala can be reached directly by bus from Guwahati , Shillong and Silchar . The Akhaura check post also connects Agartala to Dhaka . This route extends to Kolkata in West Bengal .\r\n\n\r\n By shared car There's intermittent shared SUV service direct from Aizawl in Mizoram , but it only runs when enough passengers have booked seats in advance, which doesn't happen every day. As of May 2023, the cost is ₹1300 per person (or you can \"reserve\" the whole car for ₹13,000). If starting from Aizawl, inquire at the sumo counter inside a convenience store just uphill from Temple Square. The ride is notoriously long and bumpy.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "Pedal Rickshaws are the principal mode of travel within the city limits. The fare may range from ₹5-25.\r\n\nThe battery-operated rickshaws which are locally called _tomtom_ are very popular because they have the cheapest fares. Some cycle rickshaws have been converted to a battery-operated rickshaw. The drivers are genuine rickshaw drivers from backward classes.\r\n\nAuto rickshaws plying on fixed routes are also available. Designated stops are at Motorstand, Nagarjala, Abhaynagar, Old RMS, etc. All you need to do to catch an \"auto\" (locally known as \"Tempu\" or \"auto\") is to stand on the route and be watchful. Auto rickshaws have an authorized sitting capacity of 3 persons, and passengers are comfortable squeezing in by little adjustment. Auto-rickshaws are available for travel to the airport also.\r\n\nGovernment city buses ply throughout the city and its sub-urban areas. The fare ranges from ₹5 to ₹10, but the frequency is low. They ply on 7 routes covering the whole city.\r\n\nFor a day trip to Kamalasagar, Sipahijala, Udaipur, Neermahal etc. a cab can be hired from Battala syndicate.",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Ujjayanta Palace",
+              "description": "Built by Maharaja Radha Kishore Manikya during 1899-1901, this is a two-storey mansion, with mixed type of architecture with three high domes, the central one being 86 feet high. The magnificent tile floor, curved wooden ceiling and beautifully crafted doors are notable. The palace has huge Mughal style gardens, beautified by pools and gardens. Flood lighting and fountains have also added to its beauty. Until 2011 it housed the State Legislative Assembly of Tripura.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ujjayanta_Palace",
+              "coordinates": {
+                "lat": 23.8368,
+                "lon": 91.28309
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Akhaura Checkpost",
+              "description": "It handles the largest number of visitors to and from neighbouring Bangladesh.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.83861,
+                "lon": 91.25444
+              },
+              "price": null
+            },
+            {
+              "order": 3,
+              "name": "Gedu Miar Maszid",
+              "description": "The main place of worship for the Muslims of Tripura, this imposing mosque bears testimony to the devotion and piety of a remarkable individual.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.83002,
+                "lon": 91.28535
+              },
+              "price": null
+            },
+            {
+              "order": 4,
+              "name": "Jagannath Temple",
+              "description": "Famous not only from the pilgrim's point of view, this temple is also a remarkable architectural feat with its octagonal base and its impressive pradhakshin patha round the sanctum. The pillars are crowned by square and pyramidal cones.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.83627,
+                "lon": 91.28051
+              },
+              "price": null
+            },
+            {
+              "order": 5,
+              "name": "Lakshmi Narayan Temple",
+              "description": "The idol of Lord Krishna was installed by Krishnananda Sevayet of Laxmi Narayan temple in the 1970s. The temple is also registered under the Indian antiquity act, and dates back to the princely state era.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 24.58152,
+                "lon": 73.68475
+              },
+              "price": null
+            },
+            {
+              "order": 6,
+              "name": "Maharaja Bir Bikram College",
+              "description": "The last king of Tripura founded this in 1947.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Maharaja_Bir_Bikram_College",
+              "coordinates": {
+                "lat": 23.82702,
+                "lon": 91.29693
+              },
+              "price": null
+            },
+            {
+              "order": 7,
+              "name": "Mariyam Nagar Catholic Church",
+              "description": "A historical site, once been used by Portuguese settlers, amidst the lush green lap of nature.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.8496,
+                "lon": 91.32449
+              },
+              "price": null
+            },
+            {
+              "order": 8,
+              "name": "Sukanta Academy",
+              "description": "It is a science museum. A small planetarium has also been set up within the complex to attract students, research scholars and scientist.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.83328,
+                "lon": 91.28143
+              },
+              "price": null
+            },
+            {
+              "order": 9,
+              "name": "Temple of Fourteen Gods",
+              "description": "This temple was built in honour of 14 deities worshipped during Kharchi Puja.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Chaturdasha_Temple",
+              "coordinates": {
+                "lat": 23.84139,
+                "lon": 91.34519
+              },
+              "price": null
+            },
+            {
+              "order": 10,
+              "name": "Tripura Government Museum",
+              "description": "Established in 1970, it preserves some rare images, epigraphs and numismatic evidence which throws light on the glorious past of Tripura and some of the adjoining states.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.82914,
+                "lon": 91.27829
+              },
+              "price": null
+            },
+            {
+              "order": 11,
+              "name": "Venuban Vihar",
+              "description": "A Buddha Temple, it is one of the most attractive Buddhist destinations of Tripura.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.84733,
+                "lon": 91.28048
+              },
+              "price": null
+            },
+            {
+              "order": 12,
+              "name": "1971 War Memorial",
+              "description": "It is a war memorial dedicated to the Indian soldiers who died during the Bangladesh liberation war of 1971.",
+              "wikipedia": null,
+              "coordinates": {
+                "lat": 23.82943,
+                "lon": 91.27861
+              },
+              "price": null
+            },
+            {
+              "order": 13,
+              "name": "Pilak",
+              "description": "South Tripura archaeological site. Buddhist and Hindu sandstone sculptures discovered here can be seen at the Tripura Government Museum.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Pilak,_Tripura",
+              "coordinates": {
+                "lat": 23.76667,
+                "lon": 91.3
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Ujjayanta Palace** . Built by Maharaja Radha Kishore Manikya during 1899-1901, this is a two-storey mansion, with mixed type of architecture with three high domes, the central one being 86 feet high. The magnificent tile floor, curved wooden ceiling and beautifully crafted doors are notable. The palace has huge Mughal style gardens, beautified by pools and gardens. Flood lighting and fountains have also added to its beauty. Until 2011 it housed the State Legislative Assembly of Tripura.   \r\n 2 **Akhaura Checkpost**. It handles the largest number of visitors to and from neighbouring Bangladesh.   \r\n 3 **Gedu Miar Maszid** ( in Shibnagar area ). The main place of worship for the Muslims of Tripura, this imposing mosque bears testimony to the devotion and piety of a remarkable individual.   \r\n 4 **Jagannath Temple**. Famous not only from the pilgrim's point of view, this temple is also a remarkable architectural feat with its octagonal base and its impressive pradhakshin patha round the sanctum. The pillars are crowned by square and pyramidal cones.   \r\n 5 **Lakshmi Narayan Temple**. The idol of Lord Krishna was installed by Krishnananda Sevayet of Laxmi Narayan temple in the 1970s. The temple is also registered under the Indian antiquity act, and dates back to the princely state era.   \r\n 6 **Maharaja Bir Bikram College** . The last king of Tripura founded this in 1947.   \r\n 7 **Mariyam Nagar Catholic Church** ( Mariamnagar ) ( 7 km east ). A historical site, once been used by Portuguese settlers, amidst the lush green lap of nature.   \r\n 8 **Sukanta Academy** ( centre of town ). It is a science museum. A small planetarium has also been set up within the complex to attract students, research scholars and scientist.   \r\n 9 **Temple of Fourteen Gods** ( Chaturdasha Temple ) ( Old Agartala ). This temple was built in honour of 14 deities worshipped during Kharchi Puja.   \r\n 10 **Tripura Government Museum** ( inside Ujjayanta Palace. ). Established in 1970, it preserves some rare images, epigraphs and numismatic evidence which throws light on the glorious past of Tripura and some of the adjoining states.   \r\n 11 **Venuban Vihar** ( at Kunjaban area in northern part ). A Buddha Temple, it is one of the most attractive Buddhist destinations of Tripura.   \r\n 12 **1971 War Memorial**, Dhaleswar . It is a war memorial dedicated to the Indian soldiers who died during the Bangladesh liberation war of 1971.  ( updated Aug 2019 ) \r\n 13 **Pilak** ( 100 km away ). South Tripura archaeological site. Buddhist and Hindu sandstone sculptures discovered here can be seen at the Tripura Government Museum.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Nehru Park",
+              "description": "Inaugurated in 2003, it is a happy hub for people of all ages looking to get away from the city."
+            },
+            {
+              "name": "Rabindra Kanan",
+              "description": "A park with lush greenery and an abundance of flowers, home to children and young people looking for a peaceful getaway."
+            },
+            {
+              "name": "Rose Valley Amusement Park",
+              "description": ""
+            }
+          ],
+          "brief": "Inaugurated in 2003, it is a happy hub for people of all ages looking to get away from the city.",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [
+            {
+              "name": "Local drinks",
+              "description": "Agartala is teeming with liquor shops where cheap brands are easily available. It is not permissible to drink openly on the roads or in public places."
+            }
+          ],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [
+            {
+              "name": "Executive Inn Hotel",
+              "description": "It is a new hotel in the heart of Agartala.",
+              "price": "₹900-2,700"
+            },
+            {
+              "name": "Radha International Hotel",
+              "description": "",
+              "price": "₹600-2,700"
+            },
+            {
+              "name": "Rajdhani Hotel",
+              "description": "",
+              "price": "₹1200-1900"
+            }
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.694Z"
+      },
+      "search_context": "City / Urban destination Agartala Sightseeing Agartala ( Bengali : আগরতলা ) is the capital city of Tripura , and is the second-largest city in North-Eastern India after Guwahati. It is on the banks of the Haora River, near the Bangladesh border, about 90 km (55 mi) east of Bangladesh's capital Dhaka. Agartala is being developed under the Smart Cities Mission, a flagship scheme of the Government of India, the third international internet gateway after Mumbai and",
+      "travel_facts": {
+        "summary": "**Agartala** anchors **IXA (~12 km) capital stacks** beneath **Agartala rail (~4 km)** knowing Ujjayanta Palace merges absorb Haora river tides.",
+        "keywords": [
+          "ixa gateway stacks",
+          "nfr merges",
+          "ujjayanta apron",
+          "smart city tides"
+        ]
+      }
+    },
+    {
+      "slug": "tripura-bishalgarh",
+      "name": "Bishalgarh",
+      "region": "",
+      "state": "Tripura",
+      "coordinates": {
+        "lat": 23.67396,
+        "lon": 91.28167,
+        "source": "wikidata"
+      },
+      "description": "**Bishalgarh** (বিশালগড় _Biśālgaṛ_) is a town in western Tripura , India .",
+      "category": "Town / Western Tripura",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Bishalgarh",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bishalgarh",
+        "wikidata": "https://www.wikidata.org/wiki/Q16842375"
+      },
+      "distance_km": 1869,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:39.021Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Maharaja Bir Bikram Airport",
+          "code": "IXA",
+          "distance_km": 48,
+          "note": "NH relays toward Sepahijala wildlife belt"
+        },
+        "nearest_railway_station": {
+          "name": "Bishalgarh railway station",
+          "distance_km": 3
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Agartala",
+          "Silchar",
+          "Guwahati",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Agartala",
+          "Guwahati",
+          "Kolkata",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 28519,
+        "content_richness_score": 0.204
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "Bishalgarh is 40 km (25 mi) from Agartala .\r\n\n\r\n By train 1 ** Bishalgarh    NFR**  .  ( updated Mar 2026 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Town / Western Tripura"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.694Z"
+      },
+      "search_context": "Town / Western Tripura destination Bishalgarh Sightseeing Bishalgarh (বিশালগড় ) is a town in western Tripura , India .",
+      "travel_facts": {
+        "summary": "**Bishalgarh** stacks **IXA (~48 km) western stacks** beneath **Bishalgarh rail (~3 km)** knowing bamboo craft merges absorb Agartala corridor tides.",
+        "keywords": [
+          "bishalgarh stacks",
+          "western tripura merges",
+          "sepahijala apron",
+          "nfr shuttle tides"
+        ]
+      }
+    },
+    {
+      "slug": "tripura-dharmanagar",
+      "name": "Dharmanagar",
+      "region": "",
+      "state": "Tripura",
+      "coordinates": {
+        "lat": 24.37,
+        "lon": 92.17,
+        "source": "wikidata"
+      },
+      "description": "**Dharmanagar** (ধর্মনগর) is the second most populous city in Tripura .",
+      "category": "City / North Tripura hub",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Dharmanagar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dharmanagar",
+        "wikidata": "https://www.wikidata.org/wiki/Q1258127"
+      },
+      "distance_km": 1988,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:39.021Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unakoti_(Scorpian_ad).JPG?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Silchar Airport",
+          "code": "IXS",
+          "distance_km": 82,
+          "note": "Agartala IXA ~195 km relay along NH if Barak flights unavailable"
+        },
+        "nearest_railway_station": {
+          "name": "Dharmanagar railway station",
+          "distance_km": 4,
+          "note": "Guwahati–Sabroom corridor expresses"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Guwahati",
+          "Silchar",
+          "Agartala",
+          "Kolkata",
+          "Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Guwahati",
+          "Kolkata",
+          "Delhi",
+          "Imphal"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 22259,
+        "content_richness_score": 0.159
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Close to the Bangladeshi border, before the partition of India the town of Dharmanagar had strong ties to what is now the Sylhet Division .",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [],
+          "nearest_station": {
+            "name": "Dharmanagar railway station",
+            "code": null,
+            "wikipedia": "https://en.wikipedia.org/wiki/Dharmanagar_railway_station",
+            "distance_km": null,
+            "source": "wikivoyage"
+          },
+          "stations": [
+            {
+              "name": "Dharmanagar railway station",
+              "code": null,
+              "wikipedia": "https://en.wikipedia.org/wiki/Dharmanagar_railway_station",
+              "distance_km": null,
+              "source": "wikivoyage"
+            }
+          ],
+          "brief": "1 **Dharmanagar railway station** , New Bazar, Padmapur . The main entry point into the city apart from the roads. The facilities and amenities at the station are not great and there is limited shelter.  ( updated Oct 2020 )",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Rowa Wildlife Sanctuary",
+              "description": "A small sanctuary reflecting the natural vegetation of the region. You will be able to spot several species of birds and primates.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Rowa_Wildlife_Sanctuary",
+              "coordinates": {
+                "lat": 24.29,
+                "lon": 92.17
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Unakoti",
+              "description": "Historic site containing large and mysterious yet fascinating rock-cut and stone sculptures of Hindu deity Shiva.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Unakoti",
+              "coordinates": {
+                "lat": 24.3166,
+                "lon": 92.0666
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Rowa Wildlife Sanctuary** ( Adjacent to the national highway ). A small sanctuary reflecting the natural vegetation of the region. You will be able to spot several species of birds and primates.  ( updated Oct 2020 ) \r\n 2 **Unakoti** ( ঊনকোটি _Ūnakoṭi_ ). Historic site containing large and mysterious yet fascinating rock-cut and stone sculptures of Hindu deity Shiva.  ( updated Aug 2025 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "stay_safe": {
+          "warnings": [
+            "The area is prone is flash flooding during the monsoon season."
+          ],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "City / North Tripura hub"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.694Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "City / North Tripura hub destination Dharmanagar Sightseeing Dharmanagar (ধর্মনগর) is the second most populous city in Tripura .",
+      "travel_facts": {
+        "summary": "**Dharmanagar** hinges **IXS (~82 km) Barak stacks** beneath **Dharmanagar rail (~4 km)** knowing tea-belt merges absorb north Tripura tides.",
+        "keywords": [
+          "dharmanagar stacks",
+          "silchar relay merges",
+          "barak valley apron",
+          "manu river tides"
+        ]
+      }
+    },
+    {
+      "slug": "tripura-melaghar",
+      "name": "Melaghar",
+      "region": "",
+      "state": "Tripura",
+      "coordinates": {
+        "lat": 23.49,
+        "lon": 91.33,
+        "source": "wikidata"
+      },
+      "description": "**Melaghar** (মেলাঘর _Melāghar_) is a town west of Udaipur , in the Indian state of Tripura . It is famous for the **Neermahal**, the royal palace of the former Kingdom of Tripura.",
+      "category": "Heritage / Lake palace town",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Melaghar",
+        "wikipedia": "https://en.wikipedia.org/wiki/Melaghar",
+        "wikidata": "https://www.wikidata.org/wiki/Q19893925"
+      },
+      "distance_km": 1861,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:39.021Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 0.9,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [],
+      "images": [],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Maharaja Bir Bikram Airport",
+          "code": "IXA",
+          "distance_km": 52,
+          "note": "Boat transfers toward Neermahal—check monsoon wind advisories"
+        },
+        "nearest_railway_station": {
+          "name": "Udaipur railway station",
+          "distance_km": 16,
+          "note": "Tripura Udaipur NFR—rickshaw hops toward Rudrasagar ghats"
+        },
+        "road_access_quality": "moderate",
+        "direct_train_available_from_major_cities": [
+          "Agartala",
+          "Udaipur",
+          "Guwahati",
+          "Kolkata"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Agartala",
+          "Guwahati",
+          "Kolkata",
+          "Delhi"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 4,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "3_day_bridge",
+        "4_day_extended"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "exploration"
+        ],
+        "activity_density_score": 0.7,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 19078,
+        "content_richness_score": 0.136
+      },
+      "section_briefs": {
+        "get_in": {
+          "options": [
+            "train"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train Udaipur is the nearest railway station to Melaghar.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Neermahal",
+              "description": "Literally the \"Water Palace\", the Neermahal is a royal palace of the former Kingdom of Tripura, in the middle of the Rudrasagar Lake. Built by Maharaja Bir Bikram in 1930, the Neermahal is one of the two water palaces in India, the other being the Jal Mahal of Jaipur , and is significantly larger than the Jaipur one. The palace is divided into two parts: the **Andar Mahal** at the western side for the royal family, and the open-air theatre at the eastern side for drama, theatre, dance and other cultural events. The palace has 24 rooms in total. The Neermahal has two stairways inside leading down to a ghat on the water of the lake, called the Rajghat, which was used by the maharajas to go to the palace by hand-powered boats. On the ceiling, the palace houses one of the most beautiful terrace gardens of India.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Neermahal",
+              "coordinates": {
+                "lat": 23.49528,
+                "lon": 91.32
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Trishna Wildlife Sanctuary",
+              "description": "Home to the gaur, primates like hoolock gibbon, golden langur and capped langur, as well as bird species like pheasant-tailed jacana, white-breasted kingfisher, black drongo, tailorbird and jungle myna.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Trishna_Wildlife_Sanctuary",
+              "coordinates": {
+                "lat": 23.42167,
+                "lon": 91.31306
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Neermahal** ( Bengali: নীরমহল _Nīrmahal_, Kokborok: Twijilikma Nuyung ). Literally the \"Water Palace\", the Neermahal is a royal palace of the former Kingdom of Tripura, in the middle of the Rudrasagar Lake. Built by Maharaja Bir Bikram in 1930, the Neermahal is one of the two water palaces in India, the other being the Jal Mahal of Jaipur , and is significantly larger than the Jaipur one. The palace is divided into two parts: the **Andar Mahal** at the western side for the royal family, and the open-air theatre at the eastern side for drama, theatre, dance and other cultural events. The palace has 24 rooms in total. The Neermahal has two stairways inside leading down to a ghat on the water of the lake, called the Rajghat, which was used by the maharajas to go to the palace by hand-powered boats. On the ceiling, the palace houses one of the most beautiful terrace gardens of India.  ( updated Oct 2025 ) \r\n 2 **Trishna Wildlife Sanctuary** . Home to the gaur, primates like hoolock gibbon, golden langur and capped langur, as well as bird species like pheasant-tailed jacana, white-breasted kingfisher, black drongo, tailorbird and jungle myna.  ( updated Mar 2026 )",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [
+            {
+              "name": "Neermahal Water Festival",
+              "description": ""
+            }
+          ],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Heritage / Lake palace town"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.695Z"
+      },
+      "credibility_recognitions": [
+        "wildlife_sanctuary"
+      ],
+      "search_context": "Heritage / Lake palace town destination Melaghar Sightseeing Melaghar (মেলাঘর ) is a town west of Udaipur , in the Indian state of Tripura . It is famous for the Neermahal, the royal palace of the former Kingdom of Tripura.",
+      "travel_facts": {
+        "summary": "**Melaghar** stacks **IXA (~52 km) Rudrasagar stacks** beneath **Udaipur rail (~16 km)** knowing Neermahal merges absorb sunset boat tides.",
+        "keywords": [
+          "neermahal stacks",
+          "rudrasagar merges",
+          "melaghar apron",
+          "water palace tides"
+        ]
+      }
+    },
+    {
+      "slug": "tripura-udaipur-tripura",
+      "name": "Udaipur (Tripura)",
+      "region": "",
+      "state": "Tripura",
+      "coordinates": {
+        "lat": 23.53,
+        "lon": 91.48,
+        "source": "wikidata"
+      },
+      "description": "**Udaipur** (উদয়পুর _Udaẏpur_) is a city of 38,000 people (2015) in Tripura . This city is famous for the Tripura Sundari temple also known as Tripureswari temple which is one of the 51 Shakti pithas.",
+      "category": "Spiritual / Pilgrimage",
+      "best_time_to_visit": {
+        "text": "Nov–Apr (heavy rain Jun–Sep)",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "season": "north_eastern_hills"
+      },
+      "links": {
+        "wikivoyage": "https://en.wikivoyage.org/wiki/Udaipur_(Tripura)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Udaipur%2C_Tripura",
+        "wikidata": "https://www.wikidata.org/wiki/Q2248438"
+      },
+      "distance_km": 1876,
+      "ideal_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_days": 2,
+      "weather_snippet": "Nov/Dec/Jan",
+      "vibe": "Sightseeing",
+      "metadata": {
+        "extracted_at": "2026-05-12T12:47:39.021Z",
+        "sources": [
+          "wikivoyage",
+          "wikidata",
+          "wikipedia",
+          "curated_travel_facts"
+        ],
+        "quality_score": 1,
+        "last_verified": "2026-05-18"
+      },
+      "alt_names": [
+        "Udaipur",
+        "Udaipur Village",
+        "Udaipur, Tripura",
+        "Rangamati"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Udaipur_Railway_station_of_Tripura_state.jpg?width=1024",
+          "caption": null,
+          "source": "wikivoyage"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Templeudaipur%20(48).JPG?width=1024",
+          "caption": null,
+          "source": "wikidata"
+        }
+      ],
+      "climate_profile": {
+        "peak_season_months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7
+        ],
+        "average_temp_range_celsius": {
+          "summer": "22–32",
+          "winter": "10–22"
+        }
+      },
+      "travel_access": {
+        "nearest_airport": {
+          "name": "Maharaja Bir Bikram Airport",
+          "code": "IXA",
+          "distance_km": 78,
+          "note": "NH8 Sabroom corridor—shared Sumo hops common"
+        },
+        "nearest_railway_station": {
+          "name": "Udaipur railway station",
+          "distance_km": 5,
+          "note": "Matabari Tripura Sundari temple spur"
+        },
+        "road_access_quality": "good",
+        "direct_train_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati",
+          "Delhi",
+          "Silchar",
+          "Agartala",
+          "New Delhi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Kolkata",
+          "Guwahati",
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Ahmedabad"
+        ],
+        "reachable_by": [
+          "car",
+          "bus",
+          "train",
+          "flight"
+        ]
+      },
+      "safety_profile": {
+        "general_safety_score": 4,
+        "has_medical_facilities_nearby": false,
+        "requires_permit": false,
+        "wildlife_caution": false
+      },
+      "crowd_profile": {
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
+        "festival_risk_dates": null
+      },
+      "recommended_max_days": 5,
+      "ideal_for_weekend_trip": false,
+      "ideal_leave_block_type": [
+        "4_day_extended",
+        "5_day_plus"
+      ],
+      "activity_profile": {
+        "primary_activities": [
+          "sightseeing",
+          "shopping",
+          "nightlife",
+          "dining",
+          "heritage"
+        ],
+        "activity_density_score": 0.9,
+        "requires_advance_booking": false
+      },
+      "ranking_signals": {
+        "wikivoyage_content_bytes": 23453,
+        "content_richness_score": 0.168
+      },
+      "section_briefs": {
+        "understand": {
+          "brief": "Udaipur is known as \"lake city\" and has many beautiful lakes, including Jagannath Dighi, Mahadev Dighi, Amar Sagar, Dhanisagar and Kalyan Sagar. It is called the tourism capital of Tripura.",
+          "source": "wikivoyage"
+        },
+        "get_in": {
+          "options": [
+            "train",
+            "car"
+          ],
+          "nearest_station": null,
+          "stations": [],
+          "brief": "By train 1 ** Udaipur    NFR**  is near Matabari. The station lies on the Lumding–Sabroom section of the Northeast Frontier Railway. It is one of India's most beautiful railway stations with mesmerising architecture. \r\n\n\r\n By road Udaipur lies on NH 8, Agartala to Sabroom segment. From Rajarbag Motor Stand all day road connectivity is available towards capital Agartala and other cities of the states.",
+          "source": "wikivoyage"
+        },
+        "get_around": {
+          "brief": "—",
+          "source": "wikivoyage"
+        },
+        "see": {
+          "itinerary": [
+            {
+              "order": 1,
+              "name": "Tripura Sundari Temple",
+              "description": "One of the 51 Shakti Peethas, the temple was constructed by Maharaja Dhanya Manikya Debbarma in 1501. There is a big lake beside the temple known as Kalyan Sagar.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tripura_Sundari_Temple",
+              "coordinates": {
+                "lat": 23.50889,
+                "lon": 91.49806
+              },
+              "price": null
+            },
+            {
+              "order": 2,
+              "name": "Bhubaneswari Temple",
+              "description": "Believed to be built in 1660–1675 CE, it is located next to the palace built by Maharaja Govinda Manikya. The temple is mentioned in Rabindranath Tagore's work.",
+              "wikipedia": "https://en.wikipedia.org/wiki/Bhubaneswari_Temple",
+              "coordinates": {
+                "lat": 23.54152,
+                "lon": 91.50432
+              },
+              "price": null
+            }
+          ],
+          "brief": "1 **Tripura Sundari Temple** ( Maata Bari Temple ). One of the 51 Shakti Peethas, the temple was constructed by Maharaja Dhanya Manikya Debbarma in 1501. There is a big lake beside the temple known as Kalyan Sagar.  ( updated Mar 2026 ) \r\n 2 **Bhubaneswari Temple** . Believed to be built in 1660–1675 CE, it is located next to the palace built by Maharaja Govinda Manikya. The temple is mentioned in Rabindranath Tagore's work.  ( updated Oct 2025 ) \r\n Gunabati temple, Jagannath temple, Mahadev Temple are other famous temples. \r\n It also has a national library named \"Nazrul Granthagar\", after Kazi Nazrul Islam. \r\n Tepania Eco Park and Puran Rajbari are other attractions of Udaipur.",
+          "source": "wikivoyage"
+        },
+        "do": {
+          "activities": [],
+          "brief": "",
+          "source": "wikivoyage"
+        },
+        "eat": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "drink": {
+          "items": [],
+          "source": "wikivoyage"
+        },
+        "sleep": {
+          "items": [],
+          "source": "wikivoyage"
+        }
+      },
+      "image_override": null,
+      "categories": [
+        "Spiritual / Pilgrimage",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:52:06.695Z"
+      },
+      "search_context": "Spiritual / Pilgrimage City / Urban destination Udaipur (Tripura) Udaipur Udaipur Village Udaipur, Tripura Rangamati Sightseeing Udaipur (উদয়পুর ) is a city of 38,000 people (2015) in Tripura . This city is famous for the Tripura Sundari temple also known as Tripureswari temple which is one of the 51 Shakti pithas.",
+      "travel_facts": {
+        "summary": "**Tripura Udaipur** hinges **IXA (~78 km) Shakti stacks** beneath **Udaipur rail (~5 km)** knowing Tripura Sundari merges absorb matabari festival tides.",
+        "keywords": [
+          "tripura sundari stacks",
+          "udaipur tripura merges",
+          "shakti peeth apron",
+          "nh8 corridor tides"
+        ]
+      }
+    }
+  ]
+}

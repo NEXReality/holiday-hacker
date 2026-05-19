@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alarmBackground"
+    android:fillViewport="true"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/alarm_card_bg"
+            android:clipToOutline="true">
+
+            <ImageView
+                android:id="@+id/alarmHeroImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/alarm_hero_content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/alarm_hero_fallback" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/alarm_hero_overlay" />
+
+            <TextView
+                android:id="@+id/alarmWindowPill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/alarm_pill_bg"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textColor="@color/alarmTextPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="DIWALI BREAK" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/alarmDestName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/alarmTextPrimary"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    tools:text="Darjeeling" />
+
+                <TextView
+                    android:id="@+id/alarmDestState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/alarmTextSecondary"
+                    android:textSize="14sp"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    tools:text="West Bengal" />
+
+                <TextView
+                    android:id="@+id/alarmDateRange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/alarmTextPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    tools:text="23 – 26 Oct 2026 · 4 days" />
+
+                <TextView
+                    android:id="@+id/alarmCountdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/alarmTextMuted"
+                    android:textSize="13sp"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    tools:text="Trip starts in 60 days" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/alarmTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:textColor="@color/alarmTextPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:text="Book Train for Darjeeling" />
+
+        <TextView
+            android:id="@+id/alarmBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/alarmTextSecondary"
+            android:textSize="15sp"
+            tools:text="IRCTC booking starts in 10 min at 8:00 AM for travel on 22 Oct." />
+
+        <Button
+            android:id="@+id/btnDismiss"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/alarm_btn_dismiss"
+            android:text="@string/alarm_dismiss"
+            android:textAllCaps="false"
+            android:textColor="@color/alarmTextPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSnooze"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/alarm_btn_snooze"
+            android:text="@string/alarm_snooze"
+            android:textAllCaps="false"
+            android:textColor="@color/alarmTextPrimary"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

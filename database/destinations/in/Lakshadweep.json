@@ -1,7 +1,7 @@
 {
   "state": "Lakshadweep",
   "state_code": "LA",
-  "generated_at": "2026-03-05T13:03:03.549Z",
+  "generated_at": "2026-05-18T11:02:04.947Z",
   "count": 3,
   "destinations": [
     {
@@ -17,9 +17,18 @@
       "description": "**Lakshadweep**, formerly the **Laccadives**, is a group of islands 200–440 km (120–270 mi) off India 's southwestern coast in the Arabian Sea. They are India's only coral atolls and geologically a part of the same chain as the Maldives .",
       "category": "destination",
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–May (monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "atoll_tropical"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Kavaratti",
@@ -27,19 +36,29 @@
         "wikidata": "https://www.wikidata.org/wiki/Q26927"
       },
       "distance_km": 602,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-03-05T13:03:02.060Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.6,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Lakshadweep",
@@ -81,20 +100,68 @@
           "source": "wikidata"
         }
       ],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "26–32",
+          "winter": "24–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Agatti Airport (gateway hub)",
+          "code": "AGX",
+          "distance_km": 76,
+          "note": "Helicopter/SPORTS boat hops off turboprop apron—UT permits mandatory before ticketing"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Ernakulam Junction railway station (Kochi mainland staging)",
+          "distance_km": null,
+          "note": "No railway in the archipelago—most itineraries stage through Kochi (train/taxi) before AGX flights or Lakshadweep Shipping cruises"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "limited",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Kochi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "flight",
+          "train"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -103,7 +170,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -122,7 +193,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 38935,
-        "content_richness_score": 1
+        "content_richness_score": 0.278
       },
       "section_briefs": {
         "understand": {
@@ -186,7 +257,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:41.095Z",
+        "wikipedia_summary": "Lakshadweep is a union territory of India. It is an archipelago of 36 islands divided into three island subgroups: the Amindivi Islands in the north, the Laccadive Islands, and the atoll of Minicoy to the south of the Nine Degree Channel. The islands are located between the Arabian Sea to the west and the Laccadive Sea to the east, about 220–440 km (140–270 mi) off the Malabar Coast of mainland India.",
+        "wikipedia_description": "Union territory of India",
+        "wikipedia_fetched_at": "2026-05-18T09:55:41.153Z"
+      },
+      "search_context": "Beach / Coastal Heritage / Culture City / Urban Kavaratti Sightseeing Lakshadweep is a union territory of India. It is an archipelago of 36 islands divided into three island subgroups: the Amindivi Islands in the north, the Laccadive Islands, and the atoll of Minicoy to the south of the Nine Degree Channel. The islands are located between the Arabian Sea to the west and the Laccadive Sea to the east, about 220–440 km (140–270 mi) off the Malabar Coast of mainland India. Lakshadweep is India's smallest union territory with just 32 km², and one of only three Indian administrative divisions with a Muslim majority (the others being Jammu and Kashmir and Ladakh ). The name literally means \"a hundred thousand islands\" in Sanskrit (_lakṣa_ = \"lakh\" or \"hundred thousand\" and _dvīpa_ = \"island\"). It has ten inhabited islands, 17 uninhabited islands with attached islets, four newly formed islets and 5 submerged reefs. As Lakshadweep, formerly the Laccadives, is a group of islands 200–440 km (120–270 mi) off India 's southwestern coast in the Arabian Sea. They are India's only coral atolls and geologically a part of the same chain as the Maldives .",
+      "travel_facts": {
+        "summary": "**Kavaratti** stages **AGX (~76 km)** aerial hops beneath coral-capital tides—SPORTS permit stacks bias helicopter ferry merges knowing Kochi cruise feeders absorb monsoon sailing cancellations.",
+        "keywords": [
+          "agx helicopter hops",
+          "lakshadweep permits stacks",
+          "sports ut tides",
+          "kochi cruise feeders",
+          "coral capital merges",
+          "monsoon sailing radios"
+        ]
+      }
     },
     {
       "slug": "lakshadweep-minicoy",
@@ -200,26 +294,49 @@
       },
       "description": "**Minicoy Island** is the most southern island of the Lakshadweep archipelago, in India . It is about 200 km from the coast of Kerala and is the second largest island in the archipelago. The island boasts of serene beaches, turquoise lagoons, and a rich cultural heritage. The island is known for its traditional culture, which is quite different from the rest of India.",
       "category": "destination",
-      "best_time_to_visit": "",
+      "best_time_to_visit": {
+        "text": "Oct–May (monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "atoll_tropical"
+      },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Minicoy",
         "wikipedia": "https://en.wikipedia.org/wiki/Minicoy",
         "wikidata": "https://www.wikidata.org/wiki/Q162448"
       },
       "distance_km": 720,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "min_days": 2,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-03-05T13:03:02.060Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "alt_names": [
         "Minicoy saar"
@@ -237,29 +354,65 @@
         }
       ],
       "climate_profile": {
-        "peak_season_months": [],
-        "off_season_months": [],
-        "monsoon_months": [],
-        "avoid_months": [],
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
         "average_temp_range_celsius": {
-          "summer": null,
-          "winter": null
+          "summer": "26–32",
+          "winter": "24–30"
         }
       },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": 375
+          "name": "Agatti Airport (gateway hub)",
+          "code": "AGX",
+          "distance_km": 375,
+          "note": "Multi-leg: Kochi–Agatti turboprops then ship/heli (~14–20 hr sea legs)—foreign passports largely excluded except rare exemptions"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Ernakulam Junction railway station (Kochi mainland staging)",
+          "distance_km": null,
+          "note": "No railway in the archipelago—most itineraries stage through Kochi (train/taxi) before AGX flights or Lakshadweep Shipping cruises"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": [
+        "road_access_quality": "limited",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
           "Kochi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "flight",
+          "train"
         ]
       },
       "safety_profile": {
@@ -269,7 +422,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 5,
@@ -289,7 +446,7 @@
       },
       "ranking_signals": {
         "wikivoyage_content_bytes": 24895,
-        "content_richness_score": 0
+        "content_richness_score": 0.178
       },
       "section_briefs": {
         "understand": {
@@ -334,7 +491,30 @@
           "source": "wikivoyage"
         }
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "Heritage / Culture",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:41.713Z"
+      },
+      "credibility_recognitions": [
+        "national_park"
+      ],
+      "search_context": "Beach / Coastal Heritage / Culture City / Urban Minicoy Sightseeing In the local language, Minicoy Island is called Maliku. Minicoy Island has a total area of around 5 km² and is shaped like an elongated crescent. It is surrounded by a coral reef, which forms a natural barrier and protects the island from the rough sea. Minicoy Island is the most southern island of the Lakshadweep archipelago, in India . It is about 200 km from the coast of Kerala and is the second largest island in the archipelago. The island boasts of serene beaches, turquoise lagoons, and a rich cultural heritage. The island is known for its traditional culture, wh",
+      "travel_facts": {
+        "summary": "**Minicoy** chains **AGX (~375 km)** staging stacks beneath Nine-Degree-Channel tides—Indian permit quotas bias Kochi–Minicoy ship merges knowing Agatti heli hops absorb southern maliku lagoon peaks.",
+        "keywords": [
+          "agx multi leg stacks",
+          "minicoy permit quotas",
+          "kochi ship merges",
+          "nine degree channel tides",
+          "maliku lagoon hops",
+          "lakshadweep southern gateways"
+        ]
+      }
     },
     {
       "slug": "lakshadweep-agatti-island",
@@ -346,9 +526,18 @@
       "category": "destination",
       "sections_present": [],
       "best_time_to_visit": {
-        "text": "",
-        "months": [],
-        "season": null
+        "text": "Oct–May (monsoon Jun–Sep)",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "season": "atoll_tropical"
       },
       "links": {
         "wikivoyage": "https://en.wikivoyage.org/wiki/Agatti_Island",
@@ -356,37 +545,95 @@
         "wikidata": ""
       },
       "distance_km": null,
-      "ideal_months": [],
+      "ideal_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "min_days": 1,
-      "weather_snippet": null,
+      "weather_snippet": "Oct/Nov/Dec",
       "vibe": "Sightseeing",
       "metadata": {
         "extracted_at": "2026-03-05T13:03:02.060Z",
         "sources": [
           "wikivoyage",
           "wikidata",
-          "wikipedia"
+          "wikipedia",
+          "curated_travel_facts"
         ],
         "quality_score": 0.1,
-        "last_verified": null
+        "last_verified": "2026-05-18"
       },
       "raw_snippets": {},
       "alt_names": [],
       "images": [],
-      "climate_profile": null,
+      "climate_profile": {
+        "peak_season_months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "off_season_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monsoon_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "avoid_months": [
+          7,
+          8
+        ],
+        "average_temp_range_celsius": {
+          "summer": "26–32",
+          "winter": "24–30"
+        }
+      },
       "travel_access": {
         "nearest_airport": {
-          "name": null,
-          "code": null,
-          "distance_km": null
+          "name": "Agatti Airport",
+          "code": "AGX",
+          "distance_km": 4,
+          "note": "Sole Lakshadweep airstrip—Alliance Air/IndiGo Kochi stacks thicken weather-cancel buffers (no night ops)"
         },
         "nearest_railway_station": {
-          "name": null,
-          "distance_km": null
+          "name": "Ernakulam Junction railway station (Kochi mainland staging)",
+          "distance_km": null,
+          "note": "No railway in the archipelago—most itineraries stage through Kochi (train/taxi) before AGX flights or Lakshadweep Shipping cruises"
         },
-        "road_access_quality": null,
-        "direct_train_available_from_major_cities": [],
-        "direct_flight_available_from_major_cities": []
+        "road_access_quality": "limited",
+        "direct_train_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai",
+          "Kochi"
+        ],
+        "direct_flight_available_from_major_cities": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Kochi"
+        ],
+        "reachable_by": [
+          "flight",
+          "train"
+        ]
       },
       "safety_profile": {
         "general_safety_score": 4,
@@ -395,7 +642,11 @@
         "wildlife_caution": false
       },
       "crowd_profile": {
-        "peak_crowd_months": [],
+        "peak_crowd_months": [
+          12,
+          1,
+          2
+        ],
         "festival_risk_dates": null
       },
       "recommended_max_days": 2,
@@ -415,7 +666,26 @@
       "ranking_signals": {
         "wikivoyage_content_bytes": null
       },
-      "image_override": null
+      "image_override": null,
+      "categories": [
+        "Beach / Coastal",
+        "City / Urban"
+      ],
+      "enrichment": {
+        "deep_enriched_at": "2026-05-18T09:55:42.562Z"
+      },
+      "search_context": "City / Urban destination Agatti Island Sightseeing",
+      "travel_facts": {
+        "summary": "**Agatti Island** couples **AGX (~4 km)** atoll apron meshes with Kochi staging tides—Bangaram/Kadmat heli quotas bias permit merges knowing turboprop-only strips absorb monsoon diversion peaks.",
+        "keywords": [
+          "agx atoll apron meshes",
+          "kochi staging tides",
+          "bangaram heli quotas",
+          "lakshadweep permits merges",
+          "turboprop strip radios",
+          "arabian sea gateway hops"
+        ]
+      }
     }
   ]
 }

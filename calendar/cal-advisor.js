@@ -3,6 +3,7 @@
 
   var STORAGE_KEY   = 'holidayHacker_user';
   var OVERRIDES_KEY = 'holidayHacker_overrides';
+  var CUSTOM_KEY    = 'holidayHacker_custom';
   var CAL_DONE_KEY  = 'holidayHacker_calSetup';
   var ADVISOR_SEEN_KEY = 'holidayHacker_advisorSeen';
   var SELECTED_BRIDGES_KEY = 'holidayHacker_selectedBridges';
@@ -37,9 +38,10 @@
   function getLeavesUsedFromConfirmedTrips() {
     try {
       var trips = JSON.parse(localStorage.getItem(CONFIRMED_TRIPS_KEY) || '[]');
-      return trips.reduce(function (s, t) {
+      var tripUsed = trips.reduce(function (s, t) {
         return s + (parseInt(t.leaves, 10) || 0);
       }, 0);
+      return tripUsed + getCustomLeaveDaysCount();
     } catch (e) {
       return 0;
     }
@@ -129,6 +131,54 @@
     try { return JSON.parse(localStorage.getItem(OVERRIDES_KEY) || '{}'); }
     catch (e) { return {}; }
   }
+  function getCustomHolidays() {
+    try { return JSON.parse(localStorage.getItem(CUSTOM_KEY) || '[]'); }
+    catch (e) { return []; }
+  }
+
+  var CUSTOM_PREFIX_LEAVE = '__custom_leave__:';
+  var CUSTOM_PREFIX_HOLIDAY = '__custom_holiday__:';
+  var CUSTOM_PREFIX_LEGACY = '__custom__:';
+
+  function customLeaveMarker(name) {
+    return CUSTOM_PREFIX_LEAVE + (name || 'Leave');
+  }
+  function customHolidayMarker(name) {
+    return CUSTOM_PREFIX_HOLIDAY + (name || 'Holiday');
+  }
+  function isCustomLeaveMarker(value) {
+    return typeof value === 'string' && value.indexOf(CUSTOM_PREFIX_LEAVE) === 0;
+  }
+  function isCustomHolidayMarker(value) {
+    return typeof value === 'string' && value.indexOf(CUSTOM_PREFIX_HOLIDAY) === 0;
+  }
+  function isLegacyCustomMarker(value) {
+    return typeof value === 'string' && value.indexOf(CUSTOM_PREFIX_LEGACY) === 0;
+  }
+  function holidayNameFromMarker(value) {
+    if (typeof value !== 'string') return value;
+    if (isCustomLeaveMarker(value)) return value.slice(CUSTOM_PREFIX_LEAVE.length) || 'Leave';
+    if (isCustomHolidayMarker(value)) return value.slice(CUSTOM_PREFIX_HOLIDAY.length) || 'Holiday';
+    if (isLegacyCustomMarker(value)) return value.slice(CUSTOM_PREFIX_LEGACY.length) || 'Custom';
+    return value;
+  }
+
+  /** Week off, or a holiday that does not consume the user's leave quota (incl. manual holiday). */
+  function isOffDayWithoutUserLeave(iso, holidaySet, dateObj) {
+    if (isWeekOff(dateObj)) return true;
+    var v = holidaySet[iso];
+    if (!v) return false;
+    return !isCustomLeaveMarker(v);
+  }
+
+  function getCustomLeaveDaysCount() {
+    try {
+      var list = JSON.parse(localStorage.getItem(CUSTOM_KEY) || '[]');
+      return list.reduce(function (s, c) {
+        return s + (c && c.kind === 'leave' ? 1 : 0);
+      }, 0);
+    } catch (e) { return 0; }
+  }
 
   /* ─── Weekly off logic (all bridge/gift/mega use isWeekOff) ─────────────
    * Future: custom pattern via user.customOffDays = [0,1,6] (Sun,Mon,Sat). */
@@ -196,10 +246,29 @@
       var name = patch ? (patch.name || h.name) : h.name;
       set[date] = name;
     });
+    /* Personal days: kind 'holiday' = extra off-day; kind 'leave' = uses leave quota. */
+    getCustomHolidays().forEach(function (c) {
+      if (!c || !c.date) return;
+      var isLeave = c.kind === 'leave';
+      set[c.date] = isLeave ? customLeaveMarker(c.name) : customHolidayMarker(c.name);
+    });
     return set;
   }
 
   /* ─── Gift Weekends (Free holidays): natural 3-day breaks, 0 leaves ── */
+
+  /* Range of years the advisor is willing to plan for. We always cover the
+     calendar year the user is in plus the next one, so 2027 windows are
+     discoverable while the user is still in 2026 (and so on). */
+  function getAdvisorYearWindow() {
+    var thisYear = new Date().getFullYear();
+    return { minYear: thisYear, maxYear: thisYear + 1 };
+  }
+  function isYearInAdvisorWindow(yearStr) {
+    var w = getAdvisorYearWindow();
+    var y = parseInt(yearStr, 10);
+    return y >= w.minYear && y <= w.maxYear;
+  }
 
   function findGiftWeekends(holidaySet) {
     var now = new Date();
@@ -218,7 +287,7 @@
       while (isWeekOff(prev) || holidaySet[toISO(prev)]) {
         cur = prev;
         prev = addDays(cur, -1);
-        if (toISO(cur).slice(0, 4) !== String(now.getFullYear())) break;
+        if (!isYearInAdvisorWindow(toISO(cur).slice(0, 4))) break;
       }
       var walk = new Date(cur);
       while (isWeekOff(walk) || holidaySet[toISO(walk)]) {
@@ -228,17 +297,25 @@
       }
 
       if (streak.length >= 3) {
+        var customLeaveDays = streak.filter(function (s) { return isCustomLeaveMarker(holidaySet[s]); }).length;
+        var manualHolidayDays = streak.filter(function (s) {
+          return isCustomHolidayMarker(holidaySet[s]) || isLegacyCustomMarker(holidaySet[s]);
+        }).length;
         var allFree = streak.every(function (s) {
           return isWeekOff(new Date(s + 'T00:00:00')) || !!holidaySet[s];
         });
         if (allFree) {
-          var hName = holidaySet[iso] || 'Weekend';
+          var hName = holidayNameFromMarker(holidaySet[iso]) || 'Weekend';
+          var leaveDayIsos = streak.filter(function (s) { return isCustomLeaveMarker(holidaySet[s]); });
+          leaveDayIsos.sort();
           results.push({
             name: hName + ' Weekend',
             start: streak[0],
             end: streak[streak.length - 1],
             days: streak.length,
-            leaves: 0,
+            leaves: customLeaveDays || 0,
+            _manualHolidayDays: manualHolidayDays || 0,
+            leaveDays: leaveDayIsos,
             _dates: streak
           });
           streak.forEach(function (s) { checked[s] = true; });
@@ -258,6 +335,7 @@
     var used = {};
 
     Object.keys(holidaySet).sort().forEach(function (iso) {
+      if (isCustomLeaveMarker(holidaySet[iso])) return;
       if (used[iso]) return;
       var d = new Date(iso + 'T00:00:00');
       if (d < now) return;
@@ -287,7 +365,7 @@
     for (var g = 1; g <= gapSize; g++) {
       var gd = addDays(holidayDate, g * direction);
       var gi = toISO(gd);
-      if (holidaySet[gi] || isWeekOff(gd)) {
+      if (isOffDayWithoutUserLeave(gi, holidaySet, gd)) {
         streak.push(gi);
       } else {
         leaveDays.push(gi);
@@ -296,16 +374,17 @@
     }
 
     var beyond = addDays(holidayDate, (gapSize + 1) * direction);
-    if (!isWeekOff(beyond) && !holidaySet[toISO(beyond)]) return null;
+    var beyondIso = toISO(beyond);
+    if (!isOffDayWithoutUserLeave(beyondIso, holidaySet, beyond)) return null;
 
-    while (isWeekOff(beyond) || holidaySet[toISO(beyond)]) {
+    while (isOffDayWithoutUserLeave(toISO(beyond), holidaySet, beyond)) {
       streak.push(toISO(beyond));
       beyond = addDays(beyond, direction);
       if (streak.length > 10) break;
     }
 
     var back = addDays(holidayDate, -direction);
-    while (isWeekOff(back) || holidaySet[toISO(back)]) {
+    while (isOffDayWithoutUserLeave(toISO(back), holidaySet, back)) {
       streak.push(toISO(back));
       back = addDays(back, -direction);
       if (streak.length > 10) break;
@@ -318,7 +397,7 @@
     var totalDays = streak.length;
     if (totalDays < 3) return null;
 
-    var name = holidaySet[iso] || 'Holiday';
+    var name = holidayNameFromMarker(holidaySet[iso]) || 'Holiday';
     return {
       name: name + ' Bridge',
       start: streak[0],
@@ -394,13 +473,24 @@
 
   function findMegaBridges(holidaySet) {
     var pref = user.weeklyOff || 'sat-sun';
-    var cfg = getMegaStartDatesAndSpan(new Date().getFullYear());
-    if (!cfg.starts.length) return [];
+    var win = getAdvisorYearWindow();
+    /* Build a combined list of mega start dates spanning every year in the
+       advisor window so 2027 mega-bridges are surfaced while the user is in
+       2026, and so on each year. */
+    var spanDays = 9;
+    var startsAcrossYears = [];
+    for (var y = win.minYear; y <= win.maxYear; y++) {
+      var partial = getMegaStartDatesAndSpan(y);
+      if (partial && partial.starts && partial.starts.length) {
+        spanDays = partial.spanDays;
+        startsAcrossYears = startsAcrossYears.concat(partial.starts);
+      }
+    }
+    if (!startsAcrossYears.length) return [];
+    var cfg = { starts: startsAcrossYears, spanDays: spanDays };
 
-    var spanDays = cfg.spanDays;
     var now = new Date();
     now.setHours(0, 0, 0, 0);
-    var year = now.getFullYear();
     var results = [];
     var usedDates = {};
 
@@ -412,7 +502,9 @@
       var fri = addDays(startSat, 6);
       var holidaysInWeek = 0;
       for (var d = new Date(mon); d <= fri; d = addDays(d, 1)) {
-        if (holidaySet[toISO(d)]) holidaysInWeek++;
+        var wIso = toISO(d);
+        var hv = holidaySet[wIso];
+        if (hv && !isCustomLeaveMarker(hv)) holidaysInWeek++;
       }
 
       if (holidaysInWeek < 2) return;
@@ -425,7 +517,9 @@
         var dayDate = addDays(startSat, i);
         var wi = toISO(dayDate);
         streak.push(wi);
-        if (!holidaySet[wi] && !isWeekOff(dayDate)) leaveDays.push(wi);
+        var hv = holidaySet[wi];
+        var quotaFreeOff = hv && !isCustomLeaveMarker(hv);
+        if (!quotaFreeOff && !isWeekOff(dayDate)) leaveDays.push(wi);
       }
 
       if (leaveDays.length < 2 || leaveDays.length > 4) return;
@@ -436,7 +530,8 @@
 
       var holSet = {};
       streak.forEach(function (iso) {
-        if (holidaySet[iso]) holSet[iso] = true;
+        var hv = holidaySet[iso];
+        if (hv && !isCustomLeaveMarker(hv)) holSet[iso] = true;
       });
 
       results.push({
@@ -541,15 +636,39 @@
   }
 
   function buildGiftCard(g) {
+    var leaves = parseInt(g.leaves, 10) || 0;
+    var manualHol = parseInt(g._manualHolidayDays, 10) || 0;
+    var badge;
+    var logic;
+    var tick;
+    if (leaves > 0) {
+      badge = leaves + ' Leave' + (leaves === 1 ? '' : 's') + ' · ' + g.days + ' Days';
+      logic = 'Uses ' + leaves + ' personal leave day' + (leaves === 1 ? '' : 's') + ' for this break.';
+      tick = '✓ Uses leave';
+    } else if (manualHol > 0) {
+      badge = g.days + ' Days';
+      logic = 'Includes ' + manualHol + ' manual holiday day' + (manualHol === 1 ? '' : 's') + ' (no leave quota).';
+      tick = '✓ Manual holiday';
+    } else {
+      badge = '0 Leaves · ' + g.days + ' Days';
+      logic = 'Free — no leaves needed';
+      tick = '✓ Free';
+    }
+    var leaveDatesRow = '';
+    if (leaves > 0 && g.leaveDays && g.leaveDays.length) {
+      var glabels = g.leaveDays.map(function (iso) { return formatLeaveLabel(iso); });
+      leaveDatesRow = '<p class="advisor-card-logic advisor-card-logic--leave-dates">Leave: ' + glabels.join(' &amp; ') + '</p>';
+    }
     return '<div class="advisor-card advisor-card--gift">' +
       '<div class="advisor-card-header">' +
         '<h4 class="advisor-card-title">' + g.name + '</h4>' +
-        '<span class="advisor-card-badge advisor-card-badge--gift">0 Leaves / ' + g.days + ' Days</span>' +
+        '<span class="advisor-card-badge advisor-card-badge--gift">' + badge + '</span>' +
       '</div>' +
       '<p class="advisor-card-date">' + formatRange(g.start, g.end) + '</p>' +
+      leaveDatesRow +
       '<div class="advisor-card-footer">' +
-        '<span class="advisor-card-logic">Free — no leaves needed</span>' +
-        '<span style="font-size:0.65rem;color:#dc2626;font-weight:600;">✓ Free</span>' +
+        '<span class="advisor-card-logic">' + logic + '</span>' +
+        '<span style="font-size:0.65rem;color:#dc2626;font-weight:600;">' + tick + '</span>' +
       '</div>' +
     '</div>';
   }
@@ -607,10 +726,14 @@
       msg1 += '<p class="advisor-legend advisor-legend--mega">🏆 Mega-Bridges: 8–9 days off in a row. When 2+ holidays fall in a week, take 2–4 leaves to bridge them (based on your weekly off).</p>';
     }
 
+    var msg2Body =
+      '<p>Across <strong>' + year + '</strong>, these opportunities add up to about <strong>' + totalDays +
+      '</strong> calendar days off work in total (weekends and public holidays included; many breaks use <strong>no</strong> paid leave). ' +
+      'You have <strong>' + remaining + '</strong> paid leave day' + (remaining === 1 ? '' : 's') +
+      ' left in your quota for windows that need leave. Let\'s review!</p>';
+
     if (advisorFlowInstant) {
-      var msg2Instant = '<p>If we unlock all upcoming opportunities, you\'ll turn your <strong>' + remaining +
-        ' remaining leave' + (remaining === 1 ? '' : 's') + '</strong> into a massive <strong>' + totalDays +
-        ' days</strong> of time off in <strong>' + year + '</strong>. Let\'s review!</p>';
+      var msg2Instant = msg2Body;
       addBotMsg(msg1, null);
       addBotMsg(msg2Instant, null);
       if (gifts.length) {
@@ -622,9 +745,7 @@
     }
 
     addBotMsg(msg1, function () {
-      var msg2 = '<p>If we unlock all upcoming opportunities, you\'ll turn your <strong>' + remaining +
-        ' remaining leave' + (remaining === 1 ? '' : 's') + '</strong> into a massive <strong>' + totalDays +
-        ' days</strong> of time off in <strong>' + year + '</strong>. Let\'s review!</p>';
+      var msg2 = msg2Body;
       addBotMsg(msg2, function () {
         if (gifts.length) {
           addBotMsg('<p>Here are your <strong class="advisor-legend advisor-legend--free">Free Holidays</strong> — 3+ day breaks that cost 0 leaves.</p>', function () {
@@ -881,6 +1002,79 @@
     }, { passive: true });
   }
 
+  /* ─── Native-alarm reconciliation (run on advisor recompute) ────────
+   *
+   * Trips and 65-day heads-up notifications live in a native AlarmManager via
+   * the Capacitor HolidayAlarm plugin. When the user uses the advisor (e.g.
+   * unticks a bridge) the underlying window can disappear from
+   * holidayHacker_advisorData / holidayHacker_selectedBridges / 
+   * holidayHacker_plannedTrips. Without explicit cleanup the alarm would
+   * still fire even though the trip is gone. These helpers run from
+   * scheduleAdvisor() so cancellation is immediate, without needing the user
+   * to visit the Trips page first. */
+
+  var SELECTED_BRIDGES_KEY_CONST = 'holidayHacker_selectedBridges';
+  var PLANNED_TRIPS_KEY_CONST    = 'holidayHacker_plannedTrips';
+  var ADVISOR_DATA_KEY_CONST     = 'holidayHacker_advisorData';
+
+  function holidayAlarmPlugin() {
+    if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.HolidayAlarm) {
+      return window.Capacitor.Plugins.HolidayAlarm;
+    }
+    return null;
+  }
+
+  function readActiveWindowStarts() {
+    var data, selected, planned;
+    try { data     = JSON.parse(localStorage.getItem(ADVISOR_DATA_KEY_CONST) || '{}'); } catch (_) { data = {}; }
+    try { selected = JSON.parse(localStorage.getItem(SELECTED_BRIDGES_KEY_CONST) || '[]'); } catch (_) { selected = []; }
+    try { planned  = JSON.parse(localStorage.getItem(PLANNED_TRIPS_KEY_CONST) || '[]'); } catch (_) { planned = []; }
+    var active = {};
+    (data.gifts   || []).forEach(function (g) { if (planned.indexOf(g.start) !== -1) active[g.start] = true; });
+    (data.bridges || []).forEach(function (b) { if (selected.indexOf(b.start) !== -1) active[b.start] = true; });
+    (data.megas   || []).forEach(function (m) { if (selected.indexOf(m.start) !== -1) active[m.start] = true; });
+    return active;
+  }
+
+  function cancelOrphanedTripAlarms() {
+    /* Confirmed trips are user-owned, frozen at confirmation time. They are
+       NOT touched by advisor recomputes, app updates, or by the user
+       deselecting a bridge in Calendar. The only way a confirmed trip and
+       its alarms go away is the explicit Remove button on the Trips page.
+       This used to silently delete trips whose windowStart no longer
+       matched an advisor-computed bridge, which lost user data across app
+       updates — that behaviour is intentionally removed. Kept as a no-op
+       so older call sites in this file still resolve. */
+  }
+
+  function cancelOrphanedHolidayPlanAlarms() {
+    var p = holidayAlarmPlugin();
+    if (!p || typeof p.listScheduled !== 'function') return;
+    var data;
+    try { data = JSON.parse(localStorage.getItem(ADVISOR_DATA_KEY_CONST) || '{}'); } catch (_) { return; }
+    var validIds = {};
+    function noteValid(type, item) {
+      if (!item || !item.start) return;
+      if ((item.days || 0) < 3) return;
+      validIds['holiday-' + type + '-' + item.start] = true;
+    }
+    (data.gifts   || []).forEach(function (g) { noteValid('gift',   g); });
+    (data.bridges || []).forEach(function (b) { noteValid('bridge', b); });
+    (data.megas   || []).forEach(function (m) { noteValid('mega',   m); });
+    try {
+      p.listScheduled().then(function (res) {
+        var alarms = (res && res.alarms) || [];
+        alarms.forEach(function (a) {
+          if (!a || typeof a.id !== 'string') return;
+          if (a.id.indexOf('holiday-') !== 0) return;
+          if (!validIds[a.id]) {
+            try { p.cancel({ id: a.id }).catch(function () {}); } catch (_) {}
+          }
+        });
+      }).catch(function () {});
+    } catch (_) {}
+  }
+
   /* ─── Init ─────────────────────────────────────────── */
 
   function startAdvisor() {
@@ -906,9 +1100,18 @@
         stateData = d;
         var workCode = stateCodeFromLocation(user.workLocation);
         if (workCode) {
-          var year = new Date().getFullYear();
-          fetchHolidays(workCode, year).then(function (holidays) {
-            workHolidays = holidays;
+          /* Pull every year the advisor is willing to plan for so bridges and
+             mega-bridges that cross New Year (and next year's gazetted list)
+             are part of the recommendation set. Years without a JSON bundle
+             simply resolve to []. */
+          var win = getAdvisorYearWindow();
+          var fetches = [];
+          for (var y = win.minYear; y <= win.maxYear; y++) {
+            fetches.push(fetchHolidays(workCode, y));
+          }
+          Promise.all(fetches).then(function (lists) {
+            workHolidays = [];
+            lists.forEach(function (list) { workHolidays = workHolidays.concat(list || []); });
             runOnce();
           }).catch(runOnce);
         } else {
@@ -955,6 +1158,13 @@
           megas: megas
         }));
       } catch (e) {}
+
+      /* Whenever advisor recomputes the set of free-holiday / bridge / mega
+         windows, immediately reconcile any native alarms so a deleted window
+         (unticked bridge, advisor recompute that drops a stale window, etc.)
+         cannot ring on a trip that no longer exists. */
+      try { cancelOrphanedTripAlarms(); } catch (e) {}
+      try { cancelOrphanedHolidayPlanAlarms(); } catch (e) {}
 
       if (typeof window.refreshCalendarBreaks === 'function') {
         window.refreshCalendarBreaks();
