@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-  <meta name="theme-color" content="#f7f6f8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=overlays-content"/>
+  <meta name="theme-color" content="#9333EA"/>
+  <link rel="icon" type="image/png" href="../icon/app-icon.png"/>
+  <link rel="apple-touch-icon" href="../icon/app-icon.png"/>
+  <link rel="manifest" href="../manifest.webmanifest"/>
   <title>Holiday Hacker - Plan Your Break</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -22,7 +25,7 @@
         <div class="header-inner">
           <div class="logo-ring">
             <div class="logo-inner">
-              <span class="material-symbols-outlined logo-icon">map</span>
+              <img class="hh-app-icon logo-img" src="../icon/app-icon.png" alt=""/>
             </div>
           </div>
           <div>
@@ -48,13 +51,14 @@
       <div class="plan-header-row">
         <h1 class="plan-title">Plan Your Break</h1>
         <div class="plan-progress-inline">
-          <div class="plan-progress-circle-wrap">
+          <div class="plan-progress-circle-wrap" id="planProgressWrap" role="button" tabindex="0" aria-expanded="false" aria-controls="planProgressHint">
             <svg class="plan-progress-svg" viewBox="0 0 36 36" aria-hidden="true">
               <circle class="plan-progress-bg" cx="18" cy="18" r="15.9" fill="none" stroke="currentColor"/>
               <circle class="plan-progress-fill" id="planProgressFill" cx="18" cy="18" r="15.9" fill="none" stroke="currentColor" stroke-dasharray="100" stroke-dashoffset="100"/>
             </svg>
             <span class="plan-progress-text" id="planProgressText">0%</span>
           </div>
+          <p class="plan-progress-hint" id="planProgressHint" hidden></p>
         </div>
       </div>
     </header>
@@ -70,9 +74,6 @@
               <button type="button" class="plan-pill" data-filter="golden">Golden Bridges</button>
               <button type="button" class="plan-pill" data-filter="free">Free Holidays</button>
             </div>
-          </div>
-          <div class="plan-window-search-row" id="planWindowSearchRow">
-            <input type="search" class="plan-window-search-input" id="planWindowSearch" placeholder="Search window titles…" autocomplete="off" enterkeyhint="search"/>
           </div>
         </div>
         <div class="plan-windows-scroll no-scrollbar" id="planWindowsScroll">
@@ -90,6 +91,8 @@
             <span class="plan-dest-filter-trigger-badge" id="planDestFilterTriggerBadge" hidden aria-hidden="true"></span>
           </button>
         </div>
+
+        <div class="plan-ranking-bullets" id="planRankingBullets" hidden aria-live="polite"></div>
 
         <div class="plan-dest-quick-search">
           <span class="material-symbols-outlined plan-dest-quick-search-icon" aria-hidden="true">search</span>
@@ -200,6 +203,8 @@
   </div>
 
   <script src="../boot-version.js"></script>
+  <script src="../alarm-reliability.js"></script>
+  <script src="../onboard-scroll.js"></script>
   <script src="plan-onboard.js"></script>
   <script src="plan.js"></script>
 </body>

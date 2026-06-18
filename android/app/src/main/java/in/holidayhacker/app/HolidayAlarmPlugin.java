@@ -2,12 +2,16 @@ package in.holidayhacker.app;
 
 import android.Manifest;
 import android.app.AlarmManager;
+import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
+import android.os.PowerManager;
 import android.provider.Settings;
 
 import androidx.core.content.ContextCompat;
@@ -38,8 +42,12 @@ import java.util.concurrent.Executors;
  *   cancel({ id })                            -> { ok }
  *   cancelAll()                                -> { ok }
  *   listScheduled()                            -> { alarms: [...] }
- *   hasPermissions()                           -> { notifications, exactAlarms }
+ *   hasPermissions()                           -> { notifications, exactAlarms, batteryOptimization, ready }
  *   requestPermissions()                       -> opens system dialogs
+ *   requestBatteryOptimization()               -> app-specific don't-optimize prompt
+ *   openNotificationSettings()               -> app notification settings
+ *   openExactAlarmSettings()                   -> exact alarm permission screen
+ *   openBatterySettings()                      -> battery optimization list (fallback)
  */
 @CapacitorPlugin(name = "HolidayAlarm")
 public class HolidayAlarmPlugin extends Plugin {
@@ -188,11 +196,15 @@ public class HolidayAlarmPlugin extends Plugin {
     }
 
     @PluginMethod
-    public void hasPermissions(PluginCall call) {
+    public void getPendingRoute(PluginCall call) {
         JSObject ret = new JSObject();
-        ret.put("notifications", hasNotificationsPermission());
-        ret.put("exactAlarms", canScheduleExactAlarms());
+        ret.put("route", LaunchRouter.consumePendingRoute());
         call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void hasPermissions(PluginCall call) {
+        call.resolve(buildPermissionsResult());
     }
 
     @PluginMethod
@@ -211,43 +223,102 @@ public class HolidayAlarmPlugin extends Plugin {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
             && !canScheduleExactAlarms()) {
-            try {
-                Intent intent = new Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM);
-                intent.setData(Uri.parse("package:" + ctx.getPackageName()));
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                ctx.startActivity(intent);
-            } catch (Throwable ignored) { }
+            openExactAlarmSettingsInternal(ctx);
         }
 
+        if (!isBatteryOptimizationIgnored()) {
+            requestBatteryOptimizationInternal(ctx);
+        }
+
+        JSObject ret = buildPermissionsResult();
+        call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void requestBatteryOptimization(PluginCall call) {
+        Context ctx = getContext();
+        boolean opened = openBatterySettingsForUser(ctx);
         JSObject ret = new JSObject();
-        ret.put("notifications", hasNotificationsPermission());
-        ret.put("exactAlarms", canScheduleExactAlarms());
+        ret.put("ok", opened);
+        ret.put("alreadyGranted", isBatteryOptimizationIgnored());
+        call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void openNotificationSettings(PluginCall call) {
+        Context ctx = getContext();
+        String pkg = ctx.getPackageName();
+        boolean opened = false;
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                Intent intent = new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS);
+                intent.putExtra(Settings.EXTRA_APP_PACKAGE, pkg);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                ctx.startActivity(intent);
+                opened = true;
+            }
+        } catch (Throwable ignored) { }
+        if (!opened) {
+            try {
+                Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                intent.setData(Uri.parse("package:" + pkg));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                ctx.startActivity(intent);
+                opened = true;
+            } catch (Throwable ignored) { }
+        }
+        JSObject ret = new JSObject();
+        ret.put("ok", opened);
+        call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void openExactAlarmSettings(PluginCall call) {
+        Context ctx = getContext();
+        boolean opened = openExactAlarmSettingsInternal(ctx);
+        JSObject ret = new JSObject();
+        ret.put("ok", opened);
         call.resolve(ret);
     }
 
     @PluginMethod
     public void openBatterySettings(PluginCall call) {
         Context ctx = getContext();
-        try {
-            Intent intent = new Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            ctx.startActivity(intent);
-            JSObject ret = new JSObject();
-            ret.put("ok", true);
-            call.resolve(ret);
-        } catch (Throwable t) {
-            call.reject("Could not open battery settings: " + t.getMessage());
-        }
+        boolean opened = openBatterySettingsForUser(ctx);
+        JSObject ret = new JSObject();
+        ret.put("ok", opened);
+        call.resolve(ret);
+    }
+
+    /** Opens phone-specific battery screen (Smart mode / background activity). */
+    @PluginMethod
+    public void openOemBatterySettings(PluginCall call) {
+        Context ctx = getContext();
+        boolean opened = openOemBatterySettingsInternal(ctx);
+        JSObject ret = new JSObject();
+        ret.put("ok", opened);
+        call.resolve(ret);
     }
 
     /* ---------- internal helpers ---------- */
 
     private boolean hasNotificationsPermission() {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) return true;
-        return ContextCompat.checkSelfPermission(
-            getContext(),
-            Manifest.permission.POST_NOTIFICATIONS
-        ) == PackageManager.PERMISSION_GRANTED;
+        Context ctx = getContext();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(
+                ctx,
+                Manifest.permission.POST_NOTIFICATIONS
+            ) != PackageManager.PERMISSION_GRANTED) {
+                return false;
+            }
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            NotificationManager nm = (NotificationManager) ctx.getSystemService(Context.NOTIFICATION_SERVICE);
+            if (nm != null && !nm.areNotificationsEnabled()) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private boolean canScheduleExactAlarms() {
@@ -255,6 +326,210 @@ public class HolidayAlarmPlugin extends Plugin {
         AlarmManager am = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
         if (am == null) return false;
         return am.canScheduleExactAlarms();
+    }
+
+    private boolean isBatteryOptimizationIgnored() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) return true;
+        PowerManager pm = (PowerManager) getContext().getSystemService(Context.POWER_SERVICE);
+        if (pm == null) return true;
+        return pm.isIgnoringBatteryOptimizations(getContext().getPackageName());
+    }
+
+    private JSObject buildPermissionsResult() {
+        boolean notifications = hasNotificationsPermission();
+        boolean exactAlarms = canScheduleExactAlarms();
+        boolean batteryOptimization = isBatteryOptimizationIgnored();
+        boolean oemBatteryGuidance = needsOemBatteryGuidance();
+        JSObject ret = new JSObject();
+        ret.put("notifications", notifications);
+        ret.put("exactAlarms", exactAlarms);
+        ret.put("batteryOptimization", batteryOptimization);
+        ret.put("oemBatteryGuidance", oemBatteryGuidance);
+        ret.put("ready", notifications && exactAlarms && batteryOptimization);
+        return ret;
+    }
+
+    /**
+     * Many OEMs (Samsung, Xiaomi, etc.) use a separate "Smart mode" battery screen that
+     * is NOT reflected in PowerManager.isIgnoringBatteryOptimizations().
+     */
+    private static boolean needsOemBatteryGuidance() {
+        String m = Build.MANUFACTURER == null ? "" : Build.MANUFACTURER.toLowerCase();
+        String b = Build.BRAND == null ? "" : Build.BRAND.toLowerCase();
+        if (containsAny(m, b, "xiaomi", "redmi", "poco")) return true;
+        if (containsAny(m, b, "samsung")) return true;
+        if (containsAny(m, b, "oppo", "realme")) return true;
+        if (containsAny(m, b, "vivo", "iqoo")) return true;
+        if (containsAny(m, b, "huawei", "honor")) return true;
+        if (containsAny(m, b, "oneplus")) return true;
+        if (containsAny(m, b, "motorola")) return true;
+        return false;
+    }
+
+    private static boolean containsAny(String m, String b, String... tokens) {
+        for (String t : tokens) {
+            if (m.contains(t) || b.contains(t)) return true;
+        }
+        return false;
+    }
+
+    private static String getAppLabel(Context ctx) {
+        try {
+            ApplicationInfo ai = ctx.getApplicationInfo();
+            CharSequence label = ctx.getPackageManager().getApplicationLabel(ai);
+            return label != null ? label.toString() : "Holiday Hacker";
+        } catch (Throwable ignored) {
+            return "Holiday Hacker";
+        }
+    }
+
+    private static boolean tryStartActivity(Context ctx, Intent intent) {
+        if (intent == null) return false;
+        try {
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            if (intent.resolveActivity(ctx.getPackageManager()) != null) {
+                ctx.startActivity(intent);
+                return true;
+            }
+        } catch (Throwable ignored) { }
+        return false;
+    }
+
+    private static boolean openAppDetailsSettings(Context ctx) {
+        try {
+            Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+            intent.setData(Uri.parse("package:" + ctx.getPackageName()));
+            return tryStartActivity(ctx, intent);
+        } catch (Throwable ignored) {
+            return false;
+        }
+    }
+
+    /** Per-app battery / background screen on MIUI, One UI, ColorOS, etc. */
+    private static boolean openOemBatterySettingsInternal(Context ctx) {
+        String pkg = ctx.getPackageName();
+        String label = getAppLabel(ctx);
+        String m = Build.MANUFACTURER == null ? "" : Build.MANUFACTURER.toLowerCase();
+        String b = Build.BRAND == null ? "" : Build.BRAND.toLowerCase();
+
+        if (containsAny(m, b, "xiaomi", "redmi", "poco")) {
+            Intent i = new Intent("miui.intent.action.POWER_HIDE_MODE_APP_LIST");
+            i.addCategory(Intent.CATEGORY_DEFAULT);
+            i.putExtra("package_name", pkg);
+            i.putExtra("package_label", label);
+            if (tryStartActivity(ctx, i)) return true;
+
+            i = new Intent("miui.intent.action.APP_PERM_EDITOR");
+            i.setClassName("com.miui.securitycenter",
+                "com.miui.permcenter.permissions.PermissionsEditorActivity");
+            i.putExtra("extra_pkgname", pkg);
+            if (tryStartActivity(ctx, i)) return true;
+
+            i = new Intent();
+            i.setClassName("com.miui.powerkeeper",
+                "com.miui.powerkeeper.ui.HiddenAppsConfigActivity");
+            if (tryStartActivity(ctx, i)) return true;
+        }
+
+        if (containsAny(m, b, "samsung")) {
+            Intent i = new Intent();
+            i.setComponent(new ComponentName("com.samsung.android.lool",
+                "com.samsung.android.sm.ui.battery.BatteryActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+            i.setComponent(new ComponentName("com.samsung.android.sm",
+                "com.samsung.android.sm.ui.battery.BatteryActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+        }
+
+        if (containsAny(m, b, "oppo", "realme")) {
+            Intent i = new Intent();
+            i.setComponent(new ComponentName("com.coloros.safecenter",
+                "com.coloros.powermanager.fuelgaue.PowerConsumptionOptimizationActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+        }
+
+        if (containsAny(m, b, "vivo", "iqoo")) {
+            Intent i = new Intent();
+            i.setComponent(new ComponentName("com.iqoo.secure",
+                "com.iqoo.powermanager.fuelgaue.PowerConsumptionOptimizationActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+            i.setComponent(new ComponentName("com.vivo.abe",
+                "com.vivo.applicationbehaviorengine.ui.ExcessivePowerManagerActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+        }
+
+        if (containsAny(m, b, "huawei", "honor")) {
+            Intent i = new Intent();
+            i.setComponent(new ComponentName("com.huawei.systemmanager",
+                "com.huawei.systemmanager.optimize.process.ProtectActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+        }
+
+        if (containsAny(m, b, "oneplus")) {
+            Intent i = new Intent();
+            i.setComponent(new ComponentName("com.oneplus.security",
+                "com.oneplus.security.chainlaunch.view.ChainLaunchAppListActivity"));
+            if (tryStartActivity(ctx, i)) return true;
+        }
+
+        return openAppDetailsSettings(ctx);
+    }
+
+    /**
+     * Opens the screen where the user can allow background activity / unrestricted battery.
+     * On Samsung/Xiaomi/etc. this is App info → Battery (not only the generic Don't optimize list).
+     */
+    private boolean openBatterySettingsForUser(Context ctx) {
+        if (needsOemBatteryGuidance()) {
+            if (openOemBatterySettingsInternal(ctx)) return true;
+        }
+        if (!isBatteryOptimizationIgnored()) {
+            if (requestBatteryOptimizationInternal(ctx)) return true;
+        }
+        return openAppDetailsSettings(ctx);
+    }
+
+    private boolean openExactAlarmSettingsInternal(Context ctx) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) return true;
+        try {
+            Intent intent = new Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM);
+            intent.setData(Uri.parse("package:" + ctx.getPackageName()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            ctx.startActivity(intent);
+            return true;
+        } catch (Throwable ignored) {
+            try {
+                Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                intent.setData(Uri.parse("package:" + ctx.getPackageName()));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                ctx.startActivity(intent);
+                return true;
+            } catch (Throwable ignored2) {
+                return false;
+            }
+        }
+    }
+
+    /** Opens the per-app "allow unrestricted / don't optimize" dialog when possible. */
+    private boolean requestBatteryOptimizationInternal(Context ctx) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) return true;
+        if (isBatteryOptimizationIgnored()) return true;
+        try {
+            Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+            intent.setData(Uri.parse("package:" + ctx.getPackageName()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            ctx.startActivity(intent);
+            return true;
+        } catch (Throwable ignored) {
+            try {
+                Intent intent = new Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                ctx.startActivity(intent);
+                return true;
+            } catch (Throwable ignored2) {
+                return false;
+            }
+        }
     }
 
     static boolean armAlarm(Context ctx, AlarmStorage.AlarmEntry entry) {

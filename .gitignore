@@ -1,4 +1,12 @@
+# Editor / IDE
 .cursor
+*.code-workspace
+
+# Local notes (kept on disk, not in git)
+Todo.txt
+App describe.txt
+
+# Dev-only data / experiments
 destination-data
 StateUT-wise list of destinations.csv
 wikidata-test
@@ -9,18 +17,31 @@ database/recommendation/CONFIG_LOGIC.md
 database/recommendation/CREDIBILITY_LIST.md
 database/recommendation/SCORE_COMPARISON.md
 
-# Capacitor / Android build artifacts
+# Dependencies & generated web bundle
 node_modules/
 www/
+
+# Local build output
+dist/
+
+# Capacitor / Android build artifacts
 android/.gradle/
 android/build/
 android/app/build/
+android/capacitor-cordova-android-plugins/build/
 android/local.properties
 android/.idea/
 android/*.iml
 android/app/release/
+
+# Release signing (never commit)
 *.keystore
 *.jks
+holiday-hacker-release
 holiday-hacker-release.jks
 android/keystore.properties
-package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

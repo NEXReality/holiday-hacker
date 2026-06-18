@@ -1,4 +1,6 @@
 Todo
-
+- include the sat, sun trip option
+- clicking on notification is not landing in particular trip currently.
 app
 ---
+- video explainging the use of the app

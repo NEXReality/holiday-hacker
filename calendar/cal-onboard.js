@@ -16,6 +16,12 @@
 
   if (!overlay || !chatArea || !chatFooter) return;
 
+  var pageEl = document.querySelector('.calendar-page .page');
+
+  function setOnboardPageLayout(active) {
+    if (pageEl) pageEl.classList.toggle('page--onboard-chat', !!active);
+  }
+
   /* ─── Redirect if no user data ───────────────────────── */
   var raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) {
@@ -36,6 +42,7 @@
   }
 
   if (glassNav) glassNav.style.display = 'none';
+  setOnboardPageLayout(true);
 
   var user = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
   var answers = {};
@@ -85,11 +92,13 @@
     return h + ':' + (m < 10 ? '0' + m : m) + ' ' + ampm;
   }
 
-  function scrollToBottom() {
-    requestAnimationFrame(function () {
-      chatArea.scrollTop = chatArea.scrollHeight;
-    });
-  }
+  var scrollToBottom = typeof HH_bindChatScroll === 'function'
+    ? HH_bindChatScroll(chatArea, chatFooter)
+    : function () {
+        requestAnimationFrame(function () {
+          chatArea.scrollTop = chatArea.scrollHeight;
+        });
+      };
 
   function privacyHTML() {
     return '<div class="chat-privacy"><span class="material-symbols-outlined">lock</span> Your data stays on this device</div>';
@@ -146,6 +155,7 @@
     });
     html += '</div>' + privacyHTML();
     chatFooter.innerHTML = html;
+    scrollToBottom();
 
     chatFooter.querySelectorAll('.chat-chip').forEach(function (chip) {
       chip.addEventListener('click', function () {
@@ -165,6 +175,7 @@
         '</button>' +
       '</div>' + privacyHTML();
     chatFooter.innerHTML = html;
+    scrollToBottom();
 
     var slider  = document.getElementById('chatSlider');
     var display = document.getElementById('sliderDisplay');
@@ -245,6 +256,7 @@
       overlay.style.opacity = '0';
       setTimeout(function () {
         overlay.style.display = 'none';
+        setOnboardPageLayout(false);
         calSplit.style.display = '';
         if (glassNav) glassNav.style.display = '';
         if (typeof window.initCalendar === 'function') window.initCalendar();

@@ -90,7 +90,7 @@
   function cancelStaleAlarmsFor(oldWindowStart) {
     var p = plugin();
     if (!p) return;
-    ['leave-', 'book-', 'book-pre-'].forEach(function (prefix) {
+    ['leave-', 'book-return-pre-', 'book-return-', 'book-pre-', 'book-'].forEach(function (prefix) {
       try { p.cancel({ id: prefix + oldWindowStart }).catch(function () {}); } catch (_) {}
     });
   }
@@ -143,6 +143,9 @@
         Object.keys(oldTs).forEach(function (k) { newTs[k] = oldTs[k]; });
         if (newTs.travelDepartureDate && /^\d{4}-\d{2}-\d{2}$/.test(newTs.travelDepartureDate)) {
           newTs.travelDepartureDate = shiftIso(newTs.travelDepartureDate, delta);
+        }
+        if (newTs.returnTravelDate && /^\d{4}-\d{2}-\d{2}$/.test(newTs.returnTravelDate)) {
+          newTs.returnTravelDate = shiftIso(newTs.returnTravelDate, delta);
         }
         settings[newStart] = newTs;
         delete settings[oldStart];

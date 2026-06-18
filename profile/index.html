@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-  <meta name="theme-color" content="#f7f6f8"/>
+  <meta name="theme-color" content="#9333EA"/>
+  <link rel="icon" type="image/png" href="../icon/app-icon.png"/>
+  <link rel="apple-touch-icon" href="../icon/app-icon.png"/>
+  <link rel="manifest" href="../manifest.webmanifest"/>
   <title>Holiday Hacker - Profile</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -157,7 +160,7 @@
           <h2>Travel Modes</h2>
         </div>
         <div class="profile-card-body">
-          <p class="profile-hint">Select all that apply. Recommendations use your preferred modes.</p>
+          <p class="profile-hint">Select all that apply. Tap in priority order — first selected is your primary mode.</p>
           <div class="profile-mode-wrap" id="profileTravelModes">
             <button type="button" class="profile-mode-btn" data-mode="flight">
               <span class="material-symbols-outlined">flight</span>
@@ -205,7 +208,7 @@
       </section>
 
       <!-- Visited Places -->
-      <section class="profile-card">
+      <section class="profile-card profile-card--visited-places" id="profileVisitedCard">
         <div class="profile-card-header">
           <span class="profile-card-icon">
             <span class="material-symbols-outlined">beenhere</span>
@@ -213,6 +216,7 @@
           <h2>Visited Places</h2>
         </div>
         <div class="profile-card-body">
+          <p class="profile-hint">Places you&rsquo;ve already been. Plan will avoid recommending them again unless you remove them here.</p>
           <div class="profile-loc-wrap profile-search-wrap">
             <div class="profile-loc-list" id="profileVisitedList" hidden></div>
             <span class="material-symbols-outlined">add_location_alt</span>
@@ -318,23 +322,50 @@
               <span class="material-symbols-outlined">mail</span>
               <span>info@nexreality.io</span>
             </a>
+            <p class="profile-hint profile-about-privacy-hint"><a href="../privacy.html">Privacy policy</a></p>
             <p class="profile-about-meta">Holiday Hacker by Nex Reality.</p>
           </div>
 
         </div>
       </section>
 
-      <!-- Clear Data -->
-      <section class="profile-card profile-card--danger">
+      <!-- Reminder settings (native Android only) -->
+      <section class="profile-card profile-card--reminder-settings" id="profileReminderSettingsCard" hidden>
         <div class="profile-card-header">
-          <span class="profile-card-icon profile-card-icon--danger">
-            <span class="material-symbols-outlined">delete_forever</span>
+          <span class="profile-card-icon">
+            <span class="material-symbols-outlined">notifications_active</span>
           </span>
-          <h2>Clear Data</h2>
+          <h2>Reminders</h2>
         </div>
         <div class="profile-card-body">
-          <p class="profile-clear-desc">Removes everything stored by this app (profile, calendar, holidays, trips, plan, favorites, and reminders). You will start fresh from onboarding.</p>
+          <p class="profile-hint">Trip leave and booking alarms need notifications, exact alarms, and battery access. Open settings to review or change them.</p>
+          <button type="button" class="profile-reminder-settings-btn" id="profileReminderSettingsBtn">
+            <span class="material-symbols-outlined">settings</span>
+            Check notification &amp; battery settings
+          </button>
+        </div>
+      </section>
+
+      <!-- Backup & data -->
+      <section class="profile-card profile-card--danger profile-card--backup-data">
+        <div class="profile-card-header">
+          <span class="profile-card-icon profile-card-icon--danger">
+            <span class="material-symbols-outlined">settings_backup_restore</span>
+          </span>
+          <h2>Backup &amp; data</h2>
+        </div>
+        <div class="profile-card-body">
+          <p class="profile-clear-desc">Export a backup file before resetting, or restore from a file you saved earlier. Backups include your profile, calendar, holidays, trips, plan picks, favorites, and reminder settings. On a new phone, export on your old device first, then restore here.</p>
           <div class="profile-clear-buttons">
+            <button type="button" class="profile-clear-btn profile-clear-btn--neutral" id="profileExportBackup">
+              <span class="material-symbols-outlined">download</span>
+              Export backup
+            </button>
+            <button type="button" class="profile-clear-btn profile-clear-btn--neutral" id="profileRestoreBackup">
+              <span class="material-symbols-outlined">upload</span>
+              Restore backup
+            </button>
+            <input type="file" id="profileRestoreFileInput" accept="application/json,.json" hidden aria-hidden="true"/>
             <button type="button" class="profile-clear-btn" id="profileClearAllData">
               <span class="material-symbols-outlined">delete_forever</span>
               Clear all data &amp; reset app
@@ -358,6 +389,7 @@
             <li>Saved trips, plan picks and favorites</li>
             <li>All scheduled alarms &amp; reminders</li>
           </ul>
+          <p class="hh-modal__body">If you might need this data later, tap <strong>Export backup</strong> above first and save the file.</p>
           <p class="hh-modal__confirm-text">Type <strong>CLEAR</strong> below to confirm:</p>
           <input
             type="text"
@@ -370,12 +402,44 @@
             inputmode="text"
             aria-label="Type CLEAR to confirm"
           />
-          <p class="hh-modal__hint">This cannot be undone.</p>
+          <p class="hh-modal__hint">This cannot be undone unless you have an exported backup file.</p>
           <div class="hh-modal__actions">
             <button type="button" class="hh-modal__btn hh-modal__btn--cancel" data-clear-cancel="1">Cancel</button>
             <button type="button" class="hh-modal__btn hh-modal__btn--danger" id="profileClearConfirmBtn" disabled>
               <span class="material-symbols-outlined">delete_forever</span>
               Clear &amp; reset
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restore-backup confirmation modal -->
+      <div class="hh-modal" id="profileRestoreModal" hidden>
+        <div class="hh-modal__backdrop" data-restore-cancel="1"></div>
+        <div class="hh-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="profileRestoreModalTitle">
+          <div class="hh-modal__icon">
+            <span class="material-symbols-outlined">settings_backup_restore</span>
+          </div>
+          <h3 class="hh-modal__title" id="profileRestoreModalTitle">Restore backup?</h3>
+          <p class="hh-modal__body" id="profileRestoreModalBody">This will replace all app data on this device with the contents of the backup file.</p>
+          <p class="hh-modal__confirm-text">Type <strong>RESTORE</strong> below to confirm:</p>
+          <input
+            type="text"
+            id="profileRestoreConfirmInput"
+            class="hh-modal__input"
+            autocomplete="off"
+            autocapitalize="characters"
+            autocorrect="off"
+            spellcheck="false"
+            inputmode="text"
+            aria-label="Type RESTORE to confirm"
+          />
+          <p class="hh-modal__hint">Current data on this device will be overwritten.</p>
+          <div class="hh-modal__actions">
+            <button type="button" class="hh-modal__btn hh-modal__btn--cancel" data-restore-cancel="1">Cancel</button>
+            <button type="button" class="hh-modal__btn hh-modal__btn--danger" id="profileRestoreConfirmBtn" disabled>
+              <span class="material-symbols-outlined">upload</span>
+              Restore backup
             </button>
           </div>
         </div>
@@ -413,6 +477,8 @@
   </div>
 
   <script src="../boot-version.js"></script>
+  <script src="../backup-restore.js"></script>
+  <script src="../alarm-reliability.js"></script>
   <script src="profile.js"></script>
 </body>
 </html>

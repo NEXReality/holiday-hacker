@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-  <meta name="theme-color" content="#ffffff"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=overlays-content"/>
+  <meta name="theme-color" content="#9333EA"/>
+  <link rel="icon" type="image/png" href="icon/app-icon.png"/>
+  <link rel="apple-touch-icon" href="icon/app-icon.png"/>
+  <link rel="manifest" href="manifest.webmanifest"/>
   <title>Holiday Hacker Onboarding</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -20,7 +23,7 @@
       <div class="header-inner">
         <div class="logo-ring">
           <div class="logo-inner">
-            <span class="material-symbols-outlined logo-icon">flight_takeoff</span>
+            <img class="hh-app-icon logo-img" src="icon/app-icon.png" alt=""/>
           </div>
         </div>
         <div>
@@ -41,9 +44,13 @@
         Your data stays on this device
       </div>
     </div>
+    <input type="file" id="welcomeRestoreFileInput" accept="application/json,.json" hidden aria-hidden="true"/>
   </div>
 
   <script src="boot-version.js"></script>
+  <script src="backup-restore.js"></script>
+  <script src="alarm-reliability.js"></script>
+  <script src="onboard-scroll.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -355,7 +355,7 @@
           if (!prevF) wrapCls += ' calendar-day-wrap--gb-start';
           if (!nextF) wrapCls += ' calendar-day-wrap--gb-end';
         }
-        html += '<div class="' + wrapCls + '"><button type="button" class="' + otherCls + '">' + c.day + dot + '</button></div>';
+        html += '<div class="' + wrapCls + '"><div class="' + otherCls + '" aria-hidden="true">' + c.day + dot + '</div></div>';
         return;
       }
       var wrapCls = 'calendar-day-wrap';
@@ -401,7 +401,7 @@
       if (isPastMonth || (viewYear === nowDate.getFullYear() && viewMonth === nowDate.getMonth() && c.day < nowDate.getDate())) {
         cls += ' calendar-day--past';
       }
-      html += '<div class="' + wrapCls + '"><button type="button" class="' + cls + '">' + c.day + dot + '</button></div>';
+      html += '<div class="' + wrapCls + '"><div class="' + cls + '" aria-hidden="true">' + c.day + dot + '</div></div>';
     });
     calGrid.innerHTML = html;
   }
@@ -499,6 +499,45 @@
   function isTripPlanned(start) {
     return getPlannedTrips().indexOf(start) !== -1;
   }
+
+  var _calPlanToastTimer = null;
+
+  function showCalPlanToast(windowName) {
+    var toast = document.getElementById('calPlanToast');
+    if (!toast) return;
+    var titleEl = document.getElementById('calPlanToastTitle');
+    var textEl = document.getElementById('calPlanToastText');
+    if (titleEl) {
+      titleEl.textContent = windowName ? (windowName + ' added') : 'Added to Plan';
+    }
+    if (textEl) {
+      var safeWin = windowName ? String(windowName).replace(/</g, '&lt;') : '';
+      textEl.innerHTML = safeWin
+        ? '<strong>' + safeWin + '</strong> is in Plan. Head to <strong>Plan</strong> to pick a destination, then <strong>Trips</strong> to customize.'
+        : 'Head to <strong>Plan</strong> to pick a destination, then <strong>Trips</strong> to customize.';
+    }
+    toast.hidden = false;
+    requestAnimationFrame(function () { toast.classList.add('plan-toast--show'); });
+    if (_calPlanToastTimer) clearTimeout(_calPlanToastTimer);
+    _calPlanToastTimer = setTimeout(hideCalPlanToast, 6000);
+  }
+
+  function hideCalPlanToast() {
+    var toast = document.getElementById('calPlanToast');
+    if (!toast) return;
+    toast.classList.remove('plan-toast--show');
+    if (_calPlanToastTimer) { clearTimeout(_calPlanToastTimer); _calPlanToastTimer = null; }
+    setTimeout(function () { if (!toast.classList.contains('plan-toast--show')) toast.hidden = true; }, 250);
+  }
+
+  function calendarCardTitle(card) {
+    if (!card) return '';
+    var titleEl = card.querySelector('.calendar-event-body h4, .advisor-card-title');
+    return titleEl ? titleEl.textContent.trim() : '';
+  }
+
+  window.HH_showCalPlanToast = showCalPlanToast;
+  window.HH_hideCalPlanToast = hideCalPlanToast;
 
   function renderEvents() {
     var entries = [];
@@ -673,9 +712,9 @@
   }
 
   window.refreshCalendarBreaks = function () {
-    /* If we arrived with ?focus=… but advisor data wasn't yet computed on
+    /* If we arrived with ?focus=… / ?start=… but advisor data wasn't yet computed on
        the first render, retry the jump now that advisor finished computing. */
-    if (pendingFocus && !pendingFocusItem) {
+    if ((pendingFocus || pendingStartIso) && !pendingFocusItem) {
       applyPendingFocus();
       if (pendingFocusItem) {
         updateTitle();
@@ -807,12 +846,22 @@
    * briefly highlights the matching event card. */
   var pendingFocus = null;
   var pendingFocusItem = null;
+  var pendingStartIso = null;
 
   function parseFocusFromUrl() {
     try {
       var p = new URLSearchParams(window.location.search);
       var f = p.get('focus');
       if (f === 'free' || f === 'golden' || f === 'mega' || f === 'any') return f;
+    } catch (_) {}
+    return null;
+  }
+
+  function parseStartFromUrl() {
+    try {
+      var p = new URLSearchParams(window.location.search);
+      var s = p.get('start');
+      if (s && /^\d{4}-\d{2}-\d{2}$/.test(s)) return s;
     } catch (_) {}
     return null;
   }
@@ -869,6 +918,33 @@
     return null;
   }
 
+  function findItemByStart(startIso) {
+    if (!startIso) return null;
+    loadPersistedAdvisorData();
+    var lists = [
+      { type: 'free', arr: window._advisorGifts },
+      { type: 'golden', arr: window._advisorBridges || window._advisorBridgesAll },
+      { type: 'mega', arr: window._advisorMegaBridges }
+    ];
+    for (var i = 0; i < lists.length; i++) {
+      var arr = lists[i].arr || [];
+      for (var j = 0; j < arr.length; j++) {
+        if (arr[j] && arr[j].start === startIso) {
+          return { type: lists[i].type, item: arr[j] };
+        }
+      }
+    }
+    return null;
+  }
+
+  function resolveFocusItem(focus, startIso) {
+    if (startIso) {
+      var exact = findItemByStart(startIso);
+      if (exact) return exact;
+    }
+    return firstUpcomingFocusItem(focus || 'any');
+  }
+
   function focusItemSelector(picked) {
     if (!picked || !picked.item || !picked.item.start) return null;
     var start = picked.item.start;
@@ -896,14 +972,17 @@
          hijacking the scroll position. */
       pendingFocus = null;
       pendingFocusItem = null;
+      pendingStartIso = null;
     });
   }
 
   function applyPendingFocus() {
     var focus = pendingFocus || parseFocusFromUrl();
-    if (!focus) return;
-    pendingFocus = focus;
-    var picked = firstUpcomingFocusItem(focus);
+    var startIso = pendingStartIso || parseStartFromUrl();
+    if (!focus && !startIso) return;
+    if (startIso) pendingStartIso = startIso;
+    if (focus) pendingFocus = focus;
+    var picked = resolveFocusItem(focus, startIso);
     if (!picked || !picked.item || !picked.item.start) return;
     var d = new Date(picked.item.start + 'T00:00:00');
     if (isNaN(d.getTime())) return;
@@ -951,24 +1030,35 @@
   calEventsList.addEventListener('click', function (e) {
     var btn = e.target.closest('.advisor-toggle');
     if (!btn) return;
-    var bridgeCard = btn.closest('.calendar-event-card--mega, .calendar-event-card--gb');
+    var bridgeCard = btn.closest('.calendar-event-card--mega') || btn.closest('.calendar-event-card--gb');
     var giftCard = btn.closest('.calendar-event-card--gift');
     if (bridgeCard) {
       var start = bridgeCard.getAttribute('data-bridge-start');
       if (!start) return;
       btn.classList.toggle('is-on');
-      setSelectedBridge(start, btn.classList.contains('is-on'));
+      var bridgeOn = btn.classList.contains('is-on');
+      setSelectedBridge(start, bridgeOn);
+      if (bridgeOn) showCalPlanToast(calendarCardTitle(bridgeCard));
       window.dispatchEvent(new CustomEvent('bridgeSelectionChange'));
     } else if (giftCard) {
       var start = giftCard.getAttribute('data-gift-start');
       if (!start) return;
       btn.classList.toggle('is-on');
-      setPlannedTrip(start, btn.classList.contains('is-on'));
+      var isOn = btn.classList.contains('is-on');
+      setPlannedTrip(start, isOn);
+      if (isOn) showCalPlanToast(calendarCardTitle(giftCard));
       window.dispatchEvent(new CustomEvent('tripSelectionChange'));
     }
   });
 
   function init() {
+    var calToastClose = document.getElementById('calPlanToastClose');
+    if (calToastClose) calToastClose.addEventListener('click', hideCalPlanToast);
+    var calToastCta = document.getElementById('calPlanToastCta');
+    if (calToastCta) {
+      calToastCta.addEventListener('click', function () { hideCalPlanToast(); });
+    }
+
     var raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) {
       window.location.href = '../index.html';

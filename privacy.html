@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#ffffff" />
+  <meta name="theme-color" content="#9333EA" />
   <title>Holiday Hacker — Privacy Policy</title>
   <style>
     * { box-sizing: border-box; }
@@ -16,11 +16,26 @@
       color: #1a2233;
       background: #fafbfd;
     }
-    header { border-bottom: 1px solid #e2e7ef; padding-bottom: 16px; margin-bottom: 24px; }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid #e2e7ef;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .header-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(147, 51, 234, 0.2);
+    }
+    .header-text { min-width: 0; }
     h1 { margin: 0 0 4px; font-size: 28px; }
     h2 { margin-top: 32px; font-size: 20px; }
     h3 { margin-top: 24px; font-size: 16px; }
-    .meta { color: #5b6478; font-size: 14px; }
+    .meta { color: #5b6478; font-size: 14px; margin: 0; }
     code { background: #eef1f6; padding: 1px 6px; border-radius: 4px; font-size: 14px; }
     .summary {
       background: #eef5ff;
@@ -36,36 +51,80 @@
 <body>
 
   <header>
-    <h1>Privacy Policy</h1>
-    <p class="meta">Holiday Hacker &middot; Last updated: 30 April 2026</p>
+    <img class="header-icon" src="icon/app-icon.png" width="56" height="56" alt="" />
+    <div class="header-text">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Holiday Hacker &middot; Nex Reality &middot; Last updated: 17 June 2026</p>
+    </div>
   </header>
 
   <section class="summary">
     <strong>Short version:</strong> Holiday Hacker does not collect, transmit,
-    or share any personal data. Everything you create — trips, reminders,
-    favorites, preferences — stays on your device, in the app's local
-    storage. There is no account, no login, no analytics, no advertising
-    SDK, and no backend server.
+    or share any personal data with us. Everything you create — trips, reminders,
+    favorites, preferences — stays on your device in local storage. There is no
+    account, no login, no analytics, no advertising SDK, and no backend server.
+    <strong>Backup &amp; restore</strong> is optional and entirely under your
+    control: you can export a JSON file to Downloads or cloud storage and restore
+    it later; we never receive that file.
   </section>
 
   <h2>1. What data we collect</h2>
   <p><strong>None on our servers.</strong> Holiday Hacker has no server. We do
   not run a backend that receives or stores user data. The following data is
-  created by you on your own device and is stored only there:</p>
+  created by you on your own device and is stored only there until you choose
+  to export it:</p>
   <ul>
-    <li>Trip plans, holiday windows, and saved destinations.</li>
-    <li>Reminder preferences (days before trip, reminder time).</li>
-    <li>Travel mode selection (train / bus / flight / car) per trip.</li>
-    <li>Favorites and travel preferences.</li>
+    <li>Profile and onboarding answers (name, location, leave balance, travel preferences).</li>
+    <li>Calendar setup and selected holiday windows.</li>
+    <li>Custom and regional holidays you add.</li>
+    <li>Trip plans, destinations, and plan picks.</li>
+    <li>Favorites and &ldquo;already visited&rdquo; places.</li>
+    <li>Reminder preferences (days before trip, reminder time, transport mode per trip).</li>
   </ul>
-  <p>This data lives in <code>localStorage</code> on the device and never
-  leaves the device unless you explicitly export an iCalendar (<code>.ics</code>)
-  file or share a Google Calendar link.</p>
+  <p>This data lives in <code>localStorage</code> on the device. It does
+  <strong>not</strong> leave the device unless <strong>you</strong> explicitly:</p>
+  <ul>
+    <li>Export a <strong>JSON backup</strong> (Profile &rarr; Backup &amp; data
+        &rarr; Export backup, or during first-time setup &rarr; Restore backup),</li>
+    <li>Export an iCalendar (<code>.ics</code>) file, or</li>
+    <li>Open a Google Calendar link the app generates.</li>
+  </ul>
+  <p>We do not operate cloud sync, automatic backup, or any service that
+  uploads your data to Nex Reality.</p>
 
-  <h2>2. Permissions the app requests</h2>
-  <p>To deliver loud, on-time trip alarms, the app requests the following
-  Android permissions on your device. None of these grant Holiday Hacker
-  any access to your data; they only let the app do its core job:</p>
+  <h2>2. Backup and restore</h2>
+  <p>Holiday Hacker includes an optional <strong>local backup and restore</strong>
+  feature so you can keep your data when resetting the app or moving to a new
+  phone. This feature:</p>
+  <ul>
+    <li>Is <strong>user-initiated only</strong> — nothing is exported unless you
+        tap Export backup.</li>
+    <li>Creates a JSON file named like
+        <code>HolidayHacker-backup-YYYY-MM-DD_HH-MM-SS.json</code>.</li>
+    <li>Includes all app data stored under the <code>holidayHacker_</code> keys
+        (profile, calendar, holidays, trips, plan picks, favorites, and reminder
+        settings).</li>
+    <li>On Android, saves to <strong>Downloads</strong> or a folder you pick via
+        the system file picker; restore uses the same picker.</li>
+    <li>Can be started from <strong>Profile &rarr; Backup &amp; data</strong> or
+        during welcome setup if you already have a backup file.</li>
+  </ul>
+  <p><strong>Restore replaces all existing app data on that device</strong> with
+  the contents of the backup file you select. After restore, trip alarms are
+  re-scheduled on the device.</p>
+  <p>Backup files remain on <strong>your</strong> phone, USB storage, email,
+  Google Drive, or wherever you save them. <strong>Nex Reality does not receive,
+  host, or process backup files.</strong> There is no automatic upload and no
+  account-linked cloud backup.</p>
+  <p>You are responsible for keeping backup files secure. They are not encrypted
+  by the app; anyone with access to the file could read its contents on another
+  device with Holiday Hacker installed.</p>
+
+  <h2>3. Permissions the app requests</h2>
+  <p>To deliver loud, on-time trip alarms and optional backup, the app requests
+  the following Android permissions on your device. None of these grant Holiday
+  Hacker ongoing access to your personal files; they only support features you
+  use:</p>
   <ul>
     <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>) —
         to show alarms when they ring.</li>
@@ -81,37 +140,48 @@
     <li><strong>Receive boot completed</strong> — to re-arm pending alarms
         after a phone restart so you don't lose them.</li>
     <li><strong>Vibrate</strong> — for the alarm vibration pattern.</li>
+    <li><strong>Storage / file access</strong> (Android) — only when you tap
+        Export backup or Restore backup, so the app can write to Downloads or let
+        you pick a JSON file. The app does not read your files in the background.</li>
     <li><strong>Internet</strong> — only used by the WebView for any
         third-party links you tap (e.g., Google Calendar
         <code>render?action=TEMPLATE</code> URLs); the app's core data
         ships inside the APK and works fully offline.</li>
   </ul>
 
-  <h2>3. Data sharing</h2>
+  <h2>4. Data sharing</h2>
   <p>We do not share any data with anyone, because there is no data on our
-  side to share. We do not use third-party analytics, advertising, crash
-  reporting, or marketing SDKs.</p>
+  side to share. Backup files you create stay under your control. We do not
+  use third-party analytics, advertising, crash reporting, or marketing SDKs.</p>
 
-  <h2>4. Data retention</h2>
+  <h2>5. Data retention</h2>
   <p>Data lives on your device for as long as the app is installed. If you
-  uninstall the app, Android removes its local storage and all your trip
-  data is permanently deleted. There is no cloud backup or sync.</p>
+  uninstall the app or use Profile &rarr; Clear all data &amp; reset app,
+  Android removes local storage and your in-app data is permanently deleted
+  unless you exported a backup file first.</p>
+  <p>You may export a JSON backup at any time and restore it on the same or a
+  new device. Backup files are not deleted when you uninstall the app — they
+  remain wherever you saved them (e.g. Downloads or Google Drive).</p>
 
-  <h2>5. Children's privacy</h2>
+  <h2>6. Children's privacy</h2>
   <p>Holiday Hacker is not directed to children under 13 and we do not
   knowingly collect any data from children — or anyone.</p>
 
-  <h2>6. Security</h2>
-  <p>Because data does not leave your device, the security of your trip data
-  reduces to the security of your device itself. We recommend keeping
-  Android up to date and using a secure screen lock.</p>
+  <h2>7. Security</h2>
+  <p>Because we do not collect your data on our servers, the security of your
+  trip data depends on the security of your device and any backup files you
+  choose to store elsewhere. We recommend keeping Android up to date, using a
+  secure screen lock, and treating backup JSON files like sensitive personal
+  data if you store them in cloud services or share them.</p>
 
-  <h2>7. Changes to this policy</h2>
-  <p>If our practices change in any way (for example, we add an opt-in cloud
-  backup), this page will be updated and the "Last updated" date at the top
-  will change. The same page is also linked from inside the app.</p>
+  <h2>8. Changes to this policy</h2>
+  <p>If our practices change (for example, we add an optional account or
+  cloud sync service), this page will be updated and the &ldquo;Last
+  updated&rdquo; date at the top will change. Manual backup and restore as
+  described above is not a cloud service operated by Nex Reality. The same
+  page is linked from inside the app (Profile &rarr; Privacy policy).</p>
 
-  <h2>8. Contact</h2>
+  <h2>9. Contact</h2>
   <p>For privacy questions, write to:
   <a href="mailto:info@nexreality.io">info@nexreality.io</a></p>
 

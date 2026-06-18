@@ -713,11 +713,20 @@
   function loadTravelPrefs() {
     var p = getTravelPrefs();
     var modes = p.travelModes || (p.travelMode ? [p.travelMode] : ['car']);
+    var primaryMode = modes.length ? modes[0] : 'car';
     document.querySelectorAll('#profileTravelModes .profile-mode-btn').forEach(function (btn) {
       var m = btn.getAttribute('data-mode');
       var active = modes.indexOf(m) !== -1;
       btn.classList.toggle('profile-mode-btn--active', active);
       btn.classList.toggle('profile-mode-btn--inactive', !active);
+      var oldPill = btn.querySelector('.holiday-today-pill');
+      if (oldPill) oldPill.remove();
+      if (active && m === primaryMode) {
+        var pill = document.createElement('span');
+        pill.className = 'holiday-today-pill';
+        pill.textContent = 'Primary';
+        btn.appendChild(pill);
+      }
     });
     var segs = p.destinationSegments || [];
     document.querySelectorAll('#profileDestinationSegments input[data-segment]').forEach(function (cb) {
@@ -858,6 +867,205 @@
     document.addEventListener('keydown', function (e) {
       if (clearModal.hasAttribute('hidden')) return;
       if (e.key === 'Escape') closeClearModal();
+    });
+  }
+
+  /* ───────── Backup & restore ───────── */
+  var btnExportBackup     = document.getElementById('profileExportBackup');
+  var btnRestoreBackup    = document.getElementById('profileRestoreBackup');
+  var restoreFileInput    = document.getElementById('profileRestoreFileInput');
+  var restoreModal        = document.getElementById('profileRestoreModal');
+  var restoreModalBody    = document.getElementById('profileRestoreModalBody');
+  var restoreModalInput   = document.getElementById('profileRestoreConfirmInput');
+  var restoreModalBtn     = document.getElementById('profileRestoreConfirmBtn');
+  var pendingRestoreBackup = null;
+  var RESTORE_PHRASE      = 'RESTORE';
+
+  function showProfileToast(message, isError) {
+    var existing = document.getElementById('profileBackupToast');
+    if (existing) existing.remove();
+    var el = document.createElement('p');
+    el.id = 'profileBackupToast';
+    el.className = 'profile-backup-toast' + (isError ? ' profile-backup-toast--error' : '');
+    el.textContent = message;
+    var card = document.querySelector('.profile-card--danger .profile-card-body');
+    if (card) {
+      card.appendChild(el);
+      setTimeout(function () {
+        if (el.parentNode) el.parentNode.removeChild(el);
+      }, 5000);
+    }
+  }
+
+  function backupApi() {
+    return window.HolidayHackerBackup || null;
+  }
+
+  if (btnExportBackup) {
+    btnExportBackup.addEventListener('click', function () {
+      var api = backupApi();
+      if (!api || typeof api.downloadBackupFile !== 'function') {
+        showProfileToast('Backup is not available on this page.', true);
+        return;
+      }
+      Promise.resolve(api.downloadBackupFile()).then(function (result) {
+        if (!result.ok) {
+          showProfileToast(result.error || 'Export failed.', true);
+          return;
+        }
+        var msg = 'Saved ' + result.filename + ' (' + result.keyCount + ' items).';
+        if (result.method === 'downloads') {
+          msg += ' Find it in Files → Downloads.';
+        } else if (result.method === 'saf') {
+          msg += ' Open Files or Downloads to find it in the folder you chose.';
+        } else {
+          msg += ' Check your downloads folder.';
+        }
+        showProfileToast(msg);
+      });
+    });
+  }
+
+  function setRestoreConfirmEnabled(enabled) {
+    if (!restoreModalBtn) return;
+    if (enabled) restoreModalBtn.removeAttribute('disabled');
+    else restoreModalBtn.setAttribute('disabled', '');
+  }
+
+  function closeRestoreModal() {
+    if (!restoreModal) return;
+    restoreModal.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    pendingRestoreBackup = null;
+    if (restoreModalInput) restoreModalInput.value = '';
+    setRestoreConfirmEnabled(false);
+  }
+
+  function openRestoreModal(backup) {
+    if (!restoreModal || !backup) return;
+    pendingRestoreBackup = backup;
+    var when = backup.exportedAt;
+    var whenLabel = when;
+    try {
+      whenLabel = new Date(when).toLocaleString(undefined, {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      });
+    } catch (_) {}
+    if (restoreModalBody) {
+      restoreModalBody.textContent =
+        'This will replace all app data on this device with the backup exported on ' +
+        whenLabel + ' (' + (backup.keyCount || Object.keys(backup.keys || {}).length) + ' items).';
+    }
+    if (restoreModalInput) restoreModalInput.value = '';
+    setRestoreConfirmEnabled(false);
+    restoreModal.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    if (restoreModalInput) {
+      setTimeout(function () { try { restoreModalInput.focus(); } catch (_) {} }, 50);
+    }
+  }
+
+  function performRestore() {
+    var api = backupApi();
+    if (!api || !pendingRestoreBackup || typeof api.applyBackup !== 'function') return;
+    var result = api.applyBackup(pendingRestoreBackup);
+    if (!result.ok) {
+      showProfileToast(result.error || 'Restore failed.', true);
+      closeRestoreModal();
+      return;
+    }
+    closeRestoreModal();
+    if (typeof api.finishRestoreNavigation === 'function') {
+      api.finishRestoreNavigation();
+    } else {
+      window.location.href = '../trips/index.html';
+    }
+  }
+
+  function handleBackupPickResult(result) {
+    if (!result.ok) {
+      showProfileToast(result.error || 'Could not read backup.', true);
+      return;
+    }
+    openRestoreModal(result.backup);
+  }
+
+  if (btnRestoreBackup) {
+    btnRestoreBackup.addEventListener('click', function () {
+      var api = backupApi();
+      if (!api) {
+        showProfileToast('Restore is not available on this page.', true);
+        return;
+      }
+      if (typeof api.pickBackupFile === 'function') {
+        api.pickBackupFile().then(function (result) {
+          if (result.error === 'native_pick_unavailable') {
+            if (restoreFileInput) {
+              restoreFileInput.value = '';
+              restoreFileInput.click();
+            }
+            return;
+          }
+          handleBackupPickResult(result);
+        });
+        return;
+      }
+      if (restoreFileInput) {
+        restoreFileInput.value = '';
+        restoreFileInput.click();
+      }
+    });
+  }
+
+  if (restoreFileInput) {
+    restoreFileInput.addEventListener('change', function () {
+      var file = restoreFileInput.files && restoreFileInput.files[0];
+      if (!file) return;
+      var api = backupApi();
+      if (!api || typeof api.readBackupFile !== 'function') {
+        showProfileToast('Restore is not available on this page.', true);
+        return;
+      }
+      api.readBackupFile(file).then(function (result) {
+        handleBackupPickResult(result);
+      });
+    });
+  }
+
+  if (restoreModalInput) {
+    restoreModalInput.addEventListener('input', function () {
+      var typed = (restoreModalInput.value || '').trim().toUpperCase();
+      setRestoreConfirmEnabled(typed === RESTORE_PHRASE);
+    });
+    restoreModalInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        var typed = (restoreModalInput.value || '').trim().toUpperCase();
+        if (typed === RESTORE_PHRASE) {
+          e.preventDefault();
+          performRestore();
+        }
+      }
+    });
+  }
+
+  if (restoreModalBtn) {
+    restoreModalBtn.addEventListener('click', function () {
+      if (restoreModalBtn.hasAttribute('disabled')) return;
+      performRestore();
+    });
+  }
+
+  if (restoreModal) {
+    restoreModal.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute('data-restore-cancel') === '1') {
+        closeRestoreModal();
+      }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (restoreModal.hasAttribute('hidden')) return;
+      if (e.key === 'Escape') closeRestoreModal();
     });
   }
 
@@ -1114,6 +1322,24 @@
       });
   }
 
+  function initProfileReminderSettings() {
+    var card = document.getElementById('profileReminderSettingsCard');
+    var btn = document.getElementById('profileReminderSettingsBtn');
+    if (!card || !btn) return;
+    try {
+      if (!(window.Capacitor && window.Capacitor.getPlatform && window.Capacitor.getPlatform() === 'android')) return;
+      if (!(window.Capacitor.Plugins && window.Capacitor.Plugins.HolidayAlarm)) return;
+    } catch (_) {
+      return;
+    }
+    card.hidden = false;
+    btn.addEventListener('click', function () {
+      if (window.HH_alarmReliability && window.HH_alarmReliability.openSettings) {
+        window.HH_alarmReliability.openSettings();
+      }
+    });
+  }
+
   loadCityData();
   migrateGroupTravelParty();
   loadData();
@@ -1121,4 +1347,5 @@
   loadFavorites();
   renderVisitedTags();
   closeAllEditing();
+  initProfileReminderSettings();
 })();

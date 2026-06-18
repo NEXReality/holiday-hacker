@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-  <meta name="theme-color" content="#ffffff"/>
+  <meta name="theme-color" content="#9333EA"/>
+  <link rel="icon" type="image/png" href="../icon/app-icon.png"/>
+  <link rel="apple-touch-icon" href="../icon/app-icon.png"/>
+  <link rel="manifest" href="../manifest.webmanifest"/>
   <title>Holiday Hacker - Holidays</title>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -77,6 +80,24 @@
       <!-- <button type="button" class="btn-tune" aria-label="Filters">
         <span class="material-symbols-outlined">tune</span>
       </button> -->
+    </div>
+
+    <!-- Color legend (matches card tints on the timeline) -->
+    <div class="timeline-legend">
+      <div class="calendar-legend-inner">
+        <div class="calendar-legend-item">
+          <span class="calendar-legend-dot calendar-legend-dot--work"></span>
+          <span>Work city</span>
+        </div>
+        <div class="calendar-legend-item">
+          <span class="calendar-legend-dot calendar-legend-dot--home"></span>
+          <span>Hometown</span>
+        </div>
+        <div class="calendar-legend-item">
+          <span class="calendar-legend-dot calendar-legend-dot--personal"></span>
+          <span>Personal</span>
+        </div>
+      </div>
     </div>
 
     <!-- Timeline scroll -->
@@ -230,6 +251,7 @@
   </div>
 
   <script src="../boot-version.js"></script>
+  <script src="../alarm-reliability.js"></script>
   <script src="../holiday-shift.js"></script>
   <script src="holidays.js"></script>
 </body>

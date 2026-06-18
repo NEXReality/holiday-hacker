@@ -43,6 +43,23 @@
   --calendar-bg: #f7f6f8;
 }
 
+/* Material Symbols (onboarding chat, nav, toggles) */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* ========== Base ========== */
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -52,6 +69,18 @@ body {
   overflow: hidden;
   margin: 0;
   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Allow selection only in real text fields */
+input,
+textarea,
+[contenteditable="true"] {
+  -webkit-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
 }
 
 /* ========== App container ========== */
@@ -125,23 +154,17 @@ body {
 }
 
 .logo-ring {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-  padding: 2px;
   flex-shrink: 0;
-}
-
-.logo-inner {
-  width: 100%;
-  height: 100%;
-  border-radius: 9999px;
-  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+}
+
+.logo-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
 }
 
 .logo-icon {
@@ -151,6 +174,19 @@ body {
   background: linear-gradient(to bottom right, var(--primary), var(--secondary));
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+/* App icon: scale down to slot, show full artwork (no circle mask in the WebView) */
+.hh-app-icon,
+.logo-img {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
 }
 
 .brand-title {
@@ -211,9 +247,13 @@ body {
 /* ========== Chat area ========== */
 .chat-area {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  overflow-anchor: none;
+  -webkit-overflow-scrolling: touch;
   padding: 1rem .75rem;
   padding-bottom: 1rem;
+  scroll-padding-bottom: 1rem;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -1731,6 +1771,12 @@ body {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
+.calendar-page .page.page--onboard-chat {
+  background-color: var(--background-light);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .calendar-page .page::before {
   content: '';
   position: absolute;
@@ -1950,17 +1996,20 @@ body {
   border-radius: 2rem;
   border: none;
   background: transparent;
-  cursor: pointer;
+  cursor: default;
   font-family: inherit;
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--gray-800);
   position: relative;
-  transition: background-color 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  pointer-events: none;
 }
 
 .calendar-day:hover {
-  background: var(--gray-50);
+  background: transparent;
 }
 
 /* "Other month" days */
@@ -2474,6 +2523,41 @@ body {
   white-space: nowrap;
 }
 
+/* Holidays timeline — color key under location filter */
+.timeline-legend {
+  padding: 0 1rem 0.5rem;
+}
+
+/* Advisor — collapse long gift/bridge card lists */
+.advisor-card-batch {
+  display: flex;
+  flex-direction: column;
+}
+.advisor-row--show-more {
+  justify-content: center;
+  padding: 0.25rem 1rem 0.5rem;
+  margin-left: 2.25rem;
+}
+.advisor-show-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--primary-30);
+  background: var(--primary-10);
+  color: var(--primary);
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.advisor-show-more-btn:hover {
+  background: var(--primary-30);
+  border-color: var(--primary-50);
+}
+
 /* ========== Passport / Trips page (Travel Roadmap – match Stitch) ========== */
 .passport-page .page,
 .trips-page .page {
@@ -2587,6 +2671,15 @@ body {
   opacity: 0.9;
 }
 
+.passport-stat-note {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.passport-stat-card p .passport-stat-note {
+  font-size: 0.6875rem;
+}
+
 .passport-stat-hero h2 {
   font-size: 2.25rem;
   font-weight: 700;
@@ -2697,6 +2790,11 @@ body {
   overflow: hidden;
 }
 
+.trips-card--focus-flash {
+  animation: calendar-event-card-focus-flash 2.4s ease-out;
+  border-color: rgba(79, 70, 229, 0.65) !important;
+}
+
 .trips-card-img-wrap {
   height: 8rem;
   width: 100%;
@@ -2795,10 +2893,40 @@ body {
   gap: 0.125rem;
 }
 
-.trips-card-expand-row {
+.trips-card-details {
+  display: block;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-100);
+  margin-top: 0.75rem;
+}
+
+.trips-card-reminder-link {
+  color: var(--calendar-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.trips-card-booking-reminder {
+  margin-top: 0.75rem;
+}
+
+.trips-card-booking-sub {
   display: flex;
-  justify-content: center;
-  margin-top: 0.375rem;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.trips-card-booking-sub .trips-booking-leg {
+  display: block;
+}
+
+.trips-card-reminder-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  gap: 0.75rem;
 }
 
 .trips-card-date {
@@ -2824,53 +2952,6 @@ body {
 .trips-card-days .trips-card-leaves {
   color: var(--calendar-primary);
   font-weight: 500;
-}
-
-.trips-card-reminders-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  cursor: pointer;
-  font-size: 0.6875rem;
-  font-weight: 500;
-  color: var(--gray-500);
-  flex-shrink: 0;
-}
-
-.trips-card-expand-btn {
-  padding: 0.125rem;
-  border: none;
-  background: transparent;
-  color: var(--gray-400);
-  cursor: pointer;
-  border-radius: 0.25rem;
-}
-
-.trips-card-expand-btn:hover {
-  color: var(--calendar-primary);
-}
-
-.trips-card-expand-btn .material-symbols-outlined {
-  font-size: 1.25rem;
-}
-
-.trips-card-expanded {
-  display: none;
-  padding-top: 1rem;
-  border-top: 1px solid var(--gray-100);
-  margin-top: 0.75rem;
-}
-
-.trips-card--expanded .trips-card-expanded {
-  display: block;
-}
-
-.trips-card-reminder-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 0;
-  gap: 0.75rem;
 }
 
 .trips-card-reminder-icon {
@@ -2901,6 +2982,15 @@ body {
   font-weight: 500;
   color: var(--gray-700);
   margin: 0.125rem 0 0;
+}
+
+.trips-alarm-schedule-hint {
+  display: block;
+  margin-top: 0.375rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--gray-500);
+  line-height: 1.35;
 }
 
 .trips-card-reminder-edit {
@@ -3224,6 +3314,23 @@ body {
   display: flex;
   flex-direction: column;
   animation: trips-cw-slide 0.25s ease;
+}
+
+.trips-cw-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.375rem;
+  margin: 0;
+  padding: 0.625rem 1.25rem 0;
+  font-size: 0.75rem;
+  color: var(--gray-600);
+}
+
+.trips-cw-note .material-symbols-outlined {
+  font-size: 0.875rem;
+  color: var(--calendar-primary);
+  margin-top: 0.0625rem;
+  flex-shrink: 0;
 }
 
 @keyframes trips-cw-slide {
@@ -4224,6 +4331,16 @@ body {
   border-color: rgba(239, 68, 68, 0.3);
 }
 
+.profile-card--backup-data .profile-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.profile-card--backup-data .profile-clear-desc {
+  margin-bottom: 0;
+}
+
 .profile-card-icon--fav {
   background: rgba(239, 68, 68, 0.12);
   color: #ef4444;
@@ -4238,6 +4355,50 @@ body {
   color: #ef4444;
 }
 
+.profile-card--reminder-settings {
+  border: 1px solid rgba(147, 51, 234, 0.2);
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.06), rgba(255, 255, 255, 0.95));
+}
+
+.profile-reminder-settings-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.625rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: white;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.profile-reminder-settings-btn .material-symbols-outlined {
+  font-size: 1.125rem;
+}
+
+.profile-card--visited-places {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-card--visited-places:focus-within {
+  z-index: 100;
+}
+
+.profile-card--visited-places .profile-loc-list {
+  z-index: 110;
+}
+
+.profile-card--about {
+  position: relative;
+  z-index: 1;
+}
+
 .profile-clear-desc {
   font-size: 0.8125rem;
   color: var(--gray-600);
@@ -4248,6 +4409,33 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.profile-clear-btn--neutral {
+  color: var(--primary, #9333ea);
+  background: rgba(147, 51, 234, 0.08);
+  border-color: rgba(147, 51, 234, 0.25);
+}
+
+.profile-clear-btn--neutral:hover {
+  background: rgba(147, 51, 234, 0.12);
+}
+
+.profile-backup-toast {
+  margin-top: 0.75rem;
+  padding: 0.625rem 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: #166534;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 0.5rem;
+}
+
+.profile-backup-toast--error {
+  color: #b91c1c;
+  background: rgba(239, 68, 68, 0.08);
+  border-color: rgba(239, 68, 68, 0.25);
 }
 
 .profile-clear-btn {
@@ -4304,6 +4492,61 @@ body {
   flex-direction: column;
   gap: 0.6rem;
 }
+
+.hh-reliability-app-icon {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 0.35rem;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
+}
+
+.hh-modal__dialog--reliability {
+  border-color: rgba(139, 92, 246, 0.28);
+}
+
+.hh-reliability-missing li {
+  margin-bottom: 0.35rem;
+}
+
+.hh-reliability-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.hh-reliability-fix-btn {
+  width: 100%;
+  text-align: left;
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.625rem;
+  border: 1px solid var(--gray-200);
+  background: var(--gray-50);
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  cursor: pointer;
+}
+
+.hh-reliability-fix-btn:hover {
+  border-color: var(--primary-50);
+  background: var(--primary-10);
+  color: var(--primary);
+}
+
+.hh-reliability-fix-all {
+  width: 100%;
+  justify-content: center;
+}
+
+.hh-reliability-recheck {
+  width: 100%;
+  justify-content: center;
+}
 .hh-modal__icon {
   align-self: flex-start;
   width: 2.5rem;
@@ -4357,7 +4600,6 @@ body {
   letter-spacing: 0.04em;
 }
 .hh-modal__input {
-  width: 100%;
   padding: 0.55rem 0.75rem;
   border: 1.5px solid rgba(239, 68, 68, 0.35);
   border-radius: 0.55rem;
@@ -4990,6 +5232,12 @@ select.profile-input::-moz-focus-inner {
   font-size: 1.125rem;
 }
 
+.profile-mode-btn--active .holiday-today-pill {
+  background: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  margin-left: 0.125rem;
+}
+
 .profile-hint {
   font-size: 0.8125rem;
   color: var(--gray-500);
@@ -5243,14 +5491,15 @@ select.profile-input::-moz-focus-inner {
 /* Chat footer (input area at bottom) */
 .chat-footer {
   flex-shrink: 0;
-  z-index: 20;
+  z-index: 30;
   padding: 0.625rem 0.75rem;
-  padding-bottom: max(0.625rem, env(safe-area-inset-bottom));
+  padding-bottom: calc(max(0.625rem, env(safe-area-inset-bottom, 0px)) + var(--hh-keyboard-inset, 0px));
   background-color: var(--bg-90);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-top: 1px solid var(--gray-100);
   overflow: visible;
+  position: relative;
 }
 
 /* Chat input row */
@@ -5372,6 +5621,19 @@ select.profile-input::-moz-focus-inner {
   color: var(--primary);
 }
 
+.chat-chip--selected .holiday-today-pill {
+  flex-shrink: 0;
+  margin-left: 0.125rem;
+  pointer-events: none;
+}
+
+.chat-priority-hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--gray-500);
+}
+
 .chat-chip-continue {
   margin-top: 0.75rem;
   padding: 0.5rem 1rem;
@@ -5392,18 +5654,33 @@ select.profile-input::-moz-focus-inner {
 .chat-dropdown-list {
   display: none;
   position: absolute;
-  bottom: calc(100% + 0.375rem);
   left: 0;
   right: 0;
   max-height: 220px;
   overflow-y: auto;
   background: white;
   border-radius: 0.75rem;
-  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--gray-100);
   z-index: 30;
   scrollbar-width: thin;
   scrollbar-color: var(--gray-200) transparent;
+}
+
+/* Suggestions sit just above the search field (work + home steps). */
+.chat-dropdown-input-wrap .chat-dropdown-list {
+  bottom: calc(100% + 0.375rem);
+  top: auto;
+  z-index: 10050;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.12);
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.chat-dropdown-list.chat-dropdown-list--open {
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .chat-dropdown-list::-webkit-scrollbar {
@@ -5442,6 +5719,7 @@ select.profile-input::-moz-focus-inner {
 .chat-dropdown-input-wrap {
   flex: 1;
   position: relative;
+  z-index: 2;
 }
 
 .chat-dropdown-icon {
@@ -5498,30 +5776,32 @@ select.profile-input::-moz-focus-inner {
   font-size: 12px;
 }
 
-/* ========== Calendar / Plan chat overlay ========== */
+/* ========== Calendar / Plan chat overlay (same shell as Welcome onboarding in .page) ========== */
 .cal-chat-overlay {
-  position: fixed;
-  inset: 0;
-  top: 0;
+  position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  height: 100dvh;
-  max-height: 100dvh;
+  /* inset:0 ignores .page padding-top on WebView; match Welcome safe-area spacing */
+  top: env(safe-area-inset-top, 0px);
+  bottom: env(safe-area-inset-bottom, 0px);
   z-index: 50;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background-color: var(--background-light);
   transition: opacity 0.4s ease;
   overflow: hidden;
+  box-sizing: border-box;
+}
+
+.cal-chat-overlay .header {
+  flex-shrink: 0;
 }
 
 .cal-chat-overlay .chat-area {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  overflow-anchor: none;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -6255,8 +6535,14 @@ select.profile-input::-moz-focus-inner {
   background: var(--calendar-bg);
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   overflow: hidden;
+}
+
+/* Plan onboarding chat: same centered card + background as Welcome (index.html) */
+.plan-page .page.page--onboard-chat {
+  background-color: var(--background-light);
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .plan-page #planContent {
@@ -6297,6 +6583,7 @@ select.profile-input::-moz-focus-inner {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  overflow: visible;
 }
 
 .plan-title {
@@ -6307,9 +6594,9 @@ select.profile-input::-moz-focus-inner {
 }
 
 .plan-progress-inline {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   flex-shrink: 0;
 }
 
@@ -6318,6 +6605,32 @@ select.profile-input::-moz-focus-inner {
   width: 2.25rem;
   height: 2.25rem;
   flex-shrink: 0;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.plan-progress-hint {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  right: 0;
+  margin: 0;
+  width: max-content;
+  max-width: 12rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--gray-700);
+  text-align: right;
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  z-index: 40;
+  pointer-events: none;
 }
 
 .plan-progress-svg {
@@ -6432,34 +6745,6 @@ select.profile-input::-moz-focus-inner {
   background: var(--gray-100);
 }
 
-.plan-window-search-row {
-  width: 100%;
-  flex-basis: 100%;
-  padding: 0 0 0.25rem;
-}
-
-.plan-window-search-input {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.875rem;
-  font-family: inherit;
-  border: 1px solid var(--gray-200);
-  border-radius: 0.625rem;
-  background: #fff;
-  color: var(--gray-900);
-}
-
-.plan-window-search-input::placeholder {
-  color: var(--gray-400);
-}
-
-.plan-window-search-input:focus {
-  outline: none;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 2px rgba(136, 40, 226, 0.12);
-}
-
 .plan-destinations {
   position: relative;
 }
@@ -6477,6 +6762,67 @@ select.profile-input::-moz-focus-inner {
   margin: 0;
   flex: 1;
   min-width: 0;
+}
+
+/* Personalized ranking bullets (single-line carousel before destination grid) */
+.plan-ranking-bullets {
+  padding: 0 0 0.5rem;
+  margin-bottom: 0.125rem;
+}
+
+.plan-ranking-bullets[hidden] {
+  display: none;
+}
+
+.plan-ranking-lead {
+  margin: 0 0 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  letter-spacing: 0.02em;
+}
+
+.plan-ranking-slot {
+  min-height: 2.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.plan-ranking-line {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 1.125rem;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  color: var(--gray-600);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+}
+
+.plan-ranking-line--visible {
+  opacity: 1;
+}
+
+.plan-ranking-line::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+.plan-ranking-line strong {
+  color: var(--gray-800);
+  font-weight: 600;
+}
+
+.plan-dest-loading--ranking {
+  min-height: 3rem;
+  font-size: 0.8125rem;
+  color: var(--gray-500);
 }
 
 /* Plan destination filter: same shell as holidays .edit-popup-overlay + .edit-popup */

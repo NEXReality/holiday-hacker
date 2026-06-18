@@ -1,0 +1,18 @@
+{
+  "name": "Holiday Hacker",
+  "short_name": "Holiday Hacker",
+  "description": "Plan holidays and trip reminders",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#9333EA",
+  "theme_color": "#9333EA",
+  "icons": [
+    {
+      "src": "icon/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

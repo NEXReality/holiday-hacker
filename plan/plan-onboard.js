@@ -16,6 +16,12 @@
 
   if (!overlay || !chatArea || !chatFooter) return;
 
+  var pageEl = document.querySelector('.plan-page .page');
+
+  function setOnboardPageLayout(active) {
+    if (pageEl) pageEl.classList.toggle('page--onboard-chat', !!active);
+  }
+
   var raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) {
     window.location.href = '../index.html';
@@ -42,6 +48,7 @@
 
   if (planContent) planContent.style.display = 'none';
   if (glassNav) glassNav.style.display = 'none';
+  setOnboardPageLayout(true);
 
   var answers = {};
   var currentStep = 0;
@@ -80,7 +87,7 @@
     {
       type: 'input',
       key: 'travelModes',
-      botMessage: 'How would you like to get there? (Select one or more)',
+      botMessage: 'How would you like to get there? (Select one or more — tap in priority order)',
       inputType: 'chipsMulti',
       options: [
         { label: 'Car', value: 'car', icon: 'directions_car' },
@@ -119,11 +126,13 @@
     return h + ':' + (m < 10 ? '0' + m : m) + ' ' + ampm;
   }
 
-  function scrollToBottom() {
-    requestAnimationFrame(function () {
-      chatArea.scrollTop = chatArea.scrollHeight;
-    });
-  }
+  var scrollToBottom = typeof HH_bindChatScroll === 'function'
+    ? HH_bindChatScroll(chatArea, chatFooter)
+    : function () {
+        requestAnimationFrame(function () {
+          chatArea.scrollTop = chatArea.scrollHeight;
+        });
+      };
 
   function addBotMessage(text, callback) {
     var typingRow = document.createElement('div');
@@ -174,15 +183,30 @@
       if (opt.icon) html += '<span class="material-symbols-outlined">' + opt.icon + '</span> ';
       html += opt.label + '</button>';
     });
-    html += '</div><button type="button" class="chat-chip-continue" id="chatChipsContinue">Continue</button>' +
+    html += '</div>';
+    if (key === 'travelModes') {
+      html += '<p class="chat-priority-hint">Tap in priority order — your first pick is your primary mode.</p>';
+    }
+    html += '<button type="button" class="chat-chip-continue" id="chatChipsContinue">Continue</button>' +
       '<div class="chat-privacy"><span class="material-symbols-outlined">lock</span> Your data stays on this device</div>';
     chatFooter.innerHTML = html;
+    scrollToBottom();
 
     function renderSelectedState() {
       var arr = Array.isArray(answers[key]) ? answers[key] : [];
+      var primaryMode = key === 'travelModes' && arr.length ? arr[0] : null;
       chatFooter.querySelectorAll('.chat-chip[data-multi="1"]').forEach(function (btn) {
         var val = btn.getAttribute('data-value');
-        btn.classList.toggle('chat-chip--selected', arr.indexOf(val) !== -1);
+        var sel = arr.indexOf(val) !== -1;
+        btn.classList.toggle('chat-chip--selected', sel);
+        var oldPill = btn.querySelector('.holiday-today-pill');
+        if (oldPill) oldPill.remove();
+        if (sel && val === primaryMode) {
+          var pill = document.createElement('span');
+          pill.className = 'holiday-today-pill';
+          pill.textContent = 'Primary';
+          btn.appendChild(pill);
+        }
       });
     }
 
@@ -208,11 +232,10 @@
       var arr = answers[key];
       if (key === 'travelModes' && !arr.length) arr.push('car');
       var lbl = arr.length
-        ? arr.map(function (s, i) {
-            var label = (options.find(function (o) { return o.value === s; }) || {}).label || s;
-            return (key === 'travelModes' && i === 0) ? label + ' (primary)' : label;
+        ? arr.map(function (s) {
+            return (options.find(function (o) { return o.value === s; }) || {}).label || s;
           }).join(', ')
-        : (key === 'travelModes' ? 'Car (default)' : 'None selected');
+        : (key === 'travelModes' ? 'Car' : 'None selected');
       addUserMessage(lbl);
       clearFooter();
       currentStep++;
@@ -228,6 +251,7 @@
     });
     html += '</div><div class="chat-privacy"><span class="material-symbols-outlined">lock</span> Your data stays on this device</div>';
     chatFooter.innerHTML = html;
+    scrollToBottom();
 
     chatFooter.querySelectorAll('.chat-chip').forEach(function (chip) {
       chip.addEventListener('click', function () {
@@ -332,6 +356,7 @@
       overlay.style.transition = 'opacity 0.4s ease';
       setTimeout(function () {
         overlay.style.display = 'none';
+        setOnboardPageLayout(false);
         if (planContent) planContent.style.display = '';
         if (glassNav) glassNav.style.display = '';
         window.dispatchEvent(new CustomEvent('planPrefsDone', { detail: prefs }));

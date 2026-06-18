@@ -84,7 +84,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         ensureChannel(ctx);
         boolean isLeaveReminder = id.startsWith("leave-");
-        boolean isBookingPreReminder = id.startsWith("book-pre-");
+        boolean isBookingPreReminder = id.startsWith("book-pre-") || id.startsWith("book-return-pre-");
         boolean isHolidayPlanReminder = id.startsWith("holiday-");
         boolean notificationOnly = isLeaveReminder || isBookingPreReminder || isHolidayPlanReminder;
 
@@ -92,7 +92,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         AlarmStorage.AlarmEntry persisted = findEntry(ctx, id);
 
         if (notificationOnly) {
-            notifyOnly(ctx, id, title, body);
+            notifyOnly(ctx, id, title, body, persisted);
             AlarmStorage.remove(ctx, id);
             return;
         }
@@ -157,7 +157,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         );
 
         NotificationCompat.Builder nb = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-            .setSmallIcon(android.R.drawable.ic_lock_idle_alarm)
+            .setSmallIcon(R.drawable.ic_stat_notification)
             .setContentTitle(title)
             .setContentText(body)
             .setStyle(new NotificationCompat.BigTextStyle().bigText(body))
@@ -181,13 +181,19 @@ public class AlarmReceiver extends BroadcastReceiver {
         AlarmStorage.remove(ctx, id);
     }
 
-    private void notifyOnly(Context ctx, String id, String title, String body) {
+    private void notifyOnly(Context ctx, String id, String title, String body, AlarmStorage.AlarmEntry persisted) {
         int piFlags = PendingIntent.FLAG_UPDATE_CURRENT;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             piFlags |= PendingIntent.FLAG_IMMUTABLE;
         }
+
+        String route = LaunchRouter.routeForHolidayAlarm(id, persisted);
+
         Intent openIntent = new Intent(ctx, MainActivity.class);
         openIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        if (route != null) {
+            openIntent.putExtra(LaunchRouter.EXTRA_ROUTE, route);
+        }
         PendingIntent contentPi = PendingIntent.getActivity(
             ctx,
             AlarmStorage.requestCodeFor(id) + 20,
@@ -197,7 +203,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         ensureReminderChannel(ctx);
         NotificationCompat.Builder nb = new NotificationCompat.Builder(ctx, NOTIFY_CHANNEL_ID)
-            .setSmallIcon(android.R.drawable.ic_lock_idle_alarm)
+            .setSmallIcon(R.drawable.ic_stat_notification)
             .setContentTitle(title)
             .setContentText(body)
             .setStyle(new NotificationCompat.BigTextStyle().bigText(body))

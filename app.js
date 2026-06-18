@@ -26,6 +26,10 @@
       accent: true
     },
     {
+      type: 'restore',
+      botMessage: 'Already set up Holiday Hacker before? Restore your backup file and I\u2019ll skip these questions.'
+    },
+    {
       type: 'input',
       key: 'name',
       botMessage: 'First, what should I call you?',
@@ -200,11 +204,13 @@
     return h + ':' + (m < 10 ? '0' + m : m) + ' ' + ampm;
   }
 
-  function scrollToBottom() {
-    requestAnimationFrame(function () {
-      chatArea.scrollTop = chatArea.scrollHeight;
-    });
-  }
+  var scrollToBottom = typeof HH_bindChatScroll === 'function'
+    ? HH_bindChatScroll(chatArea, chatFooter)
+    : function () {
+        requestAnimationFrame(function () {
+          chatArea.scrollTop = chatArea.scrollHeight;
+        });
+      };
 
   function privacyHTML() {
     return '<div class="chat-privacy"><span class="material-symbols-outlined">lock</span> Your data stays on this device</div>';
@@ -262,11 +268,15 @@
           '<span class="material-symbols-outlined">send</span>' +
         '</button>' +
       '</div>' + privacyHTML();
+    scrollToBottom();
 
     var input = document.getElementById('chatTextInput');
     var btn = document.getElementById('btnSend');
 
-    setTimeout(function () { input.focus(); }, 100);
+    setTimeout(function () {
+      input.focus({ preventScroll: true });
+      scrollToBottom();
+    }, 100);
 
     input.addEventListener('input', function () {
       btn.disabled = !input.value.trim();
@@ -294,10 +304,121 @@
     });
     html += '</div>' + privacyHTML();
     chatFooter.innerHTML = html;
+    scrollToBottom();
 
     chatFooter.querySelectorAll('.chat-chip').forEach(function (chip) {
       chip.addEventListener('click', function () {
         handleAnswer(chip.getAttribute('data-value'));
+      });
+    });
+  }
+
+  var welcomeRestoreInput = document.getElementById('welcomeRestoreFileInput');
+
+  function backupApi() {
+    return window.HolidayHackerBackup || null;
+  }
+
+  function showRestoreChoice() {
+    chatFooter.innerHTML =
+      '<div class="chat-chips">' +
+        '<button type="button" class="chat-chip" id="welcomeRestoreBtn">' +
+          '<span class="material-symbols-outlined">upload</span> Restore backup' +
+        '</button>' +
+        '<button type="button" class="chat-chip" id="welcomeContinueBtn">' +
+          '<span class="material-symbols-outlined">arrow_forward</span> Continue setup' +
+        '</button>' +
+      '</div>' + privacyHTML();
+    scrollToBottom();
+
+    var continueBtn = document.getElementById('welcomeContinueBtn');
+    var restoreBtn = document.getElementById('welcomeRestoreBtn');
+    if (continueBtn) {
+      continueBtn.addEventListener('click', function () {
+        addUserMessage('Continue setup');
+        clearFooter();
+        currentStep++;
+        setTimeout(processStep, 350);
+      });
+    }
+    if (restoreBtn) {
+      restoreBtn.addEventListener('click', beginWelcomeRestore);
+    }
+  }
+
+  function showRestoreError(message) {
+    addBotMessage(message, false, function () {
+      showRestoreChoice();
+    });
+  }
+
+  function beginWelcomeRestore() {
+    addUserMessage('Restore backup');
+    clearFooter();
+
+    var api = backupApi();
+    if (!api || typeof api.pickBackupForRestore !== 'function') {
+      if (welcomeRestoreInput) {
+        welcomeRestoreInput.value = '';
+        welcomeRestoreInput.click();
+      } else {
+        showRestoreError('Restore is not available on this device.');
+      }
+      return;
+    }
+
+    api.pickBackupForRestore().then(function (pickResult) {
+      if (pickResult && pickResult.needFileInput) {
+        if (welcomeRestoreInput) {
+          welcomeRestoreInput.value = '';
+          welcomeRestoreInput.click();
+        } else {
+          showRestoreError('Could not open the file picker.');
+        }
+        return;
+      }
+      if (!pickResult || !pickResult.ok) {
+        if (pickResult && pickResult.error === 'No file selected') {
+          showRestoreChoice();
+          return;
+        }
+        showRestoreError((pickResult && pickResult.error) || 'Could not read that backup file.');
+        return;
+      }
+      finishWelcomeRestore(pickResult);
+    });
+  }
+
+  function finishWelcomeRestore(pickResult) {
+    var api = backupApi();
+    if (!api || typeof api.restoreFromPickResult !== 'function') {
+      showRestoreError('Restore is not available.');
+      return;
+    }
+    var restored = api.restoreFromPickResult(pickResult);
+    if (!restored || !restored.ok) {
+      showRestoreError((restored && restored.error) || 'Restore failed.');
+    }
+  }
+
+  if (welcomeRestoreInput) {
+    welcomeRestoreInput.addEventListener('change', function () {
+      var file = welcomeRestoreInput.files && welcomeRestoreInput.files[0];
+      if (!file) {
+        showRestoreChoice();
+        return;
+      }
+      var api = backupApi();
+      if (!api || typeof api.readBackupFile !== 'function') {
+        showRestoreError('Restore is not available.');
+        return;
+      }
+      api.readBackupFile(file).then(function (pickResult) {
+        if (!pickResult || !pickResult.ok) {
+          showRestoreError((pickResult && pickResult.error) || 'Could not read that backup file.');
+          return;
+        }
+        finishWelcomeRestore(pickResult);
       });
     });
   }
@@ -313,6 +434,7 @@
         '</button>' +
       '</div>' + privacyHTML();
     chatFooter.innerHTML = html;
+    scrollToBottom();
 
     var slider  = document.getElementById('chatSlider');
     var display = document.getElementById('sliderDisplay');
@@ -334,9 +456,9 @@
 
     chatFooter.innerHTML =
       '<div class="chat-dropdown-wrap" id="dropdownWrap">' +
-        '<div class="chat-dropdown-list" id="dropdownList"></div>' +
         '<div class="chat-input-row">' +
           '<div class="chat-dropdown-input-wrap">' +
+            '<div class="chat-dropdown-list" id="dropdownList"></div>' +
             '<span class="material-symbols-outlined chat-dropdown-icon">search</span>' +
             '<input type="text" class="chat-text-input chat-text-input--search" id="chatSearchInput" placeholder="' + placeholder + '" autocomplete="off"/>' +
           '</div>' +
@@ -346,17 +468,25 @@
         '</div>' +
         sameHTML +
       '</div>' + privacyHTML();
+    scrollToBottom();
 
     var searchInput = document.getElementById('chatSearchInput');
     var list = document.getElementById('dropdownList');
     var btnSend = document.getElementById('btnSend');
     var selectedValue = '';
+    var positionDropdown = typeof HH_bindDropdownViewport === 'function'
+      ? HH_bindDropdownViewport(list, searchInput)
+      : function () {};
 
-    setTimeout(function () { searchInput.focus(); }, 100);
+    setTimeout(function () {
+      searchInput.focus({ preventScroll: true });
+      scrollToBottom();
+    }, 100);
 
     function renderList(query) {
       if (!query) {
         list.style.display = 'none';
+        if (typeof HH_clearDropdownPosition === 'function') HH_clearDropdownPosition(list);
         return;
       }
       var filtered = cityData.filter(function (item) {
@@ -364,6 +494,7 @@
       });
       if (!filtered.length) {
         list.style.display = 'none';
+        if (typeof HH_clearDropdownPosition === 'function') HH_clearDropdownPosition(list);
         return;
       }
       filtered.sort(function (a, b) {
@@ -381,13 +512,18 @@
           searchInput.value = item.label;
           selectedValue = item.label;
           list.style.display = 'none';
+          if (typeof HH_clearDropdownPosition === 'function') HH_clearDropdownPosition(list);
           btnSend.disabled = false;
           searchInput.blur();
         });
         list.appendChild(btn);
       });
       list.style.display = 'block';
-      scrollToBottom();
+      list.hidden = false;
+      positionDropdown();
+      if (typeof HH_bindDropdownViewport === 'function') {
+        setTimeout(positionDropdown, 80);
+      }
     }
 
     searchInput.addEventListener('input', function () {
@@ -419,6 +555,7 @@
           searchInput.disabled = true;
           btnSend.disabled = false;
           list.style.display = 'none';
+          if (typeof HH_clearDropdownPosition === 'function') HH_clearDropdownPosition(list);
         } else {
           searchInput.value = '';
           selectedValue = '';
@@ -487,6 +624,10 @@
           currentStep++;
           processStep();
         }
+      });
+    } else if (step.type === 'restore') {
+      addBotMessage(botMsg, false, function () {
+        showRestoreChoice();
       });
     } else if (step.type === 'input') {
       addBotMessage(botMsg, false, function () {

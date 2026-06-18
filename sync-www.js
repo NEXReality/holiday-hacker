@@ -29,9 +29,13 @@ const COPY_FILES = [
   'index.html',
   'app.js',
   'boot-version.js',
+  'backup-restore.js',
+  'alarm-reliability.js',
+  'onboard-scroll.js',
   'holiday-shift.js',
   'styles.css',
-  'privacy.html'
+  'privacy.html',
+  'manifest.webmanifest'
 ];
 
 /** Directory names skipped anywhere in the tree. */
@@ -55,8 +59,7 @@ const SKIP_EXTENSIONS = new Set([
 /** Exact basenames to skip even if extension is allowed. */
 const SKIP_BASENAMES = new Set([
   'Project plan.txt', 'Todo.txt', 'package.json', 'package-lock.json',
-  'capacitor.config.json', 'sync-www.js', 'BUILD.md', 'STORE_LISTING.md',
-  'PLAY_STORE_RELEASE.md'
+  'capacitor.config.json', 'sync-www.js', 'README.md'
 ]);
 
 let stats = { files: 0, bytes: 0, skipped: 0 };
@@ -136,6 +139,14 @@ COPY_DIRS.forEach(function (dir) {
     console.warn('[sync-www] missing directory:', dir);
   }
 });
+
+var iconDir = path.join(SRC, 'icon');
+if (fs.existsSync(iconDir)) {
+  copyTree(iconDir, path.join(DST, 'icon'), 'icon');
+  dirCount++;
+} else {
+  console.warn('[sync-www] missing directory: icon (run npm run android:icon)');
+}
 
 var sizeMb = (stats.bytes / (1024 * 1024)).toFixed(2);
 console.log('[sync-www] copied ' + rootCount + ' root file(s) + ' + dirCount + ' folder(s)');

@@ -6,6 +6,7 @@
   var SELECTED_BRIDGES_KEY = 'holidayHacker_selectedBridges';
   var PLANNED_TRIPS_KEY = 'holidayHacker_plannedTrips';
   var PLAN_SELECTED_KEY = 'holidayHacker_planSelectedWindow';
+  var RANKING_SEEN_KEY = 'holidayHacker_planRankingSeen';
   var TRAVEL_PREFS_KEY = 'holidayHacker_travelPreferences';
   var PLAN_SELECTED_DEST_KEY = 'holidayHacker_planSelectedDestination';
   var CONFIRMED_TRIPS_KEY = 'holidayHacker_confirmedTrips';
@@ -13,28 +14,85 @@
   var VISITED_PLACES_KEY = 'holidayHacker_visitedPlaces';
   var CAL_DONE_KEY = 'holidayHacker_calSetup';
   var INITIAL_DEST_COUNT = 3;
+  var RANKING_BULLET_CYCLE_MS = 1200;
+  var RANKING_BULLET_FADE_MS = 280;
+  var RANKING_RESULTS_REVEAL_MS = 2000;
   var HOMETOWN_SLUG = '__hometown__';
   var HOMETOWN_IMAGE_URL = 'https://img.freepik.com/free-vector/suburban-house-illustration_33099-2357.jpg';
   var DEST_PLACEHOLDER_IMAGE_URL = 'https://img.magnific.com/premium-vector/summer-time-car-beach-with-few-suitcase-vacation-travel-huge-pile-things-holiday-flat-cartoon-style-illustration-landscape-concept-isolated_185796-16.jpg';
 
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var MONTHS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+  var MODE_LABELS = { car: 'Car', bus: 'Bus', train: 'Train', flight: 'Flight' };
+  var SEGMENT_LABELS = {
+    beach: 'Beach / Coastal',
+    mountain: 'Mountain / Hills',
+    heritage: 'Heritage / Culture',
+    wildlife: 'Wildlife / Nature',
+    city: 'City / Urban',
+    spiritual: 'Spiritual / Pilgrimage'
+  };
+  var SEGMENT_SHORT = {
+    beach: 'Beach',
+    mountain: 'Hills',
+    heritage: 'Heritage',
+    wildlife: 'Wildlife',
+    city: 'City',
+    spiritual: 'Spiritual'
+  };
+
+  var _rankingCycleTimer = null;
+  var _rankingEarlyRevealTimer = null;
 
   var scrollEl = document.getElementById('planWindowsScroll');
   var progressText = document.getElementById('planProgressText');
   var progressFill = document.getElementById('planProgressFill');
+  var progressWrap = document.getElementById('planProgressWrap');
+  var progressHint = document.getElementById('planProgressHint');
+  var _progressHintPct = 0;
+
+  function getCurrentYear() {
+    return new Date().getFullYear();
+  }
+
+  function todayISO() {
+    var n = new Date();
+    n.setHours(0, 0, 0, 0);
+    var y = n.getFullYear();
+    var m = n.getMonth() + 1;
+    var d = n.getDate();
+    return y + '-' + (m < 10 ? '0' : '') + m + '-' + (d < 10 ? '0' : '') + d;
+  }
+
+  function yearEndISO(year) {
+    return year + '-12-31';
+  }
+
+  function windowOverlapsYear(item, year) {
+    if (!item || !item.start || !item.end) return false;
+    return item.start <= yearEndISO(year) && item.end >= (year + '-01-01');
+  }
+
+  function isWindowUpcoming(item) {
+    return !!(item && item.end && item.end >= todayISO());
+  }
 
   var allWindows = [];
   var currentFilter = 'all';
-  var searchQuery = '';
   var destSearchQuery = '';
   var currentUser = null;
   var planDestFilterListenersBound = false;
   var planDestFilterJurisdictions = [];
 
   function formatRange(start, end) {
-    var s = new Date(start + 'T00:00:00');
-    var e = new Date(end + 'T00:00:00');
-    return MONTHS[s.getMonth()] + ' ' + s.getDate() + ' – ' + MONTHS[e.getMonth()] + ' ' + e.getDate();
+    return fmtDateWithYear(start) + ' – ' + fmtDateWithYear(end);
+  }
+
+  function fmtDateWithYear(iso) {
+    if (!iso) return '';
+    var d = new Date(iso + 'T00:00:00');
+    return MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
   }
 
   function formatStateDisplayName(state) {
@@ -143,14 +201,10 @@
   }
 
   function filterWindows() {
-    var list = allWindows;
+    var list = allWindows.filter(isWindowUpcoming);
     if (currentFilter === 'free') list = list.filter(function (w) { return w.type === 'free'; });
     else if (currentFilter === 'golden') list = list.filter(function (w) { return w.type === 'golden'; });
     else if (currentFilter === 'mega') list = list.filter(function (w) { return w.type === 'mega'; });
-    if (searchQuery) {
-      var q = searchQuery.toLowerCase();
-      list = list.filter(function (w) { return w.name.toLowerCase().indexOf(q) !== -1; });
-    }
     return list;
   }
 
@@ -259,13 +313,6 @@
         link: true
       };
     }
-    if (searchQuery) {
-      return {
-        title: 'No windows match your search',
-        body: 'Try a different search term.',
-        link: false
-      };
-    }
     var msg = {};
     if (currentFilter === 'free') {
       msg = { title: 'No free holidays selected', body: 'Go to Calendar or Holidays and toggle "Plan trip?" on free holidays.', link: true };
@@ -326,24 +373,84 @@
     });
   }
 
+  function progressHintText(year, pct) {
+    return 'Using ' + pct + '% of hackable days in ' + year;
+  }
+
+  function hideProgressHint() {
+    if (!progressHint || !progressWrap) return;
+    progressHint.hidden = true;
+    progressWrap.setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleProgressHint() {
+    if (!progressHint || !progressWrap) return;
+    var open = progressHint.hidden;
+    if (open) {
+      progressHint.textContent = progressHintText(getCurrentYear(), _progressHintPct);
+      progressHint.hidden = false;
+      progressWrap.setAttribute('aria-expanded', 'true');
+    } else {
+      hideProgressHint();
+    }
+  }
+
+  function wireProgressHint() {
+    if (!progressWrap) return;
+    progressWrap.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleProgressHint();
+    });
+    progressWrap.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleProgressHint();
+      }
+      if (e.key === 'Escape') hideProgressHint();
+    });
+    document.addEventListener('click', function (e) {
+      if (!progressWrap.contains(e.target) && !(progressHint && progressHint.contains(e.target))) {
+        hideProgressHint();
+      }
+    });
+  }
+
   function updateProgress() {
     if (!progressText || !progressFill) return;
+    var year = getCurrentYear();
     var data = getAdvisorData();
     var totalDays = 0;
-    (data.gifts || []).forEach(function (g) { totalDays += (g.days || 0); });
-    (data.bridges || []).forEach(function (b) { totalDays += (b.days || 0); });
-    (data.megas || []).forEach(function (m) { totalDays += (m.days || 0); });
+    (data.gifts || []).forEach(function (g) {
+      if (windowOverlapsYear(g, year)) totalDays += (g.days || 0);
+    });
+    (data.bridges || []).forEach(function (b) {
+      if (windowOverlapsYear(b, year)) totalDays += (b.days || 0);
+    });
+    (data.megas || []).forEach(function (m) {
+      if (windowOverlapsYear(m, year)) totalDays += (m.days || 0);
+    });
 
     if (totalDays <= 0) {
       progressText.textContent = '0%';
+      _progressHintPct = 0;
+      if (progressHint && !progressHint.hidden) {
+        progressHint.textContent = progressHintText(year, 0);
+      }
       progressFill.setAttribute('stroke-dashoffset', 100);
       return;
     }
 
-    var usedDays = allWindows.reduce(function (s, w) { return s + (w.days || 0); }, 0);
+    var usedDays = allWindows.filter(function (w) {
+      return windowOverlapsYear(w, year);
+    }).reduce(function (s, w) { return s + (w.days || 0); }, 0);
     var pct = Math.min(100, Math.round((usedDays / totalDays) * 100));
+    _progressHintPct = pct;
 
     progressText.textContent = pct + '%';
+    if (progressHint && !progressHint.hidden) {
+      progressHint.textContent = progressHintText(year, pct);
+    }
+    if (progressWrap) progressWrap.setAttribute('aria-label', progressHintText(year, pct));
     var circumference = 100;
     progressFill.setAttribute('stroke-dashoffset', circumference - (pct / 100) * circumference);
   }
@@ -365,30 +472,13 @@
     });
   }
 
-  function wireSearch() {
-    var input = document.getElementById('planWindowSearch');
-    if (!input) return;
-    input.value = searchQuery;
-    input.addEventListener('input', function () {
-      searchQuery = (input.value || '').trim();
-      renderWindows();
-    });
-    input.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') {
-        input.blur();
-        input.value = '';
-        searchQuery = '';
-        renderWindows();
-      }
-    });
-  }
-
   function wireDestSearch() {
     var el = document.getElementById('planDestSearch');
     if (!el) return;
     el.addEventListener('input', function () {
       destSearchQuery = (el.value || '').trim();
       destVisibleCount = INITIAL_DEST_COUNT;
+      cancelRankingReveal();
       renderDestinations();
     });
   }
@@ -925,10 +1015,13 @@
       var modes = p.travelModes || (p.travelMode ? [p.travelMode] : null) || ['car'];
       return {
         travelModes: Array.isArray(modes) && modes.length ? modes : ['car'],
+        travelParty: p.travelParty || 'solo',
         hasKidsUnder10: !!p.hasKidsUnder10,
         destinationSegments: Array.isArray(p.destinationSegments) ? p.destinationSegments : []
       };
-    } catch (e) { return { travelModes: ['car'], hasKidsUnder10: false, destinationSegments: [] }; }
+    } catch (e) {
+      return { travelModes: ['car'], travelParty: 'solo', hasKidsUnder10: false, destinationSegments: [] };
+    }
   }
 
   /** Modes that can reach this destination from the user's mainland city (car|bus|train|flight). */
@@ -1734,6 +1827,206 @@
     renderDestinations();
   }
 
+  function getSelectedWindow() {
+    var sel = getPlanSelected();
+    if (!sel) return null;
+    for (var i = 0; i < allWindows.length; i++) {
+      if (allWindows[i].start === sel) return allWindows[i];
+    }
+    return null;
+  }
+
+  function cancelRankingEarlyReveal() {
+    if (_rankingEarlyRevealTimer) {
+      clearTimeout(_rankingEarlyRevealTimer);
+      _rankingEarlyRevealTimer = null;
+    }
+  }
+
+  function cancelRankingCarousel() {
+    if (_rankingCycleTimer) {
+      clearTimeout(_rankingCycleTimer);
+      _rankingCycleTimer = null;
+    }
+  }
+
+  function cancelRankingReveal() {
+    cancelRankingEarlyReveal();
+    cancelRankingCarousel();
+  }
+
+  function loadRankingSeenList() {
+    try {
+      var arr = JSON.parse(localStorage.getItem(RANKING_SEEN_KEY) || '[]');
+      if (!Array.isArray(arr)) return [];
+      return arr.filter(function (s) { return typeof s === 'string' && s; });
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function hasRankingBeenSeen(windowStart) {
+    if (!windowStart) return false;
+    return loadRankingSeenList().indexOf(windowStart) !== -1;
+  }
+
+  function markRankingSeen(windowStart) {
+    if (!windowStart) return;
+    var arr = loadRankingSeenList();
+    if (arr.indexOf(windowStart) !== -1) return;
+    arr.push(windowStart);
+    try {
+      localStorage.setItem(RANKING_SEEN_KEY, JSON.stringify(arr));
+    } catch (e) { /* ignore */ }
+  }
+
+  function formatModesPhrase(modes) {
+    var labels = (modes || ['car']).map(function (m) {
+      return MODE_LABELS[m] || m;
+    });
+    if (labels.length === 1) return labels[0];
+    if (labels.length === 2) return labels[0] + ' & ' + labels[1];
+    return labels.slice(0, -1).join(', ') + ' & ' + labels[labels.length - 1];
+  }
+
+  function formatSegmentsPhrase(segments, short) {
+    if (!segments || !segments.length) return '';
+    var map = short ? SEGMENT_SHORT : SEGMENT_LABELS;
+    return segments.map(function (s) {
+      return map[s] || s;
+    }).join(', ');
+  }
+
+  function buildFamilyBullet(prefs) {
+    if (prefs.hasKidsUnder10) {
+      return 'Keeping <strong>young kids</strong> in mind — easier, family-friendly places first.';
+    }
+    var party = prefs.travelParty || 'solo';
+    if (party === 'couple') return 'Planning for a <strong>couple</strong> getaway.';
+    if (party === 'family') return 'Planning for a <strong>family</strong> trip.';
+    if (party === 'group') return 'Suited for <strong>group</strong> travel.';
+    return 'Tailored for <strong>solo</strong> travel.';
+  }
+
+  function buildRankingBullets(win, prefs) {
+    var monthName = '';
+    if (win && win.start) {
+      var parts = win.start.split('-');
+      var mi = parseInt(parts[1], 10);
+      if (mi >= 1 && mi <= 12) monthName = MONTHS_FULL[mi - 1];
+    }
+    if (!monthName) monthName = MONTHS_FULL[new Date().getMonth()];
+
+    var days = win ? (win.days || 2) : getAvailableDays();
+    var dayLabel = days === 1 ? '1-day' : (days + '-day');
+
+    var bullets = [];
+    bullets.push('Considering the <strong>' + monthName + '</strong> break.');
+    bullets.push('For a <strong>' + dayLabel + '</strong> break.');
+    bullets.push('Better for <strong>' + formatModesPhrase(prefs.travelModes) + '</strong> travel.');
+
+    var segPhrase = formatSegmentsPhrase(prefs.destinationSegments, true);
+    if (segPhrase) {
+      bullets.push('As per your preferred destinations like <strong>' + segPhrase + '</strong>.');
+    } else {
+      bullets.push('Showing a <strong>balanced mix</strong> until you add place preferences in Profile.');
+    }
+
+    bullets.push(buildFamilyBullet(prefs));
+    return bullets;
+  }
+
+  function hideRankingBullets() {
+    var el = document.getElementById('planRankingBullets');
+    if (!el) return;
+    el.hidden = true;
+    el.innerHTML = '';
+  }
+
+  function startRankingBulletCarousel(bullets, onFinish) {
+    var el = document.getElementById('planRankingBullets');
+    if (!el || !bullets.length) {
+      if (onFinish) onFinish();
+      return;
+    }
+    el.hidden = false;
+    el.innerHTML =
+      '<p class="plan-ranking-lead">Personalising for you…</p>' +
+      '<div class="plan-ranking-slot">' +
+        '<p class="plan-ranking-line" id="planRankingLine"></p>' +
+      '</div>';
+    var line = document.getElementById('planRankingLine');
+    if (!line) {
+      if (onFinish) onFinish();
+      return;
+    }
+
+    cancelRankingCarousel();
+
+    var index = 0;
+    function showStep() {
+      if (index >= bullets.length) {
+        if (onFinish) onFinish();
+        return;
+      }
+      line.innerHTML = bullets[index];
+      line.classList.remove('plan-ranking-line--visible');
+      index++;
+      requestAnimationFrame(function () {
+        line.classList.add('plan-ranking-line--visible');
+        _rankingCycleTimer = setTimeout(function () {
+          line.classList.remove('plan-ranking-line--visible');
+          _rankingCycleTimer = setTimeout(showStep, RANKING_BULLET_FADE_MS);
+        }, RANKING_BULLET_CYCLE_MS);
+      });
+    }
+    showStep();
+  }
+
+  function showRankingPlaceholderGrid() {
+    var grid = document.getElementById('planDestGrid');
+    if (!grid) return;
+    var showHometown = !!(currentUser && hasDistinctHometown(currentUser));
+    var homeParsed = showHometown ? parseHomeLocation(currentUser) : null;
+    if (showHometown && !homeParsed) showHometown = false;
+    var hometownHtml = (showHometown && homeParsed && !(destSearchQuery || '').trim() && !isPlanDestFilterActive())
+      ? renderHometownCard(homeParsed, false)
+      : '';
+    grid.innerHTML = hometownHtml +
+      '<div class="plan-dest-loading plan-dest-loading--ranking" id="planDestLoading">Finding matches…</div>';
+  }
+
+  function scheduleDestinationsReveal() {
+    var win = getSelectedWindow();
+    var sel = win ? win.start : null;
+    if (!sel) {
+      cancelRankingReveal();
+      hideRankingBullets();
+      renderDestinations();
+      return;
+    }
+
+    var prefs = getTravelPrefs();
+    var bullets = buildRankingBullets(win, prefs);
+    var animate = !hasRankingBeenSeen(sel);
+
+    if (!animate) {
+      cancelRankingReveal();
+      hideRankingBullets();
+      renderDestinations();
+      return;
+    }
+
+    markRankingSeen(sel);
+    cancelRankingReveal();
+    showRankingPlaceholderGrid();
+    _rankingEarlyRevealTimer = setTimeout(function () {
+      _rankingEarlyRevealTimer = null;
+      renderDestinations();
+    }, RANKING_RESULTS_REVEAL_MS);
+    startRankingBulletCarousel(bullets, hideRankingBullets);
+  }
+
   function renderPlanDestNoResultsHtml() {
     var searchActive = !!(destSearchQuery || '').trim();
     var filterActive = isPlanDestFilterActive();
@@ -1766,6 +2059,8 @@
   }
 
   function renderDestinations() {
+    cancelRankingEarlyReveal();
+
     var grid = document.getElementById('planDestGrid');
     var loading = document.getElementById('planDestLoading');
     var destSection = document.querySelector('.plan-destinations');
@@ -1775,6 +2070,7 @@
     var hasSelectedWindow = sel && allWindows.some(function (w) { return w.start === sel; });
 
     if (!hasSelectedWindow || allWindows.length === 0) {
+      hideRankingBullets();
       if (destSection) destSection.style.display = 'none';
       updatePlanDestFilterDestinationCount(0);
       updatePlanDestFilterTriggerUI();
@@ -1975,7 +2271,7 @@
     });
 
     destVisibleCount = INITIAL_DEST_COUNT;
-    renderDestinations();
+    scheduleDestinationsReveal();
   }
 
   function fetchRecommendationData(user) {
@@ -2042,7 +2338,7 @@
     }
     updateUI();
     wireFilterPills();
-    wireSearch();
+    wireProgressHint();
     wireDestSearch();
     wirePlanDestFilter();
     if (allWindows.length) {

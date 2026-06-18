@@ -39,6 +39,70 @@
   };
 })();
 
+/* ─── Notification tap → Trips deep link ─────────────────── */
+(function () {
+  'use strict';
+
+  function alarmPlugin() {
+    try {
+      if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.HolidayAlarm) {
+        return window.Capacitor.Plugins.HolidayAlarm;
+      }
+    } catch (_) {}
+    return null;
+  }
+
+  function currentPath() {
+    try {
+      return (window.location.pathname || '').replace(/\\/g, '/');
+    } catch (_) {
+      return '';
+    }
+  }
+
+  function routeTargetPath(route) {
+    if (!route) return '';
+    var path = route.split('?')[0];
+    if (path.indexOf('://') !== -1) {
+      try { path = new URL(path).pathname; } catch (_) {}
+    }
+    return path.replace(/\\/g, '/');
+  }
+
+  function followPendingRoute() {
+    var p = alarmPlugin();
+    if (!p || !p.getPendingRoute) return Promise.resolve();
+    return p.getPendingRoute().then(function (res) {
+      var route = res && res.route;
+      if (!route) return;
+      var href = route.charAt(0) === '/' ? route : ('/' + route);
+      var here = currentPath() + (window.location.search || '');
+      var targetPath = routeTargetPath(route);
+      var targetQs = route.indexOf('?') !== -1 ? route.slice(route.indexOf('?')) : '';
+      var targetFull = targetPath + targetQs;
+      if (here.endsWith(targetFull) || here === targetFull) return;
+      window.location.href = href;
+    }).catch(function () {});
+  }
+
+  function scheduleRouteFollow() {
+    setTimeout(followPendingRoute, 300);
+    setTimeout(followPendingRoute, 1200);
+  }
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') scheduleRouteFollow();
+  });
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scheduleRouteFollow);
+  } else {
+    scheduleRouteFollow();
+  }
+
+  window.HolidayHackerLaunch = { followPendingRoute: followPendingRoute };
+})();
+
 /* ===========================================================================
  * Holiday Hacker — Play Store In-App Update gate
  *
