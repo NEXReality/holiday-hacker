@@ -7,6 +7,8 @@
   var CAL_DONE_KEY  = 'holidayHacker_calSetup';
   var ADVISOR_SEEN_KEY = 'holidayHacker_advisorSeen';
   var SELECTED_BRIDGES_KEY = 'holidayHacker_selectedBridges';
+  var PLAN_ADDED_AT_KEY = 'holidayHacker_planWindowAddedAt';
+  var PLAN_SELECTED_KEY = 'holidayHacker_planSelectedWindow';
   var CONFIRMED_TRIPS_KEY = 'holidayHacker_confirmedTrips';
   var DB_BASE       = '../database/holiday';
   var SC_JSON       = '../database/state-city/data.json';
@@ -579,13 +581,18 @@
       if (!isWeekOff(addDays(startSat, spanDays - 1))) return;
 
       var holSet = {};
+      var firstHolidayName = null;
       streak.forEach(function (iso) {
         var hv = holidaySet[iso];
-        if (hv && !isCustomLeaveMarker(hv)) holSet[iso] = true;
+        if (hv && !isCustomLeaveMarker(hv)) {
+          holSet[iso] = true;
+          if (!firstHolidayName) firstHolidayName = holidayNameFromMarker(hv);
+        }
       });
 
+      var bridgeKind = spanDays === 9 ? 'Mega-Bridge' : 'Long Bridge';
       results.push({
-        name: spanDays === 9 ? 'Mega-Bridge' : 'Long Bridge',
+        name: (firstHolidayName || 'Holiday') + ' ' + bridgeKind,
         start: streak[0],
         end: streak[spanDays - 1],
         days: spanDays,
@@ -976,7 +983,7 @@
     var leaveLabels = m.leaveDays.map(function (iso) { return formatLeaveLabel(iso); });
     var leaveStr = 'Leave on: ' + leaveLabels.join(' &amp; ');
     var barHtml = buildMegaPatternDisplay(m);
-    var title = m.days === 9 ? '9-Day Mega-Bridge' : (m.days + '-Day Long Bridge');
+    var title = m.name || (m.days === 9 ? 'Mega-Bridge' : 'Long Bridge');
     var sel = getSelectedBridges().indexOf(m.start) !== -1;
 
     return '<div class="advisor-card advisor-card--mega" data-bridge-start="' + m.start + '" data-bridge-leaves="' + m.leaves + '">' +
@@ -1082,11 +1089,37 @@
     } catch (e) { return []; }
   }
 
+  function markPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+      map[start] = Date.now();
+      localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+      localStorage.setItem(PLAN_SELECTED_KEY, JSON.stringify(start));
+    } catch (e) {}
+  }
+
+  function clearPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+      if (map[start] != null) {
+        delete map[start];
+        localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+      }
+    } catch (e) {}
+  }
+
   function setSelectedBridge(start, selected) {
     var arr = getSelectedBridges();
     var idx = arr.indexOf(start);
-    if (selected && idx === -1) arr.push(start);
-    else if (!selected && idx !== -1) arr.splice(idx, 1);
+    if (selected && idx === -1) {
+      arr.push(start);
+      markPlanWindowAdded(start);
+    } else if (!selected && idx !== -1) {
+      arr.splice(idx, 1);
+      clearPlanWindowAdded(start);
+    }
     localStorage.setItem(SELECTED_BRIDGES_KEY, JSON.stringify(arr));
     window.dispatchEvent(new CustomEvent('bridgeSelectionChange'));
   }

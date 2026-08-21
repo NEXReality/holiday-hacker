@@ -6,6 +6,7 @@
   var SELECTED_BRIDGES_KEY = 'holidayHacker_selectedBridges';
   var PLANNED_TRIPS_KEY = 'holidayHacker_plannedTrips';
   var PLAN_SELECTED_KEY = 'holidayHacker_planSelectedWindow';
+  var PLAN_ADDED_AT_KEY = 'holidayHacker_planWindowAddedAt';
   var RANKING_SEEN_KEY = 'holidayHacker_planRankingSeen';
   var TRAVEL_PREFS_KEY = 'holidayHacker_travelPreferences';
   var PLAN_SELECTED_DEST_KEY = 'holidayHacker_planSelectedDestination';
@@ -155,6 +156,41 @@
     localStorage.setItem(PLAN_SELECTED_KEY, JSON.stringify(start));
   }
 
+  function getPlanAddedAtMap() {
+    try {
+      return JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+    } catch (e) { return {}; }
+  }
+
+  /* Most recently toggled-on window (Plan trip? / Bridge it?) floats to the
+     front of the strip; every other card stays soonest → latest by start date. */
+  function latestPinnedStart(starts) {
+    var map = getPlanAddedAtMap();
+    var best = null;
+    var bestT = -1;
+    (starts || []).forEach(function (s) {
+      var t = map[s];
+      if (typeof t === 'number' && t > bestT) {
+        bestT = t;
+        best = s;
+      }
+    });
+    return best;
+  }
+
+  function sortWindowsByPlanRule(list) {
+    var pinned = latestPinnedStart(list.map(function (w) { return w.start; }));
+    list.sort(function (a, b) {
+      if (pinned) {
+        if (a.start === pinned && b.start !== pinned) return -1;
+        if (b.start === pinned && a.start !== pinned) return 1;
+      }
+      /* Soonest last: later dates first. */
+      return b.start.localeCompare(a.start);
+    });
+    return list;
+  }
+
   function buildAllWindows() {
     var data = getAdvisorData();
     var selected = getSelectedBridges();
@@ -191,13 +227,11 @@
     /* Mega bridges: show only those toggled on in Calendar */
     (data.megas || []).forEach(function (m) {
       if (selected.indexOf(m.start) !== -1) {
-        var n = m.days === 9 ? '9-Day Mega-Bridge' : (m.days + '-Day Long Bridge');
-        list.push({ type: 'mega', name: n, start: m.start, end: m.end, days: m.days, leaves: m.leaves });
+        list.push({ type: 'mega', name: m.name || 'Mega-Bridge', start: m.start, end: m.end, days: m.days, leaves: m.leaves });
       }
     });
 
-    list.sort(function (a, b) { return a.start.localeCompare(b.start); });
-    return list;
+    return sortWindowsByPlanRule(list);
   }
 
   function filterWindows() {
@@ -205,7 +239,7 @@
     if (currentFilter === 'free') list = list.filter(function (w) { return w.type === 'free'; });
     else if (currentFilter === 'golden') list = list.filter(function (w) { return w.type === 'golden'; });
     else if (currentFilter === 'mega') list = list.filter(function (w) { return w.type === 'mega'; });
-    return list;
+    return sortWindowsByPlanRule(list);
   }
 
   function getCardTypeClass(w) {
@@ -359,6 +393,7 @@
       return renderWindowCard(w, selectedStart === w.start);
     }).join('');
     scrollEl.innerHTML = html;
+    scrollEl.scrollLeft = 0;
     scrollEl.querySelectorAll('.plan-window-card').forEach(function (card) {
       card.addEventListener('click', function () {
         var start = card.getAttribute('data-start');
@@ -1703,6 +1738,7 @@
           if (existing >= 0) {
             if (trips[existing].destination && trips[existing].destination.slug === HOMETOWN_SLUG) {
               trips.splice(existing, 1);
+              clearPlanWindowAdded(w.start);
             } else {
               trips[existing] = entry;
               didAddHome = true;
@@ -1711,6 +1747,7 @@
             trips.push(entry);
             didAddHome = true;
           }
+          if (didAddHome) markPlanWindowAdded(w.start);
           setConfirmedTrips(trips);
           renderWindows();
           renderDestinations();
@@ -1746,6 +1783,7 @@
         if (existing >= 0) {
           if (trips[existing].destination && trips[existing].destination.slug === slug) {
             trips.splice(existing, 1);
+            clearPlanWindowAdded(w.start);
           } else {
             trips[existing] = entry2;
             didAddDest = true;
@@ -1754,6 +1792,7 @@
           trips.push(entry2);
           didAddDest = true;
         }
+        if (didAddDest) markPlanWindowAdded(w.start);
         setConfirmedTrips(trips);
         renderWindows();
         renderDestinations();
@@ -1770,6 +1809,26 @@
 
   function setConfirmedTrips(trips) {
     localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(trips));
+  }
+
+  function markPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+      map[start] = Date.now();
+      localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+    } catch (e) {}
+  }
+
+  function clearPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+      if (map[start] != null) {
+        delete map[start];
+        localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+      }
+    } catch (e) {}
   }
 
   var _planToastTimer = null;
@@ -2330,7 +2389,11 @@
     allWindows = buildAllWindows();
     syncConfirmedTripsToWindows();
     var sel = getPlanSelected();
-    if (!sel && allWindows.length) {
+    var pinned = latestPinnedStart(allWindows.map(function (w) { return w.start; }));
+    if (pinned) {
+      setPlanSelected(pinned);
+      sel = pinned;
+    } else if (!sel && allWindows.length) {
       setPlanSelected(allWindows[0].start);
     }
     if (sel && !allWindows.some(function (w) { return w.start === sel; })) {

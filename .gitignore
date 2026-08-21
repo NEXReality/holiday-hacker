@@ -45,3 +45,5 @@ android/keystore.properties
 .DS_Store
 Thumbs.db
 desktop.ini
+# video
+video promo/

@@ -9,6 +9,7 @@
   var FAVORITES_KEY       = 'holidayHacker_favorites';
   var TRIP_SETTINGS_KEY   = 'holidayHacker_tripSettings';
   var REARM_AFTER_RESTORE = 'holidayHacker_rearmAfterRestore';
+  var PLAN_ADDED_AT_KEY   = 'holidayHacker_planWindowAddedAt';
   var HOMETOWN_IMAGE_URL  = 'https://img.freepik.com/free-vector/suburban-house-illustration_33099-2357.jpg';
   var DEST_PLACEHOLDER_IMAGE_URL = 'https://img.magnific.com/premium-vector/summer-time-car-beach-with-few-suitcase-vacation-travel-huge-pile-things-holiday-flat-cartoon-style-illustration-landscape-concept-isolated_185796-16.jpg';
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -482,6 +483,38 @@
     } catch (e) { return []; }
   }
 
+  function isStaleMegaWindowName(name) {
+    if (!name) return true;
+    if (name === 'Mega-Bridge' || name === 'Long Bridge') return true;
+    return /^\d+-Day\s+(Mega-Bridge|Long Bridge)$/.test(name);
+  }
+
+  function lookupAdvisorWindowName(windowStart, windowType) {
+    if (!windowStart) return null;
+    try {
+      var data = JSON.parse(localStorage.getItem(ADVISOR_DATA_KEY) || '{}');
+      var list = windowType === 'mega' ? (data.megas || [])
+               : windowType === 'golden' ? (data.bridges || [])
+               : (data.gifts || []);
+      for (var i = 0; i < list.length; i++) {
+        if (list[i] && list[i].start === windowStart && list[i].name) return list[i].name;
+      }
+    } catch (e) {}
+    return null;
+  }
+
+  function tripWindowDisplayName(trip) {
+    var typeLabel = trip.windowType === 'golden' ? 'Golden Bridge'
+                  : (trip.windowType === 'mega' ? 'Mega-Bridge' : 'Free Holiday');
+    var live = lookupAdvisorWindowName(trip.windowStart, trip.windowType);
+    if (trip.windowType === 'mega') {
+      if (live && !isStaleMegaWindowName(live)) return live;
+      if (trip.windowName && !isStaleMegaWindowName(trip.windowName)) return trip.windowName;
+      return live || trip.windowName || typeLabel;
+    }
+    return trip.windowName || live || typeLabel;
+  }
+
   function getActiveWindowStarts() {
     var data, selected, planned;
     try { data = JSON.parse(localStorage.getItem(ADVISOR_DATA_KEY) || '{}'); } catch (e) { data = {}; }
@@ -508,9 +541,134 @@
        auto-deleted by the advisor, by app data updates, or by the user
        deselecting a bridge in Calendar. The only way a confirmed trip goes
        away is the explicit Remove button on the Trips page (which also
-       cancels its alarms). This function is kept as a no-op for backward
-       compatibility with old call sites. */
-    return getConfirmedTrips();
+       cancels its alarms).
+
+       Mega titles are refreshed from current advisor data when a holiday
+       name becomes available (e.g. after Calendar recomputes), so older
+       "9-Day Mega-Bridge" snapshots pick up "Mahanavami Mega-Bridge". */
+    var trips = getConfirmedTrips();
+    var changed = false;
+    trips.forEach(function (t) {
+      if (!t || t.windowType !== 'mega') return;
+      var live = lookupAdvisorWindowName(t.windowStart, 'mega');
+      if (live && !isStaleMegaWindowName(live) && t.windowName !== live) {
+        t.windowName = live;
+        changed = true;
+      }
+    });
+    if (changed) {
+      try { localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(trips)); } catch (e) {}
+    }
+    return trips;
+  }
+
+  /* If advisor megas still carry bare "Mega-Bridge" / "9-Day …" titles (cached
+     before holiday-named titles shipped), resolve the first gazetted holiday
+     in each mega window and rewrite both advisor + confirmed-trip names. */
+  function enrichStaleMegaNames(done) {
+    var finished = typeof done === 'function' ? done : function () {};
+    var data;
+    try { data = JSON.parse(localStorage.getItem(ADVISOR_DATA_KEY) || '{}'); } catch (e) { data = {}; }
+    var megas = data.megas || [];
+    var stale = megas.filter(function (m) { return m && isStaleMegaWindowName(m.name); });
+    if (!stale.length) { finished(false); return; }
+
+    var user;
+    try { user = JSON.parse(localStorage.getItem('holidayHacker_user') || '{}'); } catch (e) { user = {}; }
+    if (!user.workLocation) { finished(false); return; }
+
+    var SC_JSON = '../database/state-city/data.json';
+    var DB_BASE = '../database/holiday';
+
+    function yearsFromMegas(list) {
+      var years = {};
+      list.forEach(function (m) {
+        if (!m || !m.start) return;
+        years[parseInt(m.start.slice(0, 4), 10)] = true;
+        if (m.end) years[parseInt(m.end.slice(0, 4), 10)] = true;
+      });
+      return Object.keys(years).map(Number).filter(function (y) { return !isNaN(y); });
+    }
+
+    function stateCodeFromLocation(locationStr, states) {
+      if (!locationStr || !states) return null;
+      var parts = locationStr.split(',');
+      var stateName = parts[parts.length - 1].trim().toLowerCase();
+      for (var i = 0; i < states.length; i++) {
+        if (states[i].name.toLowerCase() === stateName) return states[i].code;
+      }
+      return null;
+    }
+
+    function fetchHolidays(stateCode, year) {
+      var url = DB_BASE + '/' + year + '/in/' + stateCode.toLowerCase() + '.json';
+      return fetch(url).then(function (r) {
+        if (!r.ok) return [];
+        return r.json().then(function (d) { return d.holidays || []; });
+      }).catch(function () { return []; });
+    }
+
+    fetch(SC_JSON)
+      .then(function (r) { return r.json(); })
+      .then(function (sc) {
+        var code = stateCodeFromLocation(user.workLocation, (sc && sc.states) || []);
+        if (!code) { finished(false); return null; }
+        var years = yearsFromMegas(stale);
+        return Promise.all(years.map(function (y) { return fetchHolidays(code, y); })).then(function (lists) {
+          var byDate = {};
+          lists.forEach(function (list) {
+            (list || []).forEach(function (h) {
+              if (h && h.type === 'gazetted' && h.date && h.name) byDate[h.date] = h.name;
+            });
+          });
+          try {
+            var ov = JSON.parse(localStorage.getItem('holidayHacker_overrides') || '{}');
+            Object.keys(ov).forEach(function (orig) {
+              var patch = ov[orig];
+              if (!patch || patch._hidden) return;
+              var date = patch.date || orig;
+              var name = patch.name || byDate[orig];
+              if (name) byDate[date] = name;
+            });
+          } catch (e) {}
+
+          var advisorChanged = false;
+          megas.forEach(function (m) {
+            if (!m || !isStaleMegaWindowName(m.name)) return;
+            var firstName = null;
+            var holDates = m._holidaySet ? Object.keys(m._holidaySet).sort() : [];
+            if (!holDates.length && Array.isArray(m._dates)) {
+              holDates = m._dates.filter(function (iso) { return !!byDate[iso]; });
+            }
+            if (!holDates.length && m.start && m.end) {
+              var d = new Date(m.start + 'T00:00:00');
+              var end = new Date(m.end + 'T00:00:00');
+              while (d <= end) {
+                var iso = d.getFullYear() + '-' +
+                  String(d.getMonth() + 1).padStart(2, '0') + '-' +
+                  String(d.getDate()).padStart(2, '0');
+                if (byDate[iso]) holDates.push(iso);
+                d.setDate(d.getDate() + 1);
+              }
+            }
+            for (var i = 0; i < holDates.length; i++) {
+              if (byDate[holDates[i]]) { firstName = byDate[holDates[i]]; break; }
+            }
+            if (!firstName) return;
+            var kind = (m.days === 9 || !m.days) ? 'Mega-Bridge' : 'Long Bridge';
+            m.name = firstName + ' ' + kind;
+            advisorChanged = true;
+          });
+
+          if (advisorChanged) {
+            data.megas = megas;
+            try { localStorage.setItem(ADVISOR_DATA_KEY, JSON.stringify(data)); } catch (e) {}
+          }
+          syncConfirmedTrips();
+          finished(advisorChanged);
+        });
+      })
+      .catch(function () { finished(false); });
   }
 
   function formatRange(start, end) {
@@ -581,6 +739,60 @@
 
   function isTripUpcoming(trip) {
     return !!(trip && trip.windowEnd && trip.windowEnd >= todayISO());
+  }
+
+  function getPlanAddedAtMap() {
+    try {
+      return JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+    } catch (e) { return {}; }
+  }
+
+  function markPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = getPlanAddedAtMap();
+      map[start] = Date.now();
+      localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+    } catch (e) {}
+  }
+
+  function clearPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = getPlanAddedAtMap();
+      if (map[start] != null) {
+        delete map[start];
+        localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+      }
+    } catch (e) {}
+  }
+
+  function latestPinnedTripStart(starts) {
+    var map = getPlanAddedAtMap();
+    var best = null;
+    var bestT = -1;
+    (starts || []).forEach(function (s) {
+      var t = map[s];
+      if (typeof t === 'number' && t > bestT) {
+        bestT = t;
+        best = s;
+      }
+    });
+    return best;
+  }
+
+  /* Same rule as Plan: most recently toggled-on window floats first;
+     remaining cards are later dates first, soonest last. */
+  function sortTripsByDisplayRule(list) {
+    var pinned = latestPinnedTripStart(list.map(function (t) { return t.windowStart; }));
+    list.sort(function (a, b) {
+      if (pinned) {
+        if (a.windowStart === pinned && b.windowStart !== pinned) return -1;
+        if (b.windowStart === pinned && a.windowStart !== pinned) return 1;
+      }
+      return (b.windowStart || '').localeCompare(a.windowStart || '');
+    });
+    return list;
   }
 
   function publicHolidayDaysForTrip(trip) {
@@ -744,7 +956,8 @@
       '<span class="trips-booking-leg">' + formatBookingSubHtml(ret) + '</span>';
   }
 
-  /* Deep-link from 65-day reminder notification tap → scroll + highlight trip card */
+  /* Deep-link from leave/booking reminder tap → scroll + highlight trip card.
+     (65-day holiday planning reminders now open Calendar with ?date=…) */
   var pendingTripStart = null;
 
   function parseTripStartFromUrl() {
@@ -799,6 +1012,7 @@
     pruneTripSettings(allTrips);
     var currentYear = getCurrentYear();
     var trips = allTrips.filter(isTripUpcoming);
+    trips = sortTripsByDisplayRule(trips);
 
     var totalLeavesSaved = 0;
     var lifetimeHolidayDays = 0;
@@ -861,7 +1075,7 @@
       var leavesUsed = t.leaves || 0;
       var needsLeaveReminder = leavesUsed > 0;
       var typeLabel = t.windowType === 'golden' ? 'Golden Bridge' : (t.windowType === 'mega' ? 'Mega-Bridge' : 'Free Holiday');
-      var badge = (t.windowName || typeLabel);
+      var badge = tripWindowDisplayName(t) || typeLabel;
       var badgeCls = t.windowType === 'free' ? 'trips-card-badge--free' : (t.windowType === 'golden' ? 'trips-card-badge--golden' : 'trips-card-badge--mega');
       var meta = t.windowDays + 'D/' + (t.windowDays - 1) + 'N • ' + leavesUsed + ' Leave' + (leavesUsed !== 1 ? 's' : '') + ' used';
       var destName = (d.name || '').replace(/</g, '&lt;');
@@ -1276,12 +1490,17 @@
           var allTrips = getConfirmedTrips();
           allTrips = allTrips.filter(function (t) { return t.windowStart !== windowStart; });
           localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(allTrips));
+          clearPlanWindowAdded(windowStart);
           populate();
         });
       }
     });
 
     highlightTripFocusCard();
+
+    enrichStaleMegaNames(function (changed) {
+      if (changed) populate();
+    });
   }
 
   /* ─── Add to Calendar sheet ───────────────────────────── */
@@ -1345,7 +1564,7 @@
 
   function buildCalendarEvents(trip, card) {
     var dName = (trip.destination && trip.destination.name) || 'Trip';
-    var winName = trip.windowName || 'Holiday';
+    var winName = tripWindowDisplayName(trip) || 'Holiday';
     var rangeLabel = formatRange(trip.windowStart, trip.windowEnd);
     var events = [];
 
@@ -1569,8 +1788,7 @@
     });
     (data.megas || []).forEach(function (m) {
       if (m.end >= todayISO) {
-        var n = m.days === 9 ? '9-Day Mega-Bridge' : (m.days + '-Day Long Bridge');
-        windows.push({ type: 'mega', name: n, start: m.start, end: m.end, days: m.days, leaves: m.leaves });
+        windows.push({ type: 'mega', name: m.name || 'Mega-Bridge', start: m.start, end: m.end, days: m.days, leaves: m.leaves });
       }
     });
     windows.sort(function (a, b) { return a.start.localeCompare(b.start); });
@@ -1644,6 +1862,8 @@
           match.windowType = w.type;
           match.leaves = w.leaves || 0;
           localStorage.setItem(CONFIRMED_TRIPS_KEY, JSON.stringify(allTrips));
+          clearPlanWindowAdded(oldStart);
+          markPlanWindowAdded(w.start);
           try {
             var tripSettings = getTripSettings();
             if (tripSettings[oldStart]) {
@@ -1843,6 +2063,8 @@
     if (e.key === CONFIRMED_TRIPS_KEY) populate();
     if (e.key === ADVISOR_DATA_KEY) {
       try { syncHolidayPlanningNotifications(); } catch (_) {}
+      try { syncConfirmedTrips(); } catch (_) {}
+      populate();
     }
   });
 

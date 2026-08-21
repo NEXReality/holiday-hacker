@@ -39,7 +39,7 @@
   };
 })();
 
-/* ─── Notification tap → Trips deep link ─────────────────── */
+/* ─── Notification tap → in-app deep link (Calendar / Trips) ─── */
 (function () {
   'use strict';
 

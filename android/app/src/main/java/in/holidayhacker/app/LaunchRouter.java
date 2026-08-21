@@ -26,7 +26,7 @@ public final class LaunchRouter {
         return route;
     }
 
-    /** holiday-gift-2026-01-26 → /trips/index.html?start=2026-01-26 */
+    /** holiday-gift|bridge|mega-2026-10-02 → Calendar on that month so the user can plan. */
     static String routeForHolidayAlarm(String id, AlarmStorage.AlarmEntry entry) {
         if (id == null || !id.startsWith("holiday-")) return null;
 
@@ -42,6 +42,6 @@ public final class LaunchRouter {
         }
         if (start == null || start.isEmpty()) return null;
 
-        return "/trips/index.html?start=" + start;
+        return "/calendar/index.html?date=" + start;
     }
 }

@@ -1143,6 +1143,24 @@ textarea,
   gap: 0.5rem;
 }
 
+.holiday-see-calendar {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  text-decoration: none;
+  font-family: inherit;
+  padding: 0.15rem 0;
+}
+
+.holiday-see-calendar:hover,
+.holiday-see-calendar:focus {
+  text-decoration: none;
+  color: var(--accent-blue);
+  opacity: 0.85;
+}
+
 .btn-holiday {
   display: inline-flex;
   align-items: center;
@@ -1789,7 +1807,8 @@ textarea,
   z-index: 0;
 }
 
-/* Header */
+/* Header stays fixed above the scrollable calendar body (WebView-safe;
+   sticky inside nested overflow often fails on Android). */
 .calendar-header {
   padding: 1rem 1.25rem .5rem;
   display: flex;
@@ -1797,6 +1816,7 @@ textarea,
   align-items: center;
   z-index: 20;
   position: relative;
+  flex-shrink: 0;
 }
 
 .calendar-month-selector {
@@ -2314,6 +2334,18 @@ textarea,
 .calendar-event-card--focus-flash {
   animation: calendar-event-card-focus-flash 2.4s ease-out;
   border-color: rgba(79, 70, 229, 0.65) !important;
+}
+
+@keyframes calendar-day-focus-flash {
+  0%   { box-shadow: 0 0 0 0   rgba(59, 130, 246, 0.55); transform: scale(1); }
+  20%  { box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.35); transform: scale(1.08); }
+  60%  { box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);  transform: scale(1.04); }
+  100% { box-shadow: 0 0 0 0   rgba(59, 130, 246, 0);    transform: scale(1); }
+}
+.calendar-day--focus-flash {
+  animation: calendar-day-focus-flash 2.4s ease-out;
+  z-index: 2;
+  position: relative;
 }
 
 .calendar-event-icon {
@@ -5814,6 +5846,7 @@ select.profile-input::-moz-focus-inner {
   flex-direction: column;
   flex: 1;
   min-height: 0;
+  overflow: hidden;
 }
 
 /* ── Calendar split screen ── */
@@ -5852,7 +5885,9 @@ select.profile-input::-moz-focus-inner {
 }
 
 .cal-split-top {
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   flex: 1;
   min-height: 0;
 }
@@ -7450,6 +7485,7 @@ select.profile-input::-moz-focus-inner {
   border: 1px solid rgba(136, 40, 226, 0.2);
 }
 
+.plan-dest-loading {
   grid-column: 1 / -1;
   padding: 2rem;
   text-align: center;

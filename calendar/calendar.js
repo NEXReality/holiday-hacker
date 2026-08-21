@@ -5,6 +5,7 @@
   var OVERRIDES_KEY = 'holidayHacker_overrides';
   var CUSTOM_KEY    = 'holidayHacker_custom';
   var CAL_DONE_KEY  = 'holidayHacker_calSetup';
+  var CAL_VIEW_KEY  = 'holidayHacker_calendarView';
   var DB_BASE       = '../database/holiday';
   var SC_JSON       = '../database/state-city/data.json';
 
@@ -36,6 +37,31 @@
   var todayISO  = nowDate.getFullYear() + '-' +
     String(nowDate.getMonth() + 1).padStart(2, '0') + '-' +
     String(nowDate.getDate()).padStart(2, '0');
+
+  function saveCalendarView() {
+    try {
+      localStorage.setItem(CAL_VIEW_KEY, JSON.stringify({
+        month: viewMonth,
+        year: viewYear
+      }));
+    } catch (e) {}
+  }
+
+  function restoreCalendarView() {
+    try {
+      var raw = localStorage.getItem(CAL_VIEW_KEY);
+      if (!raw) return false;
+      var v = JSON.parse(raw);
+      var m = parseInt(v.month, 10);
+      var y = parseInt(v.year, 10);
+      if (isNaN(m) || isNaN(y) || m < 0 || m > 11 || y < 2000 || y > 2100) return false;
+      viewMonth = m;
+      viewYear = y;
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
 
   /* ─── Weekly-off logic (from user preference) ──────── */
 
@@ -355,7 +381,7 @@
           if (!prevF) wrapCls += ' calendar-day-wrap--gb-start';
           if (!nextF) wrapCls += ' calendar-day-wrap--gb-end';
         }
-        html += '<div class="' + wrapCls + '"><div class="' + otherCls + '" aria-hidden="true">' + c.day + dot + '</div></div>';
+        html += '<div class="' + wrapCls + '"><div class="' + otherCls + '" data-iso="' + c.iso + '" aria-hidden="true">' + c.day + dot + '</div></div>';
         return;
       }
       var wrapCls = 'calendar-day-wrap';
@@ -401,7 +427,7 @@
       if (isPastMonth || (viewYear === nowDate.getFullYear() && viewMonth === nowDate.getMonth() && c.day < nowDate.getDate())) {
         cls += ' calendar-day--past';
       }
-      html += '<div class="' + wrapCls + '"><div class="' + cls + '" aria-hidden="true">' + c.day + dot + '</div></div>';
+      html += '<div class="' + wrapCls + '"><div class="' + cls + '" data-iso="' + c.iso + '" aria-hidden="true">' + c.day + dot + '</div></div>';
     });
     calGrid.innerHTML = html;
   }
@@ -462,6 +488,29 @@
 
   var SELECTED_BRIDGES_KEY = 'holidayHacker_selectedBridges';
   var PLANNED_TRIPS_KEY = 'holidayHacker_plannedTrips';
+  var PLAN_ADDED_AT_KEY = 'holidayHacker_planWindowAddedAt';
+  var PLAN_SELECTED_KEY = 'holidayHacker_planSelectedWindow';
+
+  function markPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+      map[start] = Date.now();
+      localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+      localStorage.setItem(PLAN_SELECTED_KEY, JSON.stringify(start));
+    } catch (e) {}
+  }
+
+  function clearPlanWindowAdded(start) {
+    if (!start) return;
+    try {
+      var map = JSON.parse(localStorage.getItem(PLAN_ADDED_AT_KEY) || '{}');
+      if (map[start] != null) {
+        delete map[start];
+        localStorage.setItem(PLAN_ADDED_AT_KEY, JSON.stringify(map));
+      }
+    } catch (e) {}
+  }
 
   function getSelectedBridges() {
     try {
@@ -472,8 +521,13 @@
   function setSelectedBridge(start, selected) {
     var arr = getSelectedBridges();
     var idx = arr.indexOf(start);
-    if (selected && idx === -1) arr.push(start);
-    else if (!selected && idx !== -1) arr.splice(idx, 1);
+    if (selected && idx === -1) {
+      arr.push(start);
+      markPlanWindowAdded(start);
+    } else if (!selected && idx !== -1) {
+      arr.splice(idx, 1);
+      clearPlanWindowAdded(start);
+    }
     localStorage.setItem(SELECTED_BRIDGES_KEY, JSON.stringify(arr));
   }
 
@@ -490,8 +544,13 @@
   function setPlannedTrip(start, planned) {
     var arr = getPlannedTrips();
     var idx = arr.indexOf(start);
-    if (planned && idx === -1) arr.push(start);
-    else if (!planned && idx !== -1) arr.splice(idx, 1);
+    if (planned && idx === -1) {
+      arr.push(start);
+      markPlanWindowAdded(start);
+    } else if (!planned && idx !== -1) {
+      arr.splice(idx, 1);
+      clearPlanWindowAdded(start);
+    }
     localStorage.setItem(PLANNED_TRIPS_KEY, JSON.stringify(arr));
     window.dispatchEvent(new CustomEvent('tripSelectionChange'));
   }
@@ -619,7 +678,7 @@
           '<span class="material-symbols-outlined">workspace_premium</span>' +
         '</div>' +
         '<div class="calendar-event-body">' +
-          '<h4>' + (m.days === 9 ? '9-Day Mega-Bridge' : m.days + '-Day Long Bridge') + '</h4>' +
+          '<h4>' + (m.name || (m.days === 9 ? 'Mega-Bridge' : 'Long Bridge')) + '</h4>' +
           '<p>' + label + '</p>' +
           '<p class="calendar-event-mega-roi">' + m.leaves + ' Leaves = ' + m.days + ' Days</p>' +
           '<p class="calendar-event-leave">Leave: ' + leaveLabels.join(', ') + '</p>' +
@@ -675,7 +734,7 @@
         else                          { icon = 'person';     iconCls = 'calendar-event-icon--personal'; label = 'Personal'; }
 
         var pastCls = e.date < todayISO ? ' calendar-event-card--past' : '';
-        html += '<div class="calendar-event-card' + pastCls + '">' +
+        html += '<div class="calendar-event-card' + pastCls + '" data-holiday-date="' + e.date + '">' +
           '<div class="calendar-event-icon ' + iconCls + '">' +
             '<span class="material-symbols-outlined">' + icon + '</span>' +
           '</div>' +
@@ -709,6 +768,7 @@
     renderEvents();
     buildMonthDropdown();
     highlightFocusCard();
+    highlightFocusDate();
   }
 
   window.refreshCalendarBreaks = function () {
@@ -724,6 +784,7 @@
         renderEvents();
         buildMonthDropdown();
         highlightFocusCard();
+        highlightFocusDate();
         return;
       }
     }
@@ -731,6 +792,7 @@
     renderGrid();
     renderEvents();
     highlightFocusCard();
+    highlightFocusDate();
   };
 
   /* ─── Month navigation ─────────────────────────────── */
@@ -751,6 +813,7 @@
       viewMonth += delta;
       if (viewMonth > 11) { viewMonth = 0; viewYear++; }
       if (viewMonth < 0)  { viewMonth = 11; viewYear--; }
+      saveCalendarView();
 
       calGrid.classList.remove(exitCls);
       calGrid.classList.add(enterCls);
@@ -822,6 +885,7 @@
         e.stopPropagation();
         viewMonth = parseInt(btn.getAttribute('data-m'));
         viewYear  = parseInt(btn.getAttribute('data-y'));
+        saveCalendarView();
         monthDropdown.classList.remove('is-open');
         monthChevron.textContent = 'expand_more';
         loadAndRender();
@@ -843,10 +907,13 @@
   /* ─── Deep-link focus from Plan page ────────────────────
    * Plan page can pass ?focus=free|golden|mega so the calendar jumps to the
    * month containing the user's first upcoming window of that kind and
-   * briefly highlights the matching event card. */
+   * briefly highlights the matching event card.
+   * Holidays page can pass ?date=YYYY-MM-DD to open that month and flash
+   * the matching day (and holiday event card if present). */
   var pendingFocus = null;
   var pendingFocusItem = null;
   var pendingStartIso = null;
+  var pendingDateIso = null;
 
   function parseFocusFromUrl() {
     try {
@@ -862,6 +929,15 @@
       var p = new URLSearchParams(window.location.search);
       var s = p.get('start');
       if (s && /^\d{4}-\d{2}-\d{2}$/.test(s)) return s;
+    } catch (_) {}
+    return null;
+  }
+
+  function parseDateFromUrl() {
+    try {
+      var p = new URLSearchParams(window.location.search);
+      var d = p.get('date');
+      if (d && /^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
     } catch (_) {}
     return null;
   }
@@ -941,6 +1017,9 @@
     if (startIso) {
       var exact = findItemByStart(startIso);
       if (exact) return exact;
+      /* Explicit start from a deep link: do not fall through to an unrelated
+         upcoming window — the caller may also set the month via ?date=. */
+      if (!focus) return null;
     }
     return firstUpcomingFocusItem(focus || 'any');
   }
@@ -963,11 +1042,11 @@
     requestAnimationFrame(function () {
       var el = document.querySelector(sel);
       if (!el) return;
-      try { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch (_) {}
       el.classList.add('calendar-event-card--focus-flash');
       setTimeout(function () {
         el.classList.remove('calendar-event-card--focus-flash');
       }, 2400);
+      scrollCalendarMainToEl(el);
       /* One-shot: clear pending so navigating to another month doesn't keep
          hijacking the scroll position. */
       pendingFocus = null;
@@ -989,7 +1068,66 @@
     viewMonth = d.getMonth();
     viewYear  = d.getFullYear();
     pendingFocusItem = picked;
+    saveCalendarView();
     clearFocusFromUrl();
+  }
+
+  function applyPendingDate() {
+    var dateIso = pendingDateIso || parseDateFromUrl();
+    if (!dateIso) return;
+    var d = new Date(dateIso + 'T00:00:00');
+    if (isNaN(d.getTime())) return;
+    pendingDateIso = dateIso;
+    viewMonth = d.getMonth();
+    viewYear  = d.getFullYear();
+    saveCalendarView();
+    clearFocusFromUrl();
+  }
+
+  function scrollCalendarMainToEl(el) {
+    var main = document.getElementById('calMain');
+    if (!main || !el) return;
+    try {
+      var mainRect = main.getBoundingClientRect();
+      var elRect = el.getBoundingClientRect();
+      var target = main.scrollTop + (elRect.top - mainRect.top) - 24;
+      if (target < 0) target = 0;
+      if (typeof main.scrollTo === 'function') {
+        main.scrollTo({ top: target, behavior: 'smooth' });
+      } else {
+        main.scrollTop = target;
+      }
+    } catch (_) {}
+  }
+
+  function highlightFocusDate() {
+    if (!pendingDateIso) return;
+    var iso = pendingDateIso;
+    pendingDateIso = null;
+    requestAnimationFrame(function () {
+      var main = document.getElementById('calMain');
+      if (main) main.scrollTop = 0;
+
+      var day = document.querySelector('.calendar-day[data-iso="' + iso + '"]');
+      if (day) {
+        day.classList.add('calendar-day--focus-flash');
+        setTimeout(function () {
+          day.classList.remove('calendar-day--focus-flash');
+        }, 2400);
+      }
+      var card =
+        document.querySelector('.calendar-event-card--gift[data-gift-start="' + iso + '"]') ||
+        document.querySelector('.calendar-event-card--mega[data-bridge-start="' + iso + '"]') ||
+        document.querySelector('.calendar-event-card--gb[data-bridge-start="' + iso + '"]') ||
+        document.querySelector('.calendar-event-card[data-holiday-date="' + iso + '"]');
+      if (card) {
+        card.classList.add('calendar-event-card--focus-flash');
+        setTimeout(function () {
+          card.classList.remove('calendar-event-card--focus-flash');
+        }, 2400);
+        scrollCalendarMainToEl(card);
+      }
+    });
   }
 
   function loadPersistedAdvisorData() {
@@ -1072,6 +1210,10 @@
 
     renderWeekdays();
 
+    /* Restore last viewed month unless a deep-link (?focus / ?start / ?date)
+       is about to jump the calendar. */
+    restoreCalendarView();
+
     /* If we arrived from the Plan page's "Go to Calendar" link, jump the
        calendar to the first upcoming Free/Golden/Mega window of the kind the
        user had filtered on, before the first render so the user lands
@@ -1079,6 +1221,7 @@
        install path), the retry inside refreshCalendarBreaks() will pick it
        up once cal-advisor.js finishes computing. */
     applyPendingFocus();
+    applyPendingDate();
 
     if (localStorage.getItem('holidayHacker_advisorSeen')) {
       var split = document.getElementById('calSplit');

@@ -29,8 +29,6 @@
 
   var OVERRIDES_KEY = 'holidayHacker_overrides';
   var CUSTOM_KEY    = 'holidayHacker_custom';
-  var PLANNED_TRIPS_KEY = 'holidayHacker_plannedTrips';
-
   /* ─── DOM refs (edit) ──────────────────────────────────── */
   var btnFab         = document.getElementById('btnFab');
   var fabMenu        = document.getElementById('fabMenu');
@@ -273,20 +271,6 @@
 
   /* ─── Render timeline ────────────────────────────────── */
 
-  function getPlannedTrips() {
-    try {
-      return JSON.parse(localStorage.getItem(PLANNED_TRIPS_KEY) || '[]');
-    } catch (e) { return []; }
-  }
-
-  function setPlannedTrip(date, planned) {
-    var arr = getPlannedTrips();
-    var idx = arr.indexOf(date);
-    if (planned && idx === -1) arr.push(date);
-    else if (!planned && idx !== -1) arr.splice(idx, 1);
-    localStorage.setItem(PLANNED_TRIPS_KEY, JSON.stringify(arr));
-  }
-
   function buildCard(h, stateDisplayName, ctx) {
     /* In merged mode each holiday carries its own _ctx / _stateName */
     ctx             = h._ctx        || ctx;
@@ -351,10 +335,7 @@
             '<h2>' + h.name + '</h2>' +
             '<p class="holiday-card-desc">' + (isPersonal ? personalDesc : 'Public Holiday') + '</p>' +
             '<div class="holiday-card-actions">' +
-              '<div class="plan-trip-toggle-wrap">' +
-                '<span>Plan trip?</span>' +
-                '<button type="button" class="advisor-toggle' + (getPlannedTrips().indexOf(h.date) !== -1 ? ' is-on' : '') + '" aria-label="Plan trip" data-plan-date="' + h.date + '"></button>' +
-              '</div>' +
+              '<a class="holiday-see-calendar" href="../calendar/index.html?date=' + h.date + '">See on Calendar</a>' +
             '</div>' +
           '</div>' +
         '</div>' +
@@ -427,14 +408,8 @@
     /* Wire expand / collapse — or open edit popup in edit mode */
     content.querySelectorAll('[data-holiday-card]').forEach(function (wrap) {
       wrap.addEventListener('click', function (e) {
-        var planBtn = e.target.closest('.advisor-toggle');
-        if (planBtn) {
+        if (e.target.closest('.holiday-see-calendar')) {
           e.stopPropagation();
-          var date = planBtn.getAttribute('data-plan-date');
-          if (date) {
-            planBtn.classList.toggle('is-on');
-            setPlannedTrip(date, planBtn.classList.contains('is-on'));
-          }
           return;
         }
 
